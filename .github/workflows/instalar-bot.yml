@@ -65,7 +65,10 @@ jobs:
           json.dump(s, open("segredos.json", "w"))
           open(os.environ["GITHUB_ENV"], "a").write(
               f"WEBHOOK_SECRET={s['WEBHOOK_SECRET']}\nPAINEL_KEY={s['PAINEL_KEY']}\n")
+          open("ws.txt", "w").write(s["WEBHOOK_SECRET"])
           PY
+          WEBHOOK_SECRET=$(cat ws.txt); rm -f ws.txt
+          echo "::add-mask::$WEBHOOK_SECRET"
           npx --yes wrangler@4 secret bulk segredos.json > bulk.log 2>&1 || { cat bulk.log | grep -v -i token; echo "::error::Não consegui gravar os segredos no worker"; rm -f segredos.json; exit 1; }
           rm -f segredos.json bulk.log
           resp=$(curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setWebhook" \
