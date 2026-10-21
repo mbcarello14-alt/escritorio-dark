@@ -15,7 +15,6 @@ env:
   HF_API_KEY_ID: ${{ secrets.HF_API_KEY_ID }}
   HF_API_KEY_SECRET: ${{ secrets.HF_API_KEY_SECRET }}
   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-  CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
   GH_PAT: ${{ secrets.GH_PAT }}
 
 jobs:

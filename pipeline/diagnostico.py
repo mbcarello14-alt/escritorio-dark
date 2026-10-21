@@ -22,7 +22,6 @@ SEGREDOS = {
     "HF_API_KEY_ID": "Higgsfield (opcional)",
     "HF_API_KEY_SECRET": "Higgsfield (opcional)",
     "CLOUDFLARE_API_TOKEN": "Cloudflare (recepção instantânea do Telegram)",
-    "CLOUDFLARE_ACCOUNT_ID": "Cloudflare",
     "GH_PAT": "token do GitHub para o Cloudflare",
 }
 

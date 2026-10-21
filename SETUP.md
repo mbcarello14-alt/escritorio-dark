@@ -8,7 +8,7 @@ Nunca cole tokens no chat nem em arquivos do repositório.
 |---|---|
 | `TELEGRAM_BOT_TOKEN` | passo 1 |
 | `TELEGRAM_CHAT_ID` | passo 4 |
-| `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` | passo 2 |
+| `CLOUDFLARE_API_TOKEN` | passo 2 (o Account ID já está em `worker/wrangler.toml`) |
 | `GH_PAT` | passo 3 |
 | `CLAUDE_CODE_OAUTH_TOKEN` | passo 5 |
 | `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_HISTORIA`, `YT_REFRESH_VESTIBULAR`, `YT_REFRESH_LIVROS` | passos 6 e 7 |
@@ -19,7 +19,7 @@ No Telegram, fale com **@BotFather** → `/newbot` → nome e usuário (terminad
 
 ## 2. Cloudflare (recepção instantânea, grátis)
 1. Crie a conta em dash.cloudflare.com e abra **Workers & Pages** uma vez (cria o subdomínio `workers.dev`).
-2. **Account ID:** na página inicial da conta, menu ⋯ ao lado do nome da conta › *Copy account ID* → `CLOUDFLARE_ACCOUNT_ID`.
+2. **Account ID:** já configurado em `worker/wrangler.toml`.
 3. **API token:** ícone de perfil › *My Profile* › *API Tokens* › *Create Token* › modelo **Edit Cloudflare Workers** › *Continue* › *Create* → `CLOUDFLARE_API_TOKEN`.
 
 ## 3. Token do GitHub para o Cloudflare
