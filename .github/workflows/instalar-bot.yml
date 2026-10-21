@@ -8,7 +8,7 @@ on:
     paths: ["worker/**"]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   instalar:
@@ -66,7 +66,8 @@ jobs:
           open(os.environ["GITHUB_ENV"], "a").write(
               f"WEBHOOK_SECRET={s['WEBHOOK_SECRET']}\nPAINEL_KEY={s['PAINEL_KEY']}\n")
           PY
-          npx --yes wrangler@4 secret bulk segredos.json >/dev/null && rm segredos.json
+          npx --yes wrangler@4 secret bulk segredos.json > bulk.log 2>&1 || { cat bulk.log | grep -v -i token; echo "::error::Não consegui gravar os segredos no worker"; rm -f segredos.json; exit 1; }
+          rm -f segredos.json bulk.log
           resp=$(curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setWebhook" \
             -d "url=${URL}/telegram" -d "secret_token=${WEBHOOK_SECRET}" \
             -d 'allowed_updates=["message"]')
@@ -91,3 +92,36 @@ jobs:
           else
             echo "### ✅ Bot publicado. Agora mande **/start** para o seu bot no Telegram: ele responde com o número do seu chat. Salve como segredo TELEGRAM_CHAT_ID e rode este workflow de novo." >> "$GITHUB_STEP_SUMMARY"
           fi
+
+      - name: Conferir entrega do Telegram
+        if: always()
+        env:
+          URL: ${{ steps.deploy.outputs.url }}
+        run: |
+          sleep 25
+          python3 - <<'PY'
+          import json, os, subprocess, urllib.request
+          tok = os.environ["TELEGRAM_BOT_TOKEN"]
+          info = json.load(urllib.request.urlopen(f"https://api.telegram.org/bot{tok}/getWebhookInfo"))["result"]
+          me = json.load(urllib.request.urlopen(f"https://api.telegram.org/bot{tok}/getMe"))["result"]
+          try:
+              r = urllib.request.urlopen(urllib.request.Request(os.environ.get("URL", "") + "/", headers={"user-agent": "teste"}), timeout=20)
+              worker = f"{r.status} {r.read(60).decode(errors='ignore')}"
+          except Exception as e:
+              worker = f"erro: {e}"
+          nomes = subprocess.run(["npx", "--yes", "wrangler@4", "secret", "list", "--format", "json"], cwd="worker",
+                                 capture_output=True, text=True).stdout
+          try:
+              nomes = [x["name"] for x in json.loads(nomes)]
+          except Exception:
+              nomes = nomes[-300:]
+          out = {"bot": "@" + me.get("username", "?"), "webhook_url": info.get("url", "").split("?")[0],
+                 "pendentes": info.get("pending_update_count"), "ultimo_erro": info.get("last_error_message"),
+                 "ultimo_erro_em": info.get("last_error_date"), "worker_responde": worker, "segredos_no_worker": nomes,
+                 "chat_id_configurado": bool(os.environ.get("TELEGRAM_CHAT_ID", "").strip())}
+          os.makedirs("canais", exist_ok=True)
+          json.dump(out, open("canais/instalacao.json", "w"), ensure_ascii=False, indent=2)
+          print(json.dumps(out, ensure_ascii=False, indent=2))
+          PY
+          git config user.name "Escritório Dark"; git config user.email "escritorio-dark@users.noreply.github.com"
+          git add canais/instalacao.json && git commit -q -m "instalação - diagnóstico do webhook" && git push -q || true
