@@ -78,15 +78,31 @@ async function estado(env) {
   });
 }
 
+function pagina(caminho) {
+  const corpo = caminho === "/privacidade"
+    ? `<h1>Política de Privacidade — Escritório Dark</h1>
+<p>O Escritório Dark é uma ferramenta pessoal do dono dos canais para produzir e publicar vídeos nos próprios canais do YouTube (Ouro &amp; Império, Mapeado e Marca-Página).</p>
+<p>O app acessa apenas as contas do YouTube do próprio dono, para enviar vídeos, thumbnails e legendas e ler as estatísticas desses canais. Nenhum dado de terceiros é coletado, vendido ou compartilhado.</p>
+<p>Os tokens de acesso ficam guardados como segredos criptografados no GitHub do dono e podem ser revogados a qualquer momento em myaccount.google.com/permissions.</p>
+<p>Uso de dados do Google: o uso e a transferência de informações recebidas das APIs do Google seguem a Política de Dados do Usuário dos Serviços de API do Google, incluindo os requisitos de Uso Limitado.</p>
+<p>Contato: (contato privado)</p>`
+    : `<h1>Termos de Uso — Escritório Dark</h1>
+<p>O Escritório Dark é uma ferramenta de uso pessoal, sem usuários externos. Ao autorizar o app, o dono permite que ele publique e analise vídeos nos próprios canais do YouTube. O acesso pode ser revogado a qualquer momento em myaccount.google.com/permissions.</p>
+<p>Contato: (contato privado)</p>`;
+  return new Response(`<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Escritório Dark</title><body style="font-family:system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222">${corpo}</body></html>`,
+    { headers: { "content-type": "text/html; charset=utf-8" } });
+}
+
 export default {
   async fetch(req, env, ctx) {
     const url = new URL(req.url);
     if (url.pathname === "/telegram" && req.method === "POST") return telegram(req, env, ctx);
+    if (url.pathname === "/privacidade" || url.pathname === "/termos") return pagina(url.pathname);
 
     const chaveOk = env.PAINEL_KEY && url.searchParams.get("k") === env.PAINEL_KEY;
     if (url.pathname === "/api/estado") return chaveOk ? estado(env) : new Response("{}", { status: 403 });
     if (url.pathname === "/" || url.pathname === "/painel") {
-      if (!chaveOk) return new Response("Escritório Dark 🎬", { headers: { "content-type": "text/plain; charset=utf-8" } });
+      if (!chaveOk) return new Response(`<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Escritório Dark</title><body style="font-family:system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px"><h1>Escritório Dark 🎬</h1><p>Ferramenta pessoal que produz os canais Ouro &amp; Império, Mapeado e Marca-Página no YouTube.</p><p><a href="/privacidade">Política de Privacidade</a> · <a href="/termos">Termos de Uso</a></p></body></html>`, { headers: { "content-type": "text/html; charset=utf-8" } });
       return new Response(PAINEL_HTML, { headers: { "content-type": "text/html; charset=utf-8" } });
     }
     return new Response("não encontrado", { status: 404 });
