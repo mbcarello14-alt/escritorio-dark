@@ -1,0 +1,16 @@
+{
+  "bot": "@escrioriodark_miguel_bot",
+  "webhook_url": "https://escritorio-dark.mbcarello14.workers.dev/telegram",
+  "pendentes": 3,
+  "ultimo_erro": "Wrong response from the webhook: 403 Forbidden",
+  "ultimo_erro_em": 1792623432,
+  "worker_responde": "200 Escritório Dark 🎬",
+  "segredos_no_worker": [
+    "GH_PAT",
+    "GH_REPO",
+    "PAINEL_KEY",
+    "TELEGRAM_BOT_TOKEN",
+    "WEBHOOK_SECRET"
+  ],
+  "chat_id_configurado": false
+}
