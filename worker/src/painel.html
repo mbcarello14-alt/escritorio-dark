@@ -1,1 +1,345 @@
-<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Escritório Dark</title><body style="background:#111;color:#eee;font-family:sans-serif">Painel em construção 🎬</body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Escritório Dark</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<script type="importmap">
+{ "imports": {
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+} }
+</script>
+<style>
+  :root {
+    --bg: #0E1014; --painel: #171A21; --borda: #262B36; --texto: #E8EAF0; --suave: #9AA3B5;
+    --ouro: #C9A24A; --azul: #3B6FE0; --laranja: #F59E0B; --vinho: #B23A4C; --verde: #34C27A;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--texto); font-family: Inter, system-ui, sans-serif; }
+  body { display: grid; grid-template-columns: 1fr 360px; grid-template-rows: auto 1fr; min-height: 100vh; }
+  header { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 12px;
+           padding: 14px 20px; border-bottom: 1px solid var(--borda); }
+  h1 { font-family: "Space Grotesk", sans-serif; font-size: 20px; margin: 0; letter-spacing: .02em; }
+  h1 span { color: var(--laranja); }
+  .atualizado { color: var(--suave); font-size: 13px; }
+  #cena { position: relative; min-height: 420px; overflow: hidden; }
+  #cena canvas { display: block; }
+  aside { border-left: 1px solid var(--borda); padding: 16px; overflow-y: auto; display: flex; flex-direction: column; gap: 18px; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--suave); margin: 0 0 10px; }
+  .video { background: var(--painel); border: 1px solid var(--borda); border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; }
+  .video .topo { display: flex; justify-content: space-between; font-size: 12px; color: var(--suave); gap: 8px; }
+  .video .tit { font-weight: 600; margin: 4px 0; font-size: 14px; line-height: 1.3; }
+  .video .etapa { font-size: 13px; }
+  .barra { height: 6px; background: #252A35; border-radius: 99px; overflow: hidden; margin-top: 6px; }
+  .barra i { display: block; height: 100%; background: var(--verde); border-radius: 99px; }
+  .canal { display: grid; grid-template-columns: 10px 1fr; gap: 10px; background: var(--painel); border: 1px solid var(--borda);
+           border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; }
+  .canal .cor { border-radius: 99px; }
+  .canal b { font-size: 14px; }
+  .metas { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 6px; color: var(--suave); font-size: 12px; }
+  .vazio { color: var(--suave); font-size: 13px; }
+  .rotulo3d { font-size: 12px; text-align: center; pointer-events: none; transform: translateY(-6px); }
+  .rotulo3d .nome { font-weight: 700; padding: 2px 8px; border-radius: 99px; background: rgba(14,16,20,.85); border: 1px solid var(--borda); white-space: nowrap; }
+  .rotulo3d.ativo .nome { border-color: var(--verde); color: #fff; }
+  .rotulo3d .balao { display: none; margin-top: 4px; max-width: 190px; background: #fff; color: #111; padding: 5px 8px; border-radius: 8px;
+                     font-size: 11px; line-height: 1.3; box-shadow: 0 4px 14px rgba(0,0,0,.4); }
+  .rotulo3d.ativo .balao { display: block; }
+  .legenda { position: absolute; left: 14px; bottom: 12px; font-size: 12px; color: var(--suave); background: rgba(14,16,20,.75);
+             padding: 6px 10px; border-radius: 8px; }
+  .ativo-item { display: flex; gap: 8px; font-size: 13px; margin-bottom: 6px; }
+  .ativo-item .pt { width: 8px; height: 8px; border-radius: 99px; background: var(--verde); margin-top: 5px; flex: none; }
+  @media (max-width: 600px) {
+    .rotulo3d .nome { font-size: 10px; padding: 1px 6px; }
+    .rotulo3d.ativo .balao { display: none; }
+    .legenda { display: none; }
+  }
+  @media (max-width: 860px) {
+    body { grid-template-columns: 1fr; grid-template-rows: auto 56vh auto; }
+    aside { border-left: 0; border-top: 1px solid var(--borda); }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Escritório <span>Dark</span></h1>
+  <div class="atualizado" id="atualizado">carregando…</div>
+</header>
+<div id="cena"><div class="legenda">Arraste para girar · role para aproximar</div></div>
+<aside>
+  <section><h2>Agora no escritório</h2><div id="agora"></div></section>
+  <section><h2>Próximos vídeos</h2><div id="proximos"></div></section>
+  <section><h2>Canais</h2><div id="canais"></div></section>
+  <section><h2>Higgsfield no mês</h2><div id="gasto"></div></section>
+  <section><h2>Publicados</h2><div id="publicados"></div></section>
+</aside>
+
+<script type="module">
+import * as THREE from "three";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { CSS2DRenderer, CSS2DObject } from "three/addons/renderers/CSS2DRenderer.js";
+
+const CORES = { historia: "#C9A24A", vestibular: "#3B6FE0", livros: "#B23A4C" };
+const NOMES = { historia: "Ouro & Império", vestibular: "Mapeado", livros: "Marca-Página" };
+
+// ------------------------------------------------------------------ equipe
+const EQUIPE = [
+  { id: "pesquisador",    nome: "Pesquisador",     cor: 0x4FB3BF, pos: [-6, -3.2], ocioso: "lendo notícias" },
+  { id: "roteirista",     nome: "Roteirista",      cor: 0xF59E0B, pos: [-2, -3.2], ocioso: "rascunhando ganchos" },
+  { id: "checador",       nome: "Checador",        cor: 0x34C27A, pos: [2, -3.2],  ocioso: "conferindo fontes" },
+  { id: "guardiao",       nome: "Guardião",        cor: 0x9B7BEA, pos: [6, -3.2],  ocioso: "de olho nas regras" },
+  { id: "diretor_visual", nome: "Diretor visual",  cor: 0xE0618A, pos: [-6, 1.6],  ocioso: "folheando referências" },
+  { id: "seo",            nome: "SEO",             cor: 0x5C9DFF, pos: [-2, 1.6],  ocioso: "testando títulos" },
+  { id: "thumbnail",      nome: "Thumbnail",       cor: 0xFF7A45, pos: [2, 1.6],   ocioso: "esboçando thumbs" },
+  { id: "analista",       nome: "Analista",        cor: 0xC9A24A, pos: [6, 1.6],   ocioso: "olhando métricas" },
+  { id: "editor",         nome: "Motor (render)",  cor: 0xB0B8C8, pos: [-4.5, 5.6], ocioso: "aguardando áudios" , robo: true },
+  { id: "miguel",         nome: "Miguel 🎙️",       cor: 0xFFFFFF, pos: [3.5, 5.6], ocioso: "tudo em dia ✨", estudio: true },
+];
+
+const caixa = document.getElementById("cena");
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+caixa.prepend(renderer.domElement);
+const rotulos = new CSS2DRenderer();
+rotulos.domElement.style.position = "absolute";
+rotulos.domElement.style.top = "0";
+rotulos.domElement.style.pointerEvents = "none";
+caixa.appendChild(rotulos.domElement);
+
+const cena = new THREE.Scene();
+cena.background = new THREE.Color(0x0E1014);
+cena.fog = new THREE.Fog(0x0E1014, 30, 60);
+
+const camera = new THREE.OrthographicCamera(-10, 10, 10, -10, 0.1, 200);
+camera.position.set(16, 16, 16);
+const controles = new OrbitControls(camera, renderer.domElement);
+controles.enableDamping = true;
+controles.enablePan = false;
+controles.minZoom = 0.6; controles.maxZoom = 2.5;
+controles.maxPolarAngle = Math.PI / 2.4;
+controles.target.set(0, 0, 1.2);
+controles.autoRotate = true; controles.autoRotateSpeed = 0.35;
+renderer.domElement.addEventListener("pointerdown", () => (controles.autoRotate = false));
+
+// luzes
+cena.add(new THREE.HemisphereLight(0xc8d0ff, 0x2a2018, 1.1));
+const sol = new THREE.DirectionalLight(0xfff4e6, 1.6);
+sol.position.set(10, 18, 8); sol.castShadow = true;
+sol.shadow.mapSize.set(2048, 2048);
+Object.assign(sol.shadow.camera, { left: -16, right: 16, top: 16, bottom: -16 });
+cena.add(sol);
+
+const mat = (c, extra = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: 0.75, ...extra });
+const bloco = (w, h, d, m) => { const g = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), m); g.castShadow = g.receiveShadow = true; return g; };
+
+// piso e paredes
+const piso = bloco(22, 0.4, 16, mat(0x1C2029));
+piso.position.set(0, -0.2, 1.2); cena.add(piso);
+for (let i = -10; i <= 10; i += 2) {           // tábuas do piso
+  const t = bloco(0.04, 0.02, 16, mat(0x232834)); t.position.set(i, 0.01, 1.2); cena.add(t);
+}
+const paredeF = bloco(22, 4, 0.3, mat(0x222733)); paredeF.position.set(0, 2, -6.65); cena.add(paredeF);
+const paredeL = bloco(0.3, 4, 16, mat(0x1F2430)); paredeL.position.set(-10.85, 2, 1.2); cena.add(paredeL);
+
+// três quadros com as cores dos canais na parede
+Object.entries(CORES).forEach(([id, cor], i) => {
+  const q = bloco(3.2, 1.8, 0.08, mat(cor, { emissive: cor, emissiveIntensity: 0.25 }));
+  q.position.set(-5 + i * 5, 2.4, -6.45); cena.add(q);
+  const l = new CSS2DObject(Object.assign(document.createElement("div"), { className: "rotulo3d",
+    innerHTML: `<span class="nome" style="border-color:${cor}">${NOMES[id]}</span>` }));
+  l.position.set(-5 + i * 5, 3.6, -6.4); cena.add(l);
+});
+
+// plantas
+[[-10, -5.5], [9.6, -5.5], [-10, 8]].forEach(([x, z]) => {
+  const vaso = bloco(0.6, 0.6, 0.6, mat(0x6B4F3A)); vaso.position.set(x + 0.4, 0.3, z); cena.add(vaso);
+  const folha = new THREE.Mesh(new THREE.IcosahedronGeometry(0.6, 0), mat(0x2E8B57, { flatShading: true }));
+  folha.position.set(x + 0.4, 1.1, z); folha.castShadow = true; cena.add(folha);
+});
+
+// ------------------------------------------------------------------ personagens
+const agentes = {};
+function criarAgente(a) {
+  const g = new THREE.Group();
+  const [x, z] = a.pos;
+  g.position.set(x, 0, z);
+
+  // mesa
+  const tampo = bloco(2.6, 0.12, 1.3, mat(a.estudio ? 0x2B2F3A : 0x8A6A4A)); tampo.position.set(0, 1.0, -0.4); g.add(tampo);
+  [[-1.2, -0.95], [1.2, -0.95], [-1.2, 0.15], [1.2, 0.15]].forEach(([px, pz]) => {
+    const p = bloco(0.08, 1, 0.08, mat(0x3A3F4B)); p.position.set(px, 0.5, pz); g.add(p);
+  });
+  // monitor (acende quando trabalha)
+  const tela = bloco(1.2, 0.75, 0.06, mat(0x0A0C10, { emissive: a.cor, emissiveIntensity: 0.05 }));
+  tela.position.set(0, 1.55, -0.85); g.add(tela);
+  const pe = bloco(0.1, 0.3, 0.1, mat(0x3A3F4B)); pe.position.set(0, 1.2, -0.85); g.add(pe);
+  if (a.estudio) {     // microfone do Miguel
+    const haste = bloco(0.05, 0.5, 0.05, mat(0x888888)); haste.position.set(0.7, 1.3, -0.2); g.add(haste);
+    const mic = new THREE.Mesh(new THREE.CapsuleGeometry(0.12, 0.2, 4, 8), mat(0x444a55, { metalness: 0.6 }));
+    mic.position.set(0.7, 1.65, -0.2); g.add(mic);
+  }
+  // cadeira
+  const assento = bloco(0.8, 0.1, 0.8, mat(0x2E3340)); assento.position.set(0, 0.6, 0.55); g.add(assento);
+  const encosto = bloco(0.8, 0.8, 0.1, mat(0x2E3340)); encosto.position.set(0, 1.0, 0.95); g.add(encosto);
+
+  // corpo
+  const corpo = new THREE.Group();
+  const roupa = a.robo ? mat(0x9AA3B5, { metalness: 0.7, roughness: 0.3 }) : mat(a.cor);
+  const tronco = new THREE.Mesh(new THREE.CapsuleGeometry(0.32, 0.5, 4, 10), roupa);
+  tronco.position.y = 1.15; tronco.castShadow = true; corpo.add(tronco);
+  const cabeca = a.robo ? bloco(0.5, 0.45, 0.45, mat(0xC5CCD8, { metalness: 0.6, roughness: 0.3 }))
+                        : new THREE.Mesh(new THREE.SphereGeometry(0.26, 16, 12), mat(0xE8C4A0));
+  cabeca.position.y = 1.78; cabeca.castShadow = true; corpo.add(cabeca);
+  const olho = mat(0x111111, a.robo ? { emissive: 0x34C27A, emissiveIntensity: 1 } : {});
+  [-0.09, 0.09].forEach(ox => { const o = new THREE.Mesh(new THREE.SphereGeometry(0.035, 8, 6), olho); o.position.set(ox, 1.8, -0.24); corpo.add(o); });
+  const bracos = [];
+  [-0.42, 0.42].forEach(ox => {
+    const b = new THREE.Mesh(new THREE.CapsuleGeometry(0.08, 0.4, 4, 6), roupa);
+    b.position.set(ox, 1.2, -0.15); b.rotation.x = -1.1; b.castShadow = true; corpo.add(b); bracos.push(b);
+  });
+  corpo.position.z = 0.45;
+  g.add(corpo);
+
+  // halo verde no chão quando ativo
+  const halo = new THREE.Mesh(new THREE.RingGeometry(1.2, 1.45, 40), new THREE.MeshBasicMaterial({ color: 0x34C27A, transparent: true, opacity: 0 }));
+  halo.rotation.x = -Math.PI / 2; halo.position.set(0, 0.02, 0.1); g.add(halo);
+
+  const div = document.createElement("div");
+  div.className = "rotulo3d";
+  div.innerHTML = `<div class="nome">${a.nome}</div><div class="balao"></div>`;
+  const rot = new CSS2DObject(div); rot.position.set(0, 2.6, 0.4); g.add(rot);
+
+  cena.add(g);
+  agentes[a.id] = { def: a, grupo: g, corpo, bracos, tela, halo, div, ativo: false, fase: Math.random() * 6 };
+}
+EQUIPE.forEach(criarAgente);
+
+// ------------------------------------------------------------------ dados
+const params = new URLSearchParams(location.search);
+const DEMO = {
+  atualizado_em: new Date().toISOString(),
+  ativos: { roteirista: ["Ouro & Império: Como o sal sustentou Roma"], checador: ["Ouro & Império: Como o sal sustentou Roma"],
+            miguel: ["Mapeado: Revolução Industrial em 1 mapa"], editor: ["Marca-Página: O Investidor Inteligente"] },
+  proximos: [
+    { canal: "livros", rotulo: "quarta 28/10 19h00", etapa_txt: "🎬 montando o vídeo", titulo: "O Investidor Inteligente: o que envelheceu", publicar_em_utc: new Date(Date.now() + 86400e3).toISOString() },
+    { canal: "historia", rotulo: "segunda 26/10 18h00", etapa_txt: "✍️ escrevendo e checando o roteiro", titulo: "Como o sal sustentou Roma", publicar_em_utc: new Date(Date.now() + 3 * 86400e3).toISOString() },
+    { canal: "vestibular", rotulo: "terça 27/10 17h00", etapa_txt: "🎙️ esperando seus áudios", etapa: "aguardando_audio", audios: [3, 6], titulo: "Revolução Industrial em 1 mapa", publicar_em_utc: new Date(Date.now() + 4 * 86400e3).toISOString() },
+  ],
+  publicados: [],
+  canais: [{ id: "historia", nome: "Ouro & Império", inscritos: 0, horas: 0, publicados: 0 },
+           { id: "vestibular", nome: "Mapeado", inscritos: 0, horas: 0, publicados: 0 },
+           { id: "livros", nome: "Marca-Página", inscritos: 0, horas: 0, publicados: 0 }],
+  higgsfield: { gasto_usd: 4.2, imagens: 140, teto_usd: 20 },
+};
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function falta(iso) {
+  const ms = new Date(iso) - Date.now();
+  if (ms <= 0) return "publicado";
+  const h = Math.floor(ms / 36e5), d = Math.floor(h / 24);
+  return d >= 1 ? `em ${d}d ${h % 24}h` : `em ${h}h ${Math.floor(ms / 6e4) % 60}min`;
+}
+
+function aplicar(e) {
+  const quando = e.atualizado_em ? new Date(e.atualizado_em) : null;
+  document.getElementById("atualizado").textContent = quando
+    ? `atualizado ${quando.toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" })}` : "sem dados ainda";
+
+  for (const [id, ag] of Object.entries(agentes)) {
+    const tarefas = (e.ativos || {})[id] || [];
+    ag.ativo = tarefas.length > 0;
+    ag.div.classList.toggle("ativo", ag.ativo);
+    const balao = ag.div.querySelector(".balao");
+    balao.textContent = ag.ativo
+      ? (id === "miguel" ? "Precisa de você: " : "") + tarefas.slice(0, 2).join(" · ") + (tarefas.length > 2 ? ` +${tarefas.length - 2}` : "")
+      : ag.def.ocioso;
+  }
+
+  const ativos = Object.entries(e.ativos || {});
+  document.getElementById("agora").innerHTML = ativos.length ? ativos.map(([id, t]) => {
+    const nome = (EQUIPE.find(a => a.id === id) || { nome: id }).nome;
+    return `<div class="ativo-item"><span class="pt" style="${id === "miguel" ? "background:var(--laranja)" : ""}"></span>
+      <div><b>${esc(nome)}</b>${id === "miguel" ? " — precisa de você" : ""}<br><span style="color:var(--suave)">${t.map(esc).join("<br>")}</span></div></div>`;
+  }).join("") : `<div class="vazio">Todo mundo de café ☕</div>`;
+
+  const prox = e.proximos || [];
+  document.getElementById("proximos").innerHTML = prox.length ? prox.map(v => `
+    <div class="video" style="border-left:3px solid ${CORES[v.canal] || "#666"}">
+      <div class="topo"><span>${esc(NOMES[v.canal] || v.canal)} · ${esc(v.rotulo)}</span><span>${falta(v.publicar_em_utc)}</span></div>
+      <div class="tit">${esc(v.titulo || "pauta a definir")}</div>
+      <div class="etapa">${esc(v.etapa_txt)}</div>
+      ${v.audios ? `<div class="barra"><i style="width:${(100 * v.audios[0] / Math.max(1, v.audios[1])).toFixed(0)}%"></i></div>
+                    <div class="topo" style="margin-top:4px"><span>${v.audios[0]}/${v.audios[1]} áudios gravados</span></div>` : ""}
+    </div>`).join("") : `<div class="vazio">Nada na fila. Mande /lote no Telegram.</div>`;
+
+  document.getElementById("canais").innerHTML = (e.canais || []).map(c => `
+    <div class="canal"><div class="cor" style="background:${CORES[c.id]}"></div><div>
+      <b>${esc(c.nome)}</b> · ${c.publicados || 0} vídeos
+      <div class="metas">
+        <div>${c.inscritos} / 1.000 inscritos<div class="barra"><i style="width:${Math.min(100, c.inscritos / 10)}%;background:${CORES[c.id]}"></i></div></div>
+        <div>${c.horas} / 4.000 h<div class="barra"><i style="width:${Math.min(100, c.horas / 40)}%;background:${CORES[c.id]}"></i></div></div>
+      </div></div></div>`).join("");
+
+  const h = e.higgsfield || { gasto_usd: 0, teto_usd: 20, imagens: 0 };
+  document.getElementById("gasto").innerHTML = `
+    <div class="canal" style="grid-template-columns:1fr"><div>US$ ${(+h.gasto_usd).toFixed(2)} de US$ ${h.teto_usd} · ${h.imagens} ilustrações
+      <div class="barra"><i style="width:${Math.min(100, 100 * h.gasto_usd / Math.max(1, h.teto_usd))}%;background:var(--laranja)"></i></div></div></div>`;
+
+  const pub = e.publicados || [];
+  document.getElementById("publicados").innerHTML = pub.length ? pub.slice().reverse().map(v => `
+    <div class="video"><div class="topo"><span>${esc(NOMES[v.canal])}</span><span>${esc(v.rotulo)}</span></div>
+    <div class="tit">${v.url ? `<a href="${esc(v.url)}" target="_blank" rel="noopener" style="color:inherit">${esc(v.titulo)}</a>` : esc(v.titulo)}</div></div>`).join("")
+    : `<div class="vazio">O primeiro vídeo vai aparecer aqui.</div>`;
+}
+
+async function carregar() {
+  if (params.get("demo")) return aplicar(DEMO);
+  try {
+    const r = await fetch(`/api/estado?k=${encodeURIComponent(params.get("k") || "")}`, { cache: "no-store" });
+    aplicar(await r.json());
+  } catch { document.getElementById("atualizado").textContent = "sem conexão"; }
+}
+carregar();
+setInterval(carregar, 30000);
+setInterval(() => document.querySelectorAll(".video .topo span:last-child").length && carregar(), 60000 * 5);
+
+// ------------------------------------------------------------------ animação
+function redimensionar() {
+  const w = caixa.clientWidth, h = caixa.clientHeight;
+  const asp = w / h, tam = asp < 1 ? Math.min(13, 9.5 / asp) : 9.5;
+  Object.assign(camera, { left: -tam * asp, right: tam * asp, top: tam, bottom: -tam });
+  camera.updateProjectionMatrix();
+  renderer.setSize(w, h); rotulos.setSize(w, h);
+}
+new ResizeObserver(redimensionar).observe(caixa);
+redimensionar();
+
+const relogio = new THREE.Clock();
+renderer.setAnimationLoop(() => {
+  const t = relogio.getElapsedTime();
+  for (const ag of Object.values(agentes)) {
+    const alvo = ag.ativo ? 1 : 0;
+    ag.halo.material.opacity += (alvo * 0.8 - ag.halo.material.opacity) * 0.08;
+    ag.tela.material.emissiveIntensity += ((ag.ativo ? 0.9 + Math.sin(t * 6 + ag.fase) * 0.15 : 0.05) - ag.tela.material.emissiveIntensity) * 0.1;
+    if (ag.ativo) {                     // digitando
+      ag.corpo.position.y = Math.abs(Math.sin(t * 8 + ag.fase)) * 0.04;
+      ag.bracos[0].rotation.x = -1.1 + Math.sin(t * 16 + ag.fase) * 0.15;
+      ag.bracos[1].rotation.x = -1.1 + Math.cos(t * 16 + ag.fase) * 0.15;
+      ag.corpo.rotation.y = 0;
+    } else {                            // respirando, olhando em volta
+      ag.corpo.position.y = Math.sin(t * 1.5 + ag.fase) * 0.015;
+      ag.corpo.rotation.y = Math.sin(t * 0.4 + ag.fase) * 0.35;
+      ag.bracos.forEach(b => (b.rotation.x += (-0.5 - b.rotation.x) * 0.05));
+    }
+  }
+  controles.update();
+  renderer.render(cena, camera);
+  rotulos.render(cena, camera);
+});
+</script>
+</body>
+</html>

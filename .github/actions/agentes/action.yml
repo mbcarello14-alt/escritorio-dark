@@ -22,5 +22,5 @@ runs:
         echo "▶ claude -p \"$COMANDO\""
         claude -p "$COMANDO" \
           --permission-mode acceptEdits \
-          --allowedTools "Read,Write,Edit,MultiEdit,Glob,Grep,LS,WebSearch,WebFetch,Task,TodoWrite,Bash(python -m pipeline.validar:*),Bash(python3 -m pipeline.validar:*)" \
+          --allowedTools "Read,Write,Edit,MultiEdit,Glob,Grep,LS,WebSearch,WebFetch,Task,Agent,TodoWrite,Bash(python -m pipeline.validar:*),Bash(python3 -m pipeline.validar:*)" \
           --output-format text | tee -a "$GITHUB_STEP_SUMMARY"
