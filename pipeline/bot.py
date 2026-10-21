@@ -214,6 +214,10 @@ def receber(evento: dict) -> None:
             if canal not in E.CANAIS:
                 T.enviar("Qual canal? /pauta historia, /pauta vestibular ou /pauta livros")
                 return
+            from .comum import carregar_config
+            if not carregar_config(canal).get("ativo", True):
+                T.enviar(f"⏸️ O canal {esc(E.nome_canal(canal))} está em pausa (ainda não conectado ao YouTube).")
+                return
             pastas = planejar(canal)
             if pastas:
                 _saida(comando=f"/pautas {' '.join(E.rel(p) for p in pastas)}", pos="enviar-pautas")

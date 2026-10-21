@@ -35,6 +35,9 @@ def main():
     linhas.append("")
     for canal in ("historia", "vestibular", "livros"):
         cfg = carregar_config(canal)
+        if not cfg.get("ativo", True):
+            linhas.append(f"⏸️ YouTube {cfg['nome']}: em pausa")
+            continue
         try:
             from .youtube import servico
             r = servico(cfg["segredo_youtube"]).channels().list(part="snippet,statistics", mine=True).execute()

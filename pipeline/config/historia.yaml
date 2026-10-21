@@ -1,5 +1,6 @@
 # Ouro & Império — configuração de produção
 canal: historia
+ativo: true
 nome: "Ouro & Império"
 segredo_youtube: YT_REFRESH_HISTORIA   # nome do segredo no GitHub com o token deste canal
 

@@ -84,7 +84,10 @@ def grade() -> list[tuple[int, int, int, str]]:
     """[(dia_semana, hora, minuto, canal)] da rotina de todos os canais."""
     out = []
     for c in CANAIS:
-        for item in carregar_config(c)["youtube"]["publicar"]:
+        cfg = carregar_config(c)
+        if not cfg.get("ativo", True):
+            continue
+        for item in cfg["youtube"]["publicar"]:
             d, h = item.split()
             hh, mm = map(int, h.split(":"))
             out.append((DIAS[d.lower()[:3]], hh, mm, c))

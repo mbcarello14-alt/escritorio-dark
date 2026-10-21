@@ -1,5 +1,6 @@
 # Mapeado — configuração de produção
 canal: vestibular
+ativo: false   # ligar quando o canal estiver criado e autorizado
 nome: "Mapeado"
 segredo_youtube: YT_REFRESH_VESTIBULAR
 
