@@ -1,0 +1,86 @@
+name: Produção
+# Renderiza o vídeo e agenda no YouTube. Disparado sozinho quando o último áudio chega.
+on:
+  workflow_dispatch:
+    inputs:
+      pasta:
+        description: "Pasta do vídeo (ex.: canais/historia/videos/2026-10-26)"
+        required: true
+      sem_upload:
+        description: "Só gerar o vídeo, sem subir (teste)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: producao-${{ inputs.pasta }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  HF_API_KEY_ID: ${{ secrets.HF_API_KEY_ID }}
+  HF_API_KEY_SECRET: ${{ secrets.HF_API_KEY_SECRET }}
+  YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+  YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+  YT_REFRESH_HISTORIA: ${{ secrets.YT_REFRESH_HISTORIA }}
+  YT_REFRESH_VESTIBULAR: ${{ secrets.YT_REFRESH_VESTIBULAR }}
+  YT_REFRESH_LIVROS: ${{ secrets.YT_REFRESH_LIVROS }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+jobs:
+  produzir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/preparar
+        with:
+          requisitos: pipeline/requirements-producao.txt
+
+      - name: FFmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+
+      - name: Modelo de transcrição (cache)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-v1
+
+      - name: Montar o vídeo
+        run: |
+          if [ "${{ inputs.sem_upload }}" = "true" ]; then
+            python -m pipeline.produzir "${{ inputs.pasta }}" --sem-upload
+          else
+            python -m pipeline.produzir "${{ inputs.pasta }}"
+          fi
+
+      - name: Guardar o vídeo (7 dias, para baixar se quiser)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video
+          path: |
+            ${{ inputs.pasta }}/saida/video.mp4
+            ${{ inputs.pasta }}/saida/thumbnail.jpg
+            ${{ inputs.pasta }}/saida/legendas.srt
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Avisar no Telegram
+        if: inputs.sem_upload == false
+        run: python -m pipeline.bot produzido "${{ inputs.pasta }}"
+
+      - name: Painel
+        if: always()
+        run: python -m pipeline.painel || true
+
+      - name: Salvar
+        if: always()
+        run: .github/scripts/salvar.sh "produção - ${{ inputs.pasta }}"
+
+      - name: Avisar erro
+        if: failure()
+        run: python -m pipeline.bot erro "${{ inputs.pasta }}"

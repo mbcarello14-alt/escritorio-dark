@@ -1,0 +1,26 @@
+name: Agentes (Claude Code)
+description: Roda um comando do escritório no Claude Code em modo automático
+inputs:
+  comando:
+    description: ex. /roteiro canais/historia/videos/2026-10-26
+    required: true
+  token:
+    description: CLAUDE_CODE_OAUTH_TOKEN
+    required: true
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: "22"
+    - shell: bash
+      env:
+        CLAUDE_CODE_OAUTH_TOKEN: ${{ inputs.token }}
+        COMANDO: ${{ inputs.comando }}
+      run: |
+        npm install -g @anthropic-ai/claude-code >/dev/null 2>&1
+        echo "▶ claude -p \"$COMANDO\""
+        claude -p "$COMANDO" \
+          --permission-mode acceptEdits \
+          --allowedTools "Read,Write,Edit,MultiEdit,Glob,Grep,LS,WebSearch,WebFetch,Task,TodoWrite,Bash(python -m pipeline.validar:*),Bash(python3 -m pipeline.validar:*)" \
+          --output-format text | tee -a "$GITHUB_STEP_SUMMARY"

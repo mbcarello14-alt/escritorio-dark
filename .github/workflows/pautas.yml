@@ -1,0 +1,53 @@
+name: Pautas da semana
+# Domingo 10h e quarta 19h (Brasília): pautas dos próximos 4 dias da rotina.
+on:
+  schedule:
+    - cron: "0 13 * * 0"
+    - cron: "0 22 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+jobs:
+  pautas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/preparar
+
+      - name: Planejar os próximos vídeos
+        id: plano
+        run: python -m pipeline.bot planejar --dias 4
+
+      - name: Salvar
+        run: .github/scripts/salvar.sh "pautas - planejamento"
+
+      - name: Pesquisador de pauta
+        if: steps.plano.outputs.pastas != ''
+        uses: ./.github/actions/agentes
+        with:
+          comando: /pautas ${{ steps.plano.outputs.pastas }}
+          token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+
+      - name: Mandar as pautas
+        if: steps.plano.outputs.pastas != ''
+        run: python -m pipeline.bot enviar-pautas ${{ steps.plano.outputs.pastas }}
+
+      - name: Painel
+        if: always()
+        run: python -m pipeline.painel || true
+
+      - name: Salvar
+        if: always()
+        run: .github/scripts/salvar.sh "pautas - enviadas"
+
+      - name: Avisar erro
+        if: failure()
+        run: python -m pipeline.bot erro ""

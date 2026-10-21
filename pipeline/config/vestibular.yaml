@@ -1,0 +1,42 @@
+# Mapeado — configuração de produção
+canal: vestibular
+nome: "Mapeado"
+segredo_youtube: YT_REFRESH_VESTIBULAR
+
+voz:
+  motor: gravada
+  kokoro_voz: pf_dora
+  edge_voz: pt-BR-FranciscaNeural
+  openai_voz: nova
+  velocidade: 1.05
+
+estilo:
+  modo: quadro_branco    # estilo Draw My Life: tudo é "desenhado" na tela
+  fundo: "#FAFAF7"
+  destaque: "#F59E0B"
+  destaque2: "#1E3A8A"
+  texto: "#1E3A8A"
+  fonte_titulo: PatrickHand.ttf
+  fonte_titulo_variacao: null
+  fonte_texto: PatrickHand.ttf
+  escala_fonte: 1.3      # a letra de mão é menor que as outras fontes
+  caixa_alta_titulo: false
+
+video:
+  musica_humor: foco
+  volume_musica_db: -26
+  movimento_padrao: zoom_lento
+
+imagens:
+  fontes: [higgsfield, wikimedia, openverse]
+  estilo_ilustracao: >-
+    simple hand-drawn black marker doodle on a plain white background, Draw My Life
+    whiteboard style, thick clean outlines, minimal details, small touches of orange and
+    dark blue marker, no text, no letters, no shading, no background scenery
+
+youtube:
+  categoria_id: "27"
+  idioma: pt-BR
+  feito_para_criancas: false
+  publicar: ["tue 17:00", "thu 17:00"]   # terça e quinta, depois da aula
+  playlist_padrao: ""

@@ -1,0 +1,19 @@
+name: Preparar ambiente
+description: Python, dependências e identidade do git
+inputs:
+  requisitos:
+    description: arquivo de requisitos
+    default: pipeline/requirements-bot.txt
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+        cache: pip
+        cache-dependency-path: ${{ inputs.requisitos }}
+    - shell: bash
+      run: |
+        pip install -q -r "${{ inputs.requisitos }}"
+        git config user.name "Escritório Dark"
+        git config user.email "escritorio-dark@users.noreply.github.com"

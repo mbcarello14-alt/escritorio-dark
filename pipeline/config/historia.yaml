@@ -1,0 +1,41 @@
+# Ouro & Império — configuração de produção
+canal: historia
+nome: "Ouro & Império"
+segredo_youtube: YT_REFRESH_HISTORIA   # nome do segredo no GitHub com o token deste canal
+
+voz:
+  motor: gravada         # gravada (sua voz pelo Telegram) | kokoro (grátis) | edge (grátis, não oficial) | openai (pago)
+  kokoro_voz: pm_alex    # vozes pt-BR do Kokoro: pm_alex, pm_santa, pf_dora
+  edge_voz: pt-BR-AntonioNeural
+  openai_voz: onyx
+  velocidade: 1.0
+
+estilo:
+  modo: ilustrado        # estilo Tinocando: ilustrações próprias + cortes rápidos
+  fundo: "#14110D"
+  destaque: "#C9A24A"
+  destaque2: "#9C7A2C"
+  texto: "#F3EBDD"
+  fonte_titulo: Cinzel.ttf
+  fonte_titulo_variacao: Bold
+  fonte_texto: Inter.ttf
+  caixa_alta_titulo: true
+
+video:
+  musica_humor: misterio  # pasta em musica/<humor>/ (opcional)
+  volume_musica_db: -24
+  movimento_padrao: zoom_lento
+
+imagens:
+  fontes: [higgsfield, wikimedia, openverse]
+  estilo_ilustracao: >-
+    flat 2D editorial illustration, warm gold and deep black palette, textured paper grain,
+    expressive cartoon characters with simple faces, humorous storytelling tone, cinematic
+    composition, no text, no letters, no watermark
+
+youtube:
+  categoria_id: "27"     # Educação
+  idioma: pt-BR
+  feito_para_criancas: false
+  publicar: ["mon 18:00", "fri 18:00"]   # segunda e sexta (horário de Brasília)
+  playlist_padrao: ""                # ID da playlist (opcional)

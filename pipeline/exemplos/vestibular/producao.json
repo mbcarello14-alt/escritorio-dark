@@ -1,0 +1,45 @@
+{
+  "canal": "vestibular",
+  "titulo": "Revolução Industrial em 1 mapa mental (o que mais cai no ENEM)",
+  "descricao": "Causas, fases e consequências da Revolução Industrial em um mapa que você revisa em 1 minuto.\n\nVídeo de teste do motor de produção.",
+  "tags": ["revolução industrial", "enem", "história", "mapa mental"],
+  "hashtags": ["#enem", "#vestibular", "#historia"],
+  "musica_humor": "foco",
+  "thumbnail": {"texto": "Revolução Industrial", "imagem_busca": "", "layout": "esquerda"},
+  "blocos": [
+    {"capitulo": "Abertura", "cenas": [
+      {"narracao": "Se você só tiver um minuto para revisar a Revolução Industrial, é este mapa que você precisa ter na cabeça.",
+       "visual": {"tipo": "cartao", "titulo": "Revolução Industrial", "subtitulo": "o que mais cai, em um mapa só"}},
+      {"narracao": "No centro, o tema. Agora vamos construir os ramos, um por um.",
+       "visual": {"tipo": "mapa_mental", "revelar": 0, "mapa": {"centro": "Revolução Industrial", "ramos": [
+         {"rotulo": "Causas", "filhos": ["Capital acumulado", "Carvão e ferro", "Cercamentos"]},
+         {"rotulo": "1ª fase", "filhos": ["Inglaterra, séc. XVIII", "Máquina a vapor", "Têxtil"]},
+         {"rotulo": "2ª fase", "filhos": ["Aço e eletricidade", "Petróleo", "Linha de montagem"]},
+         {"rotulo": "Consequências", "filhos": ["Urbanização", "Proletariado", "Poluição"]}]}}}
+    ]},
+    {"capitulo": "Causas e fases", "cenas": [
+      {"narracao": "Primeiro ramo: as causas. A Inglaterra tinha capital acumulado, carvão e ferro, e mão de obra expulsa do campo pelos cercamentos.",
+       "visual": {"tipo": "mapa_mental", "revelar": 1, "mapa": {"centro": "Revolução Industrial", "ramos": [
+         {"rotulo": "Causas", "filhos": ["Capital acumulado", "Carvão e ferro", "Cercamentos"]},
+         {"rotulo": "1ª fase", "filhos": ["Inglaterra, séc. XVIII", "Máquina a vapor", "Têxtil"]},
+         {"rotulo": "2ª fase", "filhos": ["Aço e eletricidade", "Petróleo", "Linha de montagem"]},
+         {"rotulo": "Consequências", "filhos": ["Urbanização", "Proletariado", "Poluição"]}]}}},
+      {"narracao": "Segundo ramo: a primeira fase, com a máquina a vapor e a indústria têxtil.",
+       "visual": {"tipo": "mapa_mental", "revelar": 2, "mapa": {"centro": "Revolução Industrial", "ramos": [
+         {"rotulo": "Causas", "filhos": ["Capital acumulado", "Carvão e ferro", "Cercamentos"]},
+         {"rotulo": "1ª fase", "filhos": ["Inglaterra, séc. XVIII", "Máquina a vapor", "Têxtil"]},
+         {"rotulo": "2ª fase", "filhos": ["Aço e eletricidade", "Petróleo", "Linha de montagem"]},
+         {"rotulo": "Consequências", "filhos": ["Urbanização", "Proletariado", "Poluição"]}]}}}
+    ]},
+    {"capitulo": "Consequências", "cenas": [
+      {"narracao": "Terceiro e quarto ramos: a segunda fase, com aço, eletricidade e petróleo, e as consequências que o ENEM adora cobrar.",
+       "visual": {"tipo": "mapa_mental", "revelar": 4, "mapa": {"centro": "Revolução Industrial", "ramos": [
+         {"rotulo": "Causas", "filhos": ["Capital acumulado", "Carvão e ferro", "Cercamentos"]},
+         {"rotulo": "1ª fase", "filhos": ["Inglaterra, séc. XVIII", "Máquina a vapor", "Têxtil"]},
+         {"rotulo": "2ª fase", "filhos": ["Aço e eletricidade", "Petróleo", "Linha de montagem"]},
+         {"rotulo": "Consequências", "filhos": ["Urbanização", "Proletariado", "Poluição"]}]}}},
+      {"narracao": "Resumo para a prova em três tópicos.",
+       "visual": {"tipo": "lista", "titulo": "Para a prova", "itens": ["Pioneirismo inglês", "Vapor, depois eletricidade", "Cidades e operários"]}}
+    ]}
+  ]
+}

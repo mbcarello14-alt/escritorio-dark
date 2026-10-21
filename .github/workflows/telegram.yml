@@ -1,0 +1,68 @@
+name: Telegram
+# Cada mensagem sua no Telegram chega aqui (via Cloudflare) e vira uma execução.
+on:
+  repository_dispatch:
+    types: [telegram]
+  workflow_dispatch:
+    inputs:
+      comando:
+        description: "Comando, como no Telegram (ex.: /lote, /status, /pauta historia)"
+        required: true
+        default: /status
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+jobs:
+  atender:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/preparar
+
+      - name: Ler a mensagem
+        id: bot
+        run: python -m pipeline.bot receber
+
+      - name: Salvar
+        run: .github/scripts/salvar.sh "telegram - mensagem recebida"
+
+      - name: Agentes trabalhando
+        if: steps.bot.outputs.comando != ''
+        uses: ./.github/actions/agentes
+        with:
+          comando: ${{ steps.bot.outputs.comando }}
+          token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+
+      - name: Entregar no Telegram
+        if: steps.bot.outputs.pos != ''
+        env:
+          POS: ${{ steps.bot.outputs.pos }}
+          PASTA: ${{ steps.bot.outputs.pasta }}
+          PASTAS: ${{ steps.bot.outputs.pastas }}
+        run: python -m pipeline.bot "$POS" $PASTA $PASTAS
+
+      - name: Painel
+        if: always()
+        run: python -m pipeline.painel || true
+
+      - name: Salvar
+        if: always()
+        run: .github/scripts/salvar.sh "agentes - ${{ steps.bot.outputs.comando || 'mensagem' }}"
+
+      - name: Mandar para a produção
+        if: steps.bot.outputs.produzir != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run producao.yml -f pasta="${{ steps.bot.outputs.produzir }}"
+
+      - name: Avisar erro
+        if: failure()
+        run: python -m pipeline.bot erro "${{ steps.bot.outputs.pasta }}"

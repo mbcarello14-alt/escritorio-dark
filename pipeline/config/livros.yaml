@@ -1,0 +1,41 @@
+# Marca-Página — configuração de produção
+canal: livros
+nome: "Marca-Página"
+segredo_youtube: YT_REFRESH_LIVROS
+
+voz:
+  motor: gravada
+  kokoro_voz: pm_santa
+  edge_voz: pt-BR-AntonioNeural
+  openai_voz: echo
+  velocidade: 1.0
+
+estilo:
+  modo: ilustrado        # estilo Tinocando: ilustrações próprias + cortes rápidos
+  fundo: "#7A1F2B"
+  destaque: "#E9B44C"
+  destaque2: "#F3EBDD"
+  texto: "#F3EBDD"
+  fonte_titulo: DMSerifDisplay-Regular.ttf
+  fonte_titulo_variacao: null
+  fonte_texto: Inter.ttf
+  caixa_alta_titulo: false
+
+video:
+  musica_humor: calmo
+  volume_musica_db: -25
+  movimento_padrao: zoom_lento
+
+imagens:
+  fontes: [higgsfield, wikimedia, openverse]
+  estilo_ilustracao: >-
+    flat 2D editorial illustration, burgundy, mustard and cream palette, soft paper
+    texture, expressive cartoon characters with simple faces, witty conceptual metaphors,
+    no text, no letters, no watermark, no book covers
+
+youtube:
+  categoria_id: "27"
+  idioma: pt-BR
+  feito_para_criancas: false
+  publicar: ["wed 19:00", "sat 11:00"]   # quarta à noite e sábado de manhã
+  playlist_padrao: ""

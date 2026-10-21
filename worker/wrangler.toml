@@ -1,0 +1,12 @@
+name = "escritorio-dark"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+# Segredos (definidos sozinhos pelo workflow "Instalar bot"):
+# TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, WEBHOOK_SECRET, GH_PAT, GH_REPO, PAINEL_KEY
+
+[[rules]]
+type = "Text"
+globs = ["**/*.html"]
+fallthrough = true

@@ -1,0 +1,22 @@
+{
+  "canal": "historia",
+  "titulo": "Como o sal sustentou Roma",
+  "descricao": "Vídeo de teste do motor de produção do Ouro & Império.",
+  "tags": ["história", "roma antiga", "economia"],
+  "hashtags": ["#historia", "#roma"],
+  "musica_humor": "misterio",
+  "thumbnail": {"texto": "PAGOS EM SAL", "imagem_busca": "Roman road", "layout": "direita"},
+  "blocos": [
+    {"capitulo": "O gancho", "cenas": [
+      {"narracao": "Durante séculos, o sal valeu tanto quanto ouro.", "visual": {"tipo": "imagem", "busca": "ancient salt pans", "movimento": "zoom_in", "legenda": "Salinas antigas"}},
+      {"narracao": "Quem controlava o sal, controlava o comércio.", "visual": {"tipo": "numero", "valor": "1 libra", "rotulo": "de sal podia valer um dia de trabalho"}}
+    ]},
+    {"capitulo": "A estrada do sal", "cenas": [
+      {"narracao": "A primeira grande estrada romana levava o nome desse produto.", "visual": {"tipo": "cartao", "titulo": "Via Salaria", "subtitulo": "a estrada do sal"}},
+      {"narracao": "Uma frase curta para testar a citação.", "visual": {"tipo": "citacao", "texto": "O dinheiro é o nervo da guerra.", "autor": "Cícero"}}
+    ]},
+    {"capitulo": "O legado", "cenas": [
+      {"narracao": "Comparação de teste entre dois períodos.", "visual": {"tipo": "comparacao", "esquerda": {"titulo": "República", "itens": ["Comércio regional", "Sal local"]}, "direita": {"titulo": "Império", "itens": ["Rotas por todo o Mediterrâneo", "Monopólios do Estado"]}}}
+    ]}
+  ]
+}

@@ -1,0 +1,12 @@
+pillow>=10.0
+numpy>=1.26
+pyyaml>=6.0
+requests>=2.31
+soundfile>=0.12
+google-api-python-client>=2.120
+google-auth>=2.28
+google-auth-oauthlib>=1.2
+# voz grátis (o workflow instala também o espeak-ng)
+kokoro>=0.9.4
+# alternativa grátis não oficial (motor: edge)
+edge-tts>=6.1

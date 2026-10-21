@@ -1,0 +1,37 @@
+name: Diagnóstico
+# Rode depois de configurar os segredos: confere tudo e manda o resultado no Telegram.
+on:
+  workflow_dispatch:
+
+env:
+  CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+  YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+  YT_REFRESH_HISTORIA: ${{ secrets.YT_REFRESH_HISTORIA }}
+  YT_REFRESH_VESTIBULAR: ${{ secrets.YT_REFRESH_VESTIBULAR }}
+  YT_REFRESH_LIVROS: ${{ secrets.YT_REFRESH_LIVROS }}
+  HF_API_KEY_ID: ${{ secrets.HF_API_KEY_ID }}
+  HF_API_KEY_SECRET: ${{ secrets.HF_API_KEY_SECRET }}
+  CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+  CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+  GH_PAT: ${{ secrets.GH_PAT }}
+
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/preparar
+        with:
+          requisitos: pipeline/requirements-producao.txt
+      - name: Conferir configuração
+        run: python -m pipeline.diagnostico
+      - name: Testar o Claude Code
+        if: env.CLAUDE_CODE_OAUTH_TOKEN != ''
+        uses: ./.github/actions/agentes
+        with:
+          comando: "Responda apenas: escritório pronto. Não use ferramentas."
+          token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}

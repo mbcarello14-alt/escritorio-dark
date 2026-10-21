@@ -1,0 +1,25 @@
+# Configuração geral do escritório (vale para todos os canais)
+
+higgsfield:
+  ligado: true
+  # Endpoint do modelo de imagem (confira no console.higgsfield.ai › Models › API).
+  modelo: higgsfield-ai/soul/v2/standard
+  # Campos extras aceitos pelo modelo (confira na página do modelo no console).
+  parametros_extra:
+    aspect_ratio: "16:9"
+  # Controle de gasto: quando a estimativa do mês chega no teto, o motor passa a usar
+  # imagens grátis (domínio público) até o mês virar.
+  teto_mensal_usd: 20
+  custo_estimado_por_imagem_usd: 0.03   # ajuste com o preço real que o console mostrar
+  max_imagens_por_video: 120
+
+telegram:
+  # o bot só obedece a este chat (o seu). Fica no segredo TELEGRAM_CHAT_ID.
+  lembrete_horas: 24   # lembra de gravar blocos pendentes depois de X horas
+
+producao:
+  videos_longos_por_semana: 6     # seg História · ter Mapeado · qua Livros · qui Mapeado · sex História · sáb Livros
+  pauta_por_canal_por_semana:
+    historia: 2
+    vestibular: 2
+    livros: 2

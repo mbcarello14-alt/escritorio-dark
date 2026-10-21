@@ -1,0 +1,94 @@
+name: Instalar bot
+# Publica o recepcionista na Cloudflare e liga o webhook do Telegram.
+# Rode de novo sempre que mudar um segredo do Telegram ou do GitHub.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["worker/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  instalar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GH_PAT: ${{ secrets.GH_PAT }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Conferir segredos
+        run: |
+          falta=""
+          for s in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID TELEGRAM_BOT_TOKEN GH_PAT; do
+            [ -z "${!s}" ] && falta="$falta $s"
+          done
+          if [ -n "$falta" ]; then echo "::error::Faltam os segredos:$falta (veja SETUP.md)"; exit 1; fi
+
+      - name: Publicar na Cloudflare
+        id: deploy
+        working-directory: worker
+        run: |
+          npx --yes wrangler@4 deploy 2>&1 | tee deploy.log
+          url=$(grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' deploy.log | head -1)
+          if [ -z "$url" ]; then echo "::error::Não achei o endereço do worker. Abra Workers & Pages no painel da Cloudflare uma vez para criar seu subdomínio workers.dev e rode de novo."; exit 1; fi
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+      - name: Guardar segredos no worker e ligar o webhook
+        working-directory: worker
+        env:
+          URL: ${{ steps.deploy.outputs.url }}
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, secrets
+          s = {
+              "TELEGRAM_BOT_TOKEN": os.environ["TELEGRAM_BOT_TOKEN"],
+              "GH_PAT": os.environ["GH_PAT"],
+              "GH_REPO": os.environ["GH_REPO"],
+              "WEBHOOK_SECRET": secrets.token_hex(24),
+              "PAINEL_KEY": hashlib.sha256((os.environ["GH_PAT"] + "painel").encode()).hexdigest()[:24],
+          }
+          if os.environ.get("TELEGRAM_CHAT_ID", "").strip():
+              s["TELEGRAM_CHAT_ID"] = os.environ["TELEGRAM_CHAT_ID"].strip()
+          json.dump(s, open("segredos.json", "w"))
+          open(os.environ["GITHUB_ENV"], "a").write(
+              f"WEBHOOK_SECRET={s['WEBHOOK_SECRET']}\nPAINEL_KEY={s['PAINEL_KEY']}\n")
+          PY
+          npx --yes wrangler@4 secret bulk segredos.json >/dev/null && rm segredos.json
+          resp=$(curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setWebhook" \
+            -d "url=${URL}/telegram" -d "secret_token=${WEBHOOK_SECRET}" \
+            -d 'allowed_updates=["message"]')
+          echo "$resp" | grep -q '"ok":true' || { echo "::error::Telegram recusou o webhook: $resp"; exit 1; }
+          echo "Webhook ligado em ${URL}/telegram"
+
+      - name: Avisar
+        env:
+          URL: ${{ steps.deploy.outputs.url }}
+        run: |
+          painel="${URL}/painel?k=${PAINEL_KEY}"
+          if [ -n "$TELEGRAM_CHAT_ID" ]; then
+            curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" -d parse_mode=HTML \
+              --data-urlencode "text=🎬 <b>Escritório Dark no ar!</b>
+          Responda minhas mensagens que o escritório trabalha.
+
+          🏢 Seu escritório virtual: ${painel}
+
+          Comandos: /status · /lote · /pauta historia|vestibular|livros · /ajuda" >/dev/null
+            echo "### ✅ Bot instalado e avisado no Telegram" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "### ✅ Bot publicado. Agora mande **/start** para o seu bot no Telegram: ele responde com o número do seu chat. Salve como segredo TELEGRAM_CHAT_ID e rode este workflow de novo." >> "$GITHUB_STEP_SUMMARY"
+          fi
