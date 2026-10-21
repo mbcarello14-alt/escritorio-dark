@@ -28,6 +28,13 @@ def proximo_horario(cfg: dict, agora: datetime | None = None, folga_horas: float
     """Próximo horário da grade `youtube.publicar` (BRT) com ao menos `folga_horas` de antecedência."""
     agora = (agora or datetime.now(timezone.utc)).astimezone(BRT)
     minimo = agora + timedelta(hours=folga_horas)
+    try:
+        import yaml
+        ini = yaml.safe_load((RAIZ / "pipeline" / "config" / "geral.yaml").read_text())["producao"].get("inicio_rotina")
+        if ini:
+            minimo = max(minimo, datetime.fromisoformat(str(ini)).replace(tzinfo=BRT))
+    except Exception:
+        pass
     ocupados = _ocupados(cfg["canal"])
     grade = []
     for item in cfg["youtube"]["publicar"]:

@@ -18,6 +18,7 @@ telegram:
   lembrete_horas: 24   # lembra de gravar blocos pendentes depois de X horas
 
 producao:
+  inicio_rotina: "2026-10-26"   # nenhum vídeo é publicado antes deste dia
   videos_longos_por_semana: 6     # seg História · ter Mapeado · qua Livros · qui Mapeado · sex História · sáb Livros
   pauta_por_canal_por_semana:
     historia: 2

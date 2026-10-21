@@ -97,6 +97,8 @@ def grade() -> list[tuple[int, int, int, str]]:
 def proximos_slots(dias: int = 4, inicio: date | None = None) -> list[dict]:
     """Slots da rotina nos próximos `dias` dias (a partir de amanhã) que ainda não têm vídeo."""
     hoje = inicio or datetime.now(BRT).date()
+    comeco = date.fromisoformat(str(config_geral().get("producao", {}).get("inicio_rotina", "2000-01-01")))
+    ocupados = {e.get("publicar_em_utc") for _, e in todos_videos()}
     out = []
     for k in range(1, dias + 1):
         d = hoje + timedelta(days=k)
@@ -104,9 +106,11 @@ def proximos_slots(dias: int = 4, inicio: date | None = None) -> list[dict]:
             if d.weekday() != wd:
                 continue
             pasta = pasta_video(c, d.isoformat())
-            if (pasta / "estado.json").exists():
+            if (pasta / "estado.json").exists() or d < comeco:
                 continue
             quando = datetime(d.year, d.month, d.day, hh, mm, tzinfo=BRT)
+            if quando.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") in ocupados:
+                continue
             out.append({"canal": c, "dia": d.isoformat(), "pasta": pasta,
                         "publicar_em_utc": quando.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                         "rotulo": f"{NOMES_DIA[d.weekday()]} {d.strftime('%d/%m')} {hh:02d}h{mm:02d}"})
