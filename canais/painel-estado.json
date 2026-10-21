@@ -1,0 +1,34 @@
+{
+  "atualizado_em": "2026-10-21T23:02:55Z",
+  "ativos": {},
+  "proximos": [],
+  "publicados": [],
+  "canais": [
+    {
+      "id": "historia",
+      "nome": "Ouro & Império",
+      "inscritos": 0,
+      "horas": 0,
+      "publicados": 0
+    },
+    {
+      "id": "vestibular",
+      "nome": "Mapeado",
+      "inscritos": 0,
+      "horas": 0,
+      "publicados": 0
+    },
+    {
+      "id": "livros",
+      "nome": "Marca-Página",
+      "inscritos": 0,
+      "horas": 0,
+      "publicados": 0
+    }
+  ],
+  "higgsfield": {
+    "gasto_usd": 0,
+    "imagens": 0,
+    "teto_usd": 20
+  }
+}
