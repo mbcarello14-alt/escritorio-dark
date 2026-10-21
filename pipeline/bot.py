@@ -256,8 +256,20 @@ def receber(evento: dict) -> None:
         return
 
     if not info:
-        T.enviar("Para eu saber de qual vídeo você está falando, <b>responda</b> (deslize para o lado) a uma mensagem minha.\n\n" + AJUDA)
-        return
+        # sem "responder": se só um vídeo está esperando esse tipo de resposta, é ele
+        esperando = {"aguardando_escolha": "pauta", "aguardando_aprovacao": "roteiro"}
+        candidatos = [(p, esperando[e.get("etapa")]) for p, e in E.todos_videos() if e.get("etapa") in esperando]
+        if re.match(r"^\s*[1-3]\b", texto):
+            candidatos = [c for c in candidatos if c[1] == "pauta"]
+        elif APROVAR.match(texto):
+            candidatos = [c for c in candidatos if c[1] == "roteiro"]
+        if len(candidatos) == 1:
+            info = {"pasta": E.rel(candidatos[0][0]), "tipo": candidatos[0][1]}
+        else:
+            extra = " Tem mais de um vídeo esperando você." if len(candidatos) > 1 else ""
+            T.enviar("Para eu saber de qual vídeo você está falando, <b>responda</b> (segure a mensagem → Responder) "
+                     f"a uma mensagem minha.{extra}\n\n" + AJUDA)
+            return
 
     pasta = _pasta(info["pasta"])
     tipo = info["tipo"]
