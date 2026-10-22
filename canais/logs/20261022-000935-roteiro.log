@@ -1,0 +1,164 @@
+comando: /roteiro canais/historia/videos/2026-10-23
+🔧 Bash {"command": "cd canais/historia/videos/2026-10-23 && ls && cat estado.json && cat 01-pauta.md && cat pautas.json | head -60"}
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && git log --stat -3 | head -40; ls canais/historia/videos/ canais/logs; git status --short"}
+❌ This command changes directory before running a version-control command, which can pick up untrusted hooks or repository configuration from the target directory. Approve only if you trust it.
+🔧 Bash {"command": "git log --stat -3 | head -40; ls ../ ../../logs; ls ../../../logs"}
+🔧 Agent {"description": "Dossiê café 1929", "subagent_type": "pesquisador-pauta", "prompt": "Etapa 2 (dossiê). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23. Leia 
+💬 Dossiê em andamento; aguardo o resultado antes de seguir para o roteiro.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 WebSearch {"query": "Dow Jones 24 outubro 28 outubro 29 outubro 1929 queda percentual fechamento Federal Reserve history", "mode": "standard"}
+🔧 WebSearch {"query": "CPDOC FGV crise de 1929 café Convênio de Taubaté Instituto do Café Revolução de 1930 verbete", "mode": "standard"}
+🔧 WebSearch {"query": "preço da saca de café 1929 1930 queda libras por saca estoques Defesa Permanente do Café Banco do Brasil Furtado Formação Econômica", "mode": "standard"}
+🔧 WebSearch {"query": "café participação nas exportações brasileiras 1929 percentual queima de café 1931 Conselho Nacional do Café milhões de sacas", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929", "prompt": "Daily Dow Jones drops on Oct 24, 28, 29 1929 (points, percent, close), volume, bank pool, Fed actions, and
+🔧 WebFetch {"url": "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td585.pdf", "prompt": "Extract everything about coffee in 1929-1932: prices, stocks, exports share, Instituto do Café, Banco do Brasil,
+🔧 WebFetch {"url": "https://www.jornaldocomercio.com/_conteudo/economia/2019/10/amp/709138-crise-acaba-com-era-de-ouro-do-cafe-no-brasil.html", "prompt": "Extract all facts and numbers: coffee share of exports, 
+🔧 WebFetch {"url": "https://iepecdg.com.br/wp-content/uploads/2025/10/20251002CafeCindes.docx-1.pdf", "prompt": "Extract facts and numbers on coffee valorization 1906, 1924 Instituto Paulista, 1929 crisis, price
+🔧 WebSearch {"query": "Dow Jones October 28 1929 closed 260.64 down 38.33 October 29 230.07 October 24 299.47", "mode": "standard"}
+🔧 WebSearch {"query": "cpdoc.fgv.br Era Vargas \"crise de 1929\" café Primeira República Washington Luís Júlio Prestes Aliança Liberal", "mode": "standard"}
+🔧 WebSearch {"query": "Washington Luís Caixa de Estabilização 1929 padrão-ouro saída ouro fuga reservas setembro 1930 suspensão conversão café Instituto Paulista Defesa Permanente empréstimo Londres Nova York 192
+🔧 WebSearch {"query": "queima de café 1931 a 1944 milhões de sacas destruídas total Departamento Nacional do Café", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td585.pdf", "prompt": "Resumo: o que diz sobre café, preços, Caixa de Estabilização, reservas, câmbio, 1929-1931, com números."}
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Convênio_de_Taubaté", "prompt": "Data do convênio, estados, mecanismo, empréstimo, preço mínimo, contexto de superprodução (safra 1906), papel de Rodrigues Alves
+🔧 WebFetch {"url": "https://www.britannica.com/event/Revolution-of-1930", "prompt": "Causes of the 1930 revolution: coffee, Great Depression, election date March 1 1930, João Pessoa assassination July 1930, coup
+🔧 WebSearch {"query": "Celso Furtado \"socialização das perdas\" café 1929 política de defesa do café destruição de estoques demanda interna \"Formação Econômica do Brasil\" capítulo 30", "mode": "standard"}
+🔧 WebFetch {"url": "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/revolucao-de-1930", "prompt": "Datas: eleição 1/3/1930, assassinato João Pessoa, início do movimento 3/10/1930, deposição de Was
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Revolução_de_1930", "prompt": "Datas-chave: eleição de 1/3/1930, morte de João Pessoa, início da revolução, deposição de Washington Luís em 24/10/1930, posse de 
+🔧 WebSearch {"query": "Wikimedia Commons Wall Street crowd October 24 1929 photo public domain; Commons queima de café Santos 1931 foto", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/02-dossie.md", "content": "# Dossiê — \"O dia em que o café brasileiro quebrou com Wall Street\"\nCan
+💬 Montei o dossiê em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/02-dossie.md`. Ele tem linha do tempo, fatos numerados com fonte e grau de confiança, números, personagens, controvérsias, ganchos, material visual e uma lista de pendências para o checador. Não pude abrir as fontes que você priorizou: o CPDOC deu 404, e Furtado, Fausto e o IBGE só chegaram por citações de terceiros. As fontes que usei foram Federal Reserve History, Wikipédia, Jornal do Comércio, PUC-Rio, FGV/IEPE e artigos acadêmicos. O PDF da FGV/IEPE não abriu para leitura, então o que ci
+🔧 Agent {"description": "Escrever roteiro", "subagent_type": "roteirista", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23. Leia estado.json, pautas.json 
+💬 O roteirista está escrevendo o roteiro; aguardo ele terminar para passar ao checador.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"O dia em que o café brasileiro quebrou com W
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/03-roteiro.md", "content": "# Roteiro — O dia em que o café brasileiro quebrou com Wall Street\nCanal
+💬 O roteiro está pronto. São 8 blocos, com cerca de 1.580 palavras, o que dá uns 10 minutos e meio de narração. Contei as palavras à mão, então o número é aproximado.
+
+**Tese:** o crash de 1929 não derrubou o Brasil sozinho. Ele cortou o dinheiro de fora que segurava o preço do café, piorou uma crise que já vinha e tirou o chão de uma República que já estava rachada politicamente.
+
+**Os blocos**
+1. **Gancho (cerca de 119 palavras):** anteontem fez 97 anos da Quinta-feira Negra, e a bolsa fechou quase estável naquele dia. Exatamente um ano depois, em 24/10/1930, Washington Luís foi deposto.
+2. **
+🔧 Agent {"description": "Checar roteiro", "subagent_type": "checador", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23. Cheque cada afirmação de 03-roteir
+💬 O checador está conferindo o roteiro; aguardo o veredito.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/roteiro.json"}
+🔧 WebSearch {"query": "produção industrial brasileira 1929 1939 crescimento Furtado índice indústria década de 1930 dobro", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929", "prompt": "Quote what it says about Oct 24 1929 (drop at open, bankers pool, who led it, close), Oct 28 and 29 percen
+🔧 WebFetch {"url": "https://www.jornaldocomercio.com/_conteudo/economia/2019/10/amp/709138-crise-acaba-com-era-de-ouro-do-cafe-no-brasil.html", "prompt": "Extraia literalmente: percentual do café nas exportações
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Revolução_de_1930", "prompt": "Quando a Aliança Liberal lançou Getúlio Vargas e João Pessoa (junho, setembro de 1929, ou janeiro 1930)? Datas da eleição, votos, 
+🔧 WebSearch {"query": "Aliança Liberal candidatura Getúlio Vargas lançada 20 de setembro de 1929 convenção CPDOC", "mode": "standard"}
+🔧 WebSearch {"query": "Dow Jones October 24 1929 close 299.47 Black Thursday intraday drop 11 percent bankers meeting Lamont Mitchell", "mode": "standard"}
+🔧 WebSearch {"query": "Del Fiori Sinergia FURG 2013 Furtado café crise 1929 renda do café", "mode": "standard"}
+🔧 WebSearch {"query": "PUC-Rio texto para discussão 585 Caixa de Estabilização 1930 reservas esgotadas agosto preço do café 1932 um terço de 1929", "mode": "standard"}
+🔧 WebSearch {"query": "Estados Unidos participação café brasileiro exportações 1929 percentual café 70% das exportações Brasil EUA compravam", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/04-checagem.md", "content": "# Checagem — \"O dia em que o café brasileiro quebrou com Wall Street\"\
+💬 O veredito é **CORRIGIR** (volta 1 de 2). O arquivo está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/04-checagem.md`.
+
+Não consegui abrir CPDOC, IBGE, Furtado nem o TD 585 da PUC-Rio (o link deu 404). Os itens que dependem só dessas fontes ficaram como confiança média e precisam de atribuição no texto.
+
+**Os pontos que você pediu:**
+- **Produção industrial "em dobro":** só uma reportagem (Jornal do Comércio) sustenta, e o roteiro liga o número à queima de café. As estimativas variam: Villela e Suzigan indicam algo na casa do dobro só em 1939 (cálculo
+🔧 SendMessage {"to": "a38a92cf4a88a1343", "message": "Volta 1 do checador: CORRIGIR. Leia 04-checagem.md na mesma pasta e aplique TODAS as correções numeradas em 03-roteiro.md e roteiro.json (Aliança Liberal: agost
+💬 O roteirista está aplicando as correções do checador; aguardo ele terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/04-checagem.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"O dia em que o café brasileiro quebrou com W
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/roteiro.json", "old_string": "e 2 ajustes opcionais aplicados", "new_string": "
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/03-roteiro.md", "content": "# Roteiro — O dia em que o café brasileiro quebrou com Wall Street\nCanal
+💬 Apliquei no `03-roteiro.md` e no `roteiro.json` as 14 correções do `04-checagem.md`: as 6 obrigatórias e as 8 recomendadas. O roteiro está pronto para a volta 2 do checador. Os textos dos dois arquivos são idênticos.
+
+**Obrigatórias**
+1. **Bloco 6, Aliança Liberal:** "junho, quatro meses antes" virou "Em mil novecentos e vinte e nove, antes da Quinta-feira Negra". Deixei sem mês porque a data de setembro não foi confirmada no CPDOC.
+2. **Bloco 7, produção industrial:** "o dobro no fim da década" agora vem atribuído ao Jornal do Comércio. Entrou a ressalva "quanto disso veio da política do café
+🔧 SendMessage {"to": "ac3227609291fb2e7", "message": "Volta 2: o roteirista aplicou as correções em 03-roteiro.md e roteiro.json. Rechecar as mudanças (e que nada novo sem fonte entrou), atualizar 04-checagem.md co
+💬 O checador está refazendo a conferência (volta 2); aguardo o veredito.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/04-checagem.md", "content": "# Checagem — \"O dia em que o café brasileiro quebrou com Wall Street\"\
+💬 **Veredito final da volta 2: APROVADO.** Atualizei `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/04-checagem.md`.
+
+Conferi o `03-roteiro.md` (versão 2) e o `roteiro.json`, e os textos dos 8 blocos são idênticos nos dois. As correções obrigatórias da volta 1 foram aplicadas, e nada novo sem fonte entrou, salvo a ressalva R1 abaixo.
+
+- **Aliança Liberal:** "Em 1929, antes da Quinta-feira Negra" é verdadeiro com qualquer uma das datas (17/6, 30/7, agosto ou 20/9).
+- **Produção industrial:** agora está atribuída ao Jornal do Comércio. "Crescimento forte" tem 
+🔧 Agent {"description": "Avaliar originalidade", "subagent_type": "guardiao-originalidade", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23. Avalie 03-rot
+💬 O guardião de originalidade está avaliando o roteiro; aguardo o semáforo.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/05-originalidade.md", "content": "# Originalidade — \"O dia em que o café brasileiro quebrou com Wall
+💬 **Semáforo: 🟡 ajustar.** O roteiro tem tese própria e síntese sólida, mas falta a voz do Miguel e há tiques de IA para limpar. Nada bloqueia a publicação. Escrevi o resultado em `05-originalidade.md`.
+
+**Notas**
+- **Variação, 6/10:** o `historico.md` está vazio e não há 5 vídeos para comparar. A estrutura (espelho de datas, mito derrubado no meio, fecho "siga o dinheiro") é boa, mas é uma fórmula fácil de repetir.
+- **Valor próprio, 7/10:** a cadeia Taubaté, padrão-ouro, corte do crédito pelo crash e racha político já armado não está pronta em outro lugar. A ressalva "o crash não causou 1930" 
+🔧 SendMessage {"to": "a38a92cf4a88a1343", "message": "Volta única da originalidade: leia 05-originalidade.md e aplique as mudanças de maior impacto em 03-roteiro.md e roteiro.json, SEM inventar opinião do Miguel (d
+💬 O roteirista está aplicando as mudanças de originalidade; depois eu atualizo o `estado.json` com o título.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/05-originalidade.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"O dia em que o café brasileiro quebrou com W
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/03-roteiro.md", "content": "# Roteiro — O dia em que o café brasileiro quebrou com Wall Street\nCanal
+💬 A versão 3 do roteiro está pronta, com os ajustes da originalidade aplicados e sem nenhum fato novo. Ainda falta a opinião do Miguel. Não inventei nenhuma: deixei dois espaços marcados como **[ESPAÇO MIGUEL]** no `03-roteiro.md`, um no fim do bloco 7 e outro no fecho do bloco 8. O `roteiro.json` traz só o texto neutro, que já funciona se ele não responder.
+
+**O que mudou:**
+- **Tese no bloco 1:** o vídeo agora já abre dizendo que "o crash não derrubou o Brasil sozinho. Ele cobrou uma conta antiga, que o país vinha empurrando com dinheiro emprestado". "Anteontem" virou "No dia vinte e quatro de
+🔧 Bash {"command": "python3 - <<'E'\nimport json\nr=json.load(open('roteiro.json'));print(r['titulo_provisorio'],r['semaforo'],len(r['blocos']),[k for k in r])\nprint(r['resumo_checagem'],'|',r['resumo_origi
+❌ This Bash command contains multiple operations. The following part requires approval: python3 -
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/roteiro.json", "old_string": "\"Você estuda Economia: se fosse", "new_string": 
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/estado.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-23/estado.json", "old_string": "  \"nota_miguel\": \"\"\n}", "new_string": "  \"no
+💬 O roteiro de "O dia em que o café brasileiro quebrou com Wall Street" está pronto em `canais/historia/videos/2026-10-23/`, com semáforo 🟡. Não rodei validador nem abri o `roteiro.json` num parser. Só li o arquivo depois da última edição.
+
+- **Dossiê:** `02-dossie.md` foi montado com fontes secundárias. O CPDOC deu 404 e Furtado, Fausto e IBGE só vieram por citações. O link da PUC-Rio (TD 585) também deu 404, e o que cito dele veio de resumos de busca.
+- **Roteiro:** são 8 blocos, cerca de 10min30s de narração. A estimativa de duração é manual.
+- **Checagem:** a primeira volta devolveu `CORRIGI
+
+=== resultado: success | turnos 5 | 13s | erro=False
+Dossiê em andamento; aguardo o resultado antes de seguir para o roteiro.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O roteirista está escrevendo o roteiro; aguardo ele terminar para passar ao checador.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O checador está conferindo o roteiro; aguardo o veredito.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+O roteirista está aplicando as correções do checador; aguardo ele terminar.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+O checador está refazendo a conferência (volta 2); aguardo o veredito.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+O guardião de originalidade está avaliando o roteiro; aguardo o semáforo.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O roteirista está aplicando as mudanças de originalidade; depois eu atualizo o `estado.json` com o título.
+
+=== resultado: success | turnos 6 | 14s | erro=False
+O roteiro de "O dia em que o café brasileiro quebrou com Wall Street" está pronto em `canais/historia/videos/2026-10-23/`, com semáforo 🟡. Não rodei validador nem abri o `roteiro.json` num parser. Só li o arquivo depois da última edição.
+
+- **Dossiê:** `02-dossie.md` foi montado com fontes secundárias. O CPDOC deu 404 e Furtado, Fausto e IBGE só vieram por citações. O link da PUC-Rio (TD 585) também deu 404, e o que cito dele veio de resumos de busca.
+- **Roteiro:** são 8 blocos, cerca de 10min30s de narração. A estimativa de duração é manual.
+- **Checagem:** a primeira volta devolveu `CORRIGIR`, com 13 correções, incluindo a data da Aliança Liberal, e a segunda aprovou. Ficou "40 afirmações checadas, 13 corrigidas" no `04-checagem.md`.
+- **Originalidade:** o semáforo é 🟡. A tese e a síntese são sólidas, mas falta a opinião do Miguel, porque a `nota_miguel` veio vazia. As mudanças de maior impacto foram aplicadas, e o resultado está em `05-originalidade.md`.
+- **Estado:** `estado.json` recebeu o campo `titulo`.
+
+**Pendências**
+- **Opinião do Miguel:** não inventei nenhuma. O `pergunta_para_miguel` pergunta o que ele faria no lugar de Washington Luís e se a queima do café foi desperdício ou boa saída. A resposta entra no fim do bloco 7 e no fecho do bloco 8. No `03-roteiro.md` esses pontos estão marcados como **[ESPAÇO MIGUEL]**.
+- **Dados que dependem da PUC-Rio:** "um terço em 1932" e as reservas esgotadas em agosto de 1930 vêm do estudo que não abriu. Estão atribuídos no texto. Se ninguém confirmar a fonte antes da gravação, a data de agosto de 1930 sai.
+- **Dossiê com erro:** o `02-dossie.md` ainda diz que a Aliança Liberal foi em junho de 1929 (linha do tempo e fato 18). O roteiro já está sem o mês, mas o dossiê precisa ser corrigido.
+- **Duração:** o roteiro tem uns 10min30s, e o briefing do canal fala em 12 a 20 minutos.
+- **Data da pasta:** a pasta se chama `2026-10-23`, mas o `estado.json` marca a publicação para segunda, 26/10. Segui o `estado.json`, então a abertura fala em "97 anos da Quinta-feira Negra" sem dizer "anteontem".
+
+Não criei `producao.json`, como pedido.
+codigo de saida: 0
