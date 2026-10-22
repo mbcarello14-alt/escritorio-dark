@@ -13,7 +13,7 @@ QUEM = {
     "roteiro": ["pesquisador", "roteirista", "checador", "guardiao"],
     "ajuste": ["roteirista", "checador"],
     "producao_json": ["diretor_visual", "seo", "thumbnail"],
-    "renderizando": ["editor"],
+    "renderizando": ["narrador", "editor"],
     "aguardando_escolha": ["miguel"],
     "aguardando_aprovacao": ["miguel"],
     "aguardando_audio": ["miguel"],
