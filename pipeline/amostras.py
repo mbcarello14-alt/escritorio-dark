@@ -17,7 +17,7 @@ TEXTO = ("Em mil novecentos e vinte e nove, o Brasil queimou café para salvar o
 GOOGLE = [("Puck", "masculina, animada"), ("Charon", "masculina, grave"), ("Fenrir", "masculina, enérgica"),
           ("Orus", "masculina, firme"), ("Kore", "feminina, clara"), ("Aoede", "feminina, leve"),
           ("Leda", "feminina, jovem")]
-EDGE = [("pt-BR-AntonioNeural", "masculina"), ("pt-BR-FranciscaNeural", "feminina")]
+EDGE = [("pt-BR-AntonioNeural", "masculina"), ("pt-BR-FranciscaNeural", "feminina"), ("pt-BR-ThalitaMultilingualNeural", "feminina, jovem")]
 
 
 def _google(nome: str, destino: Path) -> None:
@@ -54,7 +54,7 @@ def main():
         arq = pasta / f"edge-{nome}.mp3"
         try:
             _edge(nome, arq)
-            T.enviar_audio(arq, f"<b>{nome.split('-')[2].replace('Neural', '')}</b> · {desc}", nome)
+            T.enviar_audio(arq, f"<b>{nome.split('-')[2].replace('MultilingualNeural', '').replace('Neural', '')}</b> · {desc}", nome)
         except Exception as e:
             T.enviar(f"⚠️ Edge {nome}: {T.esc(str(e))}")
     T.enviar("Me diga no Claude Code qual voz você quer em cada canal (ex.: \"Puck no Ouro & Império, "
