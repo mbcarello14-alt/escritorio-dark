@@ -1,23 +1,16 @@
 {
-  "atualizado_em": "2026-10-22T23:16:38Z",
-  "ativos": {
-    "narrador": [
-      "Ouro & Império: Wall Street não quebrou o Brasil sozinha"
-    ],
-    "editor": [
-      "Ouro & Império: Wall Street não quebrou o Brasil sozinha"
-    ]
-  },
+  "atualizado_em": "2026-10-22T23:39:41Z",
+  "ativos": {},
   "proximos": [
     {
       "canal": "historia",
       "dia": "2026-10-26",
       "rotulo": "segunda 26/10 18h00",
       "publicar_em_utc": "2026-10-26T21:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Wall Street não quebrou o Brasil sozinha",
-      "url": ""
+      "url": "https://youtu.be/3bKRUViMqo4"
     }
   ],
   "publicados": [],
