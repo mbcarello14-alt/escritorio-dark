@@ -1,8 +1,8 @@
 {
-  "atualizado_em": "2026-10-22T00:24:55Z",
+  "atualizado_em": "2026-10-22T00:33:40Z",
   "ativos": {
     "miguel": [
-      "Ouro & Império: O dia em que o café brasileiro quebrou com Wall Street"
+      "Ouro & Império: Wall Street não quebrou o Brasil sozinha"
     ]
   },
   "proximos": [
@@ -11,10 +11,14 @@
       "dia": "2026-10-26",
       "rotulo": "segunda 26/10 18h00",
       "publicar_em_utc": "2026-10-26T21:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "O dia em que o café brasileiro quebrou com Wall Street",
-      "url": ""
+      "etapa": "aguardando_audio",
+      "etapa_txt": "🎙️ esperando seus áudios",
+      "titulo": "Wall Street não quebrou o Brasil sozinha",
+      "url": "",
+      "audios": [
+        0,
+        8
+      ]
     }
   ],
   "publicados": [],

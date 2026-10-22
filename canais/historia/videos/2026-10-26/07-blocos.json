@@ -1,0 +1,398 @@
+[
+  {
+    "capitulo": "Dois vinte e quatro de outubro",
+    "cenas": [
+      {
+        "narracao": "No dia vinte e quatro de outubro fez noventa e sete anos da Quinta-feira Negra,",
+        "visual": {"tipo": "cartao", "titulo": "Quinta-feira Negra", "subtitulo": "24 de outubro de 1929"}
+      },
+      {
+        "narracao": "o dia mais famoso da quebra da Bolsa de Nova York, em mil novecentos e vinte e nove.",
+        "visual": {"tipo": "imagem", "busca": "Wall Street crowd October 1929 New York Stock Exchange crash", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Surpresa: naquela quinta, a bolsa fechou quase estável. Avança exatamente um ano.",
+        "visual": {"tipo": "ilustracao", "cena": "a calm cartoon stockbroker in a 1920s suit looking at a nearly flat stock ticker line and shrugging, then a giant calendar page flipping forward by one year", "busca_reserva": "1929 stock ticker tape machine", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Vinte e quatro de outubro de mil novecentos e trinta, Rio de Janeiro.",
+        "visual": {"tipo": "cartao", "titulo": "24 de outubro de 1930", "subtitulo": "Rio de Janeiro"}
+      },
+      {
+        "narracao": "Uma junta militar tira o presidente Washington Luís do cargo. Mesmo dia, mesmo mês.",
+        "visual": {"tipo": "ilustracao", "cena": "three comic military officers in 1930 uniforms politely lifting a startled president in a bowtie out of a huge armchair, two identical calendar pages on the wall", "busca_reserva": "Palácio Guanabara Rio de Janeiro 1930", "movimento": "pan_direita"}
+      },
+      {
+        "narracao": "Coincidência. Mas dá pra ligar as duas datas, e o que liga é o café.",
+        "visual": {"tipo": "ilustracao", "cena": "a detective-style corkboard with two calendar pages connected by a red string that leads to a steaming cup of coffee, a suspicious squinting coffee bean", "busca_reserva": "coffee beans sack vintage", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "A tese deste vídeo é esta: o crash não derrubou o Brasil sozinho.",
+        "visual": {"tipo": "cartao", "titulo": "O crash não derrubou o Brasil sozinho", "subtitulo": "A tese do vídeo"}
+      },
+      {
+        "narracao": "Ele cobrou uma conta antiga, que o país vinha empurrando com dinheiro emprestado.",
+        "visual": {"tipo": "ilustracao", "cena": "a sweating man pushing a huge boulder made of banknotes up a hill, coffee sacks tied to his back, a tiny bill waiting at the top", "busca_reserva": "Brazilian coffee sacks Santos port 1920s", "movimento": "pan_esquerda"}
+      }
+    ]
+  },
+  {
+    "capitulo": "O dono do café do mundo",
+    "cenas": [
+      {
+        "narracao": "Pra entender o tombo, volta pra mil novecentos e seis. Naquela época, o Brasil era o dono do café.",
+        "visual": {"tipo": "cartao", "titulo": "1906", "subtitulo": "O Brasil, dono do café"}
+      },
+      {
+        "narracao": "Cerca de três quartos de todo o café do mundo saíam daqui.",
+        "visual": {"tipo": "numero", "valor": "3/4", "rotulo": "de todo o café do mundo saíam do Brasil"}
+      },
+      {
+        "narracao": "Pensa num cartel do petróleo, só que de cafezinho. O problema de plantar demais é que o preço cai.",
+        "visual": {"tipo": "ilustracao", "cena": "a smug tycoon in a top hat sitting on a mountain of coffee sacks sipping a tiny espresso cup, behind him a price chart sliding down", "busca_reserva": "coffee plantation Brazil early 20th century", "movimento": "zoom_out"}
+      },
+      {
+        "narracao": "Então, em fevereiro de mil novecentos e seis, São Paulo, Minas Gerais e Rio de Janeiro fecham o Convênio de Taubaté. A ideia era simples.",
+        "visual": {"tipo": "cartao", "titulo": "Convênio de Taubaté", "subtitulo": "Fevereiro de 1906 · São Paulo, Minas Gerais e Rio de Janeiro"}
+      },
+      {
+        "narracao": "Sobrou café? O governo compra o excedente, tira do mercado e o preço fica lá em cima.",
+        "visual": {"tipo": "ilustracao", "cena": "a cheerful government clerk pushing an enormous shopping cart full of coffee sacks out of a warehouse, a price arrow floating happily upward", "busca_reserva": "coffee warehouse sacks Santos 1920s", "movimento": "pan_direita"}
+      },
+      {
+        "narracao": "E com que dinheiro? Empréstimo estrangeiro, pago com um imposto em ouro cobrado em cada saca exportada.",
+        "visual": {"tipo": "lista", "titulo": "Quem pagava a conta?", "itens": ["Empréstimo estrangeiro", "Imposto em ouro por saca exportada"]}
+      },
+      {
+        "narracao": "O presidente Rodrigues Alves se recusou a assinar. Quem ratificou foi Afonso Pena.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "Rodrigues Alves", "itens": ["Recusou-se a assinar"]}, "direita": {"titulo": "Afonso Pena", "itens": ["Ratificou o convênio"]}}
+      },
+      {
+        "narracao": "Agora pensa como fazendeiro. O governo garante que o preço não cai.",
+        "visual": {"tipo": "ilustracao", "cena": "a relaxed coffee farmer in a hammock between two coffee trees holding a signed guarantee scroll, a sleeping cat on his belly", "busca_reserva": "coffee farm Brazil 1900s painting", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "O que você faz? Planta mais, óbvio.",
+        "visual": {"tipo": "cartao", "titulo": "Planta mais, óbvio.", "subtitulo": "O que o fazendeiro faz?"}
+      },
+      {
+        "narracao": "É tipo descobrir que o rodízio é livre: ninguém para na salada. O preço garantido estimulou novos plantios.",
+        "visual": {"tipo": "ilustracao", "cena": "a man at a buffet piling a towering impossible tower of salad onto a single plate, other diners watching in awe, coffee shrubs growing out of the salad", "busca_reserva": "coffee plants rows plantation", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Novos plantios pediram novas compras. Novas compras pediram novos empréstimos.",
+        "visual": {"tipo": "lista", "titulo": "O ciclo do café", "itens": ["Preço garantido", "Novos plantios", "Novas compras", "Novos empréstimos"]}
+      },
+      {
+        "narracao": "O poder público comprou e segurou café até mil novecentos e vinte e quatro,",
+        "visual": {"tipo": "imagem", "busca": "coffee sacks Santos port 1920s", "movimento": "pan_direita"}
+      },
+      {
+        "narracao": "quando São Paulo criou o Instituto de Defesa Permanente do Café e a intervenção ficou indireta.",
+        "visual": {"tipo": "cartao", "titulo": "Instituto de Defesa Permanente do Café", "subtitulo": "São Paulo, 1924 · intervenção indireta"}
+      },
+      {
+        "narracao": "Mas a lógica não mudou. Anota essa frase, porque ela é o vídeo inteiro: segurar o preço com dinheiro emprestado.",
+        "visual": {"tipo": "citacao", "texto": "Segurar o preço com dinheiro emprestado.", "autor": "A lógica do café, de 1906 a 1930"}
+      }
+    ]
+  },
+  {
+    "capitulo": "Um produto, um cliente",
+    "cenas": [
+      {
+        "narracao": "Entre mil novecentos e vinte e seis e vinte e sete, o presidente Washington Luís põe o Brasil de volta no padrão-ouro e cria a Caixa de Estabilização.",
+        "visual": {"tipo": "cartao", "titulo": "1926–1927", "subtitulo": "Padrão-ouro e Caixa de Estabilização"}
+      },
+      {
+        "narracao": "Traduzindo: um cofre de ouro e moeda forte pra garantir o valor do mil-réis. E pra encher esse cofre, de novo, precisava de dinheiro vindo de fora.",
+        "visual": {"tipo": "ilustracao", "cena": "a big open bank vault half full of gold bars with a small worried banker looking over the sea, where a ship brings sacks of coins", "busca_reserva": "mil-réis banknote Brazil 1920s", "movimento": "zoom_out"}
+      },
+      {
+        "narracao": "Defesa do café e câmbio estável, os dois pendurados no crédito estrangeiro.",
+        "visual": {"tipo": "lista", "titulo": "Pendurados no crédito estrangeiro", "itens": ["Defesa do café", "Câmbio estável"]}
+      },
+      {
+        "narracao": "Agora olha o tamanho do risco. No começo da Depressão, o café era cerca de setenta por cento das exportações brasileiras.",
+        "visual": {"tipo": "numero", "valor": "70%", "rotulo": "das exportações brasileiras eram café"}
+      },
+      {
+        "narracao": "E uma reportagem sobre o período calcula que os Estados Unidos compravam cerca de oitenta por cento do nosso café.",
+        "visual": {"tipo": "numero", "valor": "80%", "rotulo": "do café brasileiro ia para os Estados Unidos (estimativa)"}
+      },
+      {
+        "narracao": "Ou seja, o Brasil tinha basicamente um produto e basicamente um cliente. Quem já trabalhou como pessoa jurídica pra uma empresa só sabe como isso costuma terminar.",
+        "visual": {"tipo": "ilustracao", "cena": "a nervous freelancer in a suit at a tiny desk with one coffee sack, facing a single gigantic client whose huge hand holds the only paycheck", "busca_reserva": "Brazil coffee exports 1920s graph", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "E tem um detalhe que muito resumo pula. A crise do café não começou com o crash.",
+        "visual": {"tipo": "cartao", "titulo": "A crise do café não começou com o crash", "subtitulo": "O detalhe que muito resumo pula"}
+      },
+      {
+        "narracao": "Em mil novecentos e vinte e nove já se estimava que a safra de mil novecentos e trinta e trinta e um ia chegar perto de trinta milhões de sacas.",
+        "visual": {"tipo": "numero", "valor": "30 milhões", "rotulo": "de sacas previstas para a safra de 1930/31"}
+      },
+      {
+        "narracao": "Muito café, e o governo ia ter que comprar de novo pra segurar o preço. Superprodução de um lado, dependência de empréstimo do outro.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "Superprodução", "itens": ["Safra gigante", "Governo teria de comprar de novo"]}, "direita": {"titulo": "Dependência de empréstimo", "itens": ["Defesa do café", "Câmbio estável"]}}
+      },
+      {
+        "narracao": "A casa já estava rachada. Wall Street só chegou com a marreta.",
+        "visual": {"tipo": "ilustracao", "cena": "an old house with a big crack running down its wall while a giant wrecking ball shaped like a skyscraper cluster swings toward it", "busca_reserva": "Wall Street 1929 skyscrapers", "movimento": "pan_esquerda"}
+      }
+    ]
+  },
+  {
+    "capitulo": "O crédito seca",
+    "cenas": [
+      {
+        "narracao": "E o problema começou antes de outubro. Em mil novecentos e vinte e oito e vinte e nove, os juros subiram nos Estados Unidos, numa tentativa de esfriar a bolha da bolsa.",
+        "visual": {"tipo": "cartao", "titulo": "Juros sobem nos EUA", "subtitulo": "1928–1929 · tentativa de esfriar a bolha da bolsa"}
+      },
+      {
+        "narracao": "Juro alto lá faz o dinheiro preferir ficar lá. O fluxo de capital que vinha pro Brasil desde vinte e seis secou.",
+        "visual": {"tipo": "ilustracao", "cena": "a river of gold coins flowing north away from a dry cracked riverbed shaped like Brazil, a thirsty coffee plant drooping", "busca_reserva": "Brazil map 1920s coffee regions", "movimento": "pan_esquerda"}
+      },
+      {
+        "narracao": "Enquanto isso, em Nova York, a festa seguia. Em três de setembro de mil novecentos e vinte e nove, o índice Dow Jones bateu o pico: trezentos e oitenta e um pontos.",
+        "visual": {"tipo": "numero", "valor": "381", "rotulo": "pontos no Dow Jones, o pico de 3 de setembro de 1929"}
+      },
+      {
+        "narracao": "Aí chega a quinta, vinte e quatro de outubro. A bolsa abre em pânico e chega a despencar cerca de onze por cento nas primeiras horas.",
+        "visual": {"tipo": "ilustracao", "cena": "panicked cartoon traders in 1920s suits waving paper slips in a crowded trading hall, ticker tape flying like confetti, a falling red arrow on the wall board", "busca_reserva": "New York Stock Exchange floor 1929", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Um grupo de banqueiros, entre eles Charles Mitchell, do National City Bank, entra comprando ações em bloco pra acalmar o mercado. E funciona.",
+        "visual": {"tipo": "cartao", "titulo": "Banqueiros entram comprando", "subtitulo": "Charles Mitchell, do National City Bank, entre eles"}
+      },
+      {
+        "narracao": "Por um tempo. O índice fecha quase estável.",
+        "visual": {"tipo": "ilustracao", "cena": "relieved cartoon traders wiping sweat from their foreheads under a steady stock board, while a tiny crack appears on the clock above them", "busca_reserva": "stock ticker tape 1929", "movimento": "zoom_out"}
+      },
+      {
+        "narracao": "Depois de um fim de semana de nervos, a segunda, vinte e oito, trouxe uma queda de quase treze por cento.",
+        "visual": {"tipo": "numero", "valor": "-13%", "rotulo": "segunda-feira, 28 de outubro de 1929"}
+      },
+      {
+        "narracao": "Na terça, mais quase doze. Em dois dias, a bolsa perdeu perto de um quarto do valor.",
+        "visual": {"tipo": "lista", "titulo": "Dois dias de queda", "itens": ["Segunda, 28: quase 13% a menos", "Terça, 29: mais quase 12%", "Perda: perto de um quarto do valor"]}
+      },
+      {
+        "narracao": "E naquele mesmo outubro, um segundo empréstimo que o Rio Grande do Sul negociava com bancos americanos foi cancelado.",
+        "visual": {"tipo": "ilustracao", "cena": "an American banker in a top hat tearing up a loan contract while a dismayed gaucho in a poncho watches, cattle in the background", "busca_reserva": "Rio Grande do Sul 1920s gaucho", "movimento": "pan_direita"}
+      },
+      {
+        "narracao": "O dinheiro sumiu antes mesmo de o preço do café desabar de vez.",
+        "visual": {"tipo": "cartao", "titulo": "O dinheiro sumiu", "subtitulo": "antes de o preço do café desabar de vez"}
+      }
+    ]
+  },
+  {
+    "capitulo": "O cofre vazio",
+    "cenas": [
+      {
+        "narracao": "Agora soma as três coisas. O maior cliente entra em crise, o crédito que segurava os estoques some e tem uma safra enorme vindo aí.",
+        "visual": {"tipo": "lista", "titulo": "Os três golpes", "itens": ["Maior cliente em crise", "Crédito que segurava os estoques some", "Safra enorme a caminho"]}
+      },
+      {
+        "narracao": "O preço do café despenca. E não foi tombo de um mês.",
+        "visual": {"tipo": "ilustracao", "cena": "a terrified coffee bean riding a roller coaster that plunges down a steep drop, price arrow diving with it", "busca_reserva": "coffee price chart 1930s", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Um estudo da PUC do Rio aponta que, em mil novecentos e trinta e dois, os preços estavam em cerca de um terço do nível de vinte e nove.",
+        "visual": {"tipo": "numero", "valor": "1/3", "rotulo": "do preço de 1929, em 1932 (estudo da PUC-Rio)"}
+      },
+      {
+        "narracao": "Imagina o seu salário virar um terço em três anos e o boleto continuar igualzinho. Era essa a vida do fazendeiro endividado.",
+        "visual": {"tipo": "ilustracao", "cena": "a farmer holding a tiny pay envelope in one hand and a huge pile of unpaid bills towering above him in the other, sweat drops flying", "busca_reserva": "coffee farmer Brazil 1930s", "movimento": "pan_esquerda"}
+      },
+      {
+        "narracao": "E o governo? Segundo o mesmo estudo, Washington Luís adotou a postura de esperar pra ver.",
+        "visual": {"tipo": "cartao", "titulo": "Esperar pra ver", "subtitulo": "A postura de Washington Luís, segundo estudo da PUC-Rio"}
+      },
+      {
+        "narracao": "Manteve a conversibilidade, ou seja, seguiu trocando mil-réis por ouro como se estivesse tudo normal. Só que o dinheiro saía e não entrava.",
+        "visual": {"tipo": "ilustracao", "cena": "a smiling bank teller calmly exchanging banknotes for gold bars at a counter as if all is normal, while gold bars slide out through a back door into a wheelbarrow", "busca_reserva": "gold bars bank vault 1920s", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Ainda segundo esse estudo, em agosto de mil novecentos e trinta as reservas da Caixa de Estabilização estavam praticamente esgotadas, e o mil-réis se desvalorizou forte.",
+        "visual": {"tipo": "lista", "titulo": "Agosto de 1930", "itens": ["Reservas da Caixa praticamente esgotadas", "Mil-réis se desvaloriza forte"]}
+      },
+      {
+        "narracao": "O clima era de nervos à flor da pele. Em abril daquele ano, o Banco Popular já tinha pedido falência depois de uma corrida bancária,",
+        "visual": {"tipo": "cartao", "titulo": "Abril de 1930", "subtitulo": "O Banco Popular pede falência"}
+      },
+      {
+        "narracao": "aquela cena de todo mundo correndo pra sacar ao mesmo tempo.",
+        "visual": {"tipo": "ilustracao", "cena": "a crowd of cartoon people in 1930s hats and dresses stampeding toward a bank teller window, coins and hats flying, the teller hiding behind the counter", "busca_reserva": "bank run 1930s crowd", "movimento": "pan_direita"}
+      },
+      {
+        "narracao": "E parte da oligarquia paulista do café começou a se afastar do presidente.",
+        "visual": {"tipo": "cartao", "titulo": "Oligarquia paulista do café", "subtitulo": "começa a se afastar do presidente"}
+      }
+    ]
+  },
+  {
+    "capitulo": "Gasolina no fogo",
+    "cenas": [
+      {
+        "narracao": "Esse é o ponto em que a maioria dos resumos erra. A briga política começou antes do crash.",
+        "visual": {"tipo": "cartao", "titulo": "A briga veio antes do crash", "subtitulo": "O ponto em que a maioria dos resumos erra"}
+      },
+      {
+        "narracao": "A Primeira República rodava no esquema café com leite, com São Paulo e Minas Gerais se alternando no poder.",
+        "visual": {"tipo": "ilustracao", "cena": "a coffee cup and a milk jug wearing presidential sashes, sitting on opposite sides of a throne and passing a crown back and forth", "busca_reserva": "Primeira República café com leite caricature", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Washington Luís quebrou o acordo e apoiou outro paulista, Júlio Prestes, pra sucessão. O governador de Minas, Antônio Carlos de Andrada, rompeu com ele e foi pra oposição.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "São Paulo", "itens": ["Washington Luís quebra o acordo", "Apoia Júlio Prestes"]}, "direita": {"titulo": "Minas Gerais", "itens": ["Antônio Carlos de Andrada rompe", "Vai para a oposição"]}}
+      },
+      {
+        "narracao": "Em mil novecentos e vinte e nove, antes da Quinta-feira Negra, a Aliança Liberal lançou Getúlio Vargas, com João Pessoa de vice.",
+        "visual": {"tipo": "cartao", "titulo": "Aliança Liberal", "subtitulo": "1929 · Getúlio Vargas, com João Pessoa de vice"}
+      },
+      {
+        "narracao": "Na eleição de primeiro de março de mil novecentos e trinta, Prestes fez um milhão e noventa e um mil votos, contra setecentos e quarenta e dois mil de Vargas.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "Júlio Prestes", "itens": ["1.091.000 votos"]}, "direita": {"titulo": "Getúlio Vargas", "itens": ["742.000 votos"]}}
+      },
+      {
+        "narracao": "Em vinte e seis de julho, João Pessoa foi assassinado, e o país ficou ainda mais tenso. Em três de outubro começou o movimento armado.",
+        "visual": {"tipo": "lista", "titulo": "Rumo a outubro de 1930", "itens": ["1º de março: eleição", "26 de julho: João Pessoa é assassinado", "3 de outubro: começa o movimento armado"]}
+      },
+      {
+        "narracao": "E em vinte e quatro de outubro de mil novecentos e trinta, um ano cravado depois da Quinta-feira Negra, uma junta militar depôs Washington Luís.",
+        "visual": {"tipo": "imagem", "busca": "Revolution of 1930 Brazil gaucho soldiers horses obelisk Rio de Janeiro", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Prestes nunca tomou posse. Em três de novembro, Vargas assumiu o Governo Provisório, e acabou a Primeira República.",
+        "visual": {"tipo": "numero", "valor": "1930", "rotulo": "Vargas assume em 3 de novembro e acaba a Primeira República"}
+      },
+      {
+        "narracao": "Então o crash causou a Revolução de Trinta? Não.",
+        "visual": {"tipo": "cartao", "titulo": "O crash causou a Revolução de Trinta?", "subtitulo": "Não."}
+      },
+      {
+        "narracao": "O conflito já estava armado. Muitos historiadores veem assim: o que a crise fez foi tirar o chão do governo.",
+        "visual": {"tipo": "ilustracao", "cena": "a group of bespectacled scholars pointing at a wooden floor collapsing under a government desk and a pile of papers, a barrel of fireworks already waiting nearby", "busca_reserva": "Palácio do Catete Rio de Janeiro 1930", "movimento": "zoom_out"}
+      },
+      {
+        "narracao": "Com o café afundando, o presidente tinha muito menos com o que segurar os aliados.",
+        "visual": {"tipo": "cartao", "titulo": "Café afundando", "subtitulo": "menos com o que segurar os aliados"}
+      },
+      {
+        "narracao": "O crash não acendeu o fogo. Ele jogou gasolina.",
+        "visual": {"tipo": "ilustracao", "cena": "an unlit match lying on the ground next to a giant tipped-over gasoline can, pouring fuel onto a big roaring campfire, a bystander covering his eyes", "busca_reserva": "bonfire flames dark background", "movimento": "zoom_in"}
+      }
+    ]
+  },
+  {
+    "capitulo": "Queimando café",
+    "cenas": [
+      {
+        "narracao": "E o café? Aqui vem a parte mais surreal.",
+        "visual": {"tipo": "ilustracao", "cena": "a wide-eyed coffee bean character peeking from behind a curtain at a surreal landscape with melting clocks and floating coffee sacks", "busca_reserva": "surreal melting clocks painting", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "O governo novo voltou a comprar café, em parte com crédito externo, inclusive de bancos ingleses,",
+        "visual": {"tipo": "lista", "titulo": "O novo governo volta a comprar café", "itens": ["Em parte com crédito externo", "Inclusive de bancos ingleses"]}
+      },
+      {
+        "narracao": "e em mil novecentos e trinta e um criou o Conselho Nacional do Café, que dois anos depois virou Departamento.",
+        "visual": {"tipo": "cartao", "titulo": "Conselho Nacional do Café", "subtitulo": "Criado em 1931 · dois anos depois virou Departamento"}
+      },
+      {
+        "narracao": "Segundo uma estimativa publicada na imprensa, o governo chegou a comprar cerca de dezoito milhões de sacas.",
+        "visual": {"tipo": "numero", "valor": "18 milhões", "rotulo": "de sacas compradas pelo governo (estimativa da imprensa)"}
+      },
+      {
+        "narracao": "E o que fazer com uma montanha de café que ninguém quer comprar?",
+        "visual": {"tipo": "ilustracao", "cena": "a tiny government clerk scratching his head at the foot of a mountain of coffee sacks as tall as a skyscraper", "busca_reserva": "coffee sacks stacked warehouse", "movimento": "zoom_out"}
+      },
+      {
+        "narracao": "Em junho de mil novecentos e trinta e um, na Baixada Santista, tocaram fogo.",
+        "visual": {"tipo": "imagem", "busca": "burning coffee Brazil 1930s", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "A queima voltou em ondas até mil novecentos e quarenta e quatro. Ao longo desses anos, foram dezenas de milhões de sacas.",
+        "visual": {"tipo": "numero", "valor": "1931–1944", "rotulo": "anos de queima de café, dezenas de milhões de sacas"}
+      },
+      {
+        "narracao": "Café que o próprio governo tinha comprado, virando fumaça.",
+        "visual": {"tipo": "ilustracao", "cena": "a government worker feeding coffee sacks into a huge bonfire, the smoke curling into the shape of a giant coffee cup, stunned bystanders watching", "busca_reserva": "coffee burning Santos 1931", "movimento": "pan_direita"}
+      },
+      {
+        "narracao": "Parece loucura. Mas o economista Celso Furtado argumenta que não foi bem assim.",
+        "visual": {"tipo": "cartao", "titulo": "Celso Furtado", "subtitulo": "O economista que defende outra leitura"}
+      },
+      {
+        "narracao": "Pra ele, comprar e destruir café, com crédito interno e mil-réis desvalorizado, socializou as perdas.",
+        "visual": {"tipo": "lista", "titulo": "Comprar e destruir café, segundo Furtado", "itens": ["Crédito interno", "Mil-réis desvalorizado", "Perdas socializadas"]}
+      },
+      {
+        "narracao": "O prejuízo do fazendeiro foi espalhado pela sociedade, mas a renda dentro do país se sustentou, e isso acabou ajudando a indústria.",
+        "visual": {"tipo": "ilustracao", "cena": "a giant blanket labeled with a loss being spread gently over a crowd of ordinary people while a relieved farmer steps out, and factory chimneys start puffing smoke in the background", "busca_reserva": "São Paulo factories 1930s industrial", "movimento": "pan_esquerda"}
+      },
+      {
+        "narracao": "E os anos trinta foram mesmo de crescimento forte da indústria.",
+        "visual": {"tipo": "cartao", "titulo": "Anos 1930", "subtitulo": "Crescimento forte da indústria"}
+      },
+      {
+        "narracao": "Uma reportagem do Jornal do Comércio diz que, no fim da década, a produção industrial era o dobro da de vinte e nove.",
+        "visual": {"tipo": "numero", "valor": "2x", "rotulo": "a produção industrial do fim da década frente a 1929"}
+      },
+      {
+        "narracao": "Quanto disso veio da política do café é justamente o que se discute.",
+        "visual": {"tipo": "ilustracao", "cena": "a detective with a magnifying glass inspecting a factory smokestack and a coffee sack side by side, puzzled, question marks floating above his hat", "busca_reserva": "Brazilian factory 1930s industrialization", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Um estudo de Del Fiori, de dois mil e treze, contesta Furtado e argumenta que a renda do café caiu ao longo dos anos trinta.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "Celso Furtado", "itens": ["Perdas socializadas", "Renda sustentada, indústria ajudada"]}, "direita": {"titulo": "Del Fiori (2013)", "itens": ["Contesta Furtado", "Renda do café caiu nos anos 1930"]}}
+      },
+      {
+        "narracao": "Então a pergunta fica de pé: queimar café foi desperdício ou foi a saída possível?",
+        "visual": {"tipo": "ilustracao", "cena": "a balance scale with a burning coffee sack on one plate and a lifebuoy on the other, perfectly level, a puzzled crowd looking on", "busca_reserva": "balance scale antique", "movimento": "zoom_in"}
+      }
+    ]
+  },
+  {
+    "capitulo": "A conta chega",
+    "cenas": [
+      {
+        "narracao": "Então, o que ligou uma quinta-feira em Nova York ao dia em que caiu um presidente no Rio? Dinheiro emprestado.",
+        "visual": {"tipo": "ilustracao", "cena": "a long chain of gold coins stretching across the ocean connecting a New York skyscraper to a Rio de Janeiro palace, a coffee cup riding the chain like a cable car", "busca_reserva": "Atlantic ocean liner 1920s", "movimento": "pan_direita"}
+      },
+      {
+        "narracao": "O Brasil passou mais de vinte anos segurando o preço do café com crédito de fora. Enquanto esse crédito chegava, parecia genial.",
+        "visual": {"tipo": "numero", "valor": "20+", "rotulo": "anos segurando o preço do café com crédito de fora"}
+      },
+      {
+        "narracao": "Quando ele parou de chegar, o preço caiu, o cofre esvaziou",
+        "visual": {"tipo": "ilustracao", "cena": "a tightrope walker made of a coffee sack on a rope held by bags of coins, the rope snapping, an empty vault gaping below", "busca_reserva": "circus tightrope vintage illustration", "movimento": "zoom_out"}
+      },
+      {
+        "narracao": "e a aliança que sustentava a República não aguentou o tranco. Wall Street não derrubou o Brasil sozinha.",
+        "visual": {"tipo": "cartao", "titulo": "Wall Street não derrubou o Brasil sozinha", "subtitulo": "A aliança que sustentava a República não aguentou"}
+      },
+      {
+        "narracao": "Ela cobrou uma conta que o país vinha empurrando desde mil novecentos e seis.",
+        "visual": {"tipo": "ilustracao", "cena": "a waiter handing a gigantic long restaurant bill that unrolls to the floor to a startled cartoon man holding a coffee cup, a calendar reading far in the past on the wall", "busca_reserva": "old restaurant bill receipt vintage", "movimento": "zoom_in"}
+      },
+      {
+        "narracao": "Se você vai fazer o Enem, esses quatro capítulos andam juntos:",
+        "visual": {"tipo": "cartao", "titulo": "Se você vai fazer o Enem", "subtitulo": "Quatro capítulos que andam juntos"}
+      },
+      {
+        "narracao": "café com leite, crise de vinte e nove, Revolução de Trinta e começo da industrialização.",
+        "visual": {"tipo": "lista", "titulo": "Os quatro capítulos", "itens": ["Café com leite", "Crise de 1929", "Revolução de 1930", "Começo da industrialização"]}
+      },
+      {
+        "narracao": "E agora me conta nos comentários:",
+        "visual": {"tipo": "cartao", "titulo": "Agora é com você", "subtitulo": "Conta nos comentários"}
+      },
+      {
+        "narracao": "se você estivesse no lugar do Washington Luís em mil novecentos e trinta, com o preço caindo e o cofre esvaziando, o que teria feito?",
+        "visual": {"tipo": "ilustracao", "cena": "a cartoon president in a 1930 suit and bowtie scratching his head at a desk, a falling price chart on one side and an empty vault on the other, a big question mark above him", "busca_reserva": "1930s presidential office desk", "movimento": "zoom_in"}
+      }
+    ]
+  }
+]
