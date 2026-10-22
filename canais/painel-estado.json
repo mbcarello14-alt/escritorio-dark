@@ -1,7 +1,16 @@
 {
-  "atualizado_em": "2026-10-21T23:53:59Z",
+  "atualizado_em": "2026-10-22T00:06:14Z",
   "ativos": {
-    "miguel": [
+    "pesquisador": [
+      "Ouro & Império: sexta 23/10 18h00"
+    ],
+    "roteirista": [
+      "Ouro & Império: sexta 23/10 18h00"
+    ],
+    "checador": [
+      "Ouro & Império: sexta 23/10 18h00"
+    ],
+    "guardiao": [
       "Ouro & Império: sexta 23/10 18h00"
     ]
   },
@@ -11,8 +20,8 @@
       "dia": "2026-10-23",
       "rotulo": "sexta 23/10 18h00",
       "publicar_em_utc": "2026-10-23T21:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
+      "etapa": "roteiro",
+      "etapa_txt": "✍️ escrevendo e checando o roteiro",
       "titulo": "",
       "url": ""
     }
