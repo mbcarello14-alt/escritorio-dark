@@ -21,6 +21,7 @@ permissions:
 env:
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
   HF_API_KEY_ID: ${{ secrets.HF_API_KEY_ID }}
   HF_API_KEY_SECRET: ${{ secrets.HF_API_KEY_SECRET }}
   YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}

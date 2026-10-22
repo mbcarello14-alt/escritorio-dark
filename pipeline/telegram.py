@@ -82,6 +82,13 @@ def enviar_arquivo(caminho: Path, legenda: str = "") -> int:
                     files={"document": f})["message_id"]
 
 
+def enviar_audio(caminho: Path, legenda: str = "", titulo: str = "") -> int:
+    with open(caminho, "rb") as f:
+        return _api("sendAudio", data={"chat_id": chat_id(), "caption": legenda[:1000], "parse_mode": "HTML",
+                                       "title": titulo or caminho.stem, "performer": "Escritório Dark"},
+                    files={"audio": (caminho.name, f, "audio/mpeg")})["message_id"]
+
+
 def baixar(file_id: str, destino: Path) -> Path:
     info = _api("getFile", json={"file_id": file_id})
     r = requests.get(f"https://api.telegram.org/file/bot{_token()}/{info['file_path']}", timeout=300)

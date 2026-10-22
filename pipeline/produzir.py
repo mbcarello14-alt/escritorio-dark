@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -121,10 +122,15 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
     if erros:
         raise SystemExit("producao.json inválido:\n- " + "\n- ".join(erros))
     cfg = carregar_config(prod["canal"])
-    motor = motor_voz or cfg["voz"]["motor"]
+    motor = motor_voz or os.environ.get("MOTOR_VOZ") or cfg["voz"]["motor"]
+    if isinstance(motor, list) and motor == ["gravada"]:
+        motor = "gravada"
     tmp = pasta / "saida" / "tmp"
     tmp.mkdir(parents=True, exist_ok=True)
     ctx = Contexto(cfg, pasta, tmp, sem_rede)
+    if motor != "gravada":
+        from .voz import escolher_motor
+        motor = escolher_motor(cfg, tmp, motor)
 
     ja = pasta / "publicacao.json"
     if not sem_upload and ja.exists() and json.loads(ja.read_text(encoding="utf-8")).get("video_id"):
@@ -183,7 +189,7 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
     if musica:
         partes.append(f"Trilha: {musica.stem}")
     if motor != "gravada":
-        partes.append("Narração com voz sintética.")
+        partes.append("Narração com voz gerada por IA.")
     if prod.get("hashtags"):
         partes.append(" ".join(prod["hashtags"][:3]))
     descricao = "\n\n".join(partes)[:5000]
@@ -194,6 +200,7 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         "sintetico_realista": prod.get("sintetico_realista", False),
         "duracao_s": round(t, 1), "cenas": idx,
         "ilustracoes_ia": ctx.ilustrador.gerados if ctx.ilustrador else 0,
+        "narrador": motor,
         "gerado_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
     if not sem_upload:

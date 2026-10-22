@@ -5,7 +5,8 @@ nome: "Ouro & Império"
 segredo_youtube: YT_REFRESH_HISTORIA   # nome do segredo no GitHub com o token deste canal
 
 voz:
-  motor: gravada         # gravada (sua voz pelo Telegram) | kokoro (grátis) | edge (grátis, não oficial) | openai (pago)
+  motor: [google, edge]   # IA: Google Chirp 3 HD, reserva Edge · use 'gravada' para narrar você mesmo
+  google_voz: pt-BR-Chirp3-HD-Puck
   kokoro_voz: pm_alex    # vozes pt-BR do Kokoro: pm_alex, pm_santa, pf_dora
   edge_voz: pt-BR-AntonioNeural
   openai_voz: onyx

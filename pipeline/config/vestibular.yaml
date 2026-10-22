@@ -5,7 +5,8 @@ nome: "Mapeado"
 segredo_youtube: YT_REFRESH_VESTIBULAR
 
 voz:
-  motor: gravada
+  motor: [google, edge]   # IA: Google Chirp 3 HD, reserva Edge · use 'gravada' para narrar você mesmo
+  google_voz: pt-BR-Chirp3-HD-Kore
   kokoro_voz: pf_dora
   edge_voz: pt-BR-FranciscaNeural
   openai_voz: nova

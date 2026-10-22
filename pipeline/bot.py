@@ -101,8 +101,20 @@ def enviar_roteiro(pasta: Path) -> None:
     E.salvar_estado(pasta, etapa="aguardando_aprovacao")
 
 
+def _narra_sozinho(pasta: Path) -> bool:
+    from .comum import carregar_config
+    m = carregar_config(E.ler_estado(pasta)["canal"])["voz"]["motor"]
+    return m != "gravada" and m != ["gravada"]
+
+
 def enviar_blocos(pasta: Path) -> None:
     prod = json.loads((pasta / "producao.json").read_text(encoding="utf-8"))
+    if _narra_sozinho(pasta):
+        E.salvar_estado(pasta, etapa="renderizando", titulo=prod["titulo"])
+        T.enviar(f"🎬 {_cabecalho(pasta)}\n<b>{esc(prod['titulo'])}</b>\n\nO narrador de IA está gravando e o vídeo "
+                 "está sendo montado (uns 30–60 min). Te mando a thumbnail e o link quando estiver agendado.")
+        _saida(produzir=E.rel(pasta))
+        return
     total = len(prod["blocos"])
     T.enviar(f"🎙️ {_cabecalho(pasta)}\n<b>{esc(prod['titulo'])}</b>\n\nHora de gravar! São {total} blocos. "
              "Responda <b>cada mensagem</b> com um áudio lendo aquele bloco. Errou? Mande de novo — vale o último. "
@@ -157,6 +169,8 @@ AJUDA = ("🤖 <b>Comandos</b>\n"
          "/status — o que está em produção\n"
          "/pauta historia | vestibular | livros — começa um vídeo extra agora\n"
          "/lote — pede as pautas dos próximos dias da rotina\n"
+         "/vozes — ouvir as vozes do narrador de IA\n"
+         "/narrar — o narrador de IA grava um vídeo que estava esperando seus áudios\n"
          "/ajuda — esta mensagem\n\n"
          "No dia a dia é só <b>responder</b> às mensagens: número da pauta, \"aprovar\" no roteiro e áudio em cada bloco.")
 
@@ -221,6 +235,18 @@ def receber(evento: dict) -> None:
             pastas = planejar(canal)
             if pastas:
                 _saida(comando=f"/pautas {' '.join(E.rel(p) for p in pastas)}", pos="enviar-pautas")
+        elif cmd == "/narrar":
+            alvo = [p for p, e in E.todos_videos() if e.get("etapa") == "aguardando_audio"]
+            if not alvo:
+                T.enviar("Nenhum vídeo está esperando gravação.")
+                return
+            for p in alvo:
+                E.salvar_estado(p, etapa="renderizando")
+                T.enviar(f"🎬 {_cabecalho(p)}\nO narrador de IA assumiu este vídeo. Montando agora (uns 30–60 min).")
+            _saida(produzir=E.rel(alvo[0]))
+        elif cmd == "/vozes":
+            _saida(vozes="sim")
+            T.enviar("🎧 Gerando amostras das vozes… chegam aqui em 2–3 minutos.")
         elif cmd == "/lote":
             pastas = planejar()
             if pastas:

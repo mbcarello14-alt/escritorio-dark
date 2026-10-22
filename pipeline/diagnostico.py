@@ -19,6 +19,7 @@ SEGREDOS = {
     "YT_REFRESH_HISTORIA": "acesso ao canal Ouro & Império",
     "YT_REFRESH_VESTIBULAR": "acesso ao canal Mapeado",
     "YT_REFRESH_LIVROS": "acesso ao canal Marca-Página",
+    "GOOGLE_TTS_API_KEY": "narrador de IA do Google",
     "HF_API_KEY_ID": "Higgsfield (opcional)",
     "HF_API_KEY_SECRET": "Higgsfield (opcional)",
     "CLOUDFLARE_API_TOKEN": "Cloudflare (recepção instantânea do Telegram)",

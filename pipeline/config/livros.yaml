@@ -5,7 +5,8 @@ nome: "Marca-Página"
 segredo_youtube: YT_REFRESH_LIVROS
 
 voz:
-  motor: gravada
+  motor: [google, edge]   # IA: Google Chirp 3 HD, reserva Edge · use 'gravada' para narrar você mesmo
+  google_voz: pt-BR-Chirp3-HD-Charon
   kokoro_voz: pm_santa
   edge_voz: pt-BR-AntonioNeural
   openai_voz: echo
