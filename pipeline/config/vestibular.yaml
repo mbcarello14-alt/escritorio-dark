@@ -6,9 +6,9 @@ segredo_youtube: YT_REFRESH_VESTIBULAR
 
 voz:
   motor: [gemini, google, edge]   # IA: Gemini TTS (natural), reservas Google e Edge · 'gravada' = você narra
-  gemini_voz: Kore
+  gemini_voz: Orus
   gemini_tom: >-
-    Narre em português do Brasil, com sotaque brasileiro neutro, como uma professora jovem, animada e muito clara explicando para vestibulandos enquanto desenha no quadro: ritmo tranquilo, ênfase nas palavras-chave, tom acolhedor.
+    Narre em português do Brasil, com sotaque brasileiro neutro, como um professor jovem, animado e muito claro explicando para vestibulandos enquanto desenha no quadro: ritmo tranquilo, ênfase nas palavras-chave, tom acolhedor.
   google_voz: pt-BR-Chirp3-HD-Kore
   kokoro_voz: pf_dora
   edge_voz: pt-BR-FranciscaNeural

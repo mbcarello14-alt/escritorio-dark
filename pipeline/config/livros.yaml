@@ -6,9 +6,9 @@ segredo_youtube: YT_REFRESH_LIVROS
 
 voz:
   motor: [gemini, google, edge]   # IA: Gemini TTS (natural), reservas Google e Edge · 'gravada' = você narra
-  gemini_voz: Charon
+  gemini_voz: Leda
   gemini_tom: >-
-    Narre em português do Brasil, com sotaque brasileiro neutro, como um apresentador inteligente e bem-humorado comentando um livro com um amigo: tom de conversa, opinião firme, ironia leve e pausas para reflexão.
+    Narre em português do Brasil, com sotaque brasileiro neutro, como uma apresentadora inteligente e bem-humorada comentando um livro com uma amiga: tom de conversa, opinião firme, ironia leve e pausas para reflexão.
   google_voz: pt-BR-Chirp3-HD-Charon
   kokoro_voz: pm_santa
   edge_voz: pt-BR-AntonioNeural

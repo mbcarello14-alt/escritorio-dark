@@ -25,7 +25,7 @@ Ficção contemporânea entra depois, se os dados mostrarem demanda.
 - **Estilo visual:** ilustrações próprias das ideias (diagramas, metáforas visuais, tipografia animada), consistentes no canal todo; capa do livro aparece só como identificação
 
 ## Ferramentas (automatizadas)
-- **Voz:** o Miguel grava cada bloco pelo Telegram
+- **Voz:** narradora de IA Gemini (Leda), tom de conversa inteligente
 - **Imagens:** Higgsfield (ilustrações, estilo Tinocando: ilustrações próprias com humor e cortes rápidos) + acervos livres (Wikimedia Commons, Openverse)
 - **Edição, legendas, thumbnail e upload:** motor automático (`pipeline/`)
 

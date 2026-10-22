@@ -23,7 +23,7 @@
 - **Estilo visual:** Draw My Life — quadro branco, doodles e o mapa mental sendo desenhados por um canetão conforme a fala; ao final, o mapa completo fica na tela para o aluno pausar e printar
 
 ## Ferramentas (automatizadas)
-- **Voz:** o Miguel grava cada bloco pelo Telegram
+- **Voz:** narrador de IA Gemini (Orus), tom de professor jovem e claro
 - **Imagens:** Higgsfield (ilustrações, Draw My Life: quadro branco, desenhos e mapa mental aparecendo traço a traço) + acervos livres (Wikimedia Commons, Openverse)
 - **Edição, legendas, thumbnail e upload:** motor automático (`pipeline/`)
 

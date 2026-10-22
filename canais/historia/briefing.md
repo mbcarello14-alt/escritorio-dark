@@ -22,7 +22,7 @@
 - **Estilo visual:** ilustrações 2D bem-humoradas (Higgsfield) misturadas a pinturas, moedas, mapas e documentos de domínio público; cortes a cada 4–8 s
 
 ## Ferramentas (automatizadas)
-- **Voz:** o Miguel grava cada bloco pelo Telegram
+- **Voz:** narrador de IA Gemini (Charon), tom de youtuber bem-humorado
 - **Imagens:** Higgsfield (ilustrações, estilo Tinocando: ilustrações próprias com humor e cortes rápidos) + acervos livres (Wikimedia Commons, Openverse)
 - **Edição, legendas, thumbnail e upload:** motor automático (`pipeline/`)
 
