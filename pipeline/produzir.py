@@ -129,8 +129,22 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
     tmp.mkdir(parents=True, exist_ok=True)
     ctx = Contexto(cfg, pasta, tmp, sem_rede)
     if motor != "gravada":
-        from .voz import escolher_motor
-        motor = escolher_motor(cfg, tmp, motor)
+        lista = motor if isinstance(motor, list) else [m.strip() for m in str(motor).split(",")]
+        if "gemini" in lista:
+            try:
+                from .gemini_voz import narrar_blocos
+                narrar_blocos(pasta, prod, cfg)
+                motor = "gravada"
+                narrador = "gemini"
+            except Exception as e:
+                log.warning("narrador Gemini indisponível (%s) — usando o próximo da lista", e)
+                lista = [m for m in lista if m != "gemini"]
+        if motor != "gravada":
+            from .voz import escolher_motor
+            motor = escolher_motor(cfg, tmp, lista)
+            narrador = motor
+    else:
+        narrador = "Miguel"
 
     ja = pasta / "publicacao.json"
     if not sem_upload and ja.exists() and json.loads(ja.read_text(encoding="utf-8")).get("video_id"):
@@ -188,7 +202,7 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         partes.append("Ilustrações criadas com auxílio de IA.")
     if musica:
         partes.append(f"Trilha: {musica.stem}")
-    if motor != "gravada":
+    if narrador != "Miguel":
         partes.append("Narração com voz gerada por IA.")
     if prod.get("hashtags"):
         partes.append(" ".join(prod["hashtags"][:3]))
@@ -200,7 +214,7 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         "sintetico_realista": prod.get("sintetico_realista", False),
         "duracao_s": round(t, 1), "cenas": idx,
         "ilustracoes_ia": ctx.ilustrador.gerados if ctx.ilustrador else 0,
-        "narrador": motor,
+        "narrador": narrador,
         "gerado_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
     if not sem_upload:

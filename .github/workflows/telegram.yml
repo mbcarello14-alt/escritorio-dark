@@ -45,7 +45,8 @@ jobs:
         if: steps.bot.outputs.vozes != ''
         env:
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
-        run: pip install -q edge-tts && python -m pipeline.amostras
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: sudo apt-get install -y -qq ffmpeg >/dev/null 2>&1; pip install -q edge-tts && python -m pipeline.amostras
 
       - name: Entregar no Telegram
         id: entrega

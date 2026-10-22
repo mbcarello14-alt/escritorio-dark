@@ -35,8 +35,33 @@ def _edge(nome: str, destino: Path) -> None:
     asyncio.run(edge_tts.Communicate(TEXTO, nome).save(str(destino)))
 
 
+GEMINI = [("Puck", "masculina, animada"), ("Charon", "masculina, grave"), ("Fenrir", "masculina, enérgica"),
+          ("Orus", "masculina, firme"), ("Kore", "feminina, clara"), ("Aoede", "feminina, leve"),
+          ("Leda", "feminina, jovem"), ("Zephyr", "feminina, brilhante")]
+
+
+def _gemini(nome: str, destino: Path) -> None:
+    from .gemini_voz import TOM_PADRAO, sintetizar
+    from .comum import rodar
+    wav = destino.with_suffix(".wav")
+    sintetizar(TEXTO, nome, TOM_PADRAO, wav)
+    rodar(["ffmpeg", "-nostdin", "-y", "-v", "error", "-i", str(wav), "-b:a", "128k", str(destino)])
+
+
 def main():
     pasta = Path(tempfile.mkdtemp())
+    if os.environ.get("GEMINI_API_KEY"):
+        from .gemini_voz import modelo
+        try:
+            T.enviar(f"🎧 <b>Vozes Gemini</b> ({T.esc(modelo())}) — as mais naturais, com interpretação:")
+            for nome, desc in GEMINI:
+                arq = pasta / f"gemini-{nome}.mp3"
+                _gemini(nome, arq)
+                T.enviar_audio(arq, f"<b>{nome}</b> · {desc}", f"Gemini {nome}")
+        except Exception as e:
+            T.enviar(f"⚠️ Gemini: {T.esc(str(e))[:300]}")
+    else:
+        T.enviar("ℹ️ As vozes Gemini (as mais naturais) aparecem aqui depois que o segredo <code>GEMINI_API_KEY</code> for salvo.")
     if os.environ.get("GOOGLE_TTS_API_KEY"):
         T.enviar("🎧 <b>Vozes do Google (Chirp 3 HD)</b> — a opção principal, oficial e grátis até 1 milhão de caracteres/mês:")
         for nome, desc in GOOGLE:
