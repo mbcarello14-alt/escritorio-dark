@@ -20,7 +20,18 @@ runs:
       run: |
         npm install -g @anthropic-ai/claude-code >/dev/null 2>&1
         echo "▶ claude -p \"$COMANDO\""
+        mkdir -p canais/logs
+        LOG="canais/logs/$(date -u +%Y%m%d-%H%M%S)-$(echo "$COMANDO" | cut -d' ' -f1 | tr -dc 'a-z').log"
+        echo "comando: $COMANDO" > "$LOG"
+        set +e
         claude -p "$COMANDO" \
           --permission-mode acceptEdits \
           --allowedTools "Read,Write,Edit,MultiEdit,Glob,Grep,LS,WebSearch,WebFetch,Task,Agent,TodoWrite,Bash(python -m pipeline.validar:*),Bash(python3 -m pipeline.validar:*)" \
-          --output-format text | tee -a "$GITHUB_STEP_SUMMARY"
+          --verbose --output-format stream-json > "$LOG.jsonl" 2>> "$LOG"
+        codigo=$?
+        set -e
+        python3 .github/scripts/resumir_log.py "$LOG.jsonl" >> "$LOG" || true
+        echo "codigo de saida: $codigo" >> "$LOG"
+        tail -c 60000 "$LOG" >> "$GITHUB_STEP_SUMMARY"
+        rm -f "$LOG.jsonl"
+        exit $codigo
