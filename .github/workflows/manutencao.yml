@@ -1,0 +1,42 @@
+name: Manutenção
+on:
+  workflow_dispatch:
+    inputs:
+      tarefa:
+        description: "Tarefa"
+        type: choice
+        options: [reparar-publicacao]
+      pasta:
+        description: "Pasta do vídeo"
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+  YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+  YT_REFRESH_HISTORIA: ${{ secrets.YT_REFRESH_HISTORIA }}
+  YT_REFRESH_VESTIBULAR: ${{ secrets.YT_REFRESH_VESTIBULAR }}
+  YT_REFRESH_LIVROS: ${{ secrets.YT_REFRESH_LIVROS }}
+
+jobs:
+  manutencao:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/preparar
+        with:
+          requisitos: pipeline/requirements-producao.txt
+      - name: Reparar registro
+        if: inputs.tarefa == 'reparar-publicacao'
+        run: |
+          mkdir -p canais/logs
+          python -m pipeline.reparar "${{ inputs.pasta }}" 2>&1 | tee canais/logs/reparar-$(date -u +%Y%m%d-%H%M%S).log
+      - name: Painel
+        if: always()
+        run: python -m pipeline.painel || true
+      - name: Salvar
+        if: always()
+        run: .github/scripts/salvar.sh "manutenção - ${{ inputs.tarefa }}"
