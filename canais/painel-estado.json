@@ -1,6 +1,11 @@
 {
-  "atualizado_em": "2026-10-23T01:36:39Z",
-  "ativos": {},
+  "atualizado_em": "2026-10-23T01:38:50Z",
+  "ativos": {
+    "miguel": [
+      "Mapeado: terça 27/10 17h00",
+      "Marca-Página: quarta 28/10 19h00"
+    ]
+  },
   "proximos": [
     {
       "canal": "historia",
@@ -11,6 +16,26 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Wall Street não quebrou o Brasil sozinha",
       "url": "https://youtu.be/lds5T74jATw"
+    },
+    {
+      "canal": "vestibular",
+      "dia": "2026-10-27",
+      "rotulo": "terça 27/10 17h00",
+      "publicar_em_utc": "2026-10-27T20:00:00Z",
+      "etapa": "aguardando_escolha",
+      "etapa_txt": "👉 esperando você escolher a pauta",
+      "titulo": "",
+      "url": ""
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-10-28",
+      "rotulo": "quarta 28/10 19h00",
+      "publicar_em_utc": "2026-10-28T22:00:00Z",
+      "etapa": "aguardando_escolha",
+      "etapa_txt": "👉 esperando você escolher a pauta",
+      "titulo": "",
+      "url": ""
     }
   ],
   "publicados": [],
