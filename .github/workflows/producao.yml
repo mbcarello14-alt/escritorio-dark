@@ -54,11 +54,11 @@ jobs:
 
       - name: Montar o vídeo
         run: |
-          if [ "${{ inputs.sem_upload }}" = "true" ]; then
-            python -m pipeline.produzir "${{ inputs.pasta }}" --sem-upload
-          else
-            python -m pipeline.produzir "${{ inputs.pasta }}"
-          fi
+          mkdir -p canais/logs
+          LOG=canais/logs/motor-$(date -u +%Y%m%d-%H%M%S).log
+          extra=""; [ "${{ inputs.sem_upload }}" = "true" ] && extra="--sem-upload"
+          set -o pipefail
+          python -m pipeline.produzir "${{ inputs.pasta }}" $extra 2>&1 | grep -v -i "key=" | tee "$LOG"
 
       - name: Guardar o vídeo (7 dias, para baixar se quiser)
         if: always()

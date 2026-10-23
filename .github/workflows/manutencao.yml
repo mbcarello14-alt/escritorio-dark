@@ -5,7 +5,7 @@ on:
       tarefa:
         description: "Tarefa"
         type: choice
-        options: [reparar-publicacao, testar-visual]
+        options: [reparar-publicacao, testar-visual, testar-voz]
       pasta:
         description: "Pasta do vídeo (só para reparar-publicacao)"
         required: false
@@ -21,6 +21,7 @@ env:
   YT_REFRESH_VESTIBULAR: ${{ secrets.YT_REFRESH_VESTIBULAR }}
   YT_REFRESH_LIVROS: ${{ secrets.YT_REFRESH_LIVROS }}
   GH_PAT: ${{ secrets.GH_PAT }}
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
 jobs:
   manutencao:
@@ -41,6 +42,24 @@ jobs:
         run: |
           mkdir -p canais/logs
           python -m pipeline.teste_visual 2>&1 | tee canais/logs/teste-visual-$(date -u +%Y%m%d-%H%M%S).log
+      - name: Testar narrador Gemini
+        if: inputs.tarefa == 'testar-voz'
+        run: |
+          mkdir -p canais/logs
+          python - <<'PY' 2>&1 | grep -v -i "key=" | tee canais/logs/teste-voz-$(date -u +%Y%m%d-%H%M%S).log
+          import requests, os
+          from pathlib import Path
+          from pipeline import gemini_voz as g
+          r = requests.get(f"{g.API}/models", params={"key": os.environ["GEMINI_API_KEY"], "pageSize": 200}, timeout=60)
+          print("models:", r.status_code, [m["name"] for m in r.json().get("models", []) if "tts" in m["name"]] if r.ok else r.text[:300])
+          print("escolhido:", g.modelo())
+          for i in range(3):
+              try:
+                  g.sintetizar("Teste de voz número %d do Ouro e Império." % i, "Charon", g.TOM_PADRAO, Path(f"/tmp/t{i}.wav"), tentativas=1)
+                  print("ok", i)
+              except Exception as e:
+                  print("ERRO", i, str(e)[:600])
+          PY
       - name: Painel
         if: always()
         run: python -m pipeline.painel || true
