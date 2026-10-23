@@ -74,7 +74,8 @@ jobs:
           PY
           WEBHOOK_SECRET=$(cat ws.txt); rm -f ws.txt
           echo "::add-mask::$WEBHOOK_SECRET"
-          npx --yes wrangler@4 secret bulk segredos.json > bulk.log 2>&1 || { cat bulk.log | grep -v -i token; echo "::error::Não consegui gravar os segredos no worker"; rm -f segredos.json; exit 1; }
+          ok=""; for i in 1 2 3; do npx --yes wrangler@4 secret bulk segredos.json > bulk.log 2>&1 && { ok=1; break; }; sleep 15; done
+          [ -n "$ok" ] || { cat bulk.log | grep -v -i token; echo "::error::Não consegui gravar os segredos no worker"; rm -f segredos.json; exit 1; }
           rm -f segredos.json bulk.log
           resp=$(curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/setWebhook" \
             -d "url=${URL}/telegram" -d "secret_token=${WEBHOOK_SECRET}" \
