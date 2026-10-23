@@ -50,6 +50,16 @@ jobs:
       - name: FFmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
 
+      - name: Ilustrações e narração já feitas (cache)
+        # se a montagem falhar e rodar de novo, reaproveita imagens e áudios (não gasta cota de novo)
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ inputs.pasta }}/saida/ilustracoes
+            ${{ inputs.pasta }}/audio/*.wav
+          key: material-${{ inputs.pasta }}-${{ github.run_id }}
+          restore-keys: material-${{ inputs.pasta }}-
+
       - name: Modelo de transcrição (cache)
         uses: actions/cache@v4
         with:

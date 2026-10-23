@@ -61,7 +61,13 @@ def transcrever(audio: Path) -> list[dict]:
         return []
     if _modelo is None:
         _modelo = WhisperModel("small", device="cpu", compute_type="int8")
-    segs, _ = _modelo.transcribe(str(audio), language="pt", word_timestamps=True, vad_filter=True)
+    # decodifica com o FFmpeg e entrega o áudio pronto (16 kHz mono): não depende da versão do PyAV
+    import subprocess
+    import numpy as np
+    bruto = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-i", str(audio), "-ac", "1", "-ar", "16000",
+                            "-f", "s16le", "-"], capture_output=True, check=True).stdout
+    sinal = np.frombuffer(bruto, dtype=np.int16).astype(np.float32) / 32768.0
+    segs, _ = _modelo.transcribe(sinal, language="pt", word_timestamps=True, vad_filter=True)
     return [{"palavra": w.word.strip(), "inicio": w.start, "fim": w.end} for s in segs for w in (s.words or [])]
 
 

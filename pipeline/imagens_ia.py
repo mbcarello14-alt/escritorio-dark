@@ -53,6 +53,7 @@ class _Flux:
         self.chave = os.environ.get("PAINEL_KEY") or (
             hashlib.sha256((pat + "painel").encode()).hexdigest()[:24] if pat else "")
         self.ativo = bool(self.chave and cfg.get("url"))
+        self.modelos = list(cfg.get("modelos", ["klein", "schnell"]))
         self.motivo = "" if self.ativo else "sem GH_PAT/endereço do worker"
 
     def _hoje(self) -> str:
@@ -60,16 +61,23 @@ class _Flux:
 
     def cabe(self) -> bool:
         usado = _ler_gastos().get("flux", {}).get(self._hoje(), {}).get("neurons", 0)
-        return usado + self.cfg["neurons_por_imagem"] <= self.cfg["teto_diario_neurons"]
+        return usado + self.cfg["neurons_por_imagem"].get(self.modelos[0], 175) <= self.cfg["teto_diario_neurons"]
 
     def gerar(self, prompt: str, destino: Path) -> bool:
         for tentativa in range(3):
+            modelo = self.modelos[0]
             r = requests.post(self.url, headers={"x-chave": self.chave},
-                              json={"prompt": prompt, "passos": self.cfg.get("passos", 4)}, timeout=120)
+                              json={"prompt": prompt, "passos": self.cfg.get("passos", 4), "modelo": modelo,
+                                    "largura": self.cfg.get("largura", 896), "altura": self.cfg.get("altura", 512)},
+                              timeout=120)
             if r.status_code == 200 and r.headers.get("content-type", "").startswith("image/"):
                 destino.write_bytes(r.content)
-                _registrar("flux", self._hoje(), "neurons", self.cfg["neurons_por_imagem"])
+                _registrar("flux", self._hoje(), "neurons", self.cfg["neurons_por_imagem"].get(modelo, 175))
                 return True
+            if r.status_code == 502 and len(self.modelos) > 1 and tentativa == 0 and "4006" not in r.text:
+                log.warning("Flux %s falhou (%s) — usando o próximo modelo", modelo, r.text[:120])
+                self.modelos.pop(0)
+                continue
             if r.status_code == 429:
                 log.warning("Flux: cota grátis do dia acabou (%s)", r.text[:120])
                 self.ativo = False

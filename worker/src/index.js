@@ -80,15 +80,30 @@ async function estado(env) {
 
 // Ilustração com Flux (Workers AI). Cota grátis: 10.000 neurons/dia (~150 imagens).
 async function imagem(req, env) {
-  const { prompt, passos } = await req.json();
+  const { prompt, passos, modelo, largura, altura } = await req.json();
   if (!prompt) return new Response("faltou o prompt", { status: 400 });
   try {
-    const r = await env.AI.run("@cf/black-forest-labs/flux-1-schnell", {
-      prompt: String(prompt).slice(0, 2000),
-      steps: Math.min(8, Math.max(1, passos || 6)),
-    });
+    let r, nome;
+    if (modelo === "klein") {
+      // Flux 2 Klein: cobra por área de saída (sem custo por passo) e aceita 16:9 direto
+      const form = new FormData();
+      form.append("prompt", String(prompt).slice(0, 2000));
+      form.append("width", String(largura || 896));
+      form.append("height", String(altura || 512));
+      const corpo = new Response(form);
+      r = await env.AI.run("@cf/black-forest-labs/flux-2-klein-4b", {
+        multipart: { body: corpo.body, contentType: corpo.headers.get("content-type") },
+      });
+      nome = "klein";
+    } else {
+      r = await env.AI.run("@cf/black-forest-labs/flux-1-schnell", {
+        prompt: String(prompt).slice(0, 2000),
+        steps: Math.min(8, Math.max(1, passos || 4)),
+      });
+      nome = "schnell";
+    }
     const bin = Uint8Array.from(atob(r.image), (c) => c.charCodeAt(0));
-    return new Response(bin, { headers: { "content-type": "image/jpeg" } });
+    return new Response(bin, { headers: { "content-type": "image/jpeg", "x-modelo": nome } });
   } catch (e) {
     const msg = String(e?.message || e);
     const cota = /limit|quota|neurons|429|capacity/i.test(msg);
