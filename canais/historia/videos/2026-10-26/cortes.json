@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 6],
+      "gancho": "Mesmo dia, um ano depois. Coincidência?",
+      "titulo": "A Bolsa quase não caiu, mas um presidente caiu no Rio",
+      "descricao": "24 de outubro: a Quinta-feira Negra e a queda de Washington Luís têm o mesmo dia e uma conta em comum. A história completa está no canal.",
+      "hashtags": ["#historia", "#crash1929", "#economia"],
+      "legenda_reels": "A Bolsa de NY fechou quase estável na Quinta-feira Negra. Um ano depois, no mesmo dia, caiu um presidente no Rio. Segue o perfil para mais história contada pelo dinheiro. #historia #crash1929 #economia #brasil"
+    },
+    {
+      "de": [3, 4], "ate": [3, 7],
+      "gancho": "O Brasil tinha um produto e um cliente",
+      "titulo": "70% das exportações em um produto e 80% para um cliente",
+      "descricao": "O Brasil dos anos 1920 apostava tudo no café e nos Estados Unidos, e a crise começou antes do crash. A história completa está no canal.",
+      "hashtags": ["#historia", "#cafe", "#economia"],
+      "legenda_reels": "70% das exportações em café, 80% do café para um só cliente. A crise do café não começou com o crash de 1929. Segue o perfil para mais história contada pelo dinheiro. #historia #cafe #economia #brasil"
+    },
+    {
+      "de": [7, 4], "ate": [7, 8],
+      "gancho": "Queimar café foi loucura ou plano?",
+      "titulo": "O governo queimou café de propósito. Foi loucura ou plano?",
+      "descricao": "Em 1931 o governo começou a queimar o café que ele mesmo comprou. Celso Furtado defende que isso ajudou a indústria. A história completa está no canal.",
+      "hashtags": ["#historia", "#cafe", "#celsofurtado"],
+      "legenda_reels": "Em 1931 o governo botou fogo em café que ele mesmo comprou. Para Celso Furtado, isso socializou as perdas e ajudou a indústria. Segue o perfil para mais história contada pelo dinheiro. #historia #cafe #economia #brasil"
+    }
+  ]
+}
