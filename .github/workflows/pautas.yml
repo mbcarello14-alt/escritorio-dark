@@ -5,6 +5,10 @@ on:
     - cron: "0 13 * * 0"
     - cron: "0 22 * * 3"
   workflow_dispatch:
+    inputs:
+      dias:
+        description: "Quantos dias à frente planejar"
+        default: "4"
 
 permissions:
   contents: write
@@ -24,7 +28,7 @@ jobs:
 
       - name: Planejar os próximos vídeos
         id: plano
-        run: python -m pipeline.bot planejar --dias 4
+        run: python -m pipeline.bot planejar --dias ${{ inputs.dias || '4' }}
 
       - name: Salvar
         run: .github/scripts/salvar.sh "pautas - planejamento"

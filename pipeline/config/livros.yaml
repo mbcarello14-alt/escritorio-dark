@@ -1,6 +1,6 @@
 # Marca-Página — configuração de produção
 canal: livros
-ativo: false   # ligar quando o canal estiver criado e autorizado
+ativo: true
 nome: "Marca-Página"
 segredo_youtube: YT_REFRESH_LIVROS
 
