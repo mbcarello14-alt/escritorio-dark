@@ -1,24 +1,4 @@
 {
-  "gerado_em": "2026-10-23T14:13:03+00:00",
-  "canais": {
-    "historia": {
-      "nome": "Ouro & Império",
-      "inscritos": 0,
-      "videos": [
-        {
-          "video_id": "lds5T74jATw",
-          "tipo": "longo",
-          "titulo_atual": "Wall Street não quebrou o Brasil sozinha",
-          "publico": false,
-          "idade_horas": -78.8,
-          "pasta": "canais/historia/videos/2026-10-26",
-          "views": 2,
-          "likes": 0,
-          "comentarios": 0,
-          "metricas_7d": {},
-          "titulo_ja_trocado": false
-        }
-      ]
-    }
-  }
+  "gerado_em": "2026-10-23T23:49:08+00:00",
+  "canais": {}
 }
