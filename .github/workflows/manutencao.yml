@@ -5,7 +5,7 @@ on:
       tarefa:
         description: "Tarefa"
         type: choice
-        options: [reparar-publicacao, testar-visual, testar-voz, branding]
+        options: [reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao]
       pasta:
         description: "Pasta do vídeo (reparar-publicacao) ou canais separados por espaço (branding)"
         required: false
@@ -20,6 +20,8 @@ env:
   YT_REFRESH_HISTORIA: ${{ secrets.YT_REFRESH_HISTORIA }}
   YT_REFRESH_VESTIBULAR: ${{ secrets.YT_REFRESH_VESTIBULAR }}
   YT_REFRESH_LIVROS: ${{ secrets.YT_REFRESH_LIVROS }}
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
   GH_PAT: ${{ secrets.GH_PAT }}
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
@@ -42,6 +44,25 @@ jobs:
         run: |
           mkdir -p canais/logs
           python -m pipeline.teste_visual 2>&1 | tee canais/logs/teste-visual-$(date -u +%Y%m%d-%H%M%S).log
+      - name: Mandar links para autorizar canais
+        if: inputs.tarefa == 'links-autorizacao'
+        run: |
+          python - <<'PY'
+          import hashlib, os
+          from pipeline import telegram as T
+          from pipeline.comum import carregar_config
+          k = hashlib.sha256((os.environ["GH_PAT"] + "painel").encode()).hexdigest()[:24]
+          base = "https://escritorio-dark.mbcarello14.workers.dev/oauth/inicio"
+          canais = os.environ.get("CANAIS", "").split() or ["vestibular", "livros"]
+          linhas = ["🔑 <b>Autorizar canais do YouTube</b>\n",
+                    "Abra cada link, entre na sua conta e <b>escolha o canal certo</b> na lista. "
+                    "Se aparecer \"app não verificado\": Avançado › Acessar Escritório Dark › Permitir.\n"]
+          for c in canais:
+              linhas.append(f'• <a href="{base}?k={k}&canal={c}">Autorizar {carregar_config(c)["nome"]}</a>')
+          T.enviar("\n".join(linhas))
+          PY
+        env:
+          CANAIS: ${{ inputs.pasta }}
       - name: Aplicar descrição e banner
         if: inputs.tarefa == 'branding'
         run: |
