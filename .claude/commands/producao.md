@@ -12,6 +12,7 @@ O roteiro foi **aprovado** pelo Miguel. Monte o `producao.json` seguindo `pipeli
    - `seo-embalagem` → título, descrição (com fontes do dossiê), tags, hashtags (`09-seo.md`).
    - `thumbnail` → texto, `cena`/`imagem_busca` e layout da thumbnail (`09-thumbnail.md`).
 2. Junte tudo em `producao.json`.
+3. Com o `producao.json` pronto, chame o `clipador` → `cortes.json` (2 ou 3 cortes verticais para Shorts e Reels). Confira que `de`/`ate` apontam para cenas que existem e que cada trecho tem 60 a 140 palavras.
 
 Regras que o motor exige:
 - `blocos` = os mesmos blocos do `roteiro.json`, na mesma ordem e com o mesmo `capitulo`. Cada bloco vira **um áudio** gravado pelo Miguel.

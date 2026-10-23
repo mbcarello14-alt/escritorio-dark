@@ -74,6 +74,7 @@ jobs:
             ${{ inputs.pasta }}/saida/video.mp4
             ${{ inputs.pasta }}/saida/thumbnail.jpg
             ${{ inputs.pasta }}/saida/legendas.srt
+            ${{ inputs.pasta }}/saida/tmp/cortes/*.mp4
           retention-days: 7
           if-no-files-found: ignore
 

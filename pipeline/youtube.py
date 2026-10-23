@@ -123,11 +123,73 @@ def publicar(cfg: dict, pub: dict, video, thumb, srt) -> str:
         avisos.append(f"legendas não enviadas ({e.resp.status})")
     if pub.get("playlist"):
         try:
+            pid = playlist_id(yt, pub["playlist"], cfg)
             yt.playlistItems().insert(part="snippet", body={"snippet": {
-                "playlistId": pub["playlist"], "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+                "playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+            log.info("na playlist '%s'", pub["playlist"])
         except HttpError as e:
             avisos.append(f"não entrou na playlist ({e.resp.status})")
+    if pub.get("comentario_inicial"):
+        try:
+            comentar(yt, vid, pub["comentario_inicial"])
+        except HttpError as e:
+            log.warning("comentário inicial não publicado (%s) — sai quando o vídeo estiver público", e.resp.status)
+            pub["comentario_pendente"] = True
     for a in avisos:
         log.warning(a)
     pub["avisos"] = avisos
+    return vid
+
+
+def playlist_id(yt, nome: str, cfg: dict) -> str:
+    """Aceita o ID (PL…) ou o nome; cria a playlist pública se ainda não existir."""
+    if nome.startswith("PL") and " " not in nome:
+        return nome
+    pagina = None
+    while True:
+        r = yt.playlists().list(part="snippet", mine=True, maxResults=50, pageToken=pagina).execute()
+        for p in r.get("items", []):
+            if p["snippet"]["title"].strip().lower() == nome.strip().lower():
+                return p["id"]
+        pagina = r.get("nextPageToken")
+        if not pagina:
+            break
+    corpo = {"snippet": {"title": nome[:150], "description": f"{nome} — {cfg['nome']}",
+                         "defaultLanguage": cfg["youtube"]["idioma"]}, "status": {"privacyStatus": "public"}}
+    pid = yt.playlists().insert(part="snippet,status", body=corpo).execute()["id"]
+    log.info("playlist criada: %s", nome)
+    return pid
+
+
+def comentar(yt, video_id: str, texto: str) -> str:
+    r = yt.commentThreads().insert(part="snippet", body={"snippet": {
+        "videoId": video_id, "topLevelComment": {"snippet": {"textOriginal": texto[:1000]}}}}).execute()
+    return r["id"]
+
+
+def responder(yt, comentario_id: str, texto: str) -> str:
+    r = yt.comments().insert(part="snippet", body={"snippet": {"parentId": comentario_id, "textOriginal": texto[:1000]}}).execute()
+    return r["id"]
+
+
+def publicar_short(cfg: dict, corte: dict, arquivo, publicar_em_utc: str, video_longo: str) -> str:
+    """Sobe um corte vertical como Short agendado. Devolve o ID."""
+    from googleapiclient.http import MediaFileUpload
+    yt = servico(cfg["segredo_youtube"])
+    titulo = corte["titulo"].strip()
+    if "#shorts" not in titulo.lower():
+        titulo = f"{titulo[:90]} #shorts"
+    desc = (f"{corte.get('descricao', '').strip()}\n\n▶️ Vídeo completo: https://youtu.be/{video_longo}\n\n"
+            + " ".join(corte.get("hashtags", [])[:3]) + " #shorts")
+    corpo = {
+        "snippet": {"title": titulo[:100], "description": desc[:5000],
+                    "tags": [h.lstrip("#") for h in corte.get("hashtags", [])] + ["shorts"],
+                    "categoryId": cfg["youtube"]["categoria_id"], "defaultLanguage": cfg["youtube"]["idioma"],
+                    "defaultAudioLanguage": cfg["youtube"]["idioma"]},
+        "status": {"privacyStatus": "private", "publishAt": publicar_em_utc,
+                   "selfDeclaredMadeForKids": bool(cfg["youtube"].get("feito_para_criancas", False))},
+    }
+    media = MediaFileUpload(str(arquivo), mimetype="video/mp4", chunksize=8 * 1024 * 1024, resumable=True)
+    vid = _enviar(yt.videos().insert(part="snippet,status", body=corpo, media_body=media))["id"]
+    log.info("Short agendado: https://youtube.com/shorts/%s (%s)", vid, publicar_em_utc)
     return vid

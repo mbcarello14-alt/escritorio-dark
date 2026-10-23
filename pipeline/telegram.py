@@ -82,6 +82,13 @@ def enviar_arquivo(caminho: Path, legenda: str = "") -> int:
                     files={"document": f})["message_id"]
 
 
+def enviar_video(caminho: Path, legenda: str = "") -> int:
+    with open(caminho, "rb") as f:
+        return _api("sendVideo", data={"chat_id": chat_id(), "caption": legenda[:1000], "parse_mode": "HTML",
+                                       "supports_streaming": "true", "width": 1080, "height": 1920},
+                    files={"video": f})["message_id"]
+
+
 def enviar_audio(caminho: Path, legenda: str = "", titulo: str = "") -> int:
     with open(caminho, "rb") as f:
         return _api("sendAudio", data={"chat_id": chat_id(), "caption": legenda[:1000], "parse_mode": "HTML",

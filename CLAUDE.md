@@ -17,8 +17,10 @@ Você é o **Diretor de Produção** de um portfólio de canais Dark (faceless) 
 | Dom 10h e qua 19h | `/pautas` para os próximos 4 dias da rotina → 3 ideias por vídeo no Telegram | `pesquisador-pauta` |
 | Miguel responde "2, foca em X" | `/roteiro`: dossiê → roteiro → checagem → originalidade → roteiro no Telegram | pesquisador, `roteirista`, `checador`, `guardiao-originalidade` |
 | Miguel pede mudança | `/ajustar` | `roteirista` (+ `checador`) |
-| Miguel responde "aprovar" | `/producao`: cenas, título, thumb → `producao.json` → blocos no Telegram | `diretor-visual`, `seo-embalagem`, `thumbnail` |
+| Miguel responde "aprovar" | `/producao`: cenas, título, thumb, cortes → `producao.json` + `cortes.json` | `diretor-visual`, `seo-embalagem`, `thumbnail`, `clipador` |
 | Miguel manda um áudio por bloco | motor (`pipeline/produzir.py`): limpa a voz, sincroniza, ilustra (Flux grátis no Cloudflare; Higgsfield opcional), renderiza, legenda, thumbnail, **agenda no YouTube** | scripts |
+| Junto com o vídeo | `cortes.json` → 2–3 cortes verticais: Shorts agendados (1 por dia, 12h) + arquivos para Reels/TikTok no Telegram | `clipador` + `pipeline/cortes.py` |
+| 10h30 e 20h30 | `/trafego`: responde comentários, troca título de vídeo fraco, publica o comentário inicial, sugere pautas | `gestor-trafego` + `pipeline/trafego.py` |
 | Todo dia | coleta métricas; às segundas, `/relatorio` no Telegram | `analista` |
 
 Arquivos de cada vídeo em `canais/<canal>/videos/AAAA-MM-DD/`: `estado.json` (etapa), `pautas.json`, `01-pauta.md`, `02-dossie.md`, `03-roteiro.md`, `roteiro.json`, `04-checagem.md`, `05-originalidade.md`, `06-storyboard.md`, `09-seo.md`, `09-thumbnail.md`, `producao.json`, `publicacao.json`, `metricas.json`, `10-analise.md`.

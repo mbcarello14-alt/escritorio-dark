@@ -41,6 +41,9 @@ python -m pipeline.validar canais/<canal>/videos/<pasta>
 
 - `titulo` (≤ 100 caracteres; ideal ≤ 60), `descricao` (≤ 5000), `tags` (total ≤ 450 caracteres).
 - `sintetico_realista`: `true` se houver imagem ou voz sintética realista de pessoa, lugar ou evento real.
+- `playlist`: **nome** da playlist (o motor cria se não existir e põe o vídeo nela).
+- `comentario_inicial` (opcional): pergunta que o canal publica como primeiro comentário.
+- Cortes verticais (Shorts e Reels) ficam em outro arquivo, `cortes.json`, escrito pelo `clipador`.
 - `musica_humor`: nome de uma pasta em `musica/` (se não existir, o vídeo sai sem trilha).
 - `thumbnail.texto`: até 4 palavras. `layout`: `esquerda`, `direita` ou `centro` (lado onde fica o texto).
 - `blocos[].capitulo`: vira capítulo na descrição (os tempos são calculados sozinhos). O primeiro bloco é o gancho e o capítulo "0:00".

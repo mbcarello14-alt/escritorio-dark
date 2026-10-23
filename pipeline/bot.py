@@ -135,6 +135,9 @@ def produzido(pasta: Path) -> None:
              f"📅 Publica {E.NOMES_DIA[quando.weekday()]} {quando:%d/%m às %Hh%M}\n"
              f"⏱️ {pub['duracao_s'] / 60:.1f} min · {pub['cenas']} cenas · {pub.get('ilustracoes_ia', 0)} ilustrações\n"
              f"🔗 {pub.get('url', '')}")
+    cortes = [c for c in pub.get("cortes", []) if c.get("url")]
+    if cortes:
+        texto += f"\n📱 {len(cortes)} Shorts agendados (1 por dia, 12h) — os arquivos para Reels/TikTok chegam aqui"
     for a in pub.get("avisos", []):
         texto += f"\n⚠️ {esc(a)}"
     thumb = pasta / "saida" / "thumbnail.jpg"

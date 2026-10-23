@@ -178,7 +178,7 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
             dur = round(duracao_audio(audio) + (0.0 if audios_gravados else 0.15), 3)
             dur = max(1.0, round(dur * FPS) / FPS)
             clipes.append(_visual(ctx, c, idx, audio, dur, b.get("capitulo", "")))
-            tempos_cenas.append({"inicio": t, "duracao": dur, "narracao": c["narracao"]})
+            tempos_cenas.append({"inicio": t, "duracao": dur, "narracao": c["narracao"], "bloco": nb, "cena": nc + 1})
             t += dur
             log.info("cena %d pronta (%.1fs, total %.0fs)", idx, dur, t)
         if audios_gravados:
@@ -222,6 +222,7 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
     pub = {
         "titulo": prod["titulo"], "descricao": descricao, "tags": prod["tags"],
         "playlist": prod.get("playlist") or cfg["youtube"].get("playlist_padrao") or "",
+        "comentario_inicial": prod.get("comentario_inicial", ""),
         "sintetico_realista": prod.get("sintetico_realista", False),
         "duracao_s": round(t, 1), "cenas": idx,
         "ilustracoes_ia": ctx.ilustrador.gerados if ctx.ilustrador else 0,
@@ -233,6 +234,12 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         pub["publicar_em_utc"] = _horario(pasta, cfg)
         pub["video_id"] = publicar(cfg, pub, video, thumb, srt)
         pub["url"] = f"https://youtu.be/{pub['video_id']}"
+    (saida / "tempos.json").write_text(json.dumps({"cenas": tempos_cenas, "palavras": palavras_globais}), encoding="utf-8")
+    try:
+        from .cortes import produzir_cortes
+        pub["cortes"] = produzir_cortes(pasta, cfg, video, tempos_cenas, palavras_globais, tmp, pub, enviar=not sem_upload)
+    except Exception as e:
+        log.warning("cortes verticais falharam: %s", e)
     (pasta / "publicacao.json").write_text(json.dumps(pub, ensure_ascii=False, indent=2), encoding="utf-8")
     log.info("PRONTO: %s (%.1f min)%s", video, t / 60, f" → {pub.get('url')}" if pub.get("url") else "")
     return pub
