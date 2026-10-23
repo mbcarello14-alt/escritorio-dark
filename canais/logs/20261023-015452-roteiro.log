@@ -1,0 +1,278 @@
+comando: /roteiro canais/vestibular/videos/2026-10-29
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-10-29 && ls && cat estado.json && cat pautas.json && cat 01-pauta.md | head -60; ls ../../ ; cat ../../*.md 2>/dev/null | head -50"}
+❌ This Bash command contains multiple operations. The following part requires approval: head -60; ls ../../ ; cat ../../*.md
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-10-29 && ls && cat estado.json pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/01-pauta.md"}
+🔧 Agent {"subagent_type": "pesquisador-pauta", "description": "Dossiê Era Vargas", "prompt": "Etapa 2 (dossiê). Pasta do vídeo: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-
+💬 Dossiê em andamento; aguardo a conclusão do pesquisador antes de passar ao roteirista.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/pautas.json"}
+🔧 WebSearch {"query": "questão ENEM Era Vargas Estado Novo gabarito resolvida CLT trabalhismo enunciado", "mode": "standard"}
+🔧 WebSearch {"query": "CPDOC FGV Era Vargas Governo Provisório Constituição de 1934 voto feminino Código Eleitoral 1932 Estado Novo 1937", "mode": "standard"}
+🔧 WebSearch {"query": "DIP Departamento de Imprensa e Propaganda 1939 censura Estado Novo CPDOC verbete", "mode": "standard"}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2010/primeiro-dia/de-marco-de-1931-fevereiro-de-1940-foram-decretadas-mais-de-150-leis-novas-de-protecao-social-e-d/", "prompt": "Give the fu
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2017-segunda-aplicacao/primeiro-dia/nos-primeiros-anos-governo-vargas-organizacoes-operarias-sob-controle-das-correntes/", "prompt": "Give th
+🔧 WebFetch {"url": "https://www.tse.jus.br/comunicacao/noticias/2013/Marco/ha-80-anos-mulheres-conquistaram-o-direito-de-votar-e-ser-votadas", "prompt": "Extract facts about Código Eleitoral 1932 (decree number,
+🔧 WebSearch {"query": "Enem 2010 prova azul questão 32 \"150 leis novas de proteção social\" gabarito D Inep", "mode": "standard"}
+🔧 WebFetch {"url": "https://cpdoc.fgv.br/producao/dossies/AEraVargas1", "prompt": "Summarize the Era Vargas 1930-1945 key facts: Revolução 1930, Governo Provisório, 1932 revolution, 1934 Constitution, 1935 Inten
+🔧 WebFetch {"url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm", "prompt": "Extract: date promulgated, articles on voto (art 108: age, women, secret), labor rights (art 121: salário mí
+❌ read ECONNRESET
+🔧 WebFetch {"url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/AZUL_GAB.pdf", "prompt": "Is there an answer key? What is question 32?"}
+🔧 WebSearch {"query": "Enem 2010 questão 32 história Vargas \"leis novas de proteção social\" prova resolvida gabarito", "mode": "standard"}
+❌ read ECONNRESET
+🔧 WebSearch {"query": "Constituição de 1934 CPDOC verbete Governo Provisório Estado Novo Constituição de 1937 \"Polaca\" plebiscito Plano Cohen", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm", "prompt": "Extract: promulgation date; art. 108 voters (age, women, secret); art. 121 labor rights (salário mínimo, 8h,
+❌ read ECONNRESET
+🔧 WebFetch {"url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao37.htm", "prompt": "Extract: preamble justification, art. 9/10 emergency, art. 122 item 15 censorship, art. 135-139 labor (sindi
+🔧 WebFetch {"url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm", "prompt": "Extract date of the decree-law (data/ano), title, and the enacting wording; mention of Consolidação das Leis do Trab
+❌ read ECONNRESET
+❌ read ECONNRESET
+💬 Planalto está fora do ar para mim. Vou buscar fontes alternativas.
+🔧 WebSearch {"query": "Senado Notícias Constituição de 1934 salário mínimo jornada 8 horas pluralidade sindical Justiça do Trabalho voto secreto mulheres 18 anos", "mode": "standard"}
+🔧 WebSearch {"query": "Decreto 19.770 de 1931 sindicalização Ministério do Trabalho sindicato único reconhecido pelo Estado; CLT Decreto-Lei 5.452 de 1º de maio de 1943 Senado", "mode": "standard"}
+🔧 WebSearch {"query": "Companhia Siderúrgica Nacional criada 1941 Volta Redonda Acordo de Washington 1940 inauguração 1946 Estado Novo economia Vale do Rio Doce 1942 CNP 1938", "mode": "standard"}
+🔧 WebFetch {"url": "https://cpdoc.fgv.br/producao/dossies/Jango/artigos/NaPresidenciaRepublica/Estado_Novo", "prompt": "Summarize Estado Novo: 1937 coup, constitution, censorship, DIP, labor, economy, end 1945."
+🔧 WebSearch {"query": "atlas.fgv.br OR cpdoc.fgv.br Estado Novo 1937 verbete Constituição de 1937 DIP salário mínimo 1940 imposto sindical", "mode": "standard"}
+🔧 WebSearch {"query": "Agência Senado salário mínimo 1940 Vargas decreto-lei 2.162 1º de maio valores regiões", "mode": "standard"}
+🔧 WebFetch {"url": "https://www2.camara.leg.br/a-camara/conheca/historia/a3republica.html", "prompt": "Summarize facts with dates for 1930-1945: Governo Provisório, 1932, Assembleia Constituinte, Constituição 19
+🔧 WebFetch {"url": "https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-21076-24-fevereiro-1932-507583-publicacaooriginal-1-pe.html", "prompt": "Confirm decree number, date, art. 2 eleitor (sex, age 21
+🔧 WebFetch {"url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-5452-1-maio-1943-415500-publicacaooriginal-1-pe.html", "prompt": "Confirm date, title and ementa of Decreto-Lei 5.452 (CLT), 
+🔧 WebSearch {"query": "Governo Provisório Vargas 1930 café queima estoques Conselho Nacional do Café 1931 Departamento Nacional do Café 1933 crise de 1929 política econômica", "mode": "standard"}
+🔧 WebSearch {"query": "Ministério do Trabalho Indústria e Comércio criado novembro 1930 Lindolfo Collor carteira de trabalho 1932 decreto 21.175", "mode": "standard"}
+🔧 WebSearch {"query": "historiografia Estado Novo trabalhadores outorga ou conquista Ângela de Castro Gomes \"pacto trabalhista\" \"ministro da gratidão\" debate historiográfico", "mode": "standard"}
+🔧 WebSearch {"query": "Lei de Segurança Nacional abril 1935 Aliança Nacional Libertadora fechada julho 1935 levante novembro 1935 estado de sítio Câmara dos Deputados", "mode": "standard"}
+🔧 WebSearch {"query": "Constituição 1934 artigo 109 voto feminino obrigatório mulheres que exerçam função pública remunerada artigo 108 texto Câmara dos Deputados", "mode": "standard"}
+🔧 WebSearch {"query": "Wikimedia Commons Getúlio Vargas Arquivo Nacional domínio público Estado Novo cartaz DIP Revolução de 1930 Carteira de Trabalho", "mode": "standard"}
+🔧 WebFetch {"url": "https://projetoagathaedu.com.br/resolucao-questoes-enem/historia/era-vargas/20-enem-2010-a-adocao-de-novas-politicas-publicas-e-as-mudancas-juridico-institucionais-ocorridas-no-brasil.php", "
+🔧 WebSearch {"query": "download.inep.gov.br enem provas 2010 gabarito dia 1 caderno azul pdf", "mode": "standard"}
+🔧 WebFetch {"url": "https://fep.if.usp.br/~profis/arquivo/avaliacao/enem/provas_gabaritos/2010/PROVA_ENEM_2010_AZUL_1D_GAB.pdf", "prompt": "Find question 32 (\"150 leis novas de proteção social\") and the altern
+🔧 Read {"file_path": "/home/runner/.claude/projects/-home-runner-work-escritorio-dark-escritorio-dark/5377a40b-47a9-41a7-ab93-a684a5b7f735/tool-results/webfetch-1792720628278-pbt1yr.pdf", "pages": "9-12"}
+❌ pdftoppm is not installed. Install poppler-utils (e.g. `brew install poppler` or `apt-get install poppler-utils`) to enable PDF page rendering.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/02-dossie.md", "content": "# Dossiê — Mapeado — \"Era Vargas no ENEM: o mapa dos 3 governos em 1 de
+🔧 Write {"file_path": "/tmp/fix.py", "content": "import sys\np = sys.argv[1]\ns = open(p, encoding=\"utf-8\").read()\ns = s.replace(\"Ver fato 20.\", \"Ver fato 23.\")\ns = s.replace(\"O gabarito do ENEM 2017
+💬 Escrevi o dossiê em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/02-dossie.md`. Ele tem linha do tempo, 23 fatos numerados, números, personagens, controvérsias, ganchos, visuais e um mapa de eixos por fase. Não consegui conferir o gabarito no arquivo oficial do Inep, e o texto da Constituição de 1934 e da CLT também não abriu.
+
+**Duas referências erradas no arquivo.** Não tenho ferramenta de edição aqui e não corrigi.
+- Na linha "Gancho de calendário", onde está "Ver fato 20", o certo é fato 23.
+- Na seção 5, onde está "(fato 25)", o certo é "seção 7, 
+🔧 Grep {"pattern": "Ver fato 20|\\(fato 25\\)", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/02-dossie.md", "output_mode": "content"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/02-dossie.md", "old_string": "Ver fato 20.", "new_string": "Ver fato 23."}
+🔧 Bash {"command": "sed -i 's/(fato 25)/(seção 7, questão alternativa)/' /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/02-dossie.md && grep -c \"fato 25\" /home/runner
+❌ sed command requires approval (contains potentially dangerous operations)
+🔧 Agent {"subagent_type": "roteirista", "description": "Roteiro Era Vargas", "prompt": "Pasta do vídeo: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29 (canal vestibular,
+💬 O dossiê está pronto e o roteirista está escrevendo o roteiro. Quando ele terminar, sigo para a checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "content": "# Roteiro — Mapeado — quinta 29/10/2026, 17h\n\n**Título provisório:** 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "E se você quer saber o que acontece depois de 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "- **Gancho final (bloco 10):** \"quando Vargas
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "- **\"Pelos constituintes\" (bloco 4):** o dos
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "e Vargas passa a ser presidente eleito de form
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Era um documento forjado, que falava de um sup
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "E hoje, no dia em que esse vídeo sai, isso faz
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Por que a mesma cor em todo lugar? Porque aí o
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "E o amarelo vai do café ao aço.\n\nDuas pegadi
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Agora o mapa. A letra A fala que o Ministério 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Eu desenho um megafone e, do lado, uma tesoura
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Começo pelo galho amarelo. Em mil novecentos e
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "**Contagem:** cerca de 1.720 palavras, uns 11 
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "offset": 14, "limit": 100}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Comprar café para botar fogo, sim. Com menos c
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "em Volta Redonda, no Rio de Janeiro. O apoio",
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Plantou a árvore e não viu o fruto.", "new_str
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Então é isso. A Era Vargas são três governos p
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "**Tese:** A Era Vargas não é uma lista de data
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Era Vargas no ENEM: o mapa dos 3 governos 
+💬 Escrevi o roteiro da Era Vargas e o `roteiro.json`. O checador e o guardião ainda não rodaram, e a questão do ENEM 2010 ainda precisa ser conferida no PDF oficial do Inep antes da gravação.
+
+**Tamanho:** são 10 blocos, com uns 1.830 palavras, contando os números por extenso. Fiz a conta à mão, sem ferramenta. Dá uns 12 minutos, no limite de cima da meta de 8 a 12 minutos com margem de 10%. Se precisar cortar, os blocos 7 e 8 são os mais fáceis de enxugar.
+
+**Como o vídeo anda:**
+- **Abertura:** o vídeo sai no dia em que se completam 81 anos da deposição de Vargas (29/10/1945), e o roteiro come
+🔧 Agent {"subagent_type": "checador", "description": "Checar roteiro Era Vargas", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29. Cheque cada afirmação
+💬 O roteiro está escrito e o checador está conferindo cada afirmação. Quando ele terminar, sigo para a próxima etapa.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/02-dossie.md"}
+🔧 WebFetch {"url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm", "prompt": "Texto exato dos arts. 108, 109, 120 e 121 (sindicatos, pluralidade, voto, obrigatoriedade, mulheres, mendigo
+🔧 WebFetch {"url": "https://download.inep.gov.br/educacao_basica/enem/provas/2010/2010_PROVA_AZUL_1_DIA.pdf", "prompt": "Questão 32 (caderno azul 1o dia): texto-base, enunciado e alternativas A a E literais."}
+❌ read ECONNRESET
+❌ read ECONNRESET
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2010/primeiro-dia/de-marco-de-1931-fevereiro-de-1940-foram-decretadas-mais-de-150-leis-novas-de-protecao-social-e-d/", "prompt": "Enunciado c
+🔧 WebSearch {"query": "ENEM 2010 questão 32 caderno azul \"mais de 150 leis novas de proteção social\" gabarito D alternativas", "mode": "standard"}
+🔧 WebSearch {"query": "Constituição 1934 art. 120 \"sindicatos e as associações profissionais serão reconhecidos\" \"pluralidade sindical\"", "mode": "standard"}
+🔧 WebSearch {"query": "Constituição 1934 art. 109 \"o alistamento e o voto são obrigatórios para os homens e para as mulheres, quando estas exerçam função pública remunerada\"", "mode": "standard"}
+🔧 WebFetch {"url": "https://projetoagathaedu.com.br/resolucao-questoes-enem/historia/era-vargas/20-enem-2010-a-adocao-de-novas-politicas-publicas-e-as-mudancas-juridico-institucionais-ocorridas-no-brasil.php", "
+🔧 WebFetch {"url": "https://www.infoescola.com/direito/constituicao-de-1934/", "prompt": "O que diz sobre pluralidade sindical, voto obrigatório, voto feminino, salário mínimo, Justiça do Trabalho?"}
+🔧 WebSearch {"query": "Polaca Constituição de 1937 apelido inspirada Constituição polonesa 1935 Francisco Campos", "mode": "standard"}
+🔧 WebSearch {"query": "queima do café 1931 governo Vargas compra de estoques Conselho Nacional do Café destruição para sustentar preço", "mode": "standard"}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2011-segunda-aplicacao/primeiro-dia/de-marco-de-1931-fevereiro-de-1940-foram-decretadas-mais-de-150-leis-novas-de-protecao-social/", "prompt"
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=35738", "prompt": "Transcreva literalmente o enunciado e as cinco alternativas A a E, e o gabarito."}
+🔧 WebSearch {"query": "Código Eleitoral 1932 voto feminino restrições mulher casada autorização do marido eliminadas 1934 TSE", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/04-checagem.md", "content": "# Checagem — Mapeado — quinta 29/10/2026\n\n## VEREDITO: CORRIGIR\n\nP
+💬 **Veredito: CORRIGIR.** Escrevi a checagem completa em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/04-checagem.md`. O roteiro tem poucos erros, mas há quatro correções obrigatórias.
+
+Não consegui abrir o PDF do Inep nem o texto da Constituição de 1934 no Planalto, porque as duas conexões caíram (ECONNRESET). A questão do ENEM e os artigos de 1934 foram conferidos só em fontes secundárias.
+
+**Pontos que você pediu**
+- **ENEM 2010, caderno azul, gabarito D:** confere (confiança média a alta). A Descomplica, a Plataforma Assaad e o Projeto Agatha concord
+🔧 Agent {"subagent_type": "roteirista", "description": "Aplicar correções da checagem", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29. Leia 04-checage
+💬 A checagem voltou com o veredito CORRIGIR e quatro correções obrigatórias. O roteirista está aplicando todas, com as sugestões opcionais. Depois disso, rodo a originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Com menos café sobrando, o produto não vira pó
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Com menos café sobrando, o produto não vira pó 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "mas analfabetos e mendigos ficam de fora.", "n
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "mas analfabetos e mendigos ficam de fora.", "ne
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "E lembra do carimbo? Ele sai. A Carta de trint
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "E lembra do carimbo? Ele sai. A Carta de trinta
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Ganhou o apelido de Polaca, porque se inspirav
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Ganhou o apelido de Polaca, porque se inspirava
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "e o carimbo do governo volta para cima do sind
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "e o carimbo do governo volta para cima do sindi
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "O apoio dos Estados Unidos veio ligado a um ac
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "O apoio dos Estados Unidos veio ligado a um aco
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "carimbo fora em trinta e quatro, carimbo de vo
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "carimbo fora em trinta e quatro, carimbo de vol
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "O vermelho só cresce. Começa com", "new_string
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "O vermelho só cresce. Começa com", "new_string"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Uma pegadinha para colar na geladeira: voto fe
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Uma pegadinha para colar na geladeira: voto fem
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "primeiro dia, caderno azul, questão trinta e d
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "primeiro dia, caderno azul, questão trinta e do
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "A pergunta quer saber o que resultou dessas no
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "A pergunta quer saber o que resultou dessas nov
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "E repara que a D não chama nada de presente. G
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "E repara que a D não chama nada de presente. Ga
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "**Contagem:** cerca de 1.830 palavras, contand
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "## Bloco 4 — Segundo ramo: o Governo Constituc
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "## Bloco 8 — Lendo o mapa de lado (cerca de 19
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "## Bloco 9 — A questão do Enem (cerca de 245 p
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "- **Questão do ENEM 2010 (bloco 9): falta conf
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "- **Explicação didática a conferir (bloco 3):*
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "O Acordo de Washington aparece sem nome e sem 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "- **Apelido \"Polaca\" (bloco 5):** confiança 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "- **Opinião do Miguel:** a `nota_miguel` está 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "\"Pendente: o checador ainda não rodou. As pend
+💬 Apliquei as 4 correções obrigatórias e as 4 sugestões opcionais nos dois arquivos, com o mesmo texto falado em cada um. As 3 chamadas de engajamento continuam nos blocos 1, 5 e 10. Não validei o `roteiro.json` com nenhuma ferramenta, porque não tenho como rodar comandos aqui. Mexi só em frases dentro de strings que já existiam e não acrescentei aspas duplas.
+
+**Correções obrigatórias**
+1. **Carimbo sindical:**
+   - **Bloco 4:** "Ele sai" virou "No papel, ele fica mais fraco". A Carta de 34 promete pluralidade e autonomia dos sindicatos, "ou seja, poderia existir mais de um sindicato. Na prátic
+🔧 Agent {"subagent_type": "guardiao-originalidade", "description": "Originalidade do roteiro", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29 (canal ve
+🔧 Bash {"command": "python3 -c \"import json;d=json.load(open('/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json'));print(d['titulo_provisorio'],len(d['blocos
+❌ This command requires approval
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/04-checagem.md"}
+💬 O `roteiro.json` ainda não foi validado: o comando que rodei para isso pediu aprovação e não foi executado. A originalidade está em análise. Quando ela voltar, confiro as três chamadas de engajamento, atualizo o `estado.json` e leio o JSON com a ferramenta de leitura.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "limit": 40}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "offset": 40, "limit": 0}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/05-originalidade.md", "content": "# Originalidade — Mapeado — quinta 29/10/2026, 17h\n\n## Semáforo
+💬 O semáforo é 🟡 (ajustar). O relatório está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/05-originalidade.md`.
+
+**Notas**
+- **Variação: 6.** O `historico.md` está vazio, então não há vídeos anteriores para comparar. O risco é que a grade de 4 cores por fase vire fórmula repetida nos próximos vídeos do canal.
+- **Valor próprio: 7.** A leitura do mapa "de lado" e a resolução da questão do ENEM 2010 por eliminação são síntese própria. A cronologia sozinha não seria. O galho amarelo de 1934–37 fica só pontilhado, sem conteúdo.
+- **Voz humana: 5.** A `not
+🔧 Agent {"subagent_type": "roteirista", "description": "Aplicar ajustes de originalidade", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29. Leia 05-orig
+💬 A originalidade ficou em 🟡. O roteirista está aplicando a única volta permitida, com as trocas de frase que não dependem de opinião do Miguel. Quando terminar, confiro as três chamadas de engajamento e atualizo o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/05-originalidade.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/estado.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Então hoje a gente desenha esses três governos
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Imagina o Brasil em mil novecentos e trinta. N
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Eu desenho um sindicato com um carimbo", "new_
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "E aqui mora uma pegadinha: para as mulheres", 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "A crise dessa fase é política, e o tom aqui é 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Galho amarelo: eu deixo pontilhado de propósit
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Repara: a Constituição de trinta e quatro", "n
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "No mapa, eu não escolho lado. Escrevo duas pal
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Agora o galho vermelho do Estado Novo, e de no
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Eu desenho um megafone e, do lado,", "new_stri
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Agora vem a parte que vale ouro:", "new_string
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "O vermelho que eu desenhei fica mais pesado.",
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "E repara que a D não chama", "new_string": "E 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "Então é isso. A Era Vargas", "new_string": "Fe
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "- **Opinião do Miguel:** a `nota_miguel` está 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "old_string": "As três chamadas de engajamento continuam igua
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Então hoje a gente desenha esses três governos"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Imagina o Brasil em mil novecentos e trinta. No
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Eu desenho um sindicato com um carimbo", "new_s
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "E aqui mora uma pegadinha: para as mulheres", "
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "A crise dessa fase é política, e o tom aqui é s
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Galho amarelo: eu deixo pontilhado de propósito
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Repara: a Constituição de trinta e quatro", "ne
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "No mapa, eu não escolho lado. Escrevo duas pala
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Agora o galho vermelho do Estado Novo, e de nov
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Eu desenho um megafone e, do lado,", "new_strin
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Agora vem a parte que vale ouro:", "new_string"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "O vermelho que eu desenhei fica mais pesado.", 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "E repara que a D não chama", "new_string": "E p
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "Então é isso. A Era Vargas", "new_string": "Fec
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json", "old_string": "  \"resumo_originalidade\": \"Pendente: o guard
+💬 Apliquei as trocas do guardião em `03-roteiro.md` e `roteiro.json`. O texto dos blocos ficou igual nos dois arquivos. Não incluí nenhuma opinião em nome do Miguel. Não tenho como rodar comandos aqui, então não passei o JSON por um validador. Revisei as edições à mão: não entrou nenhuma aspa dupla nova (no `resumo_originalidade` usei aspas simples), e a estrutura do arquivo ficou como estava.
+
+**Trocas no texto lido**
+- **"Vale ouro" (bloco 8):** virou "Agora vem a parte que mais ajuda na hora da prova". Não usei a sugestão do guardião, "que realmente cai na prova", porque diz algo sobre o Enem
+💬 Agora confiro o JSON e as chamadas de engajamento eu mesmo.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/estado.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/estado.json", "old_string": "  \"nota_miguel\": \"\"\n}", "new_string": "  \"
+💬 O roteiro da Era Vargas está pronto, mas com semáforo 🟡 (originalidade). Falta a opinião do Miguel e a conferência da questão do ENEM 2010 no PDF do Inep.
+
+Não rodei nenhum validador, porque os comandos pediram aprovação. Li o `roteiro.json` inteiro e ele tem a estrutura pedida (10 blocos).
+
+Atualizei o `estado.json` com `"titulo": "Era Vargas no ENEM: o mapa dos 3 governos em 1 desenho"`. Não criei `producao.json`.
+
+**Etapas**
+- **Dossiê:** `02-dossie.md`. Corrigi uma das duas referências erradas ("Ver fato 20" virou 23). A outra, "(fato 25)" na seção 5, não consegui corrigir. O roteirista fo
+
+=== resultado: success | turnos 5 | 9s | erro=False
+Dossiê em andamento; aguardo a conclusão do pesquisador antes de passar ao roteirista.
+
+=== resultado: success | turnos 5 | 11s | erro=False
+O dossiê está pronto e o roteirista está escrevendo o roteiro. Quando ele terminar, sigo para a checagem.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O roteiro está escrito e o checador está conferindo cada afirmação. Quando ele terminar, sigo para a próxima etapa.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+A checagem voltou com o veredito CORRIGIR e quatro correções obrigatórias. O roteirista está aplicando todas, com as sugestões opcionais. Depois disso, rodo a originalidade.
+
+=== resultado: success | turnos 3 | 5s | erro=False
+O `roteiro.json` ainda não foi validado: o comando que rodei para isso pediu aprovação e não foi executado. A originalidade está em análise. Quando ela voltar, confiro as três chamadas de engajamento, atualizo o `estado.json` e leio o JSON com a ferramenta de leitura.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+A originalidade ficou em 🟡. O roteirista está aplicando a única volta permitida, com as trocas de frase que não dependem de opinião do Miguel. Quando terminar, confiro as três chamadas de engajamento e atualizo o `estado.json`.
+
+=== resultado: success | turnos 4 | 13s | erro=False
+O roteiro da Era Vargas está pronto, mas com semáforo 🟡 (originalidade). Falta a opinião do Miguel e a conferência da questão do ENEM 2010 no PDF do Inep.
+
+Não rodei nenhum validador, porque os comandos pediram aprovação. Li o `roteiro.json` inteiro e ele tem a estrutura pedida (10 blocos).
+
+Atualizei o `estado.json` com `"titulo": "Era Vargas no ENEM: o mapa dos 3 governos em 1 desenho"`. Não criei `producao.json`.
+
+**Etapas**
+- **Dossiê:** `02-dossie.md`. Corrigi uma das duas referências erradas ("Ver fato 20" virou 23). A outra, "(fato 25)" na seção 5, não consegui corrigir. O roteirista foi avisado de como ler.
+- **Checagem:** o checador devolveu CORRIGIR com 4 correções obrigatórias. O roteirista aplicou todas, mais 4 sugestões opcionais.
+- **Originalidade:** deu 🟡. Troquei as frases listadas (as que sugeriam desenho ao vivo, "vale ouro" e outras) numa única volta. Não rodei o checador de novo sobre essas trocas.
+
+**Engajamento (conferido por mim)**
+- **Bloco 1:** inscrição e like.
+- **Bloco 5, perto da metade:** a pergunta "presente, conquista ou os dois?" e o like.
+- **Bloco 10:** inscrição, like e comentário.
+
+**Pendências**
+- **`nota_miguel` vazia:** nenhuma opinião dele entrou no roteiro. A `pergunta_para_miguel` pede em qual fase o aluno mais erra, para virar uma frase dele no bloco 8. A resposta também deixaria o roteiro 🟢.
+- **Questão do ENEM 2010:** o gabarito D bate em três sites de cursinho. Não consegui abrir o PDF do Inep. Por isso o roteiro diz só "primeiro dia, caderno azul", sem o número da questão.
+- **Gancho de data no bloco 1:** "no dia em que esse vídeo sai, faz oitenta e um anos" só vale se a publicação continuar em 29/10.
+- **Duração:** cerca de 1.900 palavras, uns 12 minutos e meio. Passa da meta de 12, mas fica na margem de 10%. Se precisar enxugar, os blocos 7 e 8 são os mais fáceis.
+codigo de saida: 0
