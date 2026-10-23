@@ -9,6 +9,8 @@ voz:
   gemini_voz: Leda
   gemini_tom: >-
     Narre em português do Brasil, com sotaque brasileiro neutro, como uma apresentadora inteligente e bem-humorada comentando um livro com uma amiga: tom de conversa, opinião firme, ironia leve e pausas para reflexão.
+  gemini_tom_teste: >-
+    Você é uma leitora brasileira inteligente e bem-humorada comentando um livro com uma amiga. Leia em português do Brasil, sotaque brasileiro neutro, em tom de conversa próxima, e não de locução. Varie o ritmo: mais leve e rápido nos resumos, mais lento e pensativo quando der uma opinião ou fizer uma crítica. Deixe a ironia e o sorriso aparecerem na voz nas partes engraçadas. Faça pausas curtas antes das conclusões, como quem pensa antes de falar. Evite volume e entonação constantes; soe como uma pessoa real falando, não lendo.
   google_voz: pt-BR-Chirp3-HD-Charon
   kokoro_voz: pm_santa
   edge_voz: pt-BR-AntonioNeural

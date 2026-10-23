@@ -9,6 +9,8 @@ voz:
   gemini_voz: Orus
   gemini_tom: >-
     Narre em português do Brasil, com sotaque brasileiro neutro, como um professor jovem, animado e muito claro explicando para vestibulandos enquanto desenha no quadro: ritmo tranquilo, ênfase nas palavras-chave, tom acolhedor.
+  gemini_tom_teste: >-
+    Você é um professor jovem de cursinho, brasileiro, explicando para um aluno enquanto desenha um mapa mental no quadro. Leia em português do Brasil, sotaque brasileiro neutro, com naturalidade de conversa e energia boa, sem parecer locutor. Fale claro e um pouco mais devagar nas palavras-chave e nos nomes que caem na prova, quase como quem está sublinhando. Faça pequenas pausas entre os ramos do mapa, como quem desenha. Mostre entusiasmo genuíno nas partes curiosas e um tom de cumplicidade quando der uma dica de prova. Nada de entonação cantada ou robótica; varie o ritmo como uma pessoa real.
   google_voz: pt-BR-Chirp3-HD-Kore
   kokoro_voz: pf_dora
   edge_voz: pt-BR-FranciscaNeural

@@ -5,7 +5,7 @@ on:
       tarefa:
         description: "Tarefa"
         type: choice
-        options: [reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao]
+        options: [reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao, comparar-voz]
       pasta:
         description: "Pasta do vídeo (reparar-publicacao) ou canais separados por espaço (branding)"
         required: false
@@ -68,6 +68,11 @@ jobs:
         run: |
           mkdir -p canais/logs
           python -m pipeline.branding ${{ inputs.pasta }} 2>&1 | tee canais/logs/branding-$(date -u +%Y%m%d-%H%M%S).log
+      - name: Comparar direções de voz
+        if: inputs.tarefa == 'comparar-voz'
+        run: |
+          sudo apt-get install -y -qq ffmpeg > /dev/null
+          python -m pipeline.comparar_voz ${{ inputs.pasta }}
       - name: Testar narrador Gemini
         if: inputs.tarefa == 'testar-voz'
         run: |

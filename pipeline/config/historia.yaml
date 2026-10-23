@@ -9,6 +9,8 @@ voz:
   gemini_voz: Charon
   gemini_tom: >-
     Narre em português do Brasil, com sotaque brasileiro neutro, como um youtuber jovem e carismático explicando história e economia com bom humor: ritmo dinâmico, ironia leve nas piadas, pausas curtas antes das revelações e seriedade nos trechos tristes.
+  gemini_tom_teste: >-
+    Você é o narrador de um canal brasileiro de história contada pelo dinheiro. Leia em português do Brasil, sotaque brasileiro neutro, como um amigo inteligente contando uma história num bar, e não como um locutor de rádio ou de documentário. Fale com naturalidade e calor, como se estivesse improvisando. Varie o ritmo: acelere um pouco nas partes engraçadas e nas listas, desacelere e faça uma pausa curta antes de cada revelação ou número importante. Deixe a ironia aparecer na voz, com um meio sorriso nas piadas, sem exagerar. Nos trechos sobre guerra, crise ou sofrimento, baixe o tom e fale mais devagar e sério. Respire nas vírgulas, não leia tudo no mesmo volume e evite a entonação cantada de anúncio.
   google_voz: pt-BR-Chirp3-HD-Puck
   kokoro_voz: pm_alex    # vozes pt-BR do Kokoro: pm_alex, pm_santa, pf_dora
   edge_voz: pt-BR-AntonioNeural
