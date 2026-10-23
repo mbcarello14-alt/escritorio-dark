@@ -124,8 +124,15 @@ def publicar(cfg: dict, pub: dict, video, thumb, srt) -> str:
     if pub.get("playlist"):
         try:
             pid = playlist_id(yt, pub["playlist"], cfg)
-            yt.playlistItems().insert(part="snippet", body={"snippet": {
-                "playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+            for tentativa in range(4):
+                try:
+                    yt.playlistItems().insert(part="snippet", body={"snippet": {
+                        "playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+                    break
+                except HttpError as e:
+                    if e.resp.status != 409 or tentativa == 3:
+                        raise
+                    time.sleep(10 * (tentativa + 1))
             log.info("na playlist '%s'", pub["playlist"])
         except HttpError as e:
             avisos.append(f"não entrou na playlist ({e.resp.status})")
@@ -193,3 +200,18 @@ def publicar_short(cfg: dict, corte: dict, arquivo, publicar_em_utc: str, video_
     vid = _enviar(yt.videos().insert(part="snippet,status", body=corpo, media_body=media))["id"]
     log.info("Short agendado: https://youtube.com/shorts/%s (%s)", vid, publicar_em_utc)
     return vid
+
+
+def atualizar_link_short(cfg: dict, short_id: str, video_longo: str) -> None:
+    """Troca o link "Vídeo completo" da descrição do Short para o vídeo longo atual."""
+    import re
+    yt = servico(cfg["segredo_youtube"])
+    sn = yt.videos().list(part="snippet", id=short_id).execute()["items"][0]["snippet"]
+    nova = re.sub(r"youtu\.be/[\w-]{11}", f"youtu.be/{video_longo}", sn.get("description", ""))
+    if nova == sn.get("description"):
+        return
+    corpo = {"id": short_id, "snippet": {"title": sn["title"], "categoryId": sn["categoryId"], "description": nova,
+                                         "tags": sn.get("tags", []), "defaultLanguage": sn.get("defaultLanguage", "pt-BR"),
+                                         "defaultAudioLanguage": sn.get("defaultAudioLanguage", "pt-BR")}}
+    yt.videos().update(part="snippet", body=corpo).execute()
+    log.info("Short %s agora aponta para %s", short_id, video_longo)

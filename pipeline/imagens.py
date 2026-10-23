@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import re
+import time
 from pathlib import Path
 
 import requests
@@ -26,7 +27,7 @@ class Buscador:
         r = requests.get("https://commons.wikimedia.org/w/api.php", headers=UA, timeout=30, params={
             "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
             "gsrsearch": f"{busca} filetype:bitmap", "gsrlimit": 12,
-            "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": 2400,
+            "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": 1920,
         })
         r.raise_for_status()
         paginas = (r.json().get("query") or {}).get("pages", {}).values()
@@ -76,7 +77,12 @@ class Buscador:
                 destino = self.pasta / (hashlib.sha1(c["url"].encode()).hexdigest()[:16] + ".img")
                 try:
                     if not destino.exists():
-                        r = requests.get(c["url"], headers=UA, timeout=60)
+                        url = c["url"].split("?utm_")[0]
+                        for espera in (0, 5, 15, 40):
+                            time.sleep(espera or 0.6)          # educado com o servidor de imagens
+                            r = requests.get(url, headers=UA, timeout=60)
+                            if r.status_code != 429:
+                                break
                         r.raise_for_status()
                         destino.write_bytes(r.content)
                     from PIL import Image

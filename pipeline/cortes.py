@@ -129,6 +129,18 @@ def _horarios(base_utc: str, qtd: int) -> list[str]:
 
 def produzir_cortes(pasta: Path, cfg: dict, video: Path, tempos: list[dict], palavras: list[dict], tmp: Path,
                     pub: dict, enviar: bool = True) -> list[dict]:
+    ja = pasta / "cortes-publicados.json"
+    if ja.exists() and enviar and pub.get("video_id"):
+        # o vídeo longo foi refeito: os Shorts continuam, só o link para o vídeo completo muda
+        publicados = json.loads(ja.read_text(encoding="utf-8"))
+        from .youtube import atualizar_link_short
+        for c in publicados:
+            if c.get("video_id"):
+                try:
+                    atualizar_link_short(cfg, c["video_id"], pub["video_id"])
+                except Exception as e:
+                    log.warning("não atualizei o link do Short %s: %s", c["video_id"], e)
+        return publicados
     arq = pasta / "cortes.json"
     if not arq.exists():
         log.info("sem cortes.json — nenhum Short neste vídeo")
@@ -165,6 +177,8 @@ def produzir_cortes(pasta: Path, cfg: dict, video: Path, tempos: list[dict], pal
             except Exception as e:
                 log.warning("não mandei o corte no Telegram: %s", e)
         saida.append(reg)
+    if any(r.get("video_id") for r in saida):
+        (pasta / "cortes-publicados.json").write_text(json.dumps(saida, ensure_ascii=False, indent=2), encoding="utf-8")
     return saida
 
 
