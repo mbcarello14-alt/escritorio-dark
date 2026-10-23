@@ -1,10 +1,7 @@
 {
-  "atualizado_em": "2026-10-23T00:31:50Z",
+  "atualizado_em": "2026-10-23T00:33:49Z",
   "ativos": {
-    "roteirista": [
-      "Ouro & Império: Wall Street não quebrou o Brasil sozinha"
-    ],
-    "checador": [
+    "miguel": [
       "Ouro & Império: Wall Street não quebrou o Brasil sozinha"
     ]
   },
@@ -14,8 +11,8 @@
       "dia": "2026-10-26",
       "rotulo": "segunda 26/10 18h00",
       "publicar_em_utc": "2026-10-26T21:00:00Z",
-      "etapa": "ajuste",
-      "etapa_txt": "✍️ ajustando o roteiro",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
       "titulo": "Wall Street não quebrou o Brasil sozinha",
       "url": ""
     }
