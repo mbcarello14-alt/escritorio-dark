@@ -5,7 +5,7 @@ on:
       tarefa:
         description: "Tarefa"
         type: choice
-        options: [reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao, comparar-voz]
+        options: [reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao, comparar-voz, recuperar-thumb]
       pasta:
         description: "Pasta do vídeo (reparar-publicacao) ou canais separados por espaço (branding)"
         required: false
@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 env:
   YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
@@ -68,6 +69,18 @@ jobs:
         run: |
           mkdir -p canais/logs
           python -m pipeline.branding ${{ inputs.pasta }} 2>&1 | tee canais/logs/branding-$(date -u +%Y%m%d-%H%M%S).log
+      - name: Recuperar thumbnail de uma montagem anterior
+        # pasta = "<pasta do vídeo> <id da execução da Produção>"
+        if: inputs.tarefa == 'recuperar-thumb'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -- ${{ inputs.pasta }}
+          art=$(gh api repos/${{ github.repository }}/actions/runs/$2/artifacts --jq '.artifacts[0].id')
+          gh api repos/${{ github.repository }}/actions/artifacts/$art/zip > /tmp/a.zip
+          mkdir -p /tmp/a && unzip -o -q /tmp/a.zip -d /tmp/a
+          cp "$(find /tmp/a -name thumbnail.jpg | head -1)" "$1/thumbnail-fixa.jpg"
+          ls -la "$1/thumbnail-fixa.jpg"
       - name: Comparar direções de voz
         if: inputs.tarefa == 'comparar-voz'
         run: |

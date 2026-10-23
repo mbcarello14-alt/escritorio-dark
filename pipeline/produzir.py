@@ -199,8 +199,13 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
                    encoding="utf-8")
 
     th = prod["thumbnail"]
-    img_thumb = ctx.imagem(th.get("cena"), th.get("imagem_busca"))
-    thumb = cartoes.thumbnail(cfg, th["texto"], img_thumb, th.get("layout", "direita"), saida / "thumbnail.jpg")
+    fixa = pasta / "thumbnail-fixa.jpg"   # thumbnail escolhida pelo Miguel: usada como está
+    if fixa.exists():
+        import shutil
+        thumb = Path(shutil.copy(fixa, saida / "thumbnail.jpg"))
+    else:
+        img_thumb = ctx.imagem(th.get("cena"), th.get("imagem_busca"))
+        thumb = cartoes.thumbnail(cfg, th["texto"], img_thumb, th.get("layout", "direita"), saida / "thumbnail.jpg")
 
     partes = [prod["descricao"].strip()]
     caps = legendas.capitulos(tempos_blocos)
