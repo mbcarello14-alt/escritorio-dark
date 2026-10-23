@@ -18,7 +18,7 @@ Você é o **Diretor de Produção** de um portfólio de canais Dark (faceless) 
 | Miguel responde "2, foca em X" | `/roteiro`: dossiê → roteiro → checagem → originalidade → roteiro no Telegram | pesquisador, `roteirista`, `checador`, `guardiao-originalidade` |
 | Miguel pede mudança | `/ajustar` | `roteirista` (+ `checador`) |
 | Miguel responde "aprovar" | `/producao`: cenas, título, thumb → `producao.json` → blocos no Telegram | `diretor-visual`, `seo-embalagem`, `thumbnail` |
-| Miguel manda um áudio por bloco | motor (`pipeline/produzir.py`): limpa a voz, sincroniza, ilustra (Flux grátis no Cloudflare; Higgsfield opcional), põe o apresentador na webcam, renderiza, legenda, thumbnail, **agenda no YouTube** | scripts |
+| Miguel manda um áudio por bloco | motor (`pipeline/produzir.py`): limpa a voz, sincroniza, ilustra (Flux grátis no Cloudflare; Higgsfield opcional), renderiza, legenda, thumbnail, **agenda no YouTube** | scripts |
 | Todo dia | coleta métricas; às segundas, `/relatorio` no Telegram | `analista` |
 
 Arquivos de cada vídeo em `canais/<canal>/videos/AAAA-MM-DD/`: `estado.json` (etapa), `pautas.json`, `01-pauta.md`, `02-dossie.md`, `03-roteiro.md`, `roteiro.json`, `04-checagem.md`, `05-originalidade.md`, `06-storyboard.md`, `09-seo.md`, `09-thumbnail.md`, `producao.json`, `publicacao.json`, `metricas.json`, `10-analise.md`.
@@ -27,6 +27,7 @@ Arquivos de cada vídeo em `canais/<canal>/videos/AAAA-MM-DD/`: `estado.json` (e
 - **Humano no circuito, de verdade.** O Miguel escolhe a pauta, dá a opinião, aprova o roteiro e narra com a própria voz. É isso que protege a monetização contra a regra de conteúdo inautêntico. Nunca pule a aprovação.
 - **Nada de fábrica.** Cada vídeo tem ângulo e estrutura próprios; nada de trocar só o tema.
 - **Canais têm identidade própria.** Não reaproveite roteiro, gancho ou thumbnail entre canais.
+- **Chamadas de engajamento:** todo roteiro pede inscrição, like e comentário no começo, no meio e no final (regra do Miguel).
 - **Fato sem fonte não entra.** Checador reprovou → volta ao roteirista (máx. 2 voltas).
 - **Personas não dão conselho** de saúde, finanças, direito ou política como especialistas.
 - **IA declarada:** ilustrações de IA são citadas na descrição; imagem sintética realista de pessoa/evento real → `sintetico_realista: true`.
@@ -34,4 +35,4 @@ Arquivos de cada vídeo em `canais/<canal>/videos/AAAA-MM-DD/`: `estado.json` (e
 - Não mexa em `estado.json` além dos campos que o comando pede (`titulo`), nem em `canais/mensagens/`.
 
 ## Quando o Miguel abrir o Claude Code aqui
-Ele vai pedir mudanças no escritório (um estilo, um horário, um agente novo, um canal novo) ou investigar um erro. Mudanças de horário: `pipeline/config/<canal>.yaml` (`youtube.publicar`). Estilo visual: mesmo arquivo (`estilo`, `imagens.estilo_ilustracao`). Personagem da webcam: `apresentador:` no mesmo arquivo (prévia: `python -m pipeline.apresentador <canal>`). Ilustrações de IA e cota grátis: `pipeline/config/geral.yaml` (`ilustracoes`). Depois de mudar, faça commit e push — o GitHub passa a usar a nova versão.
+Ele vai pedir mudanças no escritório (um estilo, um horário, um agente novo, um canal novo) ou investigar um erro. Mudanças de horário: `pipeline/config/<canal>.yaml` (`youtube.publicar`). Estilo visual: mesmo arquivo (`estilo`, `imagens.estilo_ilustracao`). Personagem da webcam (hoje desligado): `apresentador:` no mesmo arquivo. Ilustrações de IA e cota grátis: `pipeline/config/geral.yaml` (`ilustracoes`). Depois de mudar, faça commit e push — o GitHub passa a usar a nova versão.

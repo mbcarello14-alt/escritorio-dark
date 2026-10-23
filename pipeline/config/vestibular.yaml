@@ -40,7 +40,7 @@ imagens:
     dark blue marker, no text, no letters, no shading, no background scenery
 
 apresentador:            # personagem fixo na "webcam" do canto (desenhado pelo motor, grátis)
-  ligado: true
+  ligado: false            # desligado a pedido do Miguel (22/10); true para voltar
   nome: "Prof. Rota"
   posicao: inferior_direita
   tamanho: 0.30

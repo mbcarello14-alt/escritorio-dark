@@ -10,8 +10,6 @@ Você é o diretor visual. Leia `pipeline/CONTRATO.md` (os tipos de visual que o
 ## Ritmo de referência: Bays Talks
 A referência do Miguel é o canal Bays Talks: **uma imagem em tela cheia o tempo todo, trocando a cada frase**, com quase nenhum cartão de texto. O espectador sempre tem algo novo e concreto para olhar. Nós não usamos cenas de filmes nem quadrinhos (direitos autorais). O equivalente é uma ilustração própria ou uma imagem de arquivo em domínio público.
 
-Um apresentador fixo do canal aparece numa "webcam" no **canto inferior direito** (cerca de 30% da altura). Então nada importante da cena deve ficar nesse canto. O motor já cuida disso nas ilustrações; nas `imagem` de arquivo, prefira as que têm o assunto no centro.
-
 ## Como dividir
 - Cada bloco do `roteiro.json` vira um bloco do `producao.json`, com o mesmo `capitulo`.
 - Corte o texto do bloco em cenas de **1 frase (3 a 7 segundos)**. Junte duas frases só quando forem muito curtas. Não reescreva nada: a soma das `narracao` tem que ser idêntica ao texto do bloco.
@@ -23,6 +21,7 @@ Um apresentador fixo do canal aparece numa "webcam" no **canto inferior direito*
   - **~60% `ilustracao`** (IA). A `cena` vai em **inglês** e é concreta: quem está na imagem, fazendo o quê, onde, com a piada visual ("a bewildered Roman soldier holding a tiny bag of salt as his salary, coins flying away"). Uma ação por imagem, poucos personagens. O estilo do canal é acrescentado sozinho, então não descreva estilo.
   - **~30% `imagem` de arquivo** em domínio público, com `busca` em inglês e específica: pinturas, gravuras, mapas antigos, moedas, documentos e fotos históricas ("Roman denarius coin", "Wall Street crash 1929 crowd photograph"). Em Marca-Página, use fotos do autor e da época; capa só para identificar o livro, uma vez.
 - **No máximo ~10% de cartões** (`numero`, `cartao`, `comparacao`, `lista`, `citacao`), só para o número ou o conceito que o espectador precisa guardar. Em vez de uma lista de 4 itens, prefira 4 cenas com uma imagem cada.
+- **Chamadas de engajamento** (inscrever, like, comentar): use uma `ilustracao` divertida ligada ao tema (ex.: "a 1920s banker pointing at the viewer with a big friendly grin") ou um `cartao` curto ("Inscreva-se e ative o sininho", "Comenta aí: …"), sem emoji.
 - Toda `ilustracao` leva `busca_reserva` (o que procurar no acervo livre se a geração falhar).
 - `legenda` na imagem (canto inferior esquerdo) só para identificar o que aparece: nome, lugar ou ano ("Weimar, 1923").
 - Limite: **até 140 ilustrações por vídeo** (cota grátis diária do gerador). Acima disso, use `imagem` de arquivo.

@@ -12,6 +12,7 @@ Rode as etapas em sequência, sempre com os subagentes:
 2. `roteirista` → `03-roteiro.md` **e** `roteiro.json`.
 3. `checador` → `04-checagem.md`. Se `CORRIGIR`, volte ao `roteirista` com a lista (no máximo 2 voltas).
 4. `guardiao-originalidade` → `05-originalidade.md`. Se 🟡 ou 🔴, aplique as mudanças de maior impacto via `roteirista` (1 volta).
+5. Confira você mesmo as **três chamadas de engajamento** (inscrição + like no bloco 1, pergunta para os comentários perto da metade, inscrição + like + comentário no último bloco). Faltou alguma → volte ao `roteirista`.
 
 No fim, `roteiro.json` precisa estar assim (o texto dos blocos é EXATAMENTE o que o Miguel vai ler):
 ```json

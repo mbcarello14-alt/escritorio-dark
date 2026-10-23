@@ -24,7 +24,6 @@
 ## Ferramentas (automatizadas)
 - **Voz:** narrador de IA Gemini (Charon), tom de youtuber bem-humorado
 - **Imagens:** ilustrações de IA (Flux, grátis; estilo Tinocando: ilustrações próprias com humor e cortes rápidos) + acervos livres (Wikimedia Commons, Openverse)
-- **Apresentador na webcam:** Barão Dobrão, um barão das finanças de cartola, monóculo e bigode, que explica a história seguindo o dinheiro. Fica num quadro no canto inferior direito, falando com a voz do narrador. O roteiro pode, de vez em quando, falar em primeira pessoa como ele ("eu, Barão Dobrão, …"), sem virar esquete. Ele nunca dá conselho de saúde, finanças, direito ou política como especialista.
 - **Edição, legendas, thumbnail e upload:** motor automático (`pipeline/`)
 
 ## Referências

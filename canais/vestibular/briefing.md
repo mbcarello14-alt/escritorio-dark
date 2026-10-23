@@ -25,7 +25,6 @@
 ## Ferramentas (automatizadas)
 - **Voz:** narrador de IA Gemini (Orus), tom de professor jovem e claro
 - **Imagens:** ilustrações de IA (Flux, grátis; Draw My Life: quadro branco, desenhos e mapa mental aparecendo traço a traço) + acervos livres (Wikimedia Commons, Openverse)
-- **Apresentador na webcam:** Prof. Rota, um professor jovem de óculos e moletom, que desenha o mapa na lousa. Fica num quadro no canto inferior direito, falando com a voz do narrador. O roteiro pode, de vez em quando, falar em primeira pessoa como ele ("eu, Prof. Rota, …"), sem virar esquete. Ele nunca dá conselho de saúde, finanças, direito ou política como especialista.
 - **Edição, legendas, thumbnail e upload:** motor automático (`pipeline/`)
 
 ## Calendário (sazonalidade)

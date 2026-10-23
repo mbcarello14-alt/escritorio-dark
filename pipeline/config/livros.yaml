@@ -39,7 +39,7 @@ imagens:
     no text, no letters, no watermark, no book covers
 
 apresentador:            # personagem fixo na "webcam" do canto (desenhado pelo motor, grátis)
-  ligado: true
+  ligado: false            # desligado a pedido do Miguel (22/10); true para voltar
   nome: "Lia"
   posicao: inferior_direita
   tamanho: 0.30

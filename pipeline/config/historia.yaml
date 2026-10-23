@@ -39,7 +39,7 @@ imagens:
     composition, no text, no letters, no watermark
 
 apresentador:            # personagem fixo na "webcam" do canto (desenhado pelo motor, grátis)
-  ligado: true
+  ligado: false            # desligado a pedido do Miguel (22/10); true para voltar
   nome: "Barão Dobrão"
   posicao: inferior_direita   # inferior_direita | inferior_esquerda | superior_direita | superior_esquerda
   tamanho: 0.30               # lado da câmera em fração da altura do vídeo
