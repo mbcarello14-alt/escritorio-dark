@@ -54,6 +54,13 @@ apresentador:            # personagem fixo na "webcam" do canto (desenhado pelo 
   gola: cardigan
   blusa: "#F3EBDD"
 
+canal_youtube:           # aplicado por: python -m pipeline.branding livros
+  descricao: >-
+    As ideias que valem a pena de cada livro, e o que ele erra. Resumo + crítica de não
+    ficção, clássicos e leituras obrigatórias de vestibular: o que o livro acerta, o que
+    envelheceu e para quem ele serve. Vídeos novos toda quarta e sábado.
+  palavras_chave: [resumo de livro, resenha, livros, leitura, não ficção, leituras obrigatórias, clássicos]
+
 youtube:
   categoria_id: "27"
   idioma: pt-BR

@@ -14,11 +14,27 @@ ESCOPOS = [
 ]
 
 
+def _do_repositorio(nome_segredo: str) -> str:
+    """Acesso salvo pelo link "Autorizar canal" do worker: canais/credenciais/<canal>.json, criptografado."""
+    import base64
+    import hashlib
+    from pathlib import Path
+    canal = nome_segredo.replace("YT_REFRESH_", "").lower()
+    arq = Path(__file__).resolve().parent.parent / "canais" / "credenciais" / f"{canal}.json"
+    pat = os.environ.get("GH_PAT", "")
+    if not (arq.exists() and pat):
+        return ""
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    d = json.loads(arq.read_text(encoding="utf-8"))
+    chave = hashlib.sha256(f"{pat}:youtube".encode()).digest()
+    return AESGCM(chave).decrypt(base64.b64decode(d["iv"]), base64.b64decode(d["dado"]), None).decode()
+
+
 def credenciais(nome_segredo: str):
     """Aceita o refresh token puro (com YT_CLIENT_ID/YT_CLIENT_SECRET) ou o JSON do autorizar_youtube.py."""
     from google.oauth2.credentials import Credentials
 
-    bruto = (os.environ.get(nome_segredo) or "").strip()
+    bruto = (os.environ.get(nome_segredo) or "").strip() or _do_repositorio(nome_segredo)
     if not bruto:
         raise SystemExit(f"Segredo {nome_segredo} não encontrado. Veja SETUP.md, passo do YouTube.")
     if bruto.startswith("{"):

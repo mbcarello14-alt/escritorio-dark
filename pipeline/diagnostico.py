@@ -32,6 +32,12 @@ def main():
     linhas = ["🩺 <b>Diagnóstico do escritório</b>\n"]
     for nome, desc in SEGREDOS.items():
         ok = bool((os.environ.get(nome) or "").strip())
+        if not ok and nome.startswith("YT_REFRESH_"):
+            from .youtube import _do_repositorio
+            try:
+                ok = bool(_do_repositorio(nome))
+            except Exception:
+                ok = False
         linhas.append(f"{'✅' if ok else '❌'} {desc} <code>{nome}</code>")
 
     linhas.append("")

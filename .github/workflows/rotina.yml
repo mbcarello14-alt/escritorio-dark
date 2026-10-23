@@ -22,6 +22,7 @@ env:
   YT_REFRESH_HISTORIA: ${{ secrets.YT_REFRESH_HISTORIA }}
   YT_REFRESH_VESTIBULAR: ${{ secrets.YT_REFRESH_VESTIBULAR }}
   YT_REFRESH_LIVROS: ${{ secrets.YT_REFRESH_LIVROS }}
+  GH_PAT: ${{ secrets.GH_PAT }}   # abre os acessos salvos em canais/credenciais
   RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
 jobs:

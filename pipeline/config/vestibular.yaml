@@ -54,6 +54,14 @@ apresentador:            # personagem fixo na "webcam" do canto (desenhado pelo 
   roupa: "#F59E0B"
   gola: moletom
 
+canal_youtube:           # aplicado por: python -m pipeline.branding vestibular
+  descricao: >-
+    O conteúdo que mais cai no ENEM e nos vestibulares, explicado em mapas mentais que se
+    desenham na sua frente. Cada vídeo fecha um tema e termina com uma questão real de prova
+    resolvida com o mapa. Revise em 1 minuto o que você entendeu em 10. Vídeos novos toda
+    terça e quinta.
+  palavras_chave: [enem, vestibular, mapa mental, resumo enem, história enem, geografia enem, revisão enem]
+
 youtube:
   categoria_id: "27"
   idioma: pt-BR

@@ -96,6 +96,78 @@ async function imagem(req, env) {
   }
 }
 
+// ---------------------------------------------------------------- autorizar canais do YouTube
+const ESCOPOS = [
+  "https://www.googleapis.com/auth/youtube.upload",
+  "https://www.googleapis.com/auth/youtube.force-ssl",
+  "https://www.googleapis.com/auth/yt-analytics.readonly",
+].join(" ");
+const NOMES = { historia: "Ouro & Império", vestibular: "Mapeado", livros: "Marca-Página" };
+
+async function sha256(texto) {
+  return new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(texto)));
+}
+const b64 = (u8) => btoa(String.fromCharCode(...u8));
+const hex = (u8) => [...u8].map((b) => b.toString(16).padStart(2, "0")).join("");
+
+async function assinatura(env, canal) {
+  return hex(await sha256(`${env.PAINEL_KEY}:${canal}:oauth`)).slice(0, 20);
+}
+
+function html(titulo, corpo, status = 200) {
+  return new Response(`<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${titulo}</title><body style="font-family:system-ui,sans-serif;max-width:640px;margin:48px auto;padding:0 16px;line-height:1.6;background:#14110D;color:#F3EBDD"><h1 style="color:#C9A24A">${titulo}</h1>${corpo}</body></html>`,
+    { status, headers: { "content-type": "text/html; charset=utf-8" } });
+}
+
+async function oauthInicio(url, env) {
+  const canal = url.searchParams.get("canal");
+  if (!NOMES[canal]) return html("Canal desconhecido", "<p>Use canal=historia, vestibular ou livros.</p>", 400);
+  if (!env.YT_CLIENT_ID) return html("Falta configurar", "<p>Rode o workflow Instalar bot de novo.</p>", 500);
+  const p = new URLSearchParams({
+    client_id: env.YT_CLIENT_ID, redirect_uri: `${url.origin}/oauth/retorno`, response_type: "code",
+    scope: ESCOPOS, access_type: "offline", prompt: "consent select_account",
+    state: `${canal}.${await assinatura(env, canal)}`,
+  });
+  return Response.redirect(`https://accounts.google.com/o/oauth2/v2/auth?${p}`, 302);
+}
+
+async function oauthRetorno(url, env) {
+  const [canal, ass] = (url.searchParams.get("state") || "").split(".");
+  if (!NOMES[canal] || ass !== await assinatura(env, canal)) return html("Link inválido", "<p>Comece de novo pelo link que o Claude mandou.</p>", 403);
+  const code = url.searchParams.get("code");
+  if (!code) return html("Autorização cancelada", `<p>${url.searchParams.get("error") || "Sem código."}</p>`, 400);
+  const tok = await (await fetch("https://oauth2.googleapis.com/token", {
+    method: "POST", headers: { "content-type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({ code, client_id: env.YT_CLIENT_ID, client_secret: env.YT_CLIENT_SECRET,
+      redirect_uri: `${url.origin}/oauth/retorno`, grant_type: "authorization_code" }),
+  })).json();
+  if (!tok.refresh_token) return html("Não deu certo", `<p>O Google não devolveu o acesso (${tok.error || "sem refresh token"}). Tente de novo.</p>`, 400);
+  const ch = await (await fetch("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true",
+    { headers: { authorization: `Bearer ${tok.access_token}` } })).json();
+  const titulo = ch.items?.[0]?.snippet?.title || "(canal sem nome)";
+  const idCanal = ch.items?.[0]?.id || "";
+  // guarda o acesso criptografado no repositório (a chave sai do GH_PAT, que só o GitHub e o worker conhecem)
+  const chave = await crypto.subtle.importKey("raw", await sha256(`${env.GH_PAT}:youtube`), "AES-GCM", false, ["encrypt"]);
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const dado = new Uint8Array(await crypto.subtle.encrypt({ name: "AES-GCM", iv }, chave, new TextEncoder().encode(tok.refresh_token)));
+  const conteudo = JSON.stringify({ canal, titulo_youtube: titulo, id_canal: idCanal, iv: b64(iv), dado: b64(dado),
+    autorizado_em: new Date().toISOString() }, null, 2);
+  const api = `https://api.github.com/repos/${env.GH_REPO}/contents/canais/credenciais/${canal}.json`;
+  const cab = { authorization: `Bearer ${env.GH_PAT}`, accept: "application/vnd.github+json", "user-agent": "escritorio-dark-worker" };
+  const atual = await fetch(api, { headers: cab });
+  const sha = atual.ok ? (await atual.json()).sha : undefined;
+  const put = await fetch(api, { method: "PUT", headers: { ...cab, "content-type": "application/json" },
+    body: JSON.stringify({ message: `acesso ao YouTube - ${canal}`, content: btoa(unescape(encodeURIComponent(conteudo))), sha }) });
+  if (!put.ok) return html("Não consegui salvar", `<p>GitHub respondeu ${put.status}. Avise o Claude.</p>`, 500);
+  const limpo = (t) => t.toLowerCase().normalize("NFD").replace(/[^a-z]/g, "");
+  const confere = limpo(titulo).includes(limpo(NOMES[canal]).slice(0, 6));
+  if (env.TELEGRAM_CHAT_ID) await tg(env, "sendMessage", { chat_id: env.TELEGRAM_CHAT_ID, text:
+    `${confere ? "✅" : "⚠️"} Canal do YouTube autorizado para ${NOMES[canal]}: "${titulo}"${confere ? "" : " — parece outro canal! Autorize de novo escolhendo o certo."}` });
+  return html(confere ? "Pronto! ✅" : "Atenção ⚠️",
+    `<p>O escritório agora pode publicar como <b>${titulo}</b> na vaga do <b>${NOMES[canal]}</b>.</p>` +
+    (confere ? "<p>Pode fechar esta aba.</p>" : "<p>Esse não parece ser o canal certo. Volte e abra o link de novo, escolhendo o canal correto.</p>"));
+}
+
 function pagina(caminho) {
   const corpo = caminho === "/privacidade"
     ? `<h1>Política de Privacidade — Escritório Dark</h1>
@@ -116,6 +188,11 @@ export default {
     const url = new URL(req.url);
     if (url.pathname === "/telegram" && req.method === "POST") return telegram(req, env, ctx);
     if (url.pathname === "/privacidade" || url.pathname === "/termos") return pagina(url.pathname);
+    if (url.pathname === "/oauth/retorno") return oauthRetorno(url, env);
+    if (url.pathname === "/oauth/inicio") {
+      if (!env.PAINEL_KEY || url.searchParams.get("k") !== env.PAINEL_KEY) return new Response("proibido", { status: 403 });
+      return oauthInicio(url, env);
+    }
 
     const chaveOk = env.PAINEL_KEY && url.searchParams.get("k") === env.PAINEL_KEY;
     if (url.pathname === "/api/imagem" && req.method === "POST") {

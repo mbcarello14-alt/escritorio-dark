@@ -5,9 +5,9 @@ on:
       tarefa:
         description: "Tarefa"
         type: choice
-        options: [reparar-publicacao, testar-visual, testar-voz]
+        options: [reparar-publicacao, testar-visual, testar-voz, branding]
       pasta:
-        description: "Pasta do vídeo (só para reparar-publicacao)"
+        description: "Pasta do vídeo (reparar-publicacao) ou canais separados por espaço (branding)"
         required: false
         default: ""
 
@@ -42,6 +42,11 @@ jobs:
         run: |
           mkdir -p canais/logs
           python -m pipeline.teste_visual 2>&1 | tee canais/logs/teste-visual-$(date -u +%Y%m%d-%H%M%S).log
+      - name: Aplicar descrição e banner
+        if: inputs.tarefa == 'branding'
+        run: |
+          mkdir -p canais/logs
+          python -m pipeline.branding ${{ inputs.pasta }} 2>&1 | tee canais/logs/branding-$(date -u +%Y%m%d-%H%M%S).log
       - name: Testar narrador Gemini
         if: inputs.tarefa == 'testar-voz'
         run: |
