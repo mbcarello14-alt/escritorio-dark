@@ -70,7 +70,9 @@ def _espera_sugerida(r) -> int | None:
 
 def sintetizar(texto: str, voz: str, tom: str, destino_wav: Path, tentativas: int = 12) -> Path:
     corpo = {
-        "contents": [{"parts": [{"text": f"{tom}\n\nTexto:\n{texto}"}]}],
+        # formato de "notas do diretor" + transcrição: deixa claro o que é instrução e o que é para ler
+        "contents": [{"parts": [{"text": f"### DIRECTOR'S NOTES (do not read aloud)\n{tom}\n\n"
+                                         f"#### TRANSCRIPT (read only this, word for word)\n{texto}"}]}],
         "generationConfig": {"responseModalities": ["AUDIO"],
                              "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voz}}}},
     }
@@ -120,9 +122,48 @@ def narrar_blocos(pasta: Path, prod: dict, cfg: dict) -> None:
     tom = cfg["voz"].get("gemini_tom", TOM_PADRAO)
     (pasta / "audio").mkdir(exist_ok=True)
     for n, b in enumerate(prod["blocos"], 1):
-        if arquivo_bloco(pasta, n):
-            continue
         texto = " ".join(c["narracao"] for c in b["cenas"])
-        sintetizar(texto, voz, tom, pasta / "audio" / f"bloco_{n:02d}.wav")
-        time.sleep(22)   # plano grátis: poucas chamadas por minuto
-        log.info("narrador Gemini (%s, %s): bloco %d/%d", modelo(), voz, n, len(prod["blocos"]))
+        wav = pasta / "audio" / f"bloco_{n:02d}.wav"
+        if not arquivo_bloco(pasta, n):
+            sintetizar(texto, voz, tom, wav)
+            time.sleep(22)   # plano grátis: poucas chamadas por minuto
+            log.info("narrador Gemini (%s, %s): bloco %d/%d", modelo(), voz, n, len(prod["blocos"]))
+        aparar_fora_do_roteiro(wav, texto)
+
+
+def aparar_fora_do_roteiro(wav: Path, texto: str) -> None:
+    """Corta o que a voz falou antes da 1ª ou depois da última frase do roteiro (ex.: leu a instrução de estilo)."""
+    from .gravacao import _norm, transcrever
+    palavras = transcrever(wav)
+    if not palavras:
+        return
+    ouvidas = [_norm(w["palavra"]) for w in palavras]
+    roteiro = [t for t in (_norm(p) for p in texto.split()) if t]
+    if len(roteiro) < 4:
+        return
+
+    def acha(seq, inicio_lista, reverso=False):
+        idxs = range(len(ouvidas) - len(seq), -1, -1) if reverso else range(len(ouvidas) - len(seq) + 1)
+        for i in idxs:
+            if sum(a == b for a, b in zip(ouvidas[i:i + len(seq)], seq)) >= len(seq) - 1:
+                return i
+        return None
+
+    ini = acha(roteiro[:3], 0)
+    fim = acha(roteiro[-3:], 0, reverso=True)
+    corte_ini = palavras[ini]["inicio"] - 0.12 if ini and palavras[ini]["inicio"] > 0.6 else 0.0
+    corte_fim = None
+    if fim is not None and fim + 2 < len(palavras) - 1:
+        ultimo = palavras[fim + 2]["fim"]
+        if palavras[-1]["fim"] - ultimo > 1.2:
+            corte_fim = ultimo + 0.25
+    if corte_ini <= 0 and corte_fim is None:
+        return
+    extra = " ".join(w["palavra"] for w in palavras[:ini]) if corte_ini else ""
+    log.warning("voz falou fora do roteiro em %s — aparando%s", wav.name, f" ('{extra[:80]}…')" if extra else "")
+    tmp = wav.with_suffix(".aparado.wav")
+    cmd = ["ffmpeg", "-nostdin", "-y", "-v", "error", "-i", str(wav), "-ss", f"{max(0.0, corte_ini):.3f}"]
+    if corte_fim:
+        cmd += ["-to", f"{corte_fim:.3f}"]
+    rodar(cmd + [str(tmp)])
+    tmp.replace(wav)
