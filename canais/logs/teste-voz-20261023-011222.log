@@ -1,0 +1,6 @@
+01:12:35 WARNING Gemini TTS ocupado (429) — tentando de novo em 20s
+models: 200 ['models/gemini-2.5-flash-preview-tts', 'models/gemini-2.5-pro-preview-tts', 'models/gemini-3.1-flash-tts-preview', 'models/gemini-3.8-flash-tts', 'models/gemini-3.8-flash-lite-tts']
+escolhido: gemini-3.8-flash-tts
+ERRO 0 [Errno 2] No such file or directory: 'ffmpeg'
+ERRO 1 [Errno 2] No such file or directory: 'ffmpeg'
+ERRO 2 Gemini TTS: limite de uso atingido, tente mais tarde
