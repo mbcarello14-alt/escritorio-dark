@@ -200,7 +200,8 @@ def preparar_imagem(origem: Path, destino: Path, legenda: str = "", preencher: b
         fundo_img.paste(frente, ((alvo[0] - frente.width) // 2, (alvo[1] - frente.height) // 2))
         img = fundo_img
     else:
-        img = ImageOps.fit(img, alvo, Image.LANCZOS)
+        # ilustração quadrada: corta mais embaixo que em cima (rostos ficam no terço de cima)
+        img = ImageOps.fit(img, alvo, Image.LANCZOS, centering=(0.5, 0.38 if preencher else 0.5))
     img.save(destino, quality=92)
     return destino
 
