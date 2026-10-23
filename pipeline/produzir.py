@@ -140,6 +140,8 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
             except Exception as e:
                 log.warning("narrador Gemini indisponível (%s) — usando o próximo da lista", e)
                 lista = [m for m in lista if m != "gemini"]
+                if not lista:
+                    raise SystemExit(f"Narrador Gemini indisponível ({e}) e não há voz reserva permitida.")
         if motor != "gravada":
             from .voz import escolher_motor
             motor = escolher_motor(cfg, tmp, lista)

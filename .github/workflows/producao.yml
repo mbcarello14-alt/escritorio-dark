@@ -6,6 +6,10 @@ on:
       pasta:
         description: "Pasta do vídeo (ex.: canais/historia/videos/2026-10-26)"
         required: true
+      voz:
+        description: "Forçar narrador (ex.: gemini = só Charon/Orus/Leda, sem reserva). Vazio = padrão do canal"
+        required: false
+        default: ""
       sem_upload:
         description: "Só gerar o vídeo, sem subir (teste)"
         type: boolean
@@ -58,6 +62,7 @@ jobs:
           LOG=canais/logs/motor-$(date -u +%Y%m%d-%H%M%S).log
           extra=""; [ "${{ inputs.sem_upload }}" = "true" ] && extra="--sem-upload"
           set -o pipefail
+          [ -n "${{ inputs.voz }}" ] && export MOTOR_VOZ="${{ inputs.voz }}"
           python -m pipeline.produzir "${{ inputs.pasta }}" $extra 2>&1 | grep -v -i "key=" | tee "$LOG"
 
       - name: Guardar o vídeo (7 dias, para baixar se quiser)
