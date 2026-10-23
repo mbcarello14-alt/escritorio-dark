@@ -138,6 +138,7 @@ class Ilustrador:
         self.pasta.mkdir(parents=True, exist_ok=True)
         self.max_video = conf.get("max_por_video", 150)
         self.gerados = 0
+        self._contadas: set = set()
         disponiveis = {"flux": lambda: _Flux(conf.get("flux", {})),
                        "higgsfield": lambda: _Higgsfield(geral.get("higgsfield", {}))}
         fontes = img.get("fontes", [])
@@ -157,7 +158,11 @@ class Ilustrador:
 
     def gerar(self, descricao: str) -> Path | None:
         destino = self._destino(descricao)
-        if destino.exists():
+        if destino.exists():   # já feita numa tentativa anterior (cache): conta como ilustração do vídeo
+            with _trava:
+                if destino not in self._contadas:
+                    self._contadas.add(destino)
+                    self.gerados += 1
             return destino
         if not self.ativo or self.gerados >= self.max_video:
             return None
@@ -171,6 +176,7 @@ class Ilustrador:
             try:
                 if m.gerar(self._prompt(descricao), destino):
                     with _trava:
+                        self._contadas.add(destino)
                         self.gerados += 1
                     return destino
             except Exception as e:
