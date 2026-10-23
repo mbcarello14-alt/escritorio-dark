@@ -32,39 +32,72 @@ def _chave() -> str:
     return k
 
 
+_esgotados: set[str] = set()   # modelos que bateram a cota do dia (cada modelo tem a sua)
+
+
 @lru_cache(maxsize=1)
-def modelo() -> str:
+def _disponiveis() -> list[str]:
     forcado = os.environ.get("GEMINI_TTS_MODEL")
     if forcado:
-        return forcado
+        return [forcado]
     r = requests.get(f"{API}/models", params={"key": _chave(), "pageSize": 200}, timeout=60)
     r.raise_for_status()
     nomes = [m["name"].split("/")[-1] for m in r.json().get("models", [])
              if "tts" in m["name"] and "generateContent" in m.get("supportedGenerationMethods", ["generateContent"])]
-    for p in PREFERIDOS:
-        if p in nomes:
-            return p
-    if nomes:
-        return sorted(nomes)[-1]
-    raise RuntimeError("nenhum modelo de voz (TTS) disponível para esta chave")
+    ordem = [p for p in PREFERIDOS if p in nomes] + sorted(n for n in nomes if n not in PREFERIDOS)
+    if not ordem:
+        raise RuntimeError("nenhum modelo de voz (TTS) disponível para esta chave")
+    return ordem
 
 
-def sintetizar(texto: str, voz: str, tom: str, destino_wav: Path, tentativas: int = 6) -> Path:
+def modelo() -> str:
+    for m in _disponiveis():
+        if m not in _esgotados:
+            return m
+    raise RuntimeError("Gemini TTS: todos os modelos de voz bateram a cota grátis do dia")
+
+
+def _espera_sugerida(r) -> int | None:
+    """Lê o 'retryDelay' do erro 429 (ex.: '37s')."""
+    try:
+        for d in r.json()["error"].get("details", []):
+            if "retryDelay" in d:
+                return int(float(d["retryDelay"].rstrip("s"))) + 2
+    except Exception:
+        pass
+    return None
+
+
+def sintetizar(texto: str, voz: str, tom: str, destino_wav: Path, tentativas: int = 12) -> Path:
     corpo = {
         "contents": [{"parts": [{"text": f"{tom}\n\nTexto:\n{texto}"}]}],
         "generationConfig": {"responseModalities": ["AUDIO"],
                              "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voz}}}},
     }
-    espera = 20
+    seguidos_429 = 0
     for t in range(tentativas):
-        r = requests.post(f"{API}/models/{modelo()}:generateContent", params={"key": _chave()}, json=corpo, timeout=300)
-        if r.status_code == 429 or r.status_code >= 500:
-            log.warning("Gemini TTS ocupado (%s) — tentando de novo em %ss", r.status_code, espera)
-            time.sleep(espera)
-            espera = min(espera * 2, 180)
+        m = modelo()
+        r = requests.post(f"{API}/models/{m}:generateContent", params={"key": _chave()}, json=corpo, timeout=300)
+        if r.status_code == 429:
+            seguidos_429 += 1
+            dia = "PerDay" in r.text or "per day" in r.text.lower()
+            if dia or seguidos_429 >= 3:
+                log.warning("Gemini TTS: cota do modelo %s acabou — trocando de modelo", m)
+                _esgotados.add(m)
+                seguidos_429 = 0
+                modelo()   # levanta erro se não sobrou nenhum
+                continue
+            espera = _espera_sugerida(r) or 30 * seguidos_429
+            log.warning("Gemini TTS: limite por minuto (%s) — esperando %ss", m, espera)
+            time.sleep(min(espera, 120))
+            continue
+        if r.status_code >= 500:
+            log.warning("Gemini TTS instável (%s) — tentando de novo", r.status_code)
+            time.sleep(15)
             continue
         if r.status_code != 200:
             raise RuntimeError(f"Gemini TTS {r.status_code}: {r.text[:300]}")
+        seguidos_429 = 0
         partes = r.json()["candidates"][0]["content"]["parts"]
         dados = next(p["inlineData"] for p in partes if "inlineData" in p)
         pcm = destino_wav.with_suffix(".pcm")
@@ -91,4 +124,5 @@ def narrar_blocos(pasta: Path, prod: dict, cfg: dict) -> None:
             continue
         texto = " ".join(c["narracao"] for c in b["cenas"])
         sintetizar(texto, voz, tom, pasta / "audio" / f"bloco_{n:02d}.wav")
+        time.sleep(22)   # plano grátis: poucas chamadas por minuto
         log.info("narrador Gemini (%s, %s): bloco %d/%d", modelo(), voz, n, len(prod["blocos"]))
