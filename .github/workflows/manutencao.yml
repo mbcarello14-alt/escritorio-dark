@@ -5,10 +5,11 @@ on:
       tarefa:
         description: "Tarefa"
         type: choice
-        options: [reparar-publicacao]
+        options: [reparar-publicacao, testar-visual]
       pasta:
-        description: "Pasta do vídeo"
-        required: true
+        description: "Pasta do vídeo (só para reparar-publicacao)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -19,6 +20,7 @@ env:
   YT_REFRESH_HISTORIA: ${{ secrets.YT_REFRESH_HISTORIA }}
   YT_REFRESH_VESTIBULAR: ${{ secrets.YT_REFRESH_VESTIBULAR }}
   YT_REFRESH_LIVROS: ${{ secrets.YT_REFRESH_LIVROS }}
+  GH_PAT: ${{ secrets.GH_PAT }}
 
 jobs:
   manutencao:
@@ -34,6 +36,11 @@ jobs:
         run: |
           mkdir -p canais/logs
           python -m pipeline.reparar "${{ inputs.pasta }}" 2>&1 | tee canais/logs/reparar-$(date -u +%Y%m%d-%H%M%S).log
+      - name: Testar ilustrações e webcam
+        if: inputs.tarefa == 'testar-visual'
+        run: |
+          mkdir -p canais/logs
+          python -m pipeline.teste_visual 2>&1 | tee canais/logs/teste-visual-$(date -u +%Y%m%d-%H%M%S).log
       - name: Painel
         if: always()
         run: python -m pipeline.painel || true

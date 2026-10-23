@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-22T23:39:41Z",
+  "atualizado_em": "2026-10-23T00:10:56Z",
   "ativos": {},
   "proximos": [
     {
@@ -37,9 +37,11 @@
       "publicados": 0
     }
   ],
-  "higgsfield": {
-    "gasto_usd": 0,
-    "imagens": 0,
-    "teto_usd": 20
+  "imagens": {
+    "hoje": 0,
+    "neurons": 0,
+    "teto_neurons": 9500,
+    "higgsfield_usd": 0,
+    "higgsfield_teto": 20
   }
 }

@@ -13,7 +13,7 @@ QUEM = {
     "roteiro": ["pesquisador", "roteirista", "checador", "guardiao"],
     "ajuste": ["roteirista", "checador"],
     "producao_json": ["diretor_visual", "seo", "thumbnail"],
-    "renderizando": ["narrador", "editor"],
+    "renderizando": ["narrador", "ilustrador", "apresentador", "editor"],
     "aguardando_escolha": ["miguel"],
     "aguardando_aprovacao": ["miguel"],
     "aguardando_audio": ["miguel"],
@@ -41,16 +41,18 @@ def gerar() -> dict:
                        "horas": m.get("horas_365d", 0),
                        "publicados": sum(1 for v in videos if v["canal"] == c and v["etapa"] == "agendado"
                                          and (v["publicar_em_utc"] or "") <= agora)})
-    gastos = {}
-    arq = RAIZ / "canais" / "gastos-higgsfield.json"
-    if arq.exists():
-        gastos = json.loads(arq.read_text()).get(date.today().strftime("%Y-%m"), {})
-    teto = E.config_geral()["higgsfield"]["teto_mensal_usd"]
+    g = json.loads((RAIZ / "canais" / "gastos-imagens.json").read_text()) \
+        if (RAIZ / "canais" / "gastos-imagens.json").exists() else {}
+    hoje = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    flux = g.get("flux", {}).get(hoje, {})
+    hf = g.get("higgsfield", {}).get(date.today().strftime("%Y-%m"), {})
+    geral = E.config_geral()
+    teto_flux = geral.get("ilustracoes", {}).get("flux", {}).get("teto_diario_neurons", 9500)
     proximos = [v for v in videos if (v["publicar_em_utc"] or "") >= agora][:8]
     feitos = [v for v in videos if v["etapa"] == "agendado" and (v["publicar_em_utc"] or "") < agora][-6:]
     return {"atualizado_em": agora, "ativos": ativos, "proximos": proximos, "publicados": feitos,
-            "canais": canais, "higgsfield": {"gasto_usd": gastos.get("usd_estimado", 0),
-                                              "imagens": gastos.get("imagens", 0), "teto_usd": teto}}
+            "canais": canais, "imagens": {"hoje": flux.get("imagens", 0), "neurons": flux.get("neurons", 0), "teto_neurons": teto_flux,
+                        "higgsfield_usd": hf.get("usd", 0), "higgsfield_teto": geral["higgsfield"]["teto_mensal_usd"]}}
 
 
 def main():

@@ -26,7 +26,8 @@ Ficção contemporânea entra depois, se os dados mostrarem demanda.
 
 ## Ferramentas (automatizadas)
 - **Voz:** narradora de IA Gemini (Leda), tom de conversa inteligente
-- **Imagens:** Higgsfield (ilustrações, estilo Tinocando: ilustrações próprias com humor e cortes rápidos) + acervos livres (Wikimedia Commons, Openverse)
+- **Imagens:** ilustrações de IA (Flux, grátis; estilo Tinocando: ilustrações próprias com humor e cortes rápidos) + acervos livres (Wikimedia Commons, Openverse)
+- **Apresentador na webcam:** Lia, uma leitora de óculos e coque, com opinião firme sobre cada livro. Fica num quadro no canto inferior direito, falando com a voz do narrador. O roteiro pode, de vez em quando, falar em primeira pessoa como ela ("eu, Lia, …"), sem virar esquete. Ela nunca dá conselho de saúde, finanças, direito ou política como especialista.
 - **Edição, legendas, thumbnail e upload:** motor automático (`pipeline/`)
 
 ## Regras específicas deste canal

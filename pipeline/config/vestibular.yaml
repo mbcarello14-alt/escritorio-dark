@@ -33,11 +33,26 @@ video:
   movimento_padrao: zoom_lento
 
 imagens:
-  fontes: [higgsfield, wikimedia, openverse]
+  fontes: [flux, higgsfield, wikimedia, openverse]   # flux = IA grátis no Cloudflare
   estilo_ilustracao: >-
     simple hand-drawn black marker doodle on a plain white background, Draw My Life
     whiteboard style, thick clean outlines, minimal details, small touches of orange and
     dark blue marker, no text, no letters, no shading, no background scenery
+
+apresentador:            # personagem fixo na "webcam" do canto (desenhado pelo motor, grátis)
+  ligado: true
+  nome: "Prof. Rota"
+  posicao: inferior_direita
+  tamanho: 0.30
+  cenario: lousa
+  parede: "#2F4A7A"
+  pele: "#C98E64"
+  cabelo: "#2A1E17"
+  penteado: topete
+  oculos: true
+  cor_oculos: "#1E3A8A"
+  roupa: "#F59E0B"
+  gola: moletom
 
 youtube:
   categoria_id: "27"

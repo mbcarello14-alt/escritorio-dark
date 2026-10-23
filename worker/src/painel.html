@@ -72,7 +72,7 @@
   <section><h2>Agora no escritório</h2><div id="agora"></div></section>
   <section><h2>Próximos vídeos</h2><div id="proximos"></div></section>
   <section><h2>Canais</h2><div id="canais"></div></section>
-  <section><h2>Higgsfield no mês</h2><div id="gasto"></div></section>
+  <section><h2>Imagens de IA</h2><div id="gasto"></div></section>
   <section><h2>Publicados</h2><div id="publicados"></div></section>
 </aside>
 
@@ -96,7 +96,9 @@ const EQUIPE = [
   { id: "analista",       nome: "Analista",        cor: 0xC9A24A, pos: [6, 1.6],   ocioso: "olhando métricas" },
   { id: "editor",         nome: "Motor (render)",  cor: 0xB0B8C8, pos: [-6, 5.6],  ocioso: "esperando o próximo vídeo", robo: true },
   { id: "narrador",       nome: "Narrador 🎙️",     cor: 0x2EC4B6, pos: [-2, 5.6],  ocioso: "aquecendo a voz", estudio: true },
-  { id: "miguel",         nome: "Miguel (diretor)", cor: 0xFFFFFF, pos: [3, 5.6],  ocioso: "tudo em dia ✨" },
+  { id: "ilustrador",     nome: "Ilustrador 🎨",    cor: 0xF472B6, pos: [2, 5.6],  ocioso: "misturando tintas", robo: true },
+  { id: "apresentador",   nome: "Apresentador 📹",  cor: 0xC9A24A, pos: [6, 5.6],  ocioso: "ajeitando a cartola", estudio: true },
+  { id: "miguel",         nome: "Miguel (diretor)", cor: 0xFFFFFF, pos: [0, 8.4],  ocioso: "tudo em dia ✨" },
 ];
 
 const caixa = document.getElementById("cena");
@@ -234,7 +236,7 @@ const DEMO = {
   canais: [{ id: "historia", nome: "Ouro & Império", inscritos: 0, horas: 0, publicados: 0 },
            { id: "vestibular", nome: "Mapeado", inscritos: 0, horas: 0, publicados: 0 },
            { id: "livros", nome: "Marca-Página", inscritos: 0, horas: 0, publicados: 0 }],
-  higgsfield: { gasto_usd: 4.2, imagens: 140, teto_usd: 20 },
+  imagens: { hoje: 64, neurons: 3712, teto_neurons: 9500, higgsfield_usd: 0, higgsfield_teto: 20 },
 };
 
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -285,10 +287,11 @@ function aplicar(e) {
         <div>${c.horas} / 4.000 h<div class="barra"><i style="width:${Math.min(100, c.horas / 40)}%;background:${CORES[c.id]}"></i></div></div>
       </div></div></div>`).join("");
 
-  const h = e.higgsfield || { gasto_usd: 0, teto_usd: 20, imagens: 0 };
+  const h = e.imagens || { hoje: 0, neurons: 0, teto_neurons: 9500, higgsfield_usd: 0 };
   document.getElementById("gasto").innerHTML = `
-    <div class="canal" style="grid-template-columns:1fr"><div>US$ ${(+h.gasto_usd).toFixed(2)} de US$ ${h.teto_usd} · ${h.imagens} ilustrações
-      <div class="barra"><i style="width:${Math.min(100, 100 * h.gasto_usd / Math.max(1, h.teto_usd))}%;background:var(--laranja)"></i></div></div></div>`;
+    <div class="canal" style="grid-template-columns:1fr"><div>${h.hoje} ilustrações hoje · cota grátis ${Math.round(100 * h.neurons / Math.max(1, h.teto_neurons))}% usada
+      <div class="barra"><i style="width:${Math.min(100, 100 * h.neurons / Math.max(1, h.teto_neurons))}%;background:var(--laranja)"></i></div>
+      <span style="color:var(--suave)">Gasto em dinheiro: US$ ${(+h.higgsfield_usd || 0).toFixed(2)}</span></div></div>`;
 
   const pub = e.publicados || [];
   document.getElementById("publicados").innerHTML = pub.length ? pub.slice().reverse().map(v => `

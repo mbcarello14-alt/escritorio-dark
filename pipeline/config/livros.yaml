@@ -32,11 +32,27 @@ video:
   movimento_padrao: zoom_lento
 
 imagens:
-  fontes: [higgsfield, wikimedia, openverse]
+  fontes: [flux, higgsfield, wikimedia, openverse]   # flux = IA grátis no Cloudflare
   estilo_ilustracao: >-
     flat 2D editorial illustration, burgundy, mustard and cream palette, soft paper
     texture, expressive cartoon characters with simple faces, witty conceptual metaphors,
     no text, no letters, no watermark, no book covers
+
+apresentador:            # personagem fixo na "webcam" do canto (desenhado pelo motor, grátis)
+  ligado: true
+  nome: "Lia"
+  posicao: inferior_direita
+  tamanho: 0.30
+  cenario: estante
+  parede: "#7A3A42"
+  pele: "#E8B994"
+  cabelo: "#5A2E1E"
+  penteado: coque
+  oculos: true
+  cor_oculos: "#2B2B2B"
+  roupa: "#E9B44C"
+  gola: cardigan
+  blusa: "#F3EBDD"
 
 youtube:
   categoria_id: "27"

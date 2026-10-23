@@ -189,11 +189,11 @@ def mapa_mental(cfg, mapa: dict, revelar: int, progresso: float = 1.0) -> Image.
 
 
 # ---------------------------------------------------------------- imagens
-def preparar_imagem(origem: Path, destino: Path, legenda: str = "") -> Path:
+def preparar_imagem(origem: Path, destino: Path, legenda: str = "", preencher: bool = False) -> Path:
     """Recorta para 16:9 em 4K (folga para o zoom suave) e salva como JPG."""
     img = ImageOps.exif_transpose(Image.open(origem)).convert("RGB")
     alvo = (LARGURA * 2, ALTURA * 2)
-    if img.width / img.height < 1.2:  # retrato: põe sobre fundo desfocado
+    if not preencher and img.width / img.height < 1.2:  # retrato: põe sobre fundo desfocado
         fundo_img = ImageOps.fit(img, alvo).filter(ImageFilter.GaussianBlur(40))
         fundo_img = Image.blend(fundo_img, Image.new("RGB", alvo, (0, 0, 0)), 0.45)
         frente = ImageOps.contain(img, (alvo[0], int(alvo[1] * 0.96)))

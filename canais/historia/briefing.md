@@ -19,11 +19,12 @@
 - **Duração-alvo:** 12–20 min (vídeos longos rendem horas assistidas para o Programa de Parcerias)
 - **Frequência:** 2 longos por semana + Shorts derivados
 - **Tom de narração:** explicador bem-humorado (ritmo Tinocando), com suspense nas viradas e seriedade nos temas sensíveis
-- **Estilo visual:** ilustrações 2D bem-humoradas (Higgsfield) misturadas a pinturas, moedas, mapas e documentos de domínio público; cortes a cada 4–8 s
+- **Estilo visual:** no ritmo do canal Bays Talks: imagem em tela cheia o tempo todo, trocando a cada frase (3–7 s). Ilustrações 2D bem-humoradas de IA misturadas a pinturas, moedas, mapas e documentos de domínio público
 
 ## Ferramentas (automatizadas)
 - **Voz:** narrador de IA Gemini (Charon), tom de youtuber bem-humorado
-- **Imagens:** Higgsfield (ilustrações, estilo Tinocando: ilustrações próprias com humor e cortes rápidos) + acervos livres (Wikimedia Commons, Openverse)
+- **Imagens:** ilustrações de IA (Flux, grátis; estilo Tinocando: ilustrações próprias com humor e cortes rápidos) + acervos livres (Wikimedia Commons, Openverse)
+- **Apresentador na webcam:** Barão Dobrão, um barão das finanças de cartola, monóculo e bigode, que explica a história seguindo o dinheiro. Fica num quadro no canto inferior direito, falando com a voz do narrador. O roteiro pode, de vez em quando, falar em primeira pessoa como ele ("eu, Barão Dobrão, …"), sem virar esquete. Ele nunca dá conselho de saúde, finanças, direito ou política como especialista.
 - **Edição, legendas, thumbnail e upload:** motor automático (`pipeline/`)
 
 ## Referências

@@ -7,6 +7,10 @@ account_id = "ee001e6de050222ae7303e1c6545e86f"
 # Segredos (definidos sozinhos pelo workflow "Instalar bot"):
 # TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, WEBHOOK_SECRET, GH_PAT, GH_REPO, PAINEL_KEY
 
+# Workers AI: gera as ilustrações dos vídeos (Flux), dentro da cota grátis diária
+[ai]
+binding = "AI"
+
 [[rules]]
 type = "Text"
 globs = ["**/*.html"]

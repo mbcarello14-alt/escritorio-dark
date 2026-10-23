@@ -13,7 +13,7 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import cartoes, gravacao, legendas, quadro_branco, render
+from . import apresentador, cartoes, gravacao, legendas, quadro_branco, render
 from .agenda import proximo_horario
 from .comum import FPS, RAIZ, carregar_config, carregar_producao, duracao_audio, log
 from .imagens import Buscador
@@ -60,7 +60,8 @@ def _visual(ctx: Contexto, cena: dict, idx: int, audio: Path, dur: float, bloco:
         if origem:
             if ctx.branco:
                 return _desenhar(ctx, quadro_branco.preparar_desenho(origem, cfg["estilo"]["fundo"]), None, idx, audio, dur)
-            img = cartoes.preparar_imagem(origem, tmp / f"cena_{idx:03d}.jpg")
+            img = cartoes.preparar_imagem(origem, tmp / f"cena_{idx:03d}.jpg",
+                                          preencher=origem.parent.name == "ilustracoes")
             sobre = cartoes.sobreposicao_legenda(cfg, v["legenda"], tmp / f"leg_{idx:03d}.png") if v.get("legenda") else None
             return render.clipe_imagem(img, audio, dur, saida, movimento, sobre)
         quadro = cartoes.cartao(cfg, v.get("legenda") or bloco, "")
@@ -157,6 +158,10 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         if faltam:
             raise SystemExit(f"Faltam os áudios dos blocos {faltam}. Grave pelo Telegram.")
 
+    if ctx.ilustrador:
+        pedidos = [c["visual"].get("cena") for b in prod["blocos"] for c in b["cenas"] if c["visual"]["tipo"] == "ilustracao"]
+        ctx.ilustrador.pre_gerar(pedidos + [prod["thumbnail"].get("cena")])
+
     clipes, tempos_cenas, tempos_blocos, palavras_globais, t, idx = [], [], [], [], 0.0, 0
     for nb, b in enumerate(prod["blocos"], 1):
         tempos_blocos.append({"inicio": t, "capitulo": b.get("capitulo", "")})
@@ -180,6 +185,10 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
 
     saida = pasta / "saida"
     bruto = render.concatenar(clipes, tmp / "narrado.mp4")
+    try:
+        bruto = apresentador.sobrepor(bruto, cfg, tmp, tmp / "narrado_webcam.mp4")
+    except Exception as e:  # o vídeo sai sem a webcam, mas sai
+        log.warning("não consegui pôr o apresentador na webcam: %s", e)
     musica = render.escolher_musica(prod.get("musica_humor") or cfg["video"].get("musica_humor"), pasta.name)
     video = render.mixar_trilha(bruto, musica, cfg["video"]["volume_musica_db"], saida / "video.mp4")
 

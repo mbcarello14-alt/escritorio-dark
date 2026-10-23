@@ -78,6 +78,24 @@ async function estado(env) {
   });
 }
 
+// Ilustração com Flux (Workers AI). Cota grátis: 10.000 neurons/dia (~150 imagens).
+async function imagem(req, env) {
+  const { prompt, passos } = await req.json();
+  if (!prompt) return new Response("faltou o prompt", { status: 400 });
+  try {
+    const r = await env.AI.run("@cf/black-forest-labs/flux-1-schnell", {
+      prompt: String(prompt).slice(0, 2000),
+      steps: Math.min(8, Math.max(1, passos || 6)),
+    });
+    const bin = Uint8Array.from(atob(r.image), (c) => c.charCodeAt(0));
+    return new Response(bin, { headers: { "content-type": "image/jpeg" } });
+  } catch (e) {
+    const msg = String(e?.message || e);
+    const cota = /limit|quota|neurons|429|capacity/i.test(msg);
+    return new Response(msg.slice(0, 500), { status: cota ? 429 : 502 });
+  }
+}
+
 function pagina(caminho) {
   const corpo = caminho === "/privacidade"
     ? `<h1>Política de Privacidade — Escritório Dark</h1>
@@ -100,6 +118,11 @@ export default {
     if (url.pathname === "/privacidade" || url.pathname === "/termos") return pagina(url.pathname);
 
     const chaveOk = env.PAINEL_KEY && url.searchParams.get("k") === env.PAINEL_KEY;
+    if (url.pathname === "/api/imagem" && req.method === "POST") {
+      const chave = req.headers.get("x-chave");
+      if (!env.PAINEL_KEY || chave !== env.PAINEL_KEY) return new Response("proibido", { status: 403 });
+      return imagem(req, env);
+    }
     if (url.pathname === "/api/estado") return chaveOk ? estado(env) : new Response("{}", { status: 403 });
     if (url.pathname === "/" || url.pathname === "/painel") {
       if (!chaveOk) return new Response(`<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Escritório Dark</title><body style="font-family:system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px"><h1>Escritório Dark 🎬</h1><p>Ferramenta pessoal que produz os canais Ouro &amp; Império, Mapeado e Marca-Página no YouTube.</p><p><a href="/privacidade">Política de Privacidade</a> · <a href="/termos">Termos de Uso</a></p></body></html>`, { headers: { "content-type": "text/html; charset=utf-8" } });
