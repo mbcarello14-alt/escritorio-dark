@@ -1,0 +1,53 @@
+comando: /pautas canais/vestibular/videos/2026-10-29
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-10-29 && ls && cat estado.json"}
+🔧 Agent {"subagent_type": "pesquisador-pauta", "description": "Pautas Mapeado 29/10", "prompt": "Etapa 1 (pauta). Canal: vestibular (Mapeado — o que mais cai, em mapas mentais, estilo Draw My Life). Pasta: /h
+💬 O pesquisador de pautas está rodando para a pasta `canais/vestibular/videos/2026-10-29`. Ainda não tenho o resultado e vou conferir o `pautas.json` quando ele terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/config/vestibular.yaml"}
+🔧 WebSearch {"query": "Enem 2026 datas provas novembro cronograma", "mode": "standard"}
+🔧 WebSearch {"query": "temas que mais caem no Enem Ciências Humanas incidência Inep análise", "mode": "standard"}
+🔧 WebSearch {"query": "mapa mental Enem história Era Vargas Guerra Fria revisão final Enem 2026 vídeo", "mode": "standard"}
+🔧 WebSearch {"query": "Glob canais/vestibular/videos", "mode": "standard", "allowed_domains": ["example.invalid"]}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-22/pautas.json"}
+❌ File does not exist. Note: your current working directory is /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-20/pautas.json"}
+❌ File does not exist. Note: your current working directory is /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29.
+🔧 WebSearch {"query": "assuntos que mais caem no Enem Sociologia Geografia História 2016 a 2025 levantamento Blog do Vestibular", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.blogdovestibular.com/?p=333090", "prompt": "Liste os percentuais/temas mais cobrados em História, Geografia, Sociologia e Filosofia (2016-2025), com título e data do artigo."}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/pautas.json", "content": "[\n  {\n    \"titulo\": \"Era Vargas no ENEM: o mapa dos 3 governos em 1 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/01-pauta.md", "content": "# Pauta — Mapeado — quinta 29/10/2026, 17h00\n\n## Contexto e sazonalidad
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/pautas.json", "content": "[\n  {\n    \"titulo\": \"Era Vargas no ENEM: o mapa dos 3 governos em 1 
+💬 Escrevi os dois arquivos da pauta de quinta 29/10, com três ideias ranqueadas. Não toquei em `estado.json` nem em mais nada.
+
+1. **"Era Vargas no ENEM: o mapa dos 3 governos em 1 desenho" (recomendada).** O mapa organiza a Era Vargas por eixos (trabalho, voto, repressão, economia) em vez de cronologia. Estado Novo e populismo estão entre os temas recorrentes de História em 2016–2025. O vídeo sai 10 dias antes da prova de Humanas, em 8/11.
+2. **"Cultura e Sociedade no ENEM: o mapa de Sociologia".** Cultura e sociedade lidera Sociologia, com 19% em 2016–2025. É o maior diferencial, mas o mais di
+🔧 Bash {"command": "python3 -c \"import json;d=json.load(open('pautas.json'));print(len(d),[sorted(x) for x in d]);print([x['titulo'] for x in d],[len(x['titulo']) for x in d])\""}
+❌ This command requires approval
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/pautas.json"}
+💬 O `pautas.json` de `canais/vestibular/videos/2026-10-29` está válido: JSON com 3 itens, cada um com `titulo`, `angulo` e `porque`. Conferi lendo o arquivo, porque o comando de validação exigiu aprovação e não rodou. Os títulos têm menos de 60 caracteres.
+
+As pautas, em ordem de ranking:
+1. **Era Vargas no ENEM: o mapa dos 3 governos em 1 desenho.** É a recomendada. O vídeo sai 10 dias antes da prova de Humanas, em 8/11.
+2. **Cultura e Sociedade no ENEM: o mapa de Sociologia.** Cultura e sociedade lidera Sociologia, com 19% em 2016–2025.
+3. **Espaço Urbano no ENEM: urbanização em um mapa só.** 
+
+=== resultado: success | turnos 3 | 6s | erro=False
+O pesquisador de pautas está rodando para a pasta `canais/vestibular/videos/2026-10-29`. Ainda não tenho o resultado e vou conferir o `pautas.json` quando ele terminar.
+
+=== resultado: success | turnos 3 | 5s | erro=False
+O `pautas.json` de `canais/vestibular/videos/2026-10-29` está válido: JSON com 3 itens, cada um com `titulo`, `angulo` e `porque`. Conferi lendo o arquivo, porque o comando de validação exigiu aprovação e não rodou. Os títulos têm menos de 60 caracteres.
+
+As pautas, em ordem de ranking:
+1. **Era Vargas no ENEM: o mapa dos 3 governos em 1 desenho.** É a recomendada. O vídeo sai 10 dias antes da prova de Humanas, em 8/11.
+2. **Cultura e Sociedade no ENEM: o mapa de Sociologia.** Cultura e sociedade lidera Sociologia, com 19% em 2016–2025.
+3. **Espaço Urbano no ENEM: urbanização em um mapa só.** É o segundo tema de Geografia nos levantamentos de 2016–2025.
+
+O pesquisador não conseguiu medir views de vídeos concorrentes. A demanda vem das frequências em provas e das datas do ENEM, e vale conferir no YouTube os vídeos sobre Era Vargas antes de produzir. Os percentuais vêm de levantamentos com recortes diferentes e não preveem a prova seguinte.
+
+A análise completa está em `01-pauta.md`, na mesma pasta.
+codigo de saida: 0
