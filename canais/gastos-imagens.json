@@ -1,8 +1,8 @@
 {
   "flux": {
     "2026-10-23": {
-      "imagens": 6,
-      "neurons": 348
+      "imagens": 64,
+      "neurons": 3712
     }
   }
 }
