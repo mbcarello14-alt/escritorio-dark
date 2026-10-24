@@ -72,7 +72,13 @@ def _visual(ctx: Contexto, cena: dict, idx: int, audio: Path, dur: float, bloco:
             sobre = cartoes.sobreposicao_legenda(cfg, v["legenda"], tmp / f"leg_{idx:03d}.png") \
                 if v.get("legenda") and origem.parent.name != "imagens-fixas" else None
             return render.clipe_imagem(img, audio, dur, saida, movimento, sobre)
-        quadro = cartoes.cartao(cfg, v.get("legenda") or bloco, "")
+        # sem imagem: nada de repetir o nome do capítulo na tela
+        if ctx.branco:
+            quadro = cartoes.fundo(cfg)                      # quadro branco limpo
+        elif v.get("legenda"):
+            quadro = cartoes.cartao(cfg, v["legenda"], "")
+        else:
+            quadro = cartoes.fundo(cfg)
     elif t == "cartao":
         quadro = cartoes.cartao(cfg, v["titulo"], v.get("subtitulo", ""))
     elif t == "numero":
