@@ -1,0 +1,301 @@
+02:00:49 INFO ilustrações: higgsfield desligado (sem chave)
+02:00:49 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+02:00:50 INFO Processing audio with duration 00:35.887
+[0;93m2026-10-24 02:00:50.124591019 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+02:00:50 INFO VAD filter removed 00:00.000 of audio
+02:00:59 INFO Processing audio with duration 01:04.240
+02:00:59 INFO VAD filter removed 00:00.000 of audio
+02:01:14 INFO Processing audio with duration 01:34.120
+02:01:14 INFO VAD filter removed 00:00.048 of audio
+02:01:36 INFO Processing audio with duration 01:41.800
+02:01:36 INFO VAD filter removed 00:00.048 of audio
+02:01:58 INFO Processing audio with duration 01:24.040
+02:01:59 INFO VAD filter removed 00:00.112 of audio
+02:02:16 INFO Processing audio with duration 01:24.640
+02:02:17 INFO VAD filter removed 00:00.000 of audio
+02:02:36 INFO Processing audio with duration 01:12.560
+02:02:37 INFO VAD filter removed 00:00.016 of audio
+02:02:54 INFO Processing audio with duration 01:12.520
+02:02:54 INFO VAD filter removed 00:00.000 of audio
+02:03:11 INFO Processing audio with duration 01:43.211
+02:03:11 INFO VAD filter removed 00:00.000 of audio
+02:03:36 INFO Processing audio with duration 00:44.971
+02:03:36 INFO VAD filter removed 00:00.000 of audio
+02:03:47 INFO gerando 109 ilustrações…
+02:03:47 WARNING ilustrações: teto do flux atingido
+02:03:47 WARNING ilustrações: teto do flux atingido
+02:03:47 WARNING ilustrações: teto do flux atingido
+02:03:47 WARNING ilustrações: teto do flux atingido
+02:03:47 INFO ilustrações prontas: 33 geradas (109 pedidas)
+02:03:47 INFO Processing audio with duration 00:35.887
+02:03:47 INFO VAD filter removed 00:00.000 of audio
+02:03:57 INFO bloco 1: 35.9s, 108 palavras reconhecidas
+02:04:00 INFO cena 1 pronta (3.0s, total 3s)
+02:04:04 INFO cena 2 pronta (3.3s, total 6s)
+02:04:08 INFO cena 3 pronta (4.7s, total 11s)
+02:04:11 INFO cena 4 pronta (2.3s, total 13s)
+02:04:18 INFO cena 5 pronta (6.5s, total 20s)
+02:04:22 INFO cena 6 pronta (3.5s, total 23s)
+02:04:27 INFO cena 7 pronta (4.0s, total 27s)
+02:04:42 INFO cena 8 pronta (8.5s, total 36s)
+02:04:44 INFO Processing audio with duration 01:04.069
+02:04:44 INFO VAD filter removed 00:00.016 of audio
+02:05:00 INFO bloco 2: 64.1s, 152 palavras reconhecidas
+02:05:05 INFO cena 9 pronta (4.6s, total 40s)
+02:05:09 INFO cena 10 pronta (3.2s, total 44s)
+02:05:16 INFO cena 11 pronta (7.2s, total 51s)
+02:05:20 INFO cena 12 pronta (3.3s, total 54s)
+02:05:26 INFO cena 13 pronta (5.5s, total 60s)
+02:05:28 INFO cena 14 pronta (2.1s, total 62s)
+02:05:33 INFO cena 15 pronta (4.7s, total 66s)
+02:05:38 INFO cena 16 pronta (5.2s, total 72s)
+02:05:44 INFO cena 17 pronta (5.7s, total 77s)
+02:05:51 INFO cena 18 pronta (10.5s, total 88s)
+02:05:54 INFO cena 19 pronta (2.0s, total 90s)
+02:06:04 INFO cena 20 pronta (5.9s, total 96s)
+02:06:08 INFO cena 21 pronta (4.3s, total 100s)
+02:06:11 INFO Processing audio with duration 01:33.672
+02:06:11 INFO VAD filter removed 00:00.000 of audio
+02:06:34 INFO bloco 3: 93.7s, 207 palavras reconhecidas
+02:06:39 INFO cena 22 pronta (6.5s, total 106s)
+02:06:44 INFO cena 23 pronta (4.1s, total 111s)
+02:06:47 INFO cena 24 pronta (1.9s, total 112s)
+02:06:54 INFO cena 25 pronta (6.7s, total 119s)
+02:06:58 INFO cena 26 pronta (3.2s, total 122s)
+02:07:03 INFO cena 27 pronta (4.6s, total 127s)
+02:07:10 INFO cena 28 pronta (8.1s, total 135s)
+02:07:13 INFO cena 29 pronta (3.0s, total 138s)
+02:07:16 INFO cena 30 pronta (1.6s, total 140s)
+02:07:22 INFO cena 31 pronta (6.1s, total 146s)
+02:07:29 INFO cena 32 pronta (8.2s, total 154s)
+02:07:34 INFO cena 33 pronta (4.1s, total 158s)
+02:07:37 INFO cena 34 pronta (2.5s, total 160s)
+02:07:42 INFO cena 35 pronta (4.1s, total 165s)
+02:07:44 INFO cena 36 pronta (1.6s, total 166s)
+02:07:52 INFO cena 37 pronta (9.4s, total 176s)
+02:07:59 INFO cena 38 pronta (5.5s, total 181s)
+02:08:02 INFO cena 39 pronta (2.9s, total 184s)
+02:08:09 INFO cena 40 pronta (7.2s, total 191s)
+02:08:12 INFO cena 41 pronta (2.5s, total 194s)
+02:08:14 INFO Processing audio with duration 01:41.545
+02:08:15 INFO VAD filter removed 00:00.000 of audio
+02:08:38 INFO bloco 4: 101.5s, 211 palavras reconhecidas
+02:08:45 INFO cena 42 pronta (7.9s, total 201s)
+02:08:53 INFO cena 43 pronta (9.5s, total 211s)
+02:08:55 INFO cena 44 pronta (1.3s, total 212s)
+02:09:05 INFO cena 45 pronta (9.0s, total 221s)
+02:09:07 INFO imagem 'warning sign triangle' ← wikimedia
+02:09:20 INFO cena 46 pronta (8.3s, total 230s)
+02:09:21 INFO imagem 'red X mark crowd' ← wikimedia
+02:09:35 INFO cena 47 pronta (6.2s, total 236s)
+02:09:39 INFO cena 48 pronta (2.6s, total 238s)
+02:09:46 INFO cena 49 pronta (10.3s, total 249s)
+02:09:51 INFO imagem 'rubber stamp question mark' ← wikimedia
+02:09:54 INFO cena 50 pronta (2.0s, total 251s)
+02:09:56 INFO imagem 'faded stamp on paper' ← wikimedia
+02:10:04 INFO cena 51 pronta (2.4s, total 253s)
+02:10:06 INFO imagem 'union banners workers 1934' ← wikimedia
+02:10:19 INFO cena 52 pronta (8.9s, total 262s)
+02:10:21 INFO imagem 'chain and banner illustration' ← wikimedia
+02:10:27 INFO cena 53 pronta (4.2s, total 266s)
+02:10:30 INFO cena 54 pronta (1.7s, total 268s)
+02:10:36 WARNING nenhuma imagem livre para 'politicians arguing 1930s Brazil' — usando cartão
+02:10:37 INFO cena 55 pronta (2.5s, total 270s)
+02:10:38 INFO imagem 'Lei de Segurança Nacional 1935' ← wikimedia
+02:10:45 INFO cena 56 pronta (4.7s, total 275s)
+02:10:48 INFO imagem 'Aliança Nacional Libertadora 1935' ← wikimedia
+02:10:55 INFO cena 57 pronta (4.5s, total 280s)
+02:10:59 INFO imagem 'Intentona Comunista 1935 Rio de Janeiro' ← wikimedia
+02:11:14 INFO cena 58 pronta (8.2s, total 288s)
+02:11:19 INFO cena 59 pronta (3.9s, total 292s)
+02:11:30 WARNING imagem inválida https://cdn.stocksnap.io/img-thumbs/960w/GQ1ZPF01BL.jpg: 403 Client Error: Forbidden for url: https://cdn.stocksnap.io/img-thumbs/960w/GQ1ZPF01BL.jpg
+02:11:30 WARNING nenhuma imagem livre para 'student textbook pencil' — usando cartão
+02:11:32 INFO cena 60 pronta (3.5s, total 295s)
+02:11:34 INFO Processing audio with duration 01:23.707
+02:11:34 INFO VAD filter removed 00:00.000 of audio
+02:11:52 INFO bloco 5: 83.7s, 197 palavras reconhecidas
+02:11:57 INFO cena 61 pronta (4.1s, total 299s)
+02:12:02 WARNING nenhuma imagem livre para 'Plano Cohen 1937 documento' — usando cartão
+02:12:04 INFO cena 62 pronta (5.7s, total 305s)
+02:12:06 INFO imagem 'forged document illustration' ← wikimedia
+02:12:16 INFO cena 63 pronta (5.3s, total 310s)
+02:12:21 INFO cena 64 pronta (5.2s, total 315s)
+02:12:26 WARNING nenhuma imagem livre para 'Congresso Nacional fechado 1937' — usando cartão
+02:12:28 INFO cena 65 pronta (6.0s, total 321s)
+02:12:30 INFO imagem 'scroll falling from sky' ← wikimedia
+02:12:45 INFO cena 66 pronta (5.3s, total 327s)
+02:12:52 WARNING nenhuma imagem livre para 'puppet strings power illustration' — usando cartão
+02:12:54 INFO cena 67 pronta (6.8s, total 333s)
+02:12:58 WARNING nenhuma imagem livre para 'Constituição de 1937 Polaca' — usando cartão
+02:13:00 INFO cena 68 pronta (6.1s, total 340s)
+02:13:05 WARNING nenhuma imagem livre para 'partidos dissolvidos 1937 Estado Novo' — usando cartão
+02:13:06 INFO cena 69 pronta (5.6s, total 345s)
+02:13:08 INFO imagem 'empty ballot box' ← wikimedia
+02:13:22 INFO cena 70 pronta (4.8s, total 350s)
+02:13:26 INFO cena 71 pronta (4.5s, total 355s)
+02:13:29 INFO cena 72 pronta (3.0s, total 357s)
+02:13:31 INFO imagem 'pause button illustration' ← wikimedia
+02:13:38 INFO cena 73 pronta (7.4s, total 365s)
+02:13:48 INFO cena 74 pronta (7.4s, total 372s)
+02:13:50 INFO imagem 'speech bubbles comments' ← wikimedia
+02:13:56 INFO cena 75 pronta (3.5s, total 376s)
+02:14:01 INFO imagem 'thumbs up like button' ← wikimedia
+02:14:10 INFO cena 76 pronta (3.1s, total 379s)
+02:14:12 INFO Processing audio with duration 01:24.237
+02:14:13 INFO VAD filter removed 00:00.000 of audio
+02:14:33 INFO bloco 6: 84.2s, 185 palavras reconhecidas
+02:14:40 INFO cena 77 pronta (6.8s, total 386s)
+02:14:43 INFO imagem 'tree growing branches drawing' ← wikimedia
+02:14:54 INFO cena 78 pronta (4.3s, total 390s)
+02:14:56 INFO imagem 'giant stamp illustration' ← wikimedia
+02:15:15 INFO cena 79 pronta (9.4s, total 399s)
+02:15:17 INFO imagem 'coin dropping into box' ← wikimedia
+02:15:31 INFO cena 80 pronta (4.8s, total 404s)
+02:15:36 WARNING nenhuma imagem livre para 'salário mínimo 1940 Vargas' — usando cartão
+02:15:39 INFO cena 81 pronta (7.1s, total 411s)
+02:15:44 WARNING nenhuma imagem livre para 'Justiça do Trabalho inauguração 1941' — usando cartão
+02:15:46 INFO cena 82 pronta (6.1s, total 417s)
+02:15:52 WARNING nenhuma imagem livre para 'CLT 1943 Vargas Consolidação das Leis do Trabalho' — usando cartão
+02:15:54 INFO cena 83 pronta (7.3s, total 425s)
+02:15:56 INFO imagem 'calendar May first circled' ← wikimedia
+02:16:00 INFO cena 84 pronta (1.3s, total 426s)
+02:16:01 INFO imagem 'new smartphone launch' ← wikimedia
+02:16:13 INFO cena 85 pronta (4.9s, total 431s)
+02:16:18 WARNING nenhuma imagem livre para 'debate two speech bubbles' — usando cartão
+02:16:19 INFO cena 86 pronta (3.3s, total 434s)
+02:16:24 WARNING nenhuma imagem livre para 'Vargas pai dos pobres trabalhadores' — usando cartão
+02:16:28 INFO cena 87 pronta (11.7s, total 446s)
+02:16:29 INFO imagem 'greve 1917 São Paulo trabalhadores' ← wikimedia
+02:16:47 INFO cena 88 pronta (6.5s, total 452s)
+02:16:48 INFO imagem 'balance scale illustration' ← wikimedia
+02:16:51 INFO cena 89 pronta (2.2s, total 454s)
+02:16:56 INFO cena 90 pronta (5.6s, total 460s)
+02:16:59 INFO imagem 'two hands together illustration' ← wikimedia
+02:17:03 INFO cena 91 pronta (3.0s, total 463s)
+02:17:05 INFO Processing audio with duration 01:12.300
+02:17:05 INFO VAD filter removed 00:00.000 of audio
+02:17:22 INFO bloco 7: 72.3s, 175 palavras reconhecidas
+02:17:27 INFO cena 92 pronta (3.2s, total 466s)
+02:17:28 INFO imagem 'gavel and long scroll law' ← wikimedia
+02:17:40 INFO cena 93 pronta (7.5s, total 474s)
+02:17:44 WARNING nenhuma imagem livre para 'DIP Departamento de Imprensa e Propaganda 1939' — usando cartão
+02:17:47 INFO cena 94 pronta (6.6s, total 480s)
+02:17:53 WARNING nenhuma imagem livre para '1940s radio Brazil propaganda' — usando cartão
+02:17:55 INFO cena 95 pronta (7.1s, total 487s)
+02:18:00 WARNING nenhuma imagem livre para 'scissors cutting newspaper censorship' — usando cartão
+02:18:02 INFO cena 96 pronta (5.9s, total 493s)
+02:18:05 INFO cena 97 pronta (2.0s, total 495s)
+02:18:07 INFO imagem 'Companhia Siderúrgica Nacional Volta Redonda' ← wikimedia
+02:18:25 INFO cena 98 pronta (6.9s, total 502s)
+02:18:31 WARNING nenhuma imagem livre para 'Natal air base World War II' — usando cartão
+02:18:34 INFO cena 99 pronta (7.7s, total 510s)
+02:18:38 WARNING nenhuma imagem livre para 'Volta Redonda usina 1946' — usando cartão
+02:18:40 INFO cena 100 pronta (7.9s, total 518s)
+02:18:45 INFO imagem 'tree with fruit orchard drawing' ← wikimedia
+02:18:57 INFO cena 101 pronta (5.0s, total 523s)
+02:18:59 INFO imagem 'theater curtain closing' ← wikimedia
+02:19:03 INFO cena 102 pronta (1.3s, total 524s)
+02:19:09 WARNING nenhuma imagem livre para '1945 eleições Brasil redemocratização' — usando cartão
+02:19:11 INFO cena 103 pronta (5.4s, total 529s)
+02:19:15 WARNING nenhuma imagem livre para '29 outubro 1945 queda de Vargas' — usando cartão
+02:19:16 INFO cena 104 pronta (4.1s, total 534s)
+02:19:18 INFO cena 105 pronta (1.7s, total 535s)
+02:19:20 INFO Processing audio with duration 01:12.316
+02:19:20 INFO VAD filter removed 00:00.000 of audio
+02:19:37 INFO bloco 8: 72.3s, 178 palavras reconhecidas
+02:19:39 INFO cena 106 pronta (1.1s, total 536s)
+02:19:51 INFO imagem 'colored stripes eye reading' ← openverse
+02:20:04 INFO cena 107 pronta (7.8s, total 544s)
+02:20:08 WARNING nenhuma imagem livre para 'zigzag arrow back and forth' — usando cartão
+02:20:10 INFO cena 108 pronta (4.0s, total 548s)
+02:20:16 INFO cena 109 pronta (7.9s, total 556s)
+02:20:21 WARNING nenhuma imagem livre para 'salário mínimo 1940 decreto' — usando cartão
+02:20:23 INFO cena 110 pronta (5.8s, total 562s)
+02:20:26 INFO imagem 'door opening and closing' ← wikimedia
+02:20:39 INFO cena 111 pronta (3.4s, total 565s)
+02:20:46 INFO cena 112 pronta (11.0s, total 576s)
+02:20:51 WARNING nenhuma imagem livre para 'heavy weight barbell illustration' — usando cartão
+02:20:52 INFO cena 113 pronta (2.3s, total 579s)
+02:20:55 INFO imagem 'staircase three steps illustration' ← wikimedia
+02:21:04 INFO cena 114 pronta (7.8s, total 586s)
+02:21:08 WARNING nenhuma imagem livre para 'coffee bean to steel beam' — usando cartão
+02:21:09 INFO cena 115 pronta (2.9s, total 589s)
+02:21:15 INFO cena 116 pronta (7.9s, total 597s)
+02:21:17 INFO imagem 'timeline two points' ← wikimedia
+02:21:21 INFO cena 117 pronta (2.7s, total 600s)
+02:21:22 INFO imagem 'avoiding pit trap illustration' ← wikimedia
+02:21:29 INFO cena 118 pronta (4.3s, total 604s)
+02:21:33 INFO cena 119 pronta (3.2s, total 608s)
+02:21:35 INFO Processing audio with duration 01:43.060
+02:21:35 INFO VAD filter removed 00:00.000 of audio
+02:22:01 INFO bloco 9: 103.1s, 256 palavras reconhecidas
+02:22:07 WARNING nenhuma imagem livre para 'exam desk pencil stopwatch' — usando cartão
+02:22:07 INFO cena 120 pronta (1.3s, total 609s)
+02:22:11 INFO cena 121 pronta (4.1s, total 613s)
+02:22:16 WARNING nenhuma imagem livre para 'DIP publicação 1942 propaganda Estado Novo' — usando cartão
+02:22:19 INFO cena 122 pronta (7.5s, total 621s)
+02:22:28 INFO cena 123 pronta (15.8s, total 636s)
+02:22:31 WARNING nenhuma imagem livre para 'pencil underlining exam' — usando cartão
+02:22:32 INFO cena 124 pronta (2.4s, total 639s)
+02:22:38 INFO cena 125 pronta (7.9s, total 647s)
+02:22:41 INFO cena 126 pronta (3.2s, total 650s)
+02:22:47 WARNING nenhuma imagem livre para 'propaganda megaphone warning' — usando cartão
+02:22:48 INFO cena 127 pronta (3.9s, total 654s)
+02:22:51 INFO imagem 'scissors separating illustration' ← wikimedia
+02:22:57 INFO cena 128 pronta (4.8s, total 658s)
+02:22:59 INFO cena 129 pronta (1.5s, total 660s)
+02:23:04 INFO cena 130 pronta (4.6s, total 665s)
+02:23:06 INFO imagem 'rubber stamp red X' ← wikimedia
+02:23:19 INFO cena 131 pronta (4.1s, total 669s)
+02:23:26 WARNING nenhuma imagem livre para 'puppet strings worker hand' — usando cartão
+02:23:28 INFO cena 132 pronta (5.4s, total 674s)
+02:23:31 INFO imagem 'opposite arrows illustration' ← wikimedia
+02:23:37 INFO cena 133 pronta (2.5s, total 676s)
+02:23:41 WARNING nenhuma imagem livre para 'gavel silence speech bubble' — usando cartão
+02:23:43 INFO cena 134 pronta (6.2s, total 683s)
+02:23:48 WARNING nenhuma imagem livre para 'mixed colors blob markers' — usando cartão
+02:23:49 INFO cena 135 pronta (2.9s, total 686s)
+02:23:53 WARNING nenhuma imagem livre para 'migrant suitcase door illustration' — usando cartão
+02:23:55 INFO cena 136 pronta (4.7s, total 690s)
+02:23:57 INFO imagem 'magnifying glass empty' ← wikimedia
+02:24:02 INFO cena 137 pronta (2.5s, total 693s)
+02:24:09 INFO cena 138 pronta (7.7s, total 701s)
+02:24:11 INFO cena 139 pronta (1.7s, total 702s)
+02:24:16 WARNING nenhuma imagem livre para 'gift box crossed out raised fist' — usando cartão
+02:24:18 INFO cena 140 pronta (6.5s, total 709s)
+02:24:20 INFO cena 141 pronta (1.9s, total 711s)
+02:24:21 INFO Processing audio with duration 00:44.883
+02:24:21 INFO VAD filter removed 00:00.000 of audio
+02:24:31 INFO bloco 10: 44.9s, 121 palavras reconhecidas
+02:24:34 INFO cena 142 pronta (1.3s, total 712s)
+02:24:35 INFO imagem 'three masks illustration' ← wikimedia
+02:24:48 INFO cena 143 pronta (6.7s, total 719s)
+02:24:50 INFO imagem 'constitution book politicians' ← wikimedia
+02:24:55 INFO cena 144 pronta (2.4s, total 721s)
+02:25:00 WARNING nenhuma imagem livre para 'conveyor belt law books' — usando cartão
+02:25:02 INFO cena 145 pronta (5.4s, total 727s)
+02:25:04 INFO imagem 'three trees colored branches' ← wikimedia
+02:25:14 INFO cena 146 pronta (5.1s, total 732s)
+02:25:19 WARNING nenhuma imagem livre para 'subscribe bell thumbs up' — usando cartão
+02:25:23 INFO cena 147 pronta (4.3s, total 736s)
+02:25:32 INFO cena 148 pronta (5.4s, total 741s)
+02:25:34 INFO imagem 'reading comments laptop' ← wikimedia
+02:25:39 INFO cena 149 pronta (3.6s, total 745s)
+02:25:43 WARNING nenhuma imagem livre para 'whiteboard marker speech bubble' — usando cartão
+02:25:46 INFO cena 150 pronta (10.6s, total 756s)
+02:25:47 INFO sem trilha em musica/foco — vídeo sai só com narração
+02:25:49 INFO imagem 'Getulio Vargas 1930s public domain' ← wikimedia
+02:25:52 INFO upload 32%
+02:25:53 INFO upload 65%
+02:25:54 INFO upload 98%
+02:25:54 INFO vídeo enviado: https://youtu.be/K4aaYBSIPYs (agendado para 2026-10-29T20:00:00Z)
+02:25:58 INFO na playlist 'História'
+02:25:58 WARNING Encountered 403 Forbidden with reason "forbidden"
+02:25:58 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+02:27:01 INFO corte 1 pronto (26s)
+02:29:00 INFO corte 2 pronto (51s)
+02:30:44 INFO corte 3 pronto (45s)
+02:30:46 INFO Short agendado: https://youtube.com/shorts/1iFsJ1S6b8k (2026-10-30T15:00:00Z)
+02:30:51 INFO Short agendado: https://youtube.com/shorts/k5cmxcDWZTs (2026-10-31T15:00:00Z)
+02:30:56 INFO Short agendado: https://youtube.com/shorts/QrbYA3afKuI (2026-11-01T15:00:00Z)
+02:30:58 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/saida/video.mp4 (12.6 min) → https://youtu.be/K4aaYBSIPYs
