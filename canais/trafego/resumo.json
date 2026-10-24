@@ -1,4 +1,121 @@
 {
-  "gerado_em": "2026-10-23T23:49:08+00:00",
-  "canais": {}
+  "gerado_em": "2026-10-24T13:57:44+00:00",
+  "canais": {
+    "historia": {
+      "nome": "Ouro & Império",
+      "inscritos": 1,
+      "videos": [
+        {
+          "video_id": "9CZ1G8eEzEY",
+          "tipo": "longo",
+          "titulo_atual": "Wall Street não quebrou o Brasil sozinha",
+          "publico": false,
+          "idade_horas": -55.0,
+          "pasta": "canais/historia/videos/2026-10-26",
+          "views": 0,
+          "likes": 0,
+          "comentarios": 0,
+          "metricas_7d": {},
+          "titulo_ja_trocado": false
+        },
+        {
+          "video_id": "1kNyCRBa3Jw",
+          "tipo": "short",
+          "titulo_atual": "A Bolsa quase não caiu, mas um presidente caiu no Rio #shorts",
+          "publico": false,
+          "idade_horas": -73.0,
+          "pasta": "canais/historia/videos/2026-10-26",
+          "views": 0,
+          "likes": 0,
+          "comentarios": 0,
+          "metricas_7d": {},
+          "titulo_ja_trocado": false
+        },
+        {
+          "video_id": "l1m3q2vWJGw",
+          "tipo": "short",
+          "titulo_atual": "70% das exportações em um produto e 80% para um cliente #shorts",
+          "publico": false,
+          "idade_horas": -97.0,
+          "pasta": "canais/historia/videos/2026-10-26",
+          "views": 0,
+          "likes": 0,
+          "comentarios": 0,
+          "metricas_7d": {},
+          "titulo_ja_trocado": false
+        },
+        {
+          "video_id": "rXjUrlGiqgg",
+          "tipo": "short",
+          "titulo_atual": "O governo queimou café de propósito. Foi loucura ou plano? #shorts",
+          "publico": false,
+          "idade_horas": -121.0,
+          "pasta": "canais/historia/videos/2026-10-26",
+          "views": 1,
+          "likes": 0,
+          "comentarios": 0,
+          "metricas_7d": {},
+          "titulo_ja_trocado": false
+        }
+      ]
+    },
+    "vestibular": {
+      "nome": "Mapeado",
+      "inscritos": 1,
+      "videos": [
+        {
+          "video_id": "K4aaYBSIPYs",
+          "tipo": "longo",
+          "titulo_atual": "Era Vargas no ENEM: 3 governos em 1 mapa mental",
+          "publico": false,
+          "idade_horas": -126.0,
+          "pasta": "canais/vestibular/videos/2026-10-29",
+          "views": 1,
+          "likes": 1,
+          "comentarios": 0,
+          "metricas_7d": {},
+          "titulo_ja_trocado": false
+        },
+        {
+          "video_id": "1iFsJ1S6b8k",
+          "tipo": "short",
+          "titulo_atual": "Por que o governo comprava café para botar fogo? (Era Vargas) #shorts",
+          "publico": false,
+          "idade_horas": -145.0,
+          "pasta": "canais/vestibular/videos/2026-10-29",
+          "views": 0,
+          "likes": 0,
+          "comentarios": 0,
+          "metricas_7d": {},
+          "titulo_ja_trocado": false
+        },
+        {
+          "video_id": "k5cmxcDWZTs",
+          "tipo": "short",
+          "titulo_atual": "Plano Cohen: o documento falso que levou ao golpe de 1937 #shorts",
+          "publico": false,
+          "idade_horas": -169.0,
+          "pasta": "canais/vestibular/videos/2026-10-29",
+          "views": 0,
+          "likes": 0,
+          "comentarios": 0,
+          "metricas_7d": {},
+          "titulo_ja_trocado": false
+        },
+        {
+          "video_id": "QrbYA3afKuI",
+          "tipo": "short",
+          "titulo_atual": "Enem 2010: a pegadinha da questão sobre as leis de Vargas #shorts",
+          "publico": false,
+          "idade_horas": -193.0,
+          "pasta": "canais/vestibular/videos/2026-10-29",
+          "views": 2,
+          "likes": 0,
+          "comentarios": 0,
+          "metricas_7d": {},
+          "titulo_ja_trocado": false
+        }
+      ]
+    }
+  }
 }
