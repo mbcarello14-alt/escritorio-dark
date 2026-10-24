@@ -10,7 +10,7 @@ import requests
 
 from .comum import log
 
-UA = {"User-Agent": "EscritorioDark/1.0 (canal educativo; contato via GitHub)"}
+UA = {"User-Agent": "EscritorioDark/1.0 (https://escritorio-dark.mbcarello14.workers.dev; canal educativo) python-requests"}
 LICENCAS_OK = ("cc0", "pd", "public domain", "domínio público", "cc by", "cc-by", "pdm")
 
 
@@ -27,7 +27,7 @@ class Buscador:
         r = requests.get("https://commons.wikimedia.org/w/api.php", headers=UA, timeout=30, params={
             "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
             "gsrsearch": f"{busca} filetype:bitmap", "gsrlimit": 12,
-            "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": 1920,
+            "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": 1280,
         })
         r.raise_for_status()
         paginas = (r.json().get("query") or {}).get("pages", {}).values()
