@@ -110,6 +110,12 @@ def renderizar(cfg: dict, video: Path, corte: dict, tempos: list[dict], palavras
            "-map", "[v]", "-map", "0:a", "-af", f"afade=t=out:st={max(0, dur - 0.5):.2f}:d=0.5",
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p", "-r", "30",
            "-c:a", "aac", "-b:a", "160k", "-shortest", str(saida)], timeout=1800)
+    # arte "Inscreva-se · Gostei · Comente" no meio e no fim do corte
+    from . import engajamento
+    png = pasta / "chamada.png"
+    engajamento.arte(cfg, W, H, vertical=True).save(png)
+    meio = engajamento.aplicar(saida, png, round(dur * 0.45, 2), 3.2, pasta / "meio.mp4")
+    engajamento.aplicar(meio, png, max(0.0, dur - 4.5), 4.5, saida)
     log.info("corte %d pronto (%.0fs)", n, dur)
     return saida
 

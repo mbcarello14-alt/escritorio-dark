@@ -29,7 +29,7 @@ Arquivos de cada vídeo em `canais/<canal>/videos/AAAA-MM-DD/`: `estado.json` (e
 - **Humano no circuito, de verdade.** O Miguel escolhe a pauta, dá a opinião, aprova o roteiro e narra com a própria voz. É isso que protege a monetização contra a regra de conteúdo inautêntico. Nunca pule a aprovação.
 - **Nada de fábrica.** Cada vídeo tem ângulo e estrutura próprios; nada de trocar só o tema.
 - **Canais têm identidade própria.** Não reaproveite roteiro, gancho ou thumbnail entre canais.
-- **Chamadas de engajamento:** todo roteiro pede inscrição, like e comentário no começo, no meio e no final (regra do Miguel).
+- **Chamadas de engajamento:** todo roteiro pede inscrição, like e comentário no começo, no meio e no final (regra do Miguel). O motor mostra a faixa animada "Inscreva-se · Gostei · Comente" (`pipeline/engajamento.py`) nessas cenas e no meio e no fim de cada Short.
 - **Fato sem fonte não entra.** Checador reprovou → volta ao roteirista (máx. 2 voltas).
 - **Personas não dão conselho** de saúde, finanças, direito ou política como especialistas.
 - **IA declarada:** ilustrações de IA são citadas na descrição; imagem sintética realista de pessoa/evento real → `sintetico_realista: true`.

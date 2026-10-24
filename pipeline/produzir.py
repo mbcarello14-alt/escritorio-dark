@@ -13,7 +13,7 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import apresentador, cartoes, gravacao, legendas, quadro_branco, render
+from . import apresentador, cartoes, engajamento, gravacao, legendas, quadro_branco, render
 from .agenda import proximo_horario
 from .comum import FPS, RAIZ, carregar_config, carregar_producao, duracao_audio, log
 from .imagens import Buscador
@@ -37,7 +37,12 @@ class Contexto:
             if p:
                 return p
         if self.buscador and (busca or descricao_ia):
-            return self.buscador.buscar(busca or descricao_ia)
+            p = self.buscador.buscar(busca or descricao_ia)
+            if p:
+                return p
+        if busca and self.ilustrador and not descricao_ia:
+            # nenhuma imagem livre: em vez de um quadro só com texto, ilustra o assunto
+            return self.ilustrador.gerar(busca)
         return None
 
 
@@ -182,7 +187,13 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
             audio = audios_gravados[nc] if audios_gravados else narrar(c["narracao"], cfg, tmp / f"voz_{idx:03d}.wav", motor)
             dur = round(duracao_audio(audio) + (0.0 if audios_gravados else 0.15), 3)
             dur = max(1.0, round(dur * FPS) / FPS)
-            clipes.append(_visual(ctx, c, idx, audio, dur, b.get("capitulo", "")))
+            clipe = _visual(ctx, c, idx, audio, dur, b.get("capitulo", ""))
+            if engajamento.eh_chamada(c["narracao"]):   # arte "Inscreva-se · Gostei · Comente" durante a chamada
+                png = tmp / "chamada.png"
+                if not png.exists():
+                    engajamento.arte(cfg).save(png)
+                clipe = engajamento.aplicar(clipe, png, 0.3, max(1.5, dur - 0.5), tmp / f"cena_{idx:03d}_cta.mp4")
+            clipes.append(clipe)
             tempos_cenas.append({"inicio": t, "duracao": dur, "narracao": c["narracao"], "bloco": nb, "cena": nc + 1})
             t += dur
             log.info("cena %d pronta (%.1fs, total %.0fs)", idx, dur, t)
