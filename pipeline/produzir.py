@@ -26,7 +26,7 @@ QUADROS_ANIMACAO = 18  # 0,6 s para cada ramo novo do mapa mental (modo ilustrad
 
 class Contexto:
     def __init__(self, cfg, pasta, tmp, sem_rede):
-        self.cfg, self.tmp = cfg, tmp
+        self.cfg, self.tmp, self.pasta = cfg, tmp, pasta
         self.branco = cfg["estilo"].get("modo") == "quadro_branco"
         self.buscador = None if sem_rede else Buscador(pasta / "saida", cfg["imagens"]["fontes"])
         self.ilustrador = None if sem_rede else Ilustrador(pasta / "saida", cfg)
@@ -55,13 +55,14 @@ def _visual(ctx: Contexto, cena: dict, idx: int, audio: Path, dur: float, bloco:
     movimento = v.get("movimento") or "zoom_in"
 
     if t in ("imagem", "ilustracao"):
-        origem = ctx.imagem(v.get("cena") if t == "ilustracao" else None,
-                            v.get("busca_reserva") if t == "ilustracao" else v["busca"])
+        fixa = ctx.pasta / "imagens-fixas" / f"cena_{idx:03d}.jpg"   # imagem escolhida de uma versão anterior
+        origem = fixa if fixa.exists() else ctx.imagem(v.get("cena") if t == "ilustracao" else None,
+                                                       v.get("busca_reserva") if t == "ilustracao" else v["busca"])
         if origem:
             if ctx.branco:
                 return _desenhar(ctx, quadro_branco.preparar_desenho(origem, cfg["estilo"]["fundo"]), None, idx, audio, dur)
             img = cartoes.preparar_imagem(origem, tmp / f"cena_{idx:03d}.jpg",
-                                          preencher=origem.parent.name == "ilustracoes")
+                                          preencher=origem.parent.name in ("ilustracoes", "imagens-fixas"))
             sobre = cartoes.sobreposicao_legenda(cfg, v["legenda"], tmp / f"leg_{idx:03d}.png") if v.get("legenda") else None
             return render.clipe_imagem(img, audio, dur, saida, movimento, sobre)
         quadro = cartoes.cartao(cfg, v.get("legenda") or bloco, "")
@@ -161,7 +162,9 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
             raise SystemExit(f"Faltam os áudios dos blocos {faltam}. Grave pelo Telegram.")
 
     if ctx.ilustrador:
-        pedidos = [c["visual"].get("cena") for b in prod["blocos"] for c in b["cenas"] if c["visual"]["tipo"] == "ilustracao"]
+        todas = [c for b in prod["blocos"] for c in b["cenas"]]
+        pedidos = [c["visual"].get("cena") for i, c in enumerate(todas, 1) if c["visual"]["tipo"] == "ilustracao"
+                   and not (pasta / "imagens-fixas" / f"cena_{i:03d}.jpg").exists()]
         ctx.ilustrador.pre_gerar(pedidos + [prod["thumbnail"].get("cena")])
 
     clipes, tempos_cenas, tempos_blocos, palavras_globais, t, idx = [], [], [], [], 0.0, 0

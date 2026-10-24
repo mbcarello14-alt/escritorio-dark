@@ -5,7 +5,7 @@ on:
       tarefa:
         description: "Tarefa"
         type: choice
-        options: [reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao, comparar-voz, recuperar-thumb]
+        options: [reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao, comparar-voz, recuperar-thumb, extrair-cenas]
       pasta:
         description: "Pasta do vídeo (reparar-publicacao) ou canais separados por espaço (branding)"
         required: false
@@ -81,6 +81,19 @@ jobs:
           mkdir -p /tmp/a && unzip -o -q /tmp/a.zip -d /tmp/a
           cp "$(find /tmp/a -name thumbnail.jpg | head -1)" "$1/thumbnail-fixa.jpg"
           ls -la "$1/thumbnail-fixa.jpg"
+      - name: Extrair imagens das cenas de uma montagem anterior
+        # pasta = "<pasta do vídeo> <id da execução da Produção>"
+        if: inputs.tarefa == 'extrair-cenas'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -- ${{ inputs.pasta }}
+          timeout 180 sudo apt-get install -y -qq ffmpeg > /dev/null 2>&1 || { curl -sSL --retry 3 -o /tmp/ff.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz && mkdir -p /tmp/ff && tar -xf /tmp/ff.tar.xz -C /tmp/ff --strip-components=1 && sudo cp /tmp/ff/bin/ff* /usr/local/bin/; }
+          art=$(gh api repos/${{ github.repository }}/actions/runs/$2/artifacts --jq '.artifacts[0].id')
+          gh api repos/${{ github.repository }}/actions/artifacts/$art/zip > /tmp/a.zip
+          mkdir -p /tmp/a && unzip -o -q /tmp/a.zip -d /tmp/a
+          mkdir -p canais/logs
+          python -m pipeline.extrair_cenas "$1" "$(find /tmp/a -name video.mp4 | head -1)" 2>&1 | tee canais/logs/extrair-$(date -u +%Y%m%d-%H%M%S).log
       - name: Comparar direções de voz
         if: inputs.tarefa == 'comparar-voz'
         run: |
