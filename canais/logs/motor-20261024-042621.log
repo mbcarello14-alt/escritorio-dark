@@ -1,0 +1,168 @@
+04:26:22 INFO ilustrações: higgsfield desligado (sem chave)
+04:26:22 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+04:26:23 INFO Processing audio with duration 00:43.687
+[0;93m2026-10-24 04:26:23.732261108 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+04:26:23 INFO VAD filter removed 00:00.048 of audio
+04:26:38 INFO Processing audio with duration 00:43.687
+04:26:38 INFO VAD filter removed 00:00.048 of audio
+04:26:53 INFO Processing audio with duration 01:15.287
+04:26:53 INFO VAD filter removed 00:00.048 of audio
+04:27:20 INFO Processing audio with duration 01:15.287
+04:27:20 INFO VAD filter removed 00:00.048 of audio
+04:27:47 INFO Processing audio with duration 01:23.687
+04:27:47 INFO VAD filter removed 00:00.000 of audio
+04:28:18 INFO Processing audio with duration 01:23.687
+04:28:18 INFO VAD filter removed 00:00.000 of audio
+04:28:49 WARNING instrução lida em bloco_03.wav (0.0–13.7s): 'Na reem português do Brasil, com um sotaque brasileiro neutro, como um youtuber jovem carismático ex' — cortando
+04:28:50 INFO Processing audio with duration 01:20.687
+04:28:50 INFO VAD filter removed 00:00.000 of audio
+04:29:20 INFO Processing audio with duration 01:20.687
+04:29:20 INFO VAD filter removed 00:00.000 of audio
+04:29:49 INFO Processing audio with duration 01:19.287
+04:29:49 INFO VAD filter removed 00:00.000 of audio
+04:30:17 INFO Processing audio with duration 01:19.287
+04:30:17 INFO VAD filter removed 00:00.000 of audio
+04:30:44 WARNING instrução lida em bloco_05.wav (0.0–15.3s): 'Marra em português do Brasil, consulta que brasileiro neutro como um youtuber jovem e carismático ex' — cortando
+04:30:44 INFO Processing audio with duration 01:10.427
+04:30:44 INFO VAD filter removed 00:00.000 of audio
+04:31:12 INFO Processing audio with duration 01:10.427
+04:31:12 INFO VAD filter removed 00:00.000 of audio
+04:31:40 INFO Processing audio with duration 01:22.247
+04:31:40 INFO VAD filter removed 00:00.000 of audio
+04:32:11 INFO Processing audio with duration 01:22.247
+04:32:11 INFO VAD filter removed 00:00.000 of audio
+04:32:41 INFO Processing audio with duration 00:56.047
+04:32:41 INFO VAD filter removed 00:00.272 of audio
+04:33:01 INFO Processing audio with duration 00:56.047
+04:33:01 INFO VAD filter removed 00:00.272 of audio
+04:33:21 INFO gerando 1 ilustrações…
+04:33:21 INFO ilustrações prontas: 1 geradas (1 pedidas)
+04:33:22 INFO Processing audio with duration 00:43.375
+04:33:22 INFO VAD filter removed 00:00.000 of audio
+04:33:37 INFO bloco 1: 43.4s, 125 palavras reconhecidas
+04:33:45 INFO cena 1 pronta (8.1s, total 8s)
+04:33:50 INFO cena 2 pronta (6.6s, total 15s)
+04:33:56 INFO cena 3 pronta (6.6s, total 21s)
+04:34:01 INFO cena 4 pronta (6.6s, total 28s)
+04:34:04 INFO cena 5 pronta (4.7s, total 33s)
+04:34:07 INFO cena 6 pronta (4.1s, total 37s)
+04:34:20 INFO cena 7 pronta (6.8s, total 43s)
+04:34:22 INFO Processing audio with duration 01:14.996
+04:34:22 INFO VAD filter removed 00:00.000 of audio
+04:34:49 INFO bloco 2: 75.0s, 211 palavras reconhecidas
+04:34:50 WARNING nenhuma imagem livre para 'coffee plantation Brazil early 20th century photograph' — usando cartão
+04:34:57 INFO cena 8 pronta (5.6s, total 49s)
+04:35:03 INFO cena 9 pronta (6.5s, total 56s)
+04:35:10 INFO cena 10 pronta (9.7s, total 65s)
+04:35:15 INFO cena 11 pronta (6.6s, total 72s)
+04:35:21 INFO cena 12 pronta (6.2s, total 78s)
+04:35:25 INFO cena 13 pronta (5.1s, total 83s)
+04:35:32 INFO cena 14 pronta (7.1s, total 90s)
+04:35:35 INFO cena 15 pronta (3.7s, total 94s)
+04:35:42 INFO cena 16 pronta (8.1s, total 102s)
+04:35:44 WARNING nenhuma imagem livre para 'coffee sacks Santos port 1920s photograph' — usando cartão
+04:35:44 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+04:35:49 INFO cena 17 pronta (9.2s, total 111s)
+04:35:53 INFO cena 18 pronta (7.3s, total 118s)
+04:35:55 INFO Processing audio with duration 01:09.359
+04:35:55 INFO VAD filter removed 00:00.000 of audio
+04:36:18 INFO bloco 3: 69.4s, 202 palavras reconhecidas
+04:36:20 WARNING nenhuma imagem livre para 'Brazilian mil-réis banknote 1920s' — usando cartão
+04:36:25 INFO cena 19 pronta (9.2s, total 128s)
+04:36:33 INFO cena 20 pronta (9.3s, total 137s)
+04:36:37 INFO cena 21 pronta (5.1s, total 142s)
+04:36:41 INFO cena 22 pronta (7.2s, total 149s)
+04:36:45 INFO cena 23 pronta (5.3s, total 155s)
+04:36:52 INFO cena 24 pronta (8.6s, total 163s)
+04:36:57 INFO cena 25 pronta (4.9s, total 168s)
+04:36:58 WARNING nenhuma imagem livre para 'coffee harvest Brazil 1920s workers sacks photograph' — usando cartão
+04:37:02 INFO cena 26 pronta (7.2s, total 175s)
+04:37:08 INFO cena 27 pronta (8.2s, total 184s)
+04:37:12 INFO cena 28 pronta (4.3s, total 188s)
+04:37:14 INFO Processing audio with duration 01:20.687
+04:37:14 INFO VAD filter removed 00:00.000 of audio
+04:37:45 INFO bloco 4: 80.7s, 228 palavras reconhecidas
+04:37:51 INFO cena 29 pronta (8.4s, total 196s)
+04:37:57 INFO cena 30 pronta (6.9s, total 203s)
+04:38:02 INFO cena 31 pronta (9.7s, total 213s)
+04:38:11 INFO cena 32 pronta (8.8s, total 222s)
+04:38:16 INFO cena 33 pronta (6.9s, total 229s)
+04:38:21 INFO cena 34 pronta (4.7s, total 233s)
+04:38:23 INFO imagem 'Wall Street crowd October 1929 photograph' ← wikimedia
+04:38:30 INFO cena 35 pronta (5.7s, total 239s)
+04:38:34 INFO cena 36 pronta (5.9s, total 245s)
+04:38:39 INFO cena 37 pronta (6.2s, total 251s)
+04:38:43 INFO cena 38 pronta (5.0s, total 256s)
+04:39:04 INFO cena 39 pronta (12.3s, total 268s)
+04:39:06 INFO Processing audio with duration 01:03.962
+04:39:06 INFO VAD filter removed 00:00.304 of audio
+04:39:30 INFO bloco 5: 64.0s, 193 palavras reconhecidas
+04:39:38 INFO cena 40 pronta (10.1s, total 278s)
+04:39:42 INFO cena 41 pronta (4.1s, total 283s)
+04:39:45 INFO cena 42 pronta (6.4s, total 289s)
+04:39:51 INFO cena 43 pronta (7.0s, total 296s)
+04:39:56 INFO cena 44 pronta (5.6s, total 302s)
+04:40:02 INFO cena 45 pronta (7.7s, total 309s)
+04:40:09 INFO cena 46 pronta (9.1s, total 318s)
+04:40:17 INFO cena 47 pronta (9.9s, total 328s)
+04:40:20 INFO cena 48 pronta (4.2s, total 332s)
+04:40:22 INFO Processing audio with duration 01:10.306
+04:40:22 INFO VAD filter removed 00:00.000 of audio
+04:40:50 INFO bloco 6: 70.3s, 222 palavras reconhecidas
+04:40:54 INFO cena 49 pronta (4.7s, total 337s)
+04:40:59 INFO cena 50 pronta (5.4s, total 343s)
+04:41:06 INFO cena 51 pronta (9.6s, total 352s)
+04:41:07 WARNING nenhuma imagem livre para 'Getúlio Vargas Aliança Liberal 1930 campaign photograph' — usando cartão
+04:41:10 INFO cena 52 pronta (5.9s, total 358s)
+04:41:17 INFO cena 53 pronta (7.5s, total 366s)
+04:41:18 WARNING nenhuma imagem livre para 'Revolution of 1930 Brazil rebel soldiers photograph' — usando cartão
+04:41:22 INFO cena 54 pronta (7.4s, total 373s)
+04:41:22 WARNING nenhuma imagem livre para 'Revolution of 1930 gaucho soldiers horses tied to obelisk Rio de Janeiro' — usando cartão
+04:41:26 INFO cena 55 pronta (6.8s, total 380s)
+04:41:27 WARNING nenhuma imagem livre para 'Getúlio Vargas provisional government 1930 Rio de Janeiro photograph' — usando cartão
+04:41:30 INFO cena 56 pronta (6.2s, total 386s)
+04:41:33 INFO cena 57 pronta (3.7s, total 390s)
+04:41:38 INFO cena 58 pronta (5.8s, total 395s)
+04:41:42 INFO cena 59 pronta (4.1s, total 400s)
+04:41:45 INFO cena 60 pronta (3.1s, total 403s)
+04:41:47 INFO Processing audio with duration 01:22.247
+04:41:47 INFO VAD filter removed 00:00.000 of audio
+04:42:19 INFO bloco 7: 82.2s, 240 palavras reconhecidas
+04:42:22 INFO cena 61 pronta (3.0s, total 406s)
+04:42:30 INFO cena 62 pronta (11.4s, total 417s)
+04:42:40 INFO cena 63 pronta (9.9s, total 427s)
+04:42:40 WARNING nenhuma imagem livre para 'burning coffee Brazil 1930s photograph' — usando cartão
+04:42:43 INFO cena 64 pronta (4.4s, total 431s)
+04:42:47 INFO cena 65 pronta (7.1s, total 439s)
+04:42:51 INFO cena 66 pronta (5.1s, total 444s)
+04:42:59 INFO cena 67 pronta (9.5s, total 453s)
+04:43:04 INFO cena 68 pronta (7.1s, total 460s)
+04:43:05 WARNING nenhuma imagem livre para 'São Paulo factory 1930s industrial workers photograph' — usando cartão
+04:43:10 INFO cena 69 pronta (8.8s, total 469s)
+04:43:13 INFO cena 70 pronta (3.8s, total 473s)
+04:43:19 INFO cena 71 pronta (6.4s, total 479s)
+04:43:23 INFO cena 72 pronta (5.7s, total 485s)
+04:43:25 INFO Processing audio with duration 00:55.496
+04:43:25 INFO VAD filter removed 00:00.000 of audio
+04:43:45 INFO bloco 8: 55.5s, 178 palavras reconhecidas
+04:43:50 INFO cena 73 pronta (6.6s, total 492s)
+04:43:56 INFO cena 74 pronta (6.9s, total 498s)
+04:44:01 INFO cena 75 pronta (7.1s, total 506s)
+04:44:07 INFO cena 76 pronta (5.6s, total 511s)
+04:44:12 INFO cena 77 pronta (8.3s, total 519s)
+04:44:34 INFO cena 78 pronta (13.1s, total 533s)
+04:44:48 INFO cena 79 pronta (7.9s, total 540s)
+04:44:50 INFO sem trilha em musica/misterio — vídeo sai só com narração
+04:44:52 INFO upload 18%
+04:44:53 INFO upload 37%
+04:44:53 INFO upload 56%
+04:44:53 INFO upload 74%
+04:44:53 INFO upload 93%
+04:44:54 INFO vídeo enviado: https://youtu.be/9CZ1G8eEzEY (agendado para 2026-10-26T21:00:00Z)
+04:44:57 INFO na playlist 'História do Brasil'
+04:44:57 WARNING Encountered 403 Forbidden with reason "forbidden"
+04:44:57 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+04:44:58 INFO Short 1kNyCRBa3Jw agora aponta para 9CZ1G8eEzEY
+04:44:59 INFO Short l1m3q2vWJGw agora aponta para 9CZ1G8eEzEY
+04:44:59 INFO Short rXjUrlGiqgg agora aponta para 9CZ1G8eEzEY
+04:44:59 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-26/saida/video.mp4 (9.0 min) → https://youtu.be/9CZ1G8eEzEY
