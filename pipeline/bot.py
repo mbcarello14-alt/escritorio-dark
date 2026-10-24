@@ -288,10 +288,14 @@ def receber(evento: dict) -> None:
         # sem "responder": se só um vídeo está esperando esse tipo de resposta, é ele
         esperando = {"aguardando_escolha": "pauta", "aguardando_aprovacao": "roteiro"}
         candidatos = [(p, esperando[e.get("etapa")]) for p, e in E.todos_videos() if e.get("etapa") in esperando]
+        import json as _json
+        for arq in sorted((RAIZ / "canais").glob("*/reels/*/estado.json")):
+            if _json.loads(arq.read_text(encoding="utf-8")).get("etapa") == "aguardando_aprovacao_reel":
+                candidatos.append((arq.parent, "reel"))
         if re.match(r"^\s*[1-3]\b", texto):
             candidatos = [c for c in candidatos if c[1] == "pauta"]
         elif APROVAR.match(texto):
-            candidatos = [c for c in candidatos if c[1] == "roteiro"]
+            candidatos = [c for c in candidatos if c[1] in ("roteiro", "reel")]
         if len(candidatos) == 1:
             info = {"pasta": E.rel(candidatos[0][0]), "tipo": candidatos[0][1]}
         else:
@@ -334,6 +338,17 @@ def receber(evento: dict) -> None:
             E.salvar_estado(pasta, etapa="ajuste", ajustes=ajustes + [texto])
             T.enviar("✍️ Anotado, o roteirista está ajustando.", responder_a=msg["message_id"])
             _saida(comando=f"/ajustar {E.rel(pasta)}", pos="enviar-roteiro", pasta=E.rel(pasta))
+        return
+
+    if tipo == "reel":
+        if APROVAR.match(texto):
+            T.enviar("📅 Aprovado! Agendando o reel no YouTube Shorts…", responder_a=msg["message_id"])
+            _saida(reel_acao="publicar", reel_pasta=E.rel(pasta))
+        else:
+            ajustes = E.ler_estado(pasta).get("ajustes", [])
+            E.salvar_estado(pasta, etapa="ajuste_reel", ajustes=ajustes + [texto])
+            T.enviar("🎬 Anotado! Ajustando o reel e renderizando de novo (uns 10 min).", responder_a=msg["message_id"])
+            _saida(reel_acao="ajustar", reel_pasta=E.rel(pasta))
         return
 
     if tipo == "bloco":

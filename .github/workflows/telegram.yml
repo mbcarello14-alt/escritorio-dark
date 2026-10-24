@@ -71,6 +71,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run producao.yml -f pasta="${{ steps.bot.outputs.produzir || steps.entrega.outputs.produzir }}"
 
+      - name: Reels chamativos
+        if: steps.bot.outputs.reel_acao != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run reels.yml -f acao="${{ steps.bot.outputs.reel_acao }}" -f pasta="${{ steps.bot.outputs.reel_pasta }}"
+
       - name: Avisar erro
         if: failure()
         run: python -m pipeline.bot erro "${{ steps.bot.outputs.pasta }}"

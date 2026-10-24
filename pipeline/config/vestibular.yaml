@@ -64,6 +64,10 @@ canal_youtube:           # aplicado por: python -m pipeline.branding vestibular
     terça e quinta.
   palavras_chave: [enem, vestibular, mapa mental, resumo enem, história enem, geografia enem, revisão enem]
 
+reels:                   # reels chamativos 3D (1 por semana, aprovados no Telegram)
+  ligado: true
+  publicar: ["sun 19:00"]
+
 youtube:
   categoria_id: "27"
   idioma: pt-BR

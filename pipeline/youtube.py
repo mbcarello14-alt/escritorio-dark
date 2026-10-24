@@ -186,7 +186,8 @@ def publicar_short(cfg: dict, corte: dict, arquivo, publicar_em_utc: str, video_
     titulo = corte["titulo"].strip()
     if "#shorts" not in titulo.lower():
         titulo = f"{titulo[:90]} #shorts"
-    desc = (f"{corte.get('descricao', '').strip()}\n\n▶️ Vídeo completo: https://youtu.be/{video_longo}\n\n"
+    link = f"▶️ Vídeo completo: https://youtu.be/{video_longo}" if video_longo else f"🔔 Inscreva-se no {cfg['nome']} para mais."
+    desc = (f"{corte.get('descricao', '').strip()}\n\n{link}\n\n"
             + " ".join(corte.get("hashtags", [])[:3]) + " #shorts")
     corpo = {
         "snippet": {"title": titulo[:100], "description": desc[:5000],

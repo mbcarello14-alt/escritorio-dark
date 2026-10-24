@@ -63,6 +63,10 @@ canal_youtube:           # aplicado por: python -m pipeline.branding livros
     envelheceu e para quem ele serve. Vídeos novos toda quarta e sábado.
   palavras_chave: [resumo de livro, resenha, livros, leitura, não ficção, leituras obrigatórias, clássicos]
 
+reels:                   # reels chamativos 3D (1 por semana, aprovados no Telegram)
+  ligado: true
+  publicar: ["fri 20:00"]
+
 youtube:
   categoria_id: "27"
   idioma: pt-BR

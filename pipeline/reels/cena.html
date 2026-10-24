@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Estúdio de reels 3D</title>
+<style>
+  @font-face { font-family: "Poppins"; src: url("/fonts/Poppins-ExtraBold.ttf"); font-weight: 800; }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas { display: block; }
+</style>
+<script type="importmap">{ "imports": { "three": "/reels/vendor/three.module.min.js" } }</script>
+</head>
+<body>
+<script type="module">
+// Cena low-poly montada a partir de um roteiro (timeline.json). O quadro de qualquer instante t é
+// calculado do zero (sem estado entre quadros), então o render é determinístico: window.quadro(t).
+import * as THREE from "three";
+
+const P = new URLSearchParams(location.search);
+const W = +(P.get("w") || 1080), H = +(P.get("h") || 1920);
+const roteiro = await (await fetch(P.get("roteiro") || "/trabalho/timeline.json")).json();
+await document.fonts.load('800 80px "Poppins"').catch(() => {});
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+renderer.setSize(W, H);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+document.body.appendChild(renderer.domElement);
+
+const cen = roteiro.cenario || {};
+const cena = new THREE.Scene();
+cena.background = new THREE.Color(cen.ceu || "#8ecae6");
+const camera = new THREE.PerspectiveCamera(50, W / H, 0.1, 400);
+// camada de tela (HUD): textos e números fixos na tela, por cima da cena
+const hud = new THREE.Scene();
+const hudCam = new THREE.OrthographicCamera(-W / 2, W / 2, H / 2, -H / 2, -10, 10);
+renderer.autoClear = false;
+
+cena.add(new THREE.HemisphereLight(0xffffff, 0x88aa77, 1.4));
+const sol = new THREE.DirectionalLight(0xffffff, 1.9);
+sol.position.set(8, 16, 10); sol.castShadow = true;
+sol.shadow.mapSize.set(1024, 1024);
+Object.assign(sol.shadow.camera, { left: -18, right: 18, top: 18, bottom: -18, near: 1, far: 60 });
+cena.add(sol);
+
+// ---------------------------------------------------------------- utilidades
+const mat = (c, extra = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: 0.85, flatShading: true, ...extra });
+const caixa = (w, h, d, c) => { const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat(c)); m.castShadow = m.receiveShadow = true; return m; };
+const esfera = (r, c, seg = 10) => { const m = new THREE.Mesh(new THREE.SphereGeometry(r, seg, Math.max(6, seg - 2)), mat(c)); m.castShadow = true; return m; };
+const cilindro = (r1, r2, h, c, seg = 10) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(r1, r2, h, seg), mat(c)); m.castShadow = m.receiveShadow = true; return m; };
+let semente = 7;
+const rnd = () => ((semente = (semente * 16807) % 2147483647) / 2147483647);
+const COR = { dourado: "#F4C430", ouro: "#F4C430", prata: "#C0C6CF", cinza: "#9AA1AB" };
+const cor = c => COR[c] || c || "#e63946";
+
+function placaTexto(texto, { cor: c = "#ffffff", fundo = null, tam = 1.2, borda = "#111" } = {}) {
+  const tela = document.createElement("canvas");
+  const ctx = tela.getContext("2d");
+  const fs = 160;
+  ctx.font = `800 ${fs}px Poppins, sans-serif`;
+  const linhas = String(texto).split("\n");
+  const larg = Math.max(...linhas.map(l => ctx.measureText(l).width)) + 120;
+  tela.width = Math.min(4096, Math.ceil(larg)); tela.height = Math.ceil(fs * 1.25 * linhas.length + 80);
+  const c2 = tela.getContext("2d");
+  if (fundo) { c2.fillStyle = fundo; c2.beginPath(); c2.roundRect(0, 0, tela.width, tela.height, 60); c2.fill(); }
+  c2.font = `800 ${fs}px Poppins, sans-serif`; c2.textAlign = "center"; c2.textBaseline = "middle";
+  linhas.forEach((l, i) => {
+    const y = 40 + fs * 1.25 * (i + 0.5);
+    if (!fundo) { c2.lineWidth = 26; c2.strokeStyle = borda; c2.strokeText(l, tela.width / 2, y); }
+    c2.fillStyle = c; c2.fillText(l, tela.width / 2, y);
+  });
+  const tex = new THREE.CanvasTexture(tela); tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = 4;
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, depthTest: false, transparent: true }));
+  sp.renderOrder = 10;
+  sp.scale.set(tam * tela.width / tela.height, tam, 1);
+  return sp;
+}
+
+// ---------------------------------------------------------------- cenário
+const chao = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), mat(cen.chao || "#7cc57a"));
+chao.rotation.x = -Math.PI / 2; chao.receiveShadow = true; cena.add(chao);
+if (cen.sol !== false) { const s = new THREE.Mesh(new THREE.CircleGeometry(3, 24), new THREE.MeshBasicMaterial({ color: "#FFE066" })); s.position.set(-22, 26, -60); cena.add(s); }
+if (cen.nuvens !== false) for (let i = 0; i < 7; i++) {
+  const g = new THREE.Group();
+  for (let k = 0; k < 3; k++) { const b = caixa(2 + rnd() * 2, 1 + rnd() * 0.6, 1.6, "#ffffff"); b.castShadow = false; b.position.set(k * 1.6 - 1.6, rnd() * 0.5, rnd()); g.add(b); }
+  g.position.set(-40 + rnd() * 80, 16 + rnd() * 8, -30 - rnd() * 30); cena.add(g);
+}
+if (cen.cidade) for (let i = 0; i < 26; i++) {           // anel de prédios ao fundo
+  const a = -Math.PI * 0.9 + (i / 25) * Math.PI * 0.8, r = 26 + rnd() * 10, h = 3 + rnd() * 12;
+  const p = caixa(2.5 + rnd() * 2, h, 2.5 + rnd() * 2, ["#adb5bd", "#ced4da", "#8d99ae", "#e9ecef", "#b8c0ff"][i % 5]);
+  p.position.set(Math.cos(a) * r, h / 2, Math.sin(a) * r); cena.add(p);
+}
+
+// ---------------------------------------------------------------- catálogo de objetos
+function boneco(o) {
+  const g = new THREE.Group(), c = cor(o.cor), pele = o.pele || "#F1C27D";
+  const tronco = caixa(1.0, 1.2, 0.6, c); tronco.position.y = 1.7; g.add(tronco);
+  const cabeca = esfera(0.48, pele, 12); cabeca.position.y = 2.75; g.add(cabeca);
+  [-0.17, 0.17].forEach(x => { const olho = esfera(0.07, "#111111", 6); olho.position.set(x, 2.82, 0.43); g.add(olho); });
+  const boca = caixa(0.24, 0.05, 0.05, "#7a2e2e"); boca.position.set(0, 2.58, 0.45); g.add(boca);
+  if (o.cabelo !== false) { const cab = caixa(0.9, 0.22, 0.8, o.cabelo || "#3b2a1a"); cab.position.set(0, 3.15, -0.05); g.add(cab); }
+  if (o.chapeu === "cartola") { const a = cilindro(0.55, 0.55, 0.06, "#111"); a.position.y = 3.2; g.add(a); const b = cilindro(0.35, 0.35, 0.6, "#111"); b.position.y = 3.5; g.add(b); }
+  const bracos = [-0.68, 0.68].map(x => { const b = new THREE.Group(); const m = cilindro(0.14, 0.14, 1.0, c, 8); m.position.y = -0.45; b.add(m);
+    const mao = esfera(0.16, pele, 8); mao.position.y = -0.98; b.add(mao); b.position.set(x, 2.25, 0); g.add(b); return b; });
+  [-0.25, 0.25].forEach(x => { const p = cilindro(0.17, 0.17, 1.1, o.calca || "#264653", 8); p.position.set(x, 0.55, 0); g.add(p); });
+  g.userData.bracos = bracos; g.userData.cabeca = cabeca;
+  return g;
+}
+function predio(o) {
+  const g = new THREE.Group(), h = o.altura ?? 6;
+  const corpo = caixa(o.largura || 2.6, 1, o.largura || 2.6, cor(o.cor || "#adb5bd")); corpo.position.y = 0.5; g.add(corpo);
+  g.userData.corpo = corpo; g.userData.escalavel = corpo; return g;
+}
+function pilha(o) {
+  const g = new THREE.Group(), n = o.max_moedas || 40, c = cor(o.cor || "dourado");
+  const discos = [];
+  for (let i = 0; i < n; i++) { const d = cilindro(0.7, 0.7, 0.18, c, 14); d.position.set((rnd() - 0.5) * 0.08, 0.09 + i * 0.2, (rnd() - 0.5) * 0.08); g.add(d); discos.push(d); }
+  g.userData.discos = discos; return g;
+}
+function seta(o) {
+  const g = new THREE.Group(), c = cor(o.cor || "#E63946");
+  const haste = cilindro(0.18, 0.18, 2, c, 8); haste.position.y = 1; g.add(haste);
+  const ponta = new THREE.Mesh(new THREE.ConeGeometry(0.45, 0.8, 8), mat(c)); ponta.position.y = 2.4; g.add(ponta);
+  return g;
+}
+function arvore() {
+  const g = new THREE.Group();
+  const t = cilindro(0.22, 0.3, 1.4, "#8B5A2B", 6); t.position.y = 0.7; g.add(t);
+  const f = new THREE.Mesh(new THREE.IcosahedronGeometry(1.1, 0), mat("#2D6A4F")); f.position.y = 2.2; f.castShadow = true; g.add(f);
+  return g;
+}
+function casa(o) {
+  const g = new THREE.Group();
+  const c = caixa(2.4, 1.8, 2.2, cor(o.cor || "#F4A261")); c.position.y = 0.9; g.add(c);
+  const t = new THREE.Mesh(new THREE.ConeGeometry(2.0, 1.3, 4), mat(o.telhado || "#9D0208")); t.rotation.y = Math.PI / 4; t.position.y = 2.45; t.castShadow = true; g.add(t);
+  const p = caixa(0.5, 0.9, 0.05, "#5a3825"); p.position.set(0, 0.45, 1.12); g.add(p);
+  return g;
+}
+function saco(o) {
+  const g = new THREE.Group(), c = cor(o.cor || "#C8A165");
+  const b = esfera(1.0, c, 10); b.scale.y = 0.95; b.position.y = 1.0; g.add(b);
+  const n = cilindro(0.3, 0.45, 0.4, c, 8); n.position.y = 2.0; g.add(n);
+  const s = placaTexto(o.simbolo || "$", { cor: "#2b9348", tam: 0.9, borda: "#0b3d20" }); s.position.set(0, 1.0, 1.05); g.add(s);
+  return g;
+}
+function livro(o) {
+  const g = new THREE.Group();
+  const capa = caixa(1.6, 0.35, 2.2, cor(o.cor || "#B23A4C")); capa.position.y = 0.18; g.add(capa);
+  const pag = caixa(1.5, 0.3, 2.1, "#FFF8E7"); pag.position.set(0.06, 0.18, 0); g.add(pag);
+  if (o.titulo) { const tt = placaTexto(o.titulo, { tam: 0.5 }); tt.position.set(0, 0.9, 0); g.add(tt); }
+  return g;
+}
+function navio(o) {
+  const g = new THREE.Group();
+  const casco = caixa(5, 1, 1.6, cor(o.cor || "#3D405B")); casco.position.y = 0.5; g.add(casco);
+  const cab = caixa(1.8, 1, 1.2, "#F1FAEE"); cab.position.set(-0.6, 1.5, 0); g.add(cab);
+  const ch = cilindro(0.3, 0.3, 1.2, "#E63946", 8); ch.position.set(0.6, 1.9, 0); g.add(ch);
+  return g;
+}
+function barra(o) {
+  const g = new THREE.Group();
+  const b = caixa(o.largura || 1.4, 1, o.largura || 1.4, cor(o.cor || "#3A86FF")); b.position.y = 0.5; g.add(b);
+  g.userData.escalavel = b; return g;
+}
+function moeda(o) {
+  const g = new THREE.Group();
+  const m = cilindro(0.9, 0.9, 0.2, cor(o.cor || "dourado"), 18); m.rotation.x = Math.PI / 2; m.position.y = 1; g.add(m);
+  const s = placaTexto(o.simbolo || "$", { cor: "#7a5c00", tam: 0.9, borda: "#ffe58f" }); s.position.set(0, 1, 0.2); g.add(s);
+  return g;
+}
+function lousa(o) {
+  const g = new THREE.Group();
+  const q = caixa(5, 3, 0.15, "#2F3E46"); q.position.y = 3; g.add(q);
+  const m = caixa(5.3, 3.3, 0.1, "#8B5A2B"); m.position.set(0, 3, -0.08); g.add(m);
+  [-2, 2].forEach(x => { const p = cilindro(0.08, 0.08, 1.6, "#8B5A2B", 6); p.position.set(x, 0.8, 0); g.add(p); });
+  return g;
+}
+function texto(o) {
+  const g = new THREE.Group();
+  const sp = placaTexto(o.texto ?? "", { cor: o.cor || "#ffffff", fundo: o.fundo || null, tam: o.tam || 1.2 });
+  g.add(sp); g.userData.sprite = sp; g.userData.textoAtual = String(o.texto ?? "");
+  return g;
+}
+const CRIADORES = { boneco, predio, pilha_moedas: pilha, seta, arvore, casa, saco_dinheiro: saco, livro, navio, barra, moeda, lousa,
+  texto, numero: texto,
+  cubo: o => { const g = new THREE.Group(); const t = o.tam || [1, 1, 1]; const m = caixa(t[0], t[1], t[2], cor(o.cor)); m.position.y = t[1] / 2; g.add(m); return g; },
+  esfera: o => { const g = new THREE.Group(); const m = esfera((o.tam || 1) / 2, cor(o.cor), 14); m.position.y = (o.tam || 1) / 2; g.add(m); return g; },
+  cilindro: o => { const g = new THREE.Group(); const t = o.tam || [1, 1]; const m = cilindro(t[0] / 2, t[0] / 2, t[1], cor(o.cor), 14); m.position.y = t[1] / 2; g.add(m); return g; },
+};
+function criar(o) { return (CRIADORES[o.tipo] || CRIADORES.cubo)(o); }
+for (let i = 0; i < (cen.arvores || 0); i++) {
+  const t = criar({ tipo: "arvore" }); const a = rnd() * Math.PI * 2, r = 9 + rnd() * 8;
+  t.position.set(Math.cos(a) * r, 0, Math.sin(a) * r - 4); cena.add(t);
+}
+
+// ---------------------------------------------------------------- objetos do roteiro
+const objs = {};
+const naTela = o => (o.tipo === "texto" || o.tipo === "numero") && (o.tela || (o.pos && o.pos.length === 2));
+for (const o of roteiro.objetos || []) {
+  const g = criar(o);
+  g.userData.def = o;
+  g.userData.tela = naTela(o);
+  (g.userData.tela ? hud : cena).add(g);
+  objs[o.id] = g;
+}
+// partículas para "explodir"
+const particulas = Array.from({ length: 40 }, () => { const p = caixa(0.25, 0.25, 0.25, "#ffd166"); p.visible = false; cena.add(p); return p; });
+
+// ---------------------------------------------------------------- linha do tempo
+const ease = {
+  linear: p => p,
+  suave: p => p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2,
+  saida: p => 1 - Math.pow(1 - p, 3),
+  pulo: p => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(p - 1, 3) + c1 * Math.pow(p - 1, 2); },
+};
+const lerp = (a, b, p) => a + (b - a) * p;
+const lerp3 = (a, b, p) => [0, 1, 2].map(i => lerp(a[i], b[i], p));
+const formatar = (v, o) => {
+  const casas = o.casas ?? 0;
+  const s = Number(v).toLocaleString("pt-BR", { minimumFractionDigits: casas, maximumFractionDigits: casas });
+  return `${o.prefixo || ""}${s}${o.sufixo || ""}`;
+};
+const acoes = (roteiro.acoes || []).slice().sort((a, b) => a.t - b.t);
+const DUR_PADRAO = { aparecer: 0.45, sumir: 0.35, mover: 1.0, crescer: 1.0, escalar: 0.6, contar: 1.5, pular: 0.6, girar: 0.8,
+  tremer: 0.45, camera: 1.2, acenar: 1.2, explodir: 0.9, texto: 0.01, cor: 0.4, olhar: 0.5 };
+
+let ultimoTexto = {};
+window.quadro = function (t) {
+  // estado inicial
+  const st = {};
+  for (const [id, g] of Object.entries(objs)) {
+    const o = g.userData.def;
+    st[id] = { pos: o.pos || [0, 0, 0], esc: o.escala ?? 1, rot: (o.rot || 0) * Math.PI / 180, vis: !o.oculto, ap: o.oculto ? 0 : 1,
+      altura: o.altura ?? (o.tipo === "pilha_moedas" ? 0 : 6), valor: o.valor ?? 0, texto: o.texto ?? "", pulo: 0, giro: 0, braco: 0, cor: null, expl: -1 };
+  }
+  const cam0 = roteiro.camera || {};
+  let cam = { pos: cam0.pos || [0, 5.5, 17], olha: cam0.olha || [0, 3, 0] }, tremor = 0;
+  for (const a of acoes) {
+    if (a.t > t) break;
+    const d = a.dur ?? DUR_PADRAO[a.acao] ?? 0.5, p = Math.min(1, (t - a.t) / Math.max(0.001, d));
+    const s = st[a.alvo];
+    switch (a.acao) {
+      case "aparecer": if (s) { s.vis = true; s.ap = ease.pulo(p); } break;
+      case "sumir": if (s) { s.ap = 1 - ease.saida(p); if (p >= 1) s.vis = false; } break;
+      case "mover": if (s) s.pos = lerp3(s.pos, a.para, ease.suave(p)); break;
+      case "escalar": if (s) s.esc = lerp(s.esc, a.para, ease.pulo(p)); break;
+      case "crescer": if (s) s.altura = lerp(s.altura, a.para, ease.saida(p)); break;
+      case "contar": if (s) s.valor = lerp(s.valor, a.para, ease.saida(p)); break;
+      case "texto": if (s) s.texto = a.texto; break;
+      case "cor": if (s) s.cor = a.cor; break;
+      case "pular": if (s) s.pulo = Math.sin(Math.PI * p) * (a.altura || 1.2); break;
+      case "girar": if (s) s.giro = (a.voltas || 1) * Math.PI * 2 * ease.suave(p); break;
+      case "olhar": if (s) s.rot = lerp(s.rot, (a.para || 0) * Math.PI / 180, ease.suave(p)); break;
+      case "acenar": if (s) s.braco = p < 1 ? Math.sin(p * Math.PI * 4) : 0; break;
+      case "explodir": if (s) { s.expl = p; if (p > 0.05) s.vis = false; } break;
+      case "tremer": if (p < 1) tremor = (a.forca || 0.35) * (1 - p); break;
+      case "camera": cam = { pos: lerp3(cam.pos, a.pos || cam.pos, ease.suave(p)), olha: lerp3(cam.olha, a.olha || cam.olha, ease.suave(p)) }; break;
+    }
+  }
+  // aplica
+  particulas.forEach(q => (q.visible = false));
+  let np = 0;
+  for (const [id, g] of Object.entries(objs)) {
+    const s = st[id], o = g.userData.def;
+    g.visible = s.vis && s.ap > 0.001;
+    const e = Math.max(0.0001, s.esc * s.ap);
+    if (g.userData.tela) {
+      const k = H * 0.07;
+      g.position.set(s.pos[0] * W / 2, s.pos[1] * H / 2 + s.pulo * k, 0);
+      g.scale.set(e * k, e * k, 1);
+    } else {
+      g.position.set(s.pos[0], s.pos[1] + s.pulo, s.pos[2]);
+      g.scale.set(e, e, e);
+    }
+    g.rotation.y = s.rot + s.giro;
+    if (g.userData.escalavel) { g.userData.escalavel.scale.y = Math.max(0.01, s.altura); g.userData.escalavel.position.y = Math.max(0.01, s.altura) / 2; }
+    if (g.userData.discos) { const n = g.userData.discos.length, alvo = Math.round(s.altura); g.userData.discos.forEach((dd, i) => (dd.visible = i < Math.min(n, alvo))); }
+    if (g.userData.bracos) {
+      g.userData.bracos[1].rotation.z = s.braco ? -2.4 + s.braco * 0.4 : 0.08;
+      g.userData.bracos[0].rotation.z = -0.08;
+      g.userData.cabeca.position.y = 2.75 + Math.sin(t * 9 + id.length) * 0.02 * (o.fala ? 1 : 0);
+    }
+    if (s.cor && g.userData.def.tipo !== "texto") g.traverse(m => { if (m.isMesh && m.material.color && !m.userData.fixo) m.material.color.set(s.cor); });
+    if (g.userData.sprite) {
+      const txt = o.tipo === "numero" ? formatar(s.valor, o) : String(s.texto);
+      if (ultimoTexto[id] !== txt) {
+        g.remove(g.userData.sprite);
+        const sp = placaTexto(txt, { cor: o.cor || "#ffffff", fundo: o.fundo || null, tam: o.tam || 1.2 });
+        if (g.userData.tela) {   // não deixa passar da largura da tela
+          const k = H * 0.07, maxW = W * 0.92 / k / Math.max(0.01, e);
+          if (sp.scale.x > maxW) sp.scale.multiplyScalar(maxW / sp.scale.x);
+        }
+        g.add(sp); g.userData.sprite = sp; ultimoTexto[id] = txt;
+      }
+    }
+    if (s.expl >= 0 && s.expl < 1) {
+      for (let k = 0; k < 14 && np < particulas.length; k++, np++) {
+        const q = particulas[np], ang = k / 14 * Math.PI * 2;
+        q.visible = true;
+        q.position.set(s.pos[0] + Math.cos(ang) * s.expl * 4, s.pos[1] + 1 + Math.sin(ang * 3) * s.expl * 3 - s.expl * s.expl * 2, s.pos[2] + Math.sin(ang) * s.expl * 4);
+        q.material.color.set(cor(o.cor || "#ffd166"));
+        q.scale.setScalar(1 - s.expl);
+      }
+    }
+  }
+  const tx = tremor ? Math.sin(t * 90) * tremor : 0, ty = tremor ? Math.cos(t * 77) * tremor : 0;
+  camera.position.set(cam.pos[0] + tx, cam.pos[1] + ty, cam.pos[2]);
+  camera.lookAt(cam.olha[0] + tx * 0.5, cam.olha[1] + ty * 0.5, cam.olha[2]);
+  renderer.clear();
+  renderer.render(cena, camera);
+  renderer.clearDepth();
+  renderer.render(hud, hudCam);
+  return true;
+};
+window.pronto = true;
+window.quadro(0);
+</script>
+</body>
+</html>

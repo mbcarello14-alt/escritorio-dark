@@ -34,6 +34,12 @@ def gerar() -> dict:
         for quem in QUEM.get(etapa, []):
             quem = quem.format(canal=e.get("canal", ""))
             ativos.setdefault(quem, []).append(f"{E.nome_canal(e['canal'])}: {e.get('titulo') or e.get('rotulo')}")
+    for arq in sorted((RAIZ / "canais").glob("*/reels/*/estado.json")):
+        r = json.loads(arq.read_text(encoding="utf-8"))
+        quem = {"roteiro_reel": f"reels_{r.get('canal')}", "ajuste_reel": f"reels_{r.get('canal')}",
+                "renderizando_reel": f"reels_{r.get('canal')}", "aguardando_aprovacao_reel": "miguel"}.get(r.get("etapa"))
+        if quem:
+            ativos.setdefault(quem, []).append(f"Reel {E.nome_canal(r.get('canal'))}: {r.get('titulo') or 'criando'}")
     canais = []
     for c in E.CANAIS:
         m = json.loads((RAIZ / "canais" / c / "metricas-canal.json").read_text()) \
