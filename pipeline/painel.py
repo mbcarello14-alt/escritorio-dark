@@ -9,9 +9,9 @@ from .comum import RAIZ
 
 # quem está trabalhando em cada etapa
 QUEM = {
-    "pauta": ["pesquisador"],
-    "roteiro": ["pesquisador", "roteirista", "checador", "guardiao"],
-    "ajuste": ["roteirista", "checador"],
+    "pauta": ["pesquisador_{canal}"],
+    "roteiro": ["pesquisador_{canal}", "roteirista_{canal}", "checador", "guardiao"],
+    "ajuste": ["roteirista_{canal}", "checador"],
     "producao_json": ["diretor_visual", "seo", "thumbnail"],
     "renderizando": ["narrador", "ilustrador", "editor", "clipador"],
     "aguardando_escolha": ["miguel"],
@@ -32,6 +32,7 @@ def gerar() -> dict:
             item["audios"] = [len(E.blocos_com_audio(pasta)), E.total_blocos(pasta)]
         videos.append(item)
         for quem in QUEM.get(etapa, []):
+            quem = quem.format(canal=e.get("canal", ""))
             ativos.setdefault(quem, []).append(f"{E.nome_canal(e['canal'])}: {e.get('titulo') or e.get('rotulo')}")
     canais = []
     for c in E.CANAIS:
