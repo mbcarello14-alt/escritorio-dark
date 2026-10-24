@@ -1,0 +1,65 @@
+00:44:49 INFO ilustrações: higgsfield desligado (sem chave)
+00:44:49 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+00:44:50 INFO Processing audio with duration 00:43.687
+[0;93m2026-10-24 00:44:50.247166500 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+00:44:50 INFO VAD filter removed 00:00.048 of audio
+00:44:57 INFO Processing audio with duration 01:15.287
+00:44:58 INFO VAD filter removed 00:00.048 of audio
+00:45:11 INFO Processing audio with duration 01:23.687
+00:45:11 INFO VAD filter removed 00:00.000 of audio
+00:45:27 INFO Processing audio with duration 01:20.687
+00:45:27 INFO VAD filter removed 00:00.000 of audio
+00:45:41 INFO Processing audio with duration 01:19.287
+00:45:41 INFO VAD filter removed 00:00.000 of audio
+00:45:55 INFO Processing audio with duration 01:10.427
+00:45:55 INFO VAD filter removed 00:00.000 of audio
+00:46:09 INFO Processing audio with duration 01:22.247
+00:46:09 INFO VAD filter removed 00:00.000 of audio
+00:46:23 INFO Processing audio with duration 00:56.047
+00:46:24 INFO VAD filter removed 00:00.272 of audio
+00:46:33 INFO gerando 58 ilustrações…
+00:48:11 WARNING Flux klein falhou (3030: Your output has been flagged. Please choose another prompt / input image combination) — usando o próximo modelo
+00:48:31 INFO ilustrações prontas: 58 geradas (58 pedidas)
+00:48:32 INFO Processing audio with duration 00:43.375
+00:48:32 INFO VAD filter removed 00:00.000 of audio
+00:48:40 INFO bloco 1: 43.4s, 125 palavras reconhecidas
+00:48:41 INFO imagem 'Wall Street crash 1929 crowd photograph New York Stock Exchange' ← wikimedia
+00:48:49 INFO cena 1 pronta (8.1s, total 8s)
+00:48:53 INFO cena 2 pronta (6.6s, total 15s)
+00:48:57 INFO cena 3 pronta (6.6s, total 21s)
+00:49:01 INFO cena 4 pronta (6.5s, total 28s)
+00:49:04 INFO cena 5 pronta (4.7s, total 32s)
+00:49:06 INFO cena 6 pronta (4.1s, total 37s)
+00:49:11 INFO cena 7 pronta (6.8s, total 43s)
+00:49:12 INFO Processing audio with duration 01:14.996
+00:49:12 INFO VAD filter removed 00:00.000 of audio
+00:49:26 INFO bloco 2: 75.0s, 209 palavras reconhecidas
+00:49:26 WARNING nenhuma imagem livre para 'coffee plantation Brazil early 20th century photograph' — usando cartão
+00:49:29 INFO cena 8 pronta (5.6s, total 49s)
+00:49:33 INFO cena 9 pronta (6.4s, total 55s)
+00:49:39 INFO cena 10 pronta (9.7s, total 65s)
+00:49:43 INFO cena 11 pronta (6.6s, total 72s)
+00:49:47 INFO cena 12 pronta (6.2s, total 78s)
+00:49:48 INFO imagem 'Afonso Pena president Brazil portrait photograph' ← wikimedia
+00:49:54 INFO cena 13 pronta (5.1s, total 83s)
+00:49:58 INFO cena 14 pronta (7.1s, total 90s)
+00:50:01 INFO cena 15 pronta (3.7s, total 94s)
+00:50:06 INFO cena 16 pronta (8.1s, total 102s)
+00:50:07 WARNING nenhuma imagem livre para 'coffee sacks Santos port 1920s photograph' — usando cartão
+00:50:11 INFO cena 17 pronta (9.2s, total 111s)
+00:50:14 INFO cena 18 pronta (7.3s, total 118s)
+00:50:16 INFO Processing audio with duration 01:23.687
+00:50:16 INFO VAD filter removed 00:00.000 of audio
+00:50:32 INFO bloco 3: 83.7s, 240 palavras reconhecidas
+00:50:33 WARNING nenhuma imagem livre para 'Brazilian mil-réis banknote 1920s' — usando cartão
+00:50:43 INFO cena 19 pronta (23.5s, total 142s)
+00:50:49 INFO cena 20 pronta (9.3s, total 151s)
+00:50:52 INFO cena 21 pronta (5.1s, total 156s)
+00:50:56 INFO cena 22 pronta (7.2s, total 164s)
+00:50:59 INFO cena 23 pronta (5.3s, total 169s)
+00:51:04 INFO cena 24 pronta (8.5s, total 177s)
+00:51:07 INFO cena 25 pronta (4.9s, total 182s)
+00:51:08 WARNING nenhuma imagem livre para 'coffee harvest Brazil 1920s workers sacks photograph' — usando cartão
+00:51:11 INFO cena 26 pronta (7.5s, total 190s)
+00:51:16 INFO cena 27 pronta (8.0s, total 198s)
+00:51:19 INFO cena 28 pronta (4.3s
