@@ -12,7 +12,7 @@
 - **Ângulo escolhido:** A — a história contada pelo dinheiro (já está no banner; o Miguel pode trocar)
 
 ## Público
-- **Quem assiste:** adultos de 18 a 45 anos, curiosos por história; também vestibulandos e universitários.
+- **Quem assiste:** adultos de 18 a 45 anos, curiosos por história e economia, que assistem por prazer (não para estudar).
 - **Por que assiste:** entretenimento inteligente, entender o presente, maratonar antes de dormir.
 
 ## Formato
@@ -39,7 +39,7 @@
 
 ## Monetização
 - Anúncios (meta principal: horas assistidas). Afiliados de livros de história na descrição desde o vídeo 1.
-- Promoção cruzada natural com o canal de vestibular (temas de História que caem no ENEM).
 
 ## Proibido
+- Falar de ENEM, vestibular, prova, revisão ou "isso cai": isso é do Mapeado. Os canais não se misturam.
 - Teorias da conspiração e pseudo-história apresentadas como fato (ex.: "alienígenas construíram as pirâmides").

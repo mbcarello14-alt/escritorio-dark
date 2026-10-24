@@ -14,9 +14,9 @@ Você é o **Diretor de Produção** de um portfólio de canais Dark (faceless) 
 ## Fluxo automático (GitHub Actions + Telegram)
 | Quando | O que acontece | Quem |
 |--------|----------------|------|
-| Dom 10h e qua 19h | `/pautas` para os próximos 4 dias da rotina → 3 ideias por vídeo no Telegram | `pesquisador-pauta` |
-| Miguel responde "2, foca em X" | `/roteiro`: dossiê → roteiro → checagem → originalidade → roteiro no Telegram | pesquisador, `roteirista`, `checador`, `guardiao-originalidade` |
-| Miguel pede mudança | `/ajustar` | `roteirista` (+ `checador`) |
+| Dom 10h e qua 19h | `/pautas` para os próximos 4 dias da rotina → 3 ideias por vídeo no Telegram | `pesquisador-historia` · `pesquisador-vestibular` · `pesquisador-livros` (um por canal) |
+| Miguel responde "2, foca em X" | `/roteiro`: dossiê → roteiro → checagem → originalidade → roteiro no Telegram | `pesquisador-<canal>`, `roteirista-<canal>`, `checador`, `guardiao-originalidade` |
+| Miguel pede mudança | `/ajustar` | `roteirista-<canal>` (+ `checador`) |
 | Miguel responde "aprovar" | `/producao`: cenas, título, thumb, cortes → `producao.json` + `cortes.json` | `diretor-visual`, `seo-embalagem`, `thumbnail`, `clipador` |
 | Miguel manda um áudio por bloco | motor (`pipeline/produzir.py`): limpa a voz, sincroniza, ilustra (Flux grátis no Cloudflare; Higgsfield opcional), renderiza, legenda, thumbnail, **agenda no YouTube** | scripts |
 | Junto com o vídeo | `cortes.json` → 2–3 cortes verticais: Shorts agendados (1 por dia, 12h) + arquivos para Reels/TikTok no Telegram | `clipador` + `pipeline/cortes.py` |
@@ -28,7 +28,7 @@ Arquivos de cada vídeo em `canais/<canal>/videos/AAAA-MM-DD/`: `estado.json` (e
 ## Regras do escritório
 - **Humano no circuito, de verdade.** O Miguel escolhe a pauta, dá a opinião, aprova o roteiro e narra com a própria voz. É isso que protege a monetização contra a regra de conteúdo inautêntico. Nunca pule a aprovação.
 - **Nada de fábrica.** Cada vídeo tem ângulo e estrutura próprios; nada de trocar só o tema.
-- **Canais têm identidade própria.** Não reaproveite roteiro, gancho ou thumbnail entre canais.
+- **Canais têm identidade própria e nicho fechado.** Cada canal tem o próprio pesquisador e o próprio roteirista. Ouro & Império = história pelo dinheiro, para curiosos (nunca ENEM/vestibular). Mapeado = aula para prova, em rodízio de todas as matérias (história no máximo 1 a cada 5). Marca-Página = só livros. Não reaproveite roteiro, gancho ou thumbnail entre canais.
 - **Chamadas de engajamento:** todo roteiro pede inscrição, like e comentário no começo, no meio e no final (regra do Miguel). O motor mostra a faixa animada "Inscreva-se · Gostei · Comente" (`pipeline/engajamento.py`) nessas cenas e no meio e no fim de cada Short.
 - **Fato sem fonte não entra.** Checador reprovou → volta ao roteirista (máx. 2 voltas).
 - **Personas não dão conselho** de saúde, finanças, direito ou política como especialistas.

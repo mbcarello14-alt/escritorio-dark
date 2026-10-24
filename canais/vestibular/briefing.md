@@ -7,9 +7,11 @@
 - **Promessa do canal (sugestão):** "O conteúdo que mais cai, em um mapa mental que você entende em 10 minutos e revisa em 1."
 - **Ângulo próprio:** o mapa mental se constrói na tela junto com a explicação e termina com **1 questão real de prova anterior resolvida usando o mapa**. Isso é valor que o aluno não acha num resumo de texto.
 
-## Foco inicial (recomendado)
-"Todas as matérias" de uma vez dilui o canal. Comece com **Humanas (História, Geografia, Sociologia e Filosofia)**, que conversam com o canal de História e são fáceis de ilustrar. Depois de ~20 vídeos, expanda para Biologia e Química e, por último, Exatas (que exigem resolução passo a passo e mais produção).
-- **Matérias ativas agora:** _(Miguel confirma)_
+## Matérias (decisão do Miguel, 23/10)
+O canal cobre **todas as matérias do ENEM e dos vestibulares**, em rodízio: História, Geografia, Biologia, Química, Física, Matemática, Língua Portuguesa/Literatura, Sociologia, Filosofia e Redação.
+- Nunca duas pautas seguidas da mesma matéria.
+- **História no máximo 1 em cada 5 vídeos**: o Ouro & Império já cobre história, e os canais não podem se misturar.
+- Exatas também entram, com o raciocínio explicado passo a passo e o mapa organizando fórmulas e conceitos.
 
 ## Público
 - **Quem assiste:** estudantes de 15 a 19 anos (ensino médio e cursinho), também quem vai prestar concurso.
