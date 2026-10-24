@@ -1,0 +1,80 @@
+{
+  "canal": "historia",
+  "titulo": "O rei que gastou tanto ouro que o ouro ficou barato",
+  "descricao": "Em 1324, Mansa Musa, rei do Mali, passou pelo Cairo a caminho de Meca e distribuiu tanto ouro que, segundo o cronista al-Umari, o metal perdeu valor no Egito por uns doze anos.",
+  "hashtags": ["#historia", "#mansamusa", "#economia"],
+  "legenda_reels": "Em 1324, um rei africano passou pelo Cairo distribuindo ouro para toda a corte. Resultado: o ouro ficou mais barato no Egito por uns doze anos. Você gastaria assim? Comenta MALI. #historia #mansamusa #economia #ouro",
+  "isca": "Comenta MALI",
+  "cenario": {"ceu": "#f6c177", "chao": "#e2b46b", "cidade": true, "arvores": 2, "nuvens": false, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "rei", "tipo": "boneco", "pos": [-1.8, 0, 0.5], "cor": "#f2b705", "pele": "#6b4226", "cabelo": "#1a1a1a", "calca": "#7a4b12", "chapeu": "cartola", "fala": true},
+    {"id": "emir", "tipo": "boneco", "pos": [2.0, 0, 0.5], "rot": -20, "cor": "#2a9d8f", "pele": "#c68e5a", "cabelo": "#2b1b10", "calca": "#264653", "oculto": true},
+    {"id": "pilha", "tipo": "pilha_moedas", "pos": [0.3, 0, -1.5], "altura": 4, "max_moedas": 60, "cor": "dourado"},
+    {"id": "saco", "tipo": "saco_dinheiro", "pos": [-0.8, 0, 1.2], "cor": "dourado", "simbolo": "$", "oculto": true},
+    {"id": "manchete", "tipo": "texto", "texto": "O OURO\nFICOU BARATO", "pos": [0, 0.72], "tam": 1.2, "cor": "#ffffff", "fundo": "#9b2226", "oculto": true},
+    {"id": "preco", "tipo": "numero", "valor": 25, "prefixo": "1 ouro = ", "sufixo": " prata", "casas": 0, "cor": "#ffd166", "pos": [0, 0.6], "tam": 1.4, "oculto": true},
+    {"id": "anos", "tipo": "texto", "texto": "≈ 12 ANOS", "pos": [0, 0.8], "tam": 1.1, "cor": "#1a1a1a", "fundo": "#ffd166", "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Um rei gastou tanto ouro numa viagem que derrubou o preço do ouro no Egito.",
+      "acoes": [
+        {"t": 0, "alvo": "manchete", "acao": "aparecer", "som": "pop"},
+        {"t": 0.3, "alvo": "pilha", "acao": "crescer", "para": 40, "dur": 2.2, "som": "caixa"},
+        {"t": 2.6, "acao": "tremer", "forca": 0.3, "som": "boom"},
+        {"t": 2.7, "alvo": "pilha", "acao": "crescer", "para": 15, "dur": 1.2},
+        {"t": 4.0, "acao": "camera", "pos": [-1, 4, 12], "olha": [-0.5, 2.8, 0], "dur": 1.5}
+      ]
+    },
+    {
+      "texto": "Era Mansa Musa, rei do Mali, indo para Meca em mil trezentos e vinte e quatro.",
+      "acoes": [
+        {"t": 0, "alvo": "manchete", "acao": "texto", "texto": "MALI → MECA\n1324", "som": "whoosh"},
+        {"t": 0.4, "alvo": "rei", "acao": "acenar"},
+        {"t": 2.0, "alvo": "rei", "acao": "mover", "para": [-0.9, 0, 0.5], "dur": 1.5, "som": "whoosh"},
+        {"t": 3.8, "acao": "camera", "pos": [0, 5, 15], "olha": [0, 3.2, 0], "dur": 1.2}
+      ]
+    },
+    {
+      "texto": "No Cairo, ele deu ouro para cada autoridade que encontrava.",
+      "acoes": [
+        {"t": 0, "alvo": "manchete", "acao": "texto", "texto": "CAIRO"},
+        {"t": 0.2, "alvo": "emir", "acao": "aparecer", "som": "pop"},
+        {"t": 0.8, "alvo": "saco", "acao": "aparecer", "som": "caixa"},
+        {"t": 1.6, "alvo": "saco", "acao": "mover", "para": [1.1, 0, 1.2], "dur": 0.8, "som": "whoosh"},
+        {"t": 2.5, "alvo": "emir", "acao": "pular", "altura": 1},
+        {"t": 2.6, "alvo": "pilha", "acao": "crescer", "para": 60, "dur": 1.4, "som": "caixa"}
+      ]
+    },
+    {
+      "texto": "A moeda de ouro, que valia vinte e cinco de prata, caiu para vinte e duas.",
+      "acoes": [
+        {"t": 0, "alvo": "manchete", "acao": "sumir"},
+        {"t": 0.1, "alvo": "preco", "acao": "aparecer", "som": "ding"},
+        {"t": 1.0, "acao": "camera", "pos": [0.5, 7, 17], "olha": [0, 4, 0], "dur": 1.5},
+        {"t": 2.4, "alvo": "preco", "acao": "contar", "para": 22, "dur": 1.8, "som": "tic"},
+        {"t": 4.2, "alvo": "preco", "acao": "cor", "cor": "#e63946"},
+        {"t": 4.2, "acao": "tremer", "forca": 0.5, "som": "boom"}
+      ]
+    },
+    {
+      "texto": "Segundo um cronista da época, ficou assim por uns doze anos.",
+      "acoes": [
+        {"t": 0, "alvo": "anos", "acao": "aparecer", "som": "ding"},
+        {"t": 1.2, "alvo": "rei", "acao": "girar", "voltas": 1, "som": "whoosh"},
+        {"t": 2.4, "alvo": "emir", "acao": "olhar", "para": -60},
+        {"t": 3.0, "acao": "camera", "pos": [0, 5, 14], "olha": [0, 3.2, 0], "dur": 1.2}
+      ]
+    },
+    {
+      "texto": "Você gastaria assim? Comenta MALI.",
+      "acoes": [
+        {"t": 0, "alvo": "preco", "acao": "sumir"},
+        {"t": 0, "alvo": "anos", "acao": "sumir"},
+        {"t": 0.4, "alvo": "rei", "acao": "pular", "altura": 1.2},
+        {"t": 1.0, "alvo": "emir", "acao": "acenar"}
+      ]
+    }
+  ]
+}

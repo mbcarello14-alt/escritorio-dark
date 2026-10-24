@@ -1,0 +1,12 @@
+06:17:46 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+06:17:56 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+06:17:57 INFO Processing audio with duration 00:25.240
+[0;93m2026-10-24 06:17:57.098632970 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+06:17:57 INFO VAD filter removed 00:00.000 of audio
+06:18:06 INFO Processing audio with duration 00:25.240
+06:18:06 INFO VAD filter removed 00:00.000 of audio
+06:18:16 INFO Processing audio with duration 00:25.086
+06:18:16 INFO VAD filter removed 00:00.000 of audio
+06:18:25 INFO bloco 1: 25.1s, 67 palavras reconhecidas
+06:25:48 INFO render 3D: pronto: 795 quadros em 439s
+06:26:31 INFO reel pronto: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-10-24/saida/reel.mp4 (26.5s)

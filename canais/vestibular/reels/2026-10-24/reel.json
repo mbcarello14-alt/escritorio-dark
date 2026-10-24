@@ -1,0 +1,89 @@
+{
+  "canal": "vestibular",
+  "titulo": "Seu DNA tem 2 metros e cabe num núcleo minúsculo",
+  "descricao": "Como quase dois metros de DNA cabem num núcleo mais de cem mil vezes menor: histonas, cromatina e cromossomo, e a pegadinha que mais cai na prova.",
+  "hashtags": ["#enem", "#biologia", "#vestibular"],
+  "legenda_reels": "Quase 2 metros de DNA em cada célula sua, dentro de um núcleo de uns 10 micrômetros. O segredo são as histonas. E a pegadinha: cromatina e cromossomo são a mesma molécula. Comenta MAPA que a gente faz o mapa mental completo. #enem #biologia #vestibular #citologia",
+  "isca": "Comenta MAPA",
+  "cenario": {"ceu": "#bfe6ff", "chao": "#8fd17a", "cidade": false, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "lousa", "tipo": "lousa", "pos": [0.8, 0, -3]},
+    {"id": "prof", "tipo": "boneco", "pos": [-2, 0, 0.5], "rot": 30, "cor": "#2f6fd6", "pele": "#e8b48a", "cabelo": "#3b2a1a", "calca": "#2b2b3a", "fala": true},
+    {"id": "fio", "tipo": "cubo", "pos": [0, 3.9, 1], "tam": [5.2, 0.2, 0.2], "cor": "#e84a5f", "oculto": true},
+    {"id": "nucleo", "tipo": "esfera", "pos": [1.4, 1.4, 1], "tam": 1.1, "cor": "#7b5cd6", "oculto": true},
+    {"id": "carretel", "tipo": "cilindro", "pos": [0.8, 1.2, 1], "tam": [0.9, 1.3], "cor": "#f2c14e", "oculto": true},
+    {"id": "metros", "tipo": "numero", "valor": 0, "prefixo": "≈ ", "sufixo": " m", "casas": 0, "cor": "#ffffff", "tam": 1.8, "pos": [0, 0.72], "oculto": true},
+    {"id": "quadro", "tipo": "texto", "texto": "100.000x MENOR", "cor": "#ffffff", "fundo": "#1f3b2c", "tam": 0.9, "pos": [0, 0.68], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Tem quase dois metros de DNA dentro de cada célula sua.",
+      "acoes": [
+        {"t": 0, "alvo": "fio", "acao": "aparecer", "som": "pop"},
+        {"t": 0.2, "alvo": "metros", "acao": "aparecer"},
+        {"t": 0.3, "alvo": "metros", "acao": "contar", "para": 2, "dur": 1.4, "som": "tic"},
+        {"t": 1.4, "alvo": "prof", "acao": "olhar", "para": 50},
+        {"t": 2.0, "alvo": "prof", "acao": "acenar"},
+        {"t": 2.6, "alvo": "metros", "acao": "escalar", "para": 1.3}
+      ]
+    },
+    {
+      "texto": "E cabe num núcleo mais de cem mil vezes menor.",
+      "acoes": [
+        {"t": 0, "alvo": "metros", "acao": "sumir"},
+        {"t": 0, "alvo": "nucleo", "acao": "aparecer", "som": "pop"},
+        {"t": 0.6, "alvo": "fio", "acao": "mover", "para": [1.4, 1.9, 1], "dur": 0.6, "som": "whoosh"},
+        {"t": 0.7, "alvo": "fio", "acao": "escalar", "para": 0.08, "dur": 0.5},
+        {"t": 1.3, "alvo": "fio", "acao": "sumir"},
+        {"t": 1.5, "alvo": "quadro", "acao": "aparecer", "som": "boom"},
+        {"t": 1.5, "acao": "tremer", "forca": 0.4},
+        {"t": 2.2, "acao": "camera", "pos": [0, 4, 12], "olha": [0, 2.4, 0], "dur": 1.0}
+      ]
+    },
+    {
+      "texto": "O truque: o DNA se enrola em proteínas chamadas histonas, como linha no carretel.",
+      "acoes": [
+        {"t": 0, "alvo": "quadro", "acao": "texto", "texto": "O TRUQUE?"},
+        {"t": 0.4, "alvo": "nucleo", "acao": "mover", "para": [2.1, 3.2, -0.5], "dur": 0.6},
+        {"t": 0.5, "alvo": "nucleo", "acao": "escalar", "para": 0.6, "dur": 0.6},
+        {"t": 1.2, "alvo": "carretel", "acao": "aparecer", "som": "pop"},
+        {"t": 1.6, "alvo": "quadro", "acao": "texto", "texto": "DNA + HISTONAS"},
+        {"t": 2.2, "alvo": "carretel", "acao": "pular", "altura": 0.6, "som": "tic"},
+        {"t": 3.0, "alvo": "carretel", "acao": "escalar", "para": 1.25},
+        {"t": 3.4, "alvo": "prof", "acao": "acenar"}
+      ]
+    },
+    {
+      "texto": "A pegadinha é: cromatina e cromossomo são a mesma molécula. Só muda o quanto está enrolada.",
+      "acoes": [
+        {"t": 0, "alvo": "quadro", "acao": "texto", "texto": "A PEGADINHA", "som": "tic"},
+        {"t": 0.9, "alvo": "quadro", "acao": "texto", "texto": "CROMATINA = CROMOSSOMO?"},
+        {"t": 1.2, "alvo": "prof", "acao": "pular", "altura": 0.6},
+        {"t": 2.4, "alvo": "quadro", "acao": "texto", "texto": "MESMA MOLÉCULA!", "som": "ding"},
+        {"t": 2.6, "alvo": "carretel", "acao": "cor", "cor": "#e84a5f"},
+        {"t": 3.6, "acao": "camera", "pos": [0.5, 3.6, 10], "olha": [0.5, 1.8, 0], "dur": 1.2}
+      ]
+    },
+    {
+      "texto": "Na divisão celular, ela se condensa ao máximo e vira cromossomo.",
+      "acoes": [
+        {"t": 0, "alvo": "quadro", "acao": "texto", "texto": "DIVISÃO CELULAR"},
+        {"t": 0.8, "alvo": "carretel", "acao": "pular", "altura": 0.8, "som": "whoosh"},
+        {"t": 2.0, "alvo": "carretel", "acao": "escalar", "para": 1.8, "som": "boom"},
+        {"t": 2.0, "acao": "tremer", "forca": 0.5},
+        {"t": 2.3, "alvo": "quadro", "acao": "texto", "texto": "= CROMOSSOMO"}
+      ]
+    },
+    {
+      "texto": "Grava assim: solta é cromatina, enrolada é cromossomo. Quer o mapa? Comenta MAPA.",
+      "acoes": [
+        {"t": 0, "alvo": "quadro", "acao": "texto", "texto": "SOLTA = CROMATINA\nENROLADA = CROMOSSOMO", "som": "ding"},
+        {"t": 0.4, "acao": "camera", "pos": [0, 5, 15], "olha": [0, 3.2, 0], "dur": 1.2},
+        {"t": 1.6, "alvo": "prof", "acao": "olhar", "para": 0},
+        {"t": 2.0, "alvo": "prof", "acao": "acenar"},
+        {"t": 2.6, "alvo": "carretel", "acao": "pular", "altura": 0.8, "som": "pop"}
+      ]
+    }
+  ]
+}
