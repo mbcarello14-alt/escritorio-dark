@@ -100,8 +100,21 @@ def sintetizar(texto: str, voz: str, tom: str, destino_wav: Path, tentativas: in
         if r.status_code != 200:
             raise RuntimeError(f"Gemini TTS {r.status_code}: {r.text[:300]}")
         seguidos_429 = 0
-        partes = r.json()["candidates"][0]["content"]["parts"]
-        dados = next(p["inlineData"] for p in partes if "inlineData" in p)
+        try:
+            cand = r.json()["candidates"][0]
+            partes = cand["content"]["parts"]
+            dados = next(p["inlineData"] for p in partes if "inlineData" in p)
+        except (KeyError, IndexError, StopIteration):
+            # resposta sem áudio (o modelo às vezes devolve vazio): tenta de novo; na 2ª falha troca de modelo
+            motivo = (r.json().get("candidates") or [{}])[0].get("finishReason", "?")
+            vazios = getattr(sintetizar, "_vazios", 0) + 1
+            sintetizar._vazios = vazios
+            log.warning("Gemini TTS devolveu resposta sem áudio (%s, %s) — tentando de novo", m, motivo)
+            if vazios % 2 == 0:
+                _esgotados.add(m)
+                modelo()
+            time.sleep(5)
+            continue
         pcm = destino_wav.with_suffix(".pcm")
         pcm.write_bytes(base64.b64decode(dados["data"]))
         taxa = 24000

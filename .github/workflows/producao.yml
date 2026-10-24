@@ -61,7 +61,7 @@ jobs:
 
       - name: Ilustrações e narração já feitas (cache)
         # se a montagem falhar e rodar de novo, reaproveita imagens e áudios (não gasta cota de novo)
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: |
             ${{ inputs.pasta }}/saida/ilustracoes
@@ -83,6 +83,15 @@ jobs:
           set -o pipefail
           [ -n "${{ inputs.voz }}" ] && export MOTOR_VOZ="${{ inputs.voz }}"
           python -m pipeline.produzir "${{ inputs.pasta }}" $extra 2>&1 | grep -v -i "key=" | tee "$LOG"
+
+      - name: Guardar ilustrações e narração para a próxima tentativa
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ${{ inputs.pasta }}/saida/ilustracoes
+            ${{ inputs.pasta }}/audio/*.wav
+          key: material-${{ inputs.pasta }}-${{ github.run_id }}
 
       - name: Guardar o vídeo (7 dias, para baixar se quiser)
         if: always()
