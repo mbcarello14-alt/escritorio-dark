@@ -58,9 +58,9 @@ apresentador:            # personagem fixo na "webcam" do canto (desenhado pelo 
   gola: terno                 # terno | moletom | cardigan
   gravata: "#8E1B1B"
 
-reels:                   # reels chamativos 3D (1 por semana, aprovados no Telegram)
+reels:                   # reels chamativos 3D (3 por semana, aprovados no Telegram)
   ligado: true
-  publicar: ["wed 20:00"]
+  publicar: ["tue 20:00", "thu 20:00", "sun 12:00"]   # 3 reels por semana
 
 youtube:
   categoria_id: "27"     # Educação

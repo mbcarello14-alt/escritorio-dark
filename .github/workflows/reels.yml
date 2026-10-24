@@ -1,8 +1,11 @@
 name: Reels chamativos
-# Sábado 10h (Brasília): cada canal ganha um reel 3D; o vídeo pronto chega no Telegram para você aprovar.
+# Sábado, segunda e quarta às 10h (Brasília): cada canal ganha um reel 3D (3 por canal por semana);
+# o vídeo pronto chega no Telegram para você aprovar.
 on:
   schedule:
     - cron: "0 13 * * 6"
+    - cron: "0 13 * * 1"
+    - cron: "0 13 * * 3"
   workflow_dispatch:
     inputs:
       acao:

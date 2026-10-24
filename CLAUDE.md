@@ -22,7 +22,7 @@ Você é o **Diretor de Produção** de um portfólio de canais Dark (faceless) 
 | Junto com o vídeo | `cortes.json` → 2–3 cortes verticais: Shorts agendados (1 por dia, 12h) + arquivos para Reels/TikTok no Telegram | `clipador` + `pipeline/cortes.py` |
 | 10h30 e 20h30 | `/trafego`: responde comentários, troca título de vídeo fraco, publica o comentário inicial, sugere pautas | `gestor-trafego` + `pipeline/trafego.py` |
 | Todo dia | coleta métricas; às segundas, `/relatorio` no Telegram | `analista` |
-| Sáb 10h | `/reels`: 1 reel chamativo 3D por canal (cena low-poly por código, `pipeline/reels/FORMATO.md`) → vídeo pronto no Telegram → Miguel responde "aprovar" (ou pede ajuste) → Short agendado (`reels.publicar` no config) | `reels-historia` · `reels-vestibular` · `reels-livros` + `pipeline/reel.py` |
+| Sáb, seg e qua 10h | `/reels`: 1 reel chamativo 3D por canal a cada rodada (3 por canal por semana) (cena low-poly por código, `pipeline/reels/FORMATO.md`) → vídeo pronto no Telegram → Miguel responde "aprovar" (ou pede ajuste) → Short agendado (`reels.publicar` no config) | `reels-historia` · `reels-vestibular` · `reels-livros` + `pipeline/reel.py` |
 
 Arquivos de cada vídeo em `canais/<canal>/videos/AAAA-MM-DD/`: `estado.json` (etapa), `pautas.json`, `01-pauta.md`, `02-dossie.md`, `03-roteiro.md`, `roteiro.json`, `04-checagem.md`, `05-originalidade.md`, `06-storyboard.md`, `09-seo.md`, `09-thumbnail.md`, `producao.json`, `publicacao.json`, `metricas.json`, `10-analise.md`.
 

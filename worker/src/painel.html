@@ -85,40 +85,49 @@ import { CSS2DRenderer, CSS2DObject } from "three/addons/renderers/CSS2DRenderer
 const CORES = { historia: "#C9A24A", vestibular: "#3B6FE0", livros: "#B23A4C" };
 const NOMES = { historia: "Ouro & Império", vestibular: "Mapeado", livros: "Marca-Página" };
 
-// ------------------------------------------------------------------ salas e equipe
-// 6 salas em 2 fileiras; posições das mesas são relativas ao centro da sala
-const SALA_W = 10, SALA_D = 7.4;
+// ------------------------------------------------------------------ planta do prédio
+// Corredor central de leste a oeste; salas dos dois lados, com porta para o corredor.
+// x0..x1 / z0..z1 são as paredes da sala; "lado" diz de que lado do corredor ela fica.
+const CORR = 1.4;                // meia largura do corredor (z de -1,4 a 1,4)
+const FUNDO = 9.6;               // profundidade das salas
 const SALAS = [
-  { id: "historia",    nome: "Sala Ouro & Império", cor: 0xC9A24A, piso: 0x2A2416, centro: [-10.6, -4.1], porta: "frente", quadro: "historia" },
-  { id: "vestibular",  nome: "Sala Mapeado",        cor: 0x3B6FE0, piso: 0x16203A, centro: [0, -4.1],     porta: "frente", quadro: "vestibular" },
-  { id: "livros",      nome: "Sala Marca-Página",   cor: 0xB23A4C, piso: 0x2C1619, centro: [10.6, -4.1],  porta: "frente", quadro: "livros" },
-  { id: "audiovisual", nome: "Sala de Audiovisual", cor: 0x8B5CF6, piso: 0x1F1830, centro: [-10.6, 4.3],  porta: "fundo" },
-  { id: "marketing",   nome: "Sala de Marketing",   cor: 0x22C55E, piso: 0x14261B, centro: [0, 4.3],      porta: "fundo" },
-  { id: "diretoria",   nome: "Diretoria",           cor: 0xE5E7EB, piso: 0x2A2622, centro: [10.6, 4.3],   porta: "fundo" },
-  { id: "reels",       nome: "Sala Reels chamativos 🎬", cor: 0xFF4D8D, piso: 0x2B1424, centro: [0, 12.5], porta: "fundo" },
-];
+  // lado norte (fundo da imagem)
+  { id: "historia",    nome: "Ouro & Império",     cor: 0xC9A24A, piso: 0x3A3020, x0: -19, x1: -10, lado: "norte", quadro: true },
+  { id: "vestibular",  nome: "Mapeado",            cor: 0x3B6FE0, piso: 0x1C2A4A, x0: -10, x1: -1,  lado: "norte", quadro: true },
+  { id: "livros",      nome: "Marca-Página",       cor: 0xB23A4C, piso: 0x3A1E24, x0: -1,  x1: 8,   lado: "norte", quadro: true },
+  { id: "reels",       nome: "Reels chamativos 🎬", cor: 0xFF4D8D, piso: 0x3A1A30, x0: 8,   x1: 19,  lado: "norte", quadro: true },
+  // lado sul (perto da câmera)
+  { id: "recepcao",    nome: "Recepção",           cor: 0x94A3B8, piso: 0x2E3138, x0: -19, x1: -13, lado: "sul" },
+  { id: "audiovisual", nome: "Audiovisual",        cor: 0x8B5CF6, piso: 0x2A2142, x0: -13, x1: -2,  lado: "sul" },
+  { id: "marketing",   nome: "Marketing",          cor: 0x22C55E, piso: 0x1C3626, x0: -2,  x1: 7,   lado: "sul" },
+  { id: "diretoria",   nome: "Diretoria",          cor: 0xE5E7EB, piso: 0x3A3129, x0: 7,   x1: 19,  lado: "sul" },
+].map(s => {
+  const z0 = s.lado === "norte" ? -CORR - FUNDO : CORR, z1 = s.lado === "norte" ? -CORR : CORR + FUNDO;
+  return { ...s, z0, z1, centro: [(s.x0 + s.x1) / 2, (z0 + z1) / 2] };
+});
+// posições das mesas relativas ao centro da sala; "frente" = virado para o corredor
 const EQUIPE = [
-  { id: "pesquisador_historia",   sala: "historia",    pos: [-2.4, -0.6], nome: "Pesquisador",  cor: 0x4FB3BF, ocioso: "lendo sobre impérios" },
-  { id: "roteirista_historia",    sala: "historia",    pos: [2.4, -0.6],  nome: "Roteirista",   cor: 0xF59E0B, ocioso: "seguindo o dinheiro" },
-  { id: "pesquisador_vestibular", sala: "vestibular",  pos: [-2.4, -0.6], nome: "Pesquisador",  cor: 0x4FB3BF, ocioso: "vendo o que mais cai" },
-  { id: "roteirista_vestibular",  sala: "vestibular",  pos: [2.4, -0.6],  nome: "Roteirista",   cor: 0xF59E0B, ocioso: "desenhando mapas" },
-  { id: "pesquisador_livros",     sala: "livros",      pos: [-2.4, -0.6], nome: "Pesquisador",  cor: 0x4FB3BF, ocioso: "folheando lançamentos" },
-  { id: "roteirista_livros",      sala: "livros",      pos: [2.4, -0.6],  nome: "Roteirista",   cor: 0xF59E0B, ocioso: "anotando críticas" },
-  { id: "diretor_visual", sala: "audiovisual", pos: [-3.2, -1.3], nome: "Diretor visual",  cor: 0xE0618A, ocioso: "folheando referências" },
-  { id: "ilustrador",     sala: "audiovisual", pos: [0, -1.3],    nome: "Ilustrador 🎨",    cor: 0xF472B6, ocioso: "misturando tintas", robo: true },
-  { id: "narrador",       sala: "audiovisual", pos: [3.2, -1.3],  nome: "Narrador 🎙️",     cor: 0x2EC4B6, ocioso: "aquecendo a voz", estudio: true },
-  { id: "editor",         sala: "audiovisual", pos: [-1.7, 1.7],  nome: "Motor (render)",  cor: 0xB0B8C8, ocioso: "esperando o próximo vídeo", robo: true },
-  { id: "clipador",       sala: "audiovisual", pos: [1.7, 1.7],   nome: "Clipador ✂️",      cor: 0x22D3EE, ocioso: "caçando o melhor trecho" },
-  { id: "seo",            sala: "marketing",   pos: [-2.4, -1.3], nome: "SEO",             cor: 0x5C9DFF, ocioso: "testando títulos" },
-  { id: "thumbnail",      sala: "marketing",   pos: [2.4, -1.3],  nome: "Thumbnail",       cor: 0xFF7A45, ocioso: "esboçando thumbs" },
-  { id: "trafego",        sala: "marketing",   pos: [-2.4, 1.7],  nome: "Gestor de tráfego 📈", cor: 0xA3E635, ocioso: "lendo comentários" },
-  { id: "analista",       sala: "marketing",   pos: [2.4, 1.7],   nome: "Analista",        cor: 0xC9A24A, ocioso: "olhando métricas" },
-  { id: "reels_historia",   sala: "reels", pos: [-3.2, -0.8], nome: "Reels · Ouro & Império", cor: 0xC9A24A, ocioso: "modelando um boneco de cubos" },
-  { id: "reels_vestibular", sala: "reels", pos: [0, -0.8],    nome: "Reels · Mapeado",        cor: 0x3B6FE0, ocioso: "animando a lousa" },
-  { id: "reels_livros",     sala: "reels", pos: [3.2, -0.8],  nome: "Reels · Marca-Página",   cor: 0xB23A4C, ocioso: "empilhando livros 3D" },
-  { id: "miguel",         sala: "diretoria",   pos: [0, -1.3],    nome: "Miguel (diretor)", cor: 0xFFFFFF, ocioso: "tudo em dia ✨", chefe: true },
-  { id: "checador",       sala: "diretoria",   pos: [-2.6, 1.7],  nome: "Checador",        cor: 0x34C27A, ocioso: "conferindo fontes" },
-  { id: "guardiao",       sala: "diretoria",   pos: [2.6, 1.7],   nome: "Guardião",        cor: 0x9B7BEA, ocioso: "de olho nas regras" },
+  { id: "pesquisador_historia",   sala: "historia",    pos: [-2.1, -0.6], nome: "Pesquisador",  cor: 0x4FB3BF, ocioso: "lendo sobre impérios" },
+  { id: "roteirista_historia",    sala: "historia",    pos: [2.1, -0.6],  nome: "Roteirista",   cor: 0xF59E0B, ocioso: "seguindo o dinheiro" },
+  { id: "pesquisador_vestibular", sala: "vestibular",  pos: [-2.1, -0.6], nome: "Pesquisador",  cor: 0x4FB3BF, ocioso: "vendo o que mais cai" },
+  { id: "roteirista_vestibular",  sala: "vestibular",  pos: [2.1, -0.6],  nome: "Roteirista",   cor: 0xF59E0B, ocioso: "desenhando mapas" },
+  { id: "pesquisador_livros",     sala: "livros",      pos: [-2.1, -0.6], nome: "Pesquisador",  cor: 0x4FB3BF, ocioso: "folheando lançamentos" },
+  { id: "roteirista_livros",      sala: "livros",      pos: [2.1, -0.6],  nome: "Roteirista",   cor: 0xF59E0B, ocioso: "anotando críticas" },
+  { id: "reels_historia",   sala: "reels", pos: [-3.3, -0.6], nome: "Reels · Ouro & Império", cor: 0xC9A24A, ocioso: "modelando bonecos de cubo" },
+  { id: "reels_vestibular", sala: "reels", pos: [0, -0.6],    nome: "Reels · Mapeado",        cor: 0x3B6FE0, ocioso: "animando a lousa" },
+  { id: "reels_livros",     sala: "reels", pos: [3.3, -0.6],  nome: "Reels · Marca-Página",   cor: 0xB23A4C, ocioso: "empilhando livros 3D" },
+  { id: "diretor_visual", sala: "audiovisual", pos: [-3.4, 1.4],  nome: "Diretor visual",  cor: 0xE0618A, ocioso: "folheando referências" },
+  { id: "ilustrador",     sala: "audiovisual", pos: [0, 1.4],     nome: "Ilustrador 🎨",    cor: 0xF472B6, ocioso: "misturando tintas", robo: true },
+  { id: "narrador",       sala: "audiovisual", pos: [3.4, 1.4],   nome: "Narrador 🎙️",     cor: 0x2EC4B6, ocioso: "aquecendo a voz", estudio: true },
+  { id: "editor",         sala: "audiovisual", pos: [-1.8, -1.9], nome: "Motor (render)",  cor: 0xB0B8C8, ocioso: "esperando o próximo vídeo", robo: true },
+  { id: "clipador",       sala: "audiovisual", pos: [1.8, -1.9],  nome: "Clipador ✂️",      cor: 0x22D3EE, ocioso: "caçando o melhor trecho" },
+  { id: "seo",            sala: "marketing",   pos: [-2.1, 1.4],  nome: "SEO",             cor: 0x5C9DFF, ocioso: "testando títulos" },
+  { id: "thumbnail",      sala: "marketing",   pos: [2.1, 1.4],   nome: "Thumbnail",       cor: 0xFF7A45, ocioso: "esboçando thumbs" },
+  { id: "trafego",        sala: "marketing",   pos: [-2.1, -1.9], nome: "Gestor de tráfego 📈", cor: 0xA3E635, ocioso: "lendo comentários" },
+  { id: "analista",       sala: "marketing",   pos: [2.1, -1.9],  nome: "Analista",        cor: 0xC9A24A, ocioso: "olhando métricas" },
+  { id: "miguel",         sala: "diretoria",   pos: [1.8, 1.6],   nome: "Miguel (diretor)", cor: 0xFFFFFF, ocioso: "tudo em dia ✨", chefe: true },
+  { id: "checador",       sala: "diretoria",   pos: [-3.4, -1.9], nome: "Checador",        cor: 0x34C27A, ocioso: "conferindo fontes" },
+  { id: "guardiao",       sala: "diretoria",   pos: [0, -1.9],    nome: "Guardião",        cor: 0x9B7BEA, ocioso: "de olho nas regras" },
 ].map(a => {
   const sala = SALAS.find(x => x.id === a.sala);
   return { ...a, pos: [sala.centro[0] + a.pos[0], sala.centro[1] + a.pos[1]] };
@@ -141,13 +150,13 @@ cena.background = new THREE.Color(0x0E1014);
 cena.fog = new THREE.Fog(0x0E1014, 45, 90);
 
 const camera = new THREE.OrthographicCamera(-10, 10, 10, -10, 0.1, 200);
-camera.position.set(22, 22, 22);
+camera.position.set(14, 26, 26);
 const controles = new OrbitControls(camera, renderer.domElement);
 controles.enableDamping = true;
 controles.enablePan = true; controles.screenSpacePanning = true;
 controles.minZoom = 0.5; controles.maxZoom = 3.5;
 controles.maxPolarAngle = Math.PI / 2.4;
-controles.target.set(0, 0, 3.5);
+controles.target.set(0, 0, 0);
 controles.autoRotate = true; controles.autoRotateSpeed = 0.35;
 renderer.domElement.addEventListener("pointerdown", () => (controles.autoRotate = false));
 
@@ -156,56 +165,88 @@ cena.add(new THREE.HemisphereLight(0xc8d0ff, 0x2a2018, 1.1));
 const sol = new THREE.DirectionalLight(0xfff4e6, 1.6);
 sol.position.set(10, 18, 8); sol.castShadow = true;
 sol.shadow.mapSize.set(2048, 2048);
-Object.assign(sol.shadow.camera, { left: -24, right: 24, top: 24, bottom: -24 });
+Object.assign(sol.shadow.camera, { left: -28, right: 28, top: 28, bottom: -28 });
 cena.add(sol);
 
 const mat = (c, extra = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: 0.75, ...extra });
 const bloco = (w, h, d, m) => { const g = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), m); g.castShadow = g.receiveShadow = true; return g; };
 
-// piso geral (corredor) e salas
-const piso = bloco(33, 0.4, 26, mat(0x15181F));
-piso.position.set(0, -0.22, 4.3); cena.add(piso);
+// piso geral, corredor e salas
+const piso = bloco(40, 0.4, 2 * (CORR + FUNDO) + 3, mat(0x101318));
+piso.position.set(0, -0.22, 0); cena.add(piso);
 function rotulo(html, x, y, z) {
   const l = new CSS2DObject(Object.assign(document.createElement("div"), { className: "rotulo3d", innerHTML: html }));
   l.position.set(x, y, z); cena.add(l);
 }
-function parede(w, d, x, z, cor, h = 1.3) {
-  const p = bloco(w, h, d, mat(cor, { transparent: true, opacity: 0.92 })); p.position.set(x, h / 2, z); cena.add(p);
+const PAREDE = 0x2A303C, ALTA = 2.6, BAIXA = 0.45;
+const vidro = new THREE.MeshStandardMaterial({ color: 0x9FC5E8, transparent: true, opacity: 0.18, roughness: 0.1, metalness: 0.2 });
+function parede(x0, z0, x1, z1, h, material) {
+  const w = Math.max(0.16, Math.abs(x1 - x0)), d = Math.max(0.16, Math.abs(z1 - z0));
+  const p = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), material);
+  p.position.set((x0 + x1) / 2, h / 2, (z0 + z1) / 2); p.castShadow = material !== vidro; p.receiveShadow = true; cena.add(p);
+  if (material === vidro) {        // perfil de alumínio no topo do vidro
+    const t = bloco(w, 0.06, d, mat(0x6B7280)); t.position.set((x0 + x1) / 2, h, (z0 + z1) / 2); cena.add(t);
+  }
 }
 function planta(x, z) {
   const vaso = bloco(0.5, 0.5, 0.5, mat(0x6B4F3A)); vaso.position.set(x, 0.25, z); cena.add(vaso);
   const folha = new THREE.Mesh(new THREE.IcosahedronGeometry(0.5, 0), mat(0x2E8B57, { flatShading: true }));
   folha.position.set(x, 0.95, z); folha.castShadow = true; cena.add(folha);
 }
+// corredor: carpete, luminárias e porta de entrada a oeste
+const carpete = bloco(38, 0.05, 2 * CORR, mat(0x3B4252)); carpete.position.set(0, 0.0, 0); carpete.receiveShadow = true; cena.add(carpete);
+const faixaC = bloco(38, 0.06, 0.25, mat(0xF59E0B, { emissive: 0xF59E0B, emissiveIntensity: 0.25 })); faixaC.position.set(0, 0.01, 0); cena.add(faixaC);
+for (let x = -16; x <= 16; x += 4) {
+  const luz = bloco(1.2, 0.05, 0.5, mat(0xFFF7E0, { emissive: 0xFFF7E0, emissiveIntensity: 0.9 })); luz.position.set(x, ALTA + 0.02, 0); cena.add(luz);
+}
+const tapete = bloco(1.4, 0.07, 2.2, mat(0x8B5CF6)); tapete.position.set(-19.6, 0.02, 0); cena.add(tapete);
+rotulo(`<span class="placa" style="border-color:#F59E0B;color:#F59E0B">ENTRADA ➜</span>`, -20.2, 1.0, 0);
+
 SALAS.forEach(sala => {
-  const [cx, cz] = sala.centro, W = SALA_W, D = SALA_D, e = 0.18, porta = 2.2;
-  const chao = bloco(W, 0.06, D, mat(sala.piso)); chao.position.set(cx, 0.0, cz); chao.receiveShadow = true; cena.add(chao);
-  const faixa = bloco(W, 0.07, 0.35, mat(sala.cor, { emissive: sala.cor, emissiveIntensity: 0.25 }));   // soleira na cor da sala
-  faixa.position.set(cx, 0.01, cz + (sala.porta === "frente" ? D / 2 - 0.2 : -D / 2 + 0.2)); cena.add(faixa);
-  const corP = 0x262B36;
-  // parede do lado de dentro do prédio (alta) e laterais
-  const zFundo = sala.porta === "frente" ? cz - D / 2 : cz + D / 2;
-  const zPorta = sala.porta === "frente" ? cz + D / 2 : cz - D / 2;
-  parede(W, e, cx, zFundo, corP, sala.porta === "frente" ? 2.6 : 1.0);
-  parede(e, D, cx - W / 2, cz, corP, 1.3);
-  parede(e, D, cx + W / 2, cz, corP, 1.3);
-  // parede da porta, com vão no meio
-  const lado = (W - porta) / 2;
-  parede(lado, e, cx - W / 2 + lado / 2, zPorta, corP, 1.0);
-  parede(lado, e, cx + W / 2 - lado / 2, zPorta, corP, 1.0);
-  // quadro do canal na parede do fundo (salas de canal)
+  const { x0, x1, z0, z1 } = sala, [cx, cz] = sala.centro, porta = 1.8;
+  const chao = bloco(x1 - x0, 0.06, z1 - z0, mat(sala.piso)); chao.position.set(cx, 0.0, cz); chao.receiveShadow = true; cena.add(chao);
+  const norte = sala.lado === "norte";
+  const zCorr = norte ? z1 : z0, zFora = norte ? z0 : z1;
+  // parede externa: alta no fundo (norte), baixa do lado da câmera (sul) para dar para ver dentro
+  parede(x0, zFora, x1, zFora, norte ? ALTA : BAIXA, mat(PAREDE));
+  // laterais: vidro entre salas, parede nas pontas do prédio
+  [x0, x1].forEach(x => {
+    const ponta = Math.abs(x) >= 18.9;
+    parede(x, z0, x, z1, ponta ? (norte || x < 0 ? ALTA : BAIXA) : ALTA, ponta ? mat(PAREDE) : vidro);
+  });
+  // parede do corredor: vidro com porta no meio
+  const lado = (x1 - x0 - porta) / 2;
+  parede(x0, zCorr, x0 + lado, zCorr, ALTA, vidro);
+  parede(x1 - lado, zCorr, x1, zCorr, ALTA, vidro);
+  const batente = bloco(porta + 0.2, 0.15, 0.2, mat(sala.cor, { emissive: sala.cor, emissiveIntensity: 0.4 }));
+  batente.position.set(cx, ALTA - 0.1, zCorr); cena.add(batente);
+  const soleira = bloco(porta, 0.07, 0.4, mat(sala.cor, { emissive: sala.cor, emissiveIntensity: 0.3 }));
+  soleira.position.set(cx, 0.02, zCorr); cena.add(soleira);
+  // quadro na cor do canal na parede do fundo
   if (sala.quadro) {
-    const q = bloco(3.4, 1.4, 0.08, mat(sala.cor, { emissive: sala.cor, emissiveIntensity: 0.3 }));
-    q.position.set(cx, 1.7, zFundo + 0.14); cena.add(q);
+    const q = bloco(Math.min(4, x1 - x0 - 2), 1.3, 0.08, mat(sala.cor, { emissive: sala.cor, emissiveIntensity: 0.3 }));
+    q.position.set(cx, 1.7, zFora + 0.14); cena.add(q);
   }
-  if (sala.id === "diretoria") {   // mesa de reunião
-    const mesa = bloco(3.2, 0.1, 1.2, mat(0x5A3E2B)); mesa.position.set(cx + 3.2, 0.85, cz - 1.5); cena.add(mesa);
+  if (sala.id === "diretoria") {   // mesa de reunião com cadeiras
+    const mesa = bloco(3.0, 0.1, 1.4, mat(0x5A3E2B)); mesa.position.set(cx - 3.2, 0.85, cz + 1.9); cena.add(mesa);
+    [-1, 0, 1].forEach(k => [-1, 1].forEach(l => { const c = bloco(0.5, 0.5, 0.5, mat(0x2E3340)); c.position.set(cx - 3.2 + k, 0.3, cz + 1.9 + l * 1.0); cena.add(c); }));
   }
-  planta(cx - W / 2 + 0.6, zFundo + (sala.porta === "frente" ? 0.6 : -0.6));
-  planta(cx + W / 2 - 0.6, zFundo + (sala.porta === "frente" ? 0.6 : -0.6));
+  if (sala.id === "recepcao") {    // balcão, sofá e logo
+    const balcao = bloco(2.6, 1.1, 0.8, mat(0xE5E7EB)); balcao.position.set(cx, 0.55, cz - 1.5); cena.add(balcao);
+    const tampo = bloco(2.8, 0.08, 1.0, mat(0x5A3E2B)); tampo.position.set(cx, 1.14, cz - 1.5); cena.add(tampo);
+    const sofa = bloco(2.4, 0.5, 0.9, mat(0x8B5CF6)); sofa.position.set(cx, 0.3, cz + 2.6); cena.add(sofa);
+    const enc = bloco(2.4, 0.6, 0.25, mat(0x7C3AED)); enc.position.set(cx, 0.75, cz + 3.0); cena.add(enc);
+    rotulo(`<span class="placa" style="border-color:#F59E0B;color:#F59E0B">Escritório Dark</span>`, cx, 2.1, cz - 1.5);
+    planta(x0 + 0.6, z1 - 0.6);
+  }
+  if (sala.id === "audiovisual") { // cabine de gravação do narrador
+    const cab = bloco(0.08, 1.6, 2.4, vidro); cab.position.set(cx + 1.7, 0.8, cz + 1.4); cena.add(cab);
+  }
+  planta(norte ? x0 + 0.6 : x1 - 0.6, norte ? z0 + 0.6 : z1 - 0.6);
   const corHex = "#" + sala.cor.toString(16).padStart(6, "0");
-  rotulo(`<span class="placa" style="border-color:${corHex};color:${corHex}">${sala.nome}</span>`,
-         cx, sala.porta === "frente" ? 3.2 : 1.8, zFundo);
+  // placa sobre a porta, do lado do corredor
+  rotulo(`<span class="placa" style="border-color:${corHex};color:${corHex}">${sala.id === "recepcao" || sala.id === "diretoria" || sala.id === "reels" ? sala.nome : (["historia","vestibular","livros"].includes(sala.id) ? "Sala " + sala.nome : "Sala de " + sala.nome)}</span>`,
+         cx, ALTA + 0.6, zCorr);
 });
 
 // ------------------------------------------------------------------ personagens
@@ -309,7 +350,7 @@ function aplicar(e) {
   const ativos = Object.entries(e.ativos || {});
   document.getElementById("agora").innerHTML = ativos.length ? ativos.map(([id, t]) => {
     const a = EQUIPE.find(x => x.id === id);
-    const nome = a ? `${a.nome} · ${SALAS.find(x => x.id === a.sala).nome.replace(/^Sala (de )?/, "")}` : id;
+    const nome = a ? `${a.nome} · ${SALAS.find(x => x.id === a.sala).nome}` : id;
     return `<div class="ativo-item"><span class="pt" style="${id === "miguel" ? "background:var(--laranja)" : ""}"></span>
       <div><b>${esc(nome)}</b>${id === "miguel" ? " — precisa de você" : ""}<br><span style="color:var(--suave)">${t.map(esc).join("<br>")}</span></div></div>`;
   }).join("") : `<div class="vazio">Todo mundo de café ☕</div>`;
@@ -359,7 +400,7 @@ setInterval(() => document.querySelectorAll(".video .topo span:last-child").leng
 // ------------------------------------------------------------------ animação
 function redimensionar() {
   const w = caixa.clientWidth, h = caixa.clientHeight;
-  const asp = w / h, tam = asp < 1 ? Math.min(26, 18 / asp) : 15.5;
+  const asp = w / h, tam = asp < 1 ? Math.min(32, 23 / asp) : 16.5;
   Object.assign(camera, { left: -tam * asp, right: tam * asp, top: tam, bottom: -tam });
   camera.updateProjectionMatrix();
   renderer.setSize(w, h); rotulos.setSize(w, h);
