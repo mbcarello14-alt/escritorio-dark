@@ -93,7 +93,8 @@ jobs:
           gh api repos/${{ github.repository }}/actions/artifacts/$art/zip > /tmp/a.zip
           mkdir -p /tmp/a && unzip -o -q /tmp/a.zip -d /tmp/a
           mkdir -p canais/logs
-          python -m pipeline.extrair_cenas "$1" "$(find /tmp/a -name video.mp4 | head -1)" 2>&1 | tee canais/logs/extrair-$(date -u +%Y%m%d-%H%M%S).log
+          rm -rf "$1/imagens-fixas"
+          MOTOR_ANTIGO="$3" python -m pipeline.extrair_cenas "$1" "$(find /tmp/a -name video.mp4 | head -1)" 2>&1 | tee canais/logs/extrair-$(date -u +%Y%m%d-%H%M%S).log
       - name: Comparar direções de voz
         if: inputs.tarefa == 'comparar-voz'
         run: |
