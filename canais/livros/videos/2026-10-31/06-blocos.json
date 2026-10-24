@@ -1,0 +1,389 @@
+[
+  {
+    "capitulo": "Um autor que já morreu",
+    "cenas": [
+      {
+        "narracao": "O primeiro capítulo deste livro se chama Óbito do autor. E o autor é o próprio narrador. Ele morreu, foi enterrado e só então resolveu escrever as memórias, porque agora não tem mais reputação nenhuma para proteger.",
+        "visual": { "tipo": "ilustracao", "cena": "a 19th-century gentleman in a frock coat sitting up inside his open coffin at his own funeral, writing in a notebook with a quill while tiny mourners in black stare in shock", "busca_reserva": "19th century funeral coffin engraving Rio de Janeiro" }
+      },
+      {
+        "narracao": "O livro é Memórias Póstumas de Brás Cubas, de Machado de Assis. Na semana de Finados, a gente lê esse clássico como ele pede: como uma comédia sobre vaidade, contada por um defunto debochado.",
+        "visual": { "tipo": "imagem", "busca": "Machado de Assis portrait photograph", "movimento": "zoom_in", "legenda": "Machado de Assis" }
+      },
+      {
+        "narracao": "E no fim você sai com uma resposta clara: vale ler hoje, e de que jeito. Se você quer escolher o próximo livro com base em crítica de verdade, e não em contracapa, se inscreve e deixa o like. Isso ajuda o canal a chegar em mais leitores.",
+        "visual": { "tipo": "ilustracao", "cena": "a friendly ghost of a 19th-century gentleman pointing at the viewer with a big grin, holding a thumbs-up in the other hand, floating beside a tombstone covered in flowers", "busca_reserva": "All Souls Day cemetery flowers candles" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Aviso e ficha",
+    "cenas": [
+      {
+        "narracao": "Um aviso antes. É romance, então tem spoiler. Até mais ou menos o minuto três, eu só conto o que o livro entrega nas primeiras páginas.",
+        "visual": { "tipo": "ilustracao", "cena": "a reader hiding behind a big open book, peeking out with one wide eye and covering her ears, a small warning siren light flashing above her head", "busca_reserva": "reader covering eyes with book vintage illustration" }
+      },
+      {
+        "narracao": "Depois disso entram os amores, a cena mais pesada e o final. Quem quer chegar sem saber de nada, salva o vídeo e volta depois de ler. Agora a ficha.",
+        "visual": { "tipo": "ilustracao", "cena": "a woman in a cardigan sliding a ribbon bookmark into a closed book and putting it on a shelf with a wink, a tiny ghost waving goodbye from the spine", "busca_reserva": "bookmark ribbon closed book shelf vintage" }
+      },
+      {
+        "narracao": "O livro saiu primeiro em capítulos na Revista Brasileira, de março a dezembro de mil oitocentos e oitenta, e virou livro em janeiro de mil oitocentos e oitenta e um, com o texto corrigido.",
+        "visual": { "tipo": "imagem", "busca": "Rio de Janeiro 1880 Rua do Ouvidor lithograph", "movimento": "pan_direita", "legenda": "Rio de Janeiro, 1880" }
+      },
+      {
+        "narracao": "Anota esse detalhe do folhetim, porque ele volta no fim do vídeo. São cento e sessenta capítulos curtos.",
+        "visual": { "tipo": "ilustracao", "cena": "a long strip of newspaper serial pages unrolling like a ribbon across a desk, a pair of small hands pinning a sticky note to the first installment, a tiny ghost sitting on the strip", "busca_reserva": "19th century newspaper serial feuilleton page" }
+      },
+      {
+        "narracao": "É domínio público, então dá para ler de graça e de forma legal.",
+        "visual": { "tipo": "imagem", "busca": "Memórias Póstumas de Brás Cubas 1881 first edition title page", "movimento": "zoom_in", "legenda": "Primeira edição, 1881" }
+      },
+      {
+        "narracao": "Para quem vai comprar, a edição de referência é a da Penguin-Companhia, da Companhia das Letras, com trezentas e sessenta e oito páginas, texto estabelecido e notas de Marta de Senna e Marcelo Diego.",
+        "visual": { "tipo": "cartao", "titulo": "Penguin-Companhia", "subtitulo": "368 páginas · texto estabelecido e notas de Marta de Senna e Marcelo Diego" }
+      },
+      {
+        "narracao": "Daqui a pouco você vai entender por que as notas importam. E por que este livro importa?",
+        "visual": { "tipo": "ilustracao", "cena": "a confused reader climbing a tall staircase made of giant footnote numbers, gripping a wooden handrail, a ghost cheering from the top step", "busca_reserva": "spiral staircase library vintage illustration" }
+      },
+      {
+        "narracao": "Porque é nele que Machado muda de chave. A crítica trata Brás Cubas como a virada do autor para a sátira, para a ironia e para o livro que comenta a si mesmo.",
+        "visual": { "tipo": "ilustracao", "cena": "a bearded man in a 19th-century suit swapping a plain serious mask for a mischievous grinning mask, a quill in his other hand writing in a book that writes back", "busca_reserva": "19th century writer desk quill portrait engraving" }
+      },
+      {
+        "narracao": "Antes dele, um Machado. Depois dele, outro.",
+        "visual": { "tipo": "ilustracao", "cena": "a split picture of the same 19th-century man: on the left sepia and stiff in a high collar, on the right colorful and laughing with a jester's cap tipped on his head", "busca_reserva": "Rio de Janeiro 19th century gentleman portrait" }
+      }
+    ]
+  },
+  {
+    "capitulo": "O truque do defunto-autor",
+    "cenas": [
+      {
+        "narracao": "Esse começo pelo fim é o motor do livro. Brás abre com a própria morte e o próprio enterro, e se apresenta como defunto-autor.",
+        "visual": { "tipo": "ilustracao", "cena": "a gentleman ghost in a frock coat sitting on top of his own tombstone with a big book on his knees, a small procession of mourners walking away behind him", "busca_reserva": "19th century cemetery tombstone engraving" }
+      },
+      {
+        "narracao": "A graça está aí. Um vivo que escreve memórias quer sair bem na foto. Um morto, não.",
+        "visual": { "tipo": "ilustracao", "cena": "on the left a vain living man posing stiffly for a painted portrait with chest puffed out; on the right a relaxed ghost slouching and shrugging with a smile", "busca_reserva": "19th century formal portrait painting gentleman" }
+      },
+      {
+        "narracao": "Ele não precisa de voto, de emprego nem de casamento. Então pode confessar tudo, rir de si mesmo e rir de você também.",
+        "visual": { "tipo": "ilustracao", "cena": "a ghost laughing and pointing at the viewer while a ballot box, a job contract and a wedding ring lie tossed on the floor behind him", "busca_reserva": "19th century ballot box election engraving" }
+      },
+      {
+        "narracao": "E ele conversa com o leitor o tempo inteiro, provoca, interrompe e muda de assunto. E ele assume a bagunça.",
+        "visual": { "tipo": "ilustracao", "cena": "a ghost leaning out of an open book to tap a startled reader on the shoulder, loose pages and quills swirling around them in a cheerful mess", "busca_reserva": "open book pages flying vintage illustration" }
+      },
+      {
+        "narracao": "No texto de abertura, Ao leitor, o narrador diz que seguiu a forma livre de Sterne ou de Xavier de Maistre e, quem sabe, meteu algumas rabugens de pessimismo.",
+        "visual": { "tipo": "imagem", "busca": "Laurence Sterne portrait Joshua Reynolds", "movimento": "zoom_out", "legenda": "Laurence Sterne" }
+      },
+      {
+        "narracao": "Tradução: vai ser desorganizado de propósito, e meio rabugento também. Até para confessar o mau humor ele faz charme.",
+        "visual": { "tipo": "ilustracao", "cena": "a grumpy ghost in a messy study full of scattered papers, arms crossed and eyebrows furrowed, yet striking a charming pose with one eyebrow raised", "busca_reserva": "messy writer study 19th century engraving" }
+      },
+      {
+        "narracao": "Logo em seguida aparece a grande ideia da vida dele, o emplasto. Um remédio que Brás sonhou inventar para curar a melancolia da humanidade.",
+        "visual": { "tipo": "ilustracao", "cena": "a proud 19th-century gentleman holding a huge medicinal plaster patch over a sad, crying planet Earth that already wears a bandage", "busca_reserva": "19th century patent medicine apothecary advertisement" }
+      },
+      {
+        "narracao": "Repara na modéstia. Não é curar uma gripe. É curar a tristeza do planeta.",
+        "visual": { "tipo": "ilustracao", "cena": "a tiny sneezing man with a tissue ignored in a corner, while the same ambitious gentleman climbs a ladder to hug a gigantic weeping globe", "busca_reserva": "globe of the world antique engraving" }
+      },
+      {
+        "narracao": "O próprio livro chama isso de ideia fixa. Guarda o emplasto na memória, porque ele é a piada mais comprida do romance.",
+        "visual": { "tipo": "ilustracao", "cena": "a man with a plaster patch stuck on his forehead, holding a very long scroll unrolling out the window and down the street, a ghost laughing beside him", "busca_reserva": "long paper scroll antique illustration" }
+      }
+    ]
+  },
+  {
+    "capitulo": "A vida de quem não precisou fazer nada",
+    "cenas": [
+      {
+        "narracao": "Pronto, daqui para frente é spoiler. A vida de Brás é a biografia de alguém que nunca precisou fazer nada. Ele nasce rico e é criado como um pequeno rei.",
+        "visual": { "tipo": "ilustracao", "cena": "a chubby baby in a tiny golden crown sitting on a velvet cushion throne in a grand mansion room, adults bowing around him, a small spoiler flag stuck in the cushion", "busca_reserva": "19th century wealthy family mansion Rio de Janeiro painting" }
+      },
+      {
+        "narracao": "Prudêncio, um menino escravizado da casa, serve de cavalo e de brinquedo para ele. Guarda esse nome também. Ele volta, e não é para rir.",
+        "visual": { "tipo": "cartao", "titulo": "Prudêncio", "subtitulo": "guarde esse nome" }
+      },
+      {
+        "narracao": "Na juventude vem Marcela, o primeiro amor, uma moça interesseira.",
+        "visual": { "tipo": "ilustracao", "cena": "an elegant young woman with a lace fan smiling sweetly while her eyes glance sideways at the heavy coin purse of an infatuated young man", "busca_reserva": "19th century lady with fan painting" }
+      },
+      {
+        "narracao": "O narrador resume a relação numa frase que é das melhores do livro: Marcela o amou durante quinze meses e onze contos de réis. Numa linha só, Machado escreve um romance e um extrato bancário.",
+        "visual": { "tipo": "citacao", "texto": "Marcela o amou durante quinze meses e onze contos de réis.", "autor": "Machado de Assis, Memórias Póstumas de Brás Cubas" }
+      },
+      {
+        "narracao": "O pai manda o filho estudar em Coimbra, e Brás volta bacharel, com diploma e sem entusiasmo nenhum.",
+        "visual": { "tipo": "imagem", "busca": "University of Coimbra tower photograph", "movimento": "pan_esquerda", "legenda": "Coimbra, Portugal" }
+      },
+      {
+        "narracao": "Aqui o padrão do personagem fica claro. Ele adora a ideia de ser alguém, começa as coisas e não sustenta nenhuma.",
+        "visual": { "tipo": "ilustracao", "cena": "a young man surrounded by half-finished things: a half-painted canvas, a half-written love letter, a half-built little boat, he is already walking away whistling", "busca_reserva": "unfinished painting easel 19th century" }
+      },
+      {
+        "narracao": "Nem estudo, nem amor, nem projeto. Até as moças ele mede pelo que podem somar à imagem dele. E conta tudo isso com a calma de quem comenta o tempo.",
+        "visual": { "tipo": "ilustracao", "cena": "a vain gentleman calmly sipping tea with one hand while holding a tape measure up to a young lady with the other, admiring himself in a hand mirror", "busca_reserva": "19th century tea drinking gentleman mirror painting" }
+      }
+    ]
+  },
+  {
+    "capitulo": "O triângulo da conveniência",
+    "cenas": [
+      {
+        "narracao": "O centro do enredo é Virgília. Ela se casa com Lobo Neves, um homem com futuro político mais promissor que o de Brás.",
+        "visual": { "tipo": "ilustracao", "cena": "an elegant woman in a mid-19th-century gown on the arm of an ambitious man wearing a politician's sash, another man peeking sadly from behind a column", "busca_reserva": "19th century Brazilian wedding couple painting" }
+      },
+      {
+        "narracao": "Depois, já casada, reata com ele. Os encontros dependem de dona Plácida, a intermediária que guarda o segredo dos dois.",
+        "visual": { "tipo": "ilustracao", "cena": "an old seamstress in a shawl holding a candle and standing lookout at a half-open door, while a woman in a gown slips inside to a waiting man", "busca_reserva": "19th century woman with candle door engraving" }
+      },
+      {
+        "narracao": "O que chama atenção não é o adultério. É o tom. Na leitura do canal, ninguém ali é movido por uma grande paixão.",
+        "visual": { "tipo": "ilustracao", "cena": "three 19th-century characters standing in a triangle, each admiring only their own reflection in a pocket mirror, with a cold gray stone in the middle where a red heart should be", "busca_reserva": "three people triangle 19th century caricature" }
+      },
+      {
+        "narracao": "Lobo Neves quer a carreira. Virgília quer o amante sem abrir mão do marido e da posição. Brás quer ser desejado, mas sem o trabalho de mudar de vida.",
+        "visual": { "tipo": "lista", "titulo": "Quem quer o quê", "itens": ["Lobo Neves: a carreira", "Virgília: o amante e a posição", "Brás: ser desejado, sem esforço"] }
+      },
+      {
+        "narracao": "Machado monta um triângulo amoroso em que o sentimento mais forte é a conveniência. Por isso o livro funciona como comédia. Não comédia de tombo, mas de reconhecimento.",
+        "visual": { "tipo": "ilustracao", "cena": "a triangle drawn with three tiny lovers at its corners and a glowing pile of coins and a briefcase at its center instead of a heart, a banana peel crossed out beside it", "busca_reserva": "antique gold coins pile engraving" }
+      },
+      {
+        "narracao": "Você ri e, logo depois, percebe que conhece gente assim. Às vezes no espelho.",
+        "visual": { "tipo": "ilustracao", "cena": "a reader laughing out loud at a book, then freezing in surprise as the page turns into a mirror showing her own reflection", "busca_reserva": "woman reading book mirror reflection vintage" }
+      },
+      {
+        "narracao": "E agora eu quero te ouvir. Se você virasse defunto-autor amanhã, sem nada a perder, qual seria o título do primeiro capítulo das suas memórias?",
+        "visual": { "tipo": "ilustracao", "cena": "a friendly ghost holding a vintage microphone out toward the viewer with an encouraging grin, a tombstone behind him with a blank page pinned to it", "busca_reserva": "vintage microphone interview illustration" }
+      },
+      {
+        "narracao": "Escreve nos comentários. E se o morto debochado já te conquistou, deixa o like, que ele não pode reclamar.",
+        "visual": { "tipo": "ilustracao", "cena": "a cheeky ghost giving two big thumbs up with a shrug and a wink, floating next to a speech bubble made of a scroll", "busca_reserva": "thumbs up vintage cartoon" }
+      }
+    ]
+  },
+  {
+    "capitulo": "A hora em que a risada trava",
+    "cenas": [
+      {
+        "narracao": "Só que o livro não é só deboche. Tem uma hora em que a risada trava.",
+        "visual": { "tipo": "ilustracao", "cena": "a cracked theatrical comedy mask splitting in half to reveal a dark, still face underneath, dim cold lighting and a single beam of light", "busca_reserva": "theatre comedy tragedy mask antique" }
+      },
+      {
+        "narracao": "No capítulo sessenta e oito, chamado O vergalho, Brás encontra na rua o Prudêncio, aquele menino que ele montava como cavalo.",
+        "visual": { "tipo": "ilustracao", "cena": "a well-dressed gentleman walking along a 19th-century Rio de Janeiro street at dusk, stopping and looking at something off-frame with an uneasy face, muted colors", "busca_reserva": "Rio de Janeiro street 1830s engraving" }
+      },
+      {
+        "narracao": "Prudêncio agora é liberto. E está açoitando em público um homem negro escravizado, que é dele.",
+        "visual": { "tipo": "imagem", "busca": "Jean-Baptiste Debret Rio de Janeiro street scene lithograph Voyage pittoresque", "movimento": "pan_esquerda", "legenda": "Debret, Rio de Janeiro, século XIX" }
+      },
+      {
+        "narracao": "Brás pede clemência. Depois, tira a conclusão dele: Prudêncio estava repassando as pancadas que tinha levado na infância.",
+        "visual": { "tipo": "ilustracao", "cena": "the dark silhouette of a gentleman in a top hat standing aside on a street with one hand half raised in a weak gesture, long shadows, somber muted palette, no violence shown", "busca_reserva": "silhouette gentleman top hat street dusk engraving" }
+      },
+      {
+        "narracao": "É uma cena curta e pesada. A violência da escravidão aparece passando de mão em mão.",
+        "visual": { "tipo": "imagem", "busca": "Debret Voyage pittoresque et historique au Brésil plate Rio de Janeiro", "movimento": "zoom_in", "legenda": "Debret, século XIX" }
+      },
+      {
+        "narracao": "E a ironia aqui não está no fato. Está na frieza de quem narra, que trata tudo como curiosidade.",
+        "visual": { "tipo": "ilustracao", "cena": "a cold-faced ghost narrator with a monocle examining a scene through a big magnifying glass like an insect specimen, completely expressionless", "busca_reserva": "magnifying glass specimen antique engraving" }
+      },
+      {
+        "narracao": "E é uma cena fácil de perder. O resumo do Toda Matéria, site de estudos muito usado, fala só do Prudêncio criança. A cena do adulto fica de fora.",
+        "visual": { "tipo": "comparacao", "esquerda": { "titulo": "Resumo do Toda Matéria", "itens": ["Prudêncio criança"] }, "direita": { "titulo": "O livro", "itens": ["Prudêncio criança", "Prudêncio adulto (cap. 68)"] } }
+      },
+      {
+        "narracao": "Quem conhece Brás Cubas só por resumo pode sair sem a página em que o deboche do livro mostra o peso que tem.",
+        "visual": { "tipo": "ilustracao", "cena": "a reader holding a book with one page torn out, a rectangular hole in the paper letting a heavy dark beam of light through", "busca_reserva": "torn book page vintage" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Um final feito de negativas",
+    "cenas": [
+      {
+        "narracao": "Enquanto isso, a vida de Brás caminha para o nada. Reaparece Quincas Borba, um antigo colega, agora filósofo de uma doutrina de nome pomposo, o Humanitismo.",
+        "visual": { "tipo": "ilustracao", "cena": "a pompous philosopher in a flowing cape declaiming with a huge scroll to a tired gentleman slumped on a park bench, pigeons ignoring both", "busca_reserva": "19th century philosopher lecturing engraving" }
+      },
+      {
+        "narracao": "A carreira política não decola. O emplasto, aquele que ia curar a melancolia do mundo, também fracassa.",
+        "visual": { "tipo": "ilustracao", "cena": "a politician's wooden podium collapsing into pieces while a giant medicinal patch peels off a globe and flops flat on the ground", "busca_reserva": "19th century parliament Brazil Empire engraving" }
+      },
+      {
+        "narracao": "A piada comprida, que começou lá no capítulo dois, termina sem graça nenhuma para ele. A ideia que ia curar a tristeza da humanidade não cura nem a de um homem só.",
+        "visual": { "tipo": "ilustracao", "cena": "a very long paper scroll unrolled across an entire room ending in a limp empty end, a deflated gentleman holding the last bit with a sad face", "busca_reserva": "long scroll unrolled antique" }
+      },
+      {
+        "narracao": "O último capítulo se chama Das negativas. É um balanço do que Brás não teve e do que não fez.",
+        "visual": { "tipo": "ilustracao", "cena": "a ghost gentleman standing before an empty trophy shelf, an empty chair, an empty cradle and an empty wedding frame, holding a quill over a blank page", "busca_reserva": "empty room antique furniture engraving" }
+      },
+      {
+        "narracao": "Uma contabilidade ao contrário: ele chega ao fim somando ausências. Amargo e engraçado na mesma medida, que é o tom do livro inteiro.",
+        "visual": { "tipo": "ilustracao", "cena": "a ghost wearing accountant's sleeve guards and round glasses at a tall desk, a ledger full of columns of zeros, smiling a bitter smile", "busca_reserva": "19th century ledger account book clerk engraving" }
+      },
+      {
+        "narracao": "A última frase eu não vou contar. Primeiro, porque ela merece ser lida no lugar dela.",
+        "visual": { "tipo": "ilustracao", "cena": "a ghost pressing a finger to his lips in a hush gesture, holding a closed book with a ribbon bookmark behind his back", "busca_reserva": "hush finger lips vintage illustration" }
+      },
+      {
+        "narracao": "Segundo, porque é ali que o pessimismo que ele já insinuava na abertura apresenta a conta.",
+        "visual": { "tipo": "ilustracao", "cena": "a grim smiling ghost waiter in a tailcoat presenting a very long restaurant bill on a silver tray to a startled reader at a table", "busca_reserva": "waiter bill silver tray vintage" }
+      }
+    ]
+  },
+  {
+    "capitulo": "O que o livro acerta",
+    "cenas": [
+      {
+        "narracao": "Hora da crítica, começando pelo que o livro acerta. Primeiro, o humor. Um narrador morto, que ri do leitor e de si mesmo, continua engraçado quase cento e cinquenta anos depois.",
+        "visual": { "tipo": "ilustracao", "cena": "a laughing ghost in a frock coat holding a golden trophy, while a modern young reader in sneakers giggles into an old book", "busca_reserva": "laughing reader old book vintage" }
+      },
+      {
+        "narracao": "Segundo, o formato. São cento e sessenta capítulos curtos, e muitos dá para ler na fila do banco.",
+        "visual": { "tipo": "ilustracao", "cena": "a person waiting in a bank queue reading a small book, a ghost peeking out from the pages and a bank teller window in the background", "busca_reserva": "queue bank reading book vintage" }
+      },
+      {
+        "narracao": "Terceiro, o retrato da vaidade e do favor: casamento por conveniência, política sem mérito, remédio milagroso.",
+        "visual": { "tipo": "ilustracao", "cena": "three small vignettes in one frame: a wedding ring locked in a bank vault, a politician sitting on an empty throne, a bottle of miracle potion with sparkles", "busca_reserva": "19th century political caricature favor" }
+      },
+      {
+        "narracao": "Estudos recentes defendem a atualidade do livro justamente pelo cinismo e pela valorização das aparências. Troca o emplasto por um curso que promete mudar sua vida em sete dias, e o capítulo podia ter saído ontem.",
+        "visual": { "tipo": "ilustracao", "cena": "a confident motivational guru on a stage with a headset microphone, pointing at a calendar of seven days and selling a glowing potion bottle to an excited crowd", "busca_reserva": "snake oil salesman stage crowd vintage" }
+      },
+      {
+        "narracao": "E tem um bônus. A crítica também briga sobre como ler esse narrador.",
+        "visual": { "tipo": "ilustracao", "cena": "two scholars in armchairs each tugging one arm of a bewildered ghost narrator in a playful tug of war, books stacked around them", "busca_reserva": "tug of war scholars books vintage" }
+      },
+      {
+        "narracao": "Resumindo de forma simples, Augusto Meyer fez uma leitura existencial, centrada no humor e no defunto-autor.",
+        "visual": { "tipo": "ilustracao", "cena": "a thoughtful scholar in a mid-20th-century suit sitting in an armchair with a book, a tiny grinning ghost perched on his shoulder whispering a joke", "busca_reserva": "scholar armchair reading mid-century" }
+      },
+      {
+        "narracao": "Roberto Schwarz vê no vaivém de Brás o retrato da classe dominante brasileira, que falava a língua liberal e vivia da troca de favores.",
+        "visual": { "tipo": "ilustracao", "cena": "gentlemen in top hats making a solemn speech about liberty at a podium while under the table they secretly pass each other baskets of favors", "busca_reserva": "19th century Brazilian elite gentlemen caricature" }
+      },
+      {
+        "narracao": "As duas leituras cabem no livro. Dá para rir com um e desconfiar com o outro na mesma página.",
+        "visual": { "tipo": "comparacao", "esquerda": { "titulo": "Augusto Meyer", "itens": ["Leitura existencial", "Humor e defunto-autor"] }, "direita": { "titulo": "Roberto Schwarz", "itens": ["Classe dominante", "Discurso liberal e favor"] } }
+      }
+    ]
+  },
+  {
+    "capitulo": "Onde o livro cansa",
+    "cenas": [
+      {
+        "narracao": "Agora, onde o livro cansa. E aqui o próprio livro dá as pistas. Segundo estudos sobre o romance, ele se apresenta como filosófico e brincalhão.",
+        "visual": { "tipo": "ilustracao", "cena": "a tired reader at a desk piled with heavy philosophy tomes and a jester's hat on top, a ghost whispering hints in her ear", "busca_reserva": "tired reader desk pile of books vintage" }
+      },
+      {
+        "narracao": "As duas coisas cobram um preço. A ironia não para, e as digressões freiam a história.",
+        "visual": { "tipo": "ilustracao", "cena": "a steam train labeled only by a tiny book on its front, with a ghost yanking an enormous brake lever, sparks flying and passengers tumbling forward", "busca_reserva": "steam locomotive 19th century engraving" }
+      },
+      {
+        "narracao": "Tem hora em que você só quer saber o que aconteceu com Virgília, e o narrador prefere filosofar mais um pouco.",
+        "visual": { "tipo": "ilustracao", "cena": "an impatient reader tapping her foot and looking at a wristwatch while a ghost at a chalkboard draws an endless tangle of arrows and detours", "busca_reserva": "chalkboard arrows detour vintage classroom" }
+      },
+      {
+        "narracao": "O fio do enredo também é fino. O caso com Virgília segura o livro, e o resto são episódios. Quem gosta de trama bem amarrada vai sentir falta.",
+        "visual": { "tipo": "ilustracao", "cena": "a single thin thread holding up a few dangling paper episodes, with an elegant woman at the center of the thread, a reader frowning and wishing for a stronger rope", "busca_reserva": "thin thread hanging paper vintage" }
+      },
+      {
+        "narracao": "E tem as referências de época: política do Império, latim, literatura clássica, filosofia. Sem ajuda, o leitor de hoje tropeça.",
+        "visual": { "tipo": "ilustracao", "cena": "a lost modern reader in a maze of library shelves with Latin scrolls, Roman columns and portraits of Empire politicians, a big question mark over her head", "busca_reserva": "library maze shelves antique engraving" }
+      },
+      {
+        "narracao": "Por isso a edição anotada faz diferença. Nota de rodapé, nesse livro, não é enfeite. É corrimão.",
+        "visual": { "tipo": "cartao", "titulo": "Nota de rodapé", "subtitulo": "não é enfeite: é corrimão" }
+      },
+      {
+        "narracao": "Agora repara numa coisa. Quase tudo isso pesa mais quando o livro é lido de uma sentada, com prazo e prova marcada.",
+        "visual": { "tipo": "ilustracao", "cena": "an exhausted student cramming at a desk surrounded by a giant exam calendar, towering stacks of books and a clock, a ghost cringing in the corner", "busca_reserva": "student cramming desk night vintage" }
+      },
+      {
+        "narracao": "E ele não nasceu assim. Nasceu em folhetim, em capítulos, ao longo de dez meses.",
+        "visual": { "tipo": "imagem", "busca": "Revista Illustrada 1880 Angelo Agostini Rio de Janeiro", "movimento": "pan_direita", "legenda": "Revista Illustrada, Rio de Janeiro, 1880" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Para quem serve e como ler",
+    "cenas": [
+      {
+        "narracao": "Então, para quem serve? Para quem gosta de humor ácido e de narrador que conversa com você. Para quem quer entender por que Machado de Assis é tão central.",
+        "visual": { "tipo": "ilustracao", "cena": "a smiling reader curled up on a sofa with a book, a ghost narrator popping out of the pages to chat with her, a tea cup on the side table", "busca_reserva": "reader on sofa with book vintage illustration" }
+      },
+      {
+        "narracao": "E para quem vai fazer o vestibular da Unicamp: o livro está na lista de leituras obrigatórias de dois mil e vinte e sete, e continua nas listas de dois mil e vinte e oito e dois mil e vinte e nove.",
+        "visual": { "tipo": "numero", "valor": "2027", "rotulo": "Unicamp: leitura obrigatória, e segue em 2028 e 2029" }
+      },
+      {
+        "narracao": "Para quem não serve, pelo menos agora? Para quem quer enredo linear e muita ação.",
+        "visual": { "tipo": "ilustracao", "cena": "an action-movie fan with a giant bucket of popcorn staring puzzled at a quiet old book while explosions and car chases play on a screen behind him", "busca_reserva": "popcorn cinema audience vintage" }
+      },
+      {
+        "narracao": "Se você precisa de reviravolta a cada capítulo, Brás vai parecer aquele tio que começa uma história no almoço de domingo e para no meio para filosofar.",
+        "visual": { "tipo": "ilustracao", "cena": "an uncle at a crowded Sunday lunch table freezing mid-story with a raised finger and a philosophical pose, the bored family staring at their plates", "busca_reserva": "family Sunday lunch table painting" }
+      },
+      {
+        "narracao": "E como ler? A recomendação do canal é uma só: inteiro, em ordem e devagar, do jeito que ele saiu no folhetim.",
+        "visual": { "tipo": "ilustracao", "cena": "a reader walking a slow winding path made of book pages in the right order, a tortoise walking beside her, a small ghost riding on the tortoise's shell", "busca_reserva": "tortoise slow path vintage illustration" }
+      },
+      {
+        "narracao": "Poucos capítulos por dia, com a edição anotada do lado. Sem maratona.",
+        "visual": { "tipo": "ilustracao", "cena": "a relaxed reader by a window with a coffee cup, reading a single page of an annotated book with notes spilling out of the margin, sunlight streaming in", "busca_reserva": "reader by window coffee book morning vintage" }
+      },
+      {
+        "narracao": "E para não desistir no caminho, conhece seis paradas que vêm pela frente. O um, o dois e o sete: o óbito, o emplasto e o delírio, uma viagem mental no fim da vida.",
+        "visual": { "tipo": "ilustracao", "cena": "a reader on a trail with three small flag markers: one with a coffin, one with a plaster patch, one with a swirling dreamy cloud", "busca_reserva": "trail markers flags map vintage" }
+      },
+      {
+        "narracao": "Depois o sessenta e oito, O vergalho. O cento e dezessete, sobre o Humanitismo. E o último, Das negativas.",
+        "visual": { "tipo": "lista", "titulo": "Mais três paradas", "itens": ["68 · O vergalho", "117 · O Humanitismo", "160 · Das negativas"] }
+      },
+      {
+        "narracao": "Não é para pular direto para elas. É para saber que, quando a digressão apertar, tem coisa boa logo adiante.",
+        "visual": { "tipo": "ilustracao", "cena": "a hiker reader crossing a foggy rope bridge toward warm golden light and a treasure chest full of good chapters waiting on the far side", "busca_reserva": "rope bridge fog golden light vintage" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Saldo final",
+    "cenas": [
+      {
+        "narracao": "Fechando. Memórias Póstumas de Brás Cubas não é um livro sobre a morte. É sobre uma vida desperdiçada, contada por alguém que só teve coragem de ser sincero depois de enterrado.",
+        "visual": { "tipo": "ilustracao", "cena": "a pensive ghost gentleman gazing at a half-empty hourglass and a pile of unfinished projects at his feet, soft melancholic light", "busca_reserva": "hourglass sand antique still life" }
+      },
+      {
+        "narracao": "O humor continua de pé quase cento e cinquenta anos depois. A cena do vergalho continua pesando.",
+        "visual": { "tipo": "ilustracao", "cena": "a ghost standing at a microphone on a tiny stage lit by a single candle, half the audience laughing and half sitting in silence", "busca_reserva": "candlelit stage small theatre vintage" }
+      },
+      {
+        "narracao": "E o que cansa tem remédio conhecido: nota de rodapé e poucos capítulos por vez. Por isso o saldo, para o Marca-Página, é claro: vale ler hoje, inteiro e sem pressa.",
+        "visual": { "tipo": "cartao", "titulo": "Saldo: vale ler hoje", "subtitulo": "inteiro, sem pressa, com edição anotada" }
+      },
+      {
+        "narracao": "É o que este canal faz com cada livro: separar o que ainda vale do que pesa, e dizer como ler.",
+        "visual": { "tipo": "ilustracao", "cena": "a woman with a ribbon bookmark sorting books into two piles on a table, one pile glowing and one pile heavy with little weights, a ghost helping her carry", "busca_reserva": "sorting books two piles library vintage" }
+      },
+      {
+        "narracao": "Se você vai encarar o Brás, ou já encarou e largou no meio, se inscreve, deixa o like e volta na pergunta do meio: qual seria o título do primeiro capítulo das suas memórias póstumas?",
+        "visual": { "tipo": "ilustracao", "cena": "a friendly ghost pointing at the viewer with a big grin, one hand holding a thumbs-up and the other ringing a small brass bell, flowers on a tombstone behind him", "busca_reserva": "bell ringing thumbs up vintage cartoon" }
+      },
+      {
+        "narracao": "Escreve lá embaixo. Quero ver quem tem coragem de ser tão sincero quanto um defunto.",
+        "visual": { "tipo": "ilustracao", "cena": "a ghost pointing downward at a comment box drawn as a scroll while flexing a brave muscular arm, a cheeky challenge look on his face", "busca_reserva": "pointing down arrow vintage illustration" }
+      },
+      {
+        "narracao": "E já que a semana junta Finados e Halloween, fica a dica: na fila de ideias do canal tem outro clássico em que a morte não fica quieta, o Frankenstein, de Mary Shelley. Até a próxima página, e boa leitura.",
+        "visual": { "tipo": "imagem", "busca": "Frankenstein 1831 frontispiece Theodor von Holst", "movimento": "zoom_in", "legenda": "Frankenstein, edição de 1831" }
+      }
+    ]
+  }
+]

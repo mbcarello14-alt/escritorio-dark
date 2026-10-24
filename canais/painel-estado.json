@@ -1,13 +1,24 @@
 {
-  "atualizado_em": "2026-10-24T23:10:37Z",
+  "atualizado_em": "2026-10-24T23:43:16Z",
   "ativos": {
     "miguel": [
       "Mapeado: terça 27/10 17h00",
       "Marca-Página: quarta 28/10 19h00",
-      "Marca-Página: Brás Cubas: o livro em que o morto narra (e debocha)",
       "Reel Ouro & Império: O rei que gastou tanto ouro que o ouro ficou barato",
       "Reel Marca-Página: 1% por dia vira 37x em um ano? A conta de Hábitos Atômicos",
       "Reel Mapeado: Seu DNA tem 2 metros e cabe num núcleo minúsculo"
+    ],
+    "narrador": [
+      "Marca-Página: Brás Cubas vale ler hoje? Resumo e crítica honesta"
+    ],
+    "ilustrador": [
+      "Marca-Página: Brás Cubas vale ler hoje? Resumo e crítica honesta"
+    ],
+    "editor": [
+      "Marca-Página: Brás Cubas vale ler hoje? Resumo e crítica honesta"
+    ],
+    "clipador": [
+      "Marca-Página: Brás Cubas vale ler hoje? Resumo e crítica honesta"
     ]
   },
   "proximos": [
@@ -56,9 +67,9 @@
       "dia": "2026-10-31",
       "rotulo": "sábado 31/10 11h00",
       "publicar_em_utc": "2026-10-31T14:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "Brás Cubas: o livro em que o morto narra (e debocha)",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "Brás Cubas vale ler hoje? Resumo e crítica honesta",
       "url": ""
     }
   ],
