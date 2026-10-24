@@ -1,0 +1,24 @@
+00:04:48 INFO ilustrações: higgsfield desligado (sem chave)
+00:05:20 INFO narrador Gemini (gemini-3.8-flash-tts, Orus): bloco 1/10
+00:05:21 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+00:05:22 INFO Processing audio with duration 00:35.927
+[0;93m2026-10-24 00:05:22.213233054 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+00:05:22 INFO VAD filter removed 00:00.000 of audio
+00:06:11 INFO narrador Gemini (gemini-3.8-flash-tts, Orus): bloco 2/10
+00:06:11 INFO Processing audio with duration 00:49.647
+00:06:11 INFO VAD filter removed 00:00.112 of audio
+00:06:31 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+00:07:24 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 3/10
+00:07:24 INFO Processing audio with duration 01:37.960
+00:07:24 INFO VAD filter removed 00:00.000 of audio
+00:08:53 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 4/10
+00:08:53 INFO Processing audio with duration 01:37.720
+00:08:54 INFO VAD filter removed 00:00.016 of audio
+00:10:16 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 5/10
+00:10:16 INFO Processing audio with duration 01:20.160
+00:10:16 INFO VAD filter removed 00:00.000 of audio
+00:11:34 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 6/10
+00:11:34 INFO Processing audio with duration 01:24.920
+00:11:34 INFO VAD filter removed 00:00.000 of audio
+00:12:29 WARNING narrador Gemini indisponível ('content') — usando o próximo da lista
+Narrador Gemini indisponível ('content') e não há voz reserva permitida.

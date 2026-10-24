@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-23T23:49:08Z",
+  "atualizado_em": "2026-10-24T00:12:29Z",
   "ativos": {
     "miguel": [
       "Mapeado: terça 27/10 17h00",
@@ -85,8 +85,8 @@
     }
   ],
   "imagens": {
-    "hoje": 64,
-    "neurons": 3712,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
