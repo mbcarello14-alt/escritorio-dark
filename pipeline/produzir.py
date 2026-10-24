@@ -63,7 +63,9 @@ def _visual(ctx: Contexto, cena: dict, idx: int, audio: Path, dur: float, bloco:
                 return _desenhar(ctx, quadro_branco.preparar_desenho(origem, cfg["estilo"]["fundo"]), None, idx, audio, dur)
             img = cartoes.preparar_imagem(origem, tmp / f"cena_{idx:03d}.jpg",
                                           preencher=origem.parent.name in ("ilustracoes", "imagens-fixas"))
-            sobre = cartoes.sobreposicao_legenda(cfg, v["legenda"], tmp / f"leg_{idx:03d}.png") if v.get("legenda") else None
+            # imagem fixa tirada de uma versão anterior já traz a legenda gravada
+            sobre = cartoes.sobreposicao_legenda(cfg, v["legenda"], tmp / f"leg_{idx:03d}.png") \
+                if v.get("legenda") and origem.parent.name != "imagens-fixas" else None
             return render.clipe_imagem(img, audio, dur, saida, movimento, sobre)
         quadro = cartoes.cartao(cfg, v.get("legenda") or bloco, "")
     elif t == "cartao":
