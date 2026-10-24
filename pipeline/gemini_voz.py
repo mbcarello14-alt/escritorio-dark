@@ -142,6 +142,8 @@ def narrar_blocos(pasta: Path, prod: dict, cfg: dict) -> None:
             time.sleep(22)   # plano grátis: poucas chamadas por minuto
             log.info("narrador Gemini (%s, %s): bloco %d/%d", modelo(), voz, n, len(prod["blocos"]))
         aparar_fora_do_roteiro(wav, texto)
+        from .narracao import limpar
+        limpar(wav, texto, cfg)      # instrução lida no meio do trecho
 
 
 def aparar_fora_do_roteiro(wav: Path, texto: str) -> None:
