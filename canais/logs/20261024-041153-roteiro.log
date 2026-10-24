@@ -1,0 +1,192 @@
+comando: /roteiro canais/livros/videos/2026-10-31
+🔧 Bash {"command": "cd canais/livros/videos/2026-10-31 && ls && cat estado.json && cat 01-pauta.md && head -c 3000 pautas.json"}
+🔧 Agent {"subagent_type": "pesquisador-livros", "description": "Dossiê Brás Cubas", "prompt": "Etapa 2 (dossiê). Pasta do vídeo: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/estado.json"}
+💬 O dossiê está sendo montado pelo pesquisador. Aguardo o aviso de conclusão para seguir para o roteiro.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 WebSearch {"query": "Memórias Póstumas de Brás Cubas Companhia das Letras edição páginas ISBN", "mode": "standard"}
+🔧 WebSearch {"query": "lista de leituras obrigatórias Fuvest 2027 Unicamp 2027 Memórias Póstumas de Brás Cubas", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.todamateria.com.br/resumo-e-analise-de-memorias-postumas-de-bras-cubas/", "prompt": "Resuma enredo, estrutura (capítulos, narrador, prólogo \"Ao leitor\", dedicatória ao verme, Qu
+🔧 WebFetch {"url": "https://blogdoenem.com.br/livros-dos-vestibulares-2027/", "prompt": "Esta lista inclui Memórias Póstumas de Brás Cubas ou Machado de Assis em qual vestibular (Fuvest, Unicamp, UERJ, UFPR, UFS
+🔧 WebFetch {"url": "https://vestibulares.estrategia.com/portal/noticias/vestibular-2027-quais-sao-as-obras-obrigatorias/", "prompt": "Memórias Póstumas de Brás Cubas ou Machado de Assis aparece em algum vestibul
+🔧 WebSearch {"query": "Memórias Póstumas de Brás Cubas Revista Brasileira 1880 folhetim primeira edição livro 1881 Tipografia Nacional Roberto Schwarz Ao mestre com carinho", "mode": "standard"}
+🔧 WebFetch {"url": "https://machado.byu.edu/?p=99", "prompt": "Dados de publicação: revista, datas, livro 1881, estrutura, nº de capítulos, prólogo, temas. Resuma em português."}
+🔧 WebSearch {"query": "Roberto Schwarz \"Um mestre na periferia do capitalismo\" Brás Cubas volubilidade narrador classe dominante Duas Cidades Editora 34", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.companhiadasletras.com.br/livro/9788582850015/memorias-postumas-de-bras-cubas", "prompt": "Páginas, ano, tradutor/organização, prefácio, notas, preço, sinopse, ISBN."}
+🔧 WebFetch {"url": "https://archive.org/download/memoriasPostumasBrasCubas/memoriasBras.pdf", "prompt": "Extraia a lista de títulos dos primeiros capítulos e do prólogo \"Ao leitor\", a dedicatória ao verme (par
+🔧 WebFetch {"url": "https://dn710203.ca.archive.org/0/items/memoriasPostumasBrasCubas/memoriasBras.pdf", "prompt": "Extraia: títulos dos capítulos I a VII, prólogo \"Ao leitor\", dedicatória ao verme (parafrasei
+🔧 WebSearch {"query": "Memórias Póstumas de Brás Cubas Machado de Assis crítica Antonio Candido Bosi \"o que envelheceu\" leitura hoje dificuldade referências digressões", "mode": "standard"}
+🔧 WebSearch {"query": "Memórias Póstumas de Brás Cubas Laurence Sterne Xavier de Maistre influência Viagem à roda do meu quarto Tristram Shandy Machado prólogo terceira edição", "mode": "standard"}
+🔧 WebFetch {"url": "https://pt.wikisource.org/wiki/Mem%C3%B3rias_P%C3%B3stumas_de_Br%C3%A1s_Cubas", "prompt": "Liste os títulos dos capítulos principais com numeração romana: I a VII, o do emplasto, Prudêncio, H
+🔧 WebFetch {"url": "https://www.todamateria.com.br/resumo-e-analise-de-memorias-postumas-de-bras-cubas/", "prompt": "O que a página diz sobre contexto histórico, escravidão, Prudêncio, Humanitismo, ironia, narra
+🔧 WebSearch {"query": "Memórias Póstumas de Brás Cubas Domínio Público MEC download gratuito Biblioteca Brasiliana Guita e José Mindlin", "mode": "standard"}
+🔧 WebSearch {"query": "Comvest Unicamp 2027 lista de obras literárias obrigatórias nove títulos", "mode": "standard", "allowed_domains": ["comvest.unicamp.br", "unicamp.br"]}
+🔧 WebFetch {"url": "https://pt.wikisource.org/wiki/Mem%C3%B3rias_P%C3%B3stumas_de_Br%C3%A1s_Cubas/LXVIII", "prompt": "Qual o título do capítulo e o que acontece (Prudêncio, vergalho)? Parafraseie em 3 frases."}
+💬 Vou confirmar a lista oficial da Unicamp.
+🔧 WebFetch {"url": "https://www.comvest.unicamp.br/lista-de-obras/", "prompt": "Liste as obras do bloco do vestibular 2027 e diga se Memórias Póstumas de Brás Cubas aparece nele. Cite a edição/observações, se ho
+🔧 WebFetch {"url": "https://www.unicamp.br/noticias/2025/03/25/comvest-divulga-listas-de-livros-para-os-vestibulares-2027-2028-e-2029/", "prompt": "Memórias Póstumas de Brás Cubas aparece na lista de 2027? Liste
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/02-dossie.md", "content": "# Dossiê — Memórias Póstumas de Brás Cubas (Machado de Assis)\nCanal Marca-P
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/02-dossie.md", "content": "PLACEHOLDER"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/02-dossie.md", "content": "# Dossiê — Memórias Póstumas de Brás Cubas (Machado de Assis)\nCanal Marca-P
+💬 Escrevi o dossiê em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/02-dossie.md`. Ele ainda tem pendências, listadas abaixo.
+
+**O que está no dossiê**
+- **Edição de referência:** Penguin-Companhia (Companhia das Letras), lançada em 16/09/2014, 368 páginas, ISBN 978-85-8285-001-5. Tem notas de Marta de Senna e Marcelo Diego, prefácio de Hélio de Seixas Guimarães e o prólogo da 3ª edição. A fonte é a página da editora.
+- **Publicação:** folhetim na *Revista Brasileira* de março a dezembro de 1880. Em livro, janeiro de 1881, com 160 capítulos (I a CLX).
+- **Est
+🔧 Agent {"subagent_type": "roteirista-livros", "description": "Roteiro Brás Cubas", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31. Leia estado.json, 01-pa
+💬 O dossiê está pronto e o roteirista está escrevendo o roteiro. Quando ele terminar, sigo para a checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "content": "# Roteiro — Marca-Página — sáb 31/10/2026, 11h\n**Livro:** Memórias Póstuma
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Brás Cubas: o livro em que o morto narra (e de
+💬 Escrevi o roteiro de Memórias Póstumas de Brás Cubas em dois arquivos: `03-roteiro.md` e `roteiro.json`, no formato pedido. O JSON não passou por nenhum validador. Não mexi no `estado.json`: o campo `titulo` ainda precisa receber o título provisório, "Brás Cubas: o livro em que o morto narra (e debocha)".
+
+- **Tamanho:** são 11 blocos e cerca de 1.820 palavras, contadas à mão. Isso dá uns 12 minutos, no topo da faixa pedida. Para chegar mais perto dos 11, dá para cortar o bônus Meyer/Schwarz do bloco 8, que tem umas 65 palavras.
+- **Tese:** o livro é uma comédia sobre vaidade e vida desperdiça
+🔧 Agent {"subagent_type": "checador", "description": "Checar roteiro Brás Cubas", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31. Cheque cada afirmação de 
+💬 O roteiro está escrito e o checador está conferindo as afirmações. Aguardo o resultado.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/pautas.json"}
+🔧 WebFetch {"url": "https://pt.wikisource.org/wiki/Mem%C3%B3rias_P%C3%B3stumas_de_Br%C3%A1s_Cubas", "prompt": "List chapter numbers and titles for I, II, IV, VII, XVI, LXVIII, LXX, LXXIV, CXVII, CLX, and total c
+🔧 WebFetch {"url": "https://www.unicamp.br/noticias/2025/03/25/comvest-divulga-listas-de-livros-para-os-vestibulares-2027-2028-e-2029/", "prompt": "Does the list include Memórias Póstumas de Brás Cubas? For whic
+🔧 WebSearch {"query": "\"Ao leitor\" Brás Cubas \"forma livre de um Sterne, ou de um Xavier de Maistre\" \"rabugens de pessimismo\"", "mode": "standard"}
+🔧 WebSearch {"query": "Brás Cubas \"supinamente filosófico\" \"brincalhão\" capítulo livro \"obra de finado\"", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.todamateria.com.br/resumo-e-analise-de-memorias-postumas-de-bras-cubas/", "prompt": "What does it say about Prudêncio (childhood vs adult/vergalho), Eugênia, Marcela quote, funera
+🔧 WebFetch {"url": "https://periodicos.ufes.br/machadiana/article/download/48634/33636/175313", "prompt": "Find where the narrator calls the book \"brincalhão\"/\"brincalhona\" and \"supinamente filosófico\". Qu
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/04-checagem.md", "content": "# Checagem: Brás Cubas (Marca-Página, sáb 31/10/2026)\n\n**VEREDITO: CORRI
+💬 Veredito: **CORRIGIR** (volta 1 de 2). Escrevi a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/04-checagem.md`.
+
+Conferi 30 afirmações, e 6 precisam de correção. Os números e títulos de capítulo, as datas de publicação, as 368 páginas da Penguin-Companhia e a lista da Unicamp (2027, 2028 e 2029) conferem.
+
+Correções pedidas ao roteirista:
+1. **"Ao leitor" (blocos 3 e 7):** o texto original diz "não sei se lhe meti algumas rabugens de pessimismo". O roteiro afirma "um pouco mais de pessimismo" e "mais amargo que os mestres", o que não confere. Re
+🔧 Agent {"subagent_type": "roteirista-livros", "description": "Aplicar correções checagem", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31. Leia 04-checage
+💬 O checador pediu 6 correções (30 afirmações checadas). O roteirista está aplicando todas. Depois faço a originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "Imagina abrir uma autobiografia e o autor avisar, 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "## Bloco 3 — O truque do defunto-autor (187 palavr
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "o narrador diz que adotou a forma livre de Sterne 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "## Bloco 4 — A vida de quem não precisou fazer nad
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "somar à imagem dele, e tem uma que ele despreza po
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "E um dos resumos que a gente consultou para este v
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "## Bloco 7 — Um final feito de negativas (155 pala
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "é ali que o pessimismo prometido na abertura apres
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "## Bloco 8 — O que o livro acerta (156 palavras)",
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "como ler esse narrador. Augusto Meyer", "new_strin
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "## Bloco 9 — Onde o livro cansa (157 palavras)\nAg
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "## Bloco 10 — Para quem serve e por onde começar (
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "lê tudo em ordem, porque o livro foi pensado em se
+💬 Agora o cabeçalho, as notas para o checador e a lista de mudanças.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "**Contagem:** cerca de 1.820 palavras", "new_strin
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "capítulo e nome de Eugênia (só \"uma moça que ele 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "old_string": "- \"Ao leitor\" com Sterne/Xavier de Maistre e \"m
+💬 Agora o roteiro.json, com os mesmos textos.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "old_string": "o autor avisar, na primeira página, que já morreu."
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "old_string": "A crítica chama esse narrador de defunto-autor, e a
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "old_string": "o narrador diz que adotou a forma livre de Sterne o
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "old_string": "somar à imagem dele, e tem uma que ele despreza por
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "old_string": "E um dos resumos que a gente consultou para este ví
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "old_string": "o pessimismo prometido na abertura apresenta a cont
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "old_string": "como ler esse narrador. Augusto Meyer", "new_string
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "old_string": "O próprio narrador chama o livro de brincalhão e fi
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "old_string": "lê tudo em ordem, porque o livro foi pensado em seq
+💬 Apliquei as seis correções da checagem em `03-roteiro.md` e em `roteiro.json`, com o mesmo texto nos dois arquivos. Não rodei nenhum validador no `roteiro.json`. As alterações só trocam texto dentro dos campos `texto` e não acrescentam aspas.
+
+1. **Bloco 1:** "na primeira página" virou "logo no começo".
+2. **Bloco 3, defunto-autor:** a frase que atribuía o termo à crítica agora diz "O próprio Brás se apresenta como defunto-autor".
+3. **Abertura "Ao leitor" (blocos 3 e 7):** o texto agora diz que ele "seguiu a forma livre de Sterne ou de Xavier de Maistre e, quem sabe, meteu algumas rabugens de
+🔧 Agent {"subagent_type": "guardiao-originalidade", "description": "Originalidade Brás Cubas", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31. Avalie 03-ro
+💬 As correções foram aplicadas e o guardião de originalidade está avaliando o roteiro. Aguardo o resultado.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/05-originalidade.md", "content": "# Originalidade: Brás Cubas (Marca-Página, sáb 31/10/2026)\n\n**Semáf
+💬 Escrevi o `05-originalidade.md` com o semáforo 🟡 (ajustar). O roteiro está limpo em reutilização e temas sensíveis, mas a voz ainda é de IA. A nota do Miguel veio vazia, então as opiniões "do canal" foram inventadas pelo roteirista.
+
+**Notas**
+
+| Item | Nota | Motivo |
+|---|---|---|
+| Variação | 7 | O histórico do canal está vazio, então não há como comparar com os 5 últimos. O risco é o molde "ficha, enredo, acerta, cansa, para quem serve" virar template nos próximos vídeos. |
+| Valor próprio | 6 | O roteiro de capítulos para começar (1, 2, 7, 68, 117, 160) e a leitura do capítulo 68 têm valo
+🔧 Agent {"subagent_type": "roteirista-livros", "description": "Aplicar mudanças originalidade", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31. Leia 05-ori
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/05-originalidade.md"}
+💬 O guardião deu 🟡. O roteirista está aplicando as mudanças de maior impacto (a única volta permitida). Depois confiro engajamento e nicho e atualizo o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/04-checagem.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/03-roteiro.md", "content": "# Roteiro — Marca-Página — sáb 31/10/2026, 11h\n**Livro:** Memórias Póstuma
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Brás Cubas: o livro em que o morto narra (e de
+💬 Fiz as três mudanças em `03-roteiro.md` e `roteiro.json`. O roteiro ainda não está pronto para gravar: falta a resposta do Miguel à pergunta do `roteiro.json`. Não consegui validar o JSON com uma ferramenta; revisei a estrutura à mão.
+
+1. **Opinião do Miguel:** nenhuma frase atribui opinião a ele.
+   - **Onde cansa (bloco 9):** saiu "opinião do canal, sem rodeio". O bloco agora se apoia no que o dossiê traz (seção 9): o livro se diz "filosófico e brincalhão", tem digressões, enredo fino e referências de época. A "suspeita nossa" sobre quem leu por obrigação virou uma observação ligada ao folhe
+💬 Agora confiro o JSON, as chamadas de engajamento e o nicho.
+🔧 Bash {"command": "python3 -I - <<'E'\nimport json\nr=json.load(open('roteiro.json'))\nprint(r['titulo_provisorio'],'|',r['semaforo'],'|',r['resumo_checagem'],'|',r['pergunta_para_miguel'])\nfor i,b in enum
+❌ This Bash command contains multiple operations. The following part requires approval: python3 -I - <<'E'
+import json
+r=json.load(open('roteiro.json'))
+print(r['titulo_provisorio'],'|',r['semaforo'],'|',r['resumo_checagem'],'|',r['pergunta_para_miguel'])
+for i,b in enumerate(r['blocos'],1):
+    t=b['texto'].lower()
+    print(i,b['capitulo'],len(t.split()),[k for k in('inscre','curt','like','coment'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/estado.json", "old_string": "  \"nota_miguel\": \"\"", "new_string": "  \"nota_mi
+💬 O roteiro de **Brás Cubas: o livro em que o morto narra (e debocha)** está pronto em `canais/livros/videos/2026-10-31/`, com semáforo 🟡 por falta da opinião do Miguel.
+
+Não rodei nenhum validador no `roteiro.json`. Conferi a estrutura lendo o arquivo. O `estado.json` agora tem o `titulo`, e não criei `producao.json`.
+
+- **Roteiro:** 11 blocos, cerca de 13 minutos. A tese é ler o livro inteiro, em ordem e devagar, poucos capítulos por vez, como no folhetim.
+- **Checagem:** o checador conferiu 30 afirmações e pediu 6 correções, todas aplicadas. Não o rodei de novo depois da última revisão.
+- **O
+
+=== resultado: success | turnos 3 | 7s | erro=False
+O dossiê está sendo montado pelo pesquisador. Aguardo o aviso de conclusão para seguir para o roteiro.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O dossiê está pronto e o roteirista está escrevendo o roteiro. Quando ele terminar, sigo para a checagem.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+O roteiro está escrito e o checador está conferindo as afirmações. Aguardo o resultado.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+O checador pediu 6 correções (30 afirmações checadas). O roteirista está aplicando todas. Depois faço a originalidade.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+As correções foram aplicadas e o guardião de originalidade está avaliando o roteiro. Aguardo o resultado.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+O guardião deu 🟡. O roteirista está aplicando as mudanças de maior impacto (a única volta permitida). Depois confiro engajamento e nicho e atualizo o `estado.json`.
+
+=== resultado: success | turnos 4 | 11s | erro=False
+O roteiro de **Brás Cubas: o livro em que o morto narra (e debocha)** está pronto em `canais/livros/videos/2026-10-31/`, com semáforo 🟡 por falta da opinião do Miguel.
+
+Não rodei nenhum validador no `roteiro.json`. Conferi a estrutura lendo o arquivo. O `estado.json` agora tem o `titulo`, e não criei `producao.json`.
+
+- **Roteiro:** 11 blocos, cerca de 13 minutos. A tese é ler o livro inteiro, em ordem e devagar, poucos capítulos por vez, como no folhetim.
+- **Checagem:** o checador conferiu 30 afirmações e pediu 6 correções, todas aplicadas. Não o rodei de novo depois da última revisão.
+- **Originalidade 🟡:** o roteiro está limpo em reutilização e temas sensíveis, mas a voz ainda soa de IA e falta opinião do Miguel. Apliquei a única volta permitida, com tese mais firme e menos "na leitura do canal".
+- **Engajamento:** estão nas três posições. O bloco 1 pede inscrição e like. O bloco 5 faz a pergunta aos comentários, perto de 45% do vídeo. O bloco 11 pede inscrição, like e comentário.
+- **Nicho:** o roteiro fala só do livro. O vestibular aparece uma vez, citando a Unicamp.
+- **Duas frases sem conferência:** "ao longo de dez meses" (bloco 9) e "a piada que começou lá no capítulo dois" (bloco 7) foram acrescentadas na última revisão. O roteirista pediu que o checador as conferisse.
+
+A `nota_miguel` veio vazia, então nenhuma opinião foi atribuída a ele. A pergunta que o Miguel precisa responder é se leu o livro até o fim, em que momento quase largou ou riu alto, e se concorda com a recomendação de ler devagar. A resposta dele entra no veredito (bloco 11) e em "onde cansa" (bloco 9).
+
+Antes de gravar, o Miguel deve conferir no exemplar impresso da Penguin-Companhia as 368 páginas e os números dos capítulos. O link de afiliado da edição precisa ser declarado na descrição. O gancho final cita o Frankenstein como ideia na fila do canal, e precisa trocar se essa pauta não for produzida.
+codigo de saida: 0

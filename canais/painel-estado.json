@@ -1,21 +1,10 @@
 {
-  "atualizado_em": "2026-10-24T04:24:38Z",
+  "atualizado_em": "2026-10-24T04:28:05Z",
   "ativos": {
     "miguel": [
       "Mapeado: terça 27/10 17h00",
-      "Marca-Página: quarta 28/10 19h00"
-    ],
-    "pesquisador_livros": [
-      "Marca-Página: sábado 31/10 11h00"
-    ],
-    "roteirista_livros": [
-      "Marca-Página: sábado 31/10 11h00"
-    ],
-    "checador": [
-      "Marca-Página: sábado 31/10 11h00"
-    ],
-    "guardiao": [
-      "Marca-Página: sábado 31/10 11h00"
+      "Marca-Página: quarta 28/10 19h00",
+      "Marca-Página: Brás Cubas: o livro em que o morto narra (e debocha)"
     ]
   },
   "proximos": [
@@ -64,9 +53,9 @@
       "dia": "2026-10-31",
       "rotulo": "sábado 31/10 11h00",
       "publicar_em_utc": "2026-10-31T14:00:00Z",
-      "etapa": "roteiro",
-      "etapa_txt": "✍️ escrevendo e checando o roteiro",
-      "titulo": "",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "titulo": "Brás Cubas: o livro em que o morto narra (e debocha)",
       "url": ""
     }
   ],
