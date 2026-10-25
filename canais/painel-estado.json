@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-24T23:43:58Z",
+  "atualizado_em": "2026-10-25T00:25:24Z",
   "ativos": {
     "miguel": [
       "Mapeado: terça 27/10 17h00",
@@ -7,18 +7,6 @@
       "Reel Ouro & Império: O rei que gastou tanto ouro que o ouro ficou barato",
       "Reel Marca-Página: 1% por dia vira 37x em um ano? A conta de Hábitos Atômicos",
       "Reel Mapeado: Seu DNA tem 2 metros e cabe num núcleo minúsculo"
-    ],
-    "narrador": [
-      "Marca-Página: Brás Cubas vale ler hoje? Resumo e crítica honesta"
-    ],
-    "ilustrador": [
-      "Marca-Página: Brás Cubas vale ler hoje? Resumo e crítica honesta"
-    ],
-    "editor": [
-      "Marca-Página: Brás Cubas vale ler hoje? Resumo e crítica honesta"
-    ],
-    "clipador": [
-      "Marca-Página: Brás Cubas vale ler hoje? Resumo e crítica honesta"
     ]
   },
   "proximos": [
@@ -67,10 +55,10 @@
       "dia": "2026-10-31",
       "rotulo": "sábado 31/10 11h00",
       "publicar_em_utc": "2026-10-31T14:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Brás Cubas vale ler hoje? Resumo e crítica honesta",
-      "url": ""
+      "url": "https://youtu.be/Mft_SMJc2k4"
     }
   ],
   "publicados": [],
@@ -98,8 +86,8 @@
     }
   ],
   "imagens": {
-    "hoje": 65,
-    "neurons": 7895,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
