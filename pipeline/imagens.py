@@ -62,6 +62,26 @@ class Buscador:
 
     # ------------------------------------------------------------------ público
     def buscar(self, busca: str) -> Path | None:
+        """Tenta a busca completa e, se nada servir, versões mais curtas dela (menos específicas)."""
+        vazias = {"photograph", "photo", "engraving", "illustration", "vintage", "lithograph", "painting", "portrait",
+                  "the", "of", "a", "an", "in", "with", "and"}
+        palavras = busca.split()
+        chave = [w for w in palavras if w.lower() not in vazias]
+        tentativas = [busca, " ".join(chave[:4]), " ".join(chave[:3]), " ".join(chave[:2]), " ".join(chave[-2:])]
+        vistos = set()
+        for t in tentativas:
+            t = t.strip()
+            if not t or t in vistos:
+                continue
+            vistos.add(t)
+            p = self._buscar(t)
+            if p:
+                if t != busca:
+                    log.info("imagem para '%s' achada buscando '%s'", busca, t)
+                return p
+        return None
+
+    def _buscar(self, busca: str) -> Path | None:
         """Baixa a melhor imagem ainda não usada para `busca`. Devolve None se nada servir."""
         for fonte in self.fontes:
             try:
