@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-25T23:13:45Z",
+  "atualizado_em": "2026-10-25T23:15:30Z",
   "ativos": {
     "miguel": [
       "Mapeado: terça 27/10 17h00",
@@ -8,6 +8,9 @@
       "Reel Ouro & Império: O rei que gastou tanto ouro que o ouro ficou barato",
       "Reel Marca-Página: 1% por dia vira 37x em um ano? A conta de Hábitos Atômicos",
       "Reel Mapeado: Seu DNA tem 2 metros e cabe num núcleo minúsculo"
+    ],
+    "pesquisador_vestibular": [
+      "Mapeado: terça 03/11 17h00"
     ]
   },
   "proximos": [
@@ -66,8 +69,8 @@
       "dia": "2026-11-03",
       "rotulo": "terça 03/11 17h00",
       "publicar_em_utc": "2026-11-03T20:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
+      "etapa": "pauta",
+      "etapa_txt": "🔎 pesquisando pautas",
       "titulo": "",
       "url": ""
     }

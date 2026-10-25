@@ -1,17 +1,5 @@
 [
-  {
-    "titulo": "Brasil Colônia: o mapa que mais cai no ENEM",
-    "angulo": "Um mapa mental dos ciclos econômicos que liga dinheiro, território, trabalho e resistência, fechando com uma questão real do ENEM resolvida pelo mapa.",
-    "porque": "Brasil Colônia lidera História em levantamentos de 2016–2025 (11,8%) e a revisão final do ENEM (8/11) está a 12 dias da publicação."
-  },
-  {
-    "titulo": "Geografia Agrária no ENEM: o mapa completo",
-    "angulo": "Um mapa que separa quem tem a terra, quem produz e para quem produz, só com conceitos e dados, e fecha com uma questão real resolvida.",
-    "porque": "Espaço agrário é o tema nº 1 de Geografia (12,4% em 2016–2025; 17,5% no Raio-X do SAS) e os vídeos misturam conceitos sem esquema visual."
-  },
-  {
-    "titulo": "Filosofia Antiga no ENEM: Sócrates, Platão e Aristóteles",
-    "angulo": "O mapa parte de uma pergunta (como conhecemos a verdade?) e põe cada filósofo como resposta ou crítica ao anterior, com questão real resolvida.",
-    "porque": "Filosofia antiga lidera Filosofia em 2016–2025 (28,1%) e os resumos existentes viram biografia em vez de conceito aplicado ao texto da prova."
-  }
+  {"titulo": "Regra de três e porcentagem: o mapa do que mais cai", "angulo": "Um único mapa mental com os 4 tipos de problema de proporcionalidade do ENEM (direta, inversa, composta, porcentagem sucessiva) e o passo a passo de reconhecer cada um em 10 segundos.", "porque": "Matemática básica é a base de grande parte da prova do dia 15/11 e os vídeos existentes ensinam receita sem ensinar a identificar o tipo de problema."},
+  {"titulo": "Estequiometria no ENEM: pureza e rendimento sem medo", "angulo": "O mapa vira uma trilha de 4 passos (equação, mols, proporção, correção por pureza/rendimento) que o aluno segue em qualquer questão, com a pegadinha da conta sem balancear.", "porque": "Estequiometria é item fixo nas listas de prioridade de Química para a reta final e a maioria dos vídeos para na conta simples, sem pureza e rendimento."},
+  {"titulo": "Heredogramas: como resolver genética em 4 passos", "angulo": "O mapa mental ensina a ler o heredograma como um detetive: dominante ou recessivo, ligado ao sexo ou não, e depois a probabilidade, com a pegadinha do 'já nasceu normal'.", "porque": "Genética e heredogramas aparecem em Biologia do ENEM e de Fuvest/Unicamp quase todo ano, e os vídeos costumam decorar regras em vez de ensinar a leitura do heredograma."}
 ]
