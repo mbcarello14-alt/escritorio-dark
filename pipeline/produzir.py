@@ -181,6 +181,9 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         ctx.ilustrador.pre_gerar(pedidos + [prod["thumbnail"].get("cena")])
         # trava: sem os desenhos, o vídeo não sobe — espera a cota de imagens voltar (o que já foi feito fica guardado)
         faltam = [d for d in pedidos if d and not ctx.ilustrador._destino(d).exists()]
+        if prod["thumbnail"].get("cena") and not ctx.ilustrador._destino(prod["thumbnail"]["cena"]).exists() \
+                and not (pasta / "thumbnail-fixa.jpg").exists():
+            faltam.append("thumbnail")   # a thumbnail também espera o desenho
         if pedidos and len(faltam) / len(pedidos) > 0.25 and not sem_upload and not os.environ.get("FORCAR_SEM_IMAGEM"):
             quando = json.loads((pasta / "estado.json").read_text(encoding="utf-8")).get("publicar_em_utc") \
                 if (pasta / "estado.json").exists() else None
@@ -246,6 +249,11 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         thumb = Path(shutil.copy(fixa, saida / "thumbnail.jpg"))
     else:
         img_thumb = ctx.imagem(th.get("cena"), th.get("imagem_busca"))
+        if not img_thumb:   # thumbnail nunca sai sem imagem: usa a melhor ilustração do próprio vídeo
+            ilus = sorted((pasta / "saida" / "ilustracoes").glob("*.img"), key=lambda a: -a.stat().st_size) \
+                if (pasta / "saida" / "ilustracoes").exists() else []
+            img_thumb = ilus[0] if ilus else None
+            log.warning("thumbnail sem a imagem planejada — usando %s", img_thumb.name if img_thumb else "só o fundo")
         thumb = cartoes.thumbnail(cfg, th["texto"], img_thumb, th.get("layout", "direita"), saida / "thumbnail.jpg")
 
     partes = [prod["descricao"].strip()]
