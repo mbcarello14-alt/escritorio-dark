@@ -1,0 +1,412 @@
+00:46:23 INFO ilustrações: higgsfield desligado (sem chave)
+00:46:23 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+00:46:24 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+00:46:25 INFO Processing audio with duration 00:41.767
+[0;93m2026-10-25 00:46:25.325433310 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+00:46:25 INFO VAD filter removed 00:00.000 of audio
+00:46:42 INFO Processing audio with duration 00:41.767
+00:46:43 INFO VAD filter removed 00:00.000 of audio
+00:47:00 INFO Processing audio with duration 01:06.367
+00:47:00 INFO VAD filter removed 00:00.000 of audio
+00:47:29 INFO Processing audio with duration 01:06.367
+00:47:29 INFO VAD filter removed 00:00.000 of audio
+00:47:57 INFO Processing audio with duration 01:08.167
+00:47:57 INFO VAD filter removed 00:00.000 of audio
+00:48:27 INFO Processing audio with duration 01:08.167
+00:48:27 INFO VAD filter removed 00:00.000 of audio
+00:48:56 INFO Processing audio with duration 01:01.087
+00:48:57 INFO VAD filter removed 00:00.000 of audio
+00:49:22 INFO Processing audio with duration 01:01.087
+00:49:22 INFO VAD filter removed 00:00.000 of audio
+00:49:48 INFO Processing audio with duration 01:04.927
+00:49:48 INFO VAD filter removed 00:00.000 of audio
+00:50:16 INFO Processing audio with duration 01:04.927
+00:50:16 INFO VAD filter removed 00:00.000 of audio
+00:50:43 INFO Processing audio with duration 00:54.887
+00:50:43 INFO VAD filter removed 00:00.000 of audio
+00:51:05 INFO Processing audio with duration 00:54.887
+00:51:06 INFO VAD filter removed 00:00.000 of audio
+00:51:28 INFO Processing audio with duration 00:55.847
+00:51:28 INFO VAD filter removed 00:00.000 of audio
+00:51:48 INFO Processing audio with duration 00:55.847
+00:51:48 INFO VAD filter removed 00:00.000 of audio
+00:52:09 INFO Processing audio with duration 01:01.087
+00:52:09 INFO VAD filter removed 00:00.000 of audio
+00:52:35 INFO Processing audio with duration 01:01.087
+00:52:36 INFO VAD filter removed 00:00.000 of audio
+00:53:03 INFO Processing audio with duration 01:02.527
+00:53:03 INFO VAD filter removed 00:00.000 of audio
+00:53:29 INFO Processing audio with duration 01:02.527
+00:53:29 INFO VAD filter removed 00:00.000 of audio
+00:53:56 INFO Processing audio with duration 01:11.327
+00:53:56 INFO VAD filter removed 00:00.000 of audio
+00:54:25 INFO Processing audio with duration 01:11.327
+00:54:25 INFO VAD filter removed 00:00.000 of audio
+00:54:54 INFO Processing audio with duration 01:09.607
+00:54:54 INFO VAD filter removed 00:00.000 of audio
+00:55:22 INFO Processing audio with duration 01:09.607
+00:55:22 INFO VAD filter removed 00:00.000 of audio
+00:55:49 INFO gerando 65 ilustrações…
+00:55:49 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+00:55:49 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+00:55:49 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+00:55:49 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+00:55:49 INFO ilustrações prontas: 0 geradas (65 pedidas)
+00:55:50 INFO Processing audio with duration 00:41.768
+00:55:51 INFO VAD filter removed 00:00.000 of audio
+00:56:08 INFO bloco 1: 41.8s, 120 palavras reconhecidas
+00:56:13 WARNING nenhuma imagem livre para '19th century funeral coffin engraving Rio de Janeiro' — usando cartão
+00:56:15 INFO imagem '19th century funeral coffin' ← wikimedia
+00:56:15 INFO imagem para '19th century funeral coffin engraving Rio de Janeiro' achada buscando '19th century funeral coffin'
+00:56:31 INFO cena 1 pronta (15.4s, total 15s)
+00:56:32 INFO imagem 'Machado de Assis portrait photograph' ← wikimedia
+00:56:49 INFO cena 2 pronta (12.4s, total 28s)
+00:56:53 WARNING nenhuma imagem livre para 'All Souls Day cemetery flowers candles' — usando cartão
+00:56:55 INFO imagem 'All Souls Day cemetery' ← wikimedia
+00:56:55 INFO imagem para 'All Souls Day cemetery flowers candles' achada buscando 'All Souls Day cemetery'
+00:57:26 INFO cena 3 pronta (14.0s, total 42s)
+00:57:28 INFO Processing audio with duration 01:06.368
+00:57:29 INFO VAD filter removed 00:00.000 of audio
+00:57:57 INFO bloco 2: 66.4s, 193 palavras reconhecidas
+00:57:58 WARNING nenhuma imagem livre para 'reader covering eyes with book vintage illustration' — usando cartão
+00:58:02 WARNING nenhuma imagem livre para 'reader covering eyes book' — usando cartão
+00:58:03 INFO imagem 'reader covering eyes' ← wikimedia
+00:58:03 INFO imagem para 'reader covering eyes with book vintage illustration' achada buscando 'reader covering eyes'
+00:58:12 INFO cena 4 pronta (9.0s, total 51s)
+00:58:16 WARNING nenhuma imagem livre para 'bookmark ribbon closed book shelf vintage' — usando cartão
+00:58:23 INFO imagem 'bookmark ribbon closed book' ← openverse
+00:58:23 INFO imagem para 'bookmark ribbon closed book shelf vintage' achada buscando 'bookmark ribbon closed book'
+00:58:32 INFO cena 5 pronta (9.7s, total 60s)
+00:58:34 WARNING nenhuma imagem livre para 'Rio de Janeiro 1880 Rua do Ouvidor lithograph' — usando cartão
+00:58:36 INFO imagem 'Rio de Janeiro 1880' ← wikimedia
+00:58:36 INFO imagem para 'Rio de Janeiro 1880 Rua do Ouvidor lithograph' achada buscando 'Rio de Janeiro 1880'
+00:58:48 INFO cena 6 pronta (9.5s, total 70s)
+00:58:51 WARNING nenhuma imagem livre para '19th century newspaper serial feuilleton page' — usando cartão
+00:58:53 INFO imagem '19th century newspaper serial' ← wikimedia
+00:58:53 INFO imagem para '19th century newspaper serial feuilleton page' achada buscando '19th century newspaper serial'
+00:58:58 INFO cena 7 pronta (6.0s, total 76s)
+00:59:00 WARNING nenhuma imagem livre para 'Memórias Póstumas de Brás Cubas 1881 first edition title page' — usando cartão
+00:59:02 WARNING nenhuma imagem livre para 'Memórias Póstumas de Brás' — usando cartão
+00:59:04 INFO imagem 'Memórias Póstumas de' ← wikimedia
+00:59:04 INFO imagem para 'Memórias Póstumas de Brás Cubas 1881 first edition title page' achada buscando 'Memórias Póstumas de'
+00:59:10 INFO cena 8 pronta (4.0s, total 80s)
+00:59:18 INFO cena 9 pronta (10.3s, total 90s)
+00:59:21 WARNING nenhuma imagem livre para 'spiral staircase library vintage illustration' — usando cartão
+00:59:23 INFO imagem 'spiral staircase library' ← wikimedia
+00:59:23 INFO imagem para 'spiral staircase library vintage illustration' achada buscando 'spiral staircase library'
+00:59:27 INFO cena 10 pronta (4.8s, total 95s)
+00:59:31 WARNING nenhuma imagem livre para '19th century writer desk quill portrait engraving' — usando cartão
+00:59:34 INFO imagem '19th century writer desk' ← wikimedia
+00:59:34 INFO imagem para '19th century writer desk quill portrait engraving' achada buscando '19th century writer desk'
+00:59:43 INFO cena 11 pronta (9.3s, total 104s)
+00:59:46 WARNING nenhuma imagem livre para 'Rio de Janeiro 19th century gentleman portrait' — usando cartão
+00:59:48 INFO imagem 'Rio de Janeiro 19th' ← wikimedia
+00:59:48 INFO imagem para 'Rio de Janeiro 19th century gentleman portrait' achada buscando 'Rio de Janeiro 19th'
+00:59:52 INFO cena 12 pronta (3.7s, total 108s)
+00:59:54 INFO Processing audio with duration 01:08.168
+00:59:54 INFO VAD filter removed 00:00.000 of audio
+01:00:24 INFO bloco 3: 68.2s, 191 palavras reconhecidas
+01:00:26 INFO imagem '19th century cemetery tombstone engraving' ← wikimedia
+01:00:35 INFO cena 13 pronta (8.7s, total 117s)
+01:00:36 INFO imagem '19th century formal portrait painting gentleman' ← wikimedia
+01:00:42 INFO cena 14 pronta (6.1s, total 123s)
+01:00:45 WARNING nenhuma imagem livre para '19th century ballot box election engraving' — usando cartão
+01:00:48 INFO imagem '19th century ballot box' ← wikimedia
+01:00:48 INFO imagem para '19th century ballot box election engraving' achada buscando '19th century ballot box'
+01:00:55 INFO cena 15 pronta (7.7s, total 130s)
+01:00:59 WARNING nenhuma imagem livre para 'open book pages flying vintage illustration' — usando cartão
+01:01:00 INFO imagem 'open book pages flying' ← wikimedia
+01:01:00 INFO imagem para 'open book pages flying vintage illustration' achada buscando 'open book pages flying'
+01:01:06 INFO cena 16 pronta (6.7s, total 137s)
+01:01:09 INFO imagem 'Laurence Sterne portrait Joshua Reynolds' ← wikimedia
+01:01:25 INFO cena 17 pronta (11.4s, total 149s)
+01:01:26 INFO imagem 'messy writer study 19th century engraving' ← wikimedia
+01:01:33 INFO cena 18 pronta (6.9s, total 156s)
+01:01:39 WARNING nenhuma imagem livre para '19th century patent medicine apothecary advertisement' — usando cartão
+01:01:41 INFO imagem '19th century patent medicine' ← wikimedia
+01:01:41 INFO imagem para '19th century patent medicine apothecary advertisement' achada buscando '19th century patent medicine'
+01:01:49 INFO cena 19 pronta (8.7s, total 164s)
+01:01:52 INFO imagem 'globe of the world antique engraving' ← wikimedia
+01:01:57 INFO cena 20 pronta (4.8s, total 169s)
+01:01:59 INFO imagem 'long paper scroll antique illustration' ← wikimedia
+01:02:06 INFO cena 21 pronta (7.4s, total 176s)
+01:02:08 INFO Processing audio with duration 01:01.088
+01:02:08 INFO VAD filter removed 00:00.000 of audio
+01:02:34 INFO bloco 4: 61.1s, 173 palavras reconhecidas
+01:02:37 WARNING nenhuma imagem livre para '19th century wealthy family mansion Rio de Janeiro painting' — usando cartão
+01:02:39 INFO imagem '19th century wealthy family' ← wikimedia
+01:02:39 INFO imagem para '19th century wealthy family mansion Rio de Janeiro painting' achada buscando '19th century wealthy family'
+01:02:49 INFO cena 22 pronta (10.7s, total 187s)
+01:02:55 INFO cena 23 pronta (7.8s, total 195s)
+01:02:57 INFO imagem '19th century lady with fan painting' ← wikimedia
+01:03:02 INFO cena 24 pronta (5.3s, total 200s)
+01:03:11 INFO cena 25 pronta (13.3s, total 213s)
+01:03:13 INFO imagem 'University of Coimbra tower photograph' ← wikimedia
+01:03:22 INFO cena 26 pronta (6.5s, total 220s)
+01:03:24 INFO imagem 'unfinished painting easel 19th century' ← wikimedia
+01:03:30 INFO cena 27 pronta (7.2s, total 227s)
+01:03:33 WARNING nenhuma imagem livre para '19th century tea drinking gentleman mirror painting' — usando cartão
+01:03:35 INFO imagem '19th century tea drinking' ← wikimedia
+01:03:35 INFO imagem para '19th century tea drinking gentleman mirror painting' achada buscando '19th century tea drinking'
+01:03:45 INFO cena 28 pronta (10.3s, total 237s)
+01:03:47 INFO Processing audio with duration 01:04.927
+01:03:47 INFO VAD filter removed 00:00.000 of audio
+01:04:15 INFO bloco 5: 64.9s, 182 palavras reconhecidas
+01:04:19 WARNING nenhuma imagem livre para '19th century Brazilian wedding couple painting' — usando cartão
+01:04:21 INFO imagem '19th century Brazilian wedding' ← wikimedia
+01:04:21 INFO imagem para '19th century Brazilian wedding couple painting' achada buscando '19th century Brazilian wedding'
+01:04:28 INFO cena 29 pronta (7.3s, total 245s)
+01:04:32 WARNING nenhuma imagem livre para '19th century woman with candle door engraving' — usando cartão
+01:04:33 INFO imagem '19th century woman candle' ← wikimedia
+01:04:33 INFO imagem para '19th century woman with candle door engraving' achada buscando '19th century woman candle'
+01:04:41 INFO cena 30 pronta (8.0s, total 253s)
+01:04:42 WARNING nenhuma imagem livre para 'three people triangle 19th century caricature' — usando cartão
+01:04:44 INFO imagem 'three people triangle 19th' ← wikimedia
+01:04:44 INFO imagem para 'three people triangle 19th century caricature' achada buscando 'three people triangle 19th'
+01:04:52 INFO cena 31 pronta (8.8s, total 262s)
+01:04:59 INFO cena 32 pronta (9.2s, total 271s)
+01:05:01 WARNING nenhuma imagem livre para 'antique gold coins pile engraving' — usando cartão
+01:05:03 INFO imagem 'antique gold coins pile' ← wikimedia
+01:05:03 INFO imagem para 'antique gold coins pile engraving' achada buscando 'antique gold coins pile'
+01:05:13 INFO cena 33 pronta (11.1s, total 282s)
+01:05:19 WARNING nenhuma imagem livre para 'woman reading book mirror reflection vintage' — usando cartão
+01:05:21 INFO imagem 'woman reading book mirror' ← wikimedia
+01:05:21 INFO imagem para 'woman reading book mirror reflection vintage' achada buscando 'woman reading book mirror'
+01:05:27 INFO cena 34 pronta (5.2s, total 287s)
+01:05:31 WARNING nenhuma imagem livre para 'vintage microphone interview illustration' — usando cartão
+01:05:33 INFO imagem 'microphone interview' ← wikimedia
+01:05:33 INFO imagem para 'vintage microphone interview illustration' achada buscando 'microphone interview'
+01:05:41 INFO cena 35 pronta (8.9s, total 296s)
+01:05:43 WARNING nenhuma imagem livre para 'thumbs up vintage cartoon' — usando cartão
+01:05:45 INFO imagem 'thumbs up cartoon' ← wikimedia
+01:05:45 INFO imagem para 'thumbs up vintage cartoon' achada buscando 'thumbs up cartoon'
+01:05:59 INFO cena 36 pronta (6.3s, total 302s)
+01:06:01 INFO Processing audio with duration 00:54.888
+01:06:01 INFO VAD filter removed 00:00.000 of audio
+01:06:22 INFO bloco 6: 54.9s, 159 palavras reconhecidas
+01:06:24 WARNING nenhuma imagem livre para 'theatre comedy tragedy mask antique' — usando cartão
+01:06:26 INFO imagem 'theatre comedy tragedy mask' ← wikimedia
+01:06:26 INFO imagem para 'theatre comedy tragedy mask antique' achada buscando 'theatre comedy tragedy mask'
+01:06:31 INFO cena 37 pronta (4.3s, total 307s)
+01:06:32 WARNING nenhuma imagem livre para 'Rio de Janeiro street 1830s engraving' — usando cartão
+01:06:34 INFO imagem 'Rio de Janeiro street' ← wikimedia
+01:06:34 INFO imagem para 'Rio de Janeiro street 1830s engraving' achada buscando 'Rio de Janeiro street'
+01:06:43 INFO cena 38 pronta (9.0s, total 316s)
+01:06:46 WARNING nenhuma imagem livre para 'Jean-Baptiste Debret Rio de Janeiro street scene lithograph Voyage pittoresque' — usando cartão
+01:06:48 INFO imagem 'Jean-Baptiste Debret Rio de' ← wikimedia
+01:06:48 INFO imagem para 'Jean-Baptiste Debret Rio de Janeiro street scene lithograph Voyage pittoresque' achada buscando 'Jean-Baptiste Debret Rio de'
+01:06:58 INFO cena 39 pronta (5.8s, total 321s)
+01:07:02 WARNING nenhuma imagem livre para 'silhouette gentleman top hat street dusk engraving' — usando cartão
+01:07:04 INFO imagem 'silhouette gentleman top hat' ← wikimedia
+01:07:04 INFO imagem para 'silhouette gentleman top hat street dusk engraving' achada buscando 'silhouette gentleman top hat'
+01:07:11 INFO cena 40 pronta (7.7s, total 329s)
+01:07:13 INFO imagem 'Debret Voyage pittoresque et historique au Brésil plate Rio de Janeiro' ← wikimedia
+01:07:21 INFO cena 41 pronta (5.5s, total 335s)
+01:07:23 WARNING nenhuma imagem livre para 'magnifying glass specimen antique engraving' — usando cartão
+01:07:24 WARNING nenhuma imagem livre para 'magnifying glass specimen antique' — usando cartão
+01:07:29 INFO imagem 'magnifying glass specimen' ← wikimedia
+01:07:29 INFO imagem para 'magnifying glass specimen antique engraving' achada buscando 'magnifying glass specimen'
+01:07:35 INFO cena 42 pronta (6.7s, total 341s)
+01:07:41 INFO cena 43 pronta (9.3s, total 351s)
+01:07:43 INFO imagem 'torn book page vintage' ← wikimedia
+01:07:49 INFO cena 44 pronta (6.6s, total 357s)
+01:07:51 INFO Processing audio with duration 00:55.848
+01:07:51 INFO VAD filter removed 00:00.000 of audio
+01:08:12 INFO bloco 7: 55.8s, 148 palavras reconhecidas
+01:08:15 WARNING nenhuma imagem livre para '19th century philosopher lecturing engraving' — usando cartão
+01:08:16 INFO imagem '19th century philosopher lecturing' ← wikimedia
+01:08:16 INFO imagem para '19th century philosopher lecturing engraving' achada buscando '19th century philosopher lecturing'
+01:08:25 INFO cena 45 pronta (10.6s, total 368s)
+01:08:28 WARNING nenhuma imagem livre para '19th century parliament Brazil Empire engraving' — usando cartão
+01:08:30 INFO imagem '19th century parliament Brazil' ← wikimedia
+01:08:30 INFO imagem para '19th century parliament Brazil Empire engraving' achada buscando '19th century parliament Brazil'
+01:08:37 INFO cena 46 pronta (7.6s, total 375s)
+01:08:38 WARNING nenhuma imagem livre para 'long scroll unrolled antique' — usando cartão
+01:08:41 INFO imagem 'long scroll unrolled' ← wikimedia
+01:08:41 INFO imagem para 'long scroll unrolled antique' achada buscando 'long scroll unrolled'
+01:08:51 INFO cena 47 pronta (11.0s, total 386s)
+01:08:53 WARNING nenhuma imagem livre para 'empty room antique furniture engraving' — usando cartão
+01:08:55 INFO imagem 'empty room antique furniture' ← wikimedia
+01:08:55 INFO imagem para 'empty room antique furniture engraving' achada buscando 'empty room antique furniture'
+01:09:01 INFO cena 48 pronta (6.6s, total 393s)
+01:09:04 WARNING nenhuma imagem livre para '19th century ledger account book clerk engraving' — usando cartão
+01:09:05 INFO imagem '19th century ledger account' ← wikimedia
+01:09:05 INFO imagem para '19th century ledger account book clerk engraving' achada buscando '19th century ledger account'
+01:09:14 INFO cena 49 pronta (9.5s, total 402s)
+01:09:15 WARNING nenhuma imagem livre para 'hush finger lips vintage illustration' — usando cartão
+01:09:17 INFO imagem 'hush finger lips' ← wikimedia
+01:09:17 INFO imagem para 'hush finger lips vintage illustration' achada buscando 'hush finger lips'
+01:09:22 INFO cena 50 pronta (4.8s, total 407s)
+01:09:24 WARNING nenhuma imagem livre para 'waiter bill silver tray vintage' — usando cartão
+01:09:26 WARNING nenhuma imagem livre para 'waiter bill silver tray' — usando cartão
+01:09:28 WARNING nenhuma imagem livre para 'waiter bill silver' — usando cartão
+01:09:30 INFO imagem 'waiter bill' ← wikimedia
+01:09:30 INFO imagem para 'waiter bill silver tray vintage' achada buscando 'waiter bill'
+01:09:36 INFO cena 51 pronta (5.9s, total 413s)
+01:09:38 INFO Processing audio with duration 01:01.088
+01:09:38 INFO VAD filter removed 00:00.000 of audio
+01:10:05 INFO bloco 8: 61.1s, 168 palavras reconhecidas
+01:10:07 WARNING nenhuma imagem livre para 'laughing reader old book vintage' — usando cartão
+01:10:10 WARNING nenhuma imagem livre para 'laughing reader old book' — usando cartão
+01:10:12 INFO imagem 'laughing reader old' ← wikimedia
+01:10:12 INFO imagem para 'laughing reader old book vintage' achada buscando 'laughing reader old'
+01:10:22 INFO cena 52 pronta (11.2s, total 424s)
+01:10:25 WARNING nenhuma imagem livre para 'queue bank reading book vintage' — usando cartão
+01:10:26 INFO imagem 'queue bank reading book' ← wikimedia
+01:10:26 INFO imagem para 'queue bank reading book vintage' achada buscando 'queue bank reading book'
+01:10:32 INFO cena 53 pronta (5.9s, total 430s)
+01:10:33 INFO imagem '19th century political caricature favor' ← wikimedia
+01:10:40 INFO cena 54 pronta (7.5s, total 438s)
+01:10:44 WARNING nenhuma imagem livre para 'snake oil salesman stage crowd vintage' — usando cartão
+01:10:46 WARNING nenhuma imagem livre para 'snake oil salesman stage' — usando cartão
+01:10:52 INFO imagem 'snake oil salesman' ← wikimedia
+01:10:52 INFO imagem para 'snake oil salesman stage crowd vintage' achada buscando 'snake oil salesman'
+01:11:03 INFO cena 55 pronta (11.8s, total 450s)
+01:11:06 WARNING nenhuma imagem livre para 'tug of war scholars books vintage' — usando cartão
+01:11:09 WARNING nenhuma imagem livre para 'tug war scholars books' — usando cartão
+01:11:11 INFO imagem 'tug war scholars' ← wikimedia
+01:11:11 INFO imagem para 'tug of war scholars books vintage' achada buscando 'tug war scholars'
+01:11:15 INFO cena 56 pronta (4.2s, total 454s)
+01:11:17 WARNING nenhuma imagem livre para 'scholar armchair reading mid-century' — usando cartão
+01:11:20 WARNING nenhuma imagem livre para 'scholar armchair reading' — usando cartão
+01:11:22 INFO imagem 'scholar armchair' ← wikimedia
+01:11:22 INFO imagem para 'scholar armchair reading mid-century' achada buscando 'scholar armchair'
+01:11:29 INFO cena 57 pronta (7.0s, total 461s)
+01:11:32 WARNING nenhuma imagem livre para '19th century Brazilian elite gentlemen caricature' — usando cartão
+01:11:33 INFO imagem '19th century Brazilian elite' ← wikimedia
+01:11:33 INFO imagem para '19th century Brazilian elite gentlemen caricature' achada buscando '19th century Brazilian elite'
+01:11:40 INFO cena 58 pronta (7.5s, total 468s)
+01:11:44 INFO cena 59 pronta (6.0s, total 474s)
+01:11:46 INFO Processing audio with duration 01:02.528
+01:11:47 INFO VAD filter removed 00:00.016 of audio
+01:12:14 INFO bloco 9: 62.5s, 164 palavras reconhecidas
+01:12:17 WARNING nenhuma imagem livre para 'tired reader desk pile of books vintage' — usando cartão
+01:12:20 WARNING nenhuma imagem livre para 'tired reader desk pile' — usando cartão
+01:12:23 WARNING nenhuma imagem livre para 'tired reader desk' — usando cartão
+01:12:25 INFO imagem 'tired reader' ← wikimedia
+01:12:25 INFO imagem para 'tired reader desk pile of books vintage' achada buscando 'tired reader'
+01:12:35 INFO cena 60 pronta (10.0s, total 484s)
+01:12:36 INFO imagem 'steam locomotive 19th century engraving' ← wikimedia
+01:12:42 INFO cena 61 pronta (6.5s, total 491s)
+01:12:47 WARNING nenhuma imagem livre para 'chalkboard arrows detour vintage classroom' — usando cartão
+01:12:49 WARNING nenhuma imagem livre para 'chalkboard arrows detour classroom' — usando cartão
+01:12:52 WARNING nenhuma imagem livre para 'chalkboard arrows detour' — usando cartão
+01:12:54 INFO imagem 'chalkboard arrows' ← wikimedia
+01:12:54 INFO imagem para 'chalkboard arrows detour vintage classroom' achada buscando 'chalkboard arrows'
+01:13:00 INFO cena 62 pronta (6.2s, total 497s)
+01:13:02 WARNING nenhuma imagem livre para 'thin thread hanging paper vintage' — usando cartão
+01:13:04 WARNING nenhuma imagem livre para 'thin thread hanging paper' — usando cartão
+01:13:06 INFO imagem 'thin thread hanging' ← wikimedia
+01:13:06 INFO imagem para 'thin thread hanging paper vintage' achada buscando 'thin thread hanging'
+01:13:15 INFO cena 63 pronta (10.0s, total 507s)
+01:13:19 WARNING nenhuma imagem livre para 'library maze shelves antique engraving' — usando cartão
+01:13:21 WARNING nenhuma imagem livre para 'library maze shelves antique' — usando cartão
+01:13:23 INFO imagem 'library maze shelves' ← wikimedia
+01:13:23 INFO imagem para 'library maze shelves antique engraving' achada buscando 'library maze shelves'
+01:13:32 INFO cena 64 pronta (9.9s, total 517s)
+01:13:37 INFO cena 65 pronta (6.2s, total 523s)
+01:13:39 WARNING nenhuma imagem livre para 'student cramming desk night vintage' — usando cartão
+01:13:42 WARNING nenhuma imagem livre para 'student cramming desk night' — usando cartão
+01:13:45 WARNING nenhuma imagem livre para 'student cramming desk' — usando cartão
+01:13:47 INFO imagem 'student cramming' ← wikimedia
+01:13:47 INFO imagem para 'student cramming desk night vintage' achada buscando 'student cramming'
+01:13:53 INFO cena 66 pronta (7.4s, total 530s)
+01:13:55 INFO imagem 'Revista Illustrada 1880 Angelo Agostini Rio de Janeiro' ← wikimedia
+01:14:04 INFO cena 67 pronta (6.2s, total 537s)
+01:14:06 INFO Processing audio with duration 01:11.328
+01:14:06 INFO VAD filter removed 00:00.112 of audio
+01:14:37 INFO bloco 10: 71.3s, 207 palavras reconhecidas
+01:14:39 WARNING nenhuma imagem livre para 'reader on sofa with book vintage illustration' — usando cartão
+01:14:40 WARNING nenhuma imagem livre para 'reader on sofa book' — usando cartão
+01:14:43 INFO imagem 'reader on sofa' ← wikimedia
+01:14:43 INFO imagem para 'reader on sofa with book vintage illustration' achada buscando 'reader on sofa'
+01:14:51 INFO cena 68 pronta (9.5s, total 546s)
+01:14:58 INFO cena 69 pronta (9.8s, total 556s)
+01:15:00 WARNING nenhuma imagem livre para 'popcorn cinema audience vintage' — usando cartão
+01:15:02 INFO imagem 'popcorn cinema audience' ← wikimedia
+01:15:02 INFO imagem para 'popcorn cinema audience vintage' achada buscando 'popcorn cinema audience'
+01:15:06 INFO cena 70 pronta (5.4s, total 561s)
+01:15:08 INFO imagem 'family Sunday lunch table painting' ← wikimedia
+01:15:16 INFO cena 71 pronta (8.8s, total 570s)
+01:15:18 WARNING nenhuma imagem livre para 'tortoise slow path vintage illustration' — usando cartão
+01:15:20 WARNING nenhuma imagem livre para 'tortoise slow path' — usando cartão
+01:15:22 INFO imagem 'tortoise slow' ← wikimedia
+01:15:22 INFO imagem para 'tortoise slow path vintage illustration' achada buscando 'tortoise slow'
+01:15:30 INFO cena 72 pronta (8.0s, total 578s)
+01:15:32 WARNING nenhuma imagem livre para 'reader by window coffee book morning vintage' — usando cartão
+01:15:34 WARNING nenhuma imagem livre para 'reader by window coffee' — usando cartão
+01:15:36 INFO imagem 'reader by window' ← wikimedia
+01:15:36 INFO imagem para 'reader by window coffee book morning vintage' achada buscando 'reader by window'
+01:15:40 INFO cena 73 pronta (4.6s, total 583s)
+01:15:42 WARNING nenhuma imagem livre para 'trail markers flags map vintage' — usando cartão
+01:15:44 INFO imagem 'trail markers flags map' ← wikimedia
+01:15:44 INFO imagem para 'trail markers flags map vintage' achada buscando 'trail markers flags map'
+01:15:54 INFO cena 74 pronta (10.9s, total 594s)
+01:16:00 INFO cena 75 pronta (8.1s, total 602s)
+01:16:02 WARNING nenhuma imagem livre para 'rope bridge fog golden light vintage' — usando cartão
+01:16:09 INFO imagem 'rope bridge fog golden' ← openverse
+01:16:09 INFO imagem para 'rope bridge fog golden light vintage' achada buscando 'rope bridge fog golden'
+01:16:14 INFO cena 76 pronta (6.4s, total 608s)
+01:16:16 INFO Processing audio with duration 01:09.608
+01:16:16 INFO VAD filter removed 00:00.000 of audio
+01:16:45 INFO bloco 11: 69.6s, 190 palavras reconhecidas
+01:16:47 WARNING nenhuma imagem livre para 'hourglass sand antique still life' — usando cartão
+01:16:49 WARNING nenhuma imagem livre para 'hourglass sand antique still' — usando cartão
+01:16:53 INFO imagem 'hourglass sand antique' ← openverse
+01:16:53 INFO imagem para 'hourglass sand antique still life' achada buscando 'hourglass sand antique'
+01:17:02 INFO cena 77 pronta (11.8s, total 620s)
+01:17:04 WARNING nenhuma imagem livre para 'candlelit stage small theatre vintage' — usando cartão
+01:17:06 WARNING nenhuma imagem livre para 'candlelit stage small theatre' — usando cartão
+01:17:08 WARNING nenhuma imagem livre para 'candlelit stage small' — usando cartão
+01:17:10 WARNING nenhuma imagem livre para 'candlelit stage' — usando cartão
+01:17:14 INFO imagem 'small theatre' ← wikimedia
+01:17:14 INFO imagem para 'candlelit stage small theatre vintage' achada buscando 'small theatre'
+01:17:20 INFO cena 78 pronta (6.8s, total 627s)
+01:17:30 INFO cena 79 pronta (12.8s, total 639s)
+01:17:32 WARNING nenhuma imagem livre para 'sorting books two piles library vintage' — usando cartão
+01:17:33 INFO imagem 'sorting books two piles' ← wikimedia
+01:17:33 INFO imagem para 'sorting books two piles library vintage' achada buscando 'sorting books two piles'
+01:17:39 INFO cena 80 pronta (6.3s, total 646s)
+01:17:42 WARNING nenhuma imagem livre para 'bell ringing thumbs up vintage cartoon' — usando cartão
+01:17:44 INFO imagem 'bell ringing thumbs up' ← wikimedia
+01:17:44 INFO imagem para 'bell ringing thumbs up vintage cartoon' achada buscando 'bell ringing thumbs up'
+01:18:12 INFO cena 81 pronta (12.4s, total 658s)
+01:18:14 WARNING nenhuma imagem livre para 'pointing down arrow vintage illustration' — usando cartão
+01:18:16 INFO imagem 'pointing down arrow' ← wikimedia
+01:18:16 INFO imagem para 'pointing down arrow vintage illustration' achada buscando 'pointing down arrow'
+01:18:21 INFO cena 82 pronta (5.2s, total 663s)
+01:18:23 INFO imagem 'Frankenstein 1831 frontispiece Theodor von Holst' ← wikimedia
+01:18:44 INFO cena 83 pronta (14.2s, total 678s)
+01:18:47 INFO sem trilha em musica/calmo — vídeo sai só com narração
+01:18:49 WARNING nenhuma imagem livre para 'Machado de Assis 19th century Rio de Janeiro engraving' — usando cartão
+01:18:51 WARNING nenhuma imagem livre para 'Machado de Assis 19th' — usando cartão
+01:18:53 INFO imagem 'Machado de Assis' ← wikimedia
+01:18:53 INFO imagem para 'Machado de Assis 19th century Rio de Janeiro engraving' achada buscando 'Machado de Assis'
+01:18:55 INFO upload 6%
+01:18:55 INFO upload 12%
+01:18:55 INFO upload 19%
+01:18:56 INFO upload 25%
+01:18:56 INFO upload 32%
+01:18:56 INFO upload 38%
+01:18:56 INFO upload 45%
+01:18:56 INFO upload 51%
+01:18:56 INFO upload 58%
+01:18:57 INFO upload 64%
+01:18:57 INFO upload 70%
+01:18:57 INFO upload 77%
+01:18:57 INFO upload 83%
+01:18:58 INFO upload 90%
+01:18:58 INFO upload 96%
+01:18:59 INFO vídeo enviado: https://youtu.be/kwEQpXWu1e0 (agendado para 2026-10-31T14:00:00Z)
+01:19:02 INFO na playlist 'Clássicos e vestibular'
+01:19:02 WARNING Encountered 403 Forbidden with reason "forbidden"
+01:19:02 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+01:20:54 INFO corte 1 pronto (28s)
+01:23:23 INFO corte 2 pronto (39s)
+01:25:50 INFO corte 3 pronto (36s)
+01:25:52 INFO upload 73%
+01:25:53 INFO Short agendado: https://youtube.com/shorts/Wv8887gWL9I (2026-11-01T15:00:00Z)
+01:25:57 INFO Short agendado: https://youtube.com/shorts/-PrTziE7hQM (2026-11-02T15:00:00Z)
+01:26:02 INFO upload 91%
+01:26:02 INFO Short agendado: https://youtube.com/shorts/W_CE2_gTqyk (2026-11-03T15:00:00Z)
+01:26:06 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/saida/video.mp4 (11.3 min) → https://youtu.be/kwEQpXWu1e0
