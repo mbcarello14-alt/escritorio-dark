@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "2026-10-25T23:15:30Z",
+  "atualizado_em": "2026-10-25T23:32:03Z",
   "ativos": {
     "miguel": [
       "Mapeado: terça 27/10 17h00",
       "Marca-Página: quarta 28/10 19h00",
-      "Mapeado: terça 03/11 17h00",
+      "Mapeado: Ecologia no ENEM: cadeias, ciclos e a pegadinha",
       "Reel Ouro & Império: O rei que gastou tanto ouro que o ouro ficou barato",
       "Reel Marca-Página: 1% por dia vira 37x em um ano? A conta de Hábitos Atômicos",
       "Reel Mapeado: Seu DNA tem 2 metros e cabe num núcleo minúsculo"
@@ -69,9 +69,9 @@
       "dia": "2026-11-03",
       "rotulo": "terça 03/11 17h00",
       "publicar_em_utc": "2026-11-03T20:00:00Z",
-      "etapa": "pauta",
-      "etapa_txt": "🔎 pesquisando pautas",
-      "titulo": "",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "titulo": "Ecologia no ENEM: cadeias, ciclos e a pegadinha",
       "url": ""
     }
   ],
