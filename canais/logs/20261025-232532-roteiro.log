@@ -1,0 +1,160 @@
+comando: /roteiro canais/vestibular/videos/2026-10-27
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-10-27 && ls && cat estado.json && cat 01-pauta.md | head -60"}
+🔧 Agent {"subagent_type": "pesquisador-vestibular", "description": "Dossiê regra de três", "prompt": "Etapa 2: monte o dossiê em /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/01-pauta.md"}
+💬 O pesquisador está montando o dossiê (etapa 2). Os passos seguintes dependem dele, então aguardo a conclusão.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 WebSearch {"query": "ENEM matemática assuntos que mais caem porcentagem regra de três razão proporção quantidade de questões 2019 a 2024 análise", "mode": "extended"}
+🔧 WebSearch {"query": "ENEM 2025 matemática questões porcentagem regra de três proporcionalidade análise de incidência por tema", "mode": "standard"}
+🔧 WebSearch {"query": "aumentos sucessivos porcentagem ENEM questão resolvida desconto acréscimo sucessivo inep", "mode": "standard"}
+🔧 WebFetch {"url": "https://tessat.com.br/portal/analise-de-incidencia/enem", "prompt": "Extraia metodologia, período, total de questões, e toda contagem de Matemática por tema (razão e proporção, regra de três,
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/questao-153-caderno-azul-do-enem-2019-dia-2/", "prompt": "Transcreva o enunciado completo da questão (valores, alternativas), gabarito e resolução resumida. In
+🔧 WebFetch {"url": "https://www.cnnbrasil.com.br/educacao/enem-2024-veja-os-assuntos-de-matematica-que-mais-caem/", "prompt": "Metodologia e período do levantamento da SAS, percentuais por assunto, citação sobre
+🔧 WebFetch {"url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2019_PV_impresso_D2_CD6.pdf", "prompt": "Localize a questão 153 (aumento 7,2% e 10%, rendimento médio R$ 1.250). Confirme o enunciado e as
+🔧 WebSearch {"query": "download.inep.gov.br enem provas_e_gabaritos 2023 2024 2025 PV_impresso D2 matemática", "mode": "standard"}
+❌ read ECONNRESET
+🔧 WebSearch {"query": "Fuvest Unicamp matemática primeira fase porcentagem regra de três quantidade de questões por ano levantamento incidência", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.cnnbrasil.com.br/educacao/fuvest-veja-ranking-dos-temas-mais-cobrados-entre-2007-e-2024/", "prompt": "Metodologia, fonte do levantamento, e números de Matemática por tema (proporç
+🔧 WebFetch {"url": "https://vestibulares.estrategia.com/portal/enem-e-vestibulares/fuvest-o-que-estudar-para-a-prova-de-matematica-do-vestibular-da-usp/", "prompt": "Quais assuntos de matemática mais caem na Fuv
+🔧 WebSearch {"query": "Unicamp matemática assuntos mais cobrados vestibular análise porcentagem razão proporção quantidade de questões", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos", "prompt": "Liste os links para os PDFs de provas e gabaritos do ENEM 2019 a 2025 (dia 
+🔧 WebFetch {"url": "https://aprovatotal.com.br/assuntos-cobrados-unicamp/", "prompt": "Para Matemática: período analisado, metodologia, percentual de Matemática Básica (porcentagem, razão e proporção, regra de t
+🔧 WebFetch {"url": "https://aprovatotal.com.br/o-que-mais-cai-na-fuvest/", "prompt": "Para Matemática: período analisado, metodologia, e percentuais por tema, especialmente matemática básica/porcentagem/razão e 
+🔧 WebSearch {"query": "ENEM questão regra de três inversa grandezas inversamente proporcionais resolvida plataformaassaad caderno azul", "mode": "standard"}
+🔧 WebSearch {"query": "ENEM questão regra de três composta resolvida operários dias horas caderno azul gabarito", "mode": "standard"}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=44031", "prompt": "Transcreva título (qual prova/ano/caderno/questão), enunciado completo, alternativas, gabarito e resolução."}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=18726", "prompt": "Transcreva título (qual prova/ano/caderno/questão), enunciado completo, alternativas, gabarito e resolução."}
+🔧 WebFetch {"url": "https://descomplica.com.br/blog/regra-de-tres-no-enem-monte-a-conta-certa-em-tres-passos-2/", "prompt": "Resuma o método em três passos, e quais questões reais do ENEM (ano, número) são usada
+🔧 WebSearch {"query": "ENEM 2025 fábrica de tijolos ecológicos 3 funcionários 6 horas por dia 720 tijolos questão gabarito", "mode": "standard"}
+🔧 WebSearch {"query": "ENEM 2023 PPL ateliê de costura 200 calças jeans 10 funcionários 5 dias demitidos questão", "mode": "standard"}
+🔧 WebSearch {"query": "ENEM aumentos sucessivos desconto 10% depois 10% não é 20% questão enem acréscimo fator multiplicativo 1,1 inep prova", "mode": "standard"}
+🔧 WebFetch {"url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2019_PV_impresso_D2_CD6.pdf", "prompt": "Localize a questão sobre rendimento médio mensal R$ 1.250,00 aumento 7,2% e 10%. Confirme enuncia
+❌ read ECONNRESET
+🔧 WebFetch {"url": "https://www.todamateria.com.br/exercicios-enem/matematica/?page=135", "prompt": "Encontre a questão do ateliê de costura (200 calças jeans). Informe de qual prova/ano ela é segundo a página e
+🔧 WebSearch {"query": "\"tijolos ecológicos\" ENEM 2025 matemática funcionários horas por dia produção 1 800 resolução", "mode": "standard"}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2025/segundo-dia/o-numero-de-tijolos-fabricados-diariamente-apos-o-aumento-da-capacidade-de-producao-e/", "prompt": "Enunciado completo, alte
+🔧 WebSearch {"query": "descomplica gabarito enem ateliê de costura 200 calças jeans demitir 4 funcionários prova azul 2023 PPL", "mode": "standard"}
+🔧 WebSearch {"query": "ENEM questão dois aumentos de 10% e dois descontos de 10% resultado 98,01 preço", "mode": "standard"}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2012-segunda-aplicacao/segundo-dia/uma-loja-resolveu-fazer-uma-promocao-de-um-determinado-produto-que-custava-r-10000-em-fevereiro/", "prompt
+🔧 WebSearch {"query": "descomplica gabarito enem 2019 segundo dia rendimento médio mensal dos trabalhadores brasileiros R$ 1.250,00 7,2% prova azul questão 153", "mode": "standard"}
+🔧 WebSearch {"query": "Enem 2024 matemática quantas questões proporcionalidade porcentagem regra de três análise prova segundo dia temas cobrados", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.vestibulandoweb.com.br/vestibular/analise-unicamp-2027-assuntos-primeira-fase/amp/", "prompt": "Matemática: quais assuntos foram cobrados na 1ª fase da Unicamp 2027 (18/10/2026), 
+🔧 WebSearch {"query": "\"1.474,00\" enem 2019 rendimento médio 7,2% 10% alternativa E", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest primeira fase questão porcentagem aumentos sucessivos resolvida matemática Fuvest 2024 2025 porcentagem", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/02-dossie.md", "content": "# Dossiê — Mapeado — terça 27/10/2026, 17h00\n**Tema:** Regra de três e 
+💬 O dossiê está pronto, mas a contagem exata por prova que você pediu não existe nas fontes que consegui abrir. Não achei o número de questões por edição (ENEM 2019 a 2025) nem contagem de regra de três ou porcentagem para Fuvest e Unicamp. O roteiro não deve afirmar nenhuma quantidade por ano.
+
+**Contagem disponível**
+- **Série 2010–2025 do Tessat:** são 32 provas e 721 questões de Matemática. Proporcionalidade tem 87 (razão e proporção 43, regra de três 26, escalas 18) e porcentagem e finanças tem 55. Juntas dão 142, cerca de 1 em cada 5 questões de Matemática e cerca de 9 por edição. Essa con
+🔧 Agent {"subagent_type": "roteirista-vestibular", "description": "Roteiro regra de três", "prompt": "Escreva o roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27
+💬 O roteirista está escrevendo o roteiro. Os próximos passos (checagem, originalidade, conferência das chamadas de engajamento e do nicho) dependem dele, então aguardo.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Regra de três e porcentagem: o mapa do que
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/roteiro.json", "old_string": "E isso é questão do Enem de dois mil e doze, da
+💬 Agora o 03-roteiro.md.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/03-roteiro.md", "content": "# Roteiro — Mapeado — terça 27/10/2026, 17h00\n**Título provisório:** R
+💬 O roteiro está pronto, com 9 blocos e cerca de 1.760 palavras, o que dá uns 11 min 45 s. Fica dentro do alvo de 8 a 12 minutos, mas bem perto do teto. A contagem foi feita à mão, bloco a bloco, então é aproximada.
+
+**Tese:** em regra de três e porcentagem quase ninguém erra a conta, erra o tipo de problema. Uma pergunta só ("se uma dobra, a outra dobra ou cai pela metade?") organiza os quatro ramos do mapa.
+
+**Ordem do vídeo:**
+- **Gancho:** a loja do ENEM 2012, segunda aplicação, cujo preço termina em R$ 98,01 e não volta para R$ 100.
+- **Por que estudar o tema:** o número e a data do ENEM 20
+🔧 Agent {"subagent_type": "checador", "description": "Checar roteiro", "prompt": "Cheque o roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/ (03-roteiro.md, rot
+🔧 Agent {"subagent_type": "guardiao-originalidade", "description": "Avaliar originalidade", "prompt": "Avalie a originalidade do roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/02-dossie.md"}
+💬 Checador e guardião de originalidade estão rodando em paralelo. Aguardo os dois terminarem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/roteiro.json"}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/questao-153-caderno-azul-do-enem-2019-dia-2/", "prompt": "Transcreva o enunciado completo da questão, todas as alternativas e o gabarito."}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2025/segundo-dia/o-numero-de-tijolos-fabricados-diariamente-apos-o-aumento-da-capacidade-de-producao-e/", "prompt": "Transcreva o enunciado c
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=18726", "prompt": "Transcreva o enunciado completo, alternativas e gabarito, número e caderno da questão."}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2012-segunda-aplicacao/segundo-dia/uma-loja-resolveu-fazer-uma-promocao-de-um-determinado-produto-que-custava-r-10000-em-fevereiro/", "prompt
+🔧 WebSearch {"query": "Enem 2026 datas provas 8 e 15 de novembro edital Inep", "mode": "standard"}
+🔧 WebFetch {"url": "https://tessat.com.br/portal/analise-de-incidencia/enem", "prompt": "Confirme: total de questões de Matemática (721?), Proporcionalidade (87) e Porcentagem e finanças (55), subitens, número d
+🔧 WebFetch {"url": "https://portal.estrategia.com/vestibular-e-enem/enem/inep-divulga-edital-do-enem-2026-com-datas-confirmadas/amp/", "prompt": "Qual dia do Enem 2026 (8 ou 15/11) tem Matemática e Natureza? Hor
+🔧 WebFetch {"url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2019_PV_impresso_D2_CD5.pdf", "prompt": "Encontre a questão 153 e transcreva enunciado e alternativas."}
+❌ read ECONNRESET
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/05-originalidade.md", "content": "# Originalidade: Mapeado, ter 27/10/2026 (Regra de três e porcent
+💬 Escrevi `05-originalidade.md`. O semáforo é 🟡 (ajustar). O roteiro é sólido, mas não tem a voz do Miguel, e o fecho promete repetir o mesmo formato em todo vídeo.
+
+**Notas**
+- **Variação: 6.** O histórico está vazio, então ainda não há repetição. O risco é futuro: o bloco 9 anuncia o formato como fórmula ("montada do mesmo jeito, ramo a ramo, até a questão real no final").
+- **Valor próprio: 7.** A montagem em 4 ramos e a leitura das armadilhas nas alternativas valem o vídeo. O teste "dobra ou cai pela metade" não é inédito, pois já existe em blogs.
+- **Voz humana: 4.** `nota_miguel` está vazi
+💬 Originalidade veio 🟡. Aguardo o checador antes de mandar uma única volta de ajustes ao roteirista, para juntar as duas listas.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/04-checagem.md", "content": "# Checagem — Mapeado — terça 27/10/2026 (Regra de três e porcentagem)\
+💬 O veredito é **CORRIGIR**. Escrevi a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/04-checagem.md`. As contas e as quatro questões reais conferem. O que reprova são as chamadas de engajamento, duas afirmações sem fonte e algumas imprecisões menores.
+
+**Fontes**
+- O PDF do INEP não abriu (erro de conexão, como já tinha acontecido no dossiê).
+- Conferi enunciados e gabaritos em Assaad e Descomplica, que concordam com o dossiê. O gabarito da questão de 2023 (PPL, prova para pessoas privadas de liberdade) tem uma só fonte.
+- A página da Tessat b
+🔧 Agent {"subagent_type": "roteirista-vestibular", "description": "Aplicar correções e ajustes", "prompt": "Revise 03-roteiro.md e roteiro.json em /home/runner/work/escritorio-dark/escritorio-dark/canais/vest
+💬 Mandei ao roteirista uma única volta com as correções do checador e os ajustes do guardião. Aguardo a conclusão para conferir o engajamento, o nicho e atualizar o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/05-originalidade.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/03-roteiro.md", "content": "# Roteiro — Mapeado — terça 27/10/2026, 17h00\n**Título provisório:** R
+💬 Agora o roteiro.json, com o mesmo texto.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Regra de três e porcentagem: o mapa do que
+💬 Revisei os dois arquivos com todas as correções da checagem e as mudanças da originalidade que dava para fazer sem inventar opinião do Miguel. Não consegui rodar um validador de JSON nesta sessão. Escrevi o arquivo à mão com cuidado: as aspas dentro de `pergunta_para_miguel` estão escapadas e o resto usa aspas simples. O texto de cada bloco no `roteiro.json` é igual ao do `03-roteiro.md`.
+
+**Correções da checagem**
+1. **Chamadas:** o bloco 1 agora pede inscrição, like e comentário ("você achava que voltava para cem?"). O bloco 4 ganhou "se inscreve" junto da pergunta e do like. O bloco 9 já es
+💬 Vou validar o JSON, conferir as chamadas e o nicho, e atualizar o estado.
+🔧 Bash {"command": "python3 - <<'E'\nimport json,re\nd=json.load(open('roteiro.json'))\nprint(d['titulo_provisorio'],d['semaforo'],len(d['blocos']))\nfor i,b in enumerate(d['blocos'],1):\n    t=b['texto'].lo
+❌ This command requires approval
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/estado.json", "old_string": "  \"nota_miguel\": \"\"", "new_string": "  \"not
+💬 O roteiro de "Regra de três e porcentagem: o mapa do que mais cai" (Mapeado, terça 27/10) está pronto em `03-roteiro.md` e `roteiro.json`. O semáforo ficou 🟡 porque falta a voz do Miguel. Atualizei o `estado.json` com o título e não criei `producao.json`.
+
+Não consegui rodar um validador de JSON (o comando foi barrado por falta de aprovação). Li o `roteiro.json` inteiro e ele parece válido, mas não foi testado por programa.
+
+- **Estrutura:** são 9 blocos, com cerca de 1.820 palavras (uns 12 min). Abre com a loja do ENEM 2012 que termina em R$ 98,01 e fecha com o ENEM 2019 Q153. Entre os dois, 
+
+=== resultado: success | turnos 3 | 7s | erro=False
+O pesquisador está montando o dossiê (etapa 2). Os passos seguintes dependem dele, então aguardo a conclusão.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O roteirista está escrevendo o roteiro. Os próximos passos (checagem, originalidade, conferência das chamadas de engajamento e do nicho) dependem dele, então aguardo.
+
+=== resultado: success | turnos 3 | 4s | erro=False
+Checador e guardião de originalidade estão rodando em paralelo. Aguardo os dois terminarem.
+
+=== resultado: success | turnos 1 | 1s | erro=False
+Originalidade veio 🟡. Aguardo o checador antes de mandar uma única volta de ajustes ao roteirista, para juntar as duas listas.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+Mandei ao roteirista uma única volta com as correções do checador e os ajustes do guardião. Aguardo a conclusão para conferir o engajamento, o nicho e atualizar o `estado.json`.
+
+=== resultado: success | turnos 4 | 15s | erro=False
+O roteiro de "Regra de três e porcentagem: o mapa do que mais cai" (Mapeado, terça 27/10) está pronto em `03-roteiro.md` e `roteiro.json`. O semáforo ficou 🟡 porque falta a voz do Miguel. Atualizei o `estado.json` com o título e não criei `producao.json`.
+
+Não consegui rodar um validador de JSON (o comando foi barrado por falta de aprovação). Li o `roteiro.json` inteiro e ele parece válido, mas não foi testado por programa.
+
+- **Estrutura:** são 9 blocos, com cerca de 1.820 palavras (uns 12 min). Abre com a loja do ENEM 2012 que termina em R$ 98,01 e fecha com o ENEM 2019 Q153. Entre os dois, vêm os quatro ramos do mapa: direta, inversa, composta e porcentagem.
+- **Pesquisa:** o dossiê não achou contagem de questões por edição (ENEM 2019–2025). Também não achou dado de peso do tema na Fuvest e na Unicamp. O roteiro só cita o levantamento do Tessat, ou seja, perto de 1 em cada 5 questões de Matemática de 2010 a 2025. Ele diz que é de um site de preparação, não do INEP, e que o tema não é o que mais cai.
+- **Checagem:** o checador devolveu CORRIGIR, com 20 afirmações checadas. Todas as contas bateram (98,01; 8,3 dias; 1.800 tijolos; R$ 1.474). Houve uma volta de correções, aplicada: chamadas de engajamento incompletas, afirmações sem fonte e imprecisões nos blocos 2, 3, 5 e 8. Não refiz a checagem depois dessa volta.
+- **Originalidade:** o guardião deu 🟡. O roteirista tirou clichês e "a banca adora" e trocou o fecho, que prometia o mesmo formato em todo vídeo.
+- **Engajamento:** conferi no texto. O bloco 1 pede inscrição, like e comentário. O bloco 4 (perto da metade) traz a pergunta para os comentários e pede inscrição e like. O bloco 9 pede inscrição, like e comentário.
+- **Nicho:** é aula para prova de Matemática, sem desvio.
+
+Pendências:
+- **Voz do Miguel:** a `nota_miguel` veio vazia e não inventei fala em primeira pessoa. Pergunta no JSON: ele prefere ensinar pelo "multiplicar cruzado" ou pelo teste "dobra ou cai pela metade", e que erro ele mesmo cometeu ou viu um aluno cometer? A resposta entraria na abertura do bloco 2 ou do bloco 7.
+- **PDFs do INEP:** as quatro questões ainda precisam ser conferidas contra as provas oficiais, porque o site do INEP não abriu. Só o gabarito da questão de 2023 (PPL) tem uma única fonte. Isso não trava o vídeo.
+- **Arquivos soltos:** os dois logs de `canais/logs/` continuam sem rastreio no git. Não fiz commit.
+codigo de saida: 0
