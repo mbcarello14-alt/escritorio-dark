@@ -32,6 +32,7 @@ ETAPAS = {
     "producao_json": "🎨 planejando cenas, título e thumbnail",
     "aguardando_audio": "🎙️ esperando seus áudios",
     "renderizando": "🎬 montando o vídeo",
+    "aguardando_cota": "🎨 esperando a cota de imagens para desenhar",
     "agendado": "✅ agendado no YouTube",
     "erro": "⚠️ deu erro",
 }

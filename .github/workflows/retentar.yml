@@ -1,0 +1,29 @@
+name: Retentar montagens
+# A cada 4 horas: vídeos que pararam esperando a cota grátis de imagens voltam para a produção.
+# As imagens e a narração já feitas ficam guardadas, então cada tentativa continua de onde parou.
+on:
+  schedule:
+    - cron: "20 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  retentar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Disparar a produção dos que estão esperando
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for e in $(grep -l '"etapa": "aguardando_cota"' canais/*/videos/*/estado.json 2>/dev/null); do
+            p=$(dirname "$e")
+            ativo=$(gh run list -w producao.yml --status in_progress --json displayTitle -q 'length')
+            echo "retentando $p"
+            gh workflow run producao.yml -f pasta="$p" -f voz=gemini
+            sleep 600   # uma de cada vez, para a cota durar
+          done

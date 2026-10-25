@@ -179,6 +179,25 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         pedidos = [c["visual"].get("cena") for i, c in enumerate(todas, 1) if c["visual"]["tipo"] == "ilustracao"
                    and not (pasta / "imagens-fixas" / f"cena_{i:03d}.jpg").exists()]
         ctx.ilustrador.pre_gerar(pedidos + [prod["thumbnail"].get("cena")])
+        # trava: sem os desenhos, o vídeo não sobe — espera a cota de imagens voltar (o que já foi feito fica guardado)
+        faltam = [d for d in pedidos if d and not ctx.ilustrador._destino(d).exists()]
+        if pedidos and len(faltam) / len(pedidos) > 0.25 and not sem_upload and not os.environ.get("FORCAR_SEM_IMAGEM"):
+            quando = json.loads((pasta / "estado.json").read_text(encoding="utf-8")).get("publicar_em_utc") \
+                if (pasta / "estado.json").exists() else None
+            perto = quando and (datetime.fromisoformat(quando.replace("Z", "+00:00")) - datetime.now(timezone.utc)).total_seconds() < 8 * 3600
+            if not perto:
+                from . import estado as E
+                E.salvar_estado(pasta, etapa="aguardando_cota")
+                feitas = len(pedidos) - len(faltam)
+                try:
+                    from . import telegram as T
+                    T.enviar(f"🎨 {T.esc(cfg['nome'])}: a cota grátis de imagens acabou ({feitas} de {len(pedidos)} desenhos prontos). "
+                             "Guardei o que já foi feito e tento de novo sozinho mais tarde; o vídeo só sobe com os desenhos.")
+                except Exception:
+                    pass
+                log.warning("cota de imagens: %d de %d desenhos prontos — montagem adiada", feitas, len(pedidos))
+                raise SystemExit(0)
+            log.warning("faltam %d desenhos, mas o vídeo sai em menos de 8 h — seguindo com imagens livres", len(faltam))
 
     clipes, tempos_cenas, tempos_blocos, palavras_globais, t, idx = [], [], [], [], 0.0, 0
     for nb, b in enumerate(prod["blocos"], 1):

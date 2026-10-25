@@ -127,6 +127,8 @@ def enviar_blocos(pasta: Path) -> None:
 
 
 def produzido(pasta: Path) -> None:
+    if not (pasta / "publicacao.json").exists():   # montagem adiada (ex.: esperando a cota de imagens)
+        return
     pub = json.loads((pasta / "publicacao.json").read_text(encoding="utf-8"))
     E.salvar_estado(pasta, etapa="agendado", url=pub.get("url"))
     from datetime import datetime
