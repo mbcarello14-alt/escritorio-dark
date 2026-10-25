@@ -1,24 +1,27 @@
 {
-  "atualizado_em": "2026-10-25T23:45:02Z",
+  "atualizado_em": "2026-10-25T23:45:46Z",
   "ativos": {
+    "pesquisador_vestibular": [
+      "Mapeado: terça 27/10 17h00",
+      "Mapeado: terça 03/11 17h00"
+    ],
+    "roteirista_vestibular": [
+      "Mapeado: terça 27/10 17h00",
+      "Mapeado: terça 03/11 17h00"
+    ],
+    "checador": [
+      "Mapeado: terça 27/10 17h00",
+      "Mapeado: terça 03/11 17h00"
+    ],
+    "guardiao": [
+      "Mapeado: terça 27/10 17h00",
+      "Mapeado: terça 03/11 17h00"
+    ],
     "miguel": [
-      "Mapeado: Regra de três e porcentagem: o mapa do que mais cai",
-      "Mapeado: Ecologia no ENEM: cadeias, ciclos e a pegadinha",
+      "Marca-Página: Frankenstein: o livro é bem diferente do monstro que você conhece",
       "Reel Ouro & Império: O rei que gastou tanto ouro que o ouro ficou barato",
       "Reel Marca-Página: 1% por dia vira 37x em um ano? A conta de Hábitos Atômicos",
       "Reel Mapeado: Seu DNA tem 2 metros e cabe num núcleo minúsculo"
-    ],
-    "pesquisador_livros": [
-      "Marca-Página: quarta 28/10 19h00"
-    ],
-    "roteirista_livros": [
-      "Marca-Página: quarta 28/10 19h00"
-    ],
-    "checador": [
-      "Marca-Página: quarta 28/10 19h00"
-    ],
-    "guardiao": [
-      "Marca-Página: quarta 28/10 19h00"
     ]
   },
   "proximos": [
@@ -37,9 +40,9 @@
       "dia": "2026-10-27",
       "rotulo": "terça 27/10 17h00",
       "publicar_em_utc": "2026-10-27T20:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "Regra de três e porcentagem: o mapa do que mais cai",
+      "etapa": "roteiro",
+      "etapa_txt": "✍️ escrevendo e checando o roteiro",
+      "titulo": "",
       "url": ""
     },
     {
@@ -47,9 +50,9 @@
       "dia": "2026-10-28",
       "rotulo": "quarta 28/10 19h00",
       "publicar_em_utc": "2026-10-28T22:00:00Z",
-      "etapa": "roteiro",
-      "etapa_txt": "✍️ escrevendo e checando o roteiro",
-      "titulo": "",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "titulo": "Frankenstein: o livro é bem diferente do monstro que você conhece",
       "url": ""
     },
     {
@@ -77,9 +80,9 @@
       "dia": "2026-11-03",
       "rotulo": "terça 03/11 17h00",
       "publicar_em_utc": "2026-11-03T20:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "Ecologia no ENEM: cadeias, ciclos e a pegadinha",
+      "etapa": "roteiro",
+      "etapa_txt": "✍️ escrevendo e checando o roteiro",
+      "titulo": "",
       "url": ""
     }
   ],
