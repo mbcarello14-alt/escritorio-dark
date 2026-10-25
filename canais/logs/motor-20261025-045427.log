@@ -1,0 +1,231 @@
+04:54:28 INFO ilustrações: higgsfield desligado (sem chave)
+04:54:29 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+04:54:29 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+04:54:29 INFO Processing audio with duration 00:41.767
+[0;93m2026-10-25 04:54:29.963795442 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+04:54:30 INFO VAD filter removed 00:00.000 of audio
+04:54:37 INFO Processing audio with duration 00:41.767
+04:54:37 INFO VAD filter removed 00:00.000 of audio
+04:54:45 INFO Processing audio with duration 01:06.367
+04:54:45 INFO VAD filter removed 00:00.000 of audio
+04:54:58 INFO Processing audio with duration 01:06.367
+04:54:58 INFO VAD filter removed 00:00.000 of audio
+04:55:11 INFO Processing audio with duration 01:08.167
+04:55:11 INFO VAD filter removed 00:00.000 of audio
+04:55:25 INFO Processing audio with duration 01:08.167
+04:55:25 INFO VAD filter removed 00:00.000 of audio
+04:55:38 INFO Processing audio with duration 01:01.087
+04:55:38 INFO VAD filter removed 00:00.000 of audio
+04:55:50 INFO Processing audio with duration 01:01.087
+04:55:50 INFO VAD filter removed 00:00.000 of audio
+04:56:01 INFO Processing audio with duration 01:04.927
+04:56:01 INFO VAD filter removed 00:00.000 of audio
+04:56:13 INFO Processing audio with duration 01:04.927
+04:56:13 INFO VAD filter removed 00:00.000 of audio
+04:56:25 INFO Processing audio with duration 00:54.887
+04:56:25 INFO VAD filter removed 00:00.000 of audio
+04:56:34 INFO Processing audio with duration 00:54.887
+04:56:34 INFO VAD filter removed 00:00.000 of audio
+04:56:43 INFO Processing audio with duration 00:55.847
+04:56:43 INFO VAD filter removed 00:00.000 of audio
+04:56:53 INFO Processing audio with duration 00:55.847
+04:56:53 INFO VAD filter removed 00:00.000 of audio
+04:57:02 INFO Processing audio with duration 01:01.087
+04:57:02 INFO VAD filter removed 00:00.000 of audio
+04:57:14 INFO Processing audio with duration 01:01.087
+04:57:14 INFO VAD filter removed 00:00.000 of audio
+04:57:25 INFO Processing audio with duration 01:02.527
+04:57:26 INFO VAD filter removed 00:00.000 of audio
+04:57:38 INFO Processing audio with duration 01:02.527
+04:57:38 INFO VAD filter removed 00:00.000 of audio
+04:57:50 INFO Processing audio with duration 01:11.327
+04:57:50 INFO VAD filter removed 00:00.000 of audio
+04:58:04 INFO Processing audio with duration 01:11.327
+04:58:04 INFO VAD filter removed 00:00.000 of audio
+04:58:18 INFO Processing audio with duration 01:09.607
+04:58:18 INFO VAD filter removed 00:00.000 of audio
+04:58:30 INFO Processing audio with duration 01:09.607
+04:58:30 INFO VAD filter removed 00:00.000 of audio
+04:58:43 INFO gerando 65 ilustrações…
+04:58:55 WARNING Flux klein falhou (3030: Your output has been flagged. Please choose another prompt / input image combination) — usando o próximo modelo
+05:02:23 WARNING flux falhou: HTTPSConnectionPool(host='escritorio-dark.mbcarello14.workers.dev', port=443): Read timed out. (read timeout=120)
+05:02:55 WARNING Flux falhou (502): 8007: Cog prediction failed
+05:02:55 WARNING Flux falhou (502): 8007: Cog prediction failed
+05:02:55 WARNING Flux falhou (502): 8007: Cog prediction failed
+05:03:23 WARNING ilustrações: teto do flux atingido
+05:03:28 INFO ilustrações prontas: 59 geradas (65 pedidas)
+05:03:29 INFO Processing audio with duration 00:41.768
+05:03:29 INFO VAD filter removed 00:00.000 of audio
+05:03:37 INFO bloco 1: 41.8s, 120 palavras reconhecidas
+05:03:46 INFO cena 1 pronta (15.4s, total 15s)
+05:03:47 INFO imagem 'Machado de Assis portrait photograph' ← wikimedia
+05:03:59 INFO cena 2 pronta (12.4s, total 28s)
+05:04:17 INFO cena 3 pronta (14.0s, total 42s)
+05:04:19 INFO Processing audio with duration 01:06.368
+05:04:19 INFO VAD filter removed 00:00.000 of audio
+05:04:32 INFO bloco 2: 66.4s, 193 palavras reconhecidas
+05:04:37 INFO cena 4 pronta (9.0s, total 51s)
+05:04:42 INFO cena 5 pronta (9.7s, total 60s)
+05:04:44 WARNING nenhuma imagem livre para 'Rio de Janeiro 1880 Rua do Ouvidor lithograph' — usando cartão
+05:04:46 INFO imagem 'Rio de Janeiro 1880' ← wikimedia
+05:04:46 INFO imagem para 'Rio de Janeiro 1880 Rua do Ouvidor lithograph' achada buscando 'Rio de Janeiro 1880'
+05:04:53 INFO cena 6 pronta (9.5s, total 70s)
+05:04:57 INFO cena 7 pronta (6.0s, total 76s)
+05:04:58 WARNING nenhuma imagem livre para 'Memórias Póstumas de Brás Cubas 1881 first edition title page' — usando cartão
+05:04:59 WARNING nenhuma imagem livre para 'Memórias Póstumas de Brás' — usando cartão
+05:05:00 INFO imagem 'Memórias Póstumas de' ← wikimedia
+05:05:00 INFO imagem para 'Memórias Póstumas de Brás Cubas 1881 first edition title page' achada buscando 'Memórias Póstumas de'
+05:05:04 INFO cena 8 pronta (4.0s, total 80s)
+05:05:09 INFO cena 9 pronta (10.3s, total 90s)
+05:05:12 INFO cena 10 pronta (4.8s, total 95s)
+05:05:17 INFO cena 11 pronta (9.4s, total 104s)
+05:05:19 INFO cena 12 pronta (3.7s, total 108s)
+05:05:20 INFO Processing audio with duration 01:08.168
+05:05:20 INFO VAD filter removed 00:00.000 of audio
+05:05:34 INFO bloco 3: 68.2s, 191 palavras reconhecidas
+05:05:38 INFO cena 13 pronta (8.6s, total 117s)
+05:05:42 INFO cena 14 pronta (6.1s, total 123s)
+05:05:46 INFO cena 15 pronta (7.7s, total 130s)
+05:05:49 INFO cena 16 pronta (6.7s, total 137s)
+05:05:51 INFO imagem 'Laurence Sterne portrait Joshua Reynolds' ← wikimedia
+05:06:01 INFO cena 17 pronta (11.4s, total 149s)
+05:06:05 INFO cena 18 pronta (6.9s, total 155s)
+05:06:10 INFO cena 19 pronta (8.7s, total 164s)
+05:06:12 INFO cena 20 pronta (4.7s, total 169s)
+05:06:16 INFO cena 21 pronta (7.4s, total 176s)
+05:06:17 INFO Processing audio with duration 01:01.088
+05:06:17 INFO VAD filter removed 00:00.000 of audio
+05:06:30 INFO bloco 4: 61.1s, 173 palavras reconhecidas
+05:06:36 INFO cena 22 pronta (10.7s, total 187s)
+05:06:40 INFO cena 23 pronta (7.8s, total 195s)
+05:06:42 INFO cena 24 pronta (5.3s, total 200s)
+05:06:48 INFO cena 25 pronta (13.3s, total 213s)
+05:06:50 INFO imagem 'University of Coimbra tower photograph' ← wikimedia
+05:06:56 INFO cena 26 pronta (6.5s, total 220s)
+05:07:00 INFO cena 27 pronta (7.2s, total 227s)
+05:07:05 INFO cena 28 pronta (10.3s, total 237s)
+05:07:06 INFO Processing audio with duration 01:04.927
+05:07:06 INFO VAD filter removed 00:00.000 of audio
+05:07:19 INFO bloco 5: 64.9s, 183 palavras reconhecidas
+05:07:23 INFO cena 29 pronta (7.3s, total 245s)
+05:07:27 INFO cena 30 pronta (8.0s, total 253s)
+05:07:32 INFO cena 31 pronta (8.8s, total 262s)
+05:07:36 INFO cena 32 pronta (9.2s, total 271s)
+05:07:42 INFO cena 33 pronta (11.1s, total 282s)
+05:07:44 INFO cena 34 pronta (5.2s, total 287s)
+05:07:49 INFO cena 35 pronta (8.9s, total 296s)
+05:07:57 INFO cena 36 pronta (6.3s, total 302s)
+05:07:58 INFO Processing audio with duration 00:54.888
+05:07:58 INFO VAD filter removed 00:00.000 of audio
+05:08:08 INFO bloco 6: 54.9s, 159 palavras reconhecidas
+05:08:10 INFO cena 37 pronta (4.3s, total 307s)
+05:08:15 INFO cena 38 pronta (9.0s, total 316s)
+05:08:16 WARNING nenhuma imagem livre para 'Jean-Baptiste Debret Rio de Janeiro street scene lithograph Voyage pittoresque' — usando cartão
+05:08:18 INFO imagem 'Jean-Baptiste Debret Rio de' ← wikimedia
+05:08:18 INFO imagem para 'Jean-Baptiste Debret Rio de Janeiro street scene lithograph Voyage pittoresque' achada buscando 'Jean-Baptiste Debret Rio de'
+05:08:24 INFO cena 39 pronta (6.7s, total 322s)
+05:08:28 INFO cena 40 pronta (6.8s, total 329s)
+05:08:29 INFO imagem 'Debret Voyage pittoresque et historique au Brésil plate Rio de Janeiro' ← wikimedia
+05:08:34 INFO cena 41 pronta (5.5s, total 334s)
+05:08:38 INFO cena 42 pronta (6.7s, total 341s)
+05:08:42 INFO cena 43 pronta (9.3s, total 350s)
+05:08:46 INFO cena 44 pronta (6.6s, total 357s)
+05:08:47 INFO Processing audio with duration 00:55.848
+05:08:47 INFO VAD filter removed 00:00.000 of audio
+05:08:57 INFO bloco 7: 55.8s, 148 palavras reconhecidas
+05:09:02 INFO cena 45 pronta (10.6s, total 368s)
+05:09:06 INFO cena 46 pronta (7.5s, total 375s)
+05:09:11 INFO cena 47 pronta (11.0s, total 386s)
+05:09:15 INFO cena 48 pronta (6.6s, total 393s)
+05:09:16 WARNING nenhuma imagem livre para '19th century ledger account book clerk engraving' — usando cartão
+05:09:17 INFO imagem '19th century ledger account' ← wikimedia
+05:09:17 INFO imagem para '19th century ledger account book clerk engraving' achada buscando '19th century ledger account'
+05:09:23 INFO cena 49 pronta (9.5s, total 402s)
+05:09:25 INFO cena 50 pronta (4.8s, total 407s)
+05:09:29 INFO cena 51 pronta (5.9s, total 413s)
+05:09:30 INFO Processing audio with duration 01:01.088
+05:09:30 INFO VAD filter removed 00:00.000 of audio
+05:09:43 INFO bloco 8: 61.1s, 168 palavras reconhecidas
+05:09:48 INFO cena 52 pronta (11.2s, total 424s)
+05:09:52 INFO cena 53 pronta (5.9s, total 430s)
+05:09:55 INFO cena 54 pronta (7.5s, total 438s)
+05:10:01 INFO cena 55 pronta (11.8s, total 449s)
+05:10:04 INFO cena 56 pronta (4.2s, total 454s)
+05:10:08 INFO cena 57 pronta (7.0s, total 461s)
+05:10:12 INFO cena 58 pronta (7.7s, total 468s)
+05:10:15 INFO cena 59 pronta (5.7s, total 474s)
+05:10:16 INFO Processing audio with duration 01:02.528
+05:10:16 INFO VAD filter removed 00:00.016 of audio
+05:10:28 INFO bloco 9: 62.5s, 164 palavras reconhecidas
+05:10:33 INFO cena 60 pronta (10.0s, total 484s)
+05:10:37 INFO cena 61 pronta (6.5s, total 491s)
+05:10:40 INFO cena 62 pronta (6.3s, total 497s)
+05:10:44 INFO cena 63 pronta (10.0s, total 507s)
+05:10:50 INFO cena 64 pronta (9.9s, total 517s)
+05:10:53 INFO cena 65 pronta (6.2s, total 523s)
+05:10:57 INFO cena 66 pronta (7.4s, total 530s)
+05:10:59 INFO imagem 'Revista Illustrada 1880 Angelo Agostini Rio de Janeiro' ← wikimedia
+05:11:04 INFO cena 67 pronta (6.2s, total 537s)
+05:11:05 INFO Processing audio with duration 01:11.328
+05:11:06 INFO VAD filter removed 00:00.112 of audio
+05:11:20 INFO bloco 10: 71.3s, 207 palavras reconhecidas
+05:11:25 INFO cena 68 pronta (9.5s, total 546s)
+05:11:30 INFO cena 69 pronta (9.8s, total 556s)
+05:11:33 INFO cena 70 pronta (5.4s, total 561s)
+05:11:38 INFO cena 71 pronta (8.7s, total 570s)
+05:11:43 INFO cena 72 pronta (8.0s, total 578s)
+05:11:45 INFO cena 73 pronta (4.6s, total 583s)
+05:11:51 INFO cena 74 pronta (11.1s, total 594s)
+05:11:54 INFO cena 75 pronta (7.8s, total 601s)
+05:11:58 INFO cena 76 pronta (6.4s, total 608s)
+05:11:59 INFO Processing audio with duration 01:09.608
+05:11:59 INFO VAD filter removed 00:00.000 of audio
+05:12:13 INFO bloco 11: 69.6s, 190 palavras reconhecidas
+05:12:18 INFO cena 77 pronta (11.8s, total 620s)
+05:12:20 WARNING nenhuma imagem livre para 'candlelit stage small theatre vintage' — usando cartão
+05:12:20 WARNING nenhuma imagem livre para 'candlelit stage small theatre' — usando cartão
+05:12:21 WARNING nenhuma imagem livre para 'candlelit stage small' — usando cartão
+05:12:22 WARNING nenhuma imagem livre para 'candlelit stage' — usando cartão
+05:12:24 INFO imagem 'small theatre' ← wikimedia
+05:12:24 INFO imagem para 'candlelit stage small theatre vintage' achada buscando 'small theatre'
+05:12:28 INFO cena 78 pronta (6.8s, total 626s)
+05:12:34 INFO cena 79 pronta (12.7s, total 639s)
+05:12:35 WARNING nenhuma imagem livre para 'sorting books two piles library vintage' — usando cartão
+05:12:36 INFO imagem 'sorting books two piles' ← wikimedia
+05:12:36 INFO imagem para 'sorting books two piles library vintage' achada buscando 'sorting books two piles'
+05:12:40 INFO cena 80 pronta (6.5s, total 646s)
+05:12:41 WARNING nenhuma imagem livre para 'bell ringing thumbs up vintage cartoon' — usando cartão
+05:12:42 INFO imagem 'bell ringing thumbs up' ← wikimedia
+05:12:42 INFO imagem para 'bell ringing thumbs up vintage cartoon' achada buscando 'bell ringing thumbs up'
+05:13:00 INFO cena 81 pronta (12.4s, total 658s)
+05:13:02 WARNING nenhuma imagem livre para 'pointing down arrow vintage illustration' — usando cartão
+05:13:03 INFO imagem 'pointing down arrow' ← wikimedia
+05:13:03 INFO imagem para 'pointing down arrow vintage illustration' achada buscando 'pointing down arrow'
+05:13:06 INFO cena 82 pronta (5.2s, total 663s)
+05:13:08 INFO imagem 'Frankenstein 1831 frontispiece Theodor von Holst' ← wikimedia
+05:13:20 INFO cena 83 pronta (14.2s, total 677s)
+05:13:21 INFO sem trilha em musica/calmo — vídeo sai só com narração
+05:13:23 WARNING nenhuma imagem livre para 'Machado de Assis 19th century Rio de Janeiro engraving' — usando cartão
+05:13:24 WARNING nenhuma imagem livre para 'Machado de Assis 19th' — usando cartão
+05:13:26 INFO imagem 'Machado de Assis' ← wikimedia
+05:13:26 INFO imagem para 'Machado de Assis 19th century Rio de Janeiro engraving' achada buscando 'Machado de Assis'
+05:13:29 INFO upload 10%
+05:13:30 INFO upload 21%
+05:13:31 INFO upload 32%
+05:13:32 INFO upload 43%
+05:13:32 INFO upload 54%
+05:13:33 INFO upload 65%
+05:13:34 INFO upload 76%
+05:13:35 INFO upload 87%
+05:13:36 INFO upload 98%
+05:13:37 INFO vídeo enviado: https://youtu.be/0iS8C3pzNYY (agendado para 2026-10-31T14:00:00Z)
+05:13:41 INFO na playlist 'Clássicos e vestibular'
+05:13:41 WARNING Encountered 403 Forbidden with reason "forbidden"
+05:13:41 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+05:14:49 INFO corte 1 pronto (28s)
+05:16:23 INFO corte 2 pronto (39s)
+05:17:53 INFO corte 3 pronto (36s)
+05:17:55 INFO Short agendado: https://youtube.com/shorts/DfADGLaZdws (2026-11-01T15:00:00Z)
+05:18:02 INFO Short agendado: https://youtube.com/shorts/rTCMAHabm64 (2026-11-02T15:00:00Z)
+05:18:07 INFO Short agendado: https://youtube.com/shorts/ZI8yy1lu-9s (2026-11-03T15:00:00Z)
+05:18:09 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/saida/video.mp4 (11.3 min) → https://youtu.be/0iS8C3pzNYY
