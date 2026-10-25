@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-25T01:31:13Z",
+  "atualizado_em": "2026-10-25T03:21:12Z",
   "ativos": {
     "miguel": [
       "Mapeado: terça 27/10 17h00",
@@ -55,10 +55,10 @@
       "dia": "2026-10-31",
       "rotulo": "sábado 31/10 11h00",
       "publicar_em_utc": "2026-10-31T14:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
+      "etapa": "aguardando_cota",
+      "etapa_txt": "🎨 esperando a cota de imagens para desenhar",
       "titulo": "Brás Cubas vale ler hoje? Resumo e crítica honesta",
-      "url": "https://youtu.be/kwEQpXWu1e0"
+      "url": ""
     }
   ],
   "publicados": [],
