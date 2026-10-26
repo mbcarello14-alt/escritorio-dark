@@ -1,18 +1,6 @@
 {
-  "atualizado_em": "2026-10-26T12:05:29Z",
+  "atualizado_em": "2026-10-26T12:43:44Z",
   "ativos": {
-    "narrador": [
-      "Mapeado: 10% + 10% não dá 20%: o mapa da porcentagem no Enem"
-    ],
-    "ilustrador": [
-      "Mapeado: 10% + 10% não dá 20%: o mapa da porcentagem no Enem"
-    ],
-    "editor": [
-      "Mapeado: 10% + 10% não dá 20%: o mapa da porcentagem no Enem"
-    ],
-    "clipador": [
-      "Mapeado: 10% + 10% não dá 20%: o mapa da porcentagem no Enem"
-    ],
     "miguel": [
       "Marca-Página: Frankenstein: o livro é bem diferente do monstro que você conhece",
       "Mapeado: Ecologia no ENEM: cadeias, ciclos e a pegadinha"
@@ -34,10 +22,10 @@
       "dia": "2026-10-27",
       "rotulo": "terça 27/10 17h00",
       "publicar_em_utc": "2026-10-27T20:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "10% + 10% não dá 20%: o mapa da porcentagem no Enem",
-      "url": ""
+      "url": "https://youtu.be/YceeNtGG9no"
     },
     {
       "canal": "livros",
@@ -105,8 +93,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 18,
+    "neurons": 990,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
