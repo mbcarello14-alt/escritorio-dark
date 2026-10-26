@@ -1,21 +1,11 @@
 {
-  "atualizado_em": "2026-10-26T19:02:19Z",
+  "atualizado_em": "2026-10-26T23:17:27Z",
   "ativos": {
     "miguel": [
       "Mapeado: Ecologia no ENEM: cadeias, ciclos e a pegadinha"
     ]
   },
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-10-26",
-      "rotulo": "segunda 26/10 18h00",
-      "publicar_em_utc": "2026-10-26T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Wall Street não quebrou o Brasil sozinha",
-      "url": "https://youtu.be/9CZ1G8eEzEY"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-10-27",
@@ -67,14 +57,25 @@
       "url": ""
     }
   ],
-  "publicados": [],
+  "publicados": [
+    {
+      "canal": "historia",
+      "dia": "2026-10-26",
+      "rotulo": "segunda 26/10 18h00",
+      "publicar_em_utc": "2026-10-26T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Wall Street não quebrou o Brasil sozinha",
+      "url": "https://youtu.be/9CZ1G8eEzEY"
+    }
+  ],
   "canais": [
     {
       "id": "historia",
       "nome": "Ouro & Império",
       "inscritos": 1,
       "horas": 0.1,
-      "publicados": 0
+      "publicados": 1
     },
     {
       "id": "vestibular",
