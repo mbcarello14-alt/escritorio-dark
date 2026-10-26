@@ -1,18 +1,6 @@
 {
-  "atualizado_em": "2026-10-26T18:20:21Z",
+  "atualizado_em": "2026-10-26T19:02:19Z",
   "ativos": {
-    "narrador": [
-      "Marca-Página: O monstro do livro lê Milton (e não se chama Frankenstein)"
-    ],
-    "ilustrador": [
-      "Marca-Página: O monstro do livro lê Milton (e não se chama Frankenstein)"
-    ],
-    "editor": [
-      "Marca-Página: O monstro do livro lê Milton (e não se chama Frankenstein)"
-    ],
-    "clipador": [
-      "Marca-Página: O monstro do livro lê Milton (e não se chama Frankenstein)"
-    ],
     "miguel": [
       "Mapeado: Ecologia no ENEM: cadeias, ciclos e a pegadinha"
     ]
@@ -43,10 +31,10 @@
       "dia": "2026-10-28",
       "rotulo": "quarta 28/10 19h00",
       "publicar_em_utc": "2026-10-28T22:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "O monstro do livro lê Milton (e não se chama Frankenstein)",
-      "url": ""
+      "url": "https://youtu.be/cKE1bzOWbKo"
     },
     {
       "canal": "vestibular",
@@ -104,8 +92,8 @@
     }
   ],
   "imagens": {
-    "hoje": 18,
-    "neurons": 990,
+    "hoje": 67,
+    "neurons": 9085,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

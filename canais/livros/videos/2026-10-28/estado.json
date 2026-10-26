@@ -3,9 +3,10 @@
   "dia": "2026-10-28",
   "rotulo": "quarta 28/10 19h00",
   "publicar_em_utc": "2026-10-28T22:00:00Z",
-  "etapa": "renderizando",
-  "atualizado_em": "2026-10-26T18:20:20+00:00",
+  "etapa": "agendado",
+  "atualizado_em": "2026-10-26T19:02:18+00:00",
   "ideia": 2,
   "nota_miguel": "",
-  "titulo": "O monstro do livro lê Milton (e não se chama Frankenstein)"
+  "titulo": "O monstro do livro lê Milton (e não se chama Frankenstein)",
+  "url": "https://youtu.be/cKE1bzOWbKo"
 }
