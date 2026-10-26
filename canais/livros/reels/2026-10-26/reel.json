@@ -1,0 +1,55 @@
+{
+  "canal": "livros",
+  "titulo": "A conta de criança que Harvard errou",
+  "descricao": "Uma ideia de Rápido e Devagar, de Daniel Kahneman: o autor defende que a intuição responde antes de a gente pensar. Mais da metade dos alunos de Harvard, MIT e Princeton errou o problema do taco e da bola.",
+  "hashtags": ["#livros", "#psicologia", "#kahneman"],
+  "legenda_reels": "Mais da metade dos alunos de Harvard errou essa conta. Rápido e Devagar, de Daniel Kahneman. Você acertou? Comenta CINCO #livros #psicologia #booktok",
+  "isca": "Comenta CINCO",
+  "cenario": {"ceu": "#f6c85f", "chao": "#86c06c", "cidade": true, "arvores": 2, "nuvens": true, "sol": false},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "pct", "tipo": "numero", "valor": 0, "sufixo": "%", "casas": 0, "cor": "#e63946", "tam": 2.2, "pos": [0, 0.7], "oculto": true},
+    {"id": "harv", "tipo": "texto", "texto": "HARVARD · MIT · PRINCETON\nerraram", "cor": "#ffffff", "fundo": "#1d3557", "tam": 0.8, "pos": [0, 0.5], "oculto": true},
+    {"id": "conta", "tipo": "texto", "texto": "TACO + BOLA = US$ 1,10\nTACO = BOLA + US$ 1,00\nBOLA = ?", "cor": "#ffffff", "fundo": "#1d3557", "tam": 0.8, "pos": [0, 0.72], "oculto": true},
+    {"id": "resp", "tipo": "texto", "texto": "10 centavos? ERRADO\nsão 5 centavos", "cor": "#ffffff", "fundo": "#e63946", "tam": 1, "pos": [0, 0.72], "oculto": true},
+    {"id": "boneco", "tipo": "boneco", "pos": [-1.2, 0, 1], "cor": "#457b9d", "calca": "#1d3557", "fala": true, "oculto": true},
+    {"id": "livro", "tipo": "livro", "cor": "#e76f51", "titulo": "Rápido e Devagar\nDaniel Kahneman", "pos": [1.3, 0, 0.5], "escala": 1.6, "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Mais da metade dos alunos de Harvard errou esta conta de criança.", "acoes": [
+      {"t": 0.1, "alvo": "pct", "acao": "aparecer", "som": "pop"},
+      {"t": 0.2, "alvo": "pct", "acao": "contar", "para": 50, "dur": 1.5},
+      {"t": 1.8, "alvo": "harv", "acao": "aparecer", "som": "ding"},
+      {"t": 2.5, "alvo": "boneco", "acao": "aparecer", "som": "pop"}
+    ]},
+    {"texto": "Um taco e uma bola custam um dólar e dez. O taco custa um dólar a mais. Quanto custa a bola?", "acoes": [
+      {"t": 0, "alvo": "pct", "acao": "sumir"},
+      {"t": 0, "alvo": "harv", "acao": "sumir"},
+      {"t": 0.2, "alvo": "conta", "acao": "aparecer", "som": "pop"},
+      {"t": 2.5, "alvo": "boneco", "acao": "pular", "altura": 0.8},
+      {"t": 4, "alvo": "conta", "acao": "cor", "cor": "#ffd166"}
+    ]},
+    {"texto": "Seu cérebro grita dez centavos. Errado. São cinco.", "acoes": [
+      {"t": 0, "alvo": "conta", "acao": "sumir"},
+      {"t": 0.1, "alvo": "resp", "acao": "aparecer", "som": "boom"},
+      {"t": 0.1, "acao": "tremer", "forca": 0.4},
+      {"t": 1.8, "alvo": "boneco", "acao": "girar", "voltas": 1, "som": "whoosh"}
+    ]},
+    {"texto": "Em Rápido e Devagar, Daniel Kahneman mostra que o pensamento rápido responde antes do lento conferir.", "acoes": [
+      {"t": 0, "alvo": "resp", "acao": "sumir"},
+      {"t": 0.2, "alvo": "livro", "acao": "aparecer", "som": "ding"},
+      {"t": 0.4, "alvo": "livro", "acao": "girar", "voltas": 1},
+      {"t": 3, "alvo": "livro", "acao": "escalar", "para": 1.3},
+      {"t": 4.5, "alvo": "boneco", "acao": "acenar"}
+    ]},
+    {"texto": "O autor defende que a gente confia demais na própria intuição.", "acoes": [
+      {"t": 0.2, "alvo": "livro", "acao": "pular", "altura": 0.8, "som": "tic"},
+      {"t": 1.5, "alvo": "boneco", "acao": "mover", "para": [-0.4, 0, 1.5], "som": "whoosh"},
+      {"t": 2.8, "alvo": "boneco", "acao": "olhar", "para": 40}
+    ]},
+    {"texto": "Você acertou de primeira? Comenta CINCO, que a gente indica mais um.", "acoes": [
+      {"t": 0.2, "alvo": "boneco", "acao": "pular", "altura": 1, "som": "ding"},
+      {"t": 1, "alvo": "livro", "acao": "girar", "voltas": 1}
+    ]}
+  ]
+}

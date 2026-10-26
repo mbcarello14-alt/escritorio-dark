@@ -1,0 +1,75 @@
+{
+  "canal": "vestibular",
+  "titulo": "pH 3 NÃO é o dobro de pH 5 (a pegadinha do ENEM)",
+  "descricao": "A escala de pH é logarítmica: cada unidade muda a acidez em dez vezes, então pH 3 é cem vezes mais ácido que pH 5. A pegadinha clássica de Química.",
+  "hashtags": ["#enem", "#quimica", "#vestibular"],
+  "legenda_reels": "pH 3 é 100 vezes mais ácido que pH 5, não o dobro! A escala é logarítmica: 1 ponto = 10 vezes. Pegadinha clássica. Caiu nessa? Comenta PH. #enem #quimica #vestibular #ph",
+  "isca": "Comenta PH",
+  "cenario": {"ceu": "#bfe6ff", "chao": "#8fd17a", "cidade": false, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "lousa", "tipo": "lousa", "pos": [0, 0, -4]},
+    {"id": "prof", "tipo": "boneco", "pos": [-2.4, 0, 1.5], "rot": 30, "cor": "#2f6fd6", "pele": "#e8b48a", "cabelo": "#3b2a1a", "calca": "#2b2b3a", "fala": true},
+    {"id": "b5", "tipo": "barra", "pos": [-0.6, 0, 0.5], "altura": 0.06, "largura": 0.9, "cor": "#4cc38a", "oculto": true},
+    {"id": "b4", "tipo": "barra", "pos": [0.9, 0, 0.5], "altura": 0.06, "largura": 0.9, "cor": "#f2c14e", "oculto": true},
+    {"id": "b3", "tipo": "barra", "pos": [2.4, 0, 0.5], "altura": 0.06, "largura": 0.9, "cor": "#e84a5f", "oculto": true},
+    {"id": "quadro", "tipo": "texto", "texto": "pH 3 = 2x pH 5?", "cor": "#ffffff", "fundo": "#1f3b2c", "tam": 0.9, "pos": [0, 0.7], "oculto": true},
+    {"id": "vezes", "tipo": "numero", "valor": 0, "prefixo": "x", "casas": 0, "cor": "#e84a5f", "fundo": "#ffffff", "tam": 2, "pos": [0, 0.5], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "pH três é cem vezes mais ácido que pH cinco. Não é o dobro!",
+      "acoes": [
+        {"t": 0, "alvo": "quadro", "acao": "aparecer", "som": "pop"},
+        {"t": 0.5, "alvo": "b5", "acao": "aparecer"},
+        {"t": 0.7, "alvo": "b3", "acao": "aparecer", "som": "pop"},
+        {"t": 1.5, "alvo": "b3", "acao": "crescer", "para": 6, "dur": 1.5, "som": "whoosh"},
+        {"t": 2.5, "alvo": "prof", "acao": "acenar"}
+      ]
+    },
+    {
+      "texto": "A escala de pH é logarítmica: cada número a menos multiplica a acidez por dez.",
+      "acoes": [
+        {"t": 0, "alvo": "quadro", "acao": "texto", "texto": "ESCALA LOGARÍTMICA"},
+        {"t": 0.6, "alvo": "b3", "acao": "sumir"},
+        {"t": 0.8, "alvo": "b4", "acao": "aparecer", "som": "pop"},
+        {"t": 2.2, "alvo": "quadro", "acao": "texto", "texto": "-1 NO pH = x10", "som": "ding"},
+        {"t": 3.0, "alvo": "prof", "acao": "olhar", "para": 50}
+      ]
+    },
+    {
+      "texto": "Do cinco pro quatro, dez vezes. Do quatro pro três, mais dez vezes. Dez vezes dez: cem.",
+      "acoes": [
+        {"t": 0, "alvo": "quadro", "acao": "texto", "texto": "pH 5 > pH 4"},
+        {"t": 0.3, "alvo": "b4", "acao": "crescer", "para": 0.6, "dur": 0.8, "som": "whoosh"},
+        {"t": 1.8, "alvo": "quadro", "acao": "texto", "texto": "pH 4 > pH 3"},
+        {"t": 1.9, "alvo": "b3", "acao": "aparecer", "som": "pop"},
+        {"t": 2.0, "alvo": "b3", "acao": "crescer", "para": 6, "dur": 1.5, "som": "whoosh"},
+        {"t": 3.8, "alvo": "vezes", "acao": "aparecer"},
+        {"t": 3.9, "alvo": "vezes", "acao": "contar", "para": 100, "dur": 1.2, "som": "tic"},
+        {"t": 5.2, "acao": "tremer", "forca": 0.45, "som": "boom"}
+      ]
+    },
+    {
+      "texto": "A pegadinha: a prova diz dois pontos de diferença, e você pensa no dobro.",
+      "acoes": [
+        {"t": 0, "alvo": "quadro", "acao": "texto", "texto": "A PEGADINHA", "som": "tic"},
+        {"t": 0.8, "alvo": "vezes", "acao": "sumir"},
+        {"t": 1.2, "alvo": "quadro", "acao": "texto", "texto": "2 PONTOS ≠ DOBRO"},
+        {"t": 1.4, "alvo": "prof", "acao": "pular", "altura": 0.6},
+        {"t": 3.0, "alvo": "quadro", "acao": "texto", "texto": "2 PONTOS = x100", "som": "ding"},
+        {"t": 3.2, "acao": "camera", "pos": [0.5, 4.2, 12], "olha": [0.5, 2.4, 0], "dur": 1.0}
+      ]
+    },
+    {
+      "texto": "Grava assim: um ponto no pH, dez vezes na acidez. Caiu nessa? Comenta PH.",
+      "acoes": [
+        {"t": 0, "alvo": "quadro", "acao": "texto", "texto": "1 PONTO = x10\n2 PONTOS = x100", "som": "ding"},
+        {"t": 0.4, "acao": "camera", "pos": [0, 5, 15], "olha": [0, 3.2, 0], "dur": 1.2},
+        {"t": 1.8, "alvo": "prof", "acao": "olhar", "para": 0},
+        {"t": 2.2, "alvo": "prof", "acao": "acenar"},
+        {"t": 3.0, "alvo": "b3", "acao": "cor", "cor": "#ff8a3d", "som": "pop"}
+      ]
+    }
+  ]
+}

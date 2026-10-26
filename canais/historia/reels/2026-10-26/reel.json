@@ -1,0 +1,75 @@
+{
+  "canal": "historia",
+  "titulo": "O país onde o preço dobrava a cada 15 horas",
+  "descricao": "Hungria, 1946: a pior hiperinflação da história fez o governo imprimir uma nota de cem quintilhões de pengő.",
+  "hashtags": ["#historia", "#inflacao", "#economia"],
+  "legenda_reels": "Hungria, 1946: preços dobrando a cada 15 horas e uma nota com vinte zeros. Você gastaria o salário na hora? Comenta FORINT #historia #inflacao #economia",
+  "isca": "Comenta FORINT",
+  "cenario": {"ceu": "#f6c177", "chao": "#c9a66b", "cidade": true, "arvores": 1, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "povo", "tipo": "boneco", "pos": [-1.5, 0, 1], "cor": "#4a7fc1", "calca": "#444444", "fala": true},
+    {"id": "rico", "tipo": "boneco", "pos": [2, 0, -1], "cor": "#222222", "chapeu": "cartola", "oculto": true},
+    {"id": "preco", "tipo": "numero", "valor": 1, "prefixo": "x", "sufixo": "", "casas": 0, "cor": "#b3261e", "tam": 2.2, "pos": [0, 0.7]},
+    {"id": "rotulo", "tipo": "texto", "texto": "PREÇO DOBRA\na cada 15 horas", "cor": "#ffffff", "fundo": "#b3261e", "tam": 0.9, "pos": [0, 0.5], "oculto": true},
+    {"id": "pilha", "tipo": "pilha_moedas", "pos": [1.5, 0, 0], "altura": 3, "cor": "dourado", "oculto": true},
+    {"id": "nota", "tipo": "texto", "texto": "100.000.000.000.000.000.000\npengő", "cor": "#1b1b1b", "fundo": "#f2e3b3", "tam": 0.8, "pos": [0, 0.65], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Em mil novecentos e quarenta e seis, na Hungria, o preço das coisas dobrava a cada quinze horas.",
+      "acoes": [
+        {"t": 0.0, "alvo": "preco", "acao": "contar", "para": 1024, "dur": 3.5, "som": "tic"},
+        {"t": 0.2, "alvo": "povo", "acao": "pular", "altura": 1},
+        {"t": 2.5, "alvo": "rotulo", "acao": "aparecer", "som": "pop"},
+        {"t": 4.0, "alvo": "preco", "acao": "escalar", "para": 1.3, "som": "ding"}
+      ]
+    },
+    {
+      "texto": "Quem recebia o salário de manhã corria para gastar, porque à noite o dinheiro já valia quase nada.",
+      "acoes": [
+        {"t": 0.3, "alvo": "rotulo", "acao": "sumir"},
+        {"t": 0.5, "alvo": "pilha", "acao": "aparecer", "som": "caixa"},
+        {"t": 1.5, "alvo": "povo", "acao": "mover", "para": [0.5, 0, 1], "som": "whoosh"},
+        {"t": 3.0, "alvo": "pilha", "acao": "crescer", "para": 1},
+        {"t": 4.5, "alvo": "pilha", "acao": "cor", "cor": "#8a8a8a"}
+      ]
+    },
+    {
+      "texto": "Então o governo imprimiu uma nota de cem quintilhões de pengő.",
+      "acoes": [
+        {"t": 0.2, "alvo": "pilha", "acao": "sumir"},
+        {"t": 0.4, "alvo": "nota", "acao": "aparecer", "som": "ding"},
+        {"t": 1.5, "acao": "camera", "pos": [0, 4.5, 12], "olha": [0, 3.2, 0]},
+        {"t": 2.5, "alvo": "povo", "acao": "escalar", "para": 0.6}
+      ]
+    },
+    {
+      "texto": "Um número com vinte zeros. A maior nota que já circulou no mundo.",
+      "acoes": [
+        {"t": 0.3, "alvo": "nota", "acao": "escalar", "para": 1.4, "som": "boom"},
+        {"t": 0.3, "acao": "tremer", "forca": 0.5},
+        {"t": 2.5, "alvo": "rico", "acao": "aparecer", "som": "pop"},
+        {"t": 3.2, "alvo": "rico", "acao": "pular", "altura": 1.5}
+      ]
+    },
+    {
+      "texto": "Já estava pronta outra, mil vezes maior. Mas nem chegou às ruas.",
+      "acoes": [
+        {"t": 0.2, "alvo": "nota", "acao": "texto", "texto": "1.000.000.000.000.000.000.000\npengő"},
+        {"t": 1.5, "alvo": "nota", "acao": "explodir", "som": "boom"},
+        {"t": 1.5, "acao": "tremer", "forca": 0.4}
+      ]
+    },
+    {
+      "texto": "Em agosto, o pengő morreu e entrou o forint. Você gastaria o salário na hora? Comenta FORINT.",
+      "acoes": [
+        {"t": 0.3, "alvo": "povo", "acao": "escalar", "para": 1},
+        {"t": 0.5, "alvo": "povo", "acao": "acenar"},
+        {"t": 1.5, "alvo": "rotulo", "acao": "texto", "texto": "Agosto de 1946:\nnasce o forint"},
+        {"t": 1.6, "alvo": "rotulo", "acao": "aparecer", "som": "ding"},
+        {"t": 3.5, "alvo": "povo", "acao": "pular", "altura": 1.2}
+      ]
+    }
+  ]
+}
