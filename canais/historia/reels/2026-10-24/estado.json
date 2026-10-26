@@ -1,9 +1,11 @@
 {
   "canal": "historia",
   "dia": "2026-10-24",
-  "etapa": "aguardando_aprovacao_reel",
+  "etapa": "agendado",
   "ajustes": [],
-  "atualizado_em": "2026-10-24T06:09:01+00:00",
+  "atualizado_em": "2026-10-26T01:20:08+00:00",
   "titulo": "O rei que gastou tanto ouro que o ouro ficou barato",
-  "duracao_s": 25.57
+  "duracao_s": 23.33,
+  "publicar_em_utc": "2026-10-27T23:00:00Z",
+  "url": "https://youtube.com/shorts/OlYskG2BRNs"
 }

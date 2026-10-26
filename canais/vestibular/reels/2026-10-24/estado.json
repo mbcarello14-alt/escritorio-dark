@@ -1,9 +1,11 @@
 {
   "canal": "vestibular",
   "dia": "2026-10-24",
-  "etapa": "aguardando_aprovacao_reel",
+  "etapa": "agendado",
   "ajustes": [],
-  "atualizado_em": "2026-10-24T06:17:43+00:00",
+  "atualizado_em": "2026-10-26T01:04:12+00:00",
   "titulo": "Seu DNA tem 2 metros e cabe num núcleo minúsculo",
-  "duracao_s": 30.65
+  "duracao_s": 32.21,
+  "publicar_em_utc": "2026-10-26T22:00:00Z",
+  "url": "https://youtube.com/shorts/ssCkLXnzu3c"
 }
