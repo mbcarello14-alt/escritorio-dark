@@ -1,0 +1,1287 @@
+{
+  "canal": "vestibular",
+  "titulo": "10% + 10% não dá 20%: o mapa da porcentagem no Enem",
+  "descricao": "Uma loja dá 10% de desconto duas vezes e depois aumenta 10% duas vezes. O preço volta para R$ 100? Não: termina em R$ 98,01, e é questão do Enem.\nUma pergunta só (se uma grandeza dobra, a outra dobra ou cai pela metade?) organiza regra de três direta, inversa, composta e porcentagem em um mapa mental desenhado ao vivo.\n\nNeste vídeo você monta, ramo a ramo, o mapa de regra de três e porcentagem e termina resolvendo uma questão real do Enem 2019 com ele. A ideia é simples: em muitas dessas questões a conta é curta, e o que muda a resposta é reconhecer o tipo de problema antes de calcular. A Matemática do Enem 2026 é no dia 15 de novembro, segundo domingo de prova.\n\nQuestões resolvidas no vídeo (todas de provas do Inep):\n- Enem 2012, segunda aplicação: dois descontos e dois aumentos de 10%\n- Enem 2023, aplicação para pessoas privadas de liberdade: ateliê de costura (grandezas inversas)\n- Enem 2025, segundo dia: fábrica de tijolos (regra de três composta)\n- Enem 2019, segundo dia, caderno azul: rendimento médio com dois aumentos sucessivos\n\nCapítulos logo abaixo.\n\nGostou do mapa? Se inscreva, deixe o like e conte nos comentários qual ramo mais te derruba: a balança, a gangorra, as engrenagens ou a etiqueta de preço.\n\nObservação: as contas com 1.200 e 1.080 tijolos (erros de ajustar só funcionários ou só horas) e a soma 17,2% são cálculos nossos a partir dos enunciados, não dados do Inep.\n\nFontes:\n- Inep, provas e gabaritos do Enem: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos\n- Tessat, análise de incidência do Enem 2010-2025 (levantamento de um site de preparação, com classificação própria; não é do Inep): https://tessat.com.br/portal/analise-de-incidencia/enem\n- CNN Brasil, raio-x do Enem 2024 pela SAS Educação: https://www.cnnbrasil.com.br/educacao/enem-2024-veja-os-assuntos-de-matematica-que-mais-caem/\n- Estratégia, datas do Enem 2026: https://portal.estrategia.com/vestibular-e-enem/enem/inep-divulga-edital-do-enem-2026-com-datas-confirmadas/amp/\n- Gabaritos comentados consultados: Descomplica (https://descomplica.com.br/gabarito-enem/) e Plataforma Assaad (https://plataformaassaad.com.br/)\n- Fator multiplicativo e aumentos sucessivos: Descomplica, porcentagem no Enem: https://descomplica.com.br/blog/porcentagem-no-enem-entenda-de-vez-2/\n\nCréditos: ilustrações geradas por inteligência artificial no estilo quadro branco. Narração gerada por voz sintética. Trilha instrumental da categoria foco, sem direitos reservados ao canal.\n\nEste canal não promete aprovação nem nota: o mapa é uma ferramenta de revisão. Estude também com a prova oficial na mão.\n\n#enem #matematica #regradetres",
+  "tags": [
+    "enem 2026",
+    "regra de três",
+    "porcentagem",
+    "aumentos sucessivos",
+    "matemática enem",
+    "mapa mental",
+    "regra de três composta",
+    "grandezas inversamente proporcionais",
+    "revisão enem",
+    "questões do enem resolvidas",
+    "matemática básica",
+    "enem 2019 questão 153",
+    "fator multiplicativo",
+    "vestibular",
+    "mapeado"
+  ],
+  "hashtags": [
+    "#enem",
+    "#matematica",
+    "#regradetres"
+  ],
+  "playlist": "Matemática",
+  "comentario_inicial": "Na regra de três, você prefere o multiplicar cruzado ou o teste dobra ou cai pela metade? E qual ramo mais te derruba: balança, gangorra, engrenagens ou etiqueta de preço?",
+  "sintetico_realista": false,
+  "musica_humor": "foco",
+  "thumbnail": {
+    "texto": "VOLTA PARA 100?",
+    "cena": "Huge hand-drawn doodle of a price tag with a big empty tag hole and two thick curved arrows, one going down and one going up, forming a loop that does not close, a small coin beside it, thick black marker outlines with touches of orange and dark blue, plain white background, main element large and centered on the right half of the frame, left side empty",
+    "imagem_busca": "price tag discount percentage sale",
+    "layout": "esquerda"
+  },
+  "blocos": [
+    {
+      "capitulo": "A loja que não volta para cem",
+      "cenas": [
+        {
+          "narracao": "Uma loja vende um produto por cem reais. Dá dez por cento de desconto. Depois, mais dez por cento.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a price tag showing one hundred with two downward arrows next to it",
+            "busca_reserva": "price tag discount sale label"
+          }
+        },
+        {
+          "narracao": "Aí se arrepende e aplica dois aumentos de dez por cento. Voltou para cem, né? Não.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a confused shopkeeper scratching his head in front of a price tag with two upward arrows",
+            "busca_reserva": "shopkeeper price increase tag"
+          }
+        },
+        {
+          "narracao": "Termina em noventa e oito reais e um centavo. Isso é questão do Enem de dois mil e doze, segunda aplicação.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "R$ 98,01",
+            "rotulo": "e não R$ 100 · Enem 2012, segunda aplicação"
+          }
+        },
+        {
+          "narracao": "Hoje a gente monta, ramo a ramo, o mapa de regra de três e porcentagem, com um teste só para reconhecer cada tipo de problema. No fim, uma questão real do Enem resolvida com ele.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        },
+        {
+          "narracao": "Se você revisa para a prova com mapa, se inscreve e deixa o like. E já comenta aí: você achava que voltava para cem?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smiling student pointing at the viewer, giving a thumbs up, with a speech bubble containing a question mark",
+            "busca_reserva": "thumbs up student smiling"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Por que esse mapa e a pergunta do centro",
+      "cenas": [
+        {
+          "narracao": "Por que esse tema merece um pedaço da sua revisão? Um site de preparação chamado Tessat classificou, uma a uma, as questões do Enem de dois mil e dez a dois mil e vinte e cinco.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a student with a magnifying glass inspecting a tall stack of exam papers",
+            "busca_reserva": "magnifying glass exam papers"
+          }
+        },
+        {
+          "narracao": "Somando os grupos proporcionalidade e porcentagem e finanças, que incluem escalas e juros, deu cento e quarenta e duas questões de Matemática em dezesseis edições. É perto de uma em cada cinco questões de Matemática.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "142",
+            "rotulo": "questões de Matemática em 16 edições (perto de 1 em cada 5)"
+          }
+        },
+        {
+          "narracao": "Vou ser honesto: essa classificação é do próprio site, não do Inep. E esse não é o assunto que mais cai. Num raio-x do Enem de dois mil e vinte e quatro feito pela SAS Educação, geometria ficou na frente.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Classificação do site, não do Inep",
+            "subtitulo": "Raio-x do Enem 2024 (SAS Educação): geometria ficou na frente"
+          }
+        },
+        {
+          "narracao": "Mas proporção costuma aparecer dentro de situações do dia a dia. E a Matemática do Enem de dois mil e vinte e seis é no dia quinze de novembro, o segundo domingo de prova.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "15 de novembro",
+            "subtitulo": "Matemática do Enem 2026, segundo domingo de prova"
+          }
+        },
+        {
+          "narracao": "Dá tempo de fechar esse mapa. Agora o desenho. No centro do quadro, eu escrevo: duas grandezas.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        },
+        {
+          "narracao": "Do lado, uma pergunta que vai guiar o mapa inteiro. Se uma dobra, a outra dobra ou cai pela metade? Guarda essa pergunta. Ela é uma forma de testar o tipo antes de qualquer conta.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Se uma dobra, a outra dobra ou cai pela metade?",
+            "subtitulo": "O teste do tipo, antes de qualquer conta"
+          }
+        },
+        {
+          "narracao": "Muita gente aprende regra de três como receita: monta a tabelinha e multiplica cruzado. O problema é que a receita não te diz que tipo de problema está na sua frente. E é exatamente aí que a resposta escapa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a worried student holding a recipe card while an answer sheet flies away in the wind",
+            "busca_reserva": "recipe card worried student"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Primeiro ramo: a balança da direta",
+      "cenas": [
+        {
+          "narracao": "Primeiro ramo: grandezas diretamente proporcionais. Imagina uma receita de bolo. Dois ovos para um bolo.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        },
+        {
+          "narracao": "Quer fazer dois bolos? Quatro ovos. Dobrou um, dobrou o outro. Passou no teste, é direta.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "1 bolo",
+              "itens": [
+                "2 ovos"
+              ]
+            },
+            "direita": {
+              "titulo": "2 bolos",
+              "itens": [
+                "4 ovos",
+                "Dobrou um, dobrou o outro"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "No quadro, eu desenho uma balança com os dois pratos subindo juntos. Na direta, a divisão entre as grandezas fica constante. Ovos divididos por bolos dá sempre dois.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a balance scale with both plates rising together, an egg on one plate and a cake on the other",
+            "busca_reserva": "balance scale egg cake"
+          }
+        },
+        {
+          "narracao": "Então, se você vai fazer seis bolos, são doze ovos. É aqui que o famoso multiplicar cruzado funciona sem susto. Você coloca as duas grandezas lado a lado, na mesma ordem, e multiplica em cruz.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Direta: multiplica em cruz",
+            "itens": [
+              "Ovos ÷ bolos = 2 sempre",
+              "6 bolos, 12 ovos",
+              "Mesma ordem, lado a lado",
+              "Multiplica em cruz"
+            ]
+          }
+        },
+        {
+          "narracao": "Esse ramo também aparece disfarçado de escala e de planta de casa. O levantamento da Tessat conta escalas e plantas à parte: dezoito questões em dezesseis edições.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "18",
+            "rotulo": "questões de escalas e plantas em 16 edições (Tessat)"
+          }
+        },
+        {
+          "narracao": "Só que o enunciado não te conta qual é o tipo. Ele vem comprido, cheio de contexto, e deixa você descobrir sozinho.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a student buried under a very long scroll of text with a question mark above his head",
+            "busca_reserva": "long scroll text student confused"
+          }
+        },
+        {
+          "narracao": "Por isso, antes de qualquer conta, faz a pergunta do centro do mapa. Se um dobra e o outro dobra, segue com a cruz. Se não, para tudo e vem para o segundo ramo.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Segundo ramo: a gangorra da inversa",
+      "cenas": [
+        {
+          "narracao": "Segundo ramo: grandezas inversamente proporcionais. Agora o desenho é uma gangorra. Um lado sobe, o outro desce.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "Pensa num muro sendo pintado. Com mais pintores, o serviço acaba em menos dias. Dobrou os pintores, os dias caem pela metade.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "three painters with rollers quickly painting a long brick wall, a small calendar showing few days",
+            "busca_reserva": "painters painting wall"
+          }
+        },
+        {
+          "narracao": "Na inversa, o que fica constante não é a divisão. É o produto. Pintores vezes dias dá sempre o mesmo número.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Inversa: o produto é constante",
+            "subtitulo": "pintores × dias = sempre o mesmo número"
+          }
+        },
+        {
+          "narracao": "Olha como o Enem cobra isso. Numa aplicação de dois mil e vinte e três, a prova para pessoas privadas de liberdade, apareceu um ateliê de costura.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a small sewing workshop with workers at sewing machines and a pile of trousers",
+            "busca_reserva": "sewing workshop trousers"
+          }
+        },
+        {
+          "narracao": "Dez funcionários fazem duzentas calças em cinco dias. Quatro são demitidos e ficam seis. Quantos dias para fazer as mesmas duzentas calças?",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Ateliê de costura (Enem PPL 2023)",
+            "itens": [
+              "10 funcionários, 200 calças, 5 dias",
+              "Saem 4: ficam 6",
+              "Quantos dias para as mesmas 200 calças?"
+            ]
+          }
+        },
+        {
+          "narracao": "Teste do mapa: menos gente, mais dias. É inversa. Então dez vezes cinco dá cinquenta. Esse cinquenta não muda.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "Com seis funcionários, cinquenta dividido por seis dá mais ou menos oito vírgula três dias. Essa é a resposta.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "≈ 8,3 dias",
+            "rotulo": "50 ÷ 6"
+          }
+        },
+        {
+          "narracao": "E a pegadinha? Quem trata como direta e multiplica cruzado acha três dias. E três vírgula zero está lá nas alternativas, esperando você.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "3,0",
+            "rotulo": "a alternativa-armadilha de quem usou a cruz"
+          }
+        },
+        {
+          "narracao": "Me conta nos comentários: qual desses ramos mais te derruba na prova, a balança, a gangorra ou um dos dois que ainda vão aparecer? E se a gangorra já clareou alguma coisa, se inscreve e deixa o like.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cheerful seesaw with a student sitting on one end giving a thumbs up and a speech bubble on the other end",
+            "busca_reserva": "seesaw thumbs up"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Terceiro ramo: as engrenagens da composta",
+      "cenas": [
+        {
+          "narracao": "Terceiro ramo: regra de três composta. No quadro, três engrenagens encaixadas. Aqui tem mais de duas grandezas mexendo ao mesmo tempo.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "Parece outro bicho, mas o segredo é este: a composta é direta ou inversa disfarçada. Você aplica a pergunta do mapa em cada grandeza, uma de cada vez.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "three interlocked gears, each with a small label arrow up or down, turning together",
+            "busca_reserva": "interlocking gears"
+          }
+        },
+        {
+          "narracao": "O Enem de dois mil e vinte e cinco trouxe uma fábrica de tijolos. Três funcionários, trabalhando seis horas, fazem setecentos e vinte tijolos por dia.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "three workers stacking bricks next to a clock showing six hours",
+            "busca_reserva": "brick factory workers"
+          }
+        },
+        {
+          "narracao": "A fábrica passa para cinco funcionários trabalhando nove horas. Quantos tijolos por dia? Detalhe importante: o enunciado garante que cada funcionário produz a mesma quantidade por hora, seja qual for a jornada.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Antes",
+              "itens": [
+                "3 funcionários",
+                "6 horas",
+                "720 tijolos por dia"
+              ]
+            },
+            "direita": {
+              "titulo": "Depois",
+              "itens": [
+                "5 funcionários",
+                "9 horas",
+                "? tijolos por dia"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Com isso, teste. Mais funcionários, mais tijolos. Direta. Mais horas, mais tijolos. Direta também.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Teste de cada grandeza",
+            "itens": [
+              "Mais funcionários, mais tijolos: direta",
+              "Mais horas, mais tijolos: direta"
+            ]
+          }
+        },
+        {
+          "narracao": "Quando as duas são diretas, dá para juntar tudo numa grandeza só. Três funcionários vezes seis horas são dezoito homens-hora.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "18",
+            "rotulo": "homens-hora (3 × 6)"
+          }
+        },
+        {
+          "narracao": "Setecentos e vinte tijolos divididos por dezoito dá quarenta tijolos por homem-hora. Agora, cinco vezes nove dá quarenta e cinco homens-hora.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "40",
+            "rotulo": "tijolos por homem-hora (720 ÷ 18) · agora 5 × 9 = 45 homens-hora"
+          }
+        },
+        {
+          "narracao": "Quarenta e cinco vezes quarenta, mil e oitocentos tijolos. Alternativa D.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "1.800",
+            "rotulo": "tijolos por dia · alternativa D"
+          }
+        },
+        {
+          "narracao": "Antes de sair daqui, anota dois números que também estão nas alternativas: mil e duzentos e mil e oitenta. Eles voltam quando o mapa estiver completo.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Anota: 1.200 e 1.080",
+            "subtitulo": "Também estão nas alternativas. Eles voltam no mapa completo."
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Quarto ramo: a etiqueta da porcentagem",
+      "cenas": [
+        {
+          "narracao": "Quarto ramo, o da pegadinha clássica: porcentagem e aumentos sucessivos. No quadro, uma etiqueta de preço com duas setinhas.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Porcentagem é uma direta em que um dos lados vale cem. Até aí, tranquilo. A ferramenta deste ramo é o fator multiplicativo.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Porcentagem é uma direta",
+            "subtitulo": "um dos lados vale cem · ferramenta: o fator multiplicativo"
+          }
+        },
+        {
+          "narracao": "Aumentar dez por cento é multiplicar por um vírgula um. Dar dez por cento de desconto é multiplicar por zero vírgula nove.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Aumento de 10%",
+              "itens": [
+                "× 1,1"
+              ]
+            },
+            "direita": {
+              "titulo": "Desconto de 10%",
+              "itens": [
+                "× 0,9"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Para qualquer aumento, o fator é um mais a taxa. Para qualquer desconto, é um menos a taxa.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Aumento",
+              "itens": [
+                "fator = 1 + taxa"
+              ]
+            },
+            "direita": {
+              "titulo": "Desconto",
+              "itens": [
+                "fator = 1 − taxa"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E aqui está a regra que segura esse ramo: aumentos sucessivos se multiplicam, não se somam. Dez por cento e depois mais dez por cento não dá vinte.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Sucessivos se multiplicam, não se somam",
+            "subtitulo": "10% e mais 10% não dá 20%"
+          }
+        },
+        {
+          "narracao": "É um vírgula um vezes um vírgula um, que dá um vírgula vinte e um. Ou seja, vinte e um por cento.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "21%",
+            "rotulo": "1,1 × 1,1 = 1,21"
+          }
+        },
+        {
+          "narracao": "Por quê? Porque o segundo aumento incide sobre um valor que já cresceu. Lembra da loja do começo?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a small plant growing taller, and a second watering can pouring on the already taller plant",
+            "busca_reserva": "growing plant stages"
+          }
+        },
+        {
+          "narracao": "Cem reais, desconto de dez por cento, vira noventa. Outro desconto, oitenta e um.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "A loja do começo, passo 1",
+            "itens": [
+              "R$ 100",
+              "−10%: R$ 90",
+              "−10%: R$ 81"
+            ]
+          }
+        },
+        {
+          "narracao": "Um aumento, oitenta e nove reais e dez centavos. Outro aumento, noventa e oito reais e um centavo.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "A loja do começo, passo 2",
+            "itens": [
+              "R$ 81",
+              "+10%: R$ 89,10",
+              "+10%: R$ 98,01"
+            ]
+          }
+        },
+        {
+          "narracao": "Cada porcentagem bateu numa base diferente, por isso não volta para cem. E o mesmo vale para subir dez e descer dez.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a ladder with steps of different heights, a person climbing up and sliding down onto a lower step",
+            "busca_reserva": "ladder steps climbing"
+          }
+        },
+        {
+          "narracao": "Um vírgula um vezes zero vírgula nove dá zero vírgula noventa e nove. Você termina perdendo um por cento.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "−1%",
+            "rotulo": "1,1 × 0,9 = 0,99"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O mapa completo",
+      "cenas": [
+        {
+          "narracao": "Pausa e olha o mapa inteiro, porque é esse aqui que vale printar. No centro, duas grandezas e a pergunta: se uma dobra, a outra dobra ou cai pela metade?",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Ramo um, a balança. Dobram juntas, é direta, a divisão fica constante e você multiplica em cruz.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        },
+        {
+          "narracao": "Ramo dois, a gangorra. Uma dobra e a outra cai pela metade, é inversa, e quem fica constante é o produto, como os cinquenta do ateliê.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "Ramo três, as engrenagens. Várias grandezas ao mesmo tempo, você testa uma por uma e, se forem diretas, junta numa só, como os homens-hora da fábrica de tijolos.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "Ramo quatro, a etiqueta de preço. Porcentagem vira fator, um mais a taxa ou um menos a taxa, e taxas seguidas se multiplicam.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Agora repara numa coisa que liga os ramos. No ateliê, quem tratou a inversa como direta chegou a três dias, e três vírgula zero está nas alternativas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a student on a seesaw mistakenly drawing it as a balance scale, a trap door with the number three under his feet",
+            "busca_reserva": "trap door pitfall cartoon"
+          }
+        },
+        {
+          "narracao": "Na fábrica, lembra dos dois números que você anotou? Essa ligação é conta nossa, não da prova: quem ajusta só os funcionários e esquece as horas chega a mil e duzentos. Quem ajusta só as horas chega a mil e oitenta. Os dois estão nas alternativas.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Só os funcionários",
+              "itens": [
+                "1.200 (conta nossa)"
+              ]
+            },
+            "direita": {
+              "titulo": "Só as horas",
+              "itens": [
+                "1.080 (conta nossa)"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Nessas questões, a conta é curta. O que muda a resposta é reconhecer o tipo. E daqui a pouco você vai ver isso de novo, agora com porcentagem.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "A conta é curta",
+            "subtitulo": "O que muda a resposta é reconhecer o tipo"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A questão de dois mil e dezenove",
+      "cenas": [
+        {
+          "narracao": "Agora, a questão para fechar. Enem de dois mil e dezenove, segundo dia, questão cento e cinquenta e três do caderno azul.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Enem 2019, questão 153",
+            "subtitulo": "Segundo dia, caderno azul"
+          }
+        },
+        {
+          "narracao": "O enunciado fala da renda média mensal dos brasileiros. Em dois mil, ela era de mil duzentos e cinquenta reais. Até o Censo de dois mil e dez, subiu sete vírgula dois por cento.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Renda média mensal",
+            "itens": [
+              "Ano 2000: R$ 1.250",
+              "Censo 2010: +7,2%"
+            ]
+          }
+        },
+        {
+          "narracao": "E a projeção do i-bê-gê-é para dois mil e vinte é de mais dez por cento. Qual o valor projetado?",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Projeção para 2020: mais 10%",
+            "subtitulo": "Qual o valor projetado?"
+          }
+        },
+        {
+          "narracao": "Vamos pelo mapa. Etiqueta de preço, quarto ramo. Dois aumentos seguidos. Regra do ramo: multiplica, não soma.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Primeiro aumento. Sete vírgula dois por cento de mil duzentos e cinquenta dá noventa reais. Mil duzentos e cinquenta mais noventa, mil trezentos e quarenta.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "R$ 1.340",
+            "rotulo": "1.250 + 90 (7,2% de 1.250)"
+          }
+        },
+        {
+          "narracao": "Segundo aumento. Dez por cento de mil trezentos e quarenta é cento e trinta e quatro. Mil trezentos e quarenta mais cento e trinta e quatro, mil quatrocentos e setenta e quatro reais.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "R$ 1.474",
+            "rotulo": "1.340 + 134 (10% de 1.340)"
+          }
+        },
+        {
+          "narracao": "Alternativa E. Agora vem o detalhe que faz essa questão valer o vídeo.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Alternativa E",
+            "subtitulo": "R$ 1.474"
+          }
+        },
+        {
+          "narracao": "Se você soma as taxas, sete vírgula dois mais dez, dá dezessete vírgula dois por cento. Mil duzentos e cinquenta com dezessete vírgula dois por cento a mais dá mil quatrocentos e sessenta e cinco reais.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Multiplicando",
+              "itens": [
+                "1,072 × 1,10",
+                "R$ 1.474"
+              ]
+            },
+            "direita": {
+              "titulo": "Somando as taxas",
+              "itens": [
+                "7,2 + 10 = 17,2%",
+                "R$ 1.465"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E sabe qual é a alternativa D? Mil quatrocentos e sessenta e cinco reais.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Alternativa D",
+            "subtitulo": "R$ 1.465, a resposta errada"
+          }
+        },
+        {
+          "narracao": "A resposta errada já estava impressa na prova, esperando quem pulou o mapa. Nove reais separaram o acerto do erro.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "R$ 9",
+            "rotulo": "separaram o acerto do erro"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O tipo antes da conta",
+      "cenas": [
+        {
+          "narracao": "Então fica a tese do Mapeado para esse tema. Em regra de três e porcentagem, a conta costuma ser curta. O difícil é reconhecer o tipo.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "A conta é curta, o difícil é o tipo",
+            "subtitulo": "A tese do Mapeado para regra de três e porcentagem"
+          }
+        },
+        {
+          "narracao": "E uma pergunta só, se uma dobra a outra dobra ou cai pela metade, organiza os quatro ramos. Primeiro o tipo, depois a conta.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "duas grandezas",
+              "ramos": [
+                {
+                  "rotulo": "Direta: balança",
+                  "filhos": [
+                    "Dobra e dobra",
+                    "Divisão constante",
+                    "Multiplica em cruz"
+                  ]
+                },
+                {
+                  "rotulo": "Inversa: gangorra",
+                  "filhos": [
+                    "Uma dobra, outra cai",
+                    "Produto constante",
+                    "Mais gente, menos dias"
+                  ]
+                },
+                {
+                  "rotulo": "Composta: engrenagens",
+                  "filhos": [
+                    "Testa uma por vez",
+                    "Junta numa só",
+                    "Homens-hora"
+                  ]
+                },
+                {
+                  "rotulo": "Porcentagem: etiqueta",
+                  "filhos": [
+                    "Fator 1 mais ou menos taxa",
+                    "Aumentos se multiplicam",
+                    "Cada taxa, uma base"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "A Matemática do Enem está chegando, então copia o mapa no caderno e refaz amanhã as quatro questões de hoje, sem olhar a resolução.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a student copying a mind map into a notebook with a pencil, a calendar on the wall",
+            "busca_reserva": "student notebook pencil"
+          }
+        },
+        {
+          "narracao": "A da loja, a do ateliê, a dos tijolos e a do rendimento. Se você acertar as quatro explicando o tipo em voz alta, esse mapa está fechado.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Refaz amanhã, sem olhar a resolução",
+            "itens": [
+              "A da loja",
+              "A do ateliê",
+              "A dos tijolos",
+              "A do rendimento"
+            ]
+          }
+        },
+        {
+          "narracao": "Se ele arrumou alguma coisa na sua cabeça, se inscreve, deixa o like e volta lá na pergunta do meio. Conta nos comentários qual ramo mais te pegava e se ele ainda te pega depois do mapa. No próximo mapa, a gente sai da Matemática e vai para outra matéria do Enem.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smiling teacher at a whiteboard pointing at the viewer with a thumbs up and a bell icon beside him",
+            "busca_reserva": "teacher whiteboard thumbs up"
+          }
+        }
+      ]
+    }
+  ]
+}

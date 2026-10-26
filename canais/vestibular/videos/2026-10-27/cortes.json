@@ -1,0 +1,31 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1],
+      "ate": [1, 4],
+      "gancho": "Dois descontos e dois aumentos: volta a 100?",
+      "titulo": "Dois descontos e dois aumentos de 10%: o preço volta a 100?",
+      "descricao": "Uma loja dá dois descontos de 10% e depois dois aumentos de 10%. A questão caiu no Enem 2012. O mapa completo de regra de três e porcentagem está no vídeo no canal.",
+      "hashtags": ["#enem", "#matematica", "#porcentagem"],
+      "legenda_reels": "Dois descontos de 10% e dois aumentos de 10%: o preço volta para R$ 100? Não! Questão do Enem 2012. Segue o perfil para mapas mentais do que mais cai na prova. #enem #matematica #porcentagem #vestibular"
+    },
+    {
+      "de": [4, 4],
+      "ate": [4, 8],
+      "gancho": "A pegadinha da regra de três no Enem",
+      "titulo": "A pegadinha da regra de três que derruba no Enem",
+      "descricao": "Dez costureiros, duzentas calças, quatro demitidos: quantos dias? Quem multiplica em cruz cai na armadilha. O mapa completo está no vídeo no canal.",
+      "hashtags": ["#enem", "#matematica", "#regradetres"],
+      "legenda_reels": "Dez funcionários fazem 200 calças em 5 dias. Saem 4: quantos dias? Quem usa a regra de três direta erra! Segue o perfil para mapas mentais de Matemática. #enem #matematica #regradetres #vestibular"
+    },
+    {
+      "de": [6, 3],
+      "ate": [6, 6],
+      "gancho": "10% mais 10% não é 20%",
+      "titulo": "Por que 10% mais 10% não dá 20% (fator multiplicativo)",
+      "descricao": "Aumentos sucessivos se multiplicam, não se somam. Veja o fator multiplicativo em 30 segundos. O mapa completo e a questão do Enem 2019 estão no vídeo no canal.",
+      "hashtags": ["#enem", "#matematica", "#porcentagem"],
+      "legenda_reels": "10% e mais 10% não dá 20%, dá 21%. É o fator multiplicativo: 1,1 x 1,1 = 1,21. Segue o perfil para revisar o que mais cai no Enem. #enem #matematica #porcentagem #vestibular"
+    }
+  ]
+}
