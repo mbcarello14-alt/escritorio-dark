@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-26T00:53:37Z",
+  "atualizado_em": "2026-10-26T11:37:15Z",
   "ativos": {
     "diretor_visual": [
       "Mapeado: Regra de três e porcentagem: o mapa do que mais cai"
@@ -12,10 +12,7 @@
     ],
     "miguel": [
       "Marca-Página: Frankenstein: o livro é bem diferente do monstro que você conhece",
-      "Mapeado: Ecologia no ENEM: cadeias, ciclos e a pegadinha",
-      "Reel Ouro & Império: O rei que gastou tanto ouro que o ouro ficou barato",
-      "Reel Marca-Página: 1% por dia vira 37x em um ano? A conta de Hábitos Atômicos",
-      "Reel Mapeado: Seu DNA tem 2 metros e cabe num núcleo minúsculo"
+      "Mapeado: Ecologia no ENEM: cadeias, ciclos e a pegadinha"
     ]
   },
   "proximos": [
@@ -93,7 +90,7 @@
       "id": "vestibular",
       "nome": "Mapeado",
       "inscritos": 1,
-      "horas": 0.0,
+      "horas": 0.1,
       "publicados": 0
     },
     {
