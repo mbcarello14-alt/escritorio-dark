@@ -203,15 +203,42 @@ def produzir(pasta: Path, enviar: bool = True, motor: str | None = None) -> Path
     com_faixa.replace(saida)
     log.info("reel pronto: %s (%.1fs)", saida, dur)
 
-    _estado(pasta, etapa="aguardando_aprovacao_reel", titulo=reel.get("titulo", ""), duracao_s=dur)
+    _estado(pasta, etapa="pronto_reel", titulo=reel.get("titulo", ""), duracao_s=dur)
     if enviar:
+        # agenda na hora (o vídeo existe nesta máquina) e manda no Telegram; o Miguel pode cancelar ou pedir ajuste
         from . import estado as E
         from . import telegram as T
-        legenda = (f"🎬 <b>Reel chamativo — {T.esc(cfg['nome'])}</b>\n<b>{T.esc(reel.get('titulo', ''))}</b>\n\n"
-                   "Responda <b>aprovar</b> para agendar no YouTube Shorts, ou responda dizendo o que mudar.")
-        mid = T.enviar_video(saida, legenda)
+        from .agenda import BRT
+        despublicar(pasta)                      # versão anterior (ajuste) sai da agenda
+        pub = publicar(pasta, avisar=False)
+        q = datetime.fromisoformat(pub["publicar_em_utc"].replace("Z", "+00:00")).astimezone(BRT)
+        legenda = (f"🎬 <b>Reel — {T.esc(cfg['nome'])}</b>\n<b>{T.esc(reel.get('titulo', ''))}</b>\n"
+                   f"📅 Agendado no YouTube Shorts: {q:%d/%m às %Hh%M}\n\n"
+                   "Não precisa fazer nada. Para mudar, <b>responda</b> dizendo o quê; para tirar da agenda, responda <b>cancelar</b>.\n\n"
+                   f"📱 Reels/TikTok: {T.esc(reel.get('legenda_reels', ''))}")
+        mid = T.enviar_video(saida, legenda[:1000])
         E.registrar_msgs([mid], pasta, "reel")
     return saida
+
+
+def despublicar(pasta: Path) -> None:
+    """Tira da agenda a versão já enviada (fica privada no canal, sem data). Não apaga nada."""
+    arq = pasta / "publicacao.json"
+    if not arq.exists():
+        return
+    pub = json.loads(arq.read_text(encoding="utf-8"))
+    if not pub.get("video_id"):
+        return
+    from .youtube import servico
+    cfg = carregar_config(_estado(pasta)["canal"])
+    try:
+        servico(cfg["segredo_youtube"]).videos().update(part="status", body={
+            "id": pub["video_id"], "status": {"privacyStatus": "private"}}).execute()
+        log.info("versão anterior tirada da agenda: %s", pub["video_id"])
+    except Exception as e:
+        log.warning("não consegui tirar %s da agenda: %s", pub["video_id"], e)
+    antigos = pub.get("anteriores", []) + [pub["video_id"]]
+    arq.write_text(json.dumps({"anteriores": antigos}, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 # ---------------------------------------------------------------- validação
@@ -265,7 +292,8 @@ def validar(pasta: Path) -> list[str]:
 def _proximo_slot(cfg: dict) -> str:
     from .agenda import BRT, DIAS
     slots = (cfg.get("reels") or {}).get("publicar") or ["sun 19:00"]
-    ocupados = {_estado(p.parent).get("publicar_em_utc") for p in _pastas_reels(cfg["canal"])}
+    ocupados = {_estado(p.parent).get("publicar_em_utc") for p in _pastas_reels(cfg["canal"])
+                if _estado(p.parent).get("etapa") == "agendado"}
     agora = datetime.now(timezone.utc).astimezone(BRT)
     for dias in range(0, 30):
         d = (agora + timedelta(days=dias)).date()
@@ -281,16 +309,21 @@ def _proximo_slot(cfg: dict) -> str:
     return (datetime.now(timezone.utc) + timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def publicar(pasta: Path) -> dict:
+def publicar(pasta: Path, avisar: bool = True) -> dict:
     from .youtube import publicar_short
     reel = json.loads((pasta / "reel.json").read_text(encoding="utf-8"))
     cfg = carregar_config(reel["canal"])
     quando = _proximo_slot(cfg)
     corte = {"titulo": reel["titulo"], "descricao": reel.get("descricao", ""), "hashtags": reel.get("hashtags", [])}
     vid = publicar_short(cfg, corte, pasta / "saida" / "reel.mp4", quando, None)
-    pub = {"video_id": vid, "url": f"https://youtube.com/shorts/{vid}", "publicar_em_utc": quando, "titulo": reel["titulo"]}
+    antes = json.loads((pasta / "publicacao.json").read_text(encoding="utf-8")).get("anteriores", []) \
+        if (pasta / "publicacao.json").exists() else []
+    pub = {"video_id": vid, "url": f"https://youtube.com/shorts/{vid}", "publicar_em_utc": quando, "titulo": reel["titulo"],
+           "anteriores": antes}
     (pasta / "publicacao.json").write_text(json.dumps(pub, ensure_ascii=False, indent=2), encoding="utf-8")
     _estado(pasta, etapa="agendado", publicar_em_utc=quando, url=pub["url"])
+    if not avisar:
+        return pub
     from . import telegram as T
     from .agenda import BRT
     q = datetime.fromisoformat(quando.replace("Z", "+00:00")).astimezone(BRT)
@@ -310,6 +343,11 @@ if __name__ == "__main__":
             produzir(p, enviar="--sem-envio" not in sys.argv, motor="teste" if "teste" in sys.argv else None)
         elif acao == "publicar":
             publicar(p)
+        elif acao == "cancelar":
+            despublicar(p)
+            _estado(p, etapa="cancelado_reel", publicar_em_utc=None)
+            from . import telegram as T
+            T.enviar("🗑️ Reel tirado da agenda (ficou privado no canal; nada foi apagado).")
         elif acao == "validar":
             er = validar(p)
             print("OK" if not er else "Corrija:\n- " + "\n- ".join(er))

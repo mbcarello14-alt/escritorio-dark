@@ -292,7 +292,7 @@ def receber(evento: dict) -> None:
         candidatos = [(p, esperando[e.get("etapa")]) for p, e in E.todos_videos() if e.get("etapa") in esperando]
         import json as _json
         for arq in sorted((RAIZ / "canais").glob("*/reels/*/estado.json")):
-            if _json.loads(arq.read_text(encoding="utf-8")).get("etapa") == "aguardando_aprovacao_reel":
+            if _json.loads(arq.read_text(encoding="utf-8")).get("etapa") in ("aguardando_aprovacao_reel", "agendado") and False:
                 candidatos.append((arq.parent, "reel"))
         if re.match(r"^\s*[1-3]\b", texto):
             candidatos = [c for c in candidatos if c[1] == "pauta"]
@@ -344,12 +344,14 @@ def receber(evento: dict) -> None:
 
     if tipo == "reel":
         if APROVAR.match(texto):
-            T.enviar("📅 Aprovado! Agendando o reel no YouTube Shorts…", responder_a=msg["message_id"])
-            _saida(reel_acao="publicar", reel_pasta=E.rel(pasta))
+            T.enviar("✅ Esse reel já está agendado, não precisa fazer nada.", responder_a=msg["message_id"])
+        elif re.match(r"^\s*(cancelar|cancela|tirar|remover)\b", texto, re.I):
+            T.enviar("🗑️ Tirando o reel da agenda…", responder_a=msg["message_id"])
+            _saida(reel_acao="cancelar", reel_pasta=E.rel(pasta))
         else:
             ajustes = E.ler_estado(pasta).get("ajustes", [])
             E.salvar_estado(pasta, etapa="ajuste_reel", ajustes=ajustes + [texto])
-            T.enviar("🎬 Anotado! Ajustando o reel e renderizando de novo (uns 10 min).", responder_a=msg["message_id"])
+            T.enviar("🎬 Anotado! Ajustando o reel; a versão nova substitui a agendada (uns 10 min).", responder_a=msg["message_id"])
             _saida(reel_acao="ajustar", reel_pasta=E.rel(pasta))
         return
 

@@ -1,6 +1,6 @@
 name: Reels chamativos
 # Sábado, segunda e quarta às 10h (Brasília): cada canal ganha um reel 3D (3 por canal por semana);
-# o vídeo pronto chega no Telegram para você aprovar.
+# o reel é agendado sozinho e chega no Telegram (dá para pedir ajuste ou cancelar respondendo).
 on:
   schedule:
     - cron: "0 13 * * 6"
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       acao:
-        description: "gerar | produzir | ajustar | publicar"
+        description: "gerar | produzir | ajustar | cancelar"
         default: gerar
       pasta:
         description: "Pasta do reel (para produzir, ajustar e publicar)"
@@ -64,7 +64,7 @@ jobs:
           token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
 
       - name: FFmpeg e navegador para a cena 3D
-        if: inputs.acao != 'publicar'
+        if: inputs.acao != 'cancelar'
         timeout-minutes: 10
         run: |
           if ! timeout 180 bash -c "sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null"; then
@@ -76,14 +76,14 @@ jobs:
           ls /usr/bin/google-chrome
 
       - name: Modelo de transcrição (cache)
-        if: inputs.acao != 'publicar'
+        if: inputs.acao != 'cancelar'
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
           key: whisper-small-v1
 
       - name: Montar os reels
-        if: inputs.acao != 'publicar'
+        if: inputs.acao != 'cancelar'
         run: |
           mkdir -p canais/logs
           pastas="${{ steps.plano.outputs.pastas }}"
@@ -94,9 +94,9 @@ jobs:
             python -m pipeline.reel produzir "$p" 2>&1 | grep -v "quadro [0-9]" | tee -a canais/logs/reels-$(date -u +%Y%m%d-%H%M%S).log || true
           done
 
-      - name: Publicar (depois do "aprovar")
-        if: inputs.acao == 'publicar'
-        run: python -m pipeline.reel publicar "${{ inputs.pasta }}"
+      - name: Tirar da agenda
+        if: inputs.acao == 'cancelar'
+        run: python -m pipeline.reel cancelar "${{ inputs.pasta }}"
 
       - name: Salvar
         if: always()
