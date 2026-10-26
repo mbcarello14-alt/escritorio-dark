@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 3],
+      "gancho": "Frankenstein não é o monstro?",
+      "titulo": "Frankenstein não é o nome do monstro (e ele lê Milton)",
+      "descricao": "A fantasia de Halloween mais comum erra o nome e a personalidade da criatura. O resumo e a crítica completos do livro de Mary Shelley estão no canal.",
+      "hashtags": ["#frankenstein", "#livros", "#halloween"],
+      "legenda_reels": "Frankenstein é o criador, não o monstro. E a criatura do livro fala bonito e lê Milton. Segue o perfil para mais resumos com crítica. #frankenstein #livros #halloween #booktok #marcapagina"
+    },
+    {
+      "de": [2, 4], "ate": [2, 7],
+      "gancho": "Ela estreou sem poder assinar",
+      "titulo": "O livro de US$ 1,17 milhão que saiu sem o nome da autora",
+      "descricao": "Frankenstein saiu anônimo em 1818 e hoje um exemplar vale mais de um milhão de dólares. A história completa e a crítica estão no canal.",
+      "hashtags": ["#maryshelley", "#frankenstein", "#livros"],
+      "legenda_reels": "Mary Shelley estreou sem o nome na capa, e um exemplar da primeira edição foi vendido por US$ 1,17 milhão. Segue o perfil para mais livros contados com crítica. #maryshelley #frankenstein #livros #booktok"
+    },
+    {
+      "de": [7, 1], "ate": [7, 2],
+      "gancho": "Existem dois Frankensteins diferentes",
+      "titulo": "Existem dois Frankensteins, e quase ninguém conta isso",
+      "descricao": "O romance de 1818 e o de 1831 não são o mesmo texto. Qual edição ler e o que mudou está no vídeo completo no canal.",
+      "hashtags": ["#frankenstein", "#maryshelley", "#literatura"],
+      "legenda_reels": "Existem dois Frankensteins: o de 1818 e o de 1831, revisto pela própria Mary Shelley. Os estudiosos não compraram a desculpa dela. Segue o perfil para mais livros. #frankenstein #literatura #livros #booktok"
+    }
+  ]
+}

@@ -1,8 +1,19 @@
 {
-  "atualizado_em": "2026-10-26T15:17:28Z",
+  "atualizado_em": "2026-10-26T18:20:21Z",
   "ativos": {
+    "narrador": [
+      "Marca-Página: O monstro do livro lê Milton (e não se chama Frankenstein)"
+    ],
+    "ilustrador": [
+      "Marca-Página: O monstro do livro lê Milton (e não se chama Frankenstein)"
+    ],
+    "editor": [
+      "Marca-Página: O monstro do livro lê Milton (e não se chama Frankenstein)"
+    ],
+    "clipador": [
+      "Marca-Página: O monstro do livro lê Milton (e não se chama Frankenstein)"
+    ],
     "miguel": [
-      "Marca-Página: Frankenstein: o livro é bem diferente do monstro que você conhece",
       "Mapeado: Ecologia no ENEM: cadeias, ciclos e a pegadinha"
     ]
   },
@@ -32,9 +43,9 @@
       "dia": "2026-10-28",
       "rotulo": "quarta 28/10 19h00",
       "publicar_em_utc": "2026-10-28T22:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "Frankenstein: o livro é bem diferente do monstro que você conhece",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "O monstro do livro lê Milton (e não se chama Frankenstein)",
       "url": ""
     },
     {
