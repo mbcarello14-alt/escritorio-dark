@@ -1,19 +1,6 @@
 {
-  "atualizado_em": "2026-10-27T17:01:52Z",
-  "ativos": {
-    "narrador": [
-      "Mapeado: Ecologia no ENEM: energia desce, veneno sobe"
-    ],
-    "ilustrador": [
-      "Mapeado: Ecologia no ENEM: energia desce, veneno sobe"
-    ],
-    "editor": [
-      "Mapeado: Ecologia no ENEM: energia desce, veneno sobe"
-    ],
-    "clipador": [
-      "Mapeado: Ecologia no ENEM: energia desce, veneno sobe"
-    ]
-  },
+  "atualizado_em": "2026-10-27T17:40:44Z",
+  "ativos": {},
   "proximos": [
     {
       "canal": "vestibular",
@@ -60,10 +47,10 @@
       "dia": "2026-11-03",
       "rotulo": "terça 03/11 17h00",
       "publicar_em_utc": "2026-11-03T20:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Ecologia no ENEM: energia desce, veneno sobe",
-      "url": ""
+      "url": "https://youtu.be/_C38hqcUFGI"
     }
   ],
   "publicados": [
@@ -102,8 +89,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 38,
+    "neurons": 2090,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
