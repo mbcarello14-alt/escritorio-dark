@@ -1,17 +1,7 @@
 {
-  "atualizado_em": "2026-10-27T17:40:44Z",
+  "atualizado_em": "2026-10-27T23:18:29Z",
   "ativos": {},
   "proximos": [
-    {
-      "canal": "vestibular",
-      "dia": "2026-10-27",
-      "rotulo": "terça 27/10 17h00",
-      "publicar_em_utc": "2026-10-27T20:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "10% + 10% não dá 20%: o mapa da porcentagem no Enem",
-      "url": "https://youtu.be/YceeNtGG9no"
-    },
     {
       "canal": "livros",
       "dia": "2026-10-28",
@@ -63,6 +53,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Wall Street não quebrou o Brasil sozinha",
       "url": "https://youtu.be/9CZ1G8eEzEY"
+    },
+    {
+      "canal": "vestibular",
+      "dia": "2026-10-27",
+      "rotulo": "terça 27/10 17h00",
+      "publicar_em_utc": "2026-10-27T20:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "10% + 10% não dá 20%: o mapa da porcentagem no Enem",
+      "url": "https://youtu.be/YceeNtGG9no"
     }
   ],
   "canais": [
@@ -78,7 +78,7 @@
       "nome": "Mapeado",
       "inscritos": 1,
       "horas": 0.1,
-      "publicados": 0
+      "publicados": 1
     },
     {
       "id": "livros",
