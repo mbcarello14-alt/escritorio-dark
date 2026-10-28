@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-27T23:53:17Z",
+  "atualizado_em": "2026-10-28T11:36:33Z",
   "ativos": {},
   "proximos": [
     {
@@ -69,7 +69,7 @@
     {
       "id": "historia",
       "nome": "Ouro & Império",
-      "inscritos": 1,
+      "inscritos": 2,
       "horas": 0.1,
       "publicados": 1
     },
@@ -89,8 +89,8 @@
     }
   ],
   "imagens": {
-    "hoje": 38,
-    "neurons": 2090,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
