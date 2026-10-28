@@ -1,0 +1,53 @@
+{
+  "canal": "vestibular",
+  "titulo": "Dois metros de DNA cabem numa célula? Cai no ENEM",
+  "descricao": "Cada célula humana guarda cerca de dois metros de DNA dentro de um núcleo minúsculo. Entenda como histonas, nucleossomos e cromatina explicam isso, tema clássico de Biologia no ENEM.",
+  "hashtags": ["#enem", "#biologia", "#vestibular"],
+  "legenda_reels": "Dois metros de DNA dentro de uma célula? Grava assim: DNA + histonas = cromatina. Isso cai muito no ENEM! Comenta DNA que a gente faz o mapa mental completo. #enem #biologia #vestibular #dna",
+  "isca": "Comenta DNA",
+  "cenario": {"ceu": "#bfe3f7", "chao": "#86c06c", "cidade": false, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "lousa", "tipo": "lousa", "pos": [0, 0, -4]},
+    {"id": "prof", "tipo": "boneco", "pos": [2.2, 0, 1], "rot": -20, "cor": "#3a6fd8", "fala": true},
+    {"id": "dna", "tipo": "barra", "pos": [-2, 0, 0], "altura": 0.2, "largura": 0.6, "cor": "#e0457b", "oculto": true},
+    {"id": "n2m", "tipo": "numero", "valor": 0, "sufixo": " m de DNA", "casas": 0, "cor": "#e0457b", "tam": 1.2, "pos": [0, 0.7], "oculto": true},
+    {"id": "nucleo", "tipo": "esfera", "pos": [0, 0.4, 2], "tam": 0.5, "cor": "#7a4fd8", "oculto": true},
+    {"id": "t_nucleo", "tipo": "texto", "texto": "núcleo:\nalguns micrômetros", "cor": "#ffffff", "fundo": "#7a4fd8", "tam": 0.8, "pos": [0, 0.6], "oculto": true},
+    {"id": "t_histona", "tipo": "texto", "texto": "DNA + histonas\n= CROMATINA", "cor": "#ffffff", "fundo": "#e0457b", "tam": 0.9, "pos": [0, 0.65], "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Dentro de uma célula sua cabem dois metros de DNA.", "acoes": [
+      {"t": 0.2, "alvo": "dna", "acao": "aparecer", "som": "pop"},
+      {"t": 0.3, "alvo": "dna", "acao": "crescer", "para": 6.5, "dur": 1.8, "som": "whoosh"},
+      {"t": 0.5, "alvo": "n2m", "acao": "aparecer"},
+      {"t": 0.6, "alvo": "n2m", "acao": "contar", "para": 2, "dur": 1.5},
+      {"t": 2.2, "alvo": "prof", "acao": "acenar"}
+    ]},
+    {"texto": "E o núcleo que guarda tudo isso mede só alguns milésimos de milímetro.", "acoes": [
+      {"t": 0.3, "alvo": "n2m", "acao": "sumir"},
+      {"t": 0.4, "alvo": "nucleo", "acao": "aparecer", "som": "ding"},
+      {"t": 0.6, "alvo": "t_nucleo", "acao": "aparecer", "som": "pop"},
+      {"t": 2.0, "alvo": "nucleo", "acao": "pular", "altura": 0.8},
+      {"t": 3.0, "alvo": "dna", "acao": "escalar", "para": 1.15}
+    ]},
+    {"texto": "A pegadinha é: como cabe? O DNA se enrola em proteínas chamadas histonas, igual linha num carretel.", "acoes": [
+      {"t": 0.2, "alvo": "t_nucleo", "acao": "sumir"},
+      {"t": 0.8, "alvo": "dna", "acao": "crescer", "para": 1.2, "dur": 2.5, "som": "whoosh"},
+      {"t": 1.0, "alvo": "nucleo", "acao": "mover", "para": [-2, 0.4, 1.5]},
+      {"t": 3.5, "alvo": "nucleo", "acao": "girar", "voltas": 3},
+      {"t": 3.6, "acao": "tremer", "forca": 0.3, "som": "boom"}
+    ]},
+    {"texto": "Grava assim: DNA mais histonas é igual a cromatina, que se enrola até virar cromossomo.", "acoes": [
+      {"t": 0.3, "alvo": "t_histona", "acao": "aparecer", "som": "ding"},
+      {"t": 1.5, "alvo": "prof", "acao": "acenar"},
+      {"t": 2.5, "alvo": "nucleo", "acao": "escalar", "para": 1.6},
+      {"t": 4.0, "alvo": "t_histona", "acao": "texto", "texto": "cromatina\n= cromossomo"}
+    ]},
+    {"texto": "Isso cai muito no ENEM. Você já sabia disso? Comenta DNA.", "acoes": [
+      {"t": 0.2, "alvo": "prof", "acao": "pular", "altura": 0.6},
+      {"t": 1.5, "alvo": "prof", "acao": "acenar"},
+      {"t": 2.5, "alvo": "t_histona", "acao": "texto", "texto": "Comenta DNA"}
+    ]}
+  ]
+}
