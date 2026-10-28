@@ -1,19 +1,6 @@
 {
-  "atualizado_em": "2026-10-28T14:30:08Z",
-  "ativos": {
-    "narrador": [
-      "Ouro & Império: Templários: o rei sem dinheiro e o banco que ele quebrou"
-    ],
-    "ilustrador": [
-      "Ouro & Império: Templários: o rei sem dinheiro e o banco que ele quebrou"
-    ],
-    "editor": [
-      "Ouro & Império: Templários: o rei sem dinheiro e o banco que ele quebrou"
-    ],
-    "clipador": [
-      "Ouro & Império: Templários: o rei sem dinheiro e o banco que ele quebrou"
-    ]
-  },
+  "atualizado_em": "2026-10-28T16:19:26Z",
+  "ativos": {},
   "proximos": [
     {
       "canal": "livros",
@@ -40,10 +27,10 @@
       "dia": "2026-10-30",
       "rotulo": "sexta 30/10 18h00",
       "publicar_em_utc": "2026-10-30T21:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Templários: o rei sem dinheiro e o banco que ele quebrou",
-      "url": ""
+      "url": "https://youtu.be/uj-4EEC4yiQ"
     },
     {
       "canal": "livros",
@@ -112,8 +99,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 1,
+    "neurons": 55,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

@@ -1,0 +1,549 @@
+14:31:06 INFO ilustrações: higgsfield desligado (sem chave)
+14:31:39 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 1/12
+14:31:39 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+14:31:40 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+14:31:41 INFO Processing audio with duration 00:39.127
+[0;93m2026-10-28 14:31:41.184277138 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+14:31:41 INFO VAD filter removed 00:00.000 of audio
+14:31:56 INFO Processing audio with duration 00:39.127
+14:31:57 INFO VAD filter removed 00:00.000 of audio
+14:32:51 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 2/12
+14:32:51 INFO Processing audio with duration 01:07.367
+14:32:51 INFO VAD filter removed 00:00.000 of audio
+14:33:20 INFO Processing audio with duration 01:07.367
+14:33:20 INFO VAD filter removed 00:00.000 of audio
+14:34:30 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 3/12
+14:34:31 INFO Processing audio with duration 01:16.607
+14:34:31 INFO VAD filter removed 00:00.000 of audio
+14:35:01 INFO Processing audio with duration 01:16.607
+14:35:01 INFO VAD filter removed 00:00.000 of audio
+14:36:15 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 4/12
+14:36:15 INFO Processing audio with duration 01:30.087
+14:36:15 INFO VAD filter removed 00:00.000 of audio
+14:36:53 INFO Processing audio with duration 01:30.087
+14:36:53 INFO VAD filter removed 00:00.000 of audio
+14:38:10 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 5/12
+14:38:10 INFO Processing audio with duration 01:13.327
+14:38:10 INFO VAD filter removed 00:00.000 of audio
+14:38:41 INFO Processing audio with duration 01:13.327
+14:38:41 INFO VAD filter removed 00:00.000 of audio
+14:39:56 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 6/12
+14:39:56 INFO Processing audio with duration 01:33.927
+14:39:56 INFO VAD filter removed 00:00.000 of audio
+14:40:36 INFO Processing audio with duration 01:33.927
+14:40:37 INFO VAD filter removed 00:00.000 of audio
+14:41:58 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 7/12
+14:41:58 INFO Processing audio with duration 01:16.527
+14:41:58 INFO VAD filter removed 00:00.000 of audio
+14:42:30 INFO Processing audio with duration 01:16.527
+14:42:30 INFO VAD filter removed 00:00.000 of audio
+14:43:02 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+14:43:33 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+14:44:09 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+14:45:02 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 8/12
+14:45:02 INFO Processing audio with duration 01:27.771
+14:45:02 INFO VAD filter removed 00:00.000 of audio
+14:45:38 INFO Processing audio with duration 01:27.771
+14:45:38 INFO VAD filter removed 00:00.000 of audio
+14:47:00 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 9/12
+14:47:00 INFO Processing audio with duration 01:19.611
+14:47:00 INFO VAD filter removed 00:00.000 of audio
+14:47:29 INFO Processing audio with duration 01:19.611
+14:47:30 INFO VAD filter removed 00:00.000 of audio
+14:48:59 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 10/12
+14:48:59 INFO Processing audio with duration 01:32.771
+14:48:59 INFO VAD filter removed 00:00.000 of audio
+14:49:38 INFO Processing audio with duration 01:32.771
+14:49:38 INFO VAD filter removed 00:00.000 of audio
+14:51:07 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 11/12
+14:51:07 INFO Processing audio with duration 01:18.691
+14:51:07 INFO VAD filter removed 00:00.000 of audio
+14:51:41 INFO Processing audio with duration 01:18.691
+14:51:41 INFO VAD filter removed 00:00.000 of audio
+14:52:54 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 12/12
+14:52:54 INFO Processing audio with duration 00:57.451
+14:52:55 INFO VAD filter removed 00:00.000 of audio
+14:53:20 INFO Processing audio with duration 00:57.451
+14:53:20 INFO VAD filter removed 00:00.000 of audio
+14:53:46 INFO gerando 1 ilustrações…
+14:54:40 INFO ilustrações prontas: 1 geradas (1 pedidas)
+14:54:41 INFO Processing audio with duration 00:39.128
+14:54:41 INFO VAD filter removed 00:00.000 of audio
+14:54:57 INFO bloco 1: 39.1s, 112 palavras reconhecidas
+14:55:28 WARNING busca medieval moneylender counting coins painting falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+14:55:28 WARNING nenhuma imagem livre para 'medieval moneylender counting coins painting' — usando cartão
+14:55:59 WARNING busca medieval moneylender counting coins falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+14:55:59 WARNING nenhuma imagem livre para 'medieval moneylender counting coins' — usando cartão
+14:56:30 WARNING busca medieval moneylender counting falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+14:56:30 WARNING nenhuma imagem livre para 'medieval moneylender counting' — usando cartão
+14:57:01 WARNING busca medieval moneylender falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+14:57:01 WARNING nenhuma imagem livre para 'medieval moneylender' — usando cartão
+14:57:04 INFO imagem 'counting coins' ← wikimedia
+14:57:04 INFO imagem para 'medieval moneylender counting coins painting' achada buscando 'counting coins'
+14:57:09 INFO cena 1 pronta (5.7s, total 6s)
+14:57:35 WARNING nenhuma imagem livre para 'medieval map of France 14th century' — usando cartão
+14:57:37 INFO imagem 'medieval map France 14th' ← wikimedia
+14:57:37 INFO imagem para 'medieval map of France 14th century' achada buscando 'medieval map France 14th'
+14:57:44 INFO cena 2 pronta (7.0s, total 13s)
+14:57:52 INFO cena 3 pronta (11.2s, total 24s)
+14:58:23 WARNING busca Philip IV of France Philippe le Bel portrait medieval falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+14:58:23 WARNING nenhuma imagem livre para 'Philip IV of France Philippe le Bel portrait medieval' — usando cartão
+14:58:25 INFO imagem 'Philip IV France Philippe' ← wikimedia
+14:58:25 INFO imagem para 'Philip IV of France Philippe le Bel portrait medieval' achada buscando 'Philip IV France Philippe'
+14:58:32 INFO cena 4 pronta (4.8s, total 29s)
+14:59:03 WARNING busca medieval treasure chest coins illuminated manuscript falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+14:59:03 WARNING nenhuma imagem livre para 'medieval treasure chest coins illuminated manuscript' — usando cartão
+14:59:05 INFO imagem 'medieval treasure chest coins' ← wikimedia
+14:59:05 INFO imagem para 'medieval treasure chest coins illuminated manuscript' achada buscando 'medieval treasure chest coins'
+14:59:27 INFO cena 5 pronta (10.4s, total 39s)
+14:59:29 INFO Processing audio with duration 01:07.368
+14:59:29 INFO VAD filter removed 00:00.000 of audio
+14:59:58 INFO bloco 2: 67.4s, 206 palavras reconhecidas
+15:00:20 WARNING nenhuma imagem livre para 'Knights Templar medieval illustration Jerusalem' — usando cartão
+15:00:23 INFO imagem 'Knights Templar medieval Jerusalem' ← wikimedia
+15:00:23 INFO imagem para 'Knights Templar medieval illustration Jerusalem' achada buscando 'Knights Templar medieval Jerusalem'
+15:00:34 INFO cena 6 pronta (8.1s, total 47s)
+15:00:35 INFO imagem 'Templar seal two knights on one horse' ← wikimedia
+15:00:45 INFO cena 7 pronta (7.0s, total 54s)
+15:01:16 WARNING busca medieval pope papal bull illuminated manuscript falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:01:16 WARNING nenhuma imagem livre para 'medieval pope papal bull illuminated manuscript' — usando cartão
+15:01:47 WARNING busca medieval pope papal bull falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:01:47 WARNING nenhuma imagem livre para 'medieval pope papal bull' — usando cartão
+15:02:18 WARNING busca medieval pope papal falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:02:18 WARNING nenhuma imagem livre para 'medieval pope papal' — usando cartão
+15:02:19 INFO imagem 'medieval pope' ← wikimedia
+15:02:19 INFO imagem para 'medieval pope papal bull illuminated manuscript' achada buscando 'medieval pope'
+15:02:32 INFO cena 8 pronta (9.5s, total 64s)
+15:02:36 INFO cena 9 pronta (4.9s, total 69s)
+15:03:08 WARNING busca medieval pilgrims travelling road manuscript miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:03:08 WARNING nenhuma imagem livre para 'medieval pilgrims travelling road manuscript miniature' — usando cartão
+15:03:10 INFO imagem 'medieval pilgrims travelling road' ← wikimedia
+15:03:10 INFO imagem para 'medieval pilgrims travelling road manuscript miniature' achada buscando 'medieval pilgrims travelling road'
+15:03:17 INFO cena 10 pronta (8.7s, total 77s)
+15:03:48 WARNING busca medieval robbers attacking travelers miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:03:48 WARNING nenhuma imagem livre para 'medieval robbers attacking travelers miniature' — usando cartão
+15:04:19 WARNING busca medieval robbers attacking travelers falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:04:19 WARNING nenhuma imagem livre para 'medieval robbers attacking travelers' — usando cartão
+15:04:50 WARNING busca medieval robbers attacking falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:04:50 WARNING nenhuma imagem livre para 'medieval robbers attacking' — usando cartão
+15:05:21 WARNING busca medieval robbers falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:05:21 WARNING nenhuma imagem livre para 'medieval robbers' — usando cartão
+15:05:52 WARNING busca travelers miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:05:52 WARNING nenhuma imagem livre para 'travelers miniature' — usando cartão
+15:07:52 WARNING flux falhou: HTTPSConnectionPool(host='escritorio-dark.mbcarello14.workers.dev', port=443): Read timed out. (read timeout=120)
+15:07:59 INFO cena 11 pronta (9.3s, total 86s)
+15:08:00 INFO imagem 'medieval parchment charter with seal' ← wikimedia
+15:08:06 INFO cena 12 pronta (6.1s, total 93s)
+15:08:12 INFO cena 13 pronta (7.0s, total 100s)
+15:08:43 WARNING busca Templar commandery medieval farm building France falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:08:43 WARNING nenhuma imagem livre para 'Templar commandery medieval farm building France' — usando cartão
+15:09:14 WARNING busca Templar commandery medieval farm falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:09:14 WARNING nenhuma imagem livre para 'Templar commandery medieval farm' — usando cartão
+15:09:24 WARNING nenhuma imagem livre para 'Templar commandery medieval' — usando cartão
+15:09:27 INFO imagem 'Templar commandery' ← wikimedia
+15:09:27 INFO imagem para 'Templar commandery medieval farm building France' achada buscando 'Templar commandery'
+15:09:33 INFO cena 14 pronta (7.0s, total 107s)
+15:09:35 INFO Processing audio with duration 01:16.608
+15:09:36 INFO VAD filter removed 00:00.000 of audio
+15:10:11 INFO bloco 3: 76.6s, 222 palavras reconhecidas
+15:10:20 INFO cena 15 pronta (12.6s, total 119s)
+15:10:50 WARNING busca medieval church council clergy illuminated manuscript falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:10:50 WARNING nenhuma imagem livre para 'medieval church council clergy illuminated manuscript' — usando cartão
+15:10:53 INFO imagem 'medieval church council clergy' ← wikimedia
+15:10:53 INFO imagem para 'medieval church council clergy illuminated manuscript' achada buscando 'medieval church council clergy'
+15:10:59 INFO cena 16 pronta (6.2s, total 125s)
+15:11:30 WARNING nenhuma imagem livre para 'medieval scribe writing contract manuscript' — usando cartão
+15:12:00 WARNING busca medieval scribe writing contract falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:12:00 WARNING nenhuma imagem livre para 'medieval scribe writing contract' — usando cartão
+15:12:31 WARNING busca medieval scribe writing falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:12:31 WARNING nenhuma imagem livre para 'medieval scribe writing' — usando cartão
+15:12:33 INFO imagem 'medieval scribe' ← wikimedia
+15:12:33 INFO imagem para 'medieval scribe writing contract manuscript' achada buscando 'medieval scribe'
+15:12:41 INFO cena 17 pronta (7.6s, total 133s)
+15:13:12 WARNING busca medieval merchants weighing coins painting falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:13:12 WARNING nenhuma imagem livre para 'medieval merchants weighing coins painting' — usando cartão
+15:13:14 INFO imagem 'medieval merchants weighing coins' ← wikimedia
+15:13:14 INFO imagem para 'medieval merchants weighing coins painting' achada buscando 'medieval merchants weighing coins'
+15:13:20 INFO cena 18 pronta (7.5s, total 140s)
+15:13:30 WARNING nenhuma imagem livre para 'Temple Paris Templar tower old engraving' — usando cartão
+15:13:33 INFO imagem 'Temple Paris Templar tower' ← wikimedia
+15:13:33 INFO imagem para 'Temple Paris Templar tower old engraving' achada buscando 'Temple Paris Templar tower'
+15:13:46 INFO cena 19 pronta (8.4s, total 149s)
+15:14:17 WARNING busca medieval English king crown treasure manuscript falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:14:17 WARNING nenhuma imagem livre para 'medieval English king crown treasure manuscript' — usando cartão
+15:14:48 WARNING busca medieval English king crown falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:14:48 WARNING nenhuma imagem livre para 'medieval English king crown' — usando cartão
+15:14:51 INFO imagem 'medieval English king' ← wikimedia
+15:14:51 INFO imagem para 'medieval English king crown treasure manuscript' achada buscando 'medieval English king'
+15:14:58 INFO cena 20 pronta (8.6s, total 157s)
+15:15:04 INFO cena 21 pronta (7.7s, total 165s)
+15:15:35 WARNING busca medieval knight in armor holding money bag illustration falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:15:35 WARNING nenhuma imagem livre para 'medieval knight in armor holding money bag illustration' — usando cartão
+15:15:37 INFO imagem 'medieval knight armor holding' ← wikimedia
+15:15:37 INFO imagem para 'medieval knight in armor holding money bag illustration' achada buscando 'medieval knight armor holding'
+15:15:48 INFO cena 22 pronta (12.5s, total 178s)
+15:15:50 INFO imagem 'medieval French king crown enthroned miniature' ← wikimedia
+15:15:56 INFO cena 23 pronta (5.5s, total 183s)
+15:15:58 INFO Processing audio with duration 01:30.088
+15:15:58 INFO VAD filter removed 00:00.000 of audio
+15:16:39 INFO bloco 4: 90.1s, 238 palavras reconhecidas
+15:17:10 WARNING busca Philip IV the Fair coronation 1285 medieval miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:17:10 WARNING nenhuma imagem livre para 'Philip IV the Fair coronation 1285 medieval miniature' — usando cartão
+15:17:41 WARNING busca Philip IV Fair coronation falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:17:41 WARNING nenhuma imagem livre para 'Philip IV Fair coronation' — usando cartão
+15:18:11 WARNING busca Philip IV Fair falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:18:11 WARNING nenhuma imagem livre para 'Philip IV Fair' — usando cartão
+15:18:13 INFO imagem 'Philip IV' ← wikimedia
+15:18:13 INFO imagem para 'Philip IV the Fair coronation 1285 medieval miniature' achada buscando 'Philip IV'
+15:18:27 INFO cena 24 pronta (10.0s, total 193s)
+15:18:36 INFO cena 25 pronta (12.3s, total 205s)
+15:19:07 WARNING busca medieval battle army miniature Aragonese Crusade falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:19:07 WARNING nenhuma imagem livre para 'medieval battle army miniature Aragonese Crusade' — usando cartão
+15:19:09 INFO imagem 'medieval battle army miniature' ← wikimedia
+15:19:09 INFO imagem para 'medieval battle army miniature Aragonese Crusade' achada buscando 'medieval battle army miniature'
+15:19:15 INFO cena 26 pronta (6.7s, total 212s)
+15:19:24 INFO cena 27 pronta (12.3s, total 224s)
+15:19:34 INFO cena 28 pronta (13.8s, total 238s)
+15:19:46 WARNING nenhuma imagem livre para 'medieval Florence bankers Lombard moneychangers painting' — usando cartão
+15:19:50 INFO imagem 'medieval Florence bankers Lombard' ← wikimedia
+15:19:50 INFO imagem para 'medieval Florence bankers Lombard moneychangers painting' achada buscando 'medieval Florence bankers Lombard'
+15:19:55 INFO cena 29 pronta (6.5s, total 245s)
+15:19:57 INFO imagem 'medieval Louvre castle Les Très Riches Heures' ← wikimedia
+15:20:09 INFO cena 30 pronta (10.2s, total 255s)
+15:20:15 INFO cena 31 pronta (7.3s, total 262s)
+15:20:47 WARNING busca medieval empty treasury king worried manuscript illustration falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:20:47 WARNING nenhuma imagem livre para 'medieval empty treasury king worried manuscript illustration' — usando cartão
+15:21:17 WARNING busca medieval empty treasury king falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:21:17 WARNING nenhuma imagem livre para 'medieval empty treasury king' — usando cartão
+15:21:48 WARNING busca medieval empty treasury falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:21:48 WARNING nenhuma imagem livre para 'medieval empty treasury' — usando cartão
+15:21:50 INFO imagem 'medieval empty' ← wikimedia
+15:21:50 INFO imagem para 'medieval empty treasury king worried manuscript illustration' achada buscando 'medieval empty'
+15:21:59 INFO cena 32 pronta (11.1s, total 273s)
+15:22:01 INFO Processing audio with duration 01:13.328
+15:22:01 INFO VAD filter removed 00:00.000 of audio
+15:22:33 INFO bloco 5: 73.3s, 203 palavras reconhecidas
+15:22:35 INFO imagem 'medieval mint minting coins miniature' ← wikimedia
+15:22:42 INFO cena 33 pronta (7.4s, total 281s)
+15:22:45 INFO imagem 'Philip IV France gros tournois silver coin' ← wikimedia
+15:22:59 INFO cena 34 pronta (9.9s, total 291s)
+15:23:09 INFO cena 35 pronta (14.3s, total 305s)
+15:23:40 WARNING busca Battle of the Golden Spurs Courtrai 1302 painting falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:23:40 WARNING nenhuma imagem livre para 'Battle of the Golden Spurs Courtrai 1302 painting' — usando cartão
+15:23:42 INFO imagem 'Battle Golden Spurs Courtrai' ← wikimedia
+15:23:42 INFO imagem para 'Battle of the Golden Spurs Courtrai 1302 painting' achada buscando 'Battle Golden Spurs Courtrai'
+15:23:55 INFO cena 36 pronta (9.3s, total 314s)
+15:24:01 INFO cena 37 pronta (8.6s, total 323s)
+15:24:31 WARNING busca medieval debtors crowd angry townspeople miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:24:31 WARNING nenhuma imagem livre para 'medieval debtors crowd angry townspeople miniature' — usando cartão
+15:25:02 WARNING busca medieval debtors crowd angry falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:25:02 WARNING nenhuma imagem livre para 'medieval debtors crowd angry' — usando cartão
+15:25:33 WARNING busca medieval debtors crowd falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:25:33 WARNING nenhuma imagem livre para 'medieval debtors crowd' — usando cartão
+15:25:42 INFO imagem 'medieval debtors' ← wikimedia
+15:25:42 INFO imagem para 'medieval debtors crowd angry townspeople miniature' achada buscando 'medieval debtors'
+15:25:58 INFO cena 38 pronta (12.2s, total 335s)
+15:26:29 WARNING busca Paris medieval riot revolt 1306 Grandes Chroniques de France falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:26:29 WARNING nenhuma imagem livre para 'Paris medieval riot revolt 1306 Grandes Chroniques de France' — usando cartão
+15:27:00 WARNING busca Paris medieval riot revolt falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:27:00 WARNING nenhuma imagem livre para 'Paris medieval riot revolt' — usando cartão
+15:27:02 INFO imagem 'Paris medieval riot' ← wikimedia
+15:27:02 INFO imagem para 'Paris medieval riot revolt 1306 Grandes Chroniques de France' achada buscando 'Paris medieval riot'
+15:27:16 INFO cena 39 pronta (11.6s, total 347s)
+15:27:19 INFO Processing audio with duration 01:33.928
+15:27:19 INFO VAD filter removed 00:00.000 of audio
+15:28:01 INFO bloco 6: 93.9s, 252 palavras reconhecidas
+15:28:32 WARNING busca Lombard bankers medieval Italian merchants fresco falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:28:32 WARNING nenhuma imagem livre para 'Lombard bankers medieval Italian merchants fresco' — usando cartão
+15:29:03 WARNING busca Lombard bankers medieval Italian falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:29:03 WARNING nenhuma imagem livre para 'Lombard bankers medieval Italian' — usando cartão
+15:29:06 INFO imagem 'Lombard bankers medieval' ← wikimedia
+15:29:06 INFO imagem para 'Lombard bankers medieval Italian merchants fresco' achada buscando 'Lombard bankers medieval'
+15:29:14 INFO cena 40 pronta (10.5s, total 357s)
+15:29:21 INFO cena 41 pronta (9.4s, total 367s)
+15:29:51 WARNING busca expulsion of the Jews from France 1306 medieval illustration falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:29:51 WARNING nenhuma imagem livre para 'expulsion of the Jews from France 1306 medieval illustration' — usando cartão
+15:29:54 INFO imagem 'expulsion Jews from France' ← wikimedia
+15:29:54 INFO imagem para 'expulsion of the Jews from France 1306 medieval illustration' achada buscando 'expulsion Jews from France'
+15:30:13 INFO cena 42 pronta (16.5s, total 383s)
+15:30:41 WARNING nenhuma imagem livre para 'medieval Jewish family exile road manuscript' — usando cartão
+15:31:11 WARNING busca medieval Jewish family exile falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:31:11 WARNING nenhuma imagem livre para 'medieval Jewish family exile' — usando cartão
+15:31:15 INFO imagem 'medieval Jewish family' ← wikimedia
+15:31:15 INFO imagem para 'medieval Jewish family exile road manuscript' achada buscando 'medieval Jewish family'
+15:31:22 INFO cena 43 pronta (8.5s, total 392s)
+15:31:30 INFO cena 44 pronta (10.7s, total 402s)
+15:31:37 INFO cena 45 pronta (9.7s, total 412s)
+15:32:09 WARNING busca Templar preceptory medieval stone building France falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:32:09 WARNING nenhuma imagem livre para 'Templar preceptory medieval stone building France' — usando cartão
+15:32:39 WARNING busca Templar preceptory medieval stone falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:32:39 WARNING nenhuma imagem livre para 'Templar preceptory medieval stone' — usando cartão
+15:32:43 INFO imagem 'Templar preceptory medieval' ← wikimedia
+15:32:43 INFO imagem para 'Templar preceptory medieval stone building France' achada buscando 'Templar preceptory medieval'
+15:32:48 INFO cena 46 pronta (7.4s, total 419s)
+15:33:20 WARNING busca Philip the Fair council advisors medieval miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:33:20 WARNING nenhuma imagem livre para 'Philip the Fair council advisors medieval miniature' — usando cartão
+15:33:51 WARNING busca Philip Fair council advisors falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:33:51 WARNING nenhuma imagem livre para 'Philip Fair council advisors' — usando cartão
+15:33:53 INFO imagem 'Philip Fair council' ← wikimedia
+15:33:53 INFO imagem para 'Philip the Fair council advisors medieval miniature' achada buscando 'Philip Fair council'
+15:33:59 INFO cena 47 pronta (7.4s, total 427s)
+15:34:30 WARNING busca medieval king thinking crown chest cross sword allegory falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:34:30 WARNING nenhuma imagem livre para 'medieval king thinking crown chest cross sword allegory' — usando cartão
+15:35:01 WARNING busca medieval king thinking crown falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:35:01 WARNING nenhuma imagem livre para 'medieval king thinking crown' — usando cartão
+15:35:32 WARNING busca medieval king thinking falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:35:32 WARNING nenhuma imagem livre para 'medieval king thinking' — usando cartão
+15:36:02 WARNING busca medieval king falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:36:02 WARNING nenhuma imagem livre para 'medieval king' — usando cartão
+15:36:05 INFO imagem 'sword allegory' ← wikimedia
+15:36:05 INFO imagem para 'medieval king thinking crown chest cross sword allegory' achada buscando 'sword allegory'
+15:36:37 INFO cena 48 pronta (13.7s, total 441s)
+15:36:39 INFO Processing audio with duration 01:16.528
+15:36:39 INFO VAD filter removed 00:00.016 of audio
+15:37:12 INFO bloco 7: 76.5s, 224 palavras reconhecidas
+15:37:16 INFO cena 49 pronta (4.7s, total 445s)
+15:37:47 WARNING busca Outrage of Anagni 1303 Boniface VIII Nogaret painting falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:37:47 WARNING nenhuma imagem livre para 'Outrage of Anagni 1303 Boniface VIII Nogaret painting' — usando cartão
+15:38:18 WARNING busca Outrage Anagni 1303 Boniface falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:38:18 WARNING nenhuma imagem livre para 'Outrage Anagni 1303 Boniface' — usando cartão
+15:38:49 WARNING busca Outrage Anagni 1303 falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:38:49 WARNING nenhuma imagem livre para 'Outrage Anagni 1303' — usando cartão
+15:39:19 WARNING busca Outrage Anagni falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:39:19 WARNING nenhuma imagem livre para 'Outrage Anagni' — usando cartão
+15:39:24 INFO imagem 'VIII Nogaret' ← wikimedia
+15:39:24 INFO imagem para 'Outrage of Anagni 1303 Boniface VIII Nogaret painting' achada buscando 'VIII Nogaret'
+15:39:40 INFO cena 50 pronta (12.6s, total 458s)
+15:40:10 WARNING busca Pope Clement V Avignon medieval portrait falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:40:10 WARNING nenhuma imagem livre para 'Pope Clement V Avignon medieval portrait' — usando cartão
+15:40:42 WARNING busca Pope Clement V Avignon falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:40:42 WARNING nenhuma imagem livre para 'Pope Clement V Avignon' — usando cartão
+15:40:44 INFO imagem 'Pope Clement V' ← wikimedia
+15:40:44 INFO imagem para 'Pope Clement V Avignon medieval portrait' achada buscando 'Pope Clement V'
+15:40:59 INFO cena 51 pronta (10.6s, total 469s)
+15:41:30 WARNING busca Templar knights procession medieval illustration falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:41:30 WARNING nenhuma imagem livre para 'Templar knights procession medieval illustration' — usando cartão
+15:42:01 WARNING busca Templar knights procession medieval falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:42:01 WARNING nenhuma imagem livre para 'Templar knights procession medieval' — usando cartão
+15:42:03 INFO imagem 'Templar knights procession' ← wikimedia
+15:42:03 INFO imagem para 'Templar knights procession medieval illustration' achada buscando 'Templar knights procession'
+15:42:10 INFO cena 52 pronta (9.6s, total 478s)
+15:42:15 INFO cena 53 pronta (6.9s, total 485s)
+15:42:23 INFO cena 54 pronta (11.0s, total 496s)
+15:42:32 INFO cena 55 pronta (13.0s, total 509s)
+15:42:53 WARNING nenhuma imagem livre para 'medieval Paris Île de la Cité Philip the Fair palace miniature' — usando cartão
+15:42:54 INFO imagem 'medieval Paris Île de' ← wikimedia
+15:42:54 INFO imagem para 'medieval Paris Île de la Cité Philip the Fair palace miniature' achada buscando 'medieval Paris Île de'
+15:43:01 INFO cena 56 pronta (8.1s, total 517s)
+15:43:03 INFO Processing audio with duration 01:27.757
+15:43:03 INFO VAD filter removed 00:00.000 of audio
+15:43:39 INFO bloco 8: 87.8s, 226 palavras reconhecidas
+15:44:11 WARNING busca medieval sealed letter messenger on horseback manuscript falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:44:11 WARNING nenhuma imagem livre para 'medieval sealed letter messenger on horseback manuscript' — usando cartão
+15:44:42 WARNING busca medieval sealed letter messenger falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:44:42 WARNING nenhuma imagem livre para 'medieval sealed letter messenger' — usando cartão
+15:44:45 INFO imagem 'medieval sealed letter' ← wikimedia
+15:44:45 INFO imagem para 'medieval sealed letter messenger on horseback manuscript' achada buscando 'medieval sealed letter'
+15:45:01 INFO cena 57 pronta (13.9s, total 531s)
+15:45:32 WARNING busca arrest of the Templars 1307 medieval miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:45:32 WARNING nenhuma imagem livre para 'arrest of the Templars 1307 medieval miniature' — usando cartão
+15:45:34 INFO imagem 'arrest Templars 1307 medieval' ← wikimedia
+15:45:34 INFO imagem para 'arrest of the Templars 1307 medieval miniature' achada buscando 'arrest Templars 1307 medieval'
+15:45:48 INFO cena 58 pronta (10.3s, total 541s)
+15:46:00 WARNING nenhuma imagem livre para 'Templars arrested Grandes Chroniques de France illumination' — usando cartão
+15:46:31 WARNING busca Templars arrested Grandes Chroniques falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:46:31 WARNING nenhuma imagem livre para 'Templars arrested Grandes Chroniques' — usando cartão
+15:46:33 INFO imagem 'Templars arrested Grandes' ← wikimedia
+15:46:33 INFO imagem para 'Templars arrested Grandes Chroniques de France illumination' achada buscando 'Templars arrested Grandes'
+15:46:41 INFO cena 59 pronta (11.4s, total 553s)
+15:47:12 WARNING busca medieval empty armory stone hall falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:47:12 WARNING nenhuma imagem livre para 'medieval empty armory stone hall' — usando cartão
+15:47:22 WARNING nenhuma imagem livre para 'medieval empty armory stone' — usando cartão
+15:47:53 WARNING busca medieval empty armory falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:47:53 WARNING nenhuma imagem livre para 'medieval empty armory' — usando cartão
+15:47:55 INFO imagem 'medieval empty' ← wikimedia
+15:47:55 INFO imagem para 'medieval empty armory stone hall' achada buscando 'medieval empty'
+15:48:05 INFO cena 60 pronta (11.3s, total 564s)
+15:48:36 WARNING busca medieval monks farm harvest manuscript falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:48:36 WARNING nenhuma imagem livre para 'medieval monks farm harvest manuscript' — usando cartão
+15:49:06 WARNING busca medieval monks farm harvest falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:49:06 WARNING nenhuma imagem livre para 'medieval monks farm harvest' — usando cartão
+15:49:10 INFO imagem 'medieval monks farm' ← wikimedia
+15:49:10 INFO imagem para 'medieval monks farm harvest manuscript' achada buscando 'medieval monks farm'
+15:49:18 INFO cena 61 pronta (10.1s, total 574s)
+15:49:49 WARNING busca medieval treasure map hidden chest engraving falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:49:49 WARNING nenhuma imagem livre para 'medieval treasure map hidden chest engraving' — usando cartão
+15:49:52 INFO imagem 'medieval treasure map hidden' ← wikimedia
+15:49:52 INFO imagem para 'medieval treasure map hidden chest engraving' achada buscando 'medieval treasure map hidden'
+15:49:58 INFO cena 62 pronta (8.5s, total 583s)
+15:50:03 INFO cena 63 pronta (7.3s, total 590s)
+15:50:35 WARNING busca 19th century France old calendar almanac engraving falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:50:35 WARNING nenhuma imagem livre para '19th century France old calendar almanac engraving' — usando cartão
+15:50:39 INFO imagem '19th century France old' ← wikimedia
+15:50:39 INFO imagem para '19th century France old calendar almanac engraving' achada buscando '19th century France old'
+15:51:00 INFO cena 64 pronta (15.0s, total 605s)
+15:51:02 INFO Processing audio with duration 01:19.611
+15:51:02 INFO VAD filter removed 00:00.000 of audio
+15:51:37 INFO bloco 9: 79.6s, 196 palavras reconhecidas
+15:51:38 INFO imagem 'Guillaume de Nogaret portrait' ← wikimedia
+15:51:53 INFO cena 65 pronta (10.7s, total 616s)
+15:52:02 INFO cena 66 pronta (12.4s, total 628s)
+15:52:04 INFO imagem 'Jacques de Molay last Templar Grand Master portrait' ← wikimedia
+15:52:15 INFO cena 67 pronta (8.4s, total 636s)
+15:52:35 WARNING nenhuma imagem livre para 'Pope Clement V bull Pastoralis praeeminentiae manuscript' — usando cartão
+15:52:38 INFO imagem 'Pope Clement V bull' ← wikimedia
+15:52:38 INFO imagem para 'Pope Clement V bull Pastoralis praeeminentiae manuscript' achada buscando 'Pope Clement V bull'
+15:52:50 INFO cena 68 pronta (9.7s, total 646s)
+15:52:54 INFO imagem 'medieval Europe map 1300 kingdoms' ← wikimedia
+15:53:00 INFO cena 69 pronta (8.2s, total 654s)
+15:53:03 INFO imagem 'Chinon fortress castle France' ← wikimedia
+15:53:19 INFO cena 70 pronta (13.0s, total 667s)
+15:53:50 WARNING busca Chinon Parchment Vatican Secret Archives falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:53:50 WARNING nenhuma imagem livre para 'Chinon Parchment Vatican Secret Archives' — usando cartão
+15:54:21 WARNING busca Chinon Parchment Vatican Secret falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:54:21 WARNING nenhuma imagem livre para 'Chinon Parchment Vatican Secret' — usando cartão
+15:54:52 WARNING busca Chinon Parchment Vatican falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:54:52 WARNING nenhuma imagem livre para 'Chinon Parchment Vatican' — usando cartão
+15:54:54 INFO imagem 'Chinon Parchment' ← wikimedia
+15:54:54 INFO imagem para 'Chinon Parchment Vatican Secret Archives' achada buscando 'Chinon Parchment'
+15:55:08 INFO cena 71 pronta (10.5s, total 678s)
+15:55:39 WARNING busca medieval prisoners dungeon Templars miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:55:39 WARNING nenhuma imagem livre para 'medieval prisoners dungeon Templars miniature' — usando cartão
+15:56:09 WARNING busca medieval prisoners dungeon Templars falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:56:09 WARNING nenhuma imagem livre para 'medieval prisoners dungeon Templars' — usando cartão
+15:56:40 WARNING busca medieval prisoners dungeon falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:56:40 WARNING nenhuma imagem livre para 'medieval prisoners dungeon' — usando cartão
+15:56:43 INFO imagem 'medieval prisoners' ← wikimedia
+15:56:43 INFO imagem para 'medieval prisoners dungeon Templars miniature' achada buscando 'medieval prisoners'
+15:56:48 INFO cena 72 pronta (6.8s, total 685s)
+15:56:51 INFO Processing audio with duration 01:32.754
+15:56:51 INFO VAD filter removed 00:00.000 of audio
+15:57:30 INFO bloco 10: 92.8s, 249 palavras reconhecidas
+15:58:00 WARNING busca Council of Vienne 1311 bishops medieval falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:58:00 WARNING nenhuma imagem livre para 'Council of Vienne 1311 bishops medieval' — usando cartão
+15:58:31 WARNING busca Council Vienne 1311 bishops falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:58:31 WARNING nenhuma imagem livre para 'Council Vienne 1311 bishops' — usando cartão
+15:58:34 INFO imagem 'Council Vienne 1311' ← wikimedia
+15:58:34 INFO imagem para 'Council of Vienne 1311 bishops medieval' achada buscando 'Council Vienne 1311'
+15:58:49 INFO cena 73 pronta (12.4s, total 697s)
+15:59:20 WARNING busca Vox in excelso papal bull 1312 Templars dissolved falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:59:20 WARNING nenhuma imagem livre para 'Vox in excelso papal bull 1312 Templars dissolved' — usando cartão
+15:59:51 WARNING busca Vox excelso papal bull falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+15:59:51 WARNING nenhuma imagem livre para 'Vox excelso papal bull' — usando cartão
+16:00:21 WARNING busca Vox excelso papal falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:00:21 WARNING nenhuma imagem livre para 'Vox excelso papal' — usando cartão
+16:00:52 WARNING busca Vox excelso falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:00:52 WARNING nenhuma imagem livre para 'Vox excelso' — usando cartão
+16:00:55 INFO imagem 'Templars dissolved' ← wikimedia
+16:00:55 INFO imagem para 'Vox in excelso papal bull 1312 Templars dissolved' achada buscando 'Templars dissolved'
+16:01:12 INFO cena 74 pronta (13.9s, total 711s)
+16:01:19 INFO cena 75 pronta (8.6s, total 719s)
+16:01:21 INFO imagem 'Knights Hospitaller medieval illustration' ← wikimedia
+16:01:29 INFO cena 76 pronta (10.4s, total 730s)
+16:02:00 WARNING busca burning of Jacques de Molay 1314 Seine medieval miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:02:00 WARNING nenhuma imagem livre para 'burning of Jacques de Molay 1314 Seine medieval miniature' — usando cartão
+16:02:01 INFO imagem 'burning Jacques de Molay' ← wikimedia
+16:02:01 INFO imagem para 'burning of Jacques de Molay 1314 Seine medieval miniature' achada buscando 'burning Jacques de Molay'
+16:02:25 INFO cena 77 pronta (17.2s, total 747s)
+16:02:32 INFO cena 78 pronta (9.7s, total 757s)
+16:03:03 WARNING busca The Curse of Jacques de Molay engraving 19th century falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:03:03 WARNING nenhuma imagem livre para 'The Curse of Jacques de Molay engraving 19th century' — usando cartão
+16:03:33 WARNING busca Curse Jacques de Molay falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:03:33 WARNING nenhuma imagem livre para 'Curse Jacques de Molay' — usando cartão
+16:03:35 INFO imagem 'Curse Jacques de' ← wikimedia
+16:03:35 INFO imagem para 'The Curse of Jacques de Molay engraving 19th century' achada buscando 'Curse Jacques de'
+16:03:43 INFO cena 79 pronta (10.1s, total 767s)
+16:03:51 INFO cena 80 pronta (10.5s, total 777s)
+16:03:53 INFO Processing audio with duration 01:18.630
+16:03:53 INFO VAD filter removed 00:00.000 of audio
+16:04:27 INFO bloco 11: 78.6s, 228 palavras reconhecidas
+16:04:52 WARNING nenhuma imagem livre para 'Encyclopaedia Britannica 1911 volume Templars' — usando cartão
+16:04:55 INFO imagem 'Encyclopaedia Britannica 1911 volume' ← wikimedia
+16:04:55 INFO imagem para 'Encyclopaedia Britannica 1911 volume Templars' achada buscando 'Encyclopaedia Britannica 1911 volume'
+16:05:11 INFO cena 81 pronta (11.4s, total 789s)
+16:05:42 WARNING busca medieval king receiving bag of money miniature falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:05:42 WARNING nenhuma imagem livre para 'medieval king receiving bag of money miniature' — usando cartão
+16:06:13 WARNING busca medieval king receiving bag falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:06:13 WARNING nenhuma imagem livre para 'medieval king receiving bag' — usando cartão
+16:06:15 INFO imagem 'medieval king receiving' ← wikimedia
+16:06:15 INFO imagem para 'medieval king receiving bag of money miniature' achada buscando 'medieval king receiving'
+16:06:23 INFO cena 82 pronta (9.7s, total 798s)
+16:06:56 WARNING busca medieval accountant ledger tally sticks exchequer falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:06:56 WARNING nenhuma imagem livre para 'medieval accountant ledger tally sticks exchequer' — usando cartão
+16:07:26 WARNING busca medieval accountant ledger tally falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:07:26 WARNING nenhuma imagem livre para 'medieval accountant ledger tally' — usando cartão
+16:07:57 WARNING busca medieval accountant ledger falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:07:57 WARNING nenhuma imagem livre para 'medieval accountant ledger' — usando cartão
+16:08:00 INFO imagem 'medieval accountant' ← wikimedia
+16:08:00 INFO imagem para 'medieval accountant ledger tally sticks exchequer' achada buscando 'medieval accountant'
+16:08:08 INFO cena 83 pronta (9.3s, total 808s)
+16:08:17 WARNING nenhuma imagem livre para 'Hospitaller knight Rhodes medieval painting' — usando cartão
+16:08:21 INFO imagem 'Hospitaller knight Rhodes medieval' ← wikimedia
+16:08:21 INFO imagem para 'Hospitaller knight Rhodes medieval painting' achada buscando 'Hospitaller knight Rhodes medieval'
+16:08:31 INFO cena 84 pronta (13.0s, total 821s)
+16:09:02 WARNING busca King Denis of Portugal Dinis medieval portrait falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:09:02 WARNING nenhuma imagem livre para 'King Denis of Portugal Dinis medieval portrait' — usando cartão
+16:09:04 INFO imagem 'King Denis Portugal Dinis' ← wikimedia
+16:09:04 INFO imagem para 'King Denis of Portugal Dinis medieval portrait' achada buscando 'King Denis Portugal Dinis'
+16:09:20 INFO cena 85 pronta (12.1s, total 833s)
+16:09:23 INFO imagem 'Convento de Cristo Tomar Portugal Templar castle' ← wikimedia
+16:09:34 INFO cena 86 pronta (7.5s, total 840s)
+16:09:38 INFO cena 87 pronta (6.1s, total 846s)
+16:09:40 INFO imagem 'Avignon Papal Palace medieval' ← wikimedia
+16:09:54 INFO cena 88 pronta (9.6s, total 856s)
+16:09:56 INFO Processing audio with duration 00:57.436
+16:09:56 INFO VAD filter removed 00:00.000 of audio
+16:10:18 INFO bloco 12: 57.4s, 180 palavras reconhecidas
+16:10:23 INFO cena 89 pronta (6.7s, total 863s)
+16:10:54 WARNING busca Philip IV the Fair medieval statue Paris falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:10:54 WARNING nenhuma imagem livre para 'Philip IV the Fair medieval statue Paris' — usando cartão
+16:10:56 INFO imagem 'Philip IV Fair medieval' ← wikimedia
+16:10:56 INFO imagem para 'Philip IV the Fair medieval statue Paris' achada buscando 'Philip IV Fair medieval'
+16:11:09 INFO cena 90 pronta (17.4s, total 880s)
+16:11:40 WARNING busca medieval balance scale weighing coin and cross allegory falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:11:40 WARNING nenhuma imagem livre para 'medieval balance scale weighing coin and cross allegory' — usando cartão
+16:11:44 INFO imagem 'medieval balance scale weighing' ← wikimedia
+16:11:44 INFO imagem para 'medieval balance scale weighing coin and cross allegory' achada buscando 'medieval balance scale weighing'
+16:11:49 INFO cena 91 pronta (6.7s, total 887s)
+16:11:54 INFO cena 92 pronta (6.4s, total 893s)
+16:12:09 INFO cena 93 pronta (9.3s, total 902s)
+16:12:39 WARNING busca Weimar Republic hyperinflation banknotes children playing 1923 falhou em openverse: HTTPSConnectionPool(host='api.openverse.org', port=443): Read timed out. (read timeout=30)
+16:12:39 WARNING nenhuma imagem livre para 'Weimar Republic hyperinflation banknotes children playing 1923' — usando cartão
+16:12:41 INFO imagem 'Weimar Republic hyperinflation banknotes' ← wikimedia
+16:12:41 INFO imagem para 'Weimar Republic hyperinflation banknotes children playing 1923' achada buscando 'Weimar Republic hyperinflation banknotes'
+16:12:57 INFO cena 94 pronta (11.0s, total 913s)
+16:13:00 INFO sem trilha em musica/misterio — vídeo sai só com narração
+16:13:02 INFO upload 4%
+16:13:03 INFO upload 9%
+16:13:03 INFO upload 14%
+16:13:03 INFO upload 18%
+16:13:04 INFO upload 23%
+16:13:04 INFO upload 28%
+16:13:05 INFO upload 32%
+16:13:05 INFO upload 37%
+16:13:05 INFO upload 42%
+16:13:06 INFO upload 47%
+16:13:06 INFO upload 51%
+16:13:06 INFO upload 56%
+16:13:07 INFO upload 61%
+16:13:07 INFO upload 65%
+16:13:07 INFO upload 70%
+16:13:08 INFO upload 75%
+16:13:08 INFO upload 79%
+16:13:08 INFO upload 84%
+16:13:09 INFO upload 89%
+16:13:09 INFO upload 94%
+16:13:09 INFO upload 98%
+16:13:10 INFO vídeo enviado: https://youtu.be/uj-4EEC4yiQ (agendado para 2026-10-30T21:00:00Z)
+16:13:14 INFO playlist criada: Idade Média
+16:13:25 INFO na playlist 'Idade Média'
+16:13:26 WARNING Encountered 403 Forbidden with reason "forbidden"
+16:13:26 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+16:15:15 INFO corte 1 pronto (29s)
+16:16:51 INFO corte 2 pronto (24s)
+16:18:49 INFO corte 3 pronto (31s)
+16:18:52 INFO Short agendado: https://youtube.com/shorts/ezrzBXw1DkU (2026-10-31T15:00:00Z)
+16:18:57 INFO upload 90%
+16:18:58 INFO Short agendado: https://youtube.com/shorts/STpHrYJavLE (2026-11-01T15:00:00Z)
+16:19:03 INFO Short agendado: https://youtube.com/shorts/PlDLVWn4mWQ (2026-11-02T15:00:00Z)
+16:19:06 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-30/saida/video.mp4 (15.2 min) → https://youtu.be/uj-4EEC4yiQ
