@@ -1,17 +1,7 @@
 {
-  "atualizado_em": "2026-10-28T16:19:26Z",
+  "atualizado_em": "2026-10-28T22:30:37Z",
   "ativos": {},
   "proximos": [
-    {
-      "canal": "livros",
-      "dia": "2026-10-28",
-      "rotulo": "quarta 28/10 19h00",
-      "publicar_em_utc": "2026-10-28T22:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "O monstro do livro lê Milton (e não se chama Frankenstein)",
-      "url": "https://youtu.be/cKE1bzOWbKo"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-10-29",
@@ -73,6 +63,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "10% + 10% não dá 20%: o mapa da porcentagem no Enem",
       "url": "https://youtu.be/YceeNtGG9no"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-10-28",
+      "rotulo": "quarta 28/10 19h00",
+      "publicar_em_utc": "2026-10-28T22:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "O monstro do livro lê Milton (e não se chama Frankenstein)",
+      "url": "https://youtu.be/cKE1bzOWbKo"
     }
   ],
   "canais": [
@@ -95,7 +95,7 @@
       "nome": "Marca-Página",
       "inscritos": 1,
       "horas": 0.0,
-      "publicados": 0
+      "publicados": 1
     }
   ],
   "imagens": {
