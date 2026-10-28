@@ -1,0 +1,929 @@
+{
+  "canal": "historia",
+  "titulo": "Templários: o rei sem dinheiro e o banco que ele quebrou",
+  "descricao": "Em 13 de outubro de 1307, o rei da França mandou prender o gerente do banco. Mas será que o calote explica tudo?\nA dívida é a hipótese mais contada sobre o fim dos Templários. O que os documentos mostram é outra coisa: um rei sem caixa espremendo quem tinha dinheiro e pouca proteção.\n\nNeste vídeo seguimos o extrato do rei Filipe IV, o Belo: guerras caras, moeda derretendo, judeus e lombardos espremidos, revolta em Paris e, por fim, a prisão em massa da Ordem. Antes disso, vemos como os Templários funcionavam como um prestador de serviços bancários em escala internacional, o Pix medieval com escolta armada. Depois, pesamos os outros suspeitos (poder e fé), a sexta-feira treze que não tem a ver com a história, as confissões sob tortura, o Pergaminho de Chinon, a extinção da Ordem sem condenação e quem ficou com a conta: da Coroa francesa à Ordem de Cristo, em Portugal.\n\nUm aviso de honestidade: não há prova pública de quanto o rei devia aos Templários em 1307. Os números de dívida que existem são de 1286, e a Coroa já tinha trocado de banqueiros por volta de 1295. O vídeo separa o que é documentado do que é hipótese.\n\nE você, o que pesou mais na cabeça do rei: o cofre, a fé ou o poder? Conta nos comentários, deixa o like e se inscreve no canal para ver a história pelo extrato bancário.\n\nAs ilustrações deste vídeo são geradas por inteligência artificial (estilo ilustração, não fotografia), misturadas a obras de domínio público e imagens de acervos livres com licença aberta, como o Wikimedia Commons. A narração é gravada pelo autor do canal. Trilha sonora de acervo livre.\n\nFontes:\n- Wikipédia, Trials of the Knights Templar: https://en.wikipedia.org/wiki/Trials_of_the_Knights_Templar\n- Wikipédia, Philip IV of France (cita Torre 2010; Grummitt e Lassalmonie 2015): https://en.wikipedia.org/wiki/Philip_IV_of_France\n- Wikipédia, Knights Templar: https://en.wikipedia.org/wiki/Knights_Templar\n- Wikipédia, Jacques de Molay: https://en.wikipedia.org/wiki/Jacques_de_Molay\n- Wikipédia, Council of Vienne: https://en.wikipedia.org/wiki/Council_of_Vienne\n- Wikipédia, Vox in excelso: https://en.wikipedia.org/wiki/Vox_in_excelso\n- Wikipédia, Ad providam: https://en.wikipedia.org/wiki/Ad_providam\n- Wikipédia, Chinon Parchment: https://en.wikipedia.org/wiki/Chinon_Parchment\n- Wikipédia, Friday the 13th: https://en.wikipedia.org/wiki/Friday_the_13th\n- Inner Temple Yearbook 2023-24, The Knights Templars, the first city bankers?: https://publications.innertemple.org.uk/yearbook/articles/2023-2024/the-knights-templars-the-first-city-bankers/\n- Medievalists.net, The fall of the Templars (Nicholas Morton): https://www.medievalists.net/2022/10/fall-templars-military-order/\n- CBS News, Knights Templar absolved 700 years late: https://www.cbsnews.com/news/knights-templar-absolved-700-years-late\n- Gomes (2011), Revista de História da Sociedade e da Cultura, sobre a Ordem de Cristo: https://impactum-journals.uc.pt/rhsc/article/download/15146/10265/67666\n- Obras de referência citadas pelas fontes: Malcolm Barber, The Trial of the Templars; Alain Demurger, Jacques de Molay; Barbara Frale, sobre o Pergaminho de Chinon.\n\n#templários #históriadofrança #históriaeconômica",
+  "tags": [
+    "templários",
+    "cavaleiros templários",
+    "ordem dos templários",
+    "filipe o belo",
+    "jacques de molay",
+    "sexta-feira 13",
+    "história medieval",
+    "idade média",
+    "história econômica",
+    "banco medieval",
+    "história da frança",
+    "pergaminho de Chinon",
+    "ordem de cristo",
+    "ouro e império"
+  ],
+  "hashtags": [
+    "#templários",
+    "#históriamedieval",
+    "#históriaeconômica"
+  ],
+  "playlist": "Idade Média",
+  "comentario_inicial": "O que pesou mais na cabeça de Filipe IV para prender os Templários: o cofre vazio, a fé ou o poder sobre o papa? Deixe sua aposta e a razão em uma frase. Eu volto nela no final do vídeo.",
+  "sintetico_realista": false,
+  "musica_humor": "misterio",
+  "thumbnail": {
+    "texto": "O REI CALOTEIRO?",
+    "imagem_busca": "Templar seal two knights on one horse",
+    "layout": "esquerda",
+    "cena": "flat 2D editorial illustration of a medieval Templar knight in armor holding a small bag of coins on the right side, an empty golden crown and an open empty treasure chest beside him, warm gold and deep black palette, humorous tone, empty dark space on the left, no text"
+  },
+  "blocos": [
+    {
+      "capitulo": "O gerente preso",
+      "cenas": [
+        {
+          "narracao": "Imagina que você deve dinheiro para o banco. Em vez de renegociar, você manda prender o gerente.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval moneylender counting coins painting",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E não só ele: todo mundo, de todas as agências do país, no mesmo dia, ao amanhecer.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval map of France 14th century",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Foi mais ou menos isso que o rei da França fez com os Templários, numa sexta-feira, treze de outubro de mil trezentos e sete. Pelo menos, essa é a versão mais contada.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "13 de outubro de 1307",
+            "subtitulo": "A prisão dos Templários"
+          }
+        },
+        {
+          "narracao": "Só que a contabilidade do rei conta uma história mais esquisita e bem mais interessante.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Philip IV of France Philippe le Bel portrait medieval",
+            "movimento": "zoom_in",
+            "legenda": "Filipe IV, o Belo"
+          }
+        },
+        {
+          "narracao": "Se você curte ver a história pelo extrato bancário, se inscreve, deixa o like e me conta nos comentários se você já conhecia essa história do calote. Bora abrir o caixa do rei.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval treasure chest coins illuminated manuscript",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Monge, soldado e caixa",
+      "cenas": [
+        {
+          "narracao": "Antes do rei, vamos conhecer o banco. Os Templários nasceram em Jerusalém, por volta de mil cento e vinte, como uma ordem de monges guerreiros.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Knights Templar medieval illustration Jerusalem",
+            "movimento": "pan_esquerda",
+            "legenda": "Jerusalém, c. 1120"
+          }
+        },
+        {
+          "narracao": "A missão era proteger os peregrinos cristãos na Terra Santa. Monge e soldado ao mesmo tempo, com voto de pobreza incluído.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Templar seal two knights on one horse",
+            "movimento": "zoom_in",
+            "legenda": "Selo dos Templários"
+          }
+        },
+        {
+          "narracao": "Em mil cento e trinta e nove, um papa deu a eles um presente que valia mais do que ouro. Os Templários ficaram livres das leis locais e dos impostos, e só respondiam ao papa.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval pope papal bull illuminated manuscript",
+            "movimento": "zoom_out",
+            "legenda": "1139"
+          }
+        },
+        {
+          "narracao": "Nenhum rei mandava neles. Anota essa, porque ela volta mais tarde, e com juros.",
+          "visual": {
+            "tipo": "citacao",
+            "texto": "Só respondiam ao papa.",
+            "autor": "O privilégio de 1139"
+          }
+        },
+        {
+          "narracao": "O negócio começou com um problema prático. Um peregrino saindo da França rumo a Jerusalém atravessava meio mundo com um saco de prata pendurado na cintura.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval pilgrims travelling road manuscript miniature",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Era praticamente mandar convite para os assaltantes. A solução: ele deixava o dinheiro numa casa da Ordem na Europa, recebia um documento e sacava o valor equivalente do outro lado.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval robbers attacking travelers miniature",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Uma transferência bancária. Um Pix medieval, só que bem mais lento e escoltado por gente de espada.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval parchment charter with seal",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E a rede era enorme. No auge, a Ordem teve entre quinze e vinte mil membros, e só um em cada dez era cavaleiro.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "15 a 20 mil",
+            "rotulo": "membros no auge da Ordem, só 1 em 10 era cavaleiro"
+          }
+        },
+        {
+          "narracao": "O resto cuidava de quase mil casas, fazendas e fortificações. Muito mais gente de planilha do que gente de cavalo.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Templar commandery medieval farm building France",
+            "movimento": "pan_esquerda"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Um banco de armadura",
+      "cenas": [
+        {
+          "narracao": "E o que esse povo fazia com tanta casa? Guardava valores e documentos. Administrava os bens de nobres que partiam para as cruzadas. Pagava rendas. E emprestava dinheiro, inclusive para reis e papas.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "O que a Ordem fazia",
+            "itens": [
+              "Guardava valores",
+              "Administrava bens",
+              "Pagava rendas",
+              "Emprestava a reis e papas"
+            ]
+          }
+        },
+        {
+          "narracao": "Só tinha um probleminha: a Igreja proibia cobrar juros. O jeito foi cobrar sem chamar de juros.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval church council clergy illuminated manuscript",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Uma taxa administrativa aqui. Uma cláusula para proteger o empréstimo se a moeda perdesse valor ali. E outros arranjos do tipo.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval scribe writing contract manuscript",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Se você já pagou tarifa de manutenção de conta sem entender direito o porquê, parabéns: essa sensação tem uns oito séculos.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval merchants weighing coins painting",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "O coração disso tudo era o Temple de Paris, a sede da Ordem na cidade. Ali, clientes recebiam extratos de conta várias vezes por ano.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Temple Paris Templar tower old engraving",
+            "movimento": "zoom_in",
+            "legenda": "O Temple, Paris"
+          }
+        },
+        {
+          "narracao": "E até o tesouro de um rei da Inglaterra ficou guardado lá. O rei inglês confiou o cofre a uma casa no meio de Paris. Isso é que é confiança.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval English king crown treasure manuscript",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Só que aqui tem um exagero que eu não vou repetir. Muita gente chama os Templários de primeiro banco da Europa. Não é bem assim.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Primeiro banco da Europa?",
+            "subtitulo": "Não é bem assim"
+          }
+        },
+        {
+          "narracao": "Eles prestavam serviços bancários de verdade, em escala internacional, mas não foram os únicos nem os primeiros a fazer isso. Melhor dizer que eram um dos maiores prestadores de serviço financeiro da época, só que de armadura.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval knight in armor holding money bag illustration",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E todo grande banco precisa de um grande cliente. O nosso usava coroa.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval French king crown enthroned miniature",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O cliente de coroa",
+      "cenas": [
+        {
+          "narracao": "Em mil duzentos e oitenta e cinco, sobe ao trono da França Filipe Quarto, apelidado de o Belo. Belo no apelido, porque o caixa dele era feio de doer.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Philip IV the Fair coronation 1285 medieval miniature",
+            "movimento": "zoom_in",
+            "legenda": "1285"
+          }
+        },
+        {
+          "narracao": "A receita ordinária da Coroa girava em torno de oitocentas e sessenta mil libras tornesas por ano. A libra tornesa era a moeda de conta da França, e esse valor equivalia a umas quarenta e seis toneladas de prata.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "860 mil libras",
+            "rotulo": "receita ordinária anual, cerca de 46 toneladas de prata"
+          }
+        },
+        {
+          "narracao": "Parece muito. Até você ver as guerras. A guerra contra Aragão custou perto de um milhão e meio de libras.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval battle army miniature Aragonese Crusade",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "A guerra na Gasconha, entre mil duzentos e noventa e quatro e mil duzentos e noventa e nove, mais de um milhão e setecentas mil. Somando as duas, perto de quatro anos de receita ordinária, só que gastos ao longo de vários anos.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Guerra contra Aragão",
+              "itens": [
+                "cerca de 1,5 milhão de libras"
+              ]
+            },
+            "direita": {
+              "titulo": "Guerra na Gasconha",
+              "itens": [
+                "1294 a 1299",
+                "mais de 1,7 milhão de libras"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E quem bancava o rombo? Em novembro de mil duzentos e oitenta e seis, os maiores credores do rei eram justamente os Templários. A dívida chegava a umas oito toneladas de prata, perto de dezessete por cento da receita do governo.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "17%",
+            "rotulo": "da receita do governo: a dívida com os Templários em 1286"
+          }
+        },
+        {
+          "narracao": "Pronto, caso resolvido, né? Calma. Por volta de mil duzentos e noventa e cinco, o rei trocou de banco.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval Florence bankers Lombard moneychangers painting",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Banqueiros de Florença viraram os financiadores principais, e o tesouro real saiu do Temple e foi para o Louvre. Doze anos antes da prisão, o rei já tinha mudado de gerente.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval Louvre castle Les Très Riches Heures",
+            "movimento": "pan_esquerda",
+            "legenda": "O Louvre medieval"
+          }
+        },
+        {
+          "narracao": "Então, quanto ele devia aos Templários em mil trezentos e sete? A resposta honesta é: ninguém mostrou esse número.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Dívida em 1307?",
+            "subtitulo": "Ninguém mostrou esse número"
+          }
+        },
+        {
+          "narracao": "As famosas oito toneladas são de vinte e um anos antes. O calote é a hipótese mais contada, não um fato provado. O aperto de caixa do rei, esse sim, está bem documentado.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval empty treasury king worried manuscript illustration",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A moeda que encolhia",
+      "cenas": [
+        {
+          "narracao": "Sem os Templários no centro das finanças, o rei precisava de outro jeito de fazer dinheiro. E achou um clássico: mexer na moeda.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval mint minting coins miniature",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Naquela época, a moeda valia pela prata que tinha dentro. O rei mandava cunhar moedas com menos prata, mas com o mesmo valor de face, e a diferença ficava com a Coroa.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Philip IV France gros tournois silver coin",
+            "movimento": "zoom_in",
+            "legenda": "Gros tournois, prata francesa"
+          }
+        },
+        {
+          "narracao": "Uma mordida discreta em cada moeda do reino. Entre mil duzentos e noventa e seis e mil duzentos e noventa e nove, esse truque rendeu cerca de um milhão e quatrocentas mil libras parisis. É outra moeda de conta, então não dá para somar direto com as tornesas.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "1,4 milhão",
+            "rotulo": "de libras parisis com a moeda enfraquecida, 1296 a 1299"
+          }
+        },
+        {
+          "narracao": "Só que a conta sempre chega. Em mil trezentos e dois, o exército francês sofreu uma derrota pesada em Courtrai, na chamada Batalha das Esporas de Ouro.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Battle of the Golden Spurs Courtrai 1302 painting",
+            "movimento": "pan_direita",
+            "legenda": "Courtrai, 1302"
+          }
+        },
+        {
+          "narracao": "E a moeda piorou. Em quinze meses, perdeu trinta e sete por cento do valor. Até agosto de mil trezentos e três, já tinha perdido dois terços.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "A moeda derretendo",
+            "itens": [
+              "15 meses: menos 37%",
+              "Agosto de 1303: menos 2/3"
+            ]
+          }
+        },
+        {
+          "narracao": "Aí, em oito de junho de mil trezentos e seis, o rei resolve dar um choque de seriedade e devolve a prata à moeda de uma vez só. Quem devia em moeda fraca passou a pagar em moeda forte. Os devedores foram espremidos.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval debtors crowd angry townspeople miniature",
+            "movimento": "zoom_out",
+            "legenda": "8 de junho de 1306"
+          }
+        },
+        {
+          "narracao": "E em trinta de dezembro de mil trezentos e seis, estourou uma revolta em Paris. Guerra para pagar, moeda bagunçada, gente furiosa na rua. O rei precisava de dinheiro rápido.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Paris medieval riot revolt 1306 Grandes Chroniques de France",
+            "movimento": "pan_esquerda",
+            "legenda": "Paris, dezembro de 1306"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O método",
+      "cenas": [
+        {
+          "narracao": "E aqui tem um detalhe que muda tudo. Os Templários não eram os únicos na mira. O rei também apertou os lombardos, mercadores e banqueiros italianos que faziam negócio na França.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Lombard bankers medieval Italian merchants fresco",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Arrancou deles duzentas e cinquenta mil libras tornesas, numa espécie de naturalização forçada. Quer continuar trabalhando aqui? Então paga.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "250 mil",
+            "rotulo": "libras tornesas arrancadas dos lombardos"
+          }
+        },
+        {
+          "narracao": "E teve o caso mais pesado, e aqui a piada fica de fora. Em vinte e dois de julho de mil trezentos e seis, Filipe expulsou os judeus do reino. Cerca de um mês depois, os bens deles foram confiscados, e a Coroa ficou com pelo menos cento e quarenta mil libras parisis.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "expulsion of the Jews from France 1306 medieval illustration",
+            "movimento": "pan_direita",
+            "legenda": "22 de julho de 1306"
+          }
+        },
+        {
+          "narracao": "Famílias inteiras perderam casa, sustento e o lugar onde viviam para fechar a conta de um rei. É um dos capítulos mais duros desse reinado.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval Jewish family exile road manuscript",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "E nele o padrão aparece inteiro. Rei com caixa vazio aperta quem tem dinheiro e pouca proteção: banqueiros estrangeiros, uma minoria perseguida.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "O padrão",
+            "subtitulo": "Caixa vazio aperta quem tem dinheiro e pouca proteção"
+          }
+        },
+        {
+          "narracao": "Agora põe as datas lado a lado: moeda derretendo, confisco em julho de mil trezentos e seis, revolta em dezembro, e prisão dos Templários em outubro do ano seguinte. Parece cronograma.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "A linha do tempo",
+            "itens": [
+              "1303: moeda perde dois terços",
+              "Julho de 1306: confisco",
+              "Dezembro de 1306: revolta",
+              "Outubro de 1307: Templários presos"
+            ]
+          }
+        },
+        {
+          "narracao": "E o perfil da Ordem? Rica em terras e rendas, com casas pela França inteira, livre de impostos e sem responder ao rei.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Templar preceptory medieval stone building France",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Para um governo desesperado por receita, isso é um letreiro de neon piscando. Mas seria simplificar demais dizer que foi só dinheiro.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Philip the Fair council advisors medieval miniature",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Então, antes de eu te mostrar os outros suspeitos, faz a sua aposta nos comentários: o que pesou mais na cabeça do rei, o cofre, a fé ou o poder? Deixa o like e, se ainda não é inscrito, se inscreve, porque os outros suspeitos entram agora.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval king thinking crown chest cross sword allegory",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Fé, poder e um papa na mira",
+      "cenas": [
+        {
+          "narracao": "Primeiro suspeito: o poder. O rei tinha uma briga antiga com o papado.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Suspeito 1: o poder",
+            "subtitulo": "O rei contra o papado"
+          }
+        },
+        {
+          "narracao": "Em mil trezentos e três, o jurista do rei, Guilherme de Nogaret, e seus aliados atacaram o papa Bonifácio Oitavo na cidade italiana de Anagni. O papa morreu pouco depois. O rei mandou seu jurista enquadrar o chefe da Igreja.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Outrage of Anagni 1303 Boniface VIII Nogaret painting",
+            "movimento": "pan_direita",
+            "legenda": "Anagni, 1303"
+          }
+        },
+        {
+          "narracao": "Alguns anos depois, o papa da vez era Clemente Quinto, um francês da Gasconha, que acabou se instalando longe de Roma, em Avinhão. E os Templários, lembra? Só respondiam ao papa.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Pope Clement V Avignon medieval portrait",
+            "movimento": "zoom_in",
+            "legenda": "Clemente V"
+          }
+        },
+        {
+          "narracao": "Para um rei que queria mandar em tudo dentro do próprio reino, um exército de monges ricos fora do seu controle era pedra no sapato. Uma pedra com quase mil endereços.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Templar knights procession medieval illustration",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Segundo suspeito: a fé. Há historiadores que argumentam que Filipe acreditava de verdade nas acusações de heresia.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Suspeito 2: a fé",
+            "subtitulo": "Acusações de heresia"
+          }
+        },
+        {
+          "narracao": "O historiador Nicholas Morton lembra que heresia era a arma mais eficiente contra a Ordem, porque atingia a reputação, que era o maior patrimônio dela. E banco sem reputação é só um prédio com cofre.",
+          "visual": {
+            "tipo": "citacao",
+            "texto": "Heresia era a arma mais eficiente contra a Ordem.",
+            "autor": "Nicholas Morton, historiador"
+          }
+        },
+        {
+          "narracao": "Muitos historiadores misturam os fatores: dívida, caixa vazio, controle sobre a Ordem, briga com o papa e religião. O dinheiro é a explicação favorita dos livros e vídeos populares, mas não é a única.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Os fatores em jogo",
+            "itens": [
+              "Dívida",
+              "Caixa vazio",
+              "Controle sobre a Ordem",
+              "Briga com o papa",
+              "Religião"
+            ]
+          }
+        },
+        {
+          "narracao": "Qual deles pesou mais é justamente a aposta que você fez. No final eu volto nela. Com os motivos na mesa, falta o bote.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval Paris Île de la Cité Philip the Fair palace miniature",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Sexta-feira, treze",
+      "cenas": [
+        {
+          "narracao": "Catorze de setembro de mil trezentos e sete. Os oficiais do rei espalhados pelas regiões da França recebem ordens secretas e lacradas. Instrução: só agir um mês depois, todos ao mesmo tempo.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval sealed letter messenger on horseback manuscript",
+            "movimento": "pan_direita",
+            "legenda": "14 de setembro de 1307"
+          }
+        },
+        {
+          "narracao": "Treze de outubro, uma sexta-feira, ao amanhecer. Os soldados do rei batem nas portas das casas da Ordem pelo país inteiro e prendem todos os Templários que encontram.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "arrest of the Templars 1307 medieval miniature",
+            "movimento": "zoom_in",
+            "legenda": "13 de outubro de 1307"
+          }
+        },
+        {
+          "narracao": "Uma operação coordenada em escala nacional, num mundo sem telefone e sem internet. Como logística, é impressionante. Para quem foi preso, foi o começo de um pesadelo.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Templars arrested Grandes Chroniques de France illumination",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "E a resistência épica dos cavaleiros? Não teve. Segundo Nicholas Morton, os inventários feitos depois das prisões encontraram praticamente nenhuma arma nas casas da Ordem na Europa.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval empty armory stone hall",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Faz sentido: cada casa mandava um terço da renda para a fronteira, onde a guerra de verdade acontecia. Os Templários do lado de cá eram mais gerentes de fazenda do que tropa de elite.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval monks farm harvest manuscript",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Tesouro escondido? Também não há evidência. E a pergunta que todo mundo faz: é daí que vem o azar da sexta-feira treze?",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval treasure map hidden chest engraving",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Provavelmente não. Não há registro conhecido de sexta-feira treze como dia de azar antes do século dezenove.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Sexta-feira 13 = azar?",
+            "subtitulo": "Sem registro antes do século XIX"
+          }
+        },
+        {
+          "narracao": "As primeiras menções aparecem por volta de mil oitocentos e trinta e quatro, na França. A ligação com os Templários é uma explicação popular colada depois. Eles tiveram um dia péssimo, mas a superstição chegou de carona uns quinhentos anos mais tarde.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "19th century France old calendar almanac engraving",
+            "movimento": "zoom_out",
+            "legenda": "França, c. 1834"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Confissões e o pergaminho de Chinon",
+      "cenas": [
+        {
+          "narracao": "Aqui o tom muda, porque o que veio depois foi sofrimento de verdade. No dia seguinte às prisões, Nogaret apresentou a lista de acusações, todas ligadas a heresia.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Guillaume de Nogaret portrait",
+            "movimento": "zoom_in",
+            "legenda": "Guilherme de Nogaret"
+          }
+        },
+        {
+          "narracao": "Entre outubro e novembro, cento e trinta e oito prisioneiros foram interrogados em Paris. Quase todos admitiram culpa. E admitiram sob tortura, o que faz qualquer historiador desconfiar dessas confissões.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "138",
+            "rotulo": "prisioneiros interrogados em Paris, quase todos confessaram sob tortura"
+          }
+        },
+        {
+          "narracao": "O próprio grão-mestre, Jacques de Molay, confessou no fim de outubro. Semanas depois, diante de cardeais, voltou atrás.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Jacques de Molay last Templar Grand Master portrait",
+            "movimento": "zoom_in",
+            "legenda": "Jacques de Molay"
+          }
+        },
+        {
+          "narracao": "E o papa? Em vinte e dois de novembro de mil trezentos e sete, Clemente Quinto mandou prender os Templários e tomar os bens deles em toda a cristandade.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Pope Clement V bull Pastoralis praeeminentiae manuscript",
+            "movimento": "pan_esquerda",
+            "legenda": "22 de novembro de 1307"
+          }
+        },
+        {
+          "narracao": "O que era um problema francês virou um processo internacional. O único chefe a quem a Ordem respondia passou a apertar o cerco também.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval Europe map 1300 kingdoms",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Mas tem uma reviravolta. Em agosto de mil trezentos e oito, em Chinon, uma comissão do papa ouviu Molay e outros líderes e os absolveu da acusação de heresia, embora apontasse outras faltas.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Chinon fortress castle France",
+            "movimento": "pan_direita",
+            "legenda": "Chinon, agosto de 1308"
+          }
+        },
+        {
+          "narracao": "Uma cópia desse documento só foi reencontrada em dois mil e um, nos arquivos do Vaticano, pela pesquisadora Barbara Frale. Até onde ia essa absolvição ainda é debatido.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Chinon Parchment Vatican Secret Archives",
+            "movimento": "zoom_in",
+            "legenda": "Pergaminho de Chinon"
+          }
+        },
+        {
+          "narracao": "Mas uma coisa é clara: ela não salvou ninguém. A pressão do rei continuou, e o papa acabou cedendo.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval prisoners dungeon Templars miniature",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Fechada por má fama",
+      "cenas": [
+        {
+          "narracao": "Em mil trezentos e onze, a Igreja abre um grande concílio, uma reunião de bispos, para decidir o destino da Ordem. No começo, a maioria achava que os Templários deviam ter o direito de se defender. Não adiantou.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Council of Vienne 1311 bishops medieval",
+            "movimento": "pan_direita",
+            "legenda": "Concílio de Viena, 1311"
+          }
+        },
+        {
+          "narracao": "Uma bula do papa, datada de vinte e dois de março de mil trezentos e doze, extinguiu a Ordem. E não foi uma condenação. O papa fechou a Ordem por decisão própria, citando suspeita, má fama e escândalo.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Vox in excelso papal bull 1312 Templars dissolved",
+            "movimento": "zoom_in",
+            "legenda": "22 de março de 1312"
+          }
+        },
+        {
+          "narracao": "Nenhuma culpa provada. É como fechar uma empresa não porque provaram a fraude, mas porque a fama ficou ruim demais para continuar aberta.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Fechada por má fama",
+            "subtitulo": "Suspeita, escândalo, nenhuma culpa provada"
+          }
+        },
+        {
+          "narracao": "Em dois de maio, outra bula definiu o destino do patrimônio: ia para os Hospitalários, outra ordem militar religiosa. No papel, a herança mudava de dono sem passar pelo rei.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Knights Hospitaller medieval illustration",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Para muitos frades, o fim foi trágico. Em maio de mil trezentos e dez, cinquenta e quatro Templários já tinham sido queimados perto de Paris. E em março de mil trezentos e catorze, Jacques de Molay e Geoffroi de Charney, outro líder da Ordem, foram executados numa ilhota do rio Sena.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "burning of Jacques de Molay 1314 Seine medieval miniature",
+            "movimento": "zoom_in",
+            "legenda": "Paris, março de 1314"
+          }
+        },
+        {
+          "narracao": "Daí nasce a famosa maldição. O que um cronista da época registra é bem mais simples: Molay afirmou, sem medo, que Deus vingaria a morte deles.",
+          "visual": {
+            "tipo": "citacao",
+            "texto": "Deus vingaria a morte deles.",
+            "autor": "Molay, segundo um cronista da época"
+          }
+        },
+        {
+          "narracao": "Uma versão posterior fala de um aviso de que o papa e o rei responderiam a Deus em um ano e um dia, e a praga sobre a família do rei é tradição bem mais tardia.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "The Curse of Jacques de Molay engraving 19th century",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "A coincidência ajudou a lenda: Clemente Quinto morreu em abril de mil trezentos e catorze, e Filipe, em novembro do mesmo ano. Coincidência, não prova de praga.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Clemente V",
+              "itens": [
+                "Morre em abril de 1314"
+              ]
+            },
+            "direita": {
+              "titulo": "Filipe IV",
+              "itens": [
+                "Morre em novembro de 1314"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Siga o dinheiro",
+      "cenas": [
+        {
+          "narracao": "Hora de seguir o dinheiro: quem ganhou e quem pagou a conta. Começa pela Coroa francesa. Segundo a Enciclopédia Britânica de mil novecentos e onze, os bens dos Templários passaram aos Hospitalários só no papel.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Encyclopaedia Britannica 1911 volume Templars",
+            "movimento": "zoom_in",
+            "legenda": "Britannica, 1911"
+          }
+        },
+        {
+          "narracao": "A maior parte ficou nas mãos dos soberanos e de aliados deles. E Filipe ainda reivindicou uma quantia enorme pelas despesas de suprimir a Ordem, cobrada dos Hospitalários.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval king receiving bag of money miniature",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "O valor exato dessa cobrança não está bem confirmado. Mas repara na engenharia: o rei prendeu, processou e depois mandou a fatura das custas para o herdeiro.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval accountant ledger tally sticks exchequer",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E os Hospitalários, que ganharam a herança? Segundo a mesma enciclopédia, na França eles chegaram a reclamar que ficaram no prejuízo. Herança com dívida do falecido e briga no inventário: todo brasileiro conhece esse filme.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Hospitaller knight Rhodes medieval painting",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Em Portugal, a jogada foi mais elegante. O rei Dom Dinis manteve os bens templários sob a guarda da Coroa e, em mil trezentos e dezenove, conseguiu do papa a criação da Ordem de Cristo, sucessora dos Templários no reino.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "King Denis of Portugal Dinis medieval portrait",
+            "movimento": "zoom_in",
+            "legenda": "Dom Dinis, Portugal"
+          }
+        },
+        {
+          "narracao": "Estudos apontam motivação econômica e política: manter aquela riqueza dentro do país e sob o olho do rei. E quem pagou?",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Convento de Cristo Tomar Portugal Templar castle",
+            "movimento": "pan_esquerda",
+            "legenda": "Tomar, Portugal"
+          }
+        },
+        {
+          "narracao": "Os frades, com prisão, tortura e morte. Os judeus e os lombardos, espremidos pelo mesmo método.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Quem pagou a conta",
+            "itens": [
+              "Os frades templários",
+              "Os judeus",
+              "Os lombardos",
+              "Os clientes da Ordem"
+            ]
+          }
+        },
+        {
+          "narracao": "Dá para dizer também que os clientes da Ordem perderam um serviço de guarda de valores e de crédito. E, na nossa leitura, o papado saiu dessa história com menos autonomia diante do rei.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Avignon Papal Palace medieval",
+            "movimento": "zoom_out",
+            "legenda": "Palácio dos Papas, Avinhão"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Quem paga quando o Estado quebra",
+      "cenas": [
+        {
+          "narracao": "Então, o rei deu um calote nos Templários? Talvez. Mas ninguém mostrou o recibo de uma dívida em mil trezentos e sete.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "O calote?",
+            "subtitulo": "Ninguém mostrou o recibo"
+          }
+        },
+        {
+          "narracao": "O que os documentos mostram é outra coisa, e é ainda mais revelador: um rei com guerras caras, moeda derretendo e povo revoltado, que foi apertando quem tinha dinheiro e pouca gente para defender. Os lombardos, os judeus e também uma das ordens mais ricas e poderosas da cristandade.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Philip IV the Fair medieval statue Paris",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Fé e poder também entraram nessa conta. Mas, sem o caixa vazio, fica difícil imaginar o rei apostando tão alto.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval balance scale weighing coin and cross allegory",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Essa é a leitura pelo caixa do rei. Quando o Estado quebra, alguém paga a conta, e quase nunca é quem gastou.",
+          "visual": {
+            "tipo": "citacao",
+            "texto": "Quando o Estado quebra, alguém paga a conta, e quase nunca é quem gastou.",
+            "autor": "Ouro & Império"
+          }
+        },
+        {
+          "narracao": "Se esse extrato medieval valeu seu tempo, se inscreve, deixa o like e volta lá na sua aposta: o cofre, a fé ou o poder? Quero ver esse placar nos comentários.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Sua aposta",
+            "itens": [
+              "O cofre",
+              "A fé",
+              "O poder"
+            ]
+          }
+        },
+        {
+          "narracao": "E se você acha que derreter a moeda para pagar guerra é coisa de rei de oito séculos atrás, espera até ver o que governos fizeram quando o dinheiro virou papel. Esse é assunto para outro vídeo aqui do canal.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Weimar Republic hyperinflation banknotes children playing 1923",
+            "movimento": "zoom_out",
+            "legenda": "Alemanha, 1923"
+          }
+        }
+      ]
+    }
+  ]
+}

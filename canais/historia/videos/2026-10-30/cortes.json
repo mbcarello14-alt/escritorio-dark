@@ -1,0 +1,31 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1],
+      "ate": [1, 4],
+      "gancho": "Devia ao banco e prendeu o gerente?",
+      "titulo": "O rei que mandou prender o gerente do banco",
+      "descricao": "Em 1307, o rei da França prendeu todos os Templários no mesmo dia. Mas o calote explica tudo? A história completa está no canal.",
+      "hashtags": ["#historia", "#templarios", "#economia"],
+      "legenda_reels": "Imagina dever ao banco e mandar prender o gerente. Foi o que o rei da França fez com os Templários em 1307. Segue o perfil para mais história contada pelo dinheiro. #historia #templarios #economia #idademedia"
+    },
+    {
+      "de": [2, 5],
+      "ate": [2, 7],
+      "gancho": "O Pix existia na Idade Média?",
+      "titulo": "O Pix medieval dos Templários, com escolta armada",
+      "descricao": "Os Templários criaram um jeito de mandar dinheiro até Jerusalém sem carregar prata. Veja como funcionava e o resto da história no canal.",
+      "hashtags": ["#historia", "#idademedia", "#templarios"],
+      "legenda_reels": "Os Templários inventaram uma transferência bancária medieval: deixava o dinheiro na Europa e sacava em Jerusalém. Segue o perfil para mais história pelo dinheiro. #historia #idademedia #templarios #pix"
+    },
+    {
+      "de": [8, 6],
+      "ate": [8, 8],
+      "gancho": "Sexta-feira 13 tem a ver com Templários?",
+      "titulo": "Sexta-feira 13 e os Templários: a verdade sobre o azar",
+      "descricao": "A prisão dos Templários foi numa sexta-feira 13, mas a superstição veio séculos depois. O vídeo completo está no canal.",
+      "hashtags": ["#sexta13", "#templarios", "#historia"],
+      "legenda_reels": "O azar da sexta-feira 13 vem dos Templários? Provavelmente não: o registro mais antigo é do século 19. Segue o perfil para mais história contada pelo dinheiro. #sexta13 #templarios #historia #curiosidades"
+    }
+  ]
+}
