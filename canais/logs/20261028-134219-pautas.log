@@ -1,0 +1,38 @@
+comando: /pautas canais/historia/videos/2026-10-30
+🔧 Bash {"command": "cd canais/historia/videos/2026-10-30 && ls && cat estado.json"}
+🔧 Agent {"description": "Pautas Ouro & Império", "subagent_type": "pesquisador-historia", "prompt": "Etapa 1 (pauta). Canal: historia (Ouro & Império). Pasta: /home/runner/work/escritorio-dark/escritorio-dark
+💬 Aguardando o pesquisador terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 WebSearch {"query": "Leeson Russ \"Witch Trials\" Economic Journal 2018 competition Catholic Protestant Little Ice Age", "mode": "standard"}
+🔧 WebSearch {"query": "Dia Nacional do Comércio 30 de outubro", "mode": "standard"}
+🔧 WebSearch {"query": "Templários dívidas Filipe IV prisão sexta-feira 13 outubro 1307 dinheiro vídeo", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-30/pautas.json", "content": "[\n  {\n    \"titulo\": \"Caça às bruxas: o mercado da fé que matou milhare
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-30/01-pauta.md", "content": "# Pauta — Ouro & Império — sexta 30/10/2026, 18h\n\nContexto da data: dia s
+💬 Escrevi os dois arquivos da pauta de sexta 30/10 e não mexi em mais nada. A busca não trouxe views de vídeos concorrentes. Por isso, a prova de demanda se apoia na sazonalidade e em fontes acadêmicas e de imprensa. O `01-pauta.md` avisa que o pesquisador deve levantar os "outliers" no YouTube antes do dossiê.
+
+As três ideias, em ordem:
+
+1. **Caça às bruxas: o mercado da fé que matou milhares.** Halloween é no dia seguinte. O ângulo vem do paper de Leeson e Russ (Economic Journal, 2018): os processos como concorrência entre católicos e protestantes por fiéis. Essa é uma tese de estudo, e o rote
+🔧 Bash {"command": "python3 -c \"import json;d=json.load(open('pautas.json'));print(len(d));[print(x['titulo'],len(x['titulo'])) for x in d]\""}
+💬 As pautas da sexta 30/10 18h estão prontas. O `pautas.json` é válido: tem 3 itens e todos os títulos ficam abaixo de 60 caracteres. As três ideias são do nicho do Ouro & Império, sem nada de ENEM ou vestibular.
+
+1. **Caça às bruxas: o mercado da fé que matou milhares.** Halloween é no dia seguinte. O ângulo vem do paper de Leeson e Russ (2018), que vê os processos como concorrência entre católicos e protestantes por fiéis. É uma tese em debate, e o roteiro precisa dizer isso. O tema envolve tortura e execução, então só gravuras e ilustrações leves.
+2. **1929: o crash que derrubou o café e o go
+
+=== resultado: success | turnos 3 | 6s | erro=False
+Aguardando o pesquisador terminar.
+
+=== resultado: success | turnos 2 | 7s | erro=False
+As pautas da sexta 30/10 18h estão prontas. O `pautas.json` é válido: tem 3 itens e todos os títulos ficam abaixo de 60 caracteres. As três ideias são do nicho do Ouro & Império, sem nada de ENEM ou vestibular.
+
+1. **Caça às bruxas: o mercado da fé que matou milhares.** Halloween é no dia seguinte. O ângulo vem do paper de Leeson e Russ (2018), que vê os processos como concorrência entre católicos e protestantes por fiéis. É uma tese em debate, e o roteiro precisa dizer isso. O tema envolve tortura e execução, então só gravuras e ilustrações leves.
+2. **1929: o crash que derrubou o café e o governo do Brasil.** O aniversário do crash é 29/10. O ângulo é o efeito sobre o café brasileiro e o caminho até a Revolução de 1930. Os historiadores discutem se o crash causou a revolução, e o tom deve ficar longe de conteúdo de prova.
+3. **Templários: o rei devedor que cobrou na prisão.** A prisão de 13/10/1307 vista como calote de Filipe IV. Dívida como motivo é interpretação, não consenso. O tema é muito saturado e cheio de pseudo-história, que o canal proíbe.
+
+A busca não trouxe views de vídeos concorrentes. A prova de demanda se apoia na sazonalidade e em fontes acadêmicas e de imprensa. O `01-pauta.md` avisa que o pesquisador deve levantar os vídeos de maior desempenho no YouTube antes de montar o dossiê.
+
+Não usei o Dia do Comércio (30/10) como gancho, porque as fontes divergem sobre a data.
+
+Os arquivos estão em `canais/historia/videos/2026-10-30/`: `01-pauta.md` e `pautas.json`. Não editei mais nada.
+codigo de saida: 0

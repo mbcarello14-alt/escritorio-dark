@@ -1,6 +1,10 @@
 {
-  "atualizado_em": "2026-10-28T13:41:17Z",
-  "ativos": {},
+  "atualizado_em": "2026-10-28T13:43:24Z",
+  "ativos": {
+    "miguel": [
+      "Ouro & Império: sexta 30/10 18h00"
+    ]
+  },
   "proximos": [
     {
       "canal": "livros",
@@ -21,6 +25,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Era Vargas no ENEM: 3 governos em 1 mapa mental",
       "url": "https://youtu.be/K4aaYBSIPYs"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-10-30",
+      "rotulo": "sexta 30/10 18h00",
+      "publicar_em_utc": "2026-10-30T21:00:00Z",
+      "etapa": "aguardando_escolha",
+      "etapa_txt": "👉 esperando você escolher a pauta",
+      "titulo": "",
+      "url": ""
     },
     {
       "canal": "livros",
