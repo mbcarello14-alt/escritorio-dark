@@ -1,6 +1,10 @@
 {
-  "atualizado_em": "2026-10-29T21:25:41Z",
-  "ativos": {},
+  "atualizado_em": "2026-10-29T21:27:10Z",
+  "ativos": {
+    "miguel": [
+      "Marca-Página: quarta 04/11 19h00"
+    ]
+  },
   "proximos": [
     {
       "canal": "historia",
@@ -31,6 +35,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Ecologia no ENEM: energia desce, veneno sobe",
       "url": "https://youtu.be/_C38hqcUFGI"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-04",
+      "rotulo": "quarta 04/11 19h00",
+      "publicar_em_utc": "2026-11-04T22:00:00Z",
+      "etapa": "aguardando_escolha",
+      "etapa_txt": "👉 esperando você escolher a pauta",
+      "titulo": "",
+      "url": ""
     }
   ],
   "publicados": [
