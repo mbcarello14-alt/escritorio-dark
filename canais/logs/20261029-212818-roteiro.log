@@ -1,0 +1,194 @@
+comando: /roteiro canais/livros/videos/2026-11-04
+🔧 Bash {"command": "cd canais/livros/videos/2026-11-04 && ls && cat estado.json && cat 01-pauta.md && cat pautas.json"}
+💬 A pauta escolhida é a 3 (1984), mas a nota do Miguel muda o livro para *A Revolução dos Bichos*, sem falar do Enem. Vou seguir a nota e começar pelo dossiê.
+🔧 Agent {"subagent_type": "pesquisador-livros", "description": "Dossiê Revolução dos Bichos", "prompt": "Monte o dossiê (etapa 2) em /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026
+💬 O pesquisador está montando o dossiê. Aguardo o retorno antes de passar ao roteirista.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/01-pauta.md"}
+🔧 WebSearch {"query": "A Revolução dos Bichos Orwell edição Companhia das Letras tradutor Heitor Aquino Ferreira páginas", "mode": "standard"}
+🔧 WebSearch {"query": "Animal Farm Orwell rejected publishers Jonathan Cape Faber T.S. Eliot Gollancz 1944 Ministry of Information", "mode": "standard"}
+🔧 WebSearch {"query": "Orwell \"The Freedom of the Press\" preface Animal Farm suppressed found 1972 Crick", "mode": "standard"}
+🔧 WebSearch {"query": "Orwell domínio público Brasil 2021 obras George Orwell domínio público A Revolução dos Bichos tradução", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.companhiadasletras.com.br/livro/9788535909555/a-revolucao-dos-bichos-traducao-de-heitor-aquino-ferreira", "prompt": "Extract ficha técnica: título, subtítulo, tradutor, número de 
+🔧 WebFetch {"url": "https://www.publishnews.com.br/materias/2021/01/04/muito-alem-de-george-orwell", "prompt": "Extract facts about Animal Farm / A Revolução dos Bichos editions in Brazil after public domain: ed
+🔧 WebFetch {"url": "https://www.poder360.com.br/historia/george-orwell-entra-em-dominio-publico-obra-vai-do-totalitarismo-a-culinaria/", "prompt": "Extract facts about public domain of Orwell in Brazil (date, ru
+🔧 WebFetch {"url": "https://orwellfoundation.substack.com/p/the-freedom-of-the-press", "prompt": "Summarize in own words: what the proposed preface says, how it was found, when published, and what it reveals abo
+🔧 WebFetch {"url": "https://www.marxists.org/archive/orwell/1945/preface.htm", "prompt": "Summarize in own words: what the preface says (main arguments, mentions of Ministry of Information, Russian ally, publish
+🔧 WebSearch {"query": "A Fazenda dos Animais Paulo Henriques Britto Companhia das Letras 2020 páginas Orwell", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.poetryfoundation.org/poetry-news/75098/british-library-digitizes-ts-eliots-animal-farm-rejection-letter", "prompt": "Summarize Eliot's rejection letter of Animal Farm: date, reaso
+🔧 WebFetch {"url": "https://www.listening-books.org.uk/something-about-a-pig-why-animal-farm-was-criticised-when-it-was-released", "prompt": "Extract facts: rejections (Cape, Faber, Gollancz), Ministry of Inform
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Animal_Farm", "prompt": "Extract with specifics: writing dates (Nov 1943-Feb 1944), publication date and print run (4500 copies?), subtitle 'A Fairy Story', reje
+🔧 WebSearch {"query": "British Library T.S. Eliot letter Animal Farm 13 July 1944 Faber rejection \"Trotskyite\" pigs", "mode": "standard"}
+🔧 WebSearch {"query": "Heitor Aquino Ferreira tradutor A Revolução dos Bichos 1964 Ipes Golbery tenente Orwell tradução Edições O Cruzeiro", "mode": "standard"}
+🔧 WebSearch {"query": "Orwell Animal Farm Ukrainian edition preface 1947 Orwell wrote written for Ukrainian edition displaced persons", "mode": "standard"}
+🔧 WebSearch {"query": "youtube A Revolução dos Bichos resumo análise George Orwell vídeo milhões de visualizações", "mode": "extended"}
+🔧 WebFetch {"url": "https://www.companhiadasletras.com.br/livro/9788582851203/a-fazenda-dos-animais-a-revolucao-dos-bichos-em-traducao-de-paulo-henriques-britto", "prompt": "Extract ficha técnica: título, selo, 
+🔧 WebSearch {"query": "Animal Farm criticism weaknesses allegory too simple Isaac Deutscher Orwell pessimism Snowball Trotsky critique pigs", "mode": "standard"}
+🔧 WebSearch {"query": "Orwell Animal Farm \"fairy story\" subtitle why Orwell chose; American edition dropped subtitle; Orwell letter Dwight Macdonald \"fairy story\"", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.youtube.com/watch?v=RF1qwlBo04E", "prompt": "Give channel name, view count, upload date, duration, title."}
+🔧 WebFetch {"url": "https://www.youtube.com/watch?v=5ktaYjdHQrQ", "prompt": "Give channel name, view count, upload date, duration, title."}
+🔧 WebFetch {"url": "https://www.youtube.com/watch?v=bqdxPILUTIc", "prompt": "Give channel name, view count, upload date, duration, title."}
+🔧 WebFetch {"url": "https://english.washington.edu/sites/english/files/documents/research/jaccard_-_critical_reception_of_animal_farm.pdf", "prompt": "Summarize the critical reception of Animal Farm at publicati
+🔧 WebSearch {"query": "Orwell \"Why I Write\" \"Animal Farm\" \"first book in which I tried, with full consciousness of what I was doing, to fuse political purpose and artistic purpose\"", "mode": "standard"}
+🔧 WebSearch {"query": "Animal Farm first edition 4,500 copies Secker & Warburg 17 August 1945 ten chapters Seven Commandments length 30,000 words", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.cambridge.org/core/books/cambridge-companion-to-george-orwell/animal-farm-history-as-fable/8F7DB9E68BAAFB27F9CF1B26F10A7FB8", "prompt": "What does this chapter argue about Animal 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/02-dossie.md", "content": "# Dossiê — A Revolução dos Bichos (George Orwell) — Marca-Página, quarta 04/
+💬 O dossiê está pronto, sobre *A Revolução dos Bichos* e sem nenhuma menção a Enem, vestibular ou prova. Ficaram pendências, e a principal é que não achei nenhum vídeo "outlier".
+
+**Ficha sugerida**
+- Edição: *A revolução dos bichos: Um conto de fadas*, tradução de Heitor Aquino Ferreira, Companhia das Letras, lançada em 10/01/2007, 152 páginas, ISBN 978-85-359-0955-5.
+- Outras edições da Companhia: *A Fazenda dos Animais*, tradução de Paulo Henriques Britto, Penguin-Companhia, 2020, 136 páginas; e uma edição especial com 248 páginas.
+- Original: Secker & Warburg, 17/08/1945.
+- Antes de gravar, 
+🔧 Agent {"subagent_type": "roteirista-livros", "description": "Roteiro Revolução dos Bichos", "prompt": "Escreva o roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/02-dossie.md"}
+💬 O dossiê está pronto e o roteirista já está escrevendo. Falta o roteiro, a checagem, a originalidade e a conferência final. Espero o retorno do roteirista antes de seguir.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"A Revolução dos Bichos: o livro que quatro edi
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "content": "# Roteiro — Marca-Página — quarta 04/11/2026, 19h\n\n**Título provisório:**
+💬 O roteiro de A Revolução dos Bichos está pronto, nos dois arquivos pedidos. Tem 10 blocos e cerca de 2.170 palavras, umas 14 minutos e meio de áudio, dentro do alvo de 10 a 15 minutos. Ainda não passou pelo checador nem pelo guardião de originalidade. Contei as palavras no olho, não com ferramenta, então os números são aproximados.
+
+- **Nota do Miguel:** o texto não cita Enem, vestibular, prova nem redação. O bloco 2 diz que "hoje a gente fala do livro como livro" e que o vídeo não é aula sobre a União Soviética. 1984 aparece uma vez só, como comparação, no bloco 6.
+- **Chamadas:** bloco 1 ped
+🔧 Agent {"subagent_type": "checador", "description": "Checar roteiro Revolução dos Bichos", "prompt": "Cheque o roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/ (r
+💬 O roteiro está escrito e o checador está conferindo cada afirmação. Quando ele terminar, sigo para o guardião de originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json"}
+🔧 WebFetch {"url": "https://www.marxists.org/archive/orwell/1945/preface.htm", "prompt": "Does Orwell say four publishers refused? Quote exactly the passage about the publisher who accepted then withdrew after M
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Animal_Farm", "prompt": "Extract: publishers who rejected (Gollancz, Cape, Faber, Eliot letter), Peter Smollett role, Warburg, number of rejections, first editio
+🔧 WebFetch {"url": "https://www.poder360.com.br/historia/george-orwell-entra-em-dominio-publico-obra-vai-do-totalitarismo-a-culinaria/", "prompt": "O que diz sobre a primeira tradução de 1964, Heitor Aquino Ferr
+🔧 WebSearch {"query": "T. S. Eliot letter Orwell Animal Farm \"more public-spirited pigs\" British Library 13 July 1944", "mode": "standard"}
+🔧 WebSearch {"query": "Ipes tradução A Revolução dos Bichos 1964 Heitor Aquino Ferreira Golbery Instituto de Pesquisas e Estudos Sociais", "mode": "standard"}
+🔧 WebSearch {"query": "Gollancz rejected Animal Farm reason Nicholson & Watson Cape Smollett Ministry of Information four publishers", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Animal_Farm", "prompt": "From the Plot summary section, confirm each point: Major's dream and death; expulsion of Jones; Seven Commandments painted on wall, 'All
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/04-checagem.md", "content": "# Checagem — A Revolução dos Bichos — Marca-Página, quarta 04/11/2026\n\n*
+💬 Veredito: **CORRIGIR** (volta 1 de 2). Gravei a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/04-checagem.md`.
+
+**Resumo da checagem em uma frase:** O roteiro está quase todo sustentado, mas precisa de 8 ajustes: o gancho generaliza o motivo das recusas contra o próprio Orwell, o bloco 3 diz "quatro recusas" e nomeia só três, e três trechos (Eliot, Ipes, "ninguém precisou censurar") afirmam como fato o que as fontes tratam como hipótese ou fonte única.
+
+Os pontos que você pediu:
+
+- **"Quatro editoras recusaram":**
+  - O número confere. Orwell es
+🔧 Agent {"subagent_type": "roteirista-livros", "description": "Aplicar correções da checagem", "prompt": "Em /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/ leia 04-checagem
+💬 O checador mandou corrigir (volta 1 de 2) e o roteirista está aplicando os 8 ajustes. Depois disso vêm o guardião de originalidade e a conferência final.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "old_string": "Quatro editoras recusaram. E o motivo não era o liv
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "old_string": "No Brasil, a edição mais conhecida é", "new_string"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "old_string": "era um problema diplomático com capa. Victor Gollan
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "old_string": "Segundo ponto: o livro explica a degeneração da rev
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "old_string": "entregue a uma comissão soviética. Ou seja, o livro
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "old_string": "e a palavra revolução no título reforçava essa leit
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "old_string": "Para fechar, um texto que quase ninguém conhece. Or
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "old_string": "Ninguém precisou censurar. Bastou o medo.", "new_st
+💬 Agora as mesmas trocas no `03-roteiro.md`.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "Quatro editoras recusaram. E o motivo não era o li
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "No Brasil, a edição mais conhecida é", "new_string
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "era um problema diplomático com capa. Victor Golla
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "Segundo ponto: o livro explica a degeneração da re
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "entregue a uma comissão soviética. Ou seja, o livr
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "e a palavra revolução no título reforçava essa lei
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "Para fechar, um texto que quase ninguém conhece. O
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "Ninguém precisou censurar. Bastou o medo.", "new_s
+💬 Agora atualizo as contagens, as notas para o checador e a lista de mudanças.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "**Contagem:** cerca de 2.170 palavras", "new_strin
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "e entra por volta de 4min05s, depois de uns 610 pa
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "## Bloco 1 — O livro que ninguém queria (105 palav
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "## Bloco 3 — Quatro recusas e um espião (cerca de 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "- **Pendências do dossiê marcadas no texto:** cart
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "o mandamento final; a cena da janela. [PRECISA FON
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "old_string": "- **Minuto do spoiler:** o bloco 4 começa por volt
+💬 Apliquei todas as correções do `04-checagem.md` no `03-roteiro.md` e no `roteiro.json`, com o mesmo texto falado nos dois. Não rodei nenhum validador no `roteiro.json`. As edições só trocaram texto dentro das strings e não acrescentaram aspas, então a estrutura do arquivo não deveria ter mudado.
+
+**O que mudou no texto:**
+- **Bloco 1 (gancho):** agora diz "Quatro editoras recusaram. E pelo menos uma delas recusou por razão política: o livro falava mal de um aliado na hora errada."
+- **Bloco 2:** "uma das edições mais conhecidas".
+- **Bloco 3:**
+  - Entrou "Orwell conta que foram quatro recusas
+🔧 Agent {"subagent_type": "guardiao-originalidade", "description": "Originalidade do roteiro", "prompt": "Avalie o roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md"}
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('roteiro.json'));print(d['titulo_provisorio']);print(len(d['blocos']));print(d['semaforo'],d['resumo_checagem'],d['resumo_originalidade'],d['pe
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+💬 JSON válido, 10 blocos, sem menção a Enem, vestibular ou prova. Os resumos ainda estão provisórios e serão preenchidos quando o guardião terminar.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/05-originalidade.md", "content": "# Originalidade — A Revolução dos Bichos — Marca-Página, quarta 04/11
+💬 Gravei `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/05-originalidade.md`.
+
+**Semáforo: 🟡 ajustar.**
+
+**Notas**
+- **Variação: 6.** O histórico do canal está vazio, então não há como comparar com os últimos 5 vídeos. O risco é que essa estrutura (gancho, ficha, enredo, acerta, tropeça, para quem é, fecho) vire molde fixo para os próximos livros.
+- **Valor próprio: 7.** A leitura do cavalo e das ovelhas como centro do livro é própria. Os blocos 3 e 8 são reorganização de fontes públicas.
+- **Voz humana: 5.** A tese e a "opinião do canal" vieram do roteirista.
+🔧 Agent {"subagent_type": "roteirista-livros", "description": "Aplicar ajustes de originalidade", "prompt": "Em /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/ leia 05-origi
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/05-originalidade.md"}
+💬 O guardião deu 🟡. O roteirista está aplicando as mudanças de maior impacto: abertura nova, cortes dos tiques de IA, mandamento reescrito e pergunta para o Miguel. Depois confiro as chamadas de engajamento e o nicho, e atualizo o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/03-roteiro.md", "content": "# Roteiro — Marca-Página — quarta 04/11/2026, 19h\n\n**Título provisório:**
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"A Revolução dos Bichos: o livro que quatro edi
+💬 Apliquei as mudanças de originalidade no roteiro, que agora tem 9 blocos, cerca de 2.130 palavras e uns 14 minutos. Não rodei nenhum validador no `roteiro.json`, e a contagem de palavras é estimada, não exata.
+
+**(a) Nova ordem dos blocos**
+- **Bloco 1:** abre pela cena da parede que amanhece com uma palavrinha a mais no fim. Não entrega o mandamento final nem o desfecho. A inscrição e o like continuam nesse bloco.
+- **Recusas:** saíram do gancho e agora vêm no bloco 5, depois do enredo e da alegoria. A carta de Eliot ("porcos mais preocupados com o bem público") vira o contraponto à tese do c
+🔧 Bash {"command": "grep -ciE '^\\|' 04-checagem.md; grep -iE 'afirma' 04-checagem.md | head -5; python3 -c \"\nimport json,re;d=json.load(open('roteiro.json'))\nprint(d['titulo_provisorio'],d['resumo_checag
+🔧 Bash {"command": "python3 - <<'E'\nimport json\ne=json.load(open('estado.json'));r=json.load(open('roteiro.json'))\ne['titulo']=r['titulo_provisorio']\njson.dump(e,open('estado.json','w'),ensure_ascii=Fals
+💬 O roteiro de *A Revolução dos Bichos* está pronto, com semáforo 🟡. Troquei a pauta 3 (1984) pelo livro que o Miguel pediu na nota, sem nenhuma menção a Enem, vestibular ou prova.
+
+- **Título provisório:** "A Revolução dos Bichos: o livro que quatro editoras recusaram". Gravei no `estado.json`.
+- **Estrutura:** 9 blocos, cerca de 14 minutos, abrindo pela cena da parede que amanhece com uma palavra a mais.
+- **Checagem:** o checador mandou corrigir (volta 1 de 2) e apliquei os 8 ajustes. Não pedi uma segunda checagem depois das correções.
+- **Originalidade:** o guardião deu 🟡 e apliquei as mudan
+
+=== resultado: success | turnos 3 | 9s | erro=False
+O pesquisador está montando o dossiê. Aguardo o retorno antes de passar ao roteirista.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+O dossiê está pronto e o roteirista já está escrevendo. Falta o roteiro, a checagem, a originalidade e a conferência final. Espero o retorno do roteirista antes de seguir.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+O roteiro está escrito e o checador está conferindo cada afirmação. Quando ele terminar, sigo para o guardião de originalidade.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O checador mandou corrigir (volta 1 de 2) e o roteirista está aplicando os 8 ajustes. Depois disso vêm o guardião de originalidade e a conferência final.
+
+=== resultado: success | turnos 3 | 6s | erro=False
+JSON válido, 10 blocos, sem menção a Enem, vestibular ou prova. Os resumos ainda estão provisórios e serão preenchidos quando o guardião terminar.
+
+=== resultado: success | turnos 2 | 8s | erro=False
+O guardião deu 🟡. O roteirista está aplicando as mudanças de maior impacto: abertura nova, cortes dos tiques de IA, mandamento reescrito e pergunta para o Miguel. Depois confiro as chamadas de engajamento e o nicho, e atualizo o `estado.json`.
+
+=== resultado: success | turnos 3 | 11s | erro=False
+O roteiro de *A Revolução dos Bichos* está pronto, com semáforo 🟡. Troquei a pauta 3 (1984) pelo livro que o Miguel pediu na nota, sem nenhuma menção a Enem, vestibular ou prova.
+
+- **Título provisório:** "A Revolução dos Bichos: o livro que quatro editoras recusaram". Gravei no `estado.json`.
+- **Estrutura:** 9 blocos, cerca de 14 minutos, abrindo pela cena da parede que amanhece com uma palavra a mais.
+- **Checagem:** o checador mandou corrigir (volta 1 de 2) e apliquei os 8 ajustes. Não pedi uma segunda checagem depois das correções.
+- **Originalidade:** o guardião deu 🟡 e apliquei as mudanças de maior impacto (nova abertura, tiques de IA removidos, mandamento final reescrito, bloco genérico cortado).
+- **Engajamento:** conferi as três chamadas. Inscrição e like estão no bloco 1, a pergunta para os comentários no fim do bloco 5 (perto da metade) e inscrição, like e comentário no bloco 9.
+
+**Pendências antes de gravar**
+- **Voz do Miguel:** o 🟡 continua porque a opinião ainda é "do canal". Não inventei memórias dele. A `pergunta_para_miguel` pede a resposta dele (o cavalo é o personagem mais importante? de qual bicho lembrava na primeira leitura e de qual lembra hoje? uma situação real de "trabalhar ainda mais" ou "repetir o slogan"), que entra nos blocos 4 e 7.
+- **Enredo:** o checador não conseguiu abrir o livro. O Miguel precisa conferir no exemplar os nomes em português e a ordem dos fatos.
+- **Papel do Ipes na edição de 1964:** vem de uma única fonte (Poder360), então o texto atribui ao jornal e usa "teria".
+- **Quarto editor:** as fontes discordam sobre quem foi, então o roteiro não o nomeia.
+- **Imagens:** o plano visual está no `03-roteiro.md`, sem material de terceiros. A licença da carta de Eliot e de qualquer foto ainda não foi verificada.
+- **Outliers:** o pesquisador não achou views de vídeos sobre o tema, só os links para medir à mão.
+
+Não criei `producao.json`. Os arquivos estão em `canais/livros/videos/2026-11-04/`: `02-dossie.md`, `03-roteiro.md`, `roteiro.json`, `04-checagem.md` e `05-originalidade.md`. Não fiz commit nem push.
+codigo de saida: 0
