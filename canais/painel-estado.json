@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-28T23:57:09Z",
+  "atualizado_em": "2026-10-29T11:37:26Z",
   "ativos": {},
   "proximos": [
     {
@@ -80,27 +80,27 @@
       "id": "historia",
       "nome": "Ouro & Império",
       "inscritos": 2,
-      "horas": 0.1,
+      "horas": 0.2,
       "publicados": 1
     },
     {
       "id": "vestibular",
       "nome": "Mapeado",
       "inscritos": 1,
-      "horas": 0.1,
+      "horas": 0.9,
       "publicados": 1
     },
     {
       "id": "livros",
       "nome": "Marca-Página",
       "inscritos": 1,
-      "horas": 0.0,
+      "horas": 0.1,
       "publicados": 1
     }
   ],
   "imagens": {
-    "hoje": 1,
-    "neurons": 55,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
