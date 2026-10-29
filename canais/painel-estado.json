@@ -1,17 +1,7 @@
 {
-  "atualizado_em": "2026-10-29T14:26:22Z",
+  "atualizado_em": "2026-10-29T21:25:41Z",
   "ativos": {},
   "proximos": [
-    {
-      "canal": "vestibular",
-      "dia": "2026-10-29",
-      "rotulo": "quinta 29/10 17h00",
-      "publicar_em_utc": "2026-10-29T20:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Era Vargas no ENEM: 3 governos em 1 mapa mental",
-      "url": "https://youtu.be/K4aaYBSIPYs"
-    },
     {
       "canal": "historia",
       "dia": "2026-10-30",
@@ -73,6 +63,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "O monstro do livro lê Milton (e não se chama Frankenstein)",
       "url": "https://youtu.be/cKE1bzOWbKo"
+    },
+    {
+      "canal": "vestibular",
+      "dia": "2026-10-29",
+      "rotulo": "quinta 29/10 17h00",
+      "publicar_em_utc": "2026-10-29T20:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Era Vargas no ENEM: 3 governos em 1 mapa mental",
+      "url": "https://youtu.be/K4aaYBSIPYs"
     }
   ],
   "canais": [
@@ -88,7 +88,7 @@
       "nome": "Mapeado",
       "inscritos": 1,
       "horas": 0.9,
-      "publicados": 1
+      "publicados": 2
     },
     {
       "id": "livros",
