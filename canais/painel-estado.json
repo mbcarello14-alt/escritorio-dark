@@ -1,17 +1,7 @@
 {
-  "atualizado_em": "2026-10-30T14:28:11Z",
+  "atualizado_em": "2026-10-30T23:20:54Z",
   "ativos": {},
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-10-30",
-      "rotulo": "sexta 30/10 18h00",
-      "publicar_em_utc": "2026-10-30T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Templários: o rei sem dinheiro e o banco que ele quebrou",
-      "url": "https://youtu.be/uj-4EEC4yiQ"
-    },
     {
       "canal": "livros",
       "dia": "2026-10-31",
@@ -83,6 +73,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Era Vargas no ENEM: 3 governos em 1 mapa mental",
       "url": "https://youtu.be/K4aaYBSIPYs"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-10-30",
+      "rotulo": "sexta 30/10 18h00",
+      "publicar_em_utc": "2026-10-30T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Templários: o rei sem dinheiro e o banco que ele quebrou",
+      "url": "https://youtu.be/uj-4EEC4yiQ"
     }
   ],
   "canais": [
@@ -91,7 +91,7 @@
       "nome": "Ouro & Império",
       "inscritos": 2,
       "horas": 3.4,
-      "publicados": 1
+      "publicados": 2
     },
     {
       "id": "vestibular",
