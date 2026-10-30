@@ -1,19 +1,6 @@
 {
-  "atualizado_em": "2026-10-30T00:03:20Z",
-  "ativos": {
-    "narrador": [
-      "Marca-Página: A Revolução dos Bichos: o livro que 4 editores recusaram"
-    ],
-    "ilustrador": [
-      "Marca-Página: A Revolução dos Bichos: o livro que 4 editores recusaram"
-    ],
-    "editor": [
-      "Marca-Página: A Revolução dos Bichos: o livro que 4 editores recusaram"
-    ],
-    "clipador": [
-      "Marca-Página: A Revolução dos Bichos: o livro que 4 editores recusaram"
-    ]
-  },
+  "atualizado_em": "2026-10-30T00:41:05Z",
+  "ativos": {},
   "proximos": [
     {
       "canal": "historia",
@@ -50,10 +37,10 @@
       "dia": "2026-11-04",
       "rotulo": "quarta 04/11 19h00",
       "publicar_em_utc": "2026-11-04T22:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "A Revolução dos Bichos: o livro que 4 editores recusaram",
-      "url": ""
+      "url": "https://youtu.be/kPpyQ3MbDug"
     }
   ],
   "publicados": [
@@ -122,8 +109,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 58,
+    "neurons": 9670,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

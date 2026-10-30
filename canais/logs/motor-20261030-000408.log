@@ -1,0 +1,200 @@
+00:04:09 INFO ilustrações: higgsfield desligado (sem chave)
+00:04:41 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 1/9
+00:04:42 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+00:04:42 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+00:04:43 INFO Processing audio with duration 00:39.687
+[0;93m2026-10-30 00:04:43.548900746 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+00:04:43 INFO VAD filter removed 00:00.048 of audio
+00:04:51 INFO Processing audio with duration 00:39.687
+00:04:51 INFO VAD filter removed 00:00.048 of audio
+00:05:41 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 2/9
+00:05:42 INFO Processing audio with duration 01:27.567
+00:05:42 INFO VAD filter removed 00:00.048 of audio
+00:05:59 INFO Processing audio with duration 01:27.567
+00:05:59 INFO VAD filter removed 00:00.048 of audio
+00:09:59 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 3/9
+00:09:59 INFO Processing audio with duration 02:54.727
+00:09:59 INFO VAD filter removed 00:00.000 of audio
+00:10:35 INFO Processing audio with duration 02:54.727
+00:10:36 INFO VAD filter removed 00:00.000 of audio
+00:11:51 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 4/9
+00:11:51 INFO Processing audio with duration 01:12.607
+00:11:51 INFO VAD filter removed 00:00.000 of audio
+00:12:04 INFO Processing audio with duration 01:12.607
+00:12:04 INFO VAD filter removed 00:00.000 of audio
+00:13:02 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 5/9
+00:13:02 INFO Processing audio with duration 01:33.647
+00:13:02 INFO VAD filter removed 00:00.000 of audio
+00:13:20 INFO Processing audio with duration 01:33.647
+00:13:20 INFO VAD filter removed 00:00.000 of audio
+00:14:19 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 6/9
+00:14:19 INFO Processing audio with duration 01:15.807
+00:14:19 INFO VAD filter removed 00:00.000 of audio
+00:14:34 INFO Processing audio with duration 01:15.807
+00:14:34 INFO VAD filter removed 00:00.000 of audio
+00:15:31 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 7/9
+00:15:31 INFO Processing audio with duration 01:27.247
+00:15:31 INFO VAD filter removed 00:00.000 of audio
+00:15:49 INFO Processing audio with duration 01:27.247
+00:15:49 INFO VAD filter removed 00:00.000 of audio
+00:16:47 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 8/9
+00:16:47 INFO Processing audio with duration 01:22.207
+00:16:48 INFO VAD filter removed 00:00.272 of audio
+00:17:03 INFO Processing audio with duration 01:22.207
+00:17:03 INFO VAD filter removed 00:00.272 of audio
+00:18:00 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 9/9
+00:18:00 INFO Processing audio with duration 01:21.647
+00:18:00 INFO VAD filter removed 00:00.000 of audio
+00:18:16 INFO Processing audio with duration 01:21.647
+00:18:16 INFO VAD filter removed 00:00.000 of audio
+00:18:32 INFO gerando 58 ilustrações…
+00:18:39 WARNING Flux klein falhou (3030: Your output has been flagged. Please choose another prompt / input image combination) — usando o próximo modelo
+00:22:38 INFO ilustrações prontas: 58 geradas (58 pedidas)
+00:22:39 INFO Processing audio with duration 00:39.688
+00:22:39 INFO VAD filter removed 00:00.112 of audio
+00:22:47 INFO bloco 1: 39.7s, 126 palavras reconhecidas
+00:22:51 INFO cena 1 pronta (5.9s, total 6s)
+00:22:55 INFO cena 2 pronta (7.4s, total 13s)
+00:22:58 INFO cena 3 pronta (4.8s, total 18s)
+00:23:02 INFO cena 4 pronta (6.2s, total 24s)
+00:23:06 INFO cena 5 pronta (6.6s, total 31s)
+00:23:20 INFO cena 6 pronta (8.8s, total 40s)
+00:23:21 INFO Processing audio with duration 01:27.568
+00:23:21 INFO VAD filter removed 00:00.048 of audio
+00:23:40 INFO bloco 2: 87.6s, 247 palavras reconhecidas
+00:23:45 INFO cena 7 pronta (9.8s, total 50s)
+00:23:52 INFO cena 8 pronta (12.5s, total 62s)
+00:23:59 INFO cena 9 pronta (15.3s, total 77s)
+00:24:26 WARNING nenhuma imagem livre para 'George Orwell 1943 portrait photograph BBC' — usando cartão
+00:24:47 WARNING nenhuma imagem livre para 'George Orwell 1943 BBC' — usando cartão
+00:24:53 INFO imagem 'George Orwell 1943' ← wikimedia
+00:24:53 INFO imagem para 'George Orwell 1943 portrait photograph BBC' achada buscando 'George Orwell 1943'
+00:24:58 INFO cena 10 pronta (5.3s, total 83s)
+00:25:28 WARNING nenhuma imagem livre para 'Animal Farm first edition 1945 Secker Warburg dust jacket' — usando cartão
+00:25:31 INFO imagem 'Animal Farm first edition' ← wikimedia
+00:25:31 INFO imagem para 'Animal Farm first edition 1945 Secker Warburg dust jacket' achada buscando 'Animal Farm first edition'
+00:25:41 INFO cena 11 pronta (11.8s, total 94s)
+00:25:46 INFO cena 12 pronta (8.7s, total 103s)
+00:25:51 INFO cena 13 pronta (11.7s, total 115s)
+00:25:57 INFO cena 14 pronta (12.5s, total 127s)
+00:26:00 INFO Processing audio with duration 02:54.728
+00:26:00 INFO VAD filter removed 00:00.048 of audio
+00:26:38 INFO bloco 3: 174.7s, 494 palavras reconhecidas
+00:26:47 INFO cena 15 pronta (17.5s, total 145s)
+00:26:52 INFO cena 16 pronta (8.7s, total 153s)
+00:26:58 INFO cena 17 pronta (12.9s, total 166s)
+00:27:03 INFO cena 18 pronta (9.3s, total 176s)
+00:27:41 INFO cena 19 pronta (94.9s, total 271s)
+00:27:47 INFO cena 20 pronta (10.1s, total 281s)
+00:27:51 INFO cena 21 pronta (6.5s, total 287s)
+00:27:54 INFO cena 22 pronta (6.7s, total 294s)
+00:27:58 INFO cena 23 pronta (8.1s, total 302s)
+00:28:00 INFO Processing audio with duration 01:12.608
+00:28:00 INFO VAD filter removed 00:00.016 of audio
+00:28:14 INFO bloco 4: 72.6s, 208 palavras reconhecidas
+00:28:15 INFO imagem 'Russian Revolution 1917 Petrograd crowd photograph' ← wikimedia
+00:28:28 INFO cena 24 pronta (15.4s, total 317s)
+00:28:32 INFO cena 25 pronta (7.0s, total 324s)
+00:28:35 INFO cena 26 pronta (6.2s, total 331s)
+00:28:42 INFO cena 27 pronta (12.0s, total 343s)
+00:28:47 INFO cena 28 pronta (10.8s, total 353s)
+00:28:51 INFO cena 29 pronta (8.1s, total 361s)
+00:28:57 INFO cena 30 pronta (13.2s, total 375s)
+00:28:59 INFO Processing audio with duration 01:33.648
+00:28:59 INFO VAD filter removed 00:00.000 of audio
+00:29:16 INFO bloco 5: 93.6s, 248 palavras reconhecidas
+00:29:23 INFO cena 31 pronta (13.6s, total 388s)
+00:29:26 INFO imagem 'Tehran Conference 1943 Churchill Roosevelt Stalin photograph' ← wikimedia
+00:29:37 INFO cena 32 pronta (12.3s, total 401s)
+00:29:40 INFO cena 33 pronta (7.5s, total 408s)
+00:29:46 INFO cena 34 pronta (9.4s, total 417s)
+00:29:49 INFO cena 35 pronta (6.4s, total 424s)
+00:29:51 INFO imagem 'T. S. Eliot 1923 portrait photograph' ← wikimedia
+00:30:04 INFO cena 36 pronta (17.3s, total 441s)
+00:30:07 INFO cena 37 pronta (5.2s, total 446s)
+00:30:26 WARNING nenhuma imagem livre para 'London 1944 wartime bombed street photograph' — usando cartão
+00:30:39 WARNING nenhuma imagem livre para 'London 1944 wartime bombed' — usando cartão
+00:30:40 INFO imagem 'London 1944 wartime' ← wikimedia
+00:30:40 INFO imagem para 'London 1944 wartime bombed street photograph' achada buscando 'London 1944 wartime'
+00:30:47 INFO cena 38 pronta (8.7s, total 455s)
+00:31:04 INFO cena 39 pronta (13.2s, total 468s)
+00:31:05 INFO Processing audio with duration 01:15.808
+00:31:05 INFO VAD filter removed 00:00.000 of audio
+00:31:19 INFO bloco 6: 75.8s, 201 palavras reconhecidas
+00:31:23 INFO cena 40 pronta (7.8s, total 476s)
+00:31:28 INFO cena 41 pronta (8.2s, total 484s)
+00:31:33 INFO cena 42 pronta (11.7s, total 496s)
+00:31:49 WARNING nenhuma imagem livre para 'London newsstand 1945 photograph' — usando cartão
+00:32:01 WARNING nenhuma imagem livre para 'London newsstand 1945' — usando cartão
+00:32:03 INFO imagem 'London newsstand' ← wikimedia
+00:32:03 INFO imagem para 'London newsstand 1945 photograph' achada buscando 'London newsstand'
+00:32:11 INFO cena 43 pronta (8.5s, total 504s)
+00:32:17 INFO cena 44 pronta (11.7s, total 516s)
+00:32:22 INFO cena 45 pronta (8.4s, total 525s)
+00:32:25 INFO cena 46 pronta (5.7s, total 530s)
+00:32:31 INFO cena 47 pronta (13.8s, total 544s)
+00:32:32 INFO Processing audio with duration 01:27.248
+00:32:33 INFO VAD filter removed 00:00.000 of audio
+00:32:49 INFO bloco 7: 87.2s, 262 palavras reconhecidas
+00:32:56 INFO cena 48 pronta (15.1s, total 559s)
+00:33:00 INFO cena 49 pronta (10.1s, total 569s)
+00:33:05 INFO cena 50 pronta (8.7s, total 578s)
+00:33:11 INFO cena 51 pronta (13.6s, total 591s)
+00:33:18 INFO cena 52 pronta (15.7s, total 607s)
+00:33:20 INFO cena 53 pronta (4.5s, total 612s)
+00:33:27 INFO cena 54 pronta (11.9s, total 624s)
+00:33:32 INFO cena 55 pronta (7.7s, total 631s)
+00:33:33 INFO Processing audio with duration 01:22.208
+00:33:33 INFO VAD filter removed 00:00.304 of audio
+00:33:48 INFO bloco 8: 82.2s, 213 palavras reconhecidas
+00:33:50 INFO imagem 'displaced persons camp Germany 1947 photograph' ← wikimedia
+00:34:00 INFO cena 56 pronta (13.1s, total 644s)
+00:34:07 INFO cena 57 pronta (13.6s, total 658s)
+00:34:19 WARNING nenhuma imagem livre para 'Cold War propaganda leaflet balloons Radio Free Europe' — usando cartão
+00:34:21 INFO imagem 'Cold War propaganda leaflet' ← wikimedia
+00:34:21 INFO imagem para 'Cold War propaganda leaflet balloons Radio Free Europe' achada buscando 'Cold War propaganda leaflet'
+00:34:31 INFO cena 58 pronta (12.3s, total 670s)
+00:34:34 INFO cena 59 pronta (5.3s, total 676s)
+00:34:36 INFO imagem 'Rio de Janeiro 1964 photograph street' ← wikimedia
+00:34:41 INFO cena 60 pronta (6.0s, total 682s)
+00:34:47 INFO cena 61 pronta (11.4s, total 693s)
+00:34:51 INFO cena 62 pronta (7.2s, total 700s)
+00:34:54 INFO cena 63 pronta (5.4s, total 705s)
+00:34:58 INFO cena 64 pronta (8.0s, total 713s)
+00:34:59 INFO Processing audio with duration 01:21.648
+00:34:59 INFO VAD filter removed 00:00.000 of audio
+00:35:15 INFO bloco 9: 81.6s, 234 palavras reconhecidas
+00:35:19 INFO cena 65 pronta (7.7s, total 721s)
+00:35:24 INFO cena 66 pronta (9.1s, total 730s)
+00:35:34 WARNING nenhuma imagem livre para 'London civilians wartime 1940s street photograph' — usando cartão
+00:35:35 INFO imagem 'London civilians wartime 1940s' ← wikimedia
+00:35:35 INFO imagem para 'London civilians wartime 1940s street photograph' achada buscando 'London civilians wartime 1940s'
+00:35:44 INFO cena 67 pronta (10.4s, total 741s)
+00:35:48 INFO cena 68 pronta (8.3s, total 749s)
+00:35:52 INFO cena 69 pronta (6.9s, total 756s)
+00:35:56 INFO cena 70 pronta (7.9s, total 764s)
+00:35:59 INFO cena 71 pronta (5.3s, total 769s)
+00:36:04 INFO cena 72 pronta (8.4s, total 777s)
+00:36:06 INFO cena 73 pronta (3.9s, total 781s)
+00:36:23 INFO cena 74 pronta (13.8s, total 795s)
+00:36:24 INFO sem trilha em musica/calmo — vídeo sai só com narração
+00:36:27 INFO upload 10%
+00:36:27 INFO upload 21%
+00:36:27 INFO upload 32%
+00:36:28 INFO upload 43%
+00:36:28 INFO upload 54%
+00:36:29 INFO upload 65%
+00:36:29 INFO upload 76%
+00:36:30 INFO upload 87%
+00:36:30 INFO upload 98%
+00:36:31 INFO vídeo enviado: https://youtu.be/kPpyQ3MbDug (agendado para 2026-11-04T22:00:00Z)
+00:36:34 INFO na playlist 'Clássicos e vestibular'
+00:36:34 WARNING Encountered 403 Forbidden with reason "forbidden"
+00:36:34 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+00:37:36 INFO corte 1 pronto (24s)
+00:39:35 INFO corte 2 pronto (49s)
+00:40:38 INFO corte 3 pronto (26s)
+00:40:40 INFO Short agendado: https://youtube.com/shorts/ENHLGMAsa4I (2026-11-05T15:00:00Z)
+00:40:49 INFO Short agendado: https://youtube.com/shorts/GQ82_5junNw (2026-11-06T15:00:00Z)
+00:40:54 INFO Short agendado: https://youtube.com/shorts/gF21NBfFhkk (2026-11-07T15:00:00Z)
+00:40:56 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/saida/video.mp4 (13.3 min) → https://youtu.be/kPpyQ3MbDug
