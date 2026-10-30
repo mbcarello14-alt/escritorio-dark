@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 4],
+      "gancho": "A regra mudou. E ninguém viu?",
+      "titulo": "A parede que muda sozinha: o truque mais sujo de Orwell",
+      "descricao": "Uma regra pintada na parede ganha uma palavrinha a mais, e alguém jura que sempre foi assim. É o motor de A Revolução dos Bichos. A resenha completa, com crítica, está no canal.",
+      "hashtags": ["#orwell", "#livros", "#revolucaodosbichos"],
+      "legenda_reels": "A regra na parede mudou e ninguém percebeu. Esse é o motor de A Revolução dos Bichos, de George Orwell. Segue o perfil para resenhas que dizem o que o livro acerta e onde erra. #livros #orwell #booktok #resenha"
+    },
+    {
+      "de": [5, 1], "ate": [5, 5],
+      "gancho": "Um livro de porcos quase não existiu",
+      "titulo": "Por que 4 editores recusaram A Revolução dos Bichos",
+      "descricao": "Em plena guerra, ridicularizar Stálin era um problema diplomático. Veja por que o livro de Orwell foi recusado. A história completa, com a carta de T. S. Eliot, está no canal.",
+      "hashtags": ["#orwell", "#livros", "#historiadoslivros"],
+      "legenda_reels": "Quatro editoras recusaram A Revolução dos Bichos, e uma delas ouviu conselho de um agente soviético. Segue o perfil para mais bastidores de livros famosos. #livros #orwell #literatura #booktok"
+    },
+    {
+      "de": [9, 3], "ate": [9, 5],
+      "gancho": "Censura sem censor: bastou o medo",
+      "titulo": "O prefácio que Orwell escondeu: censura sem ninguém mandar",
+      "descricao": "Orwell escreveu que o maior perigo para a liberdade era todo mundo saber, sem ordem, o que não se devia dizer. O vídeo completo está no canal.",
+      "hashtags": ["#orwell", "#liberdadedeimprensa", "#livros"],
+      "legenda_reels": "Quase ninguém precisou censurar. Bastou o medo. Era isso que Orwell dizia no prefácio que sumiu de A Revolução dos Bichos. Segue o perfil para mais livros que valem o seu tempo. #orwell #livros #literatura #booktok"
+    }
+  ]
+}

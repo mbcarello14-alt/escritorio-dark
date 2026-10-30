@@ -1,8 +1,17 @@
 {
-  "atualizado_em": "2026-10-29T23:57:40Z",
+  "atualizado_em": "2026-10-30T00:03:20Z",
   "ativos": {
-    "miguel": [
-      "Marca-Página: A Revolução dos Bichos: o livro que quatro editoras recusaram"
+    "narrador": [
+      "Marca-Página: A Revolução dos Bichos: o livro que 4 editores recusaram"
+    ],
+    "ilustrador": [
+      "Marca-Página: A Revolução dos Bichos: o livro que 4 editores recusaram"
+    ],
+    "editor": [
+      "Marca-Página: A Revolução dos Bichos: o livro que 4 editores recusaram"
+    ],
+    "clipador": [
+      "Marca-Página: A Revolução dos Bichos: o livro que 4 editores recusaram"
     ]
   },
   "proximos": [
@@ -41,9 +50,9 @@
       "dia": "2026-11-04",
       "rotulo": "quarta 04/11 19h00",
       "publicar_em_utc": "2026-11-04T22:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "A Revolução dos Bichos: o livro que quatro editoras recusaram",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "A Revolução dos Bichos: o livro que 4 editores recusaram",
       "url": ""
     }
   ],
