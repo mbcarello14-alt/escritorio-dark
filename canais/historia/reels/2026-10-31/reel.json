@@ -1,0 +1,77 @@
+{
+  "canal": "historia",
+  "titulo": "A flor que custava mais que uma mansão",
+  "descricao": "Na Holanda de 1637, um único bulbo de tulipa rara chegou a 10 mil florins, o preço de uma casa de luxo em Amsterdã, até o leilão de Haarlem não achar comprador.",
+  "hashtags": ["#historia", "#economia", "#curiosidades"],
+  "legenda_reels": "Holanda, 1637: uma cebola de tulipa custou o preço de uma mansão em Amsterdã. Até que ninguém quis comprar. Você pagaria isso por uma flor? Comenta TULIPA #historia #economia #bolha",
+  "isca": "Comenta TULIPA",
+  "cenario": {"ceu": "#f7b267", "chao": "#8fbf6a", "cidade": true, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "bulbo", "tipo": "esfera", "tam": 1.6, "cor": "#d62839", "pos": [-1.3, 1.2, 0], "oculto": true},
+    {"id": "mansao", "tipo": "casa", "cor": "#c97b4a", "telhado": "#7a2e1f", "pos": [1.8, 0, -1.5], "escala": 1.6, "oculto": true},
+    {"id": "preco", "tipo": "numero", "valor": 0, "sufixo": " florins", "casas": 0, "cor": "#ffe27a", "tam": 1.3, "pos": [0, 0.65], "oculto": true},
+    {"id": "artesao", "tipo": "boneco", "cor": "#4a7fc1", "pele": "#e8b98f", "cabelo": "#4a2c17", "calca": "#444444", "pos": [0.3, 0, 1.5], "oculto": true, "fala": true},
+    {"id": "rico", "tipo": "boneco", "cor": "#222222", "pele": "#e8b98f", "cabelo": "#111111", "calca": "#222222", "chapeu": "cartola", "pos": [-2, 0, -1.5], "oculto": true},
+    {"id": "aviso", "tipo": "texto", "texto": "SEM COMPRADOR", "cor": "#ffffff", "fundo": "#c0392b", "tam": 1.1, "pos": [0, 0.8], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Em mil seiscentos e trinta e sete, uma única cebola de tulipa custou o preço de uma mansão em Amsterdã.",
+      "acoes": [
+        {"t": 0.1, "alvo": "bulbo", "acao": "aparecer", "som": "pop"},
+        {"t": 1.2, "alvo": "mansao", "acao": "aparecer", "som": "pop"},
+        {"t": 2.8, "alvo": "bulbo", "acao": "escalar", "para": 1.6, "som": "whoosh"},
+        {"t": 4.0, "alvo": "bulbo", "acao": "pular", "altura": 0.6}
+      ]
+    },
+    {
+      "texto": "Dizem que a rara Semper Augustus chegou a dez mil florins. Um artesão ganhava uns trezentos por ano.",
+      "acoes": [
+        {"t": 0.2, "alvo": "preco", "acao": "aparecer", "som": "ding"},
+        {"t": 0.5, "alvo": "preco", "acao": "contar", "para": 10000, "dur": 2},
+        {"t": 2.6, "alvo": "artesao", "acao": "aparecer", "som": "pop"},
+        {"t": 3.2, "alvo": "preco", "acao": "contar", "para": 300, "dur": 1.2},
+        {"t": 4.0, "alvo": "artesao", "acao": "escalar", "para": 0.7}
+      ]
+    },
+    {
+      "texto": "Todo mundo comprava só para revender mais caro, muitas vezes sem nem receber a flor.",
+      "acoes": [
+        {"t": 0.0, "alvo": "preco", "acao": "sumir"},
+        {"t": 0.3, "alvo": "rico", "acao": "aparecer", "som": "pop"},
+        {"t": 1.2, "alvo": "rico", "acao": "pular", "altura": 0.6, "som": "caixa"},
+        {"t": 2.5, "alvo": "bulbo", "acao": "mover", "para": [-0.4, 1.2, 0], "som": "whoosh"},
+        {"t": 3.5, "alvo": "rico", "acao": "acenar"}
+      ]
+    },
+    {
+      "texto": "Até que, em três de fevereiro, um leilão em Haarlem não achou um único comprador.",
+      "acoes": [
+        {"t": 0.3, "alvo": "aviso", "acao": "aparecer", "som": "ding"},
+        {"t": 2.5, "alvo": "bulbo", "acao": "cor", "cor": "#555555"},
+        {"t": 3.2, "alvo": "aviso", "acao": "tremer", "forca": 0.4},
+        {"t": 3.2, "acao": "tremer", "forca": 0.4, "som": "boom"}
+      ]
+    },
+    {
+      "texto": "Os preços despencaram. Os historiadores debatem o tamanho do estrago, mas a bolha virou lenda.",
+      "acoes": [
+        {"t": 0.0, "alvo": "aviso", "acao": "sumir"},
+        {"t": 0.4, "alvo": "bulbo", "acao": "explodir", "som": "boom"},
+        {"t": 1.5, "alvo": "rico", "acao": "olhar", "para": 180},
+        {"t": 2.5, "alvo": "mansao", "acao": "pular", "altura": 0.5},
+        {"t": 3.5, "acao": "camera", "pos": [0, 6, 13], "olha": [0, 3.5, 0]}
+      ]
+    },
+    {
+      "texto": "Você pagaria isso por uma flor? Comenta TULIPA.",
+      "acoes": [
+        {"t": 0.0, "alvo": "artesao", "acao": "escalar", "para": 1, "som": "pop"},
+        {"t": 0.6, "alvo": "artesao", "acao": "pular", "altura": 1},
+        {"t": 1.4, "alvo": "artesao", "acao": "girar", "voltas": 1},
+        {"t": 2.0, "alvo": "rico", "acao": "pular", "altura": 0.6}
+      ]
+    }
+  ]
+}

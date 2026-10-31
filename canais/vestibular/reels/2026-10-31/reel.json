@@ -1,0 +1,55 @@
+{
+  "canal": "vestibular",
+  "titulo": "kWh NÃO é potência: a pegadinha da conta de luz no ENEM",
+  "descricao": "Física que cai no ENEM: quilowatt-hora mede energia, não potência. Grava: energia = potência x tempo. Chuveiro de 5 kW por 1 hora gasta 5 kWh.",
+  "hashtags": ["#enem", "#fisica", "#kwh"],
+  "legenda_reels": "kWh NÃO mede potência, mede ENERGIA. Energia = potência x tempo. Chuveiro de 5 kW por 1 h = 5 kWh. Pegadinha clássica do ENEM! Comenta KWH #enem #fisica #vestibular",
+  "isca": "Comenta KWH",
+  "cenario": {"ceu": "#bfe3f7", "chao": "#86c06c", "cidade": false, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "lousa", "tipo": "lousa", "pos": [0, 0, -3]},
+    {"id": "prof", "tipo": "boneco", "pos": [-2.3, 0, 1], "cor": "#4a7fd4", "fala": true},
+    {"id": "kwh", "tipo": "texto", "texto": "kWh ≠ POTÊNCIA", "cor": "#ffffff", "fundo": "#e0527a", "tam": 1.1, "pos": [0, 0.75], "oculto": true},
+    {"id": "barra_p", "tipo": "barra", "pos": [0.6, 0, 0.5], "altura": 0.2, "largura": 0.7, "cor": "#4a7fd4", "oculto": true},
+    {"id": "barra_e", "tipo": "barra", "pos": [1.9, 0, 0.5], "altura": 0.2, "largura": 0.7, "cor": "#f2a33a", "oculto": true},
+    {"id": "formula", "tipo": "texto", "texto": "ENERGIA = POTÊNCIA x TEMPO", "cor": "#ffffff", "fundo": "#7a5cc9", "tam": 0.8, "pos": [0, 0.62], "oculto": true},
+    {"id": "valor", "tipo": "numero", "valor": 0, "sufixo": " kWh", "casas": 1, "cor": "#f2a33a", "tam": 1.5, "pos": [0, 0.75], "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Quilowatt-hora não mede potência. Esse erro derruba muita gente no ENEM.",
+     "acoes": [
+       {"t": 0.1, "alvo": "kwh", "acao": "aparecer", "som": "pop"},
+       {"t": 1.0, "alvo": "kwh", "acao": "girar", "voltas": 1},
+       {"t": 2.5, "alvo": "prof", "acao": "pular", "altura": 0.8}
+     ]},
+    {"texto": "A pegadinha é: watt mostra a força do aparelho. Quilowatt-hora mostra quanta energia ele gastou.",
+     "acoes": [
+       {"t": 0.2, "alvo": "prof", "acao": "acenar"},
+       {"t": 0.6, "alvo": "kwh", "acao": "sumir"},
+       {"t": 1.0, "alvo": "barra_p", "acao": "aparecer", "som": "pop"},
+       {"t": 1.2, "alvo": "barra_p", "acao": "crescer", "para": 5, "dur": 1.0, "som": "whoosh"},
+       {"t": 3.8, "alvo": "barra_e", "acao": "aparecer", "som": "pop"}
+     ]},
+    {"texto": "Grava assim: energia é potência vezes tempo.",
+     "acoes": [
+       {"t": 0.3, "alvo": "formula", "acao": "aparecer", "som": "ding"},
+       {"t": 1.5, "alvo": "formula", "acao": "escalar", "para": 1.2}
+     ]},
+    {"texto": "Chuveiro de cinco quilowatts ligado uma hora gasta cinco quilowatts-hora. Meia hora, dois e meio.",
+     "acoes": [
+       {"t": 0.1, "alvo": "formula", "acao": "sumir"},
+       {"t": 0.3, "alvo": "valor", "acao": "aparecer", "som": "pop"},
+       {"t": 0.5, "alvo": "valor", "acao": "contar", "para": 5, "dur": 1.5},
+       {"t": 0.5, "alvo": "barra_e", "acao": "crescer", "para": 5, "dur": 1.5, "som": "whoosh"},
+       {"t": 3.2, "alvo": "barra_e", "acao": "crescer", "para": 2.5, "dur": 0.8},
+       {"t": 3.2, "alvo": "valor", "acao": "contar", "para": 2.5, "dur": 0.8, "som": "boom"},
+       {"t": 3.2, "alvo": "", "acao": "tremer", "forca": 0.35}
+     ]},
+    {"texto": "Isso cai muito. Qual conta você quer ver a seguir? Comenta KWH.",
+     "acoes": [
+       {"t": 0.3, "alvo": "prof", "acao": "acenar"},
+       {"t": 1.8, "alvo": "prof", "acao": "pular", "altura": 0.8, "som": "pop"}
+     ]}
+  ]
+}
