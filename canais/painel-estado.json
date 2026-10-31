@@ -1,17 +1,7 @@
 {
-  "atualizado_em": "2026-10-31T11:28:30Z",
+  "atualizado_em": "2026-10-31T14:10:21Z",
   "ativos": {},
   "proximos": [
-    {
-      "canal": "livros",
-      "dia": "2026-10-31",
-      "rotulo": "sábado 31/10 11h00",
-      "publicar_em_utc": "2026-10-31T14:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Brás Cubas vale ler hoje? Resumo e crítica honesta",
-      "url": "https://youtu.be/0iS8C3pzNYY"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-03",
@@ -83,6 +73,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Templários: o rei sem dinheiro e o banco que ele quebrou",
       "url": "https://youtu.be/uj-4EEC4yiQ"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-10-31",
+      "rotulo": "sábado 31/10 11h00",
+      "publicar_em_utc": "2026-10-31T14:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Brás Cubas vale ler hoje? Resumo e crítica honesta",
+      "url": "https://youtu.be/0iS8C3pzNYY"
     }
   ],
   "canais": [
@@ -105,7 +105,7 @@
       "nome": "Marca-Página",
       "inscritos": 5,
       "horas": 0.1,
-      "publicados": 1
+      "publicados": 2
     }
   ],
   "imagens": {
