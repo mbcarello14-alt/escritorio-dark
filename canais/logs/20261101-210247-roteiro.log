@@ -1,0 +1,201 @@
+comando: /roteiro canais/vestibular/videos/2026-11-10
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-10 && ls && cat estado.json && cat 01-pauta.md | head -60 && cat pautas.json | head -80"}
+💬 Pauta 2: conta de luz (Física). A `nota_miguel` está vazia. Vou começar pelo dossiê.
+🔧 Agent {"description": "Dossiê conta de luz", "subagent_type": "pesquisador-vestibular", "prompt": "Etapa 2: monte o dossiê da pauta escolhida (ideia 2, \"Conta de luz no ENEM: a questão que sempre cai\") em
+💬 O dossiê está sendo montado. Aguardo a conclusão antes de seguir para o roteiro.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=19752", "prompt": "Transcreva o enunciado completo da questão (alternativas, gabarito, resolução, ano, caderno/número), e os dados numéricos."}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=39786", "prompt": "Transcreva o enunciado completo da questão (alternativas, gabarito, resolução, ano, caderno/número), e os dados numéricos."}
+🔧 WebFetch {"url": "https://aprovatotal.com.br/eletrodinamica-enem/", "prompt": "Qual é o percentual de eletrodinâmica nas questões de Física do ENEM, qual o período e metodologia? Cite os trechos relevantes par
+🔧 WebSearch {"query": "ENEM 2021 PPL questão 111 kWh consumo mensal aparelho 30 minutos por dia gabarito", "mode": "standard"}
+🔧 WebSearch {"query": "ENEM 2017 questão 95 chuveiro elétrico banho economia de energia gabarito caderno azul", "mode": "standard"}
+🔧 WebFetch {"url": "https://projetoagathaedu.com.br/questoes-enem/fisica/por-ano/2021-2.php", "prompt": "Ache a questão sobre ferro elétrico/consumo mensal em kWh 30 minutos por dia. Dê enunciado completo (potên
+🔧 WebSearch {"query": "Enem 2017 \"6 000 W\" \"3 600 W\" crise hídrica estudante convence a mãe banho chave posição verão 15 para 5 minutos", "mode": "standard"}
+🔧 WebSearch {"query": "download.inep.gov.br enem provas 2021 PPL caderno azul segundo dia pdf", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos", "prompt": "Há links para provas e gabaritos de 2017 (incluindo Libras) e 2021 PPL? Lis
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/blog/enem-2021-ppl/", "prompt": "Esta página lista a questão 111 (caderno azul, dia 2)? Qual o gabarito e o assunto? Há dados do ferro elétrico (potência)?"}
+🔧 WebSearch {"query": "ENEM 2021 PPL ferro elétrico \"750 W\" consumo mensal 30 minutos por dia 30 dias kWh", "mode": "standard"}
+🔧 WebSearch {"query": "eletrodinâmica porcentagem de questões de Física no ENEM levantamento incidência potência elétrica consumo de energia", "mode": "standard"}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2017-segunda-aplicacao/segundo-dia/especificacoes-de-um-chuveiro-eletrico-sao-potencia-de-4000-w-consumo-maximo-mensal-de-216-kwh/", "prompt"
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2017/segundo-dia/no-manual-fornecido-pelo-fabricante-de-uma-ducha-eletrica-de-220v-e-apresentado-um-grafico/", "prompt": "Enunciado completo,
+🔧 WebSearch {"query": "ANEEL bandeiras tarifárias novembro 2026 bandeira em vigor valor por 100 kWh", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/agents/pesquisador-vestibular.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/02-dossie.md", "content": "# Dossiê — \"Conta de luz no ENEM: a questão que sempre cai\" (Física, i
+💬 O dossiê está pronto, mas as fontes oficiais do Inep não abriram aqui. Os enunciados e gabaritos vêm de resoluções da Plataforma Assaad e do Descomplica, que estão marcadas como confiança média. A página de provas do Inep carrega as abas por script e voltou vazia, e não achei o PDF direto.
+
+Pontos para o `checador` e o roteirista:
+
+- **"ENEM 2017 q.95" não é da prova regular.** A única página que a traz a identifica como caderno verde, aplicação Libras, 2º dia. No roteiro, cite "ENEM 2017, aplicação Libras", ou use outra questão. O gabarito C (1,2 kWh) confere com meu cálculo: 6 kW × 0,25 h − 
+🔧 Agent {"description": "Roteiro conta de luz", "subagent_type": "roteirista-vestibular", "prompt": "Escreva o roteiro do vídeo em /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/20
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/01-pauta.md"}
+💬 O dossiê está pronto e o roteirista está escrevendo o roteiro. Quando ele terminar, sigo para a checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "content": "# Roteiro — Mapeado, terça 10/11/2026, 17h (Física)\n\n**Título provisó
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Conta de luz no ENEM: o mapa do quilowatt-
+💬 Escrevi o roteiro do vídeo de Física (ideia 2, conta de luz) nos dois arquivos. A contagem de palavras foi feita à mão, sem ferramenta, e eu não rodei nenhum validador de JSON.
+
+**Números:** 9 blocos, cerca de 1.640 palavras, cerca de 11 minutos. O bloco 1 tem 118 palavras e os outros ficam entre 154 e 224.
+
+**Tese (provisória, porque a `nota_miguel` está vazia):** a questão de conta de luz no ENEM não testa fórmula difícil, testa unidade. Quem divide por mil e por sessenta antes de multiplicar acerta.
+
+**Estrutura:**
+- **Gancho:** o banho de inverno de 15 minutos gasta 5 vezes mais energia qu
+🔧 Agent {"description": "Checagem do roteiro", "subagent_type": "checador", "prompt": "Cheque o roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/ (03-roteiro.md
+💬 O roteiro está com o checador. Quando ele terminar, sigo para a originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json"}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=19752", "prompt": "Transcreva o enunciado completo da questão (ferro elétrico, potência em W, tempo de uso), as alternativas A-E, o gabarito, e identifique 
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=39786", "prompt": "Transcreva o enunciado completo da questão do banho (chuveiro 6000 W/3600 W, 15 e 5 min), alternativas, gabarito, e identifique prova, ap
+🔧 WebSearch {"query": "ENEM 2021 PPL questão 111 ferro de passar potência 750 W 30 minutos por dia 30 dias consumo mensal kWh", "mode": "standard"}
+🔧 WebSearch {"query": "ENEM 2017 Libras chuveiro posição inverno verão 6000 W 3600 W banho 15 minutos 5 minutos economia kWh questão 95", "mode": "standard"}
+🔧 WebFetch {"url": "https://projetoagathaedu.com.br/questoes-enem/resolucao-fisica/por-ano/2021-2.php", "prompt": "Localize a questão do ferro elétrico (30 min por dia, 30 dias). Qual a potência do ferro (W) usa
+🔧 WebFetch {"url": "https://descomplica.com.br/blog/questoes-que-valem-gabarite-potencia-e-consumo-no-enem-2/", "prompt": "Há questão de ferro elétrico ENEM 2021 PPL? Qual potência em W (750?), gabarito?"}
+🔧 WebSearch {"query": "Enem PPL 2021 ferro elétrico \"750 W\" 30 minutos por dia consumo mensal 11,3 kWh resolução", "mode": "extended"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/04-checagem.md", "content": "# Checagem — Mapeado, 10/11/2026 (Física: conta de luz)\n\n## Veredito
+💬 **Veredito: CORRIGIR.** As contas e as unidades do roteiro estão certas, e as duas questões existem e batem com o que o roteiro diz. Os problemas são só de redação. Escrevi o resultado em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/04-checagem.md`.
+
+**Limite da checagem.** Não consegui abrir o caderno do Inep. A conferência das duas questões usa só fontes secundárias, que concordam entre si.
+
+**Cálculos.** Refiz todos e nenhum tem erro:
+- 11,25 kWh do ferro.
+- 1,5 kWh e 0,3 kWh do banho, com economia de 1,2 kWh.
+- O erro de 0,6 kWh, que não está nas a
+🔧 SendMessage {"to": "aa6eb401d7d88bd73", "summary": "Aplicar correções do checador", "message": "O checador devolveu CORRIGIR. Leia 04-checagem.md na pasta do vídeo e aplique todas as 8 correções em 03-roteiro.md 
+💬 Mandei as correções do checador de volta ao roteirista. Quando ele terminar, sigo para a originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/04-checagem.md"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "E essa conta, do chuveiro, do ferro de passar,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "E essa conta, do chuveiro, do ferro de passar, 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "A banca adora montar a questão em cima dessa m
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "A banca adora montar a questão em cima dessa mu
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "numa tomada de duzentos e vinte volts puxa uns
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "numa tomada de duzentos e vinte volts puxa uns 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "ela vai querer a energia em joules.", "new_str
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "ela vai querer a energia em joules.", "new_stri
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "agora vem o ramo que mais derruba gente.", "ne
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "agora vem o ramo que mais derruba gente.", "new
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "Questão de conta de luz no ENEM raramente é de
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "Questão de conta de luz no ENEM raramente é de 
+💬 Agora atualizo a tese, os metadados, o cabeçalho, as notas e a lista de mudanças.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "  \"tese\": \"A questão de conta de luz no ENEM
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "  \"resumo_checagem\": \"Provisório: aguardando
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "**Tese:** A questão de conta de luz no ENEM nã
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 1 — Gancho (118 palavras)", "new_str
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 2 — O que a conta cobra (162 palavra
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 3 — Primeiro ramo: potência (187 pal
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 9 — Tese, chamada final e próximo ma
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "- **750 W do ferro (bloco 8):** está só na res
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "- **Incidência:** nenhuma porcentagem no texto
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "- **Galho dos joules (bloco 4):** a frase \"se
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "- Ilustrações de IA declaradas na descrição. N
+💬 Apliquei as 8 correções do `04-checagem.md` nos dois arquivos, com o mesmo texto falado em cada um. O `semaforo` passou para 🟢 e o `resumo_checagem` foi preenchido. Não rodei validador de JSON nem refiz a contagem de palavras com ferramenta.
+
+1. **Bloco 1:** a frase de ranking ("um dos temas que mais caem") virou "é um tema que aparece com frequência em Física no segundo dia do ENEM", e "lâmpada" saiu.
+2. **Bloco 2:** "A banca adora" virou "A banca costuma", e a lista ficou só com chuveiro, ferro e tabela de consumo.
+3. **Bloco 4:** "ela vai querer a energia em joules" virou "ela pode pedir a 
+🔧 Agent {"description": "Originalidade do roteiro", "subagent_type": "guardiao-originalidade", "prompt": "Avalie a originalidade do roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibul
+💬 As correções foram aplicadas. O guardião de originalidade está avaliando o roteiro agora, e eu continuo quando ele terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "limit": 40}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/05-originalidade.md", "content": "# Originalidade — Mapeado, 10/11/2026 (Física: conta de luz)\n\n#
+💬 O semáforo é 🟡 (ajustar). Escrevi a avaliação em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/05-originalidade.md`.
+
+O roteiro está correto e bem apoiado nas fontes, mas falta a voz do Miguel. A `nota_miguel` está vazia e a tese é só uma "posição provisória do canal".
+
+**Notas**
+| Item | Nota | Motivo |
+|---|---|---|
+| Variação | 6 | O `historico.md` está vazio, então não há como medir repetição. O risco é virar molde fixo de "N ramos anunciados" nos próximos vídeos. |
+| Valor próprio | 6 | A regra das três setas, o "monstrinho das unidades" e a leitur
+🔧 SendMessage {"to": "aa6eb401d7d88bd73", "summary": "Aplicar ajustes de originalidade", "message": "O guardião deu 🟡. Leia 05-originalidade.md e aplique as mudanças de maior impacto possíveis sem inventar opinião 
+💬 O guardião deu 🟡. Mandei os ajustes ao roteirista e, quando ele terminar, faço a conferência final e atualizo o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/05-originalidade.md"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "e no fim você resolve uma questão real com ele
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "e no fim você resolve uma questão real com ele.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "Guarda essa frase, porque o mapa inteiro sai d
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "Guarda essa frase, porque o mapa inteiro sai de
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "Agora um galho de segurança. Se a questão mist
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "Agora um galho de segurança. Se a questão mistu
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "Tarifa é o preço de cada quilowatt-hora, e o v
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "Tarifa é o preço de cada quilowatt-hora, e o va
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "O terceiro truque é o mais elegante.", "new_st
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "O terceiro truque é o mais elegante.", "new_str
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "Terceiro ramo, a energia: quilowatt vezes hora
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "Terceiro ramo, a energia: quilowatt vezes hora,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "Agora o ramo da conferência. Por dia, zero vír
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "Agora o ramo da conferência. Por dia, zero vírg
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "Leva as três setas na cabeça. Elas valem para 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "Leva as três setas na cabeça. Elas valem para q
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "com tudo no lugar. Até lá, e boa prova.", "new
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "com tudo no lugar. Até lá, e boa prova.", "new_
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/roteiro.json", "old_string": "  \"resumo_originalidade\": \"Provisório: aguar
+💬 Agora atualizo o cabeçalho, as contagens dos blocos, as notas e a lista de mudanças do `03-roteiro.md`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "limit": 20}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "**Contagem:** cerca de 1 647 palavras em 9 blo
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "→ questão real (ENEM 2021, aplicação PPL, cade
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 1 — Gancho (120 palavras)", "new_str
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 2 — O que a conta cobra (161 palavra
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 4 — Segundo e terceiro ramos: tempo 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 5 — Quarto ramo: tarifa + chamada do
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 7 — Sexto ramo e revisão do mapa (18
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 8 — Questão real: ENEM 2021, aplicaç
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "### Bloco 9 — Tese, chamada final e próximo ma
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "old_string": "8. **Notas para o checador e `roteiro.json`:**
+💬 Apliquei as mudanças do guardião nos dois arquivos, com o mesmo texto falado em cada um. Não reli o texto final no `roteiro.json` para comparar com o `03-roteiro.md`, não rodei validador de JSON e as contagens de palavras são manuais.
+
+**Frases com cara de IA trocadas:**
+- **Bloco 1:** "Isso ajuda o canal a chegar em quem faz a prova no domingo" virou "Quem vai fazer a prova no domingo precisa ver isso", antes da chamada.
+- **Bloco 2:** "Guarda essa frase, porque o mapa inteiro sai dela" virou "Essa frase é o centro do mapa".
+- **Bloco 5:** saiu "Chegamos na metade, e agora vem um ramo que der
+🔧 Bash {"command": "python3 -I -c \"\nimport json;d=json.load(open('roteiro.json'))\nprint({k:v for k,v in d.items() if k!='blocos'})\nfor i,b in enumerate(d['blocos'],1):\n    t=b['texto'];print(i,b['capitu
+🔧 Bash {"command": "python3 -I -c \"\nimport json;e=json.load(open('estado.json'));e['titulo']=json.load(open('roteiro.json'))['titulo_provisorio']\njson.dump(e,open('estado.json','w'),ensure_ascii=False,ind
+💬 O roteiro "Conta de luz no ENEM: o mapa do quilowatt-hora" está pronto em `roteiro.json` e `03-roteiro.md`, com 9 blocos e cerca de 10m45s. Antes de gravar, o Miguel precisa abrir o caderno azul do ENEM 2021 PPL no portal do Inep e conferir os 750 W na etiqueta do ferro. Não rodei `pipeline.validar`, porque ainda não existe `producao.json`.
+
+- **Pauta:** a escolhida foi a ideia 2 (Física, conta de luz). A `nota_miguel` estava vazia, então não há opinião dele no texto. Deixei dois pontos marcados para a resposta dele entrar, no bloco 1 e no fechamento do bloco 9.
+- **Checagem:** o checador pedi
+
+=== resultado: success | turnos 3 | 7s | erro=False
+O dossiê está sendo montado. Aguardo a conclusão antes de seguir para o roteiro.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+O dossiê está pronto e o roteirista está escrevendo o roteiro. Quando ele terminar, sigo para a checagem.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+O roteiro está com o checador. Quando ele terminar, sigo para a originalidade.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+Mandei as correções do checador de volta ao roteirista. Quando ele terminar, sigo para a originalidade.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+As correções foram aplicadas. O guardião de originalidade está avaliando o roteiro agora, e eu continuo quando ele terminar.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O guardião deu 🟡. Mandei os ajustes ao roteirista e, quando ele terminar, faço a conferência final e atualizo o `estado.json`.
+
+=== resultado: success | turnos 3 | 10s | erro=False
+O roteiro "Conta de luz no ENEM: o mapa do quilowatt-hora" está pronto em `roteiro.json` e `03-roteiro.md`, com 9 blocos e cerca de 10m45s. Antes de gravar, o Miguel precisa abrir o caderno azul do ENEM 2021 PPL no portal do Inep e conferir os 750 W na etiqueta do ferro. Não rodei `pipeline.validar`, porque ainda não existe `producao.json`.
+
+- **Pauta:** a escolhida foi a ideia 2 (Física, conta de luz). A `nota_miguel` estava vazia, então não há opinião dele no texto. Deixei dois pontos marcados para a resposta dele entrar, no bloco 1 e no fechamento do bloco 9.
+- **Checagem:** o checador pediu correções e o roteirista aplicou as 8. As contas e as duas questões reais (ENEM 2021 PPL q.111 e ENEM 2017 Libras q.95) conferem, mas só em fontes secundárias, porque o caderno do Inep não abriu.
+- **Alternativa E (bloco 8):** as frases novas sobre por que ela existe vieram depois da checagem. O checador ainda não as viu, então vale uma olhada antes da gravação.
+- **Originalidade:** o guardião deu 🟡 por falta da voz do Miguel e por frases com cara de IA. O roteirista trocou as frases e enxugou os trechos de apostila, mas não rodei o guardião de novo. O `semaforo` do `roteiro.json` ficou 🟢 (da checagem) e o `resumo_originalidade` traz o 🟡 ajustado.
+- **Engajamento:** conferi no JSON.
+  - Bloco 1: inscrição, like e comentário.
+  - Bloco 5, perto da metade: pergunta para os comentários e like.
+  - Bloco 9: inscrição, like e comentário.
+- **Nicho:** o roteiro fica em aula para prova. O ENEM só é citado nos blocos 1, 6 e 8.
+- **Estado:** `estado.json` tem o `titulo` preenchido.
+
+A pergunta para o Miguel está no `roteiro.json`: qual é o primeiro erro que ele mesmo já cometeu, ou que mais vê outros cometerem, numa questão de conta de luz, e o que faria diferente na prova.
+codigo de saida: 0
