@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "Eletrodinâmica no ENEM: o mapa da conta de luz",
+    "angulo": "Um único mapa liga corrente, tensão, resistência, potência e energia (kWh) numa trilha de 4 passos e resolve a questão de chuveiro e conta de luz sem decorar fórmula solta.",
+    "porque": "Eletrodinâmica lidera Física no ENEM (21,1% em 2016–2025, Aprova Total) e a prova de Natureza é em 15/11; vídeos existentes listam fórmulas sem ensinar a escolher qual usar."
+  },
+  {
+    "titulo": "Funções da linguagem no ENEM: o mapa que acaba com a dúvida",
+    "angulo": "O mapa parte do elemento da comunicação (emissor, receptor, canal, código, mensagem, referente) e mostra como achar a função pelo que o texto faz, com a pegadinha das funções misturadas em questão real.",
+    "porque": "Linguagens abre o ENEM em 8/11 e funções da linguagem e variação linguística aparecem quase todo ano; a maioria dos vídeos decora definições sem treinar a pegadinha do texto com duas funções."
+  },
+  {
+    "titulo": "Contratualismo no ENEM: Hobbes, Locke e Rousseau em 1 mapa",
+    "angulo": "O mapa põe os três autores como respostas diferentes à pergunta 'por que obedecer ao Estado?', comparando estado de natureza e contrato lado a lado, e treina a distinguir pelo trecho do texto.",
+    "porque": "Filosofia política cai com frequência em Humanas (ENEM e vestibulares) e a prova é em 8/11; vídeos existentes resumem autor por autor, sem a comparação que a banca cobra."
+  }
+]
