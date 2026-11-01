@@ -1,8 +1,8 @@
 {
-  "atualizado_em": "2026-11-01T14:13:12Z",
+  "atualizado_em": "2026-11-01T14:34:56Z",
   "ativos": {
     "miguel": [
-      "Ouro & Império: segunda 02/11 18h00",
+      "Ouro & Império: O preço de tirar uma alma do purgatório",
       "Mapeado: quinta 05/11 17h00"
     ]
   },
@@ -12,9 +12,9 @@
       "dia": "2026-11-02",
       "rotulo": "segunda 02/11 18h00",
       "publicar_em_utc": "2026-11-02T21:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
-      "titulo": "",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "titulo": "O preço de tirar uma alma do purgatório",
       "url": ""
     },
     {
