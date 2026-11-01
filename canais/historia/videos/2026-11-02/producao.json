@@ -1,0 +1,948 @@
+{
+  "canal": "historia",
+  "titulo": "Quanto custava tirar uma alma do purgatório?",
+  "descricao": "Hoje é Finados. E por trás da vela e da oração pelos mortos existe uma história de esmola, contrato e dívida.\nSeguimos o rastro das moedas de um mosteiro em Cluny até um arcebispo endividado com o banqueiro Jakob Fugger.\n\nNeste vídeo você vê:\n- Como o estatuto do abade Odilão ligou a missa pelos mortos a uma esmola para os pobres, e por que a data tradicional (998) é debatida entre historiadores.\n- Como a ideia do purgatório criou uma espécie de dívida com prazo, e como as missas ganharam faixas de preço (da capela perpétua ao trental de trinta missas).\n- O que é indulgência na doutrina católica, e os abusos que a própria Igreja já condenava antes de Lutero.\n- O esquema de 1514-1515: o empréstimo dos Fugger a Albrecht de Brandenburgo e a divisão planejada da arrecadação (metade para a obra de São Pedro, metade para Albrecht pagar o banco).\n- Por que Johann Tetzel, o vendedor da ponta, é só uma peça da engrenagem, e por que o verso famoso atribuído a ele não tem fonte da época.\n- As 95 teses de Lutero lidas como uma auditoria, e como a própria Igreja encerrou esse mercado em Trento (1563) e com Pio V (1567).\n\nUm aviso importante: Finados (Cluny, século XI) e as indulgências de Tetzel (1517) são episódios separados por cerca de quinhentos anos. O que os liga é a lógica do purgatório, e não uma sucessão direta. Também não julgamos a fé de quem reza pelos seus mortos: o foco é a estrutura de dinheiro em volta.\n\nOs valores dos empréstimos variam de uma fonte para outra, e o vídeo diz isso. A leitura de quem ganhou e quem pagou é a tese do canal, com base nas fontes abaixo.\n\nPergunta do vídeo: papa, arcebispo e imperador deviam ao mesmo banco. Quem manda: quem deve ou quem empresta? Responda nos comentários.\n\nSe você curte entender a história seguindo o dinheiro, inscreva-se no Ouro & Império, deixe o like e comente.\n\nAviso sobre imagens: as ilustrações deste vídeo foram geradas por inteligência artificial, em estilo de desenho, e misturadas a pinturas, gravuras e documentos de domínio público. Não há imagens realistas de pessoas ou eventos reais. Os créditos das imagens de acervos aparecem no fim desta descrição. Narração gerada por voz sintética.\n\nFontes:\n- Odilão de Cluny: https://en.wikipedia.org/wiki/Odilo_of_Cluny\n- Santos, almas e a origem de Finados: https://www.medieval.eu/saints-and-souls-and-halloween/\n- Barbara Rosenwein, To Be the Neighbor of Saint Peter: The Social Meaning of Cluny's Property, 909-1049 (Cornell University Press, 1989)\n- Jacques Le Goff, O nascimento do Purgatório (1981), resumo da tese e críticas: https://core.ac.uk/download/268540447.pdf\n- Philip Schaff, History of the Christian Church, sobre as indulgências: https://ccel.org/ccel/schaff/hcc6.iii.x.ix.html\n- Catholic Encyclopedia, verbete Indulgences: https://www.newadvent.org/cathen/07783a.htm\n- Basílica de São Pedro (datas da obra): https://en.wikipedia.org/wiki/St._Peter%27s_Basilica\n- Jakob Fugger: https://en.wikipedia.org/wiki/Jakob_Fugger\n- Albrecht de Brandenburgo (cita Christiane Schuchard, Johann Tetzel and the Indulgence, 2017; Roland Bainton, Here I Stand, 1950): https://en.wikipedia.org/wiki/Albert_of_Mainz\n- Selling Forgiveness, Christianity Today: https://www.christianitytoday.com/history/issues/issue-14/selling-forgiveness-how-money-sparked-protestant.html\n- Johann Tetzel: https://en.wikipedia.org/wiki/Johann_Tetzel\n- Peddling Purgatory, National Catholic Reporter: https://www.ncronline.org/news/guest-voices/peddling-purgatory-relief-johann-tetzel\n- As 95 teses de Lutero: https://www.luther.de/en/95thesen.html\n\nCréditos de imagem: ilustrações de IA geradas para o canal; pinturas, gravuras e documentos de domínio público via Wikimedia Commons, com os créditos individuais listados abaixo pelo sistema.",
+  "tags": [
+    "história",
+    "finados",
+    "dia de finados",
+    "purgatório",
+    "indulgências",
+    "Martinho Lutero",
+    "95 teses",
+    "Jakob Fugger",
+    "Albrecht de Brandenburgo",
+    "Tetzel",
+    "Cluny",
+    "Reforma Protestante",
+    "história econômica",
+    "história pelo dinheiro"
+  ],
+  "hashtags": [
+    "#história",
+    "#finados",
+    "#indulgências"
+  ],
+  "playlist": "Idade Moderna",
+  "sintetico_realista": false,
+  "musica_humor": "misterio",
+  "comentario_inicial": "Papa, arcebispo e imperador deviam ao mesmo banco. Na sua opinião, quem manda de verdade: quem deve ou quem empresta? E você conhece algum arranjo de hoje parecido? Conta aqui.",
+  "thumbnail": {
+    "texto": "ALMA NA CONTA",
+    "cena": "flat 2D editorial illustration, a small glowing ghost-like soul in white robe floating up out of a fiery purgatory pit, while a fat medieval banker in a red hat drops a heavy gold coin into a wooden money chest, all placed on the right side of the frame, large and expressive, dark empty space on the left for text, warm gold and deep black palette, paper grain, no text, no letters",
+    "imagem_busca": "medieval indulgence chest money box Tetzel woodcut",
+    "layout": "esquerda"
+  },
+  "blocos": [
+    {
+      "capitulo": "Quanto custa uma alma",
+      "cenas": [
+        {
+          "narracao": "Hoje é Finados. Muita gente vai ao cemitério, leva flor, acende uma vela e reza por quem já se foi.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a family of three in old-fashioned clothes at a quiet cemetery at dusk, a child placing flowers on a grave while the mother lights a candle",
+            "busca_reserva": "cemetery candles flowers graves All Souls Day photograph",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Durante séculos, na Europa, essa saudade teve um lado que raramente aparece nas conversas de feriado: o dinheiro. Missa encomendada, doação a mosteiro, papel com selo do papa.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval priest celebrating mass illuminated manuscript",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Até que uma pergunta ficou inevitável. Quanto custa ajudar uma alma a sair do purgatório?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a small worried ghost sitting in a cauldron of gentle orange flames, holding up a medieval price tag with a question mark while a puzzled monk scratches his head",
+            "busca_reserva": "Gustave Doré Purgatorio engraving souls flames",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E teve quem respondesse com contrato, dívida e banqueiro. Hoje são duas histórias separadas por uns quinhentos anos, ligadas por uma mesma ideia.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "The Moneylender and His Wife Quentin Matsys painting",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Se você curte entender a história seguindo o rastro das moedas, se inscreve no canal e deixa o like, que isso dá uma força enorme pra gente.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cheerful medieval banker in a fur-trimmed cap giving a big thumbs-up with one hand and pointing at the viewer with the other, a trail of gold coins on the floor behind him",
+            "busca_reserva": "medieval moneylender banker painting",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A matriz de Cluny",
+      "cenas": [
+        {
+          "narracao": "Primeira parada: um mosteiro no interior da França chamado Cluny. Não era um mosteiro qualquer. Era a cabeça de uma rede de mosteiros ligados a ele.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Cluny Abbey France engraving",
+            "movimento": "zoom_in",
+            "legenda": "Abadia de Cluny, França"
+          }
+        },
+        {
+          "narracao": "Quem comandava essa rede era o abade Odilão, que ficou à frente de Cluny por mais de cinquenta anos, até morrer, em mil e quarenta e nove.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an elderly bearded abbot in a black Benedictine habit sitting at a wooden desk in a stone monastery, dozens of small monastery models lined up on shelves behind him, a candle burning",
+            "busca_reserva": "Odilo of Cluny abbot medieval miniature manuscript",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Segundo o relato da época, foi ele quem determinou que, em Cluny e nos mosteiros ligados a ela, o dia seguinte ao de Todos os Santos fosse dedicado a lembrar todos os fiéis mortos. Dois de novembro. Está aí a raiz do nosso Finados.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval abbot ringing a large bronze bell in a monastery tower at dawn while monks below look up and light candles in a procession",
+            "busca_reserva": "medieval monastery bell tower monks procession engraving",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Agora, a data. A tradição diz que foi em novecentos e noventa e oito. Só que análises de historiadores apontam para bem depois, entre mil e vinte e quatro e mil e trinta e três.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "A tradição",
+              "itens": [
+                "Ano 998"
+              ]
+            },
+            "direita": {
+              "titulo": "Análises de historiadores",
+              "itens": [
+                "Entre 1024 e 1033"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Então, se o tio no almoço de domingo cravar novecentos e noventa e oito com toda a certeza do mundo, você já pode pedir a palavra.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smug uncle at a big Sunday lunch table pointing his fork in the air, while a young niece politely raises her hand to speak, a roast chicken in the middle of the table",
+            "busca_reserva": "family dinner table 19th century painting",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E de onde vem essa história? De uma biografia de Odilão escrita pelo monge Jotsaldo logo depois da morte do abade. Ou seja, a principal fonte é praticamente o perfil oficial da casa, escrito por alguém de dentro. Valioso, mas a gente lê com atenção.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a monk writing with a quill at a desk, drawing an exaggerated golden halo above a portrait of his abbot, one eyebrow raised mischievously, a magnifying glass resting nearby",
+            "busca_reserva": "medieval monk writing in scriptorium manuscript",
+            "movimento": "pan_direita"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A primeira tarifa é caridade",
+      "cenas": [
+        {
+          "narracao": "E aqui o dinheiro aparece pela primeira vez, mas não do jeito que você está imaginando. O estatuto de Odilão ligava a missa pelos mortos a uma oferta. Quem pedia missa pelos seus defuntos devia dar uma esmola em dinheiro. E esse dinheiro ia para os pobres.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a monk at a monastery gate handing a small bag of coins to a thin ragged family, the children looking up gratefully, a loaf of bread on the ground",
+            "busca_reserva": "medieval almsgiving poor beggars painting",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "A primeira tarifa desta história é caridade. Lembrar quem morreu e, no mesmo gesto, ajudar quem está vivo e com fome.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a priest holding a lit candle in one hand and a bowl of soup in the other, a balanced scale between a grave and a hungry child, warm gentle light",
+            "busca_reserva": "medieval charity feeding the poor monastery painting",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Mas Cluny também recebia, e recebia muito. Ao longo desses séculos, gente de todo tipo doava terras e igrejas ao mosteiro. Em troca, os monges rezavam pela alma do doador. E entre essas doações apareciam até moinhos.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a local nobleman in a tunic handing a giant iron key and a rolled deed to a smiling abbot at a monastery door, a small watermill visible in the background",
+            "busca_reserva": "medieval charter donation monastery manuscript",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Moinho, na Idade Média, era tipo o único posto de gasolina da estrada. Todo mundo precisava moer grão, então quem tinha moinho tinha renda todo dia, fizesse chuva ou fizesse sol.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval watermill with a long queue of peasants carrying sacks of grain, and a monk standing at the door like a gas-station attendant collecting a coin from each person",
+            "busca_reserva": "medieval watermill illuminated manuscript",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Sem plano de negócios nenhum, o mosteiro foi virando dono de infraestrutura. E antes que você imagine monges espertos passando a perna em nobres ricos, calma.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval monastery landscape fields engraving",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "A historiadora Barbara Rosenwein mostrou que boa parte dos doadores eram vizinhos do mosteiro, gente da região que queria ser, como diz o título do livro dela, vizinha de São Pedro. Não era golpe. Era um jeito de pertencer.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "friendly village neighbors waving over a low fence at a monastery, carrying a basket of eggs and a sheep as a gift, a monk waving back with a warm smile",
+            "busca_reserva": "medieval villagers monastery gift offering painting",
+            "movimento": "pan_direita"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Uma dívida com prazo",
+      "cenas": [
+        {
+          "narracao": "Rezar pelos mortos não foi invenção de Cluny. Cristãos faziam isso desde os primeiros séculos. O que muda ali é a organização. Calendário fixo. Lista de nomes. Contrapartida material.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "O que muda em Cluny",
+            "itens": [
+              "Calendário fixo",
+              "Lista de nomes",
+              "Contrapartida material"
+            ]
+          }
+        },
+        {
+          "narracao": "Cluny guardava listas com os nomes de quem devia ser lembrado nas orações. E aí entra a peça que faltava.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a monk reading an extremely long parchment scroll of names by candlelight, the scroll unrolling across the stone floor to the end of the room",
+            "busca_reserva": "medieval necrology book list of names manuscript",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Aqui eu baixo um pouco o tom, porque estamos falando da fé de muita gente. O purgatório, de forma bem simples, é a ideia de que a alma pode passar por uma purificação antes do céu. E de que os vivos podem ajudar.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Gustave Doré Dante Purgatorio engraving",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "O historiador Jacques Le Goff defendeu que a palavra purgatório, como substantivo, só aparece por volta de mil cento e setenta, mil cento e oitenta. Outros historiadores discordam e lembram que a ideia de purificação depois da morte é bem mais antiga. Então fica assim: a prática é velhíssima, e a palavra e o lugar ganham forma no século doze.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "século XII",
+            "rotulo": "o purgatório ganha nome e lugar (Le Goff: 1170-1180)"
+          }
+        },
+        {
+          "narracao": "Agora, os óculos do canal. Sem julgar a fé, só a estrutura. Esse desenho transforma o destino de quem morreu numa espécie de dívida com prazo. Tem um tempo a cumprir. E tem ajuda possível.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a small ghost sitting in a medieval waiting room with a big hourglass beside him, while a kind hand reaches down from above holding a rope to help pull him up",
+            "busca_reserva": "medieval hourglass waiting souls engraving",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Toda vez que a história junta prazo e ajuda possível, aparece alguém oferecendo serviço.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a grinning medieval salesman behind a market stall piled with candles and rolled parchments, rubbing his hands together while a small queue of customers forms",
+            "busca_reserva": "medieval merchants market stall painting",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Cada bolso, uma medida",
+      "cenas": [
+        {
+          "narracao": "E o serviço apareceu, com várias faixas de preço. Vamos dar um pulo para a Inglaterra do fim da Idade Média. Lá, quem tinha recursos pagava missas pela própria alma depois de morrer, às vezes uma capela inteira dedicada a isso.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a wealthy English merchant in a velvet cap handing a heavy purse to a priest inside a small private stone chapel, candles lit on a little altar",
+            "busca_reserva": "English medieval chantry chapel interior",
+            "movimento": "zoom_in",
+            "legenda": "Inglaterra, fim da Idade Média"
+          }
+        },
+        {
+          "narracao": "Mas nem todo mundo podia bancar o pacote completo. Missa perpétua, rezada para sempre, era coisa de gente rica. Sustentar orações por gerações não cabia em qualquer herança.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval tomb effigy England knight and lady",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Muita gente pedia missas por um tempo limitado. E existia ainda o trental, um conjunto de trinta missas. Do para sempre ao punhado de missas, cada bolso tinha a sua medida.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Cada bolso, uma medida",
+            "itens": [
+              "Missa perpétua: para sempre",
+              "Missas por tempo limitado",
+              "Trental: trinta missas"
+            ]
+          }
+        },
+        {
+          "narracao": "E deixa eu ser claro: não tem graça nenhuma em quem encomendava. Era gente tentando cuidar dos seus mortos com o que tinha. O ponto está no sistema. Se o cuidado com a alma tem faixa de preço, a desigualdade da vida, de certo modo, continua depois da morte. Quem podia mais, comprava mais tempo de oração. Quem podia menos, comprava o que dava.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "split scene: on the left a rich man on a velvet cushion surrounded by many praying priests, on the right a poor farmer kneeling with one single candle and a small coin",
+            "busca_reserva": "medieval peasants praying in church painting",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Só que missa ainda era um serviço artesanal. Alguém precisava rezar, todo dia, por muito tempo. Era caro de produzir e difícil de multiplicar. O passo seguinte resolveu exatamente esse problema.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a tired priest yawning at a small altar at night, surrounded by endless rows of candles and a giant calendar with every day crossed out",
+            "busca_reserva": "medieval priest praying at altar manuscript illumination",
+            "movimento": "pan_esquerda"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O papel que alivia",
+      "cenas": [
+        {
+          "narracao": "Esse passo tem nome: indulgência. Primeiro, a definição justa, porque ela importa. Pela doutrina católica, a indulgência não perdoa a culpa do pecado. Ela alivia a pena temporal, aquele tempo de purificação. E, em tese, não tem preço. Guarda essa expressão: em tese.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a papal clerk pressing a wax seal onto a parchment certificate at a desk, a faint coin purse half hidden under the table, the clerk winking at the viewer",
+            "busca_reserva": "medieval papal bull lead seal document",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Em mil quatrocentos e setenta e seis, o papa Sisto Quarto emitiu uma das primeiras bulas que aplicavam uma indulgência às almas do purgatório. Era para uma igreja em Saintes, na França.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "1476",
+            "rotulo": "Sisto IV aplica indulgência às almas do purgatório"
+          }
+        },
+        {
+          "narracao": "Quem contribuísse com certa quantia para a obra podia ajudar a aliviar essas almas. Teve crítica, e no ano seguinte saiu outra bula defendendo a autoridade do papa para fazer isso.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Pope Sixtus IV Melozzo da Forlì fresco",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "A mudança é grande. Antes, você pagava alguém para rezar por anos. Agora, existe um documento. Não depende de um monge na capela por vinte anos.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "15th century printed indulgence letter document",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "E a própria Igreja sabia do risco. Em mil trezentos e noventa e dois, o papa Bonifácio Nono já tinha condenado religiosos que pegavam dinheiro dizendo que podiam perdoar tudo. Em mil quatrocentos e cinquenta, Nicolau de Cusa condenou pregadores que diziam que a indulgência apagava a culpa.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "O abuso era conhecido",
+            "itens": [
+              "1392: Bonifácio IX condena",
+              "1450: Nicolau de Cusa condena"
+            ]
+          }
+        },
+        {
+          "narracao": "Ou seja, o abuso não era segredo. Era conhecido, era condenado, e continuava. Quando o regulador avisa e o mercado ignora, quase sempre tem alguém lucrando demais para parar.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stern official in robes waving a red warning flag on a road while a crowd of cheerful merchants with bulging money bags walks right past him, ignoring him",
+            "busca_reserva": "medieval merchants crowd money bags painting",
+            "movimento": "pan_direita"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A obra e o banqueiro",
+      "cenas": [
+        {
+          "narracao": "Agora entra a obra. Em mil quinhentos e cinco, o papa Júlio Segundo decide derrubar a velha Basílica de São Pedro, em Roma, e erguer uma nova.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Pope Julius II portrait Raphael",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "O canteiro abre em dezoito de abril de mil quinhentos e seis. E se você acha que obra pública no Brasil atrasa, segura essa: a basílica só foi consagrada em mil seiscentos e vinte e seis. Cento e vinte anos. Tem viaduto por aí que ficaria com inveja.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "120 anos",
+            "rotulo": "de obras na Basílica de São Pedro (1506 a 1626)"
+          }
+        },
+        {
+          "narracao": "Do outro lado dos Alpes, quem tinha caixa naquela Europa tinha nome e sobrenome: Jakob Fugger, banqueiro de Augsburgo, na Alemanha, o homem que ficou conhecido como Jakob, o Rico.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Jakob Fugger portrait Albrecht Dürer",
+            "movimento": "pan_esquerda",
+            "legenda": "Jakob Fugger, Augsburgo"
+          }
+        },
+        {
+          "narracao": "Ele financiou o recrutamento da Guarda Suíça. E de mil quinhentos e sete a mil quinhentos e vinte e quatro arrendou a Casa da Moeda do papa, produzindo sessenta e seis tipos de moeda para quatro papas diferentes.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "66",
+            "rotulo": "tipos de moeda produzidos por Fugger para quatro papas"
+          }
+        },
+        {
+          "narracao": "O banqueiro que pagou o recrutamento dos soldados do papa era o mesmo que fabricava a moeda do papa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a Renaissance banker in a fur coat working a coin-stamping press, shiny gold coins pouring out, while a Swiss guard in striped uniform stands behind him holding out his hand for his pay",
+            "busca_reserva": "Papal States coin 16th century Julius II silver",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Me conta aqui nos comentários: quando o poder e o banco se misturam desse jeito, quem manda de verdade, quem pega emprestado ou quem empresta? Guarda a sua resposta, porque até o fim do vídeo ela vai ser testada.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a pope and a banker tugging opposite ends of a bulging money bag, both looking at the viewer with puzzled faces, one hand cupped behind the ear as if listening for the answer",
+            "busca_reserva": "Jakob Fugger portrait Albrecht Dürer",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "E se você está curtindo seguir esse dinheiro, aproveita e deixa o like.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a delighted Renaissance banker giving a huge thumbs-up while balancing a gold coin on his fingertip, coins sparkling around him",
+            "busca_reserva": "Jakob Fugger counting house Augsburg illustration",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O arcebispo no carnê",
+      "cenas": [
+        {
+          "narracao": "Agora o personagem que segura a ponta mais apertada dessa corda. Albrecht de Brandenburgo. Jovem, de família poderosa e com um apetite enorme por cargos.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Albrecht of Brandenburg cardinal portrait Dürer engraving",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Ele já acumulava Magdeburgo e Halberstadt, e queria mais: o arcebispado de Mainz, um dos postos mais importantes da Alemanha.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an ambitious young cleric balancing two tall bishop's mitres on his head while greedily reaching with both hands for a third, even bigger mitre on a shelf",
+            "busca_reserva": "Albrecht of Brandenburg cardinal portrait Dürer engraving",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Só tinha uns probleminhas. Acumular dois bispados já ia contra o direito da Igreja. E ele ainda era jovem e não tinha o diploma exigido. Precisou de dispensa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a nervous young cleric sweating while handing a heavy sack of coins across a desk to a papal clerk who stamps a dispensation document with a lead seal",
+            "busca_reserva": "medieval papal bull lead seal document",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "E Mainz tinha um problema próprio. Teve quatro arcebispos em dez anos. Cada novo ocupante precisava pagar taxas a Roma para ser confirmado. O cargo tinha virado um ativo de alta rotatividade, e cada troca vinha com uma fatura.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "4",
+            "rotulo": "arcebispos de Mainz em dez anos"
+          }
+        },
+        {
+          "narracao": "Para pagar essas taxas, Albrecht pegou um empréstimo com Jakob Fugger em mil quinhentos e treze. Quanto? Aí as fontes brigam. Uma fonte fala em vinte mil florins.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Jakob Fugger and his bookkeeper Matthäus Schwarz counting house",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Outras trazem valores diferentes, todos na casa de dezenas de milhares de moedas de ouro. Também aparece um pagamento de cerca de dez mil ducados ao papa, e os historiadores não concordam sobre o que exatamente esse valor comprava.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two scholars in robes tugging opposite ends of a long accounting scroll, each pointing at a different number, gold coins scattered on the table between them",
+            "busca_reserva": "medieval ledger accounting florins ducats coins",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Florim e ducado nem são a mesma moeda, então converter isso para reais seria chute. Mas o essencial não muda: o arcebispo novo já chegou ao cargo pendurado no banco. Como quem compra o carro zero no carnê e sai da concessionária devendo quarenta e oito parcelas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a newly installed archbishop proudly riding out of a shiny new carriage showroom, a heavy iron chain tied from the carriage back to a banker's giant ledger dragging behind",
+            "busca_reserva": "Mainz Cathedral 16th century engraving",
+            "movimento": "pan_esquerda"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O esquema em setas",
+      "cenas": [
+        {
+          "narracao": "Agora vale desenhar o esquema inteiro, sem piada, como num guardanapo. Em mil quinhentos e catorze, Albrecht propõe uma indulgência especial nas dioceses dele.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a man in Renaissance clothes sketching a diagram of boxes and arrows with a quill on a napkin-sized scrap of parchment at a tavern table, serious face",
+            "busca_reserva": "Renaissance diagram arrows manuscript sketch",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Segundo a historiadora Christiane Schuchard, a arrecadação seria dividida assim: metade para a obra de São Pedro, em Roma, e a outra metade para o próprio Albrecht, que usaria o dinheiro para pagar a dívida com o banqueiro.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Metade",
+              "itens": [
+                "Obra de São Pedro, em Roma"
+              ]
+            },
+            "direita": {
+              "titulo": "A outra metade",
+              "itens": [
+                "Albrecht",
+                "Pagar a dívida com o banco"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Em trinta e um de março de mil quinhentos e quinze, o papa Leão Décimo emite a bula autorizando.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Pope Leo X portrait Raphael",
+            "movimento": "zoom_in",
+            "legenda": "Leão X, bula de 1515"
+          }
+        },
+        {
+          "narracao": "Agora, as setas. Primeira seta: o banco empresta a Albrecht. Segunda seta: Albrecht paga as taxas a Roma e fica com o cargo. Terceira seta: Roma autoriza a indulgência.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "As setas, parte um",
+            "itens": [
+              "1. O banco empresta a Albrecht",
+              "2. Albrecht paga Roma e fica com o cargo",
+              "3. Roma autoriza a indulgência"
+            ]
+          }
+        },
+        {
+          "narracao": "Quarta seta: os fiéis compram, muitos deles famílias comuns pensando nos seus mortos. Quinta seta: o dinheiro sobe, metade planejada para a basílica e metade para Albrecht quitar o banco.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "ordinary village families dropping coins into a large wooden chest, with a stream of golden coins floating upward in an arc and splitting into two bags at the top",
+            "busca_reserva": "medieval peasants giving coins to church woodcut",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "De longe, o desenho mostra o seguinte. O banco empresta e espera receber de volta. Roma recebe as taxas e a verba planejada para a obra. Albrecht fica com o arcebispado.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "three men around a table: a banker holding a ledger and smiling, a cardinal holding a bag of coins, and a young archbishop proudly wearing a big new mitre",
+            "busca_reserva": "Renaissance banker cardinal table painting",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "E o dinheiro novo, aquele que faz a roda girar, entra por baixo, pelo bolso de quem comprava a indulgência.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval peasants giving coins to church woodcut",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Quem desenhou o arranjo estava em cima. Quem pôs a moeda na caixa estava embaixo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a tall stone tower seen from the side: at the top, men in rich robes studying a plan on a table; at the bottom, a tiny peasant dropping a single coin into a box",
+            "busca_reserva": "medieval peasants giving coins to church woodcut",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O vendedor da ponta",
+      "cenas": [
+        {
+          "narracao": "Para vender, precisava de um vendedor. Em janeiro de mil quinhentos e dezessete, Albrecht nomeia como comissário para Magdeburgo e Halberstadt um frade dominicano chamado Johann Tetzel.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Johann Tetzel indulgence seller engraving",
+            "movimento": "zoom_in",
+            "legenda": "Johann Tetzel"
+          }
+        },
+        {
+          "narracao": "Tetzel virou o rosto do escândalo. Dizem que ele repetia um versinho mais ou menos assim: quando a moeda cai na caixa, a alma sai do purgatório.",
+          "visual": {
+            "tipo": "citacao",
+            "texto": "Quando a moeda cai na caixa, a alma sai do purgatório.",
+            "autor": "Verso atribuído a Tetzel"
+          }
+        },
+        {
+          "narracao": "Só que presta atenção no dizem. O verso é atribuído a ele, mas não existe fonte da época que mostre Tetzel falando isso. Até um historiador católico, Hartmann Grisar, admite que não dá para rastrear o verso até a boca de Tetzel, embora ele pregasse uma ideia parecida.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a detective-like scholar in a long coat holding a magnifying glass over an empty parchment, shrugging with an empty-handed gesture, a friar silhouette fading in the background",
+            "busca_reserva": "medieval scholar magnifying glass manuscript",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Provavelmente a frase foi colada nele pelos adversários. Mesmo assim, a crítica à pregação dele também existe do lado católico. O historiador Ludwig von Pastor, também católico, acusa Tetzel de exagerar o efeito da indulgência sobre os mortos e de deixar de lado o arrependimento e a confissão.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a theatrical friar on a pulpit with arms spread wide, preaching to a crowd while pointing at a large coin chest beside him, a small confessional booth ignored in the corner",
+            "busca_reserva": "16th century preacher pulpit crowd woodcut",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Ou seja, a doutrina dizia uma coisa e o discurso de venda dizia outra, bem mais simples.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "A doutrina",
+              "itens": [
+                "Arrependimento",
+                "Confissão"
+              ]
+            },
+            "direita": {
+              "titulo": "O discurso de venda",
+              "itens": [
+                "Bem mais simples",
+                "Efeito sobre os mortos"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E tem um detalhe que quase sempre some. Tetzel era o vendedor da ponta. Quem mandava vender era Albrecht. O vilão do cartaz era só uma peça de uma engrenagem muito maior.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a young archbishop in the shadows pulling strings like a puppeteer, the strings attached to a small friar selling at a stall in the foreground",
+            "busca_reserva": "Albrecht of Brandenburg cardinal portrait Dürer engraving",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A carta para o devedor",
+      "cenas": [
+        {
+          "narracao": "Agora entra quem bagunçou o esquema. Martinho Lutero, monge e professor.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Martin Luther portrait Lucas Cranach 1529",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Em trinta e um de outubro de mil quinhentos e dezessete, ele manda suas noventa e cinco teses. Para quem? Para Albrecht. O homem da dívida.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "31/10/1517",
+            "rotulo": "Lutero envia as 95 teses a Albrecht"
+          }
+        },
+        {
+          "narracao": "Aquela cena famosa dele martelando o papel na porta de uma igreja é bem contestada hoje. O que se sabe com mais segurança é a carta ao arcebispo, que depois encaminhou tudo para Roma.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Luther posting ninety-five theses Wittenberg door painting",
+            "movimento": "pan_direita",
+            "legenda": "Cena contestada pelos historiadores"
+          }
+        },
+        {
+          "narracao": "E as teses, lidas com os óculos do canal, parecem uma auditoria. Numa delas, Lutero ataca quem diz que a alma sai do purgatório assim que a moeda tilinta na caixa. Em outra, diz que a moeda tilintando só aumenta a ganância.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a serious monk-professor in a black robe wearing round spectacles, inspecting a coin chest with a magnifying glass and a ledger under his arm, like a tax auditor",
+            "busca_reserva": "Martin Luther portrait Lucas Cranach 1529",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Diz que dar aos pobres vale mais do que comprar indulgência. Dá para ouvir aí um eco do estatuto de Odilão, uns quinhentos anos antes. A comparação é deste vídeo, não de Lutero.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Odilão, Cluny",
+              "itens": [
+                "Esmola em dinheiro",
+                "O dinheiro ia para os pobres"
+              ]
+            },
+            "direita": {
+              "titulo": "Lutero, 1517",
+              "itens": [
+                "Dar aos pobres vale mais",
+                "do que comprar indulgência"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Ele diz ainda que o papa preferiria ver São Pedro em cinzas a vê-la construída com a pele das suas ovelhas.",
+          "visual": {
+            "tipo": "citacao",
+            "texto": "São Pedro em cinzas, e não construída com a pele das suas ovelhas.",
+            "autor": "Lutero, 95 teses (em resumo)"
+          }
+        },
+        {
+          "narracao": "E vem a pergunta mais afiada. Se o papa é mais rico que Crasso, o grande milionário da Roma antiga, por que não paga a basílica com o próprio dinheiro?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an ancient Roman millionaire in a toga lounging proudly on a huge mountain of gold coins, while a pope in the distance looks into his own empty purse with a sheepish face",
+            "busca_reserva": "Marcus Licinius Crassus bust Louvre",
+            "movimento": "zoom_out",
+            "legenda": "Crasso, o milionário da Roma antiga"
+          }
+        },
+        {
+          "narracao": "Nas teses, Lutero não ataca o purgatório em si. O alvo é o dinheiro e a promessa de efeito automático. O que veio depois, a Reforma, foi muito além disso. Mas o estopim tinha barulho de moeda.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an early wooden printing press spitting out hundreds of paper pamphlets that fly out of a workshop window over a town, a single coin lying on the press bed",
+            "busca_reserva": "Protestant Reformation woodcut 16th century printing",
+            "movimento": "pan_esquerda"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O balanço",
+      "cenas": [
+        {
+          "narracao": "Hora do balanço. Quem ganhou dinheiro? O banco, com folga.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a beaming Renaissance banker standing behind a counter piled with overflowing sacks of gold, while a few other figures stand beside him with empty hands",
+            "busca_reserva": "Fugger counting house Augsburg 16th century illustration",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "A fortuna dos Fugger era estimada em cerca de duzentos mil florins em mil quinhentos e onze. Quando Jakob morreu, em mil quinhentos e vinte e cinco, passava de dois milhões.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "1511",
+              "itens": [
+                "Cerca de 200 mil florins"
+              ]
+            },
+            "direita": {
+              "titulo": "1525",
+              "itens": [
+                "Mais de 2 milhões de florins"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E em mil quinhentos e dezenove, o mesmo ano em que Tetzel morre, Jakob Fugger financia a eleição do imperador Carlos Quinto. Dos mais de oitocentos e cinquenta mil florins pagos aos eleitores, cerca de quinhentos e cinquenta mil saíram dele.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "550 mil",
+            "rotulo": "dos 850 mil florins pagos aos eleitores de Carlos V vieram de Fugger"
+          }
+        },
+        {
+          "narracao": "Dois anos depois, o imperador devia mais de seiscentos mil ao banco e amortizou quatrocentos e quinze mil entregando minas de prata e cobre no Tirol.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Charles V portrait Titian",
+            "movimento": "zoom_in",
+            "legenda": "Carlos V"
+          }
+        },
+        {
+          "narracao": "Lembra da pergunta lá do meio? Quem manda, quem deve ou quem empresta? O mesmo banco estava ao lado do papa, do arcebispo e do imperador. Não importava quem vencesse a briga, o credor já estava sentado à mesa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a banquet table where a pope, an archbishop and an emperor are arguing loudly while a calm banker sits between them with a napkin tucked in, smiling and sipping wine",
+            "busca_reserva": "Fugger counting house Augsburg 16th century illustration",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "E o arcebispo? Albrecht ficou com o cargo, mas acabou os dias endividado. Em mil quinhentos e quarenta e um, deixou Halle para sempre, depois que a cidade concordou em assumir a dívida dele com o banco.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a tired elderly archbishop leaving a medieval town gate pulling a heavy trunk, while townspeople on the walls hold up a huge ledger of debt behind him",
+            "busca_reserva": "Halle an der Saale 16th century engraving",
+            "movimento": "zoom_out",
+            "legenda": "Halle, 1541"
+          }
+        },
+        {
+          "narracao": "E Roma? Financiou parte da obra, mas a campanha de indulgências virou o estopim da Reforma, que dividiu a cristandade ocidental.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Saint Peter's Basilica construction 16th century fresco",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Então quem foi o maior vencedor da engrenagem inteira? Em dinheiro, a resposta é fácil. Contando poder e consequência, a conversa fica bem mais interessante, e esse balanço ainda está aberto.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a winners' podium with three figures: a banker with a gold coin trophy, a cardinal and an emperor looking at him, and a puzzled judge scratching his chin",
+            "busca_reserva": "Renaissance banker cardinal emperor painting",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Já quem pagou boa parte da conta, pelo desenho que as fontes mostram, foram muitas famílias comuns. Gente que tirava do pouco que tinha para ajudar quem amava e já tinha partido. Aqui não tem piada.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a solemn elderly woman in a shawl placing her last few coins into a small offering box beside a single flickering candle in a dim church, no humor, quiet mood",
+            "busca_reserva": "medieval peasant woman praying candle painting",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A conta fechada",
+      "cenas": [
+        {
+          "narracao": "E como esse mercado acabou? Por regra. Em mil quinhentos e sessenta e três, o Concílio de Trento, a grande assembleia da Igreja Católica naquele século, mandou abolir os cobradores de esmola ligados às indulgências e acabar com todo ganho ilícito.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Council of Trent painting 16th century",
+            "movimento": "zoom_in",
+            "legenda": "Concílio de Trento"
+          }
+        },
+        {
+          "narracao": "Em mil quinhentos e sessenta e sete, o papa Pio Quinto cancelou as indulgências ligadas a pagamento. A própria Igreja fechou o caixa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stern elderly pope in white locking a big iron cash chest with a large key, a line of disappointed salesmen walking away with empty hands",
+            "busca_reserva": "Pope Pius V portrait",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "E a basílica ficou pronta em mil seiscentos e vinte e seis, de pé até hoje.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Saint Peter's Basilica Rome 17th century engraving",
+            "movimento": "zoom_out",
+            "legenda": "Roma, 1626"
+          }
+        },
+        {
+          "narracao": "Um detalhe pesa: pela divisão planejada em mil quinhentos e quinze, a metade destinada à obra viria do bolso de fiéis alemães, gente que quase certamente nunca viu Roma.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "German villagers pushing a wooden cart full of coins up a snowy Alpine road, with the domed city of Rome tiny and far away on the horizon",
+            "busca_reserva": "Alps road 16th century engraving travelers cart",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Então, quando você acender uma vela hoje, guarda isso. A raiz do Finados está em Cluny, com oração e esmola para os pobres.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "close view of a pair of hands lighting a small votive candle in a quiet old stone church, soft warm glow on the face of the person",
+            "busca_reserva": "lit votive candles church photograph",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Uns quinhentos anos depois, a mesma ideia de ajudar os mortos virou o produto que fechava a conta de um banqueiro. Não foi Finados que criou esse mercado. Foi o dinheiro que achou um caminho por onde a fé já passava.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Cluny",
+              "itens": [
+                "Oração",
+                "Esmola para os pobres"
+              ]
+            },
+            "direita": {
+              "titulo": "500 anos depois",
+              "itens": [
+                "Indulgência",
+                "A conta de um banqueiro"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Seguindo as moedas, o desenho final é simples: quem ganhou estava em cima, e quem pagou estava embaixo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a banker on a balcony raising a goblet of wine and holding a full money bag, while far below in the street a peasant turns out his empty pockets",
+            "busca_reserva": "Renaissance banker balcony painting",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Se esse vídeo mudou o jeito como você vê o feriado, se inscreve, deixa o like e volta na pergunta do meio. Depois de ver o papa, o arcebispo e o imperador amarrados ao mesmo banco, quem manda: quem deve ou quem empresta? Quero ler a sua resposta nos comentários.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly Renaissance banker with a big grin pointing at the viewer with one hand and giving a thumbs-up with the other, a pope, an archbishop and an emperor tied together by one golden rope behind him",
+            "busca_reserva": "Jakob Fugger portrait Albrecht Dürer",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E num próximo vídeo, a gente vai para a Roma antiga, onde um imperador resolveu tabelar o preço de quase tudo. Spoiler: o mercado não aceitou calado.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Diocletian bust Roman emperor",
+            "movimento": "zoom_in",
+            "legenda": "Próximo vídeo: Roma antiga"
+          }
+        }
+      ]
+    }
+  ]
+}

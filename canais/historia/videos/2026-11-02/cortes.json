@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 4],
+      "gancho": "O lado financeiro do Dia de Finados",
+      "titulo": "Quanto custava tirar uma alma do purgatório?",
+      "descricao": "Missa encomendada, doação a mosteiro, papel com selo do papa: o Finados também tem uma história de dinheiro. A história completa está no canal.",
+      "hashtags": ["#finados", "#historia", "#purgatorio"],
+      "legenda_reels": "Hoje é Finados, e por trás da vela existe uma história de contrato, dívida e banqueiro. Segue o perfil para mais história contada pelo dinheiro. #finados #historia #purgatorio #curiosidades"
+    },
+    {
+      "de": [7, 3], "ate": [7, 5],
+      "gancho": "O banqueiro que bancava o papa",
+      "titulo": "O banqueiro que pagou os soldados e fez a moeda do papa",
+      "descricao": "Jakob Fugger financiou a Guarda Suíça e arrendou a Casa da Moeda do papa. A história completa está no canal.",
+      "hashtags": ["#historia", "#economia", "#fugger"],
+      "legenda_reels": "Ele pagou os soldados do papa e fabricava a moeda do papa. Jakob Fugger, o banqueiro mais poderoso da Europa. Segue o perfil para mais história pelo dinheiro. #historia #economia #fugger #banqueiro"
+    },
+    {
+      "de": [10, 2], "ate": [10, 3],
+      "gancho": "Tetzel nunca disse a frase famosa?",
+      "titulo": "A frase mais famosa das indulgências talvez nunca tenha sido dita",
+      "descricao": "O verso atribuído a Tetzel não tem fonte da época, nem para historiadores católicos. A história completa está no canal.",
+      "hashtags": ["#historia", "#indulgencias", "#reforma"],
+      "legenda_reels": "Quando a moeda cai na caixa, a alma sai do purgatório. Só que não há fonte da época que mostre Tetzel dizendo isso. Segue o perfil para mais história. #historia #reforma #indulgencias #curiosidades"
+    }
+  ]
+}

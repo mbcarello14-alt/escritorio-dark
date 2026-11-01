@@ -1,8 +1,19 @@
 {
-  "atualizado_em": "2026-11-01T14:34:56Z",
+  "atualizado_em": "2026-11-01T15:36:38Z",
   "ativos": {
+    "narrador": [
+      "Ouro & Império: Quanto custava tirar uma alma do purgatório?"
+    ],
+    "ilustrador": [
+      "Ouro & Império: Quanto custava tirar uma alma do purgatório?"
+    ],
+    "editor": [
+      "Ouro & Império: Quanto custava tirar uma alma do purgatório?"
+    ],
+    "clipador": [
+      "Ouro & Império: Quanto custava tirar uma alma do purgatório?"
+    ],
     "miguel": [
-      "Ouro & Império: O preço de tirar uma alma do purgatório",
       "Mapeado: quinta 05/11 17h00"
     ]
   },
@@ -12,9 +23,9 @@
       "dia": "2026-11-02",
       "rotulo": "segunda 02/11 18h00",
       "publicar_em_utc": "2026-11-02T21:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "O preço de tirar uma alma do purgatório",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "Quanto custava tirar uma alma do purgatório?",
       "url": ""
     },
     {
