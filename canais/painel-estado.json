@@ -1,18 +1,6 @@
 {
-  "atualizado_em": "2026-11-01T15:36:38Z",
+  "atualizado_em": "2026-11-01T16:37:59Z",
   "ativos": {
-    "narrador": [
-      "Ouro & Império: Quanto custava tirar uma alma do purgatório?"
-    ],
-    "ilustrador": [
-      "Ouro & Império: Quanto custava tirar uma alma do purgatório?"
-    ],
-    "editor": [
-      "Ouro & Império: Quanto custava tirar uma alma do purgatório?"
-    ],
-    "clipador": [
-      "Ouro & Império: Quanto custava tirar uma alma do purgatório?"
-    ],
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
     ]
@@ -23,10 +11,10 @@
       "dia": "2026-11-02",
       "rotulo": "segunda 02/11 18h00",
       "publicar_em_utc": "2026-11-02T21:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Quanto custava tirar uma alma do purgatório?",
-      "url": ""
+      "url": "https://youtu.be/Ow6CaIrVHwY"
     },
     {
       "canal": "vestibular",
@@ -145,8 +133,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 48,
+    "neurons": 5640,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
