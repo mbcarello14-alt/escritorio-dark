@@ -1,7 +1,21 @@
 {
-  "atualizado_em": "2026-11-01T00:27:39Z",
-  "ativos": {},
+  "atualizado_em": "2026-11-01T00:29:10Z",
+  "ativos": {
+    "miguel": [
+      "Ouro & Império: segunda 02/11 18h00"
+    ]
+  },
   "proximos": [
+    {
+      "canal": "historia",
+      "dia": "2026-11-02",
+      "rotulo": "segunda 02/11 18h00",
+      "publicar_em_utc": "2026-11-02T21:00:00Z",
+      "etapa": "aguardando_escolha",
+      "etapa_txt": "👉 esperando você escolher a pauta",
+      "titulo": "",
+      "url": ""
+    },
     {
       "canal": "vestibular",
       "dia": "2026-11-03",
