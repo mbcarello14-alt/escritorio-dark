@@ -1,20 +1,8 @@
 {
-  "atualizado_em": "2026-11-01T23:21:39Z",
+  "atualizado_em": "2026-11-01T23:33:58Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
-    ],
-    "narrador": [
-      "Mapeado: Conta de luz no ENEM: o erro que a banca deixa pronto"
-    ],
-    "ilustrador": [
-      "Mapeado: Conta de luz no ENEM: o erro que a banca deixa pronto"
-    ],
-    "editor": [
-      "Mapeado: Conta de luz no ENEM: o erro que a banca deixa pronto"
-    ],
-    "clipador": [
-      "Mapeado: Conta de luz no ENEM: o erro que a banca deixa pronto"
     ]
   },
   "proximos": [
@@ -63,10 +51,10 @@
       "dia": "2026-11-10",
       "rotulo": "terça 10/11 17h00",
       "publicar_em_utc": "2026-11-10T20:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Conta de luz no ENEM: o erro que a banca deixa pronto",
-      "url": ""
+      "url": "https://youtu.be/xo7NkH-qRz0"
     }
   ],
   "publicados": [
@@ -155,8 +143,8 @@
     }
   ],
   "imagens": {
-    "hoje": 48,
-    "neurons": 5640,
+    "hoje": 74,
+    "neurons": 7070,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
