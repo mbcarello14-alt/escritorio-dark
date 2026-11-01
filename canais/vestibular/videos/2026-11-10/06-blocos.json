@@ -1,0 +1,311 @@
+[
+  {
+    "capitulo": "Gancho",
+    "cenas": [
+      {
+        "narracao": "Imagina um chuveiro na posição inverno, num banho de quinze minutos. Agora o mesmo chuveiro na posição verão, num banho de cinco minutos.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "Inverno", "itens": ["Banho de 15 min"]}, "direita": {"titulo": "Verão", "itens": ["Banho de 5 min"]}}
+      },
+      {
+        "narracao": "O primeiro banho gasta cinco vezes mais energia que o segundo.",
+        "visual": {"tipo": "numero", "valor": "5x", "rotulo": "mais energia no banho de inverno"}
+      },
+      {
+        "narracao": "E essa conta, do chuveiro e do ferro de passar, é um tema que aparece com frequência em Física no segundo dia do ENEM.",
+        "visual": {"tipo": "ilustracao", "cena": "a simple doodle of a shower head and a clothes iron side by side, with a little exam paper next to them", "busca_reserva": "electric shower head and clothes iron line drawing"}
+      },
+      {
+        "narracao": "Hoje a gente monta um mapa mental em que o centro é a conta de luz, e no fim você resolve uma questão real com ele.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 0}
+      },
+      {
+        "narracao": "Quem vai fazer a prova no domingo precisa ver isso. Se você quer revisar num mapa que dá para printar, se inscreve, deixa o like e comenta qual matéria você quer ver mapeada depois.",
+        "visual": {"tipo": "ilustracao", "cena": "a smiling cartoon teacher doodle pointing at the viewer with a big friendly grin, holding a marker, a thumbs up and a small bell beside him", "busca_reserva": "friendly teacher pointing at viewer cartoon"}
+      }
+    ]
+  },
+  {
+    "capitulo": "O que a conta cobra",
+    "cenas": [
+      {
+        "narracao": "Pensa na conta de luz que chega na sua casa. Desenha ela bem grande, no centro do quadro. Esse é o meio do nosso mapa.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 0}
+      },
+      {
+        "narracao": "Primeira pergunta: o que essa conta cobra? Muita gente responde que cobra a potência dos aparelhos. Não cobra. A conta cobra energia, e a unidade que aparece nela é o quilowatt-hora.",
+        "visual": {"tipo": "cartao", "titulo": "A conta cobra energia", "subtitulo": "Unidade: quilowatt-hora (kWh)"}
+      },
+      {
+        "narracao": "Olha a diferença na prática. Um aparelho de mil watts ligado por meia hora gasta meio quilowatt-hora.",
+        "visual": {"tipo": "ilustracao", "cena": "a strong muscular cartoon lightning bolt character lifting a heavy weight for a split second next to a small stopwatch", "busca_reserva": "weightlifter silhouette stopwatch drawing"}
+      },
+      {
+        "narracao": "Um aparelho de cinquenta watts ligado o dia inteiro, vinte e quatro horas, gasta um vírgula dois quilowatts-hora. O fraquinho que ficou ligado o tempo todo gastou mais que o forte que ligou rapidinho.",
+        "visual": {"tipo": "ilustracao", "cena": "a tiny weak smiling light bulb sitting on a huge wall clock showing a full day, looking very tired but still glowing", "busca_reserva": "light bulb on a large clock illustration"}
+      },
+      {
+        "narracao": "Então a conta depende de duas coisas ao mesmo tempo: quanto o aparelho puxa e por quanto tempo ele fica ligado.",
+        "visual": {"tipo": "ilustracao", "cena": "two doodle dials side by side, one with a lightning bolt and one with a clock, connected by a multiplication sign", "busca_reserva": "power and time dials illustration"}
+      },
+      {
+        "narracao": "Essa frase é o centro do mapa. Energia é potência vezes tempo.",
+        "visual": {"tipo": "cartao", "titulo": "Energia = potência × tempo"}
+      },
+      {
+        "narracao": "A banca costuma montar a questão em cima dessa multiplicação, trocando só o cenário: chuveiro, ferro, tabela de consumo.",
+        "visual": {"tipo": "ilustracao", "cena": "a stage curtain being swapped to show different scenery: a shower, an iron and a table, while the same multiplication sign stays in the center", "busca_reserva": "theater stage scenery change drawing"}
+      }
+    ]
+  },
+  {
+    "capitulo": "Ramo 1: potência",
+    "cenas": [
+      {
+        "narracao": "Primeiro ramo: a potência. Desenha um ferro de passar ligado na tomada, saindo da conta.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 1}
+      },
+      {
+        "narracao": "Potência é a energia que o aparelho consome a cada segundo, e ela vem no rótulo, em watts. Aqui mora a primeira pegadinha.",
+        "visual": {"tipo": "ilustracao", "cena": "a clothes iron plugged into a wall socket, with a small label tag hanging from its cord", "busca_reserva": "clothes iron plugged in drawing"}
+      },
+      {
+        "narracao": "A conta não usa watts, usa quilowatts. Quilo quer dizer mil. Para passar de watts para quilowatts, divide por mil.",
+        "visual": {"tipo": "cartao", "titulo": "Watts ÷ 1000 = quilowatts", "subtitulo": "Quilo quer dizer mil"}
+      },
+      {
+        "narracao": "Um chuveiro de seis mil watts tem seis quilowatts. Um de três mil e seiscentos watts tem três vírgula seis quilowatts. Um ferro de setecentos e cinquenta watts tem zero vírgula setenta e cinco quilowatt.",
+        "visual": {"tipo": "lista", "titulo": "De watts para quilowatts", "itens": ["6000 W = 6 kW", "3600 W = 3,6 kW", "750 W = 0,75 kW"]}
+      },
+      {
+        "narracao": "Agora pendura um galhinho de apoio nesse ramo. Potência também é tensão vezes corrente.",
+        "visual": {"tipo": "cartao", "titulo": "P = tensão × corrente", "subtitulo": "O galhinho de apoio"}
+      },
+      {
+        "narracao": "Tensão é a voltagem da tomada, medida em volts. Corrente é medida em ampères.",
+        "visual": {"tipo": "ilustracao", "cena": "a wall socket with a little battery character with a lightning bolt on one side and a flowing stream of tiny arrows on the other side", "busca_reserva": "electric socket voltage current diagram"}
+      },
+      {
+        "narracao": "Se o enunciado der tensão e corrente, você multiplica e acha a potência. Se der potência e tensão, divide e acha a corrente.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "Tensão e corrente", "itens": ["Multiplica", "Acha a potência"]}, "direita": {"titulo": "Potência e tensão", "itens": ["Divide", "Acha a corrente"]}}
+      },
+      {
+        "narracao": "Um aparelho de setecentos e cinquenta watts numa tomada de cento e vinte e sete volts puxa uns cinco vírgula nove ampères.",
+        "visual": {"tipo": "numero", "valor": "5,9 A", "rotulo": "ferro de 750 W numa tomada de 127 V"}
+      },
+      {
+        "narracao": "Esse galho é útil, mas o tronco do ramo, o que decide a questão de conta de luz, é o watt virando quilowatt.",
+        "visual": {"tipo": "cartao", "titulo": "O tronco do ramo", "subtitulo": "Watt virando quilowatt"}
+      }
+    ]
+  },
+  {
+    "capitulo": "Ramos 2 e 3: tempo e energia",
+    "cenas": [
+      {
+        "narracao": "Segundo ramo: o tempo. Desenha um relógio.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 2}
+      },
+      {
+        "narracao": "A conta mede o tempo em horas, mas o enunciado muitas vezes fala em minutos. Então divide por sessenta.",
+        "visual": {"tipo": "cartao", "titulo": "Minutos ÷ 60 = horas"}
+      },
+      {
+        "narracao": "Trinta minutos são meia hora, zero vírgula cinco. Quinze minutos são um quarto de hora, zero vírgula vinte e cinco. Cinco minutos são um doze avos de hora.",
+        "visual": {"tipo": "lista", "titulo": "Minutos em horas", "itens": ["30 min = 0,5 h", "15 min = 0,25 h", "5 min = 1/12 h"]}
+      },
+      {
+        "narracao": "E a banca gosta de dar o tempo picado: tantos minutos por dia, durante tantos dias. Multiplica os minutos pelos dias e só depois passa para horas.",
+        "visual": {"tipo": "ilustracao", "cena": "a calendar page with many small clocks scattered over the days, each clock showing a few minutes", "busca_reserva": "calendar with clocks drawing"}
+      },
+      {
+        "narracao": "Terceiro ramo: a energia. É ele que liga os dois primeiros. Energia é potência em quilowatts vezes tempo em horas, e o resultado sai em quilowatts-hora.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 3}
+      },
+      {
+        "narracao": "Volta no gancho do vídeo. Chuveiro no inverno: seis quilowatts vezes zero vírgula vinte e cinco hora dá um vírgula cinco quilowatt-hora.",
+        "visual": {"tipo": "numero", "valor": "1,5 kWh", "rotulo": "inverno: 6 kW × 0,25 h"}
+      },
+      {
+        "narracao": "No verão, em cinco minutos: três vírgula seis quilowatts vezes um doze avos de hora dá zero vírgula três. Um vírgula cinco é cinco vezes zero vírgula três.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "Inverno", "itens": ["6 kW × 0,25 h", "= 1,5 kWh"]}, "direita": {"titulo": "Verão", "itens": ["3,6 kW × 1/12 h", "= 0,3 kWh"]}}
+      },
+      {
+        "narracao": "Se vier aquecimento de água junto, a questão pode pedir joules, e aí cada quilowatt-hora vale três milhões e seiscentos mil joules.",
+        "visual": {"tipo": "numero", "valor": "3,6 milhões de J", "rotulo": "em cada 1 kWh"}
+      }
+    ]
+  },
+  {
+    "capitulo": "Ramo 4: tarifa",
+    "cenas": [
+      {
+        "narracao": "Quarto ramo: a tarifa. Desenha uma moeda pendurada na conta. Valor a pagar é energia vezes o preço de cada quilowatt-hora, e esse preço quem te dá é o enunciado.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 4}
+      },
+      {
+        "narracao": "Só para ver o tamanho do número, imagina um preço inventado de oitenta centavos por quilowatt-hora. Não é a tarifa de nenhuma distribuidora.",
+        "visual": {"tipo": "ilustracao", "cena": "a big coin with a price tag tied to it by a string, and a small question mark floating above, as if the price is made up", "busca_reserva": "coin with price tag drawing"}
+      },
+      {
+        "narracao": "A diferença entre os dois banhos do gancho, um vírgula dois quilowatt-hora, viraria noventa e seis centavos por banho.",
+        "visual": {"tipo": "numero", "valor": "R$ 0,96", "rotulo": "por banho, com um preço inventado de R$ 0,80 por kWh"}
+      },
+      {
+        "narracao": "Repara que o dinheiro é só a última multiplicação. Ele não conserta nada que veio antes. Se a energia saiu mil vezes maior, a conta em reais sai mil vezes maior junto.",
+        "visual": {"tipo": "ilustracao", "cena": "a chain of three dominoes where the last domino is a coin, the first domino is huge and pushes everything bigger", "busca_reserva": "domino chain effect illustration"}
+      },
+      {
+        "narracao": "Por isso a tarifa fica na ponta do mapa, e o erro mora nos ramos de trás.",
+        "visual": {"tipo": "cartao", "titulo": "A tarifa fica na ponta", "subtitulo": "O erro mora nos ramos de trás"}
+      },
+      {
+        "narracao": "Agora, me conta nos comentários: você já perdeu ponto numa questão por esquecer de dividir por mil ou por sessenta? Se já, deixa o like, porque o próximo ramo é exatamente sobre isso.",
+        "visual": {"tipo": "ilustracao", "cena": "a friendly cartoon student doodle scratching his head with a sheepish smile, holding a test paper with a missing point, speech bubble with a question mark", "busca_reserva": "student with test paper cartoon sheepish"}
+      }
+    ]
+  },
+  {
+    "capitulo": "Ramo 5: armadilhas",
+    "cenas": [
+      {
+        "narracao": "Quinto ramo: as armadilhas. Desenha um monstrinho das unidades escondido no rodapé da prova. Ele tem três truques.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 5}
+      },
+      {
+        "narracao": "O primeiro é o watt fingindo de quilowatt. Quem esquece de dividir por mil acha um número mil vezes maior, que muitas vezes nem aparece nas alternativas, e perde tempo procurando.",
+        "visual": {"tipo": "ilustracao", "cena": "a small goofy doodle monster wearing a fake big costume pretending to be a giant, with a tiny lightning bolt peeking out from underneath", "busca_reserva": "monster in costume disguise cartoon"}
+      },
+      {
+        "narracao": "O segundo truque é o minuto fingindo de hora. Quem lê trinta minutos por dia e usa uma hora por dia encontra o dobro da resposta certa. E a pegadinha é que esse dobro pode estar lá, esperando você nas alternativas.",
+        "visual": {"tipo": "ilustracao", "cena": "a small clock face wearing a fake mustache and a hat pretending to be a bigger clock, the doodle monster winking behind it", "busca_reserva": "clock disguise cartoon"}
+      },
+      {
+        "narracao": "O terceiro é diferente dos outros dois. Volta na história do banho. Ela vem de uma questão do ENEM dois mil e dezessete, na aplicação em Libras.",
+        "visual": {"tipo": "ilustracao", "cena": "a shower head with a speech bubble containing two cartoon hands, and a little exam paper beside it", "busca_reserva": "shower head illustration exam paper"}
+      },
+      {
+        "narracao": "Um estudante convence a mãe a trocar a chave de inverno para verão e ainda a encurtar o banho de quinze para cinco minutos. Mudaram duas coisas juntas.",
+        "visual": {"tipo": "ilustracao", "cena": "a young student pulling a switch from a flame symbol to a sun symbol while pointing at a small clock, and a mother figure nodding", "busca_reserva": "shower switch winter summer"}
+      },
+      {
+        "narracao": "O aluno apressado faz seis menos três vírgula seis, acha dois vírgula quatro quilowatts e multiplica por um quarto de hora. Dá zero vírgula seis. Errado, e esse número nem está nas opções.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "Aluno apressado", "itens": ["6 − 3,6 = 2,4 kW", "2,4 × 0,25 = 0,6", "Errado"]}, "direita": {"titulo": "Jeito certo", "itens": ["Antes: 1,5 kWh", "Depois: 0,3 kWh", "Subtrai: 1,2 kWh"]}}
+      },
+      {
+        "narracao": "Quando potência e tempo mudam juntos, você calcula a energia de antes, a energia de depois, e subtrai. Um vírgula cinco menos zero vírgula três dá um vírgula dois quilowatt-hora. Esse é o gabarito, letra C.",
+        "visual": {"tipo": "numero", "valor": "1,2 kWh", "rotulo": "1,5 − 0,3 · gabarito: letra C"}
+      }
+    ]
+  },
+  {
+    "capitulo": "Ramo 6 e o mapa completo",
+    "cenas": [
+      {
+        "narracao": "Sexto e último ramo: a conferência. Desenha uma lupa. Antes de marcar a alternativa, pergunta se o número faz sentido.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 6}
+      },
+      {
+        "narracao": "Aparelho que esquenta, como ferro e chuveiro, fica entre algumas centenas e alguns milhares de watts. Então um banho de quinze minutos dá algo na casa de um quilowatt-hora. Se a sua conta deu mil, ou deu um milésimo, o monstrinho passou por ali.",
+        "visual": {"tipo": "ilustracao", "cena": "a big magnifying glass over a shower head, the little doodle monster caught inside the lens looking embarrassed", "busca_reserva": "magnifying glass over shower head"}
+      },
+      {
+        "narracao": "Agora pausa e olha o mapa inteiro. No centro, a conta de luz. Primeiro ramo, a potência: watts divididos por mil viram quilowatts, com o galho da tensão vezes corrente.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 6}
+      },
+      {
+        "narracao": "Segundo ramo, o tempo: minutos por dia vezes dias, divididos por sessenta. Terceiro ramo, a energia: quilowatt vezes hora, com o galho dos joules. Quarto ramo, a tarifa: energia vezes o preço que o enunciado der.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 6}
+      },
+      {
+        "narracao": "Quinto ramo, as armadilhas: watt contra quilowatt, minuto contra hora e duas coisas mudando juntas. Sexto ramo, a conferência pela ordem de grandeza.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 6}
+      },
+      {
+        "narracao": "A regra de bolso cabe em três setas: divide por mil, divide por sessenta, só então multiplica.",
+        "visual": {"tipo": "lista", "titulo": "A regra de bolso", "itens": ["Divide por mil", "Divide por sessenta", "Só então multiplica"]}
+      },
+      {
+        "narracao": "Printa esse mapa, porque agora ele vai trabalhar numa questão real.",
+        "visual": {"tipo": "ilustracao", "cena": "a hand holding a smartphone taking a screenshot of a whiteboard mind map, a camera flash star next to it", "busca_reserva": "smartphone screenshot whiteboard drawing"}
+      }
+    ]
+  },
+  {
+    "capitulo": "Questão real: ENEM 2021 PPL",
+    "cenas": [
+      {
+        "narracao": "A questão é do ENEM dois mil e vinte e um, da aplicação chamada pê-pê-éle, caderno azul, questão cento e onze.",
+        "visual": {"tipo": "cartao", "titulo": "ENEM 2021 PPL", "subtitulo": "Caderno azul, questão 111"}
+      },
+      {
+        "narracao": "Um estudante lê as informações do fabricante de um ferro de passar, e a potência do ferro é de setecentos e cinquenta watts. Ele é usado, em média, trinta minutos por dia, durante trinta dias.",
+        "visual": {"tipo": "lista", "titulo": "O enunciado", "itens": ["Ferro de 750 W", "30 minutos por dia", "Durante 30 dias"]}
+      },
+      {
+        "narracao": "A pergunta: qual é o consumo mensal mais próximo, em quilowatts-hora? As alternativas vão de zero vírgula oitenta e sete até vinte e dois vírgula cinco.",
+        "visual": {"tipo": "cartao", "titulo": "Consumo mensal, em kWh?", "subtitulo": "Alternativas de 0,87 a 22,5"}
+      },
+      {
+        "narracao": "Vamos pelo mapa. Ramo do tempo primeiro: trinta minutos por dia vezes trinta dias dá novecentos minutos.",
+        "visual": {"tipo": "mapa_mental", "mapa": {"centro": "Conta de luz", "ramos": [{"rotulo": "Potência", "filhos": ["Watts ÷ 1000 = kW", "P = tensão × corrente"]}, {"rotulo": "Tempo", "filhos": ["Minutos ÷ 60 = horas", "Minutos × dias"]}, {"rotulo": "Energia", "filhos": ["kWh = kW × h", "1 kWh = 3,6 milhões de J"]}, {"rotulo": "Tarifa", "filhos": ["Energia × preço do kWh"]}, {"rotulo": "Armadilhas", "filhos": ["Watt × quilowatt", "Minuto × hora", "Duas mudanças juntas"]}, {"rotulo": "Conferência", "filhos": ["Ordem de grandeza"]}]}, "revelar": 6}
+      },
+      {
+        "narracao": "Divide por sessenta, e são quinze horas no mês.",
+        "visual": {"tipo": "numero", "valor": "15 h", "rotulo": "900 min ÷ 60, no mês"}
+      },
+      {
+        "narracao": "Ramo da potência: setecentos e cinquenta watts divididos por mil dão zero vírgula setenta e cinco quilowatt.",
+        "visual": {"tipo": "numero", "valor": "0,75 kW", "rotulo": "750 W ÷ 1000"}
+      },
+      {
+        "narracao": "Ramo da energia: zero vírgula setenta e cinco vezes quinze dá onze vírgula vinte e cinco quilowatts-hora. A alternativa mais próxima é onze vírgula três, letra D.",
+        "visual": {"tipo": "numero", "valor": "11,25 kWh", "rotulo": "0,75 × 15 · gabarito: letra D (11,3)"}
+      },
+      {
+        "narracao": "Agora olha a letra E: vinte e dois vírgula cinco. É exatamente o dobro do gabarito, o resultado de quem lê trinta minutos e faz a conta com uma hora por dia.",
+        "visual": {"tipo": "comparacao", "esquerda": {"titulo": "D: 11,3 (certa)", "itens": ["0,75 kW × 15 h", "Leitura correta"]}, "direita": {"titulo": "E: 22,5 (armadilha)", "itens": ["Dobro do gabarito", "30 min lidos como 1 h"]}}
+      },
+      {
+        "narracao": "Repara como essa alternativa funciona. Ela não depende de um erro de conta. Depende de um erro de leitura, e as outras contas podem estar todas certas.",
+        "visual": {"tipo": "ilustracao", "cena": "a trap door hidden in the floor with a cheese-like bait on top, a tiny student walking toward it with a calculator, the doodle monster hiding nearby", "busca_reserva": "hidden trap door cartoon bait"}
+      },
+      {
+        "narracao": "Por isso ela é tão perigosa: quem cai nela não vê nenhuma conta errada no rascunho.",
+        "visual": {"tipo": "ilustracao", "cena": "a puzzled student looking at a perfectly neat scratch paper full of correct calculations, with a question mark above his head", "busca_reserva": "puzzled student scratch paper calculations"}
+      },
+      {
+        "narracao": "Então, antes de marcar, faz três perguntas rápidas. Eu usei o tempo que o enunciado deu, trinta minutos, e não um tempo arredondado?",
+        "visual": {"tipo": "ilustracao", "cena": "a student holding a pencil above an answer sheet, pausing and holding up three fingers", "busca_reserva": "student pausing exam answer sheet"}
+      },
+      {
+        "narracao": "Esse tempo está em horas? A potência está em quilowatts? Se as três respostas forem sim, pode marcar.",
+        "visual": {"tipo": "lista", "titulo": "Três perguntas antes de marcar", "itens": ["Usei o tempo do enunciado?", "O tempo está em horas?", "A potência está em kW?"]}
+      }
+    ]
+  },
+  {
+    "capitulo": "Tese e próximo mapa",
+    "cenas": [
+      {
+        "narracao": "Então fica a tese deste mapa. Nas questões que a gente resolveu hoje, a dificuldade não estava na fórmula. Estava na unidade.",
+        "visual": {"tipo": "cartao", "titulo": "A dificuldade está na unidade", "subtitulo": "Não na fórmula"}
+      },
+      {
+        "narracao": "Quem divide por mil e por sessenta antes de multiplicar chega no gabarito. Quem corre pode cair na alternativa que a banca deixou pronta.",
+        "visual": {"tipo": "ilustracao", "cena": "a calm student walking steadily across a bridge made of two big division signs, while a running student trips over a trap on the side", "busca_reserva": "two students walking running cartoon bridge"}
+      },
+      {
+        "narracao": "Ninguém pode garantir o que vai cair no domingo, mas esse molde de potência vezes tempo já apareceu em várias edições, com chuveiro, ferro ou tabela de consumo. As três setas valem para qualquer aparelho que aparecer no enunciado.",
+        "visual": {"tipo": "ilustracao", "cena": "three arrows in a row pointing to a shower, an iron and a table of numbers, all stamped with the same cookie-cutter mold shape", "busca_reserva": "cookie cutter mold arrows illustration"}
+      },
+      {
+        "narracao": "Se esse mapa te ajudou, se inscreve no Mapeado, deixa o like e responde lá embaixo aquela pergunta do meio do vídeo: em qual conversão o monstrinho das unidades já te pegou, na do mil ou na do sessenta?",
+        "visual": {"tipo": "ilustracao", "cena": "the little doodle monster waving at the viewer with a big friendly grin, holding a thumbs-up sign and a tiny bell", "busca_reserva": "friendly monster waving cartoon thumbs up"}
+      },
+      {
+        "narracao": "Quinta-feira sai mais um mapa da revisão final para o segundo dia, de outra matéria, para você fechar a semana com tudo no lugar. Até quinta.",
+        "visual": {"tipo": "ilustracao", "cena": "a calendar page with one day circled in orange marker and a cartoon teacher waving goodbye next to it", "busca_reserva": "calendar day circled teacher waving"}
+      }
+    ]
+  }
+]

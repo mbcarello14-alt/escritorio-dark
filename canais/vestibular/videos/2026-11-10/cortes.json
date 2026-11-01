@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 4],
+      "gancho": "O mesmo chuveiro gasta 5 vezes mais?",
+      "titulo": "Mesmo chuveiro, banho 5 vezes mais caro: como assim?",
+      "descricao": "Inverno ou verão, 15 ou 5 minutos: a diferença de energia é enorme. O mapa mental completo da conta de luz está no canal.",
+      "hashtags": ["#enem", "#fisica", "#mapamental"],
+      "legenda_reels": "O mesmo chuveiro, em dois banhos, gasta 5 vezes mais energia em um deles. É assunto clássico de Física no ENEM. Segue o perfil para mapas mentais que revisam rápido. #enem #fisica #mapamental #vestibular"
+    },
+    {
+      "de": [2, 2], "ate": [2, 6],
+      "gancho": "A conta de luz não cobra potência",
+      "titulo": "A conta de luz não cobra o que você pensa (Física ENEM)",
+      "descricao": "O aparelho fraquinho ligado o dia todo gasta mais que o forte ligado rapidinho. Veja o mapa completo no canal.",
+      "hashtags": ["#enem", "#fisica", "#energia"],
+      "legenda_reels": "A conta de luz cobra energia, não potência. Energia é potência vezes tempo, e a banca adora isso no ENEM. Segue o perfil para mais mapas mentais. #enem #fisica #energia #estudos"
+    },
+    {
+      "de": [6, 5], "ate": [6, 7],
+      "gancho": "A conta que todo mundo erra no ENEM",
+      "titulo": "A pegadinha da conta de luz que derruba no ENEM",
+      "descricao": "Quando potência e tempo mudam juntos, o jeito apressado dá errado. Questão do ENEM 2017 (Libras) explicada no vídeo completo do canal.",
+      "hashtags": ["#enem", "#fisica", "#questaodoenem"],
+      "legenda_reels": "Potência e tempo mudando juntos: o jeito apressado erra, o jeito certo é calcular antes, depois e subtrair. Segue o perfil para revisar o ENEM em mapas. #enem #fisica #questaodoenem #revisao"
+    }
+  ]
+}
