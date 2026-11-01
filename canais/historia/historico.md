@@ -11,3 +11,4 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 - 2026-10-29: Vídeo longo sobre crises em que o dinheiro quase não se mexeu mas o poder caiu (Bolsa estável, presidente derrubado), no mesmo tom do Short de 649 views.
 - 2026-10-31: Vídeo longo sobre o governo que queimou café de propósito (Short com 232 views), contado pelo dinheiro: preço, estoque e quem pagou a conta.
 - 2026-11-01: Reis e seus banqueiros: como governantes endividados trocaram de credor ao longo da história (ex.: Filipe IV e os banqueiros florentinos a partir de c. 1295), contado pelo dinheiro. Ponto levantado em comentário no vídeo dos Templários; checar fontes antes.
+- 2026-11-01: Vídeo longo sobre como funcionava o "Pix medieval" dos Templários (cartas de crédito, depósitos e escolta), já que o Short fez 1.252 views em 9 horas; checar fontes antes.
