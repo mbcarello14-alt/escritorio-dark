@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "10% + 10% NÃO é 20%: a pegadinha do ENEM",
+    "angulo": "Um único mapa em torno do fator multiplicativo resolve desconto, aumento, sucessivos e juros compostos, em vez de decorar cinco fórmulas.",
+    "porque": "A audiência do canal pediu um longo sobre esse tema e o ENEM dia 2 é em 15/11 com Matemática."
+  },
+  {
+    "titulo": "Conta de luz no ENEM: a questão que sempre cai",
+    "angulo": "O mapa mental é a própria conta de luz (kW × h = kWh × tarifa), mostrando o que o ENEM cobra de eletrodinâmica e como não errar as unidades.",
+    "porque": "Levantamentos de cursinhos apontam eletrodinâmica como a maior fatia de Física e quase toda prova tem questão de potência e consumo."
+  },
+  {
+    "titulo": "Heredograma no ENEM: descubra o padrão em 30 s",
+    "angulo": "O mapa vira uma árvore de três perguntas (recessivo, ligado ao X, probabilidade) para ler qualquer heredograma sem decorar casos.",
+    "porque": "Genética está entre os temas citados nas revisões do 2º dia, e as aulas existentes começam por Mendel em vez do método de leitura."
+  }
+]
