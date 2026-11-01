@@ -10,3 +10,4 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 - 2026-10-28: Inflação ao longo da história: os primeiros casos de dinheiro que perdeu valor (moedas diluídas, preços tabelados) contados pelo dinheiro. Pedido de @pedrocunha593 ("Primeiro caso de inflação da história?").
 - 2026-10-29: Vídeo longo sobre crises em que o dinheiro quase não se mexeu mas o poder caiu (Bolsa estável, presidente derrubado), no mesmo tom do Short de 649 views.
 - 2026-10-31: Vídeo longo sobre o governo que queimou café de propósito (Short com 232 views), contado pelo dinheiro: preço, estoque e quem pagou a conta.
+- 2026-11-01: Reis e seus banqueiros: como governantes endividados trocaram de credor ao longo da história (ex.: Filipe IV e os banqueiros florentinos a partir de c. 1295), contado pelo dinheiro. Ponto levantado em comentário no vídeo dos Templários; checar fontes antes.
