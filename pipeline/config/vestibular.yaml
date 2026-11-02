@@ -68,6 +68,22 @@ reels:                   # reels chamativos 3D (3 por semana, aprovados no Teleg
   ligado: true
   publicar: ["mon 19:00", "wed 19:00", "sun 19:00"]   # 3 reels por semana
 
+longos:                  # vídeos longos (comando /longo mapeado <matéria>)
+  formato: revisao
+  nome_formato: "Revisão para ouvir"
+  minutos: 80
+  blocos: 8              # 8 blocos de ~10 min (um tema por bloco)
+  palavras_por_bloco: 1250
+  imagens_por_bloco: 5
+  publicar: ["sun 15:00"]
+  tom: >-
+    Narre em português do Brasil, com sotaque brasileiro neutro, como um professor de cursinho calmo e muito claro,
+    gravando uma revisão para o aluno ouvir no ônibus: ritmo tranquilo e constante, ênfase leve nos termos que caem na
+    prova, pausas curtas entre os tópicos, sem gritar e sem empolgação exagerada.
+  estilo_imagem: >-
+    clean dark chalkboard illustration, white and pastel chalk drawings on a deep green-black board, simple diagrams
+    and icons, calm study atmosphere, no readable text, no letters, no watermark
+
 youtube:
   categoria_id: "27"
   idioma: pt-BR

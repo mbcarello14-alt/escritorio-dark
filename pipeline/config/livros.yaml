@@ -67,6 +67,21 @@ reels:                   # reels chamativos 3D (3 por semana, aprovados no Teleg
   ligado: true
   publicar: ["mon 20:00", "thu 20:30", "sun 20:00"]   # 3 reels por semana
 
+longos:                  # vídeos longos (comando /longo livros <tema>)
+  formato: dormir
+  nome_formato: "Livros para dormir"
+  minutos: 150
+  blocos: 15
+  palavras_por_bloco: 1250
+  imagens_por_bloco: 4
+  publicar: ["sun 21:30"]
+  tom: >-
+    Narre em português do Brasil, com sotaque brasileiro neutro, como uma leitora calma lendo em voz baixa à noite:
+    voz suave e aconchegante, ritmo lento, pausas longas, sem ironia e sem empolgação, sem mudanças bruscas de volume.
+  estilo_imagem: >-
+    dark cozy painterly illustration, warm lamp light in a dark room, deep burgundy and amber shadows, soft paper texture,
+    calm still atmosphere, no text, no letters, no watermark, no book covers
+
 youtube:
   categoria_id: "27"
   idioma: pt-BR

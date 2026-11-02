@@ -77,6 +77,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run reels.yml -f acao="${{ steps.bot.outputs.reel_acao }}" -f pasta="${{ steps.bot.outputs.reel_pasta }}"
 
+      - name: Vídeos longos
+        if: steps.bot.outputs.longo_acao != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run longos.yml -f acao="${{ steps.bot.outputs.longo_acao }}" -f pasta="${{ steps.bot.outputs.longo_pasta }}"
+
       - name: Avisar erro
         if: failure()
         run: python -m pipeline.bot erro "${{ steps.bot.outputs.pasta }}"

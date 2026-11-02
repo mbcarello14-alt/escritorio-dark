@@ -62,6 +62,22 @@ reels:                   # reels chamativos 3D (3 por semana, aprovados no Teleg
   ligado: true
   publicar: ["tue 20:00", "thu 20:00", "sun 12:00"]   # 3 reels por semana
 
+longos:                  # vídeos longos (comando /longo ouro <tema>)
+  formato: dormir
+  nome_formato: "História para dormir"
+  minutos: 150
+  blocos: 15             # 15 blocos de ~10 min
+  palavras_por_bloco: 1250
+  imagens_por_bloco: 4
+  publicar: ["sun 21:00"]
+  tom: >-
+    Narre em português do Brasil, com sotaque brasileiro neutro, como um contador de histórias calmo à beira da cama:
+    voz grave e baixa, ritmo lento e constante, pausas longas entre as frases, sem empolgação, sem ironia e sem
+    mudanças bruscas de volume. Deve soar acolhedor e sonolento, como quem embala alguém para dormir.
+  estilo_imagem: >-
+    dark moody painterly illustration, candlelight and moonlight, deep shadows, muted gold and navy palette,
+    soft brush texture, calm and still atmosphere, no text, no letters, no watermark
+
 youtube:
   categoria_id: "27"     # Educação
   idioma: pt-BR

@@ -10,3 +10,5 @@ __pycache__/
 # credenciais NUNCA vão para o repositório
 client_secret*.json
 .env
+# mídia dos vídeos longos (fica no cache do GitHub Actions)
+**/longos/*/midia/

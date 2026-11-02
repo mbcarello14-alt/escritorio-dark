@@ -101,6 +101,23 @@ def enviar_roteiro(pasta: Path) -> None:
     E.salvar_estado(pasta, etapa="aguardando_aprovacao")
 
 
+def enviar_plano_longo(pasta: Path) -> None:
+    from . import longo as L
+    from .comum import carregar_config
+    if not (pasta / "plano.json").exists():
+        T.enviar("⚠️ O plano do vídeo longo não ficou pronto. Tente /longos ou peça de novo.")
+        return
+    p, e = L.plano(pasta), L.ler(pasta)
+    cfg = carregar_config(e["canal"])
+    caps = "\n".join(f"{c['n']}. <b>{esc(c['titulo'])}</b> — {esc(c.get('resumo', ''))[:140]}" for c in p["capitulos"])
+    texto = (f"🌙 <b>Plano do vídeo longo — {esc(cfg['nome'])}</b> ({esc(cfg['longos']['nome_formato'])}, ~{cfg['longos']['minutos']} min)\n\n"
+             f"<b>{esc(p['titulo_youtube'])}</b>\n\n{caps}\n\n🖼️ Thumbnail: “{esc(p['thumbnail']['texto'])}”\n\n"
+             "Responda <b>aprovar</b> para começar a escrever, ou diga o que mudar.")
+    ids = T.enviar(texto)
+    E.registrar_msgs(ids[:1], pasta, "longo_plano")
+    L.salvar(pasta, etapa="aguardando_plano")
+
+
 def _narra_sozinho(pasta: Path) -> bool:
     from .comum import carregar_config
     m = carregar_config(E.ler_estado(pasta)["canal"])["voz"]["motor"]
@@ -175,6 +192,8 @@ AJUDA = ("🤖 <b>Comandos</b>\n"
          "/pauta historia | vestibular | livros — começa um vídeo extra agora\n"
          "/lote — pede as pautas dos próximos dias da rotina\n"
          "/vozes — ouvir as vozes do narrador de IA\n"
+         "/longo ouro|livros|mapeado <tema> — começa um vídeo longo (2h30 para dormir / revisão)\n"
+         "/longos — vídeos longos em produção\n"
          "/narrar — o narrador de IA grava um vídeo que estava esperando seus áudios\n"
          "/ajuda — esta mensagem\n\n"
          "No dia a dia é só <b>responder</b> às mensagens: número da pauta, \"aprovar\" no roteiro e áudio em cada bloco.")
@@ -240,6 +259,19 @@ def receber(evento: dict) -> None:
             pastas = planejar(canal)
             if pastas:
                 _saida(comando=f"/pautas {' '.join(E.rel(p) for p in pastas)}", pos="enviar-pautas")
+        elif cmd == "/longo":
+            from . import longo as L
+            if len(args) < 2 or L.CANAL_ALIAS.get(args[0].lower()) is None:
+                T.enviar("Use assim:\n/longo ouro <tema>  (2h30 de história para dormir)\n/longo livros <tema>  (2h30 de livros para dormir)\n"
+                         "/longo mapeado <matéria>  (revisão de 1h–1h30 para o ENEM)")
+                return
+            pasta = L.criar(args[0], " ".join(args[1:]))
+            T.enviar(f"🌙 Vídeo longo começado: <b>{esc(' '.join(args[1:]))}</b>\nO roteirista está pesquisando e planejando os capítulos. "
+                     "O plano chega aqui para você aprovar (uns 10–20 min).")
+            _saida(comando=f"/longo-plano {L.rel(pasta)}", pos="enviar-plano-longo", pasta=L.rel(pasta))
+        elif cmd == "/longos":
+            from . import longo as L
+            T.enviar(L.status())
         elif cmd == "/narrar":
             alvo = [p for p, e in E.todos_videos() if e.get("etapa") == "aguardando_audio"]
             if not alvo:
@@ -342,6 +374,33 @@ def receber(evento: dict) -> None:
             _saida(comando=f"/ajustar {E.rel(pasta)}", pos="enviar-roteiro", pasta=E.rel(pasta))
         return
 
+    if tipo in ("longo_plano", "longo_video"):
+        from . import longo as L
+        e = L.ler(pasta)
+        if tipo == "longo_plano":
+            if APROVAR.match(texto):
+                L.salvar(pasta, etapa="escrevendo")
+                total = e["blocos_total"]
+                T.enviar(f"✍️ Plano aprovado! Agora os blocos são escritos e checados aos poucos (3 por rodada, 2 rodadas por dia; "
+                         f"{total} no total), depois vêm a narração e as imagens. Em uns 3 a 5 dias o vídeo chega aqui para você assistir. "
+                         "Acompanhe com /longos.", responder_a=msg["message_id"])
+                _saida(longo_acao="escrever", longo_pasta=L.rel(pasta))
+            else:
+                L.salvar(pasta, etapa="ajuste_plano", ajustes=e.get("ajustes", []) + [texto])
+                T.enviar("🗺️ Anotado, ajustando o plano.", responder_a=msg["message_id"])
+                _saida(comando=f"/longo-plano {L.rel(pasta)}", pos="enviar-plano-longo", pasta=L.rel(pasta))
+        else:
+            if APROVAR.match(texto):
+                T.enviar("📅 Aprovado! Agendando…", responder_a=msg["message_id"])
+                _saida(longo_acao="agendar", longo_pasta=L.rel(pasta))
+            elif re.match(r"^\s*(cancelar|cancela)\b", texto, re.I):
+                T.enviar("🗑️ Cancelado: o vídeo fica privado no canal (nada é apagado).", responder_a=msg["message_id"])
+                _saida(longo_acao="cancelar", longo_pasta=L.rel(pasta))
+            else:
+                T.enviar("Anotei. Mudanças num vídeo de 2h30 já montado eu faço pelo Claude Code: me conte lá o que mudar. "
+                         "Aqui no Telegram responda <b>aprovar</b> ou <b>cancelar</b>.", responder_a=msg["message_id"])
+        return
+
     if tipo == "reel":
         if APROVAR.match(texto):
             T.enviar("✅ Esse reel já está agendado, não precisa fazer nada.", responder_a=msg["message_id"])
@@ -400,6 +459,8 @@ def main():
         evento = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text(encoding="utf-8")) if not args else \
             json.loads(Path(args[0]).read_text(encoding="utf-8"))
         receber(evento)
+    elif cmd == "enviar-plano-longo":
+        enviar_plano_longo(_pasta(sys.argv[2]))
     elif cmd == "enviar-roteiro":
         enviar_roteiro(_pasta(args[0]))
     elif cmd == "enviar-blocos":
