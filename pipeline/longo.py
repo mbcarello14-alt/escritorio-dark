@@ -436,6 +436,11 @@ def avancar(pasta: Path) -> str:
             return etapa
         etapa = salvar(pasta, etapa="imagens")["etapa"]
     if etapa == "imagens":
+        # a cota grátis de imagens é dividida com os vídeos da rotina: eles têm prioridade
+        from . import estado as E2
+        if any(ev.get("etapa") in ("producao_json", "renderizando", "aguardando_cota") for _, ev in E2.todos_videos()):
+            log.info("um vídeo da rotina está usando a cota de imagens — o longo espera a próxima rodada")
+            return etapa
         fracao = imagens(pasta, cfg)
         if fracao < 0.9 and not os.environ.get("FORCAR_SEM_IMAGEM"):
             log.info("imagens em %.0f%% — espera a cota voltar", fracao * 100)
