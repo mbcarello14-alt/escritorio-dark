@@ -1,0 +1,15 @@
+14:02:22 WARNING Gemini TTS instável (503) — tentando de novo
+14:03:38 WARNING Gemini TTS instável (503) — tentando de novo
+14:04:02 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+14:04:02 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+14:04:03 INFO Processing audio with duration 00:25.247
+[0;93m2026-11-02 14:04:03.254051487 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+14:04:03 INFO VAD filter removed 00:00.000 of audio
+14:04:11 INFO Processing audio with duration 00:25.247
+14:04:11 INFO VAD filter removed 00:00.000 of audio
+14:04:21 INFO Processing audio with duration 00:25.248
+14:04:21 INFO VAD filter removed 00:00.000 of audio
+14:04:30 INFO bloco 1: 25.2s, 66 palavras reconhecidas
+14:13:12 INFO render 3D: pronto: 800 quadros em 519s
+14:13:48 INFO reel pronto: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/reels/2026-11-02/saida/reel.mp4 (26.6s)
+14:13:52 INFO Short agendado: https://youtube.com/shorts/kJuXEb266vM (2026-11-05T23:00:00Z)

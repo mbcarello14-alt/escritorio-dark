@@ -1,0 +1,60 @@
+{
+  "canal": "livros",
+  "titulo": "O spray que ninguém usava, nem de graça (O Poder do Hábito)",
+  "descricao": "Em O Poder do Hábito, Charles Duhigg conta como o Febreze só vendeu quando virou o prêmio final da faxina. O autor defende que todo hábito precisa de uma recompensa.",
+  "hashtags": ["#livros", "#opoderdohabito", "#charlesduhigg"],
+  "legenda_reels": "O Febreze não vendia nem de graça, até virar o prêmio da faxina. A história está em O Poder do Hábito, de Charles Duhigg. Comenta BORRIFAR #livros #opoderdohabito #booktok",
+  "isca": "Comenta BORRIFAR",
+  "cenario": {"ceu": "#CDEAF7", "chao": "#a5d6a7", "cidade": false, "arvores": 1, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "frasco", "tipo": "cilindro", "pos": [1.6, 0, 0], "tam": [0.8, 1.6], "cor": "#4cc9f0", "oculto": true},
+    {"id": "pessoa", "tipo": "boneco", "pos": [-1.7, 0, 0.8], "cor": "#e76f51", "calca": "#264653", "fala": true},
+    {"id": "casa", "tipo": "casa", "pos": [-0.2, 0, -2.5], "cor": "#f4a261", "telhado": "#8d3b2b", "oculto": true},
+    {"id": "livro", "tipo": "livro", "cor": "#e63946", "titulo": "O Poder do Hábito\nCharles Duhigg", "pos": [0.2, 0, 1.8], "escala": 1.7, "oculto": true},
+    {"id": "mau", "tipo": "texto", "texto": "ACABA COM\nMAU CHEIRO!", "cor": "#ffffff", "fundo": "#6d4c41", "tam": 0.9, "pos": [0, 0.74], "oculto": true},
+    {"id": "premio", "tipo": "texto", "texto": "O PRÊMIO FINAL\nDA FAXINA", "cor": "#ffffff", "fundo": "#2a9d8f", "tam": 1.0, "pos": [0, 0.74], "oculto": true},
+    {"id": "alta", "tipo": "barra", "pos": [1.6, 0, -1.2], "altura": 0, "largura": 1.0, "cor": "#ffd166", "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Um spray que ninguém usava, nem de graça, virou sucesso com uma ideia.", "acoes": [
+      {"t": 0.1, "alvo": "frasco", "acao": "aparecer", "som": "pop"},
+      {"t": 0.4, "alvo": "frasco", "acao": "escalar", "para": 2, "som": "ding"},
+      {"t": 1.5, "alvo": "pessoa", "acao": "olhar", "para": -50},
+      {"t": 2.8, "alvo": "frasco", "acao": "girar", "voltas": 1}
+    ]},
+    {"texto": "É a história do Febreze em O Poder do Hábito, de Charles Duhigg.", "acoes": [
+      {"t": 0.0, "acao": "camera", "pos": [0, 4.5, 13], "olha": [0, 2.8, 0], "dur": 1.0, "som": "whoosh"},
+      {"t": 0.2, "alvo": "livro", "acao": "aparecer", "som": "ding"},
+      {"t": 0.5, "alvo": "livro", "acao": "girar", "voltas": 1},
+      {"t": 2.5, "alvo": "pessoa", "acao": "acenar"}
+    ]},
+    {"texto": "A propaganda prometia acabar com mau cheiro, mas a gente se acostuma com o cheiro de casa.", "acoes": [
+      {"t": 0.0, "alvo": "mau", "acao": "aparecer", "som": "pop"},
+      {"t": 0.3, "alvo": "casa", "acao": "aparecer", "som": "pop"},
+      {"t": 2.0, "alvo": "pessoa", "acao": "olhar", "para": 50},
+      {"t": 3.5, "alvo": "mau", "acao": "cor", "cor": "#9e9e9e"},
+      {"t": 4.0, "alvo": "pessoa", "acao": "pular", "altura": 0.6}
+    ]},
+    {"texto": "Aí uma cliente mostrou o segredo: borrifava depois de limpar, como comemoração.", "acoes": [
+      {"t": 0.0, "alvo": "mau", "acao": "sumir"},
+      {"t": 0.2, "alvo": "pessoa", "acao": "mover", "para": [0.4, 0, 0.8], "som": "whoosh"},
+      {"t": 1.8, "alvo": "frasco", "acao": "pular", "altura": 1.0, "som": "pop"},
+      {"t": 3.2, "alvo": "pessoa", "acao": "girar", "voltas": 1}
+    ]},
+    {"texto": "Virou o prêmio final da faxina, e as vendas dispararam.", "acoes": [
+      {"t": 0.0, "alvo": "premio", "acao": "aparecer", "som": "ding"},
+      {"t": 0.5, "alvo": "alta", "acao": "aparecer", "som": "pop"},
+      {"t": 0.7, "alvo": "alta", "acao": "crescer", "para": 6, "dur": 1.6, "som": "caixa"},
+      {"t": 2.4, "acao": "tremer", "forca": 0.4, "som": "boom"},
+      {"t": 2.4, "alvo": "premio", "acao": "escalar", "para": 1.2}
+    ]},
+    {"texto": "Que pequeno prêmio fecha a sua rotina? Comenta BORRIFAR, que a gente indica mais um.", "acoes": [
+      {"t": 0.0, "alvo": "premio", "acao": "sumir"},
+      {"t": 0.0, "acao": "camera", "pos": [0, 5, 15], "olha": [0, 3.2, 0], "dur": 1.0},
+      {"t": 0.8, "alvo": "pessoa", "acao": "acenar"},
+      {"t": 2.5, "alvo": "livro", "acao": "pular", "altura": 0.7, "som": "pop"},
+      {"t": 4.0, "alvo": "frasco", "acao": "girar", "voltas": 1, "som": "ding"}
+    ]}
+  ]
+}
