@@ -1,12 +1,19 @@
 {
   "video_id": "9CZ1G8eEzEY",
-  "janelas": {},
+  "janelas": {
+    "7": {
+      "ate": "2026-11-02",
+      "metricas": {},
+      "retencao": [],
+      "trafego": []
+    }
+  },
   "parcial": {},
   "canal": {
-    "viewCount": "3804",
-    "subscriberCount": "3",
+    "viewCount": "3856",
+    "subscriberCount": "6",
     "hiddenSubscriberCount": false,
-    "videoCount": "8"
+    "videoCount": "10"
   },
-  "atualizado_em": "2026-11-01T11:28:23+00:00"
+  "atualizado_em": "2026-11-02T11:48:01+00:00"
 }
