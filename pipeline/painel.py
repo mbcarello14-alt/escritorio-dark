@@ -40,6 +40,13 @@ def gerar() -> dict:
                 "renderizando_reel": f"reels_{r.get('canal')}", "aguardando_aprovacao_reel": "miguel"}.get(r.get("etapa"))
         if quem:
             ativos.setdefault(quem, []).append(f"Reel {E.nome_canal(r.get('canal'))}: {r.get('titulo') or 'criando'}")
+    for arq in sorted((RAIZ / "canais").glob("*/longos/*/estado.json")):
+        lg = json.loads(arq.read_text(encoding="utf-8"))
+        quem = {"planejando": f"roteirista_{lg.get('canal')}", "ajuste_plano": f"roteirista_{lg.get('canal')}",
+                "escrevendo": f"roteirista_{lg.get('canal')}", "narrando": "narrador", "imagens": "ilustrador",
+                "montando": "editor", "aguardando_plano": "miguel", "aguardando_aprovacao_longo": "miguel"}.get(lg.get("etapa"))
+        if quem:
+            ativos.setdefault(quem, []).append(f"Longo {E.nome_canal(lg.get('canal'))}: {lg.get('tema', '')}")
     canais = []
     for c in E.CANAIS:
         m = json.loads((RAIZ / "canais" / c / "metricas-canal.json").read_text()) \
