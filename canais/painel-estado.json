@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-02T19:57:28Z",
+  "atualizado_em": "2026-11-02T23:26:19Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
@@ -9,16 +9,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-02",
-      "rotulo": "segunda 02/11 18h00",
-      "publicar_em_utc": "2026-11-02T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Quanto custava tirar uma alma do purgatório?",
-      "url": "https://youtu.be/Ow6CaIrVHwY"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-03",
@@ -61,16 +51,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "historia",
-      "dia": "2026-10-26",
-      "rotulo": "segunda 26/10 18h00",
-      "publicar_em_utc": "2026-10-26T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Wall Street não quebrou o Brasil sozinha",
-      "url": "https://youtu.be/9CZ1G8eEzEY"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-10-27",
@@ -120,6 +100,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Brás Cubas vale ler hoje? Resumo e crítica honesta",
       "url": "https://youtu.be/0iS8C3pzNYY"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-11-02",
+      "rotulo": "segunda 02/11 18h00",
+      "publicar_em_utc": "2026-11-02T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Quanto custava tirar uma alma do purgatório?",
+      "url": "https://youtu.be/Ow6CaIrVHwY"
     }
   ],
   "canais": [
@@ -128,7 +118,7 @@
       "nome": "Ouro & Império",
       "inscritos": 6,
       "horas": 12.2,
-      "publicados": 2
+      "publicados": 3
     },
     {
       "id": "vestibular",
