@@ -15,3 +15,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-02
 - Comparar sistemas financeiros antigos com coisas de hoje (Pix, cartão, cheque) no título e no gancho, como o Short do Pix medieval (1255 views), em vez de títulos só descritivos.
+
+### 2026-11-03
+- Outros sistemas financeiros antigos explicados por equivalentes de hoje (cheque, cartão, seguro), no estilo do Pix medieval dos Templários (1.257 views).

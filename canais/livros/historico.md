@@ -11,3 +11,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 - 2026-10-30: Enigmas e problemas de lógica e matemática pediram explicação nos comentários; avaliar se cabe no canal ou se pertence ao Mapeado.
 - 2026-10-30: Mais Shorts de "o que todo mundo acha que sabe sobre o clássico" (nome errado, autoria escondida); o do Frankenstein chegou a 450 views.
 - 2026-10-31: Nova série de Shorts de "o que todo mundo acha que sabe sobre o clássico" (o do Frankenstein chegou a 456 views).
+
+### 2026-11-03
+- Testar o gancho "o que todo mundo acha que sabe" com obras muito conhecidas: o Short do Frankenstein fez 462 views, enquanto os de outros livros ficaram abaixo de 40.

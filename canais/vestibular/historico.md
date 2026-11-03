@@ -13,3 +13,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-02
 - Shorts de pegadinha com número e pergunta no título (regra de três 844 views) rendem mais que títulos de contexto histórico (Plano Cohen 84 views); repetir o formato em outras matérias do rodízio.
+
+### 2026-11-03
+- Shorts de pegadinha de Enem com número ou pergunta no título em outras matérias do rodízio (Física, Química, Biologia), repetindo o formato da regra de três (844 views).
