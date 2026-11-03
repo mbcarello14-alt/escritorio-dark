@@ -1,0 +1,221 @@
+comando: /longo-escrever canais/historia/longos/2026-11-02-roma-antiga 3
+🔧 Bash {"command": "cd canais/historia/longos/2026-11-02-roma-antiga && cat estado.json && head -c 3000 plano.json && ls blocos 2>/dev/null && grep -l '\"checado\": *true' blocos/*.json 2>/dev/null"}
+💬 Blocos 1–9 já estão checados. Faltam os blocos 10, 11 e 12, então vou chamar o roteirista.
+🔧 Agent {"subagent_type": "roteirista-longo-historia", "description": "Escrever blocos 10-12", "prompt": "Etapa 2 (escrever). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/20
+💬 O roteirista está escrevendo os blocos 10 a 12. Aguardo o aviso de conclusão para seguir com a checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/plano.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_09.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/estado.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "content": "{\n  \"n\": 10,\n  \"capitulo\": \"Augusto e a paz que
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "content": "{\n  \"n\": 11,\n  \"capitulo\": \"Um império de moeda
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json", "content": "{\n  \"n\": 12,\n  \"capitulo\": \"Casas, famílias e e
+💬 Escrevi os blocos 10, 11 e 12, todos com `"checado": false`. Não rodei validação nem contei as palavras, então o tamanho de cada bloco (meta de cerca de 1250) está sem conferir.
+
+- **Bloco 10, "Augusto e a paz que custava caro":** a ascensão de Augusto em vinte e sete antes de Cristo e a Pax Romana. Cobre o aerarium militare de seis depois de Cristo e seus impostos, os recenseamentos e a escada de valores áureo, denário, sestércio e asse. Também trata das moedas como retrato do imperador e dos vigiles.
+- **Bloco 11, "Um império de moedas e mercadores":** as rotas do Mar Vermelho à Índia, o Pér
+💬 Agora chamo o checador para os três blocos, em paralelo.
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 10", "prompt": "Confira os fatos do `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antig
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json"}
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 11", "prompt": "Confira os fatos do `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antig
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json"}
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 12", "prompt": "Confira os fatos do `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antig
+💬 Os três checadores estão rodando. Aguardo os vereditos.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Slavery_in_ancient_Rome", "prompt": "What are the estimates of the proportion of slaves in the population of Italy and of the empire (Scheidel, Hopkins, Harper)?
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Lucius_Caecilius_Iucundus", "prompt": "What is known about Iucundus's origin: was he a freedman, or son of a freedman (Caecilius Felix)? What do sources say is c
+🔧 WebFetch {"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Augustus*.html", "prompt": "Does this page load? Quote Suetonius Aug. 28 on marble/brick and Aug. 49 on aerarium militar
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Aerarium_militare", "prompt": "Amounts paid to legionaries and praetorians, years of service, initial funding, taxes (5% inheritance, 1% auction), date AD 6."}
+🔧 WebFetch {"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/55*.html", "prompt": "Chapters 23-25: soldiers' discharge payments (praetorians, others), years of service, taxes for aerarium m
+🔧 WebSearch {"query": "Scheidel slaves share of population Roman Italy estimate Hopkins one third revised 15-25 percent", "mode": "standard"}
+🔧 WebSearch {"query": "Caecilius Iucundus Pompeii banker freedman or son of freedman Felix \"Caecilius\" nomen evidence", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Muziris_papyrus", "prompt": "Date of papyrus, cargo contents, value in sesterces, nature of document (loan), where kept, ship name."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Indo-Roman_trade_relations", "prompt": "Pliny the Elder figures on sesterces drained to India/Arabia/China per year; length of voyage to India (days/months); Rom
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/La_Graufesenque", "prompt": "Where was La Graufesenque pottery exported (Britain, Egypt?), dates."}
+🔧 WebSearch {"query": "Rio Tinto Roman silver mining Carthago Nova silver denarii Hispania Pliny sestertii 100 million India Arabia Seres", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_10.md", "content": "# Checagem do bloco 10 (Augusto e a paz que custava c
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_12.md", "content": "# Checagem do bloco 12 (Casas, famílias e escravizado
+💬 **Veredito: DEVOLVER.** O bloco precisa de correções pequenas, sem reescrita. Salvei a checagem completa em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_10.md`. Não editei o bloco.
+
+**Valores da aposentadoria e impostos do aerarium militare**
+- Os 12.000 sestércios do legionário (3.000 denários) conferem. Dião Cássio 55.23 e a Wikipedia dão esse valor depois de 20 anos de serviço.
+- A guarda pretoriana recebia 20.000 sestércios (5.000 denários) depois de 16 anos. É cerca de 67% a mais, então "um pouco maior" engana.
+- O impost
+💬 Aguardo os checadores dos blocos 11 e 12 para devolver todas as correções ao roteirista de uma vez.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_11.md", "content": "# Checagem do bloco 11 — \"Um império de moedas e mer
+💬 **Veredito: DEVOLVER.** Salvei a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_12.md`. Não editei o bloco.
+
+Conferi os pontos centrais com a Wikipedia sobre Jucundo e sobre escravidão romana, e com a busca sobre Scheidel (JRS 2005). Não reabri todas as fontes listadas no bloco. Também não consegui conferir a continuidade com os blocos anteriores ("moedas até os portos do Oriente", "como vimos").
+
+Correções (trecho → texto corrigido):
+
+1. **"Um quinto"**
+   - Trecho: "talvez cerca de um quinto ou mais, mas o debate c
+💬 Falta só o checador do bloco 11. Aguardo.
+💬 **Veredito: DEVOLVER.** Salvei as observações em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_11.md`. Não editei o bloco.
+
+Só a cifra de Plínio (100 milhões) foi confirmada nesta sessão, pela Wikipedia (Indo-Roman trade relations). Outros números que cito abaixo vêm de literatura acadêmica conhecida e não pude reabri-los: 50 milhões só da Índia (NH 12.84), cerca de 40 dias de viagem (NH 6.104), 7 milhões do Hermapollon e 7,5 kg de pimenta. Confira-os antes de entrarem no texto como números exatos. A URL da Wikipedia "Muziris_p
+💬 Os três blocos voltaram com correções. Mando tudo ao roteirista.
+🔧 Agent {"subagent_type": "roteirista-longo-historia", "description": "Corrigir blocos 10-12", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga
+💬 O roteirista está aplicando as correções (volta 1 de 2). Depois disso, o checador reconfere os blocos.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_10.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_11.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_12.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_09.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_02.json"}
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos; grep -lE \"apartamentos|insula\" bloco_0*.json; grep -l \"Jucundo\" bloco_*.json
+❌ <tool_use_error>Error: No such tool available: Bash. Bash is not among the tools available here. Continue with the tools you have.</tool_use_error>
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "um exército permanente, de de
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "O soldado ficava muitos anos 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "doze mil sestércios para o le
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "e deu aos soldados uma razão 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "Com poucas mudanças, esse sis
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "uma barraca de peixe no Egito
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "já era um homem idoso, com ma
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "Augusto*.html\"\n  ],", "new_
+❌ <tool_use_error>String to replace not found in file.
+String: Augusto*.html"
+  ],</tool_use_error>
+💬 The URL says "Augustus*.html".
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "Augustus*.html\"\n  ],", "new
+💬 Now bloco 11.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "a viagem até a costa indiana 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "provavelmente no século prime
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "encontraram, num grande vaso,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "provavelmente no século segun
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "e citou números na casa das d
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "Os estudiosos acham que as mo
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "Uma das mais conhecidas é a r
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "da Britânia ao Egito, o que m
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "Um comerciante da Gália podia
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "    \"https://en.wikipedia.or
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Muziris_Papyrus", "prompt": "Does this page exist? Give title and any mention of value in sesterces."}
+🔧 WebSearch {"query": "Muziris papyrus Hermapollon Vienna wikipedia", "mode": "standard"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "    \"https://en.wikipedia.or
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "    \"https://en.wikipedia.or
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json", "old_string": "Os pobres, como vimos, morava
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json", "old_string": "um filho adulto, mesmo casado
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json", "old_string": "Uma conta comum é que, na Itá
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json", "old_string": "Se o dono era cidadão romano,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json", "old_string": "Lembra-se do banqueiro Jucund
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json", "old_string": "bonecas de pano e de madeira,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json", "old_string": "    \"https://en.wikipedia.or
+💬 Apliquei todas as correções do checador nos blocos 10, 11 e 12. Os três continuam com `"checado": false`. Não rodei nenhuma validação depois das edições.
+
+**Bloco 10**
+- Corrigi o exército (mais de cem mil legionários, fora os auxiliares) e os soldos: doze mil sestércios para o legionário depois de vinte anos, vinte mil sestércios (cinco mil denários) para a guarda, que servia dezesseis anos.
+- Ajustei a regra do tempo de serviço, os cento e setenta milhões de sestércios de Augusto, a isenção do imposto de cinco por cento sobre heranças e o imposto de um por cento nos leilões, agora atribuído 
+💬 Agora a reconferência (volta 2 de 2), em paralelo.
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 10", "prompt": "Reconferência (volta 1 de correção aplicada) do bloco /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/lon
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_10.md"}
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 11", "prompt": "Reconferência (correções aplicadas) do bloco /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_11.md"}
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 12", "prompt": "Reconferência (correções aplicadas) do bloco /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-
+💬 Os três checadores estão reconferindo. Aguardo os vereditos.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_12.md"}
+🔧 WebFetch {"url": "https://tyche.univie.ac.at/index.php/tyche/article/view/4918", "prompt": "What is this article about? Title, authors, year. Does it mention Muziris papyrus / Hermapollon and a value in sester
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_08.json"}
+🔧 WebFetch {"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/1B*.html", "prompt": "Does this page contain Annals 1.78 mentioning the 1% tax on auction sales (centesima rerum venalium) an
+🔧 WebFetch {"url": "https://mitpressbookstore.mit.edu/book/9780198842347", "prompt": "What book is this (title, authors, publisher, year)? Is it about Berenike / Red Sea / Indian Ocean trade?"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Indo-Roman_trade_relations", "prompt": "Find: Pliny 100 million sesterces and 50 million India; Hermapollon / Muziris papyrus value (7 million sesterces); voyage
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Berenice_Troglodytica", "prompt": "Any mention of pepper jar found at Berenike, its weight? Founded under whom? Voyage duration?"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Lucius_Caecilius_Iucundus", "prompt": "What does it say about his father Felix, whether Felix was a freedman and banker, and whether Iucundus himself was a freed
+🔧 WebFetch {"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/1D*.html", "prompt": "Does this page contain Annals 1.78 mentioning the 1% tax (centesima rerum venalium) and aerarium milita
+🔧 WebFetch {"url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/1E*.html", "prompt": "Does this page contain Annals 1.78 mentioning the 1% tax (centesima rerum venalium) and aerarium milita
+🔧 WebSearch {"query": "Muziris papyrus Hermapollon cargo value 7 million sesterces Rathbone Casson", "mode": "standard"}
+🔧 WebSearch {"query": "Pliny Natural History 12.84 fifty million sesterces India hundred million Seres Arabia", "mode": "standard"}
+🔧 WebSearch {"query": "Pliny Natural History 6.104 Ocelis Muziris forty days voyage Red Sea Berenike to India duration months", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_10.md", "content": "# Checagem do bloco 10 (Augusto e a paz que custava c
+💬 **DEVOLVER.** O texto está correto, mas o link de Tácito (Anais 1.78) está na página errada.
+
+- **Correções anteriores:** as correções 1 a 8 foram aplicadas corretamente. A 9 (fontes) só foi cumprida em parte, por causa do link de Tácito. A 10 (chamada de engajamento) não foi aplicada. Pelo ritmo calmo do vídeo longo, deixei como decisão do plano e não bloqueei por isso.
+- **Erros novos no texto:** não encontrei nenhum.
+- **Link de Tácito:**
+  - **Link atual:** `.../Tacitus/Annals/1B%2A.html` cobre só os Anais 1.16-30, o motim da Panônia. Não traz o 1% sobre leilões nem o aerarium militare.
+  
+💬 Essa correção é só trocar uma URL. Faço direto no bloco 10.
+🔧 Bash {"command": "cd blocos && grep -c 'Annals/1B%2A.html' bloco_10.json && sed -i 's#Tacitus/Annals/1B%2A.html#Tacitus/Annals/1E%2A.html#' bloco_10.json && grep -o 'Annals/1[A-Z]%2A.html' bloco_10.json"}
+❌ Commands that change directories and perform write operations require explicit approval to ensure paths are evaluated correctly. For security, Claude Code cannot automatically determine the final working directory when 'cd' is used in compound commands.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_12.md", "content": "# Checagem do bloco 12 (Casas, famílias e escravizado
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "Tacitus/Annals/1B%2A.html", "
+💬 Bloco 10 corrigido. Aguardo os blocos 11 e 12.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "limit": 6}
+💬 **APROVADO**
+
+Todas as 7 correções anteriores foram aplicadas. Não encontrei erro novo, e atualizei `blocos/checagem_12.md`.
+
+- **Escravizados na Itália:** a divergência entre "até um terço" e "entre um sexto e um quarto" aparece com o debate sinalizado. A frase "uma conta comum" saiu.
+- **Alforria e filhos de libertos:** a alforria formal e a informal estão separadas. Os filhos "já nasciam livres e cidadãos, embora ainda enfrentassem preconceito".
+- **Patria potestas:** o texto diz que o que o filho adquiria "em princípio" pertencia ao pai, que podia lhe dar um pecúlio.
+- **Jucundo:** a Wikip
+💬 Bloco 12 aprovado. Falta o bloco 11.
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos && grep -n '\"checado\"' bloco_09.json bloco_12.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_12.json", "old_string": "  \"checado\": false", "new_s
+💬 O bloco 10 tinha só a URL errada, e já corrigi. Marco como checado.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_10.json", "old_string": "  \"checado\": false", "new_s
+💬 Aguardo o checador do bloco 11.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/checagem_11.md", "content": "# Checagem do bloco 11 — \"Um império de moedas e mer
+💬 **DEVOLVER.** Falta uma correção pequena, a duração da viagem. As demais correções anteriores foram aplicadas e conferem. Atualizei `blocos/checagem_11.md` e não editei o bloco.
+
+**Correção exata (duração da viagem).** Substituir "…a travessia em mar aberto levava algumas semanas, e a viagem toda… podia chegar perto de três meses, segundo estimativas dos estudiosos" por:
+
+"Com o vento a favor, Plínio fala em cerca de quarenta dias da entrada do Mar Vermelho até a costa indiana, e a viagem toda, contando o trecho do Mar Vermelho, passava de dois meses."
+
+Também vale cortar a estimativa em meses
+💬 Uma frase só para corrigir. Vou ver o trecho no bloco 11.
+🔧 Grep {"pattern": "três meses", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "output_mode": "content", "-o": true, "context
+🔧 Bash {"command": "grep -o '.\\{250\\}três meses.\\{120\\}' bloco_11.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "Com o vento a favor, a traves
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-02-roma-antiga/blocos/bloco_11.json", "old_string": "  \"checado\": false", "new_s
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python -m pipeline.longo validar canais/historia/longos/2026-11-02-roma-antiga 2>&1 | tail -30"}
+💬 Escrevi e chequei os blocos 10, 11 e 12 de "Roma Antiga para dormir". Os três estão com `"checado": true`, e `python -m pipeline.longo validar` retornou OK.
+
+- **Bloco 10 (Augusto e a Pax Romana):** o texto passou na 2ª conferência. Só faltava trocar a URL do Tácito nas fontes, e eu mesmo fiz a troca e marquei como checado. Essa URL não foi reaberta depois da troca.
+- **Bloco 11 (rotas e moedas até a Índia):** a 2ª conferência pediu só uma correção, sobre a duração da viagem. Apliquei o texto que o checador deu (cerca de quarenta dias até a costa indiana, mais de dois meses no total) e marquei
+
+=== resultado: success | turnos 3 | 6s | erro=False
+O roteirista está escrevendo os blocos 10 a 12. Aguardo o aviso de conclusão para seguir com a checagem.
+
+=== resultado: success | turnos 4 | 7s | erro=False
+Os três checadores estão rodando. Aguardo os vereditos.
+
+=== resultado: success | turnos 1 | 1s | erro=False
+Aguardo os checadores dos blocos 11 e 12 para devolver todas as correções ao roteirista de uma vez.
+
+=== resultado: success | turnos 1 | 0s | erro=False
+Falta só o checador do bloco 11. Aguardo.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O roteirista está aplicando as correções (volta 1 de 2). Depois disso, o checador reconfere os blocos.
+
+=== resultado: success | turnos 4 | 6s | erro=False
+Os três checadores estão reconferindo. Aguardo os vereditos.
+
+=== resultado: success | turnos 3 | 3s | erro=False
+Bloco 10 corrigido. Aguardo os blocos 11 e 12.
+
+=== resultado: success | turnos 4 | 4s | erro=False
+Aguardo o checador do bloco 11.
+
+=== resultado: success | turnos 6 | 10s | erro=False
+Escrevi e chequei os blocos 10, 11 e 12 de "Roma Antiga para dormir". Os três estão com `"checado": true`, e `python -m pipeline.longo validar` retornou OK.
+
+- **Bloco 10 (Augusto e a Pax Romana):** o texto passou na 2ª conferência. Só faltava trocar a URL do Tácito nas fontes, e eu mesmo fiz a troca e marquei como checado. Essa URL não foi reaberta depois da troca.
+- **Bloco 11 (rotas e moedas até a Índia):** a 2ª conferência pediu só uma correção, sobre a duração da viagem. Apliquei o texto que o checador deu (cerca de quarenta dias até a costa indiana, mais de dois meses no total) e marquei como checado sem uma 3ª conferência.
+- **Bloco 12 (casas, famílias e escravizados):** aprovado na 2ª conferência.
+
+As observações do checador estão em `blocos/checagem_10.md`, `checagem_11.md` e `checagem_12.md`.
+
+Pontos que ficaram em aberto:
+- As cifras de Plínio (50 milhões só da Índia) e dos 7 milhões de sestércios do papiro Hermapollon vêm de fontes secundárias. O texto já traz ressalva, mas seria bom acrescentar uma URL de Plínio nas fontes do bloco 11.
+- A chamada de inscrição, like e comentário não entrou no bloco 10. Os blocos anteriores aprovados também não têm.
+- O bloco 12 anuncia os aquedutos no fim, então confira se o bloco 13 trata disso.
+
+Os blocos 13 a 15 ficam para a próxima rodada. Nada foi commitado.
+codigo de saida: 0
