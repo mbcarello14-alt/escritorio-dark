@@ -1,0 +1,190 @@
+comando: /roteiro canais/historia/videos/2026-11-06
+🔧 Bash {"command": "cd canais/historia/videos/2026-11-06 && ls && cat estado.json && cat pautas.json | head -60"}
+🔧 Agent {"subagent_type": "pesquisador-historia", "description": "Dossiê Eduardo III", "prompt": "Etapa 2: monte o dossiê para a pauta 3 de canais/historia/videos/2026-11-06 (\"O rei que calotou os bancos e q
+💬 O pesquisador está montando o dossiê. Aguardo a conclusão para seguir para o roteirista.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/01-pauta.md"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Compagnia_dei_Bardi", "prompt": "Extract timeline, figures (florins owed, loans to Edward III, collapse dates 1343-1346), people, and cited sources. Note any deb
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Peruzzi-family", "prompt": "Extract facts: dates, loan amounts to Edward III, bankruptcy date, causes."}
+🔧 WebSearch {"query": "Bardi Peruzzi failure Edward III default causes historians Hunt Murray Kaeuper Sapori debate", "mode": "extended"}
+🔧 WebFetch {"url": "https://www.cambridge.org/core/books/medieval-supercompanies/introduction/ED84CB6808B41CFE1D63A8C924F4A0D5", "prompt": "Summarize the introduction: what does Hunt say about Peruzzi failure ca
+🔧 WebFetch {"url": "https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/new-look-at-the-dealings-of-the-bardi-and-peruzzi-with-edward-iii/2AD04842FACDAE9D0A660EDCD72EC097", "prompt": 
+🔧 WebFetch {"url": "https://tontinecoffeehouse.com/2020/08/17/the-financiers-of-medieval-florence/", "prompt": "Extract facts on Bardi/Peruzzi, Edward III loans, wool, dates, numbers, and the debate on cause of 
+🔧 WebSearch {"query": "Kaeuper Bankers to the Crown Riccardi of Lucca Edward I; Frescobaldi Edward II; Italian bankers English crown", "mode": "standard"}
+🔧 WebSearch {"query": "Edward III 1340 Ghent Bardi Peruzzi loans wool monopoly Dordrecht 1338 Flanders Hundred Years War financing Ormrod", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.cambridge.org/core/books/angloitalian-cultural-relations-in-the-later-middle-ages/italian-firms-in-late-medieval-england-and-their-bankruptcy-rereading-an-old-history-of-financial
+🔧 WebFetch {"url": "https://cepr.org/voxeu/columns/credit-crunch-1294-causes-consequences-and-aftermath", "prompt": "Extract facts on Riccardi of Lucca, Philip IV seizure 1294, Edward I, amounts, dates, Kaeuper,
+🔧 WebFetch {"url": "https://thehundredyearswar.co.uk/how-did-edward-iii-finance-the-conflict-with-france-in-its-initial-stages", "prompt": "Extract all figures, dates, and facts about financing: wool monopoly, l
+🔧 WebFetch {"url": "https://metafilter.com/168388/That-time-the-Great-Crown-of-England-was-pawned", "prompt": "What facts about Edward III's crown pawned, hostages at Ghent/Brussels, 1338-1340, and sources linke
+🔧 WebSearch {"query": "Kaeuper Bankers to the Crown thesis Riccardi bankruptcy caused by loans to Edward I or French seizure review", "mode": "standard"}
+🔧 WebSearch {"query": "Villani Nuova Cronica Edward III Bardi Peruzzi 1,365,000 florins \"re d'Inghilterra\" fallimento 1345 Cronica XII", "mode": "standard"}
+🔧 WebSearch {"query": "Hunt Murray \"A History of Business in Medieval Europe\" Bardi Peruzzi collapse Florence 1343 sovereign default Edward III never repudiated", "mode": "standard"}
+🔧 WebSearch {"query": "Edward III Bardi Peruzzi default Nature or Journal of Economic History new research debt 1345 audit Fryde \"William de la Pole\" Bardi Peruzzi Edward III loans repaid", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Riccardi_of_Lucca", "prompt": "Extract dates, amounts, Philip IV seizure, Edward I debts, bankruptcy, cause, cited scholars (Kaeuper), and the Reading project."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Peruzzi", "prompt": "Extract timeline, figures (capital, branches, loans to Edward III, bankruptcy dates, Florence 1343 default, Walter of Brienne), debate on ca
+🔧 WebFetch {"url": "https://www.britannica.com/print/article/453334", "prompt": "Extract facts: dates, loan amounts to Edward III, bankruptcy date, causes."}
+🔧 WebFetch {"url": "https://harmonydata.ac.uk/search/items/credit-finance-in-the-middle-ages-loans-to-the-english-crown-1272-1340", "prompt": "Summarize the project: investigators, scope, findings on default and
+🔧 WebFetch {"url": "https://elfinspell.com/BenhamVillani.html", "prompt": "Find Villani's passage about King Edward of England, Bardi and Peruzzi owed florins, their failure, and Florence's consequences. Quote f
+🔧 WebFetch {"url": "https://www.british-history.ac.uk/manchester-uni/london-lay-subsidy/1332/pp351-360", "prompt": "Is this relevant to Bardi Peruzzi? Extract anything about them."}
+🔧 WebSearch {"query": "Wikimedia Commons Edward III of England portrait; Florin Florence gold coin; Giovanni Villani Nuova Cronica manuscript Chigiano; Peruzzi Chapel Santa Croce", "mode": "standard"}
+🔧 WebSearch {"query": "Florence 1343 default public debt Monte Comune 1.8 million florins Walter of Brienne Duke of Athens 1342 1343 Bardi Peruzzi bankruptcy Florentine debt", "mode": "standard"}
+💬 Russell's study is the primary-scholarship source; let me read it.
+🔧 WebFetch {"url": "https://www.british-history.ac.uk/manchester-uni/london-lay-subsidy/1332/pp93-135", "prompt": "Extract key facts with figures and dates: loans of Bardi and Peruzzi to Edward III (1327-45), 13
+🔧 WebFetch {"url": "https://core.ac.uk/download/84119826.pdf", "prompt": "What is this paper? Extract anything on Bardi/Peruzzi failure, Florence 1343 debt moratorium, Walter of Brienne, figures."}
+🔧 WebFetch {"url": "https://www.powells.com/book/the-medieval-supercompanies-9780521894159", "prompt": "Extract the publisher synopsis and any reviews, paraphrased, on Hunt's argument about Peruzzi collapse."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Edward_III_of_England", "prompt": "Extract timeline of 1337-1345 finances, florin coinage 1344, Ghent 1340, and any public-domain images with Commons file names/
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/02-dossie.md", "content": "# Dossiê — O rei que calotou os bancos e quebrou Florença (Eduardo III, Ba
+💬 Escrevi o dossiê em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/02-dossie.md`. Há lacunas de fonte (Kaeuper, Hunt & Murray, Filipe IV), listadas abaixo.
+
+**O que o dossiê traz**
+- Linha do tempo de 1272 a 1391.
+- 16 fatos-chave com fonte e grau de confiança.
+- Tabela de números e lista de personagens.
+- Controvérsias, 11 detalhes pouco conhecidos, material visual e uma estrutura sugerida.
+
+**O debate sobre a causa da quebra**
+- **Tradicional:** Villani e a maioria dos historiadores, segundo Hunt, atribuem a quebra ao calote.
+- **Russell (1918):** o calo
+🔧 Agent {"subagent_type": "roteirista-historia", "description": "Roteiro Eduardo III", "prompt": "Escreva o roteiro da pauta 3 de canais/historia/videos/2026-11-06 (\"O rei que calotou os bancos e quebrou Flo
+💬 O dossiê está pronto e o roteirista está escrevendo o roteiro. Aguardo a conclusão para seguir para o checador.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/03-roteiro.md", "content": "# Roteiro — O rei que calotou os bancos e quebrou Florença\n\nCanal: Ouro
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"O rei que calotou os bancos e quebrou Floren
+💬 Escrevi o roteiro da pauta 3 e salvei os dois arquivos. A contagem é estimada à mão, porque não rodei o validador nem um contador de palavras. São cerca de 2.500 palavras, o que dá uns 16 a 17 minutos, dentro da faixa de 12 a 20 do briefing.
+
+**Estrutura em 11 blocos:**
+- **Gancho:** o rei foge de Gante deixando a família como garantia dos credores.
+- **Contexto:** quem eram os Bardi e os Peruzzi; a lã como ouro inglês; os Riccardi como precedente, com a ressalva "os relatos variam"; a guerra e o empréstimo da coroa.
+- **A versão clássica:** o relato de Villani, que se derruba sozinho, porque 
+🔧 Agent {"subagent_type": "checador", "description": "Checar roteiro Eduardo III", "prompt": "Cheque o roteiro de canais/historia/videos/2026-11-06 (03-roteiro.md e roteiro.json) contra 02-dossie.md e fontes 
+💬 O checador está conferindo o roteiro. Aguardo o resultado antes de seguir.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/roteiro.json"}
+💬 Vou verificar os pontos de atenção em fontes externas.
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Edward_III_of_England", "prompt": "Find: (1) Great Crown pawned to Archbishop of Trier: date, amount, when redeemed. (2) Proclaimed king of France at Ghent date;
+🔧 WebFetch {"url": "https://thehundredyearswar.co.uk/how-did-edward-iii-finance-the-conflict-with-france-in-its-initial-stages", "prompt": "Find the wool numbers: 20,000 sacks expected vs 1,584 delivered (what y
+🔧 WebFetch {"url": "https://www.british-history.ac.uk/manchester-uni/london-lay-subsidy/1332/pp93-135", "prompt": "Find: the 1391 pardon (who pardoned whom, direction of debt - did the Bardi owe the crown or the
+🔧 WebSearch {"query": "Edward III 1344 gold florin double leopard withdrawn Florentine florin imitation", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Compagnia_dei_Bardi", "prompt": "Find: 1340 coup attempt and exiles; Acciaiuoli third largest; failure dates; 50% larger than Peruzzi; Boccaccio; percentages rec
+🔧 WebSearch {"query": "Edward III Great Crown pawned Archbishop of Trier 1339 redeemed 1343", "mode": "standard"}
+🔧 WebSearch {"query": "Bardi conspiracy 1340 Florence failed coup exiled sixteen members Villani", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/04-checagem.md", "content": "# Checagem — O rei que calotou os bancos e quebrou Florença\n\n**Veredit
+💬 Veredito: **CORRIGIR**. Escrevi o relatório em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/04-checagem.md`.
+
+Sobre os pontos de atenção do roteirista:
+
+- **Perdão de 1391 (errado).** O perdão foi de Ricardo II, em 10/11/1391. Ele liberou os Bardi de dívidas que eles deviam à Coroa (Russell, BHO). O roteiro sugere que o rei quitava o que devia aos Bardi, e Eduardo III já estava morto desde 1377.
+- **Sacos de lã (impreciso).** O 25 mil é do contrato de março de 1338 (Russell). Os 20 mil esperados contra 1.584 que chegaram a Antuérpia vêm de outro esquema,
+🔧 SendMessage {"to": "a3589d1600785a6a0", "summary": "Aplicar correções do checador", "message": "O checador deu CORRIGIR. Leia canais/historia/videos/2026-11-06/04-checagem.md e aplique TODAS as correções em 03-ro
+💬 Pedi ao roteirista que aplique as correções do checador. Aguardo.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/04-checagem.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/03-roteiro.md", "content": "# Roteiro — O rei que calotou os bancos e quebrou Florença\n\nCanal: Ouro
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"O rei que calotou os bancos e quebrou Floren
+💬 Apliquei todas as correções do `04-checagem.md` na versão 2 do roteiro, no `03-roteiro.md` e no `roteiro.json`, com o mesmo texto nos dois. As três chamadas de engajamento continuam nos blocos 1, 6 e 11, e a duração fica em torno de 17 minutos (cerca de 2.550 palavras, contadas à mão). Não rodei o validador.
+
+**Correções que você pediu:**
+- **Perdão de 1391 (bloco 10):** agora é de Ricardo II e livra os Bardi de dívidas que eles tinham com a Coroa. O bloco fecha com a ironia de que, no fim, quem aparecia devendo nos papéis eram os banqueiros.
+- **Lã (bloco 5):** o contrato de março de 1338 (25
+💬 Re-checagem (volta 1 de 2).
+🔧 SendMessage {"to": "a40dfe04f0f87ddc9", "summary": "Rechecar roteiro v2", "message": "O roteirista aplicou suas correções (v2 em 03-roteiro.md e roteiro.json). Cheque de novo, sobrescreva 04-checagem.md com o ver
+💬 Pedi a segunda checagem ao checador. Aguardo o veredito.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/roteiro.json"}
+🔧 WebFetch {"url": "https://elfinspell.com/BenhamVillani.html", "prompt": "Find Villani's passage on the Bardi and Peruzzi failure (Book XII ch. 54): what he says about the King of England's debt (900,000 / 600,
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/04-checagem.md", "content": "# Checagem v2 — O rei que calotou os bancos e quebrou Florença\n\n**Vere
+💬 Veredito da v2: **APROVADO**. Sobrescrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/04-checagem.md`.
+
+Conferi todas as correções da primeira rodada contra as fontes, e o `roteiro.json` espelha o `03-roteiro.md` v2.
+
+- **Perdão de 1391:** agora diz Ricardo II e dívida dos Bardi com a Coroa, o que bate com Russell.
+- **Lã:** o contrato de 25 mil sacas ficou separado do monopólio de exportação (20 mil esperadas, 1.584 chegadas).
+- **Coroa:** £16.600 a devolver e £14 mil de juros, e o resgate virou "anos depois" (não confirmei 1343).
+- **Florim de 1344:**
+🔧 Agent {"subagent_type": "guardiao-originalidade", "description": "Originalidade Eduardo III", "prompt": "Avalie a originalidade/risco de conteúdo inautêntico do roteiro em canais/historia/videos/2026-11-06 
+💬 A checagem foi aprovada. O guardião de originalidade está avaliando agora.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/02-dossie.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/05-originalidade.md", "content": "# Originalidade — O rei que calotou os bancos e quebrou Florença\n\
+💬 Semáforo 🟡 (ajustar). Escrevi o relatório em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/05-originalidade.md`.
+
+**Notas**
+- **Variação, 7:** o `historico.md` está vazio, então não há 5 vídeos para comparar. A estrutura do roteiro é própria: o título vira isca, o cronista Villani se denuncia sozinho e o vídeo fecha com um placar de quem ganhou e quem pagou. O risco é "o título mente, vou desmontar" virar fórmula.
+- **Valor próprio, 8:** cruza Villani, Russell e Hunt e traz a prova dos Acciaiuoli, que quebraram sem ter emprestado ao rei. Os fatos vêm em b
+🔧 SendMessage {"to": "a3589d1600785a6a0", "summary": "Aplicar mudanças da originalidade", "message": "Guardião deu 🟡 (05-originalidade.md). Aplique as 3 mudanças de maior impacto em 03-roteiro.md e roteiro.json: (1
+💬 Pedi ao roteirista que aplique as mudanças do guardião. Aguardo.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/05-originalidade.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/04-checagem.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/03-roteiro.md", "content": "# Roteiro — O rei que calotou os bancos… ou foi só o bode expiatório?\n\n
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"O rei que calotou os bancos… ou foi só o bod
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/03-roteiro.md", "old_string": "quem depositou pagou boa parte do prejuízo,", "n
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/roteiro.json", "old_string": "quem depositou pagou boa parte do prejuízo,", "ne
+💬 A versão 3 está pronta, com as três mudanças do guardião aplicadas em `03-roteiro.md` e `roteiro.json`, que têm o mesmo texto. Ela só corta números e mexe na redação, sem fato novo além do que a checagem aprovada na 2ª rodada já cobria. Não rodei o validador. A contagem, feita à mão, ficou em cerca de 2.400 palavras, uns 16 minutos.
+
+**1. Voz humana e vícios de IA**
+- Tirei a "leitura minha" do bloco 7. O dado dos 19 sócios agora fica só com Hunt.
+- O "devedor profissional, não caloteiro de filme" virou "pelo que os documentos mostram, a palavra calote fica no mínimo discutível".
+- Os dois "Gu
+💬 Agora conferi as chamadas, o nicho e o JSON, e atualizo o estado.
+🔧 Bash {"command": "cd canais/historia/videos/2026-11-06 && python3 - <<'E'\nimport json,re\nr=json.load(open('roteiro.json'))\nprint(r['titulo_provisorio'],len(r['blocos']),r['semaforo'])\nfor i,b in enumer
+❌ Exit code 1
+/bin/bash: line 1: cd: canais/historia/videos/2026-11-06: No such file or directory
+💬 The working directory changed earlier; I'm already inside it.
+🔧 Bash {"command": "pwd; python3 - <<'E'\nimport json\nr=json.load(open('roteiro.json'))\nprint(r['titulo_provisorio'],len(r['blocos']),r['semaforo'])\nfor i,b in enumerate(r['blocos'],1):\n    t=b['texto'].
+🔧 Bash {"command": "python3 - <<'E'\nimport json,re\nr=json.load(open('roteiro.json'))\nfor i in(0,5,10):\n    t=r['blocos'][i]['texto']\n    print(i+1,[m for m in re.findall(r'[^.?!]*(?:nscre|nscri|like|cur
+💬 O roteiro de "O rei que calotou os bancos… ou foi só o bode expiatório?" está pronto, com 11 blocos e cerca de 16 minutos de narração. O semáforo ficou 🟡. Não rodei o validador do `roteiro.json`, só conferi o JSON por script.
+
+- **Checagem:** o checador pediu correções na primeira rodada e aprovou na segunda. O `04-checagem.md` guarda o veredito da segunda. Não consegui abrir o Hunt (paywall), então o que o roteiro atribui a ele tem confiança média.
+- **Originalidade:** o guardião deu 🟡 e o roteirista aplicou as três mudanças que ele pediu, na versão 3. Ainda não há uma opinião sua no roteiro,
+
+=== resultado: success | turnos 3 | 5s | erro=False
+O pesquisador está montando o dossiê. Aguardo a conclusão para seguir para o roteirista.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O dossiê está pronto e o roteirista está escrevendo o roteiro. Aguardo a conclusão para seguir para o checador.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+O checador está conferindo o roteiro. Aguardo o resultado antes de seguir.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+Pedi ao roteirista que aplique as correções do checador. Aguardo.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+Pedi a segunda checagem ao checador. Aguardo o veredito.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+A checagem foi aprovada. O guardião de originalidade está avaliando agora.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+Pedi ao roteirista que aplique as mudanças do guardião. Aguardo.
+
+=== resultado: success | turnos 4 | 12s | erro=False
+O roteiro de "O rei que calotou os bancos… ou foi só o bode expiatório?" está pronto, com 11 blocos e cerca de 16 minutos de narração. O semáforo ficou 🟡. Não rodei o validador do `roteiro.json`, só conferi o JSON por script.
+
+- **Checagem:** o checador pediu correções na primeira rodada e aprovou na segunda. O `04-checagem.md` guarda o veredito da segunda. Não consegui abrir o Hunt (paywall), então o que o roteiro atribui a ele tem confiança média.
+- **Originalidade:** o guardião deu 🟡 e o roteirista aplicou as três mudanças que ele pediu, na versão 3. Ainda não há uma opinião sua no roteiro, porque `nota_miguel` veio vazia.
+- **Engajamento:** o bloco 1 pede inscrição e like. O bloco 6 faz a pergunta para os comentários ("o rei é o vilão ou só o último empurrão?") e pede like. O bloco 11 pede inscrição, like e comentário.
+- **Nicho:** não saiu do nicho. As três ocorrências de "prova" no texto são sentido comum, não vestibular.
+- **Estado:** `estado.json` está com `titulo` igual ao título provisório.
+
+Ficam dois pontos com você:
+- **Opinião no bloco 11:** a pergunta para você é se vê Eduardo III mais como caloteiro ou como devedor que renegociou na marra. Sua frase entra no bloco 11, depois de "...quem tinha deixado as economias no balcão.". Com ela, o guardião passa a 🟢.
+- **Dossiê desatualizado:** o `02-dossie.md` ainda tem os erros que o checador apontou (perdão de 1391, lã, coroa, ano de 1343). O roteiro já está certo. Peço ao `pesquisador-historia` para atualizar o dossiê se você quiser.
+
+Arquivos em `canais/historia/videos/2026-11-06/`:
+- `03-roteiro.md`
+- `roteiro.json`
+- `04-checagem.md`
+- `05-originalidade.md`
+codigo de saida: 0
