@@ -1,20 +1,8 @@
 {
-  "atualizado_em": "2026-11-03T15:15:05Z",
+  "atualizado_em": "2026-11-03T16:07:25Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
-    ],
-    "narrador": [
-      "Ouro & Império: O rei que penhorou a coroa e 'quebrou' dois bancos"
-    ],
-    "ilustrador": [
-      "Ouro & Império: O rei que penhorou a coroa e 'quebrou' dois bancos"
-    ],
-    "editor": [
-      "Ouro & Império: O rei que penhorou a coroa e 'quebrou' dois bancos"
-    ],
-    "clipador": [
-      "Ouro & Império: O rei que penhorou a coroa e 'quebrou' dois bancos"
     ],
     "roteirista_historia": [
       "Longo Ouro & Império: roma antiga"
@@ -56,10 +44,10 @@
       "dia": "2026-11-06",
       "rotulo": "sexta 06/11 18h00",
       "publicar_em_utc": "2026-11-06T21:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "O rei que penhorou a coroa e 'quebrou' dois bancos",
-      "url": ""
+      "url": "https://youtu.be/o_0Ff6Gpdn8"
     },
     {
       "canal": "vestibular",
@@ -158,8 +146,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 49,
+    "neurons": 2695,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

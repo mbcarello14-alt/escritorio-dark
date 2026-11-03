@@ -1,0 +1,241 @@
+15:15:57 INFO ilustrações: higgsfield desligado (sem chave)
+15:16:29 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 1/11
+15:16:30 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+15:16:30 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+15:16:31 INFO Processing audio with duration 00:39.727
+[0;93m2026-11-03 15:16:31.428685108 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+15:16:31 INFO VAD filter removed 00:00.000 of audio
+15:16:50 INFO Processing audio with duration 00:39.727
+15:16:50 INFO VAD filter removed 00:00.000 of audio
+15:17:51 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 2/11
+15:17:51 INFO Processing audio with duration 01:14.327
+15:17:51 INFO VAD filter removed 00:00.000 of audio
+15:18:20 INFO Processing audio with duration 01:14.327
+15:18:20 INFO VAD filter removed 00:00.000 of audio
+15:19:30 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 3/11
+15:19:30 INFO Processing audio with duration 01:08.087
+15:19:30 INFO VAD filter removed 00:00.000 of audio
+15:20:00 INFO Processing audio with duration 01:08.087
+15:20:00 INFO VAD filter removed 00:00.000 of audio
+15:21:09 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 4/11
+15:21:09 INFO Processing audio with duration 01:08.367
+15:21:09 INFO VAD filter removed 00:00.000 of audio
+15:21:36 INFO Processing audio with duration 01:08.367
+15:21:36 INFO VAD filter removed 00:00.000 of audio
+15:22:43 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 5/11
+15:22:43 INFO Processing audio with duration 01:12.967
+15:22:43 INFO VAD filter removed 00:00.000 of audio
+15:23:14 INFO Processing audio with duration 01:12.967
+15:23:14 INFO VAD filter removed 00:00.000 of audio
+15:24:28 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 6/11
+15:24:29 INFO Processing audio with duration 01:26.087
+15:24:29 INFO VAD filter removed 00:00.000 of audio
+15:25:03 INFO Processing audio with duration 01:26.087
+15:25:04 INFO VAD filter removed 00:00.000 of audio
+15:26:19 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 7/11
+15:26:20 INFO Processing audio with duration 01:17.967
+15:26:20 INFO VAD filter removed 00:00.000 of audio
+15:26:52 INFO Processing audio with duration 01:17.967
+15:26:52 INFO VAD filter removed 00:00.000 of audio
+15:28:05 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 8/11
+15:28:05 INFO Processing audio with duration 01:12.807
+15:28:05 INFO VAD filter removed 00:00.000 of audio
+15:28:38 INFO Processing audio with duration 01:12.807
+15:28:38 INFO VAD filter removed 00:00.000 of audio
+15:30:21 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 9/11
+15:30:21 INFO Processing audio with duration 01:17.487
+15:30:21 INFO VAD filter removed 00:00.000 of audio
+15:30:53 INFO Processing audio with duration 01:17.487
+15:30:53 INFO VAD filter removed 00:00.000 of audio
+15:32:08 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 10/11
+15:32:08 INFO Processing audio with duration 01:29.087
+15:32:09 INFO VAD filter removed 00:00.000 of audio
+15:32:47 INFO Processing audio with duration 01:29.087
+15:32:47 INFO VAD filter removed 00:00.000 of audio
+15:34:05 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 11/11
+15:34:05 INFO Processing audio with duration 01:11.767
+15:34:05 INFO VAD filter removed 00:00.016 of audio
+15:34:36 INFO Processing audio with duration 01:11.767
+15:34:36 INFO VAD filter removed 00:00.016 of audio
+15:35:07 INFO gerando 49 ilustrações…
+15:36:59 INFO ilustrações prontas: 49 geradas (49 pedidas)
+15:37:00 INFO Processing audio with duration 00:39.728
+15:37:00 INFO VAD filter removed 00:00.000 of audio
+15:37:18 INFO bloco 1: 39.7s, 125 palavras reconhecidas
+15:37:28 INFO cena 1 pronta (10.9s, total 11s)
+15:37:35 INFO cena 2 pronta (8.4s, total 19s)
+15:37:44 INFO cena 3 pronta (9.1s, total 28s)
+15:37:47 INFO imagem 'Edward III of England portrait medieval' ← wikimedia
+15:37:54 INFO cena 4 pronta (5.3s, total 34s)
+15:38:09 INFO cena 5 pronta (5.9s, total 40s)
+15:38:11 INFO Processing audio with duration 01:14.328
+15:38:11 INFO VAD filter removed 00:00.000 of audio
+15:38:41 INFO bloco 2: 74.3s, 192 palavras reconhecidas
+15:38:50 WARNING nenhuma imagem livre para 'Florence 14th century map Pianta della Catena' — usando cartão
+15:38:52 INFO imagem 'Florence 14th century map' ← wikimedia
+15:38:52 INFO imagem para 'Florence 14th century map Pianta della Catena' achada buscando 'Florence 14th century map'
+15:39:03 INFO cena 6 pronta (7.2s, total 47s)
+15:39:05 INFO imagem 'Florin gold coin Florence 13th century' ← wikimedia
+15:39:21 INFO cena 7 pronta (12.9s, total 60s)
+15:39:30 INFO cena 8 pronta (9.7s, total 70s)
+15:39:39 INFO cena 9 pronta (11.7s, total 81s)
+15:39:47 INFO cena 10 pronta (11.5s, total 93s)
+15:39:52 INFO imagem 'Giotto frescoes Peruzzi Chapel Santa Croce Florence' ← wikimedia
+15:39:59 INFO cena 11 pronta (4.5s, total 97s)
+15:40:08 INFO cena 12 pronta (10.1s, total 107s)
+15:40:14 INFO cena 13 pronta (6.6s, total 114s)
+15:40:15 INFO Processing audio with duration 01:08.088
+15:40:16 INFO VAD filter removed 00:00.000 of audio
+15:40:46 INFO bloco 3: 68.1s, 206 palavras reconhecidas
+15:40:54 INFO cena 14 pronta (9.3s, total 123s)
+15:40:59 INFO cena 15 pronta (7.1s, total 130s)
+15:41:09 INFO cena 16 pronta (11.4s, total 142s)
+15:41:18 INFO cena 17 pronta (10.1s, total 152s)
+15:41:23 INFO cena 18 pronta (5.7s, total 157s)
+15:41:26 INFO imagem 'Edward I of England medieval illuminated manuscript' ← wikimedia
+15:41:37 INFO cena 19 pronta (8.0s, total 165s)
+15:41:46 INFO cena 20 pronta (9.9s, total 175s)
+15:41:52 INFO cena 21 pronta (6.7s, total 182s)
+15:41:54 INFO Processing audio with duration 01:08.368
+15:41:54 INFO VAD filter removed 00:00.000 of audio
+15:42:20 INFO bloco 4: 68.4s, 167 palavras reconhecidas
+15:42:25 INFO cena 22 pronta (6.4s, total 188s)
+15:42:32 INFO cena 23 pronta (7.9s, total 196s)
+15:42:45 INFO cena 24 pronta (17.7s, total 214s)
+15:42:47 INFO imagem 'Hundred Years War battle Froissart Chronicles miniature' ← wikimedia
+15:42:57 INFO cena 25 pronta (7.5s, total 222s)
+15:43:05 INFO cena 26 pronta (8.1s, total 230s)
+15:43:14 INFO cena 27 pronta (12.7s, total 242s)
+15:43:21 INFO cena 28 pronta (8.1s, total 250s)
+15:43:23 INFO Processing audio with duration 01:12.968
+15:43:23 INFO VAD filter removed 00:00.000 of audio
+15:43:54 INFO bloco 5: 73.0s, 201 palavras reconhecidas
+15:43:59 INFO cena 29 pronta (5.7s, total 256s)
+15:44:09 INFO cena 30 pronta (11.8s, total 268s)
+15:44:15 INFO cena 31 pronta (7.2s, total 275s)
+15:44:23 INFO cena 32 pronta (10.9s, total 286s)
+15:44:32 INFO cena 33 pronta (11.3s, total 297s)
+15:44:41 WARNING nenhuma imagem livre para 'medieval royal crown English crown jewels illustration' — usando cartão
+15:44:42 INFO imagem 'medieval royal crown English' ← wikimedia
+15:44:42 INFO imagem para 'medieval royal crown English crown jewels illustration' achada buscando 'medieval royal crown English'
+15:44:54 INFO cena 34 pronta (7.9s, total 305s)
+15:45:02 INFO cena 35 pronta (9.6s, total 315s)
+15:45:09 INFO cena 36 pronta (8.6s, total 323s)
+15:45:12 INFO Processing audio with duration 01:26.088
+15:45:12 INFO VAD filter removed 00:00.000 of audio
+15:45:46 INFO bloco 6: 86.1s, 243 palavras reconhecidas
+15:45:59 INFO cena 37 pronta (15.9s, total 339s)
+15:46:05 INFO cena 38 pronta (6.7s, total 346s)
+15:46:26 INFO imagem 'London medieval Tower of London 14th century illumination' ← openverse
+15:46:41 INFO cena 39 pronta (10.6s, total 357s)
+15:46:43 INFO imagem 'Giovanni Villani Nuova Cronica manuscript' ← wikimedia
+15:46:51 INFO cena 40 pronta (5.1s, total 362s)
+15:47:01 INFO cena 41 pronta (15.4s, total 377s)
+15:47:07 INFO cena 42 pronta (6.7s, total 384s)
+15:47:14 INFO cena 43 pronta (7.4s, total 391s)
+15:47:19 INFO cena 44 pronta (4.9s, total 396s)
+15:47:48 INFO cena 45 pronta (13.4s, total 410s)
+15:47:50 INFO Processing audio with duration 01:17.968
+15:47:51 INFO VAD filter removed 00:00.000 of audio
+15:48:22 INFO bloco 7: 78.0s, 217 palavras reconhecidas
+15:48:34 INFO cena 46 pronta (14.0s, total 424s)
+15:48:41 INFO cena 47 pronta (9.0s, total 433s)
+15:48:51 INFO cena 48 pronta (12.1s, total 445s)
+15:49:02 INFO cena 49 pronta (15.2s, total 460s)
+15:49:11 INFO cena 50 pronta (10.5s, total 470s)
+15:49:18 INFO cena 51 pronta (7.2s, total 478s)
+15:49:25 INFO cena 52 pronta (10.0s, total 488s)
+15:49:27 INFO Processing audio with duration 01:12.808
+15:49:27 INFO VAD filter removed 00:00.016 of audio
+15:50:00 INFO bloco 8: 72.8s, 209 palavras reconhecidas
+15:50:12 INFO cena 53 pronta (14.1s, total 502s)
+15:50:19 WARNING nenhuma imagem livre para 'Pope Benedict XII Avignon portrait' — usando cartão
+15:50:20 INFO imagem 'Pope Benedict XII Avignon' ← wikimedia
+15:50:20 INFO imagem para 'Pope Benedict XII Avignon portrait' achada buscando 'Pope Benedict XII Avignon'
+15:50:29 INFO cena 54 pronta (6.0s, total 508s)
+15:50:38 WARNING nenhuma imagem livre para 'Walter of Brienne Duke of Athens Florence 1342' — usando cartão
+15:50:41 INFO imagem 'Walter Brienne Duke Athens' ← wikimedia
+15:50:41 INFO imagem para 'Walter of Brienne Duke of Athens Florence 1342' achada buscando 'Walter Brienne Duke Athens'
+15:50:57 INFO cena 55 pronta (11.6s, total 519s)
+15:51:08 WARNING nenhuma imagem livre para 'Expulsion of the Duke of Athens from Florence 1343 painting Palazzo Vecchio' — usando cartão
+15:51:20 INFO imagem 'Expulsion Duke Athens from' ← wikimedia
+15:51:20 INFO imagem para 'Expulsion of the Duke of Athens from Florence 1343 painting Palazzo Vecchio' achada buscando 'Expulsion Duke Athens from'
+15:51:34 INFO cena 56 pronta (11.6s, total 531s)
+15:51:43 INFO cena 57 pronta (9.8s, total 541s)
+15:51:53 INFO cena 58 pronta (11.4s, total 552s)
+15:52:01 INFO cena 59 pronta (8.5s, total 560s)
+15:52:03 INFO Processing audio with duration 01:17.488
+15:52:03 INFO VAD filter removed 00:00.000 of audio
+15:52:35 INFO bloco 9: 77.5s, 222 palavras reconhecidas
+15:52:47 INFO cena 60 pronta (14.2s, total 575s)
+15:53:09 WARNING nenhuma imagem livre para 'Florentine calendar 25 March Annunciation New Year medieval' — usando cartão
+15:53:31 WARNING nenhuma imagem livre para 'Florentine calendar 25 March' — usando cartão
+15:53:44 WARNING nenhuma imagem livre para 'Florentine calendar 25' — usando cartão
+15:53:46 INFO imagem 'Florentine calendar' ← wikimedia
+15:53:46 INFO imagem para 'Florentine calendar 25 March Annunciation New Year medieval' achada buscando 'Florentine calendar'
+15:54:02 INFO cena 61 pronta (12.5s, total 587s)
+15:54:13 INFO cena 62 pronta (13.9s, total 601s)
+15:54:22 INFO cena 63 pronta (12.0s, total 613s)
+15:54:32 INFO cena 64 pronta (12.3s, total 625s)
+15:54:42 INFO cena 65 pronta (12.6s, total 638s)
+15:54:44 INFO Processing audio with duration 01:29.088
+15:54:45 INFO VAD filter removed 00:00.000 of audio
+15:55:21 INFO bloco 10: 89.1s, 227 palavras reconhecidas
+15:55:29 INFO cena 66 pronta (8.6s, total 646s)
+15:55:40 INFO cena 67 pronta (11.7s, total 658s)
+15:55:46 INFO cena 68 pronta (8.1s, total 666s)
+15:55:50 INFO cena 69 pronta (4.4s, total 671s)
+15:55:56 WARNING nenhuma imagem livre para 'Tower of London medieval prison 14th century illustration' — usando cartão
+15:55:58 INFO imagem 'Tower London medieval prison' ← wikimedia
+15:55:58 INFO imagem para 'Tower of London medieval prison 14th century illustration' achada buscando 'Tower London medieval prison'
+15:56:15 INFO cena 70 pronta (12.5s, total 683s)
+15:56:17 INFO imagem 'Edward III Florin 1344 gold coin double leopard' ← wikimedia
+15:56:32 INFO cena 71 pronta (10.9s, total 694s)
+15:56:48 WARNING nenhuma imagem livre para 'Black Death 1348 Triumph of Death painting plague Florence' — usando cartão
+15:57:03 WARNING nenhuma imagem livre para 'Black Death 1348 Triumph' — usando cartão
+15:57:05 INFO imagem 'Black Death 1348' ← wikimedia
+15:57:05 INFO imagem para 'Black Death 1348 Triumph of Death painting plague Florence' achada buscando 'Black Death 1348'
+15:57:21 INFO cena 72 pronta (12.9s, total 707s)
+15:57:24 INFO cena 73 pronta (3.9s, total 711s)
+15:57:26 INFO imagem 'Richard II of England portrait Westminster Abbey' ← wikimedia
+15:57:47 INFO cena 74 pronta (15.9s, total 727s)
+15:57:49 INFO Processing audio with duration 01:11.768
+15:57:49 INFO VAD filter removed 00:00.000 of audio
+15:58:19 INFO bloco 11: 71.8s, 219 palavras reconhecidas
+15:58:27 INFO cena 75 pronta (8.4s, total 735s)
+15:58:39 INFO cena 76 pronta (15.9s, total 751s)
+15:58:48 INFO cena 77 pronta (10.2s, total 761s)
+15:58:55 INFO cena 78 pronta (8.4s, total 770s)
+15:59:13 WARNING nenhuma imagem livre para 'Florence Ponte Vecchio medieval painting 14th century' — usando cartão
+15:59:15 INFO imagem 'Florence Ponte Vecchio medieval' ← wikimedia
+15:59:15 INFO imagem para 'Florence Ponte Vecchio medieval painting 14th century' achada buscando 'Florence Ponte Vecchio medieval'
+15:59:27 INFO cena 79 pronta (9.1s, total 779s)
+15:59:49 INFO cena 80 pronta (9.3s, total 788s)
+15:59:58 INFO cena 81 pronta (10.4s, total 799s)
+16:00:01 INFO sem trilha em musica/misterio — vídeo sai só com narração
+16:00:03 INFO upload 7%
+16:00:03 INFO upload 14%
+16:00:03 INFO upload 21%
+16:00:04 INFO upload 28%
+16:00:04 INFO upload 35%
+16:00:04 INFO upload 42%
+16:00:05 INFO upload 49%
+16:00:05 INFO upload 56%
+16:00:06 INFO upload 63%
+16:00:06 INFO upload 70%
+16:00:06 INFO upload 77%
+16:00:07 INFO upload 84%
+16:00:07 INFO upload 91%
+16:00:07 INFO upload 98%
+16:00:08 INFO vídeo enviado: https://youtu.be/o_0Ff6Gpdn8 (agendado para 2026-11-06T21:00:00Z)
+16:00:18 INFO na playlist 'Idade Média'
+16:00:19 WARNING Encountered 403 Forbidden with reason "forbidden"
+16:00:19 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+16:02:36 INFO corte 1 pronto (34s)
+16:04:24 INFO corte 2 pronto (26s)
+16:06:55 INFO corte 3 pronto (40s)
+16:06:57 INFO upload 92%
+16:06:58 INFO Short agendado: https://youtube.com/shorts/fAEP7gzzTNc (2026-11-07T15:00:00Z)
+16:07:03 INFO Short agendado: https://youtube.com/shorts/licdQn-855k (2026-11-08T15:00:00Z)
+16:07:07 INFO Short agendado: https://youtube.com/shorts/T7K68iypEGc (2026-11-09T15:00:00Z)
+16:07:10 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/saida/video.mp4 (13.3 min) → https://youtu.be/o_0Ff6Gpdn8
