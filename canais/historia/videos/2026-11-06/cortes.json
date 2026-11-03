@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 4],
+      "gancho": "Um rei fugiu deixando a família de garantia",
+      "titulo": "O rei que fugiu deixando a rainha e os filhos como caução",
+      "descricao": "Em 1340, Eduardo III escapou de Gante sem pagar e deixou a família real como garantia. Foi calote mesmo? A história completa está no canal.",
+      "hashtags": ["#historia", "#idademedia", "#economia"],
+      "legenda_reels": "Um rei da Inglaterra fugiu da dívida e deixou a rainha e os filhos como garantia. Foi calote ou a história foi mal contada? Segue o perfil para mais história contada pelo dinheiro. #historia #idademedia #economia #curiosidades"
+    },
+    {
+      "de": [5, 6], "ate": [5, 8],
+      "gancho": "O rei penhorou a própria coroa",
+      "titulo": "O rei que penhorou a coroa da Inglaterra",
+      "descricao": "Em 1339, Eduardo III deixou a Grande Coroa no penhor para financiar a guerra. O vídeo completo mostra o que veio depois, no canal.",
+      "hashtags": ["#historia", "#idademedia", "#economia"],
+      "legenda_reels": "Em 1339 o rei da Inglaterra penhorou a coroa de verdade para pagar a guerra. É o penhor da Caixa em versão medieval. Segue o perfil para mais história pelo dinheiro. #historia #idademedia #economia #curiosidades"
+    },
+    {
+      "de": [6, 4], "ate": [6, 8],
+      "gancho": "Quem contou essa história tinha dinheiro nela",
+      "titulo": "O cronista que culpou o rei tinha dinheiro no caso",
+      "descricao": "A versão clássica da quebra dos bancos de Florença vem de um cronista com interesse direto. O vídeo completo compara com o que dizem os documentos, no canal.",
+      "hashtags": ["#historia", "#idademedia", "#economia"],
+      "legenda_reels": "A versão clássica da quebra dos bancos de Florença foi escrita por alguém que tinha dinheiro investido neles. Dá para confiar? Segue o perfil para mais história pelo dinheiro. #historia #idademedia #economia #florenca"
+    }
+  ]
+}

@@ -1,0 +1,820 @@
+{
+  "canal": "historia",
+  "titulo": "O rei que penhorou a coroa e 'quebrou' dois bancos",
+  "descricao": "Em 1340, o rei da Inglaterra fugiu de Gante deixando a rainha e os filhos como garantia de dívida. Pouco depois, dois dos maiores bancos da Europa quebraram.\nFoi calote de rei ou a história foi mal contada? Seguimos o dinheiro para descobrir.\n\nEduardo III, os Bardi e os Peruzzi: a lã inglesa, o cartão de crédito do rei, a Grande Coroa no penhor e o cronista Giovanni Villani, que tinha dinheiro no caso. Comparamos a versão clássica com o que dizem os historiadores Ephraim Russell e Edwin Hunt, vemos por que os Acciaiuoli quebraram sem ter emprestado nada ao rei e quem de fato pagou a conta. Onde as fontes discordam (datas, valores, percentuais recuperados), o vídeo avisa.\n\nGostou? Inscreva-se, deixe o like e conte nos comentários: o rei foi o vilão ou só o empurrão final?\n\nFontes:\n- Russell, Ephraim. The Bardi and Peruzzi loans to Edward III (1918), British History Online: https://www.british-history.ac.uk/manchester-uni/london-lay-subsidy/1332/pp93-135\n- Hunt, Edwin S. A New Look at the Dealings of the Bardi and Peruzzi with Edward III. Journal of Economic History, 1990: https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/new-look-at-the-dealings-of-the-bardi-and-peruzzi-with-edward-iii/2AD04842FACDAE9D0A660EDCD72EC097\n- Hunt, Edwin S. The Medieval Super-Companies (Cambridge University Press, 1994), introdução: https://www.cambridge.org/core/books/medieval-supercompanies/introduction/ED84CB6808B41CFE1D63A8C924F4A0D5\n- Villani, Giovanni. Nuova Cronica, XII.54 (trad. inglesa): https://elfinspell.com/BenhamVillani.html\n- Del Punta, Ignazio. Italian firms in late medieval England and their bankruptcy, Cambridge: https://www.cambridge.org/core/books/angloitalian-cultural-relations-in-the-later-middle-ages/italian-firms-in-late-medieval-england-and-their-bankruptcy-rereading-an-old-history-of-financial-crisis/75CAEC33B7F44804A1E5A6E515058F68\n- Como Eduardo III financiou a guerra nos primeiros anos: https://thehundredyearswar.co.uk/how-did-edward-iii-finance-the-conflict-with-france-in-its-initial-stages\n- The Financiers of Medieval Florence, Tontine Coffee-House: https://tontinecoffeehouse.com/2020/08/17/the-financiers-of-medieval-florence/\n- Wikipedia: Edward III of England, Compagnia dei Bardi, Peruzzi, Riccardi of Lucca\n\nIlustrações geradas por inteligência artificial (estilo ilustração, sem pessoas reais em imagem realista), combinadas com obras de domínio público e acervos livres como Wikimedia Commons; os créditos de cada imagem estão listados automaticamente nesta descrição. Narração gerada por voz sintética a partir de roteiro revisado e aprovado pelo canal. Trilha sonora: acervo de música livre do canal.",
+  "tags": [
+    "história",
+    "história econômica",
+    "idade média",
+    "eduardo iii",
+    "bardi e peruzzi",
+    "banqueiros de florença",
+    "guerra dos cem anos",
+    "calote",
+    "história do dinheiro",
+    "florim",
+    "crise bancária",
+    "lã inglesa",
+    "ouro e império"
+  ],
+  "hashtags": [
+    "#história",
+    "#idademédia",
+    "#economia"
+  ],
+  "playlist": "Idade Média",
+  "sintetico_realista": false,
+  "musica_humor": "misterio",
+  "comentario_inicial": "Pergunta do meio do vídeo: para você, Eduardo III foi o vilão dessa história ou só o último empurrão num prédio que já estava rachando? Conta aí o porquê.",
+  "thumbnail": {
+    "texto": "CALOTE OU ÁLIBI?",
+    "cena": "Medieval king in an ornate crown pawn-shop scene, a huge golden crown sitting on a banker's counter with a small coin scale, florentine gold florins scattered, dramatic warm lighting, illustrated style, main element on the right side, empty dark space on the left",
+    "imagem_busca": "Edward III England medieval manuscript illumination crown",
+    "layout": "esquerda"
+  },
+  "blocos": [
+    {
+      "capitulo": "A família como garantia",
+      "cenas": [
+        {
+          "narracao": "Mil trezentos e quarenta. No começo do ano, na cidade de Gante, onde hoje fica a Bélgica, o rei da Inglaterra se proclama rei da França também. Duas coroas e nenhum tostão no bolso.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smug medieval English king wearing two crowns at once, proudly turning his empty pockets inside out, a few moths flying out, in a Flemish town square",
+            "busca_reserva": "Edward III of England medieval manuscript miniature"
+          }
+        },
+        {
+          "narracao": "No fim do ano, sem conseguir pagar ninguém, ele sai escondido e volta para a Inglaterra. E deixa para trás a rainha e os filhos, como garantia para quem ele devia.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval king tiptoeing out of a back door at night carrying his shoes, while a queen and small children wait at a table with a stern bearded moneylender holding a ledger",
+            "busca_reserva": "medieval ship crossing the North Sea illuminated manuscript"
+          }
+        },
+        {
+          "narracao": "A família real virou caução de empréstimo. Poucos anos depois, as duas maiores companhias de Florença, gigantes do crédito na Europa, estavam quebradas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a pawn shop counter where a royal family portrait sits with a price tag labeled loan collateral, a clerk examining it through a magnifying glass, bewildered",
+            "busca_reserva": "Florence medieval city view painting 14th century"
+          }
+        },
+        {
+          "narracao": "A versão clássica diz que foi calote desse rei. Hoje a gente vai ver se essa versão para em pé.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Edward III of England portrait medieval",
+            "movimento": "zoom_in",
+            "legenda": "Eduardo III da Inglaterra"
+          }
+        },
+        {
+          "narracao": "Se você curte entender a história seguindo o dinheiro, se inscreve e deixa o like, que isso ajuda demais o canal.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly medieval Florentine banker with a gold coin in one hand pointing at the viewer with a big grin and a thumbs up",
+            "busca_reserva": "florin gold coin Florence medieval"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Os donos do florim",
+      "cenas": [
+        {
+          "narracao": "Para entender o tamanho do tombo, você precisa conhecer os credores. Florença, começo do século catorze.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Florence 14th century map Pianta della Catena",
+            "movimento": "pan_direita",
+            "legenda": "Florença, século XIV"
+          }
+        },
+        {
+          "narracao": "A cidade tinha uma moeda de ouro famosa, o florim, tão confiável que até o rei inglês ia tentar imitar mais tarde. E tinha duas empresas que eram praticamente os bancões da época: os Bardi e os Peruzzi.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Florin gold coin Florence 13th century",
+            "movimento": "zoom_in",
+            "legenda": "O florim de ouro"
+          }
+        },
+        {
+          "narracao": "Os historiadores chamam esse tipo de firma de supercompanhia. Elas negociavam mercadoria, aceitavam depósito e emprestavam para quem tivesse poder.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a busy medieval Italian counting house where clerks weigh sacks of goods, stack gold coins and take deposits, with a giant octopus-like merchant holding everything at once",
+            "busca_reserva": "medieval Italian bankers counting house painting"
+          }
+        },
+        {
+          "narracao": "Os Bardi eram os maiores, uma vez e meia o tamanho dos Peruzzi, e chegaram a ter mais de trezentos funcionários. Os Peruzzi, no auge, tinham quinze filiais e perto de cem empregados.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Bardi",
+              "itens": [
+                "Os maiores",
+                "Mais de 300 funcionários"
+              ]
+            },
+            "direita": {
+              "titulo": "Peruzzi",
+              "itens": [
+                "15 filiais",
+                "Perto de 100 empregados"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Em mil trezentos e trinta e cinco, os ativos dos Peruzzi somavam por volta de meio milhão de florins, segundo uma das estimativas. Era o tipo de família que encomendava capela pintada.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "500 mil florins",
+            "rotulo": "Ativos dos Peruzzi em 1335 (estimativa)"
+          }
+        },
+        {
+          "narracao": "Os Peruzzi têm uma em Florença, com afrescos que provavelmente são de Giotto.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Giotto frescoes Peruzzi Chapel Santa Croce Florence",
+            "movimento": "zoom_in",
+            "legenda": "Capela Peruzzi, Santa Croce"
+          }
+        },
+        {
+          "narracao": "E Boccaccio, o do Decamerão, trabalhou para os Bardi quando jovem, assim como o pai dele. Antes de virar clássico da literatura, o homem bateu ponto no banco.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a young medieval Italian poet in a rumpled tunic stamping a time card at a bank counter, quill behind his ear, yawning, a thick book labeled nothing under his arm",
+            "busca_reserva": "Giovanni Boccaccio portrait painting"
+          }
+        },
+        {
+          "narracao": "Agora, quem era o maior cliente dessa turma? Um reino frio, chuvoso e cheio de ovelhas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a rainy green English hillside crowded with fluffy sheep wearing tiny gold crowns, grey clouds overhead",
+            "busca_reserva": "medieval English sheep manuscript illumination"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Lã, o ouro inglês",
+      "cenas": [
+        {
+          "narracao": "A Inglaterra da época não tinha petróleo nem soja, mas tinha ovelha. E ovelha dá lã. A lã inglesa era a mercadoria mais cobiçada do reino.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a proud medieval English shepherd hugging a huge fluffy sheep that shines like gold, a barrel of oil and a sack of soy sitting sadly in the corner",
+            "busca_reserva": "medieval wool trade England painting"
+          }
+        },
+        {
+          "narracao": "Segundo uma estimativa, no começo dos anos mil trezentos e trinta ela respondia por cerca de metade dos ganhos dos Bardi.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "~50%",
+            "rotulo": "dos ganhos dos Bardi vinham da lã inglesa (estimativa, início dos anos 1330)"
+          }
+        },
+        {
+          "narracao": "O esquema era assim: a companhia comprava a produção de vários anos de uma vez, abaixo do preço de mercado. Esse desconto era, na prática, o juro. É tipo vender a safra ainda no pé para o atravessador.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a sly Italian merchant in a red hat handing a small purse to a worried farmer while a huge pile of wool bales behind the farmer carries a tiny price tag",
+            "busca_reserva": "medieval wool merchants bales gravure"
+          }
+        },
+        {
+          "narracao": "E por que um rei pedia dinheiro a mercador? Porque no norte da Europa não existia um mercado de dívida do governo como a gente conhece. Não tinha título público, não tinha Tesouro Direto.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval king knocking at a merchant's door holding a begging bowl, while a blank sign on the wall reads nothing, a confused clerk shrugging",
+            "busca_reserva": "medieval king and merchants counting house illumination"
+          }
+        },
+        {
+          "narracao": "O rei tomava emprestado de comerciantes e pagava com o que tinha: direitos sobre a lã e sobre a alfândega.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval customs house at a harbor with a stamped wool sack being handed over like a check by a king's officer to an Italian merchant",
+            "busca_reserva": "medieval English customs port wool export"
+          }
+        },
+        {
+          "narracao": "E esse filme já tinha passado antes. No tempo de um rei anterior, Eduardo primeiro, os banqueiros da Coroa eram os Riccardi, da cidade de Lucca.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Edward I of England medieval illuminated manuscript",
+            "movimento": "pan_esquerda",
+            "legenda": "Eduardo I e os banqueiros Riccardi, de Lucca"
+          }
+        },
+        {
+          "narracao": "Em mil duzentos e noventa e quatro veio uma guerra entre Inglaterra e França, o crédito secou, os Riccardi não conseguiram mais emprestar, e a firma acabou quebrando por volta de mil e trezentos.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval banker from Lucca sitting on an overturned empty chest in a dark room, cobwebs on his ledger, a distant battle banner outside the window",
+            "busca_reserva": "Lucca medieval city painting"
+          }
+        },
+        {
+          "narracao": "Os relatos sobre os detalhes variam, mas o padrão ficou: rei em guerra, banqueiro italiano na corda bamba.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an Italian banker in a long robe balancing on a tightrope over a pit, carrying a bag of coins, while a king with a sword waves from the far side",
+            "busca_reserva": "medieval tightrope walker manuscript marginalia"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O cartão de crédito do rei",
+      "cenas": [
+        {
+          "narracao": "Agora entra o nosso protagonista. Eduardo terceiro assume a coroa em mil trezentos e vinte e sete.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "1327",
+            "subtitulo": "Eduardo III assume a coroa"
+          }
+        },
+        {
+          "narracao": "E os Bardi já estão lá, firmes, bancando as despesas do dia a dia da casa real. Era o cartão de crédito do rei.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a young medieval king swiping a giant gold credit card made of a florin coin at a banker's counter while the Bardi banker smiles nervously",
+            "busca_reserva": "Edward III coronation medieval illumination"
+          }
+        },
+        {
+          "narracao": "Os Peruzzi, curiosamente, quase não tinham emprestado aos reis ingleses até ali. Entre mil duzentos e noventa e mil trezentos e vinte e seis, os Bardi emprestaram pelo menos setenta e duas mil libras à Coroa. Os Peruzzi, coisa de novecentas. Troco de pão, perto do vizinho.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Bardi (1290-1326)",
+              "itens": [
+                "Pelo menos 72 mil libras"
+              ]
+            },
+            "direita": {
+              "titulo": "Peruzzi",
+              "itens": [
+                "Coisa de 900 libras"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Aí, em mil trezentos e trinta e sete, começa a Guerra dos Cem Anos. E guerra é o produto mais caro que existe.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Hundred Years War battle Froissart Chronicles miniature",
+            "movimento": "zoom_in",
+            "legenda": "Guerra dos Cem Anos, 1337"
+          }
+        },
+        {
+          "narracao": "As duas companhias abriram o cofre, e foi aí que os Peruzzi entraram de vez no jogo. Mas os italianos eram só uma parte da fila.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two Italian bankers pulling open a huge vault door overflowing with coins, behind them a long queue of other creditors in various hats stretching out the door",
+            "busca_reserva": "medieval treasury chest iron strongbox"
+          }
+        },
+        {
+          "narracao": "Do fim de mil trezentos e trinta e sete até março de mil trezentos e quarenta, somando todos os credores, a Coroa tomou emprestado cerca de trezentas e quarenta e duas mil libras. Em pouco mais de dois anos.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "342 mil libras",
+            "rotulo": "emprestadas pela Coroa em pouco mais de dois anos"
+          }
+        },
+        {
+          "narracao": "O Parlamento aprovou impostos muito acima do normal. Mesmo assim, a conta não fechava. Faltava dinheiro como falta salário no dia vinte.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval parliament of grumpy lords and a tax collector emptying peasants' pockets into a bucket, the bucket still nearly empty, a king staring into it",
+            "busca_reserva": "medieval English parliament Edward III miniature"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A coroa no penhor",
+      "cenas": [
+        {
+          "narracao": "Então o rei teve uma ideia. Se a lã é o ouro inglês, vamos usar a lã como dinheiro.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval king with a lightbulb above his head holding a bale of wool as if it were a gold bar, courtiers staring at him in doubt",
+            "busca_reserva": "medieval wool sack Woolsack House of Lords"
+          }
+        },
+        {
+          "narracao": "Em março de mil trezentos e trinta e oito, fechou um contrato com os mercadores: entregaria cerca de vinte e cinco mil sacas de lã para eles venderem em proveito dele, e eles adiantariam quinze mil libras.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a king and a group of merchants shaking hands over a huge stack of wool sacks on a quay, a scribe writing the contract, bags of coins on the table",
+            "busca_reserva": "medieval wool merchants contract port Antwerp"
+          }
+        },
+        {
+          "narracao": "De quebra, o rei prometia protegê-los de qualquer prejuízo causado pela guerra. Promessa de devedor, você sabe como é.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a king behind a merchant holding a tiny shield and crossing his fingers behind his back while smiling innocently",
+            "busca_reserva": "medieval king promise oath illuminated manuscript"
+          }
+        },
+        {
+          "narracao": "Outro esquema, um monopólio da exportação de lã, também decepcionou. Segundo um levantamento, o rei esperava umas vinte mil sacas em Antuérpia, e só mil quinhentas e oitenta e quatro tinham chegado.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Esperado",
+              "itens": [
+                "~20 mil sacas em Antuérpia"
+              ]
+            },
+            "direita": {
+              "titulo": "Chegou",
+              "itens": [
+                "1.584 sacas"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Quando os italianos começaram a apertar, o rei passou a depender também de um mercador inglês, William de la Pole, da cidade de Hull, que levantou uma bolada para a Coroa. Nem isso bastou.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stout English merchant from Hull carrying a giant sack of coins over his shoulder toward a king, the sack already leaking coins from a hole",
+            "busca_reserva": "Hull medieval port merchant ship engraving"
+          }
+        },
+        {
+          "narracao": "Fevereiro de mil trezentos e trinta e nove. O rei penhora a Grande Coroa da Inglaterra. A coroa mesmo.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "medieval royal crown English crown jewels illustration",
+            "movimento": "zoom_in",
+            "legenda": "Fevereiro de 1339"
+          }
+        },
+        {
+          "narracao": "Entregou ao arcebispo de Trier como garantia, com a promessa de devolver cerca de dezesseis mil e seiscentas libras. E a conta de juros, segundo outra fonte, chegou a umas catorze mil.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a solemn medieval archbishop in a tall mitre holding a golden crown on a velvet cushion with a suspicious expression, an English envoy bowing",
+            "busca_reserva": "Trier medieval archbishop miniature"
+          }
+        },
+        {
+          "narracao": "É o penhor da Caixa em versão medieval: deixa a joia da família no balcão e sai com o dinheiro. A coroa só voltou para casa anos depois.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval king at a pawn shop window leaving a sparkling crown on the counter and walking away with a small bag of coins, the crown looking sadly after him",
+            "busca_reserva": "medieval pawnbroker engraving"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O cronista com dinheiro no caso",
+      "cenas": [
+        {
+          "narracao": "Em junho de mil trezentos e trinta e nove, Eduardo ainda prometeu aos credores pagamentos extras, que os documentos chamam de presentes: trinta mil libras para os Bardi e vinte mil para os Peruzzi. O historiador Ephraim Russell duvida que isso tenha sido pago por inteiro.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a king handing oversized gift boxes tied with ribbons to two Italian bankers, who peek inside and find the boxes mostly empty, a historian with spectacles raising an eyebrow in the corner",
+            "busca_reserva": "medieval gift giving king banker miniature"
+          }
+        },
+        {
+          "narracao": "Aí chega mil trezentos e quarenta. Em julho, o rei manda auditar as contas das duas companhias.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "grim royal auditors in dark robes with magnifying glasses poring over huge ledgers in a medieval counting house while two bankers sweat",
+            "busca_reserva": "medieval exchequer accounts checkered cloth"
+          }
+        },
+        {
+          "narracao": "E no fim do ano, depois de fugir dos credores e deixar a família para trás, volta para Londres de surpresa e faz uma limpa na administração. Essa auditoria vai voltar.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "London medieval Tower of London 14th century illumination",
+            "movimento": "pan_direita",
+            "legenda": "Londres, fim de 1340"
+          }
+        },
+        {
+          "narracao": "Agora, a versão que virou clássica vem de um cronista de Florença, Giovanni Villani.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Giovanni Villani Nuova Cronica manuscript",
+            "movimento": "zoom_in",
+            "legenda": "Giovanni Villani, cronista de Florença"
+          }
+        },
+        {
+          "narracao": "Segundo ele, o rei inglês devia novecentos mil florins aos Bardi e seiscentos mil aos Peruzzi, somando empréstimo, juros e os tais presentes. E o rei de Nápoles, que Villani chama de rei da Sicília, devia mais cem mil a cada uma.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "A conta de Villani (florins)",
+            "itens": [
+              "Rei inglês aos Bardi: 900 mil",
+              "Rei inglês aos Peruzzi: 600 mil",
+              "Rei de Nápoles: mais 100 mil a cada uma"
+            ]
+          }
+        },
+        {
+          "narracao": "Para Villani, a moral era clara: usura e ganância. O rei não pagou, os bancos caíram, fim.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval Florentine chronicler in a red cap writing furiously with a quill, pointing a finger at a defaulting king drawn as a villain with a twirling mustache",
+            "busca_reserva": "medieval chronicler writing scriptorium"
+          }
+        },
+        {
+          "narracao": "Só que tem um detalhe. O irmão de Villani era sócio dos Peruzzi. E o próprio Villani tinha dinheiro investido na firma.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "the same Florentine chronicler caught sheepishly hiding a Peruzzi shareholder certificate behind his back while his brother nudges him, a magnifying glass over the scene",
+            "busca_reserva": "Florence merchant ledger medieval"
+          }
+        },
+        {
+          "narracao": "É como ler a crítica de um restaurante escrita por um sócio que perdeu dinheiro quando a casa fechou.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an angry restaurant critic in a medieval tunic writing a one-star review in front of a closed trattoria with a for-sale sign, a sack of lost coins at his feet",
+            "busca_reserva": "medieval tavern painting closed door"
+          }
+        },
+        {
+          "narracao": "Antes de abrir os documentos, me conta nos comentários: para você, o rei é o vilão dessa história ou só o último empurrão num prédio que já estava rachando? E deixa o like se você também desconfia de testemunha com dinheiro no caso.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cheerful cartoon medieval king pushing a tall cracked tower with one finger, turning to the viewer with a questioning shrug and a thumbs up",
+            "busca_reserva": "cracked medieval tower leaning engraving"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O que dizem os papéis",
+      "cenas": [
+        {
+          "narracao": "Em mil novecentos e dezoito, Russell vasculhou os registros ingleses e chegou a outra conta. Somando tudo o que Bardi e Peruzzi emprestaram a Eduardo terceiro ao longo dos anos, ele estimou pelo menos trezentas e cinquenta e nove mil libras, quase trezentas e sessenta mil.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an early twentieth century historian with round glasses surrounded by towers of dusty medieval parchment rolls in an archive, adding numbers on an abacus",
+            "busca_reserva": "Public Record Office archive early 20th century photograph"
+          }
+        },
+        {
+          "narracao": "Repara: é o total emprestado, não o que sobrou de dívida no final. E Russell concluiu que a recusa do rei em pagar foi uma causa grande, mas não a única.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "359 mil libras",
+            "rotulo": "total emprestado por Bardi e Peruzzi, segundo Russell (não é a dívida final)"
+          }
+        },
+        {
+          "narracao": "Décadas depois, o historiador Edwin Hunt, num artigo de mil novecentos e noventa e num livro de mil novecentos e noventa e quatro, foi além. Para Hunt, as companhias simplesmente não tinham capital para emprestar na escala que Villani conta.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a modern professor next to a blackboard showing a tiny bucket of coins beside a giant bucket drawn by a medieval chronicler, the professor shaking his head politely",
+            "busca_reserva": "old books library historian study"
+          }
+        },
+        {
+          "narracao": "Ele mostra um dado dos livros dos Peruzzi: dezenove de vinte e um sócios reduziram o dinheiro que tinham deixado na própria firma, de cerca de catorze mil florins em mil trezentos e trinta e cinco para pouco mais de mil em mil trezentos e quarenta e três. Para Hunt, é sinal de que faltava capital.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "1335",
+              "itens": [
+                "Cerca de 14 mil florins deixados na firma"
+              ]
+            },
+            "direita": {
+              "titulo": "1343",
+              "itens": [
+                "Pouco mais de 1 mil florins",
+                "19 de 21 sócios reduziram"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E tem mais. Segundo Hunt, Eduardo terceiro nunca repudiou formalmente as dívidas. Ele não chegou e disse não pago. Ele auditou, contestou, reduziu e enrolou.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a king in a hooded cloak whistling innocently while stamping reduced on a stack of bills, one auditor holding a red pen and another shrugging",
+            "busca_reserva": "medieval king signing documents seal illumination"
+          }
+        },
+        {
+          "narracao": "Parte foi paga com renda de terras, multas, lã e até uma parcela de indenização escocesa. O resto ficou pendurado.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a creditor receiving a ridiculous payment in a wheelbarrow filled with wool, a tiny plot of land, a fine receipt and a bagpipe, looking utterly confused",
+            "busca_reserva": "medieval Scotland Edward III war illumination"
+          }
+        },
+        {
+          "narracao": "Nem todo historiador assina embaixo de tudo isso, e o debate continua. Mas, pelo que os documentos mostram, a palavra calote do nosso título fica no mínimo discutível.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Calote?",
+            "subtitulo": "No mínimo discutível"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Florença já estava em crise",
+      "cenas": [
+        {
+          "narracao": "Se o rei não foi o único culpado, quem mais estava na cena? Começa pela própria Florença. Em mil trezentos e quarenta, os Bardi se meteram numa conspiração junto com outra família de banqueiros, os Frescobaldi, e o plano foi descoberto.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "hooded Florentine bankers whispering around a candle in a dark alley, one of them accidentally dropping a map labeled plan while a guard in the shadows watches",
+            "busca_reserva": "Florence medieval street conspiracy painting"
+          }
+        },
+        {
+          "narracao": "No fim de mil trezentos e quarenta e um, os Peruzzi perderam os negócios com o papa, depois de um atrito com Bento doze.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Pope Benedict XII Avignon portrait",
+            "movimento": "zoom_out",
+            "legenda": "Bento XII, papa em Avinhão"
+          }
+        },
+        {
+          "narracao": "Em mil trezentos e quarenta e dois, as duas companhias apoiaram um governante novo para Florença, Gualtério de Brienne, o chamado Duque de Atenas. A ideia era proteger as próprias finanças. Não deu certo.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Walter of Brienne Duke of Athens Florence 1342",
+            "movimento": "zoom_in",
+            "legenda": "Gualtério de Brienne, Duque de Atenas"
+          }
+        },
+        {
+          "narracao": "Em mil trezentos e quarenta e três, a cidade entrou em moratória da própria dívida pública, Gualtério foi expulso em julho, e os palácios dos Bardi foram saqueados. O prejuízo passou de sessenta mil florins, segundo Russell.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Expulsion of the Duke of Athens from Florence 1343 painting Palazzo Vecchio",
+            "movimento": "pan_esquerda",
+            "legenda": "Florença, julho de 1343"
+          }
+        },
+        {
+          "narracao": "Os banqueiros apostaram no cavalo errado na política, perderam o cliente papal, o rei de Nápoles também deixou de pagar, e os mercadores florentinos ainda sofriam perseguição na França.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a Florentine banker sitting on a wooden toy horse that is falling apart at a horse race, coins bouncing away, while the pope, a Neapolitan king and a French guard look away",
+            "busca_reserva": "medieval horse race Siena Palio painting"
+          }
+        },
+        {
+          "narracao": "E agora vem a prova mais simples de todas. Os Acciaiuoli, a terceira maior companhia de Florença, também quebraram nessa época. E quanto eles tinham emprestado a Eduardo terceiro? Segundo as fontes, nada.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a third Florentine banker holding an empty coin purse labeled zero loans to the king, standing in ruins of his own counting house, looking as shocked as the viewer",
+            "busca_reserva": "Acciaiuoli family Florence medieval"
+          }
+        },
+        {
+          "narracao": "Se o calote inglês fosse a única causa, os Acciaiuoli teriam saído ilesos. Não saíram. É o tipo de detalhe que derruba a explicação de uma frase só.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a giant sentence on a scroll labeled a single cause tipping over and crashing like a domino into a pile of broken columns, a detective historian watching",
+            "busca_reserva": "collapsed medieval column ruins engraving"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Quem pagou a conta",
+      "cenas": [
+        {
+          "narracao": "E quando exatamente eles quebraram? Aqui as fontes brigam. Para a maioria dos autores, os Peruzzi caem em mil trezentos e quarenta e três, mas tem quem fale em quarenta e cinco. Os Bardi aparecem em quarenta e quatro, quarenta e cinco ou quarenta e seis, dependendo de quem conta.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "four medieval scribes arguing around a table, each one holding up a different year on a scroll and tugging a ledger in different directions",
+            "busca_reserva": "medieval scribes arguing manuscript illumination"
+          }
+        },
+        {
+          "narracao": "Uma explicação provável é o calendário: em Florença, o ano novo só começava em vinte e cinco de março. Então janeiro de quarenta e cinco para Villani seria janeiro de quarenta e seis para a gente. Até o réveillon era atrasado nessa história.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Florentine calendar 25 March Annunciation New Year medieval",
+            "movimento": "zoom_in",
+            "legenda": "Em Florença, o ano novo começava em 25 de março"
+          }
+        },
+        {
+          "narracao": "Quem pagou essa conta? Não foi só a família Bardi. Segundo o mesmo Villani, aquele com dinheiro no caso, os Bardi deviam mais de quinhentos e cinquenta mil florins a cidadãos e estrangeiros. Gente que tinha confiado as economias à companhia.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "ordinary medieval townspeople, a baker, a widow and a tailor, each holding a small sack of savings and queueing up at a bank counter that has a closed sign",
+            "busca_reserva": "medieval townspeople queue bank run painting"
+          }
+        },
+        {
+          "narracao": "E quanto essa gente recuperou? Depende da fonte. Pelo acordo de mil trezentos e quarenta e sete descrito por Russell, os credores dos Bardi receberam cerca de trinta por cento, e os dos Peruzzi, uns vinte.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Credores dos Bardi",
+              "itens": [
+                "Cerca de 30%"
+              ]
+            },
+            "direita": {
+              "titulo": "Credores dos Peruzzi",
+              "itens": [
+                "Uns 20%"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Outra estimativa, de uma fonte mais fraca, é mais generosa: quarenta e oito por cento para os credores dos Bardi e trinta e sete para os dos Peruzzi. A diferença pode vir de contas diferentes, a oferta inicial ou o acordo final.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two accountants comparing two different receipts for the same debt, one reading 48 percent and the other 30 percent, scratching their heads at a messy desk",
+            "busca_reserva": "medieval abacus counting table accountants"
+          }
+        },
+        {
+          "narracao": "Em qualquer cenário, a maioria perdeu metade ou mais do que tinha guardado. E não foram só os italianos que ficaram esperando: os nove maiores credores do rei nos Países Baixos e na Alemanha tinham cento e vinte e quatro mil libras a receber.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "124 mil libras",
+            "rotulo": "a receber pelos nove maiores credores nos Países Baixos e na Alemanha"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Quem ganhou",
+      "cenas": [
+        {
+          "narracao": "E quem ganhou? A Coroa inglesa. Eduardo terceiro conseguiu dinheiro para a guerra, lã sob controle e, principalmente, tempo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smug king sitting on a pile of wool sacks with a big hourglass in one hand and a war chest in the other, grinning",
+            "busca_reserva": "Edward III portrait medieval stained glass"
+          }
+        },
+        {
+          "narracao": "Lembra da auditoria? Pois é. A cada nova comissão, o valor que o rei reconhecia dever encolhia mais um pouco. A conta foi revista, descontada e revista de novo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a long bill scroll getting shorter and shorter with each commission of auditors snipping it with giant scissors, a king smiling behind them",
+            "busca_reserva": "medieval auditors exchequer scroll"
+          }
+        },
+        {
+          "narracao": "E o único pagamento registrado aos Bardi, em outubro de mil trezentos e quarenta e sete, foi de cento e cinquenta libras. Cento e cinquenta.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "150 libras",
+            "rotulo": "único pagamento registrado aos Bardi, outubro de 1347"
+          }
+        },
+        {
+          "narracao": "É o devedor que te manda um Pix de dez reais e diz que está tudo em dia.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval king in a crown holding a smartphone showing a tiny payment sent, giving a thumbs up and a wink, a huge pile of unpaid bills behind him",
+            "busca_reserva": "medieval king with coin purse paying small coin engraving"
+          }
+        },
+        {
+          "narracao": "Os credores, enquanto isso, iam parar na cadeia. Agentes italianos ficaram presos em Londres entre mil trezentos e quarenta e três e quarenta e quatro, e em mil trezentos e quarenta e cinco membros dos Peruzzi foram levados para a Torre de Londres.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Tower of London medieval prison 14th century illustration",
+            "movimento": "zoom_in",
+            "legenda": "Torre de Londres"
+          }
+        },
+        {
+          "narracao": "E, num detalhe quase poético, em mil trezentos e quarenta e quatro o rei cunhou um florim de ouro inglês, imitando o florim de Florença, a cidade dos credores. A moeda durou pouco.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Edward III Florin 1344 gold coin double leopard",
+            "movimento": "zoom_in",
+            "legenda": "O florim inglês de 1344"
+          }
+        },
+        {
+          "narracao": "Aí, em mil trezentos e quarenta e oito, chega a Peste Negra, e aqui a piada para. A doença agravou um quadro que já era duro e mudou as contas de bancos, cidades e famílias inteiras.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Black Death 1348 Triumph of Death painting plague Florence",
+            "movimento": "pan_direita",
+            "legenda": "Peste Negra, 1348"
+          }
+        },
+        {
+          "narracao": "Villani, o cronista desta história, morreu naquele ano, provavelmente de peste.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an old chronicler lying on his bed with a half-finished manuscript and a quill on the blanket, a candle going out, a quiet somber scene",
+            "busca_reserva": "medieval plague scene Florence Boccaccio Decameron"
+          }
+        },
+        {
+          "narracao": "O ponto final só veio em mil trezentos e noventa e um, já com outro rei no trono, Ricardo segundo. Um perdão régio liberou os Bardi de dívidas que ainda constavam a favor da Coroa. Quase cinquenta anos depois, os papéis do governo ainda tratavam os banqueiros como devedores.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Richard II of England portrait Westminster Abbey",
+            "movimento": "zoom_out",
+            "legenda": "Ricardo II, 1391"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Calote ou bode expiatório?",
+      "cenas": [
+        {
+          "narracao": "Então, o rei calotou os bancos e quebrou Florença? A resposta honesta: em parte, e não do jeito que o título promete.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval king shrugging with palms up between two signs, one saying yes and the other saying no, a goat wearing a tiny crown standing behind him",
+            "busca_reserva": "medieval goat scapegoat illustration"
+          }
+        },
+        {
+          "narracao": "Segundo Hunt, Eduardo terceiro nunca disse formalmente que não ia pagar. Ele foi pagando pouco, tarde e com desconto, enquanto auditava a dívida até ela encolher. Isso doeu, e muito, porque reduziu o que os credores conseguiram salvar.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "O jeito de Eduardo III",
+            "itens": [
+              "Pouco",
+              "Tarde",
+              "Com desconto",
+              "Auditando até a dívida encolher"
+            ]
+          }
+        },
+        {
+          "narracao": "Mas as companhias já estavam frágeis, Florença estava em crise política e fiscal, o rei de Nápoles também não pagou, e a terceira maior firma da cidade quebrou sem ter emprestado ao rei.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a tall medieval building with deep cracks in the walls, Florentine banners flapping, a tiny king poking the very last brick with one finger",
+            "busca_reserva": "Florence medieval skyline Palazzo Vecchio old painting"
+          }
+        },
+        {
+          "narracao": "O calote foi um golpe pesado, talvez o último. Não foi o único. E boa parte da conta caiu em quem tinha deixado as economias no balcão.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a poor medieval widow clutching an empty savings pouch at a bank counter while behind her a king and a banker walk away carrying heavy sacks",
+            "busca_reserva": "medieval poor woman coin purse engraving"
+          }
+        },
+        {
+          "narracao": "Na Florença do século catorze, quem emprestou correu o risco, quem depositou levou o tombo junto, e quem tinha o poder escolheu quando e quanto ia pagar.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Florence Ponte Vecchio medieval painting 14th century",
+            "movimento": "pan_esquerda",
+            "legenda": "Florença, século XIV"
+          }
+        },
+        {
+          "narracao": "Se você chegou até aqui, se inscreve, deixa o like e volta lá na pergunta do meio: o rei foi o vilão ou só o empurrão final? Quero ver esse placar nos comentários.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a scoreboard held up by a grinning medieval banker, with two columns villain and last push each with a few tally marks, pointing at the viewer with a thumbs up",
+            "busca_reserva": "medieval tally marks counting sticks"
+          }
+        },
+        {
+          "narracao": "E se você gosta de ver o que acontece quando governo, dívida e banqueiro sentam na mesma mesa, os outros vídeos do canal estão aqui, cada um seguindo o dinheiro de uma época diferente. Até a próxima.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a king, a banker and a tax collector sitting together at a round table with a pile of gold coins in the middle, all of them waving goodbye to the viewer",
+            "busca_reserva": "medieval round table banquet gold coins"
+          }
+        }
+      ]
+    }
+  ]
+}
