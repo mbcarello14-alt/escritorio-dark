@@ -18,3 +18,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-03
 - Outros sistemas financeiros antigos explicados por equivalentes de hoje (cheque, cartão, seguro), no estilo do Pix medieval dos Templários (1.257 views).
+
+### 2026-11-04
+- Short e depois longo comparando outro instrumento financeiro antigo com algo de hoje (letra de câmbio como cheque, seguro marítimo como seguro de carro), no molde do Pix medieval; checar fontes antes.

@@ -14,3 +14,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-03
 - Testar o gancho "o que todo mundo acha que sabe" com obras muito conhecidas: o Short do Frankenstein fez 462 views, enquanto os de outros livros ficaram abaixo de 40.
+
+### 2026-11-04
+- Short "o que todo mundo acha que sabe" sobre outro clássico muito conhecido (nome ou autoria confundidos); os Shorts de obras menos conhecidas ficam abaixo de 40 views.
