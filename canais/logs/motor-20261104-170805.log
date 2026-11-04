@@ -1,0 +1,53 @@
+17:08:06 INFO ilustrações: higgsfield desligado (sem chave)
+17:08:39 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 1/3
+17:08:39 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+17:08:40 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+17:08:41 INFO Processing audio with duration 00:42.407
+[0;93m2026-11-04 17:08:41.927985518 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+17:08:42 INFO VAD filter removed 00:00.000 of audio
+17:08:57 INFO Processing audio with duration 00:42.407
+17:08:57 INFO VAD filter removed 00:00.000 of audio
+17:09:13 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+17:09:13 WARNING Gemini TTS: cota do modelo gemini-3.1-flash-tts-preview acabou — trocando de modelo
+17:10:02 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 2/3
+17:10:02 INFO Processing audio with duration 01:09.251
+17:10:02 INFO VAD filter removed 00:00.000 of audio
+17:10:29 INFO Processing audio with duration 01:09.251
+17:10:29 INFO VAD filter removed 00:00.000 of audio
+17:11:24 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 3/3
+17:11:24 INFO Processing audio with duration 00:10.011
+17:11:24 INFO VAD filter removed 00:00.000 of audio
+17:11:29 INFO Processing audio with duration 00:10.011
+17:11:29 INFO VAD filter removed 00:00.000 of audio
+17:11:33 INFO gerando 6 ilustrações…
+17:11:50 INFO ilustrações prontas: 6 geradas (6 pedidas)
+17:11:51 INFO Processing audio with duration 00:42.408
+17:11:51 INFO VAD filter removed 00:00.000 of audio
+17:12:07 INFO bloco 1: 42.4s, 126 palavras reconhecidas
+cena: Failed to load resource: the server responded with a status of 404 (Not Found)
+17:13:01 INFO cena 1 pronta (11.7s, total 12s)
+17:13:31 INFO cena 2 pronta (9.5s, total 21s)
+17:13:50 INFO cena 3 pronta (9.2s, total 30s)
+17:13:53 INFO imagem 'Edward III of England portrait medieval' ← wikimedia
+17:14:07 INFO cena 4 pronta (5.7s, total 36s)
+17:14:30 INFO cena 5 pronta (6.3s, total 42s)
+17:14:32 INFO Processing audio with duration 01:09.234
+17:14:32 INFO VAD filter removed 00:00.000 of audio
+17:14:59 INFO bloco 2: 69.2s, 193 palavras reconhecidas
+17:15:16 INFO cena 6 pronta (6.5s, total 49s)
+17:15:18 INFO imagem 'Florin gold coin Florence 13th century' ← wikimedia
+17:15:47 INFO cena 7 pronta (12.5s, total 61s)
+17:16:07 INFO cena 8 pronta (8.7s, total 70s)
+17:16:28 INFO cena 9 pronta (11.4s, total 82s)
+17:16:47 INFO cena 10 pronta (10.5s, total 92s)
+17:16:51 INFO imagem 'Giotto frescoes Peruzzi Chapel Santa Croce Florence' ← wikimedia
+17:17:02 INFO cena 11 pronta (4.1s, total 96s)
+17:17:22 INFO cena 12 pronta (9.1s, total 105s)
+17:17:38 INFO cena 13 pronta (6.3s, total 112s)
+17:17:38 INFO Processing audio with duration 00:10.011
+17:17:38 INFO VAD filter removed 00:00.000 of audio
+17:17:43 INFO bloco 3: 10.0s, 26 palavras reconhecidas
+17:18:13 INFO cena 14 pronta (10.0s, total 122s)
+17:18:14 INFO sem trilha em musica/misterio — vídeo sai só com narração
+17:18:14 INFO sem cortes.json — nenhum Short neste vídeo
+17:18:14 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/demos/2026-11-06-animado/saida/video.mp4 (2.0 min)
