@@ -1,0 +1,27 @@
+19:55:30 INFO Processing audio with duration 00:40.000
+[0;93m2026-11-04 19:55:30.248324824 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+19:55:30 INFO VAD filter removed 00:00.000 of audio
+19:55:46 INFO narrada b08_p02 (132s) — 35 de 65
+19:56:37 INFO Processing audio with duration 00:40.000
+19:56:37 INFO VAD filter removed 00:00.000 of audio
+19:56:54 INFO narrada b08_p03 (134s) — 36 de 66
+19:57:16 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+19:57:43 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+19:58:27 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+19:59:17 INFO Processing audio with duration 00:40.000
+19:59:17 INFO VAD filter removed 00:00.000 of audio
+19:59:32 INFO narrada b08_p04 (165s) — 37 de 67
+20:00:50 INFO Processing audio with duration 00:40.000
+20:00:50 INFO VAD filter removed 00:00.000 of audio
+20:01:04 INFO narrada b09_p01 (149s) — 38 de 68
+20:01:26 WARNING Gemini TTS: cota do modelo gemini-2.5-flash-preview-tts acabou — trocando de modelo
+20:01:41 INFO Processing audio with duration 00:40.000
+20:01:41 INFO VAD filter removed 00:00.000 of audio
+20:01:57 INFO narrada b09_p02 (134s) — 39 de 69
+20:02:32 INFO Processing audio with duration 00:40.000
+20:02:32 INFO VAD filter removed 00:00.000 of audio
+20:02:48 INFO narrada b09_p03 (126s) — 40 de 70
+20:03:10 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-lite-tts acabou — trocando de modelo
+20:03:10 WARNING Gemini TTS: cota do modelo gemini-2.5-pro-preview-tts acabou — trocando de modelo
+20:03:10 WARNING narração parou (Gemini TTS: todos os modelos de voz bateram a cota grátis do dia) — continua na próxima rodada; faltam 31 partes
+narrando
