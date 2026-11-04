@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "Estequiometria no ENEM: o mapa dos 4 passos do cálculo",
+    "angulo": "Um mapa em trilha (equação balanceada, mol, proporção, conversão) mostra que toda conta de química do ENEM é a mesma regra de três escondida, com a pegadinha de reagente limitante e rendimento.",
+    "porque": "Química geral e físico-química somam mais da metade das questões (Estuda.com, SAS) e a prova de Natureza é em 15/11, três dias depois da publicação; cursinhos ensinam fórmula solta em vez do caminho único."
+  },
+  {
+    "titulo": "Média, mediana e moda no ENEM: qual usar e quando",
+    "angulo": "O mapa vira uma pergunta de decisão (tem valor extremo? quer o mais comum? quer o meio?) e resolve a questão de gráfico e tabela sem decorar três definições soltas.",
+    "porque": "Estatística está entre os temas mais citados nas revisões de Matemática do 2º dia (15/11) e é onde a banca coloca a pegadinha da média com valor discrepante, que as aulas costumam só definir."
+  },
+  {
+    "titulo": "Escala no mapa: a conta de Geografia que derruba no ENEM",
+    "angulo": "O mapa liga escala numérica, gráfica e distância real por uma única conversão (cm para km) e mostra a pegadinha de escala grande versus pequena em questão de vestibular.",
+    "porque": "Cartografia cai quase todo ano em Geografia no ENEM e em vestibulares como UERJ e Unicamp (a conferir na etapa de dossiê), e é tema de Humanas que mistura raciocínio de Matemática, pouco explorado em mapa."
+  }
+]
