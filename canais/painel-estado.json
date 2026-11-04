@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "2026-11-03T23:58:46Z",
+  "atualizado_em": "2026-11-04T10:33:41Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
     ],
-    "roteirista_historia": [
+    "narrador": [
       "Longo Ouro & Império: roma antiga"
     ]
   },
@@ -136,8 +136,8 @@
     }
   ],
   "imagens": {
-    "hoje": 49,
-    "neurons": 2695,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
