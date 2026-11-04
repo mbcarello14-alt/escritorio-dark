@@ -60,6 +60,11 @@ python -m pipeline.validar canais/<canal>/videos/<pasta>
 | `lista` | `titulo`, `itens` (2–5 itens curtos) | resumo em tópicos |
 | `mapa_mental` | `mapa` (objeto abaixo), `revelar` (quantos ramos mostrar) | **Mapeado**: o mapa vai se construindo |
 | `comparacao` | `esquerda`, `direita` (cada um `{titulo, itens}`) | antes × depois, A × B |
+| `mapa_animado` | `regiao` + `paises`, `areas`, `cidades`, `rotas`, `rotulos`, `camera_para`, `titulo_inferior` | **só canais com `estilo.animado`** (Ouro & Império): mapa que se desenha — ver `pipeline/animacao/FORMATO.md` |
+| `contador` | `ate`, `de`, `prefixo`, `sufixo`, `rotulo`, `comparacao` | **animado**: valor em dinheiro contando |
+| `linha_tempo` | `eventos` (`{ano, texto}`), `foco` | **animado**: datas em sequência |
+
+Em canais animados, `ilustracao` e `imagem` também aceitam `titulo_inferior`, `particulas`, `neblina` e `luzes` (ver `pipeline/animacao/FORMATO.md`).
 
 ### `mapa`
 ```json

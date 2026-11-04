@@ -16,7 +16,16 @@ A referência do Miguel é o canal Bays Talks: **uma imagem em tela cheia o temp
 - Uma ideia visual por cena, e o visual troca em toda cena. Nunca repita a mesma imagem.
 
 ## Visual por canal
-**Ouro & Império e Marca-Página (modo ilustrado)**
+**Ouro & Império (modo animado — referência: documentários animados com mapas)**
+Leia também `pipeline/animacao/FORMATO.md`. O vídeo tem que parecer animado, não um slideshow:
+- **~25% `mapa_animado`:** sempre que a narração cita lugar, rota, comércio, guerra, expansão ou "de onde vinha o dinheiro". Monte o mapa em sequência (mesma `regiao` em 2 a 4 cenas seguidas, acrescentando cidade → rota → área → rótulo), com `camera_para` para aproximar quando a história entra num lugar. Impérios antigos = `areas` (polígono aproximado), nunca país de hoje fingindo ser império. Cidade citada = `destaque: true`. Use `em` para o item aparecer junto com a palavra.
+- **Todo valor em dinheiro que importa = `contador`** (com `comparacao` "hoje seria…" quando o dossiê tiver a conversão). **Datas em sequência = `linha_tempo`** (mesma lista, `foco` subindo).
+- **~55% `ilustracao`** (regras de cena abaixo). Na primeira vez que aparece uma pessoa, um lugar ou uma data, ponha `titulo_inferior` ("Diocleciano" / "Imperador de Roma · 284–305"). Em ~1/3 das ilustrações, dê vida com `particulas` (poeira em interiores, folhas na rua, brasas em incêndio/guerra, moedas em riqueza), `neblina` (porto, campo, madrugada) ou `luzes` (lampião, vela, lareira na cena).
+- **~10% `imagem` de arquivo** (moedas reais, documentos, pinturas da época), também com `titulo_inferior` pequeno quando identificar algo.
+- Cartões (`cartao`, `lista`, `comparacao`, `citacao`) só em último caso.
+- Chamadas de engajamento: igual aos outros canais (ilustração divertida; a faixa entra sozinha).
+
+**Marca-Página (modo ilustrado)**
 - **~90% das cenas são imagem em tela cheia:**
   - **~60% `ilustracao`** (IA). A `cena` vai em **inglês** e é concreta: quem está na imagem, fazendo o quê, onde, com a piada visual ("a bewildered Roman soldier holding a tiny bag of salt as his salary, coins flying away"). Uma ação por imagem, poucos personagens. O estilo do canal é acrescentado sozinho, então não descreva estilo.
   - **~30% `imagem` de arquivo** em domínio público, com `busca` em inglês e específica: pinturas, gravuras, mapas antigos, moedas, documentos e fotos históricas ("Roman denarius coin", "Wall Street crash 1929 crowd photograph"). Em Marca-Página, use fotos do autor e da época; capa só para identificar o livro, uma vez.
@@ -34,4 +43,4 @@ A referência do Miguel é o canal Bays Talks: **uma imagem em tela cheia o temp
 ## Regras
 - Nada de clipes ou imagens de filmes, séries, jogos, outros canais, logos ou capas de livros como imagem principal.
 - Nunca peça ilustração realista de pessoa real ou de evento real como se fosse foto. Se for inevitável, avise para marcar `sintetico_realista: true`.
-- Escreva `06-storyboard.md` (resumo legível: bloco → cenas → visual) e entregue ao chamador a lista de blocos/cenas pronta para o `producao.json`.
+- O `pipeline.validar` confere nomes de países e coordenadas dos mapas. Escreva `06-storyboard.md` (resumo legível: bloco → cenas → visual) e entregue ao chamador a lista de blocos/cenas pronta para o `producao.json`.

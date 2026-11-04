@@ -58,6 +58,8 @@ jobs:
             sudo cp /tmp/ff/bin/ffmpeg /tmp/ff/bin/ffprobe /usr/local/bin/
           fi
           ffmpeg -version | head -1
+          # navegador sem tela para as cenas animadas (mapas, contadores, títulos)
+          npm i --no-save --prefix pipeline/reels playwright-core@1.48.2 >/dev/null || echo "sem playwright — cenas animadas viram cartões"
 
       - name: Ilustrações e narração já feitas (cache)
         # se a montagem falhar e rodar de novo, reaproveita imagens e áudios (não gasta cota de novo)
@@ -105,6 +107,16 @@ jobs:
             ${{ inputs.pasta }}/saida/tmp/cortes/*.mp4
           retention-days: 7
           if-no-files-found: ignore
+
+      - name: Mandar o teste no Telegram
+        if: inputs.sem_upload == true
+        run: |
+          V="${{ inputs.pasta }}/saida/video.mp4"
+          [ -f "$V" ] || exit 0
+          if [ $(stat -c %s "$V") -gt 48000000 ]; then
+            ffmpeg -v error -y -i "$V" -vf scale=1280:-2 -c:v libx264 -preset veryfast -crf 27 -c:a aac -b:a 128k /tmp/teste.mp4 && V=/tmp/teste.mp4
+          fi
+          python -c "import sys; from pipeline import telegram as T; T.enviar_video(sys.argv[1], '🎬 <b>Teste (não publicado)</b> — ' + T.esc(sys.argv[2]), 1920, 1080)" "$V" "${{ inputs.pasta }}"
 
       - name: Avisar no Telegram
         if: inputs.sem_upload == false

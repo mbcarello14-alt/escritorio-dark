@@ -27,6 +27,7 @@ estilo:
   fonte_titulo_variacao: Bold
   fonte_texto: Inter.ttf
   caixa_alta_titulo: true
+  animado: true          # cenas animadas em código (mapas, contadores, linha do tempo, títulos, partículas) — pipeline/animacao/FORMATO.md
 
 video:
   musica_humor: misterio  # pasta em musica/<humor>/ (opcional)
@@ -36,9 +37,10 @@ video:
 imagens:
   fontes: [flux, higgsfield, wikimedia, openverse]   # flux = IA grátis no Cloudflare
   estilo_ilustracao: >-
-    flat 2D editorial illustration, warm gold and deep black palette, textured paper grain,
-    expressive cartoon characters with simple faces, humorous storytelling tone, cinematic
-    composition, no text, no letters, no watermark
+    flat vector illustration in the style of a vintage animated history documentary: simple geometric shapes,
+    no outlines, soft gradients, muted warm palette of ochre, olive green, dusty teal, cream and warm brown with
+    touches of gold, simple cartoon characters with round heads and minimal friendly faces, atmospheric haze and
+    soft directional light, subtle paper grain, wide cinematic composition, no text, no letters, no watermark
 
 apresentador:            # personagem fixo na "webcam" do canto (desenhado pelo motor, grátis)
   ligado: false            # desligado a pedido do Miguel (22/10); true para voltar

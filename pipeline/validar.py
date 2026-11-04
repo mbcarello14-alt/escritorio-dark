@@ -11,6 +11,7 @@ from pathlib import Path
 TIPOS = {
     "imagem": ["busca"], "ilustracao": ["cena"], "cartao": ["titulo"], "numero": ["valor"], "citacao": ["texto"],
     "lista": ["titulo", "itens"], "mapa_mental": ["mapa", "revelar"], "comparacao": ["esquerda", "direita"],
+    "mapa_animado": ["regiao"], "contador": ["ate"], "linha_tempo": ["eventos"],
 }
 
 
@@ -53,6 +54,8 @@ def validar(prod: dict) -> list[str]:
             for req in TIPOS[t]:
                 if req not in v:
                     erros.append(f"{onde}: visual '{t}' precisa de '{req}'")
+            from .animar import erros_cena
+            erros += erros_cena(v, onde)
             if t == "mapa_mental" and isinstance(v.get("mapa"), dict):
                 n = len(v["mapa"].get("ramos", []))
                 if not 1 <= n <= 6:

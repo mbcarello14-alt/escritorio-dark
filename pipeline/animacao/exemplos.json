@@ -1,0 +1,324 @@
+[
+ [
+  {
+   "regiao": [
+    -7,
+    47,
+    9,
+    56.5
+   ],
+   "areas": [
+    {
+     "pontos": [
+      [
+       -5.7,
+       50.0
+      ],
+      [
+       -3,
+       50.6
+      ],
+      [
+       1.4,
+       51.1
+      ],
+      [
+       1.75,
+       52.7
+      ],
+      [
+       0.2,
+       53.5
+      ],
+      [
+       -0.5,
+       54.5
+      ],
+      [
+       -1.6,
+       55.6
+      ],
+      [
+       -3,
+       55
+      ],
+      [
+       -3.1,
+       54
+      ],
+      [
+       -4.6,
+       53.3
+      ],
+      [
+       -4.7,
+       52.0
+      ],
+      [
+       -5.3,
+       51.7
+      ],
+      [
+       -4.2,
+       51.2
+      ]
+     ],
+     "cor": "ouro",
+     "rotulo": "Inglaterra",
+     "em": 0,
+     "crescer": false
+    }
+   ],
+   "paises": [
+    {
+     "nomes": [
+      "França"
+     ],
+     "cor": "azul",
+     "rotulo": "França",
+     "em": 0
+    }
+   ],
+   "cidades": [
+    {
+     "nome": "Gante",
+     "lon": 3.72,
+     "lat": 51.05,
+     "destaque": true,
+     "em": 0
+    },
+    {
+     "nome": "Londres",
+     "lon": -0.13,
+     "lat": 51.51,
+     "em": 0.15,
+     "lado": "esquerda"
+    }
+   ],
+   "rotas": [
+    {
+     "pontos": [
+      [
+       3.72,
+       51.05
+      ],
+      [
+       2.6,
+       51.35
+      ],
+      [
+       1.4,
+       51.35
+      ],
+      [
+       0.6,
+       51.45
+      ],
+      [
+       -0.13,
+       51.51
+      ]
+     ],
+     "carga": "navio",
+     "em": 0.2,
+     "duracao": 0.45
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "a família fica de garantia",
+     "lon": 3.9,
+     "lat": 50.45,
+     "tipo": "destaque",
+     "em": 0.7
+    }
+   ],
+   "modelo": "mapa"
+  },
+  6
+ ],
+ [
+  {
+   "regiao": [
+    -9,
+    40,
+    19,
+    57
+   ],
+   "areas": [
+    {
+     "pontos": [
+      [
+       -5.7,
+       50.0
+      ],
+      [
+       -3,
+       50.6
+      ],
+      [
+       1.4,
+       51.1
+      ],
+      [
+       1.75,
+       52.7
+      ],
+      [
+       0.2,
+       53.5
+      ],
+      [
+       -0.5,
+       54.5
+      ],
+      [
+       -1.6,
+       55.6
+      ],
+      [
+       -3,
+       55
+      ],
+      [
+       -3.1,
+       54
+      ],
+      [
+       -4.6,
+       53.3
+      ],
+      [
+       -4.7,
+       52.0
+      ],
+      [
+       -5.3,
+       51.7
+      ],
+      [
+       -4.2,
+       51.2
+      ]
+     ],
+     "cor": "ouro",
+     "rotulo": "Inglaterra",
+     "em": 0.05
+    }
+   ],
+   "cidades": [
+    {
+     "nome": "Londres",
+     "lon": -0.13,
+     "lat": 51.51,
+     "destaque": true,
+     "em": 0.15,
+     "lado": "esquerda"
+    },
+    {
+     "nome": "Bruges",
+     "lon": 3.22,
+     "lat": 51.21,
+     "em": 0.3
+    },
+    {
+     "nome": "Florença",
+     "lon": 11.25,
+     "lat": 43.77,
+     "em": 0.5
+    }
+   ],
+   "rotas": [
+    {
+     "pontos": [
+      [
+       -0.13,
+       51.51
+      ],
+      [
+       1.4,
+       51.35
+      ],
+      [
+       2.6,
+       51.3
+      ],
+      [
+       3.22,
+       51.21
+      ]
+     ],
+     "carga": "navio",
+     "em": 0.3,
+     "duracao": 0.25
+    },
+    {
+     "pontos": [
+      [
+       3.22,
+       51.21
+      ],
+      [
+       4.8,
+       48.7
+      ],
+      [
+       5.4,
+       46.4
+      ],
+      [
+       8.9,
+       45.5
+      ],
+      [
+       11.25,
+       43.77
+      ]
+     ],
+     "carga": "moeda",
+     "em": 0.5,
+     "duracao": 0.4
+    }
+   ],
+   "rotulos": [
+    {
+     "texto": "lã inglesa",
+     "lon": -1.3,
+     "lat": 54.6,
+     "tipo": "destaque",
+     "em": 0.4
+    }
+   ],
+   "modelo": "mapa"
+  },
+  6
+ ],
+ [
+  {
+   "de": 0,
+   "ate": 500000,
+   "sufixo": " florins",
+   "rotulo": "Ativos dos Peruzzi em 1335",
+   "comparacao": "segundo uma das estimativas",
+   "modelo": "contador"
+  },
+  5
+ ],
+ [
+  {
+   "foco": 1,
+   "eventos": [
+    {
+     "ano": "1294",
+     "texto": "Guerra com a França seca o crédito"
+    },
+    {
+     "ano": "c. 1300",
+     "texto": "Os Riccardi quebram"
+    }
+   ],
+   "modelo": "linha_tempo"
+  },
+  5
+ ]
+]

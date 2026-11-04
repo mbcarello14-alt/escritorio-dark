@@ -1,0 +1,623 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style>
+<script src="/animacao/vendor/d3-array.min.js"></script>
+<script src="/animacao/vendor/d3-geo.min.js"></script>
+<script src="/animacao/vendor/topojson-client.min.js"></script>
+</head><body><canvas id="c"></canvas>
+<script>
+// Motor de cenas animadas 2D (mapas, contadores, linha do tempo, ilustração viva).
+// Determinístico: quadro(t) desenha o instante t (segundos). Formato da cena em FORMATO.md.
+const qs = new URLSearchParams(location.search);
+const W = +(qs.get("w") || 1920), H = +(qs.get("h") || 1080);
+const cv = document.getElementById("c"); cv.width = W; cv.height = H;
+const g = cv.getContext("2d");
+const S = W / 1920;   // escala de tudo (desenhado para 1920)
+
+const PALETA = {
+  mar: "#4A6F86", mar2: "#3A5A6E", terra: "#E9DDC1", terra_borda: "#B9A57F", texto: "#2B241B",
+  creme: "#F3EBDD", ouro: "#C9A24A", laranja: "#E2782E", fundo: "#1C1711", fundo2: "#2B2218",
+  pergaminho: "#E8DCC2", pergaminho2: "#D8C7A3",
+};
+const CORES = {
+  ouro: "rgba(201,162,74,0.78)", cinza: "rgba(105,100,94,0.82)", vermelho: "rgba(168,64,44,0.55)",
+  verde: "rgba(98,122,72,0.72)", azul: "rgba(58,88,128,0.72)", roxo: "rgba(104,72,120,0.72)",
+  laranja: "rgba(214,120,52,0.72)", marrom: "rgba(122,88,56,0.78)",
+};
+const REGIOES = {
+  mundo: [-168, -56, 190, 76], europa: [-24, 34, 45, 70], mediterraneo: [-9, 29, 38, 47],
+  oriente_medio: [24, 11, 64, 42], america_sul: [-84, -56, -32, 13], brasil: [-74, -34, -34, 5.5],
+  america_norte: [-128, 12, -58, 58], asia: [58, -8, 148, 56], africa: [-20, -36, 54, 38],
+  china: [72, 17, 136, 54], india: [64, 5, 98, 36], atlantico: [-92, -38, 22, 62],
+  escandinavia: [2, 53, 33, 71], caribe: [-90, 8, -58, 28], italia: [5, 36, 20, 47.5],
+  iberia: [-11, 35, 4.5, 44.5], gra_bretanha: [-11, 49.5, 3, 59.5], egito: [24, 21, 37, 32.5],
+  grecia: [19, 34.5, 29.5, 42], rota_seda: [10, 18, 125, 52], indico: [30, -30, 110, 28],
+  japao: [127, 30, 147, 46], pacifico: [100, -45, 290, 50],
+};
+
+let SPEC = null, DUR = 1, IMG = null, MUNDO = null, PAISES = null, BORDAS = null, NOMES = {}, GRAO = null, ONDAS = [];
+let ITENS = null, CACHE = null;
+
+// ---------------------------------------------------------------- utilidades
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const lerp = (a, b, k) => a + (b - a) * k;
+const easeOut = k => 1 - Math.pow(1 - clamp(k), 3);
+const easeInOut = k => { k = clamp(k); return k < 0.5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2; };
+const easeBack = k => { k = clamp(k); const c = 1.70158; return 1 + (c + 1) * Math.pow(k - 1, 3) + c * Math.pow(k - 1, 2); };
+function rng(seed) { let s = seed >>> 0 || 1; return () => { s ^= s << 13; s >>>= 0; s ^= s >> 17; s ^= s << 5; s >>>= 0; return s / 4294967296; }; }
+function hash(str) { let h = 2166136261; for (const c of String(str)) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
+const fonte = (peso, px) => `${peso} ${Math.round(px * S)}px Oswald`;
+function cor(c, padrao) { return !c ? padrao : (CORES[c] || c); }
+// tempo de entrada de um item: "em" é fração da cena (0–1); sem "em", vem escalonado
+const entrada = (it, i, base = 0.08, passo = 0.12) => (it.em ?? Math.min(0.8, base + i * passo)) * DUR;
+
+function textoComHalo(txt, x, y, corTxt, corHalo, largHalo) {
+  g.lineJoin = "round"; g.miterLimit = 2;
+  if (largHalo) { g.strokeStyle = corHalo; g.lineWidth = largHalo * S; g.strokeText(txt, x, y); }
+  g.fillStyle = corTxt; g.fillText(txt, x, y);
+}
+
+function quebrar(txt, larg, font) {
+  g.font = font; const out = []; let linha = "";
+  for (const p of String(txt).split(/\s+/)) {
+    const t = linha ? linha + " " + p : p;
+    if (g.measureText(t).width > larg && linha) { out.push(linha); linha = p; } else linha = t;
+  }
+  if (linha) out.push(linha);
+  return out;
+}
+
+// ---------------------------------------------------------------- carga
+async function carregarFontes() {
+  for (const [peso, arq] of [["700", "Oswald-Bold.woff2"], ["500", "Oswald-Medium.woff2"]]) {
+    const f = new FontFace("Oswald", `url(/fonts/${arq})`, { weight: peso });
+    await f.load(); document.fonts.add(f);
+  }
+}
+
+async function carregarMundo() {
+  if (MUNDO) return;
+  const [paises, terra, nomes] = await Promise.all([
+    fetch("/animacao/vendor/countries-50m.json").then(r => r.json()),
+    fetch("/animacao/vendor/land-50m.json").then(r => r.json()),
+    fetch("/animacao/nomes-pt.json").then(r => r.json()),
+  ]);
+  MUNDO = topojson.feature(terra, terra.objects.land);
+  PAISES = topojson.feature(paises, paises.objects.countries).features;
+  BORDAS = topojson.mesh(paises, paises.objects.countries, (a, b) => a !== b);
+  NOMES = nomes;
+}
+
+function fazerGrao() {
+  const c = document.createElement("canvas"); c.width = c.height = 512;
+  const x = c.getContext("2d"), im = x.createImageData(512, 512), r = rng(7);
+  for (let i = 0; i < im.data.length; i += 4) {
+    const v = 128 + (r() - 0.5) * 120;
+    im.data[i] = im.data[i + 1] = im.data[i + 2] = v; im.data[i + 3] = 255;
+  }
+  x.putImageData(im, 0, 0); return c;
+}
+
+function paisPorNome(nome) {
+  const n = String(nome).trim().toLowerCase();
+  const en = (NOMES[n] || nome).toLowerCase();
+  return PAISES.filter(f => f.properties.name.toLowerCase() === en);
+}
+
+function centroPrincipal(feats) {
+  // centro do maior pedaço (a França não pode ter o rótulo na Guiana Francesa)
+  let melhor = null, area = -1;
+  for (const f of feats) {
+    const polys = f.geometry.type === "MultiPolygon" ? f.geometry.coordinates : [f.geometry.coordinates];
+    for (const c of polys) { const geo = { type: "Polygon", coordinates: c }, a = d3.geoArea(geo); if (a > area) { area = a; melhor = geo; } }
+  }
+  return melhor ? d3.geoCentroid(melhor) : null;
+}
+
+function anelHorario(pontos) {
+  // d3-geo quer o anel externo no sentido horário; se a área der "o mundo todo", inverte
+  const f = { type: "Polygon", coordinates: [[...pontos, pontos[0]]] };
+  if (d3.geoArea(f) > 2 * Math.PI) f.coordinates[0].reverse();
+  return f;
+}
+
+window.carregar = async function (spec) {
+  SPEC = spec; DUR = Math.max(0.5, spec.duracao || 6);
+  Object.assign(PALETA, spec.paleta || {});
+  IMG = null;
+  if (spec.imagem) {
+    IMG = new Image(); IMG.src = "/abs" + encodeURI(spec.imagem);
+    await IMG.decode();
+  }
+  CACHE = null;
+  if (spec.modelo === "mapa") {
+    await carregarMundo();
+    const r = rng(hash(JSON.stringify(spec.regiao)));
+    const bb = regiao(spec.regiao);
+    ONDAS = [];
+    const dx = bb[2] - bb[0], dy = bb[3] - bb[1];
+    for (let i = 0; i < 220; i++) {
+      const p = [bb[0] - dx * 0.15 + r() * dx * 1.3, bb[1] - dy * 0.15 + r() * dy * 1.3];
+      if (!d3.geoContains(MUNDO, p)) ONDAS.push(p);
+    }
+    ITENS = {
+      paises: (spec.paises || []).map((p, i) => {
+        const feats = (p.nomes || [p.nome]).flatMap(paisPorNome);
+        const fc = { type: "FeatureCollection", features: feats };
+        return { ...p, fc, centro: p.rotulo_pos || centroPrincipal(feats), t0: entrada(p, i, 0.05, 0.1) };
+      }),
+      areas: (spec.areas || []).map((a, i) => {
+        const geo = anelHorario(a.pontos);
+        return { ...a, geo, centro: a.rotulo_pos || d3.geoCentroid(geo), t0: entrada(a, i, 0.06, 0.12) };
+      }),
+      rotas: (spec.rotas || []).map((ro, i) => {
+        const dens = [];
+        for (let k = 0; k < ro.pontos.length - 1; k++) {
+          const it = d3.geoInterpolate(ro.pontos[k], ro.pontos[k + 1]);
+          for (let j = 0; j < 24; j++) dens.push(it(j / 24));
+        }
+        dens.push(ro.pontos[ro.pontos.length - 1]);
+        const t0 = entrada(ro, i, 0.15, 0.15);
+        const dr = clamp((ro.duracao ?? 0.4) * DUR, 1.2, 5);
+        return { ...ro, dens, t0, dr };
+      }),
+      cidades: (spec.cidades || []).map((c, i) => ({ ...c, t0: entrada(c, i, 0.12, 0.09) })),
+      rotulos: (spec.rotulos || []).map((l, i) => ({ ...l, t0: entrada(l, i, 0.1, 0.1) })),
+    };
+  }
+  if (!GRAO) GRAO = fazerGrao();
+  return true;
+};
+
+// ---------------------------------------------------------------- camada comum
+function grao(t, forca = 0.07) {
+  g.save(); g.globalAlpha = forca; g.globalCompositeOperation = "overlay";
+  const k = Math.floor(t * 12), r = rng(k + 3);
+  const ox = -Math.floor(r() * 512), oy = -Math.floor(r() * 512);
+  for (let x = ox; x < W; x += 512) for (let y = oy; y < H; y += 512) g.drawImage(GRAO, x, y);
+  g.restore();
+}
+
+function vinheta(forca = 0.45) {
+  const gr = g.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, H * 0.95);
+  gr.addColorStop(0, "rgba(0,0,0,0)"); gr.addColorStop(1, `rgba(0,0,0,${forca})`);
+  g.fillStyle = gr; g.fillRect(0, 0, W, H);
+}
+
+function tituloInferior(ti, t) {
+  if (!ti || !ti.titulo) return;
+  const t0 = (ti.em ?? 0.12) * DUR, k = t - t0;
+  if (k < 0) return;
+  const x = 72 * S, yBase = H - 150 * S;
+  // escurece o canto para a leitura
+  g.save(); g.translate(0, H); g.scale(2.4, 1);
+  const gr = g.createRadialGradient(0, 0, 0, 0, 0, 420 * S);
+  gr.addColorStop(0, `rgba(0,0,0,${0.62 * easeOut(k / 0.4)})`); gr.addColorStop(0.55, `rgba(0,0,0,${0.3 * easeOut(k / 0.4)})`); gr.addColorStop(1, "rgba(0,0,0,0)");
+  g.fillStyle = gr; g.fillRect(0, -420 * S, 420 * S, 420 * S); g.restore();
+  const pequeno = !!ti.pequeno;
+  const fT = fonte(700, pequeno ? 54 : 84), fS = fonte(500, pequeno ? 24 : 30);
+  g.font = fT; g.letterSpacing = `${1 * S}px`;
+  const titulo = String(ti.titulo).toUpperCase();
+  const wT = g.measureText(titulo).width;
+  g.font = fS; g.letterSpacing = `${3 * S}px`;
+  const sub = ti.subtitulo ? String(ti.subtitulo).toUpperCase() : "";
+  const wS = sub ? g.measureText(sub).width : 0;
+  const larg = Math.max(wT, wS) + 10 * S;
+  // título sobe de trás de uma máscara
+  const sobe = easeOut(k / 0.5);
+  g.save(); g.beginPath(); g.rect(0, yBase - 110 * S, W, 110 * S); g.clip();
+  g.font = fT; g.letterSpacing = `${1 * S}px`; g.textBaseline = "alphabetic";
+  g.shadowColor = "rgba(0,0,0,0.55)"; g.shadowBlur = 14 * S; g.shadowOffsetY = 3 * S;
+  g.fillStyle = PALETA.creme; g.fillText(titulo, x, yBase - 14 * S + (1 - sobe) * 90 * S);
+  g.restore();
+  // linha dourada cresce
+  g.fillStyle = PALETA.ouro;
+  g.fillRect(x, yBase, larg * easeOut((k - 0.1) / 0.55), 4 * S);
+  if (sub) {
+    g.save(); g.globalAlpha = easeOut((k - 0.35) / 0.4);
+    g.font = fS; g.letterSpacing = `${3 * S}px`; g.textBaseline = "top";
+    g.shadowColor = "rgba(0,0,0,0.6)"; g.shadowBlur = 10 * S;
+    g.fillStyle = "rgba(243,235,221,0.92)"; g.fillText(sub, x, yBase + 18 * S);
+    g.restore();
+  }
+  g.letterSpacing = "0px";
+}
+
+// ---------------------------------------------------------------- partículas e luz
+function particulas(tipo, t, qtd) {
+  if (!tipo) return;
+  const r = rng(hash(tipo) + 11), n = qtd || ({ folhas: 26, poeira: 70, neve: 120, brasas: 50, moedas: 22, chuva: 160 }[tipo] || 40);
+  g.save();
+  for (let i = 0; i < n; i++) {
+    const a = r(), b = r(), c = r(), d = r();
+    if (tipo === "poeira") {
+      const x = ((a * W + Math.sin(t * 0.3 + c * 6) * 40 * S + t * 8 * S) % W + W) % W;
+      const y = ((b * H - t * (6 + d * 10) * S) % H + H) % H;
+      g.globalAlpha = 0.25 + 0.35 * (0.5 + 0.5 * Math.sin(t * (1 + d * 2) + c * 9));
+      g.fillStyle = "#FFF3D6"; g.beginPath(); g.arc(x, y, (1 + d * 2.2) * S, 0, 7); g.fill();
+    } else if (tipo === "brasas") {
+      const x = ((a * W + Math.sin(t * 1.3 + c * 6) * 30 * S) % W + W) % W;
+      const y = ((b * H - t * (40 + d * 60) * S) % (H * 1.1) + H * 1.1) % (H * 1.1);
+      g.globalAlpha = 0.5 + 0.5 * Math.sin(t * 6 + c * 20);
+      g.fillStyle = d > 0.5 ? "#FFB347" : "#FF7A2A"; g.beginPath(); g.arc(x, y, (1.5 + d * 2.5) * S, 0, 7); g.fill();
+    } else if (tipo === "neve" || tipo === "chuva") {
+      const vel = tipo === "neve" ? 50 + d * 40 : 900 + d * 300;
+      const x = ((a * W + (tipo === "neve" ? Math.sin(t + c * 7) * 25 * S : -t * 120 * S)) % W + W) % W;
+      const y = ((b * H + t * vel * S) % H + H) % H;
+      if (tipo === "neve") { g.globalAlpha = 0.5 + d * 0.4; g.fillStyle = "#FFFFFF"; g.beginPath(); g.arc(x, y, (1.5 + d * 3) * S, 0, 7); g.fill(); }
+      else { g.globalAlpha = 0.25; g.strokeStyle = "#DDE6EE"; g.lineWidth = 1.2 * S; g.beginPath(); g.moveTo(x, y); g.lineTo(x - 6 * S, y + 28 * S); g.stroke(); }
+    } else if (tipo === "folhas" || tipo === "moedas") {
+      const vel = tipo === "folhas" ? 45 + d * 50 : 160 + d * 140;
+      const x = ((a * W + Math.sin(t * 0.9 + c * 6) * 70 * S + t * (tipo === "folhas" ? 35 : 0) * S) % (W + 60) + W + 60) % (W + 60) - 30;
+      const y = ((b * (H + 80) + t * vel * S) % (H + 80) + H + 80) % (H + 80) - 40;
+      const rot = t * (1 + d * 3) + c * 10, tam = (tipo === "folhas" ? 7 + d * 7 : 12 + d * 10) * S;
+      g.save(); g.translate(x, y); g.rotate(rot);
+      if (tipo === "folhas") {
+        g.globalAlpha = 0.85; g.fillStyle = ["#B7772F", "#C99A4A", "#8F5A2A", "#D0A85C"][i % 4];
+        g.scale(1, 0.45 + 0.4 * Math.abs(Math.sin(rot * 1.3)));
+        g.beginPath(); g.ellipse(0, 0, tam, tam * 0.55, 0, 0, 7); g.fill();
+      } else {
+        const esp = Math.abs(Math.cos(rot * 1.7));
+        g.scale(1, Math.max(0.12, esp));
+        moeda(0, 0, tam);
+      }
+      g.restore();
+    }
+  }
+  g.restore();
+}
+
+function moeda(x, y, r) {
+  g.fillStyle = "#8F6A1E"; g.beginPath(); g.arc(x, y + r * 0.12, r, 0, 7); g.fill();
+  const gr = g.createRadialGradient(x - r * 0.35, y - r * 0.35, r * 0.1, x, y, r);
+  gr.addColorStop(0, "#FFE7A0"); gr.addColorStop(0.6, "#D9AE48"); gr.addColorStop(1, "#A9822E");
+  g.fillStyle = gr; g.beginPath(); g.arc(x, y, r, 0, 7); g.fill();
+  g.strokeStyle = "rgba(120,85,25,0.8)"; g.lineWidth = Math.max(1, r * 0.12); g.beginPath(); g.arc(x, y, r * 0.72, 0, 7); g.stroke();
+}
+
+function luzes(lista, t) {
+  if (!lista) return;
+  g.save(); g.globalCompositeOperation = "screen";
+  lista.forEach((l, i) => {
+    const pisca = 0.82 + 0.1 * Math.sin(t * 7.3 + i) + 0.06 * Math.sin(t * 13.1 + i * 3);
+    const x = l.x * W, y = l.y * H, raio = (l.raio || 0.18) * W;
+    const gr = g.createRadialGradient(x, y, 0, x, y, raio);
+    gr.addColorStop(0, l.cor || `rgba(255,196,110,${0.55 * pisca})`); gr.addColorStop(1, "rgba(255,170,80,0)");
+    g.fillStyle = gr; g.fillRect(x - raio, y - raio, raio * 2, raio * 2);
+  });
+  g.restore();
+}
+
+function neblina(t) {
+  g.save(); g.globalCompositeOperation = "screen";
+  for (let i = 0; i < 3; i++) {
+    const x = ((i * 0.4 + t * 0.012 * (i + 1)) % 1.4 - 0.2) * W, y = H * (0.55 + i * 0.14);
+    const gr = g.createRadialGradient(x, y, 0, x, y, W * 0.45);
+    gr.addColorStop(0, "rgba(235,225,205,0.16)"); gr.addColorStop(1, "rgba(235,225,205,0)");
+    g.fillStyle = gr; g.fillRect(0, 0, W, H);
+  }
+  g.restore();
+}
+
+// ---------------------------------------------------------------- modelos
+function regiao(r) {
+  if (!r) return REGIOES.mundo;
+  if (typeof r === "string") return REGIOES[r] || REGIOES.mundo;
+  return r;
+}
+
+function projecao(bb) {
+  const pr = d3.geoMercator();
+  const m = 40 * S;
+  pr.fitExtent([[m, m], [W - m, H - m]], { type: "MultiPoint", coordinates: [[bb[0], bb[1]], [bb[2], bb[3]], [bb[0], bb[3]], [bb[2], bb[1]]] });
+  return pr;
+}
+
+function mapa(t) {
+  const a = regiao(SPEC.regiao), b = SPEC.camera_para ? regiao(SPEC.camera_para) : null;
+  const kc = b ? easeInOut((t - (SPEC.camera_em ?? 0.2) * DUR) / ((SPEC.camera_duracao ?? 0.45) * DUR)) : 0;
+  let bb = a.map((v, i) => lerp(v, b ? b[i] : v, kc));
+  // deriva lenta: aproxima 4% ao longo da cena
+  const z = 0.04 * easeInOut(t / DUR), cx = (bb[0] + bb[2]) / 2, cy = (bb[1] + bb[3]) / 2;
+  bb = [lerp(bb[0], cx, z), lerp(bb[1], cy, z), lerp(bb[2], cx, z), lerp(bb[3], cy, z)];
+  const pr = projecao(bb);
+  // as formas do mapa são projetadas uma vez (Path2D) e só reposicionadas: a Mercator muda por escala + translação
+  if (!CACHE) {
+    const ref = projecao(regiao(SPEC.regiao)), mk = geo => { const p2 = new Path2D(); d3.geoPath(ref, p2)(geo); return p2; };
+    CACHE = { ref, terra: mk(MUNDO), bordas: mk(BORDAS),
+      paises: ITENS.paises.map(p => mk(p.fc)), areas: ITENS.areas.map(a => mk(a.geo)) };
+  }
+  const k = pr.scale() / CACHE.ref.scale(), [tx, ty] = pr.translate(), [rx, ry] = CACHE.ref.translate();
+  const afim = () => g.setTransform(k, 0, 0, k, tx - k * rx, ty - k * ry), normal = () => g.setTransform(1, 0, 0, 1, 0, 0);
+
+  // mar
+  const gm = g.createRadialGradient(W / 2, H * 0.45, H * 0.1, W / 2, H / 2, H);
+  gm.addColorStop(0, PALETA.mar); gm.addColorStop(1, PALETA.mar2);
+  g.fillStyle = gm; g.fillRect(0, 0, W, H);
+  // marquinhas de onda
+  g.strokeStyle = "rgba(230,240,245,0.22)"; g.lineWidth = 1.6 * S; g.lineCap = "round";
+  g.beginPath();
+  for (const p of ONDAS) {
+    const q = pr(p); if (!q) continue;
+    const [x, y] = q, s = 7 * S;
+    g.moveTo(x - s, y); g.quadraticCurveTo(x - s / 2, y - s * 0.6, x, y); g.quadraticCurveTo(x + s / 2, y + s * 0.6, x + s, y);
+  }
+  g.stroke();
+  // terra, costa e fronteiras: "assadas" num bitmap e só reposicionadas; reassa quando o zoom fica grande demais
+  const R = 1.3, MX = 0.18 * W, MY = 0.18 * H;
+  const cobre = B => {
+    if (!B) return false;
+    const kk = k / B.k;
+    if (kk > R * 1.02 || kk < 0.8) return false;
+    // cantos da tela atual no sistema do bitmap
+    for (const [x, y] of [[0, 0], [W, H]]) {
+      const ux = (x - tx) * B.k / k + B.tx + MX - 0, uy = (y - ty) * B.k / k + B.ty + MY;
+      if (ux < 0 || uy < 0 || ux > W + 2 * MX || uy > H + 2 * MY) return false;
+    }
+    return true;
+  };
+  if (!cobre(CACHE.base)) {
+    const bw = Math.ceil((W + 2 * MX) * R), bh = Math.ceil((H + 2 * MY) * R);
+    const mkc = () => { const c = CACHE.base?.cv && CACHE.base.cv.width === bw ? CACHE.base.cv : document.createElement("canvas"); c.width = bw; c.height = bh; return c; };
+    const cv = mkc(), x = cv.getContext("2d");
+    const mc = CACHE.base?.mc && CACHE.base.mc.width === bw ? CACHE.base.mc : document.createElement("canvas"); mc.width = bw; mc.height = bh;
+    const mx = mc.getContext("2d");
+    // projeção do bitmap: a atual, deslocada pela margem e ampliada por R
+    const kb = k * R;
+    const tr = [R * (tx - k * rx + MX), R * (ty - k * ry + MY)];
+    for (const c of [x, mx]) { c.setTransform(kb, 0, 0, kb, tr[0], tr[1]); c.lineJoin = "round"; }
+    x.strokeStyle = "rgba(25,45,60,0.16)"; x.lineWidth = 16 * S / k; x.stroke(CACHE.terra);
+    x.strokeStyle = "rgba(25,45,60,0.22)"; x.lineWidth = 6 * S / k; x.stroke(CACHE.terra);
+    x.fillStyle = PALETA.terra; x.fill(CACHE.terra);
+    x.strokeStyle = PALETA.terra_borda; x.lineWidth = 1.4 * S / k; x.stroke(CACHE.terra);
+    x.strokeStyle = "rgba(130,110,80,0.35)"; x.lineWidth = 1 * S / k; x.stroke(CACHE.bordas);
+    mx.fillStyle = "#000"; mx.fill(CACHE.terra);
+    CACHE.base = { cv, mc, k, tx, ty };
+    if (!CACHE.camada) { CACHE.camada = document.createElement("canvas"); CACHE.camada.width = W; CACHE.camada.height = H; }
+  }
+  const B = CACHE.base, kk = k / B.k;
+  // tela = kk*(u/R - M - t_b) + t_atual, com u em pixels do bitmap
+  const desenhaBase = (ctx, img) => {
+    ctx.setTransform(kk / R, 0, 0, kk / R, tx - kk * (MX + B.tx), ty - kk * (MY + B.ty));
+    ctx.drawImage(img, 0, 0); ctx.setTransform(1, 0, 0, 1, 0, 0);
+  };
+  desenhaBase(g, B.cv);
+
+  // países em destaque
+  afim();
+  ITENS.paises.forEach((p, i) => {
+    const e = easeOut((t - p.t0) / 0.6); if (e <= 0) return;
+    g.save(); g.globalAlpha = e;
+    g.fillStyle = cor(p.cor, CORES.ouro); g.fill(CACHE.paises[i]);
+    g.strokeStyle = "rgba(60,45,30,0.55)"; g.lineWidth = 1.6 * S / k; g.stroke(CACHE.paises[i]);
+    g.restore();
+  });
+  normal();
+  // áreas desenhadas (impérios, zonas de influência): só sobre a terra, crescendo a partir do centro
+  ITENS.areas.forEach((ar, i) => {
+    const e = easeOut((t - ar.t0) / (ar.crescer === false ? 0.6 : 1.6)); if (e <= 0) return;
+    const cam = CACHE.camada, c2 = cam.getContext("2d");
+    c2.setTransform(1, 0, 0, 1, 0, 0); c2.globalCompositeOperation = "source-over"; c2.clearRect(0, 0, W, H);
+    c2.save();
+    if (ar.crescer !== false) { const c = pr(ar.centro); c2.beginPath(); c2.arc(c[0], c[1], e * W * 0.8, 0, 7); c2.clip(); }
+    c2.setTransform(k, 0, 0, k, tx - k * rx, ty - k * ry);
+    c2.fillStyle = cor(ar.cor, "rgba(150,60,40,0.5)"); c2.fill(CACHE.areas[i]);
+    c2.setLineDash([10 * S / k, 7 * S / k]); c2.strokeStyle = "rgba(60,35,20,0.85)"; c2.lineWidth = 2.6 * S / k; c2.stroke(CACHE.areas[i]);
+    c2.restore();
+    c2.globalCompositeOperation = "destination-in"; desenhaBase(c2, B.mc); c2.globalCompositeOperation = "source-over";
+    g.save(); g.globalAlpha = ar.crescer === false ? e : 1; g.drawImage(cam, 0, 0); g.restore();
+  });
+  // rotas tracejadas que se desenham, com a carga viajando
+  for (const ro of ITENS.rotas) {
+    const k = easeInOut((t - ro.t0) / ro.dr); if (k <= 0) continue;
+    const pts = ro.dens.map(p => pr(p)).filter(Boolean);
+    const n = Math.max(2, Math.ceil(pts.length * k));
+    const parte = pts.slice(0, n);
+    g.save(); g.lineCap = "round"; g.lineJoin = "round";
+    g.beginPath(); parte.forEach((q, i) => i ? g.lineTo(q[0], q[1]) : g.moveTo(q[0], q[1]));
+    g.strokeStyle = "rgba(243,235,221,0.55)"; g.lineWidth = 7 * S; g.stroke();
+    g.setLineDash([13 * S, 9 * S]); g.lineDashOffset = -t * 30 * S;
+    g.strokeStyle = cor(ro.cor, "#2E241A"); g.lineWidth = 3.4 * S; g.stroke();
+    g.restore();
+    const ponta = parte[parte.length - 1], antes = parte[Math.max(0, parte.length - 3)];
+    if (k < 1 || ro.carga) {
+      const ang = Math.atan2(ponta[1] - antes[1], ponta[0] - antes[0]);
+      g.save(); g.translate(ponta[0], ponta[1]);
+      if (ro.carga === "navio") navio(ang);
+      else if (ro.carga === "moeda" || ro.carga === "ouro") moeda(0, 0, 15 * S);
+      else if (ro.carga === "caravana") camelo(ang);
+      else if (k >= 1) seta(ang);
+      else { g.fillStyle = "#2E241A"; g.beginPath(); g.arc(0, 0, 6 * S, 0, 7); g.fill(); }
+      g.restore();
+    } else if (k >= 1) { g.save(); g.translate(ponta[0], ponta[1]); seta(Math.atan2(ponta[1] - antes[1], ponta[0] - antes[0])); g.restore(); }
+  }
+  // cidades
+  for (const c of ITENS.cidades) {
+    const k = (t - c.t0) / 0.45; if (k <= 0) continue;
+    const q = pr([c.lon, c.lat]); if (!q) continue;
+    const e = easeBack(k);
+    if (c.destaque) {
+      const pul = 0.75 + 0.25 * Math.sin((t - c.t0) * 3.2);
+      const raio = (34 + 10 * pul) * S * clamp(k);
+      const gr = g.createRadialGradient(q[0], q[1], 0, q[0], q[1], raio);
+      gr.addColorStop(0, "rgba(255,150,60,0.95)"); gr.addColorStop(0.35, "rgba(240,120,45,0.55)"); gr.addColorStop(1, "rgba(240,120,45,0)");
+      g.fillStyle = gr; g.beginPath(); g.arc(q[0], q[1], raio, 0, 7); g.fill();
+    }
+    g.save(); g.translate(q[0], q[1]); g.scale(e, e);
+    g.fillStyle = PALETA.creme; g.beginPath(); g.arc(0, 0, 9 * S, 0, 7); g.fill();
+    g.fillStyle = "#1E1812"; g.beginPath(); g.arc(0, 0, 6 * S, 0, 7); g.fill();
+    g.fillStyle = PALETA.creme; g.beginPath(); g.arc(0, 0, 2.2 * S, 0, 7); g.fill();
+    g.restore();
+    if (c.nome) {
+      g.save(); g.globalAlpha = easeOut(k); g.font = fonte(500, 22); g.letterSpacing = `${1.5 * S}px`;
+      g.textBaseline = "middle"; const lado = c.lado === "esquerda" ? -1 : 1;
+      g.textAlign = lado > 0 ? "left" : "right";
+      textoComHalo(String(c.nome).toUpperCase(), q[0] + lado * 16 * S, q[1], "#1E1812", "rgba(243,235,221,0.9)", 5);
+      g.restore();
+    }
+  }
+  // rótulos: países (grandes), mares (espaçados) e destaques (laranja)
+  const rotulosPaises = ITENS.paises.filter(p => p.rotulo && p.centro).map(p => ({ texto: p.rotulo, lon: p.centro[0], lat: p.centro[1], tipo: "pais", t0: p.t0 + 0.3 }));
+  const rotulosAreas = ITENS.areas.filter(p => p.rotulo).map(p => ({ texto: p.rotulo, lon: p.centro[0], lat: p.centro[1], tipo: "pais", t0: p.t0 + 0.6 }));
+  for (const l of [...rotulosPaises, ...rotulosAreas, ...ITENS.rotulos]) {
+    const k = easeOut((t - l.t0) / 0.5); if (k <= 0) continue;
+    const q = pr([l.lon, l.lat]); if (!q) continue;
+    g.save(); g.globalAlpha = k; g.textAlign = "center"; g.textBaseline = "middle";
+    const y = q[1] + (1 - k) * 10 * S;
+    if (l.tipo === "mar") {
+      g.font = fonte(500, 26); g.letterSpacing = `${10 * S}px`;
+      g.fillStyle = "rgba(232,240,245,0.72)"; g.fillText(String(l.texto).toUpperCase(), q[0], y);
+    } else if (l.tipo === "destaque") {
+      g.font = fonte(500, 24); g.letterSpacing = `${2 * S}px`;
+      textoComHalo(String(l.texto).toUpperCase(), q[0], y, "#A9481A", "rgba(243,235,221,0.9)", 5);
+    } else {
+      g.font = fonte(700, l.tamanho || 46); g.letterSpacing = `${4 * S}px`;
+      textoComHalo(String(l.texto).toUpperCase(), q[0], y, "#221B13", "rgba(243,235,221,0.92)", 8);
+    }
+    g.restore();
+  }
+}
+
+function seta(ang) {
+  g.rotate(ang); g.fillStyle = "#2E241A";
+  g.beginPath(); g.moveTo(10 * S, 0); g.lineTo(-10 * S, -9 * S); g.lineTo(-5 * S, 0); g.lineTo(-10 * S, 9 * S); g.closePath(); g.fill();
+}
+function navio(ang) {
+  const vira = Math.cos(ang) < 0 ? -1 : 1; g.scale(vira * S * 1.4, S * 1.4);
+  g.fillStyle = "#5A3E26"; g.beginPath(); g.moveTo(-22, 2); g.lineTo(22, 2); g.lineTo(15, 12); g.lineTo(-16, 12); g.closePath(); g.fill();
+  g.fillStyle = "#3A2A1C"; g.fillRect(-1.5, -26, 3, 28);
+  g.fillStyle = "#F3EBDD"; g.beginPath(); g.moveTo(2, -24); g.quadraticCurveTo(18, -12, 2, -2); g.closePath(); g.fill();
+  g.beginPath(); g.moveTo(-2, -22); g.quadraticCurveTo(-16, -11, -2, -3); g.closePath(); g.fill();
+}
+function camelo() {
+  g.scale(S, S); g.fillStyle = "#7A5A36";
+  g.beginPath(); g.ellipse(0, 0, 16, 8, 0, 0, 7); g.fill();
+  g.beginPath(); g.ellipse(-4, -7, 7, 6, 0, 0, 7); g.fill();
+  g.fillRect(12, -14, 4, 12); g.beginPath(); g.ellipse(17, -15, 5, 3, 0, 0, 7); g.fill();
+  for (const x of [-10, -4, 6, 11]) g.fillRect(x, 4, 2.5, 12);
+}
+
+function fundoPergaminho(escuro) {
+  const gr = g.createRadialGradient(W / 2, H * 0.45, H * 0.05, W / 2, H / 2, H * 0.95);
+  if (escuro) { gr.addColorStop(0, PALETA.fundo2); gr.addColorStop(1, PALETA.fundo); }
+  else { gr.addColorStop(0, PALETA.pergaminho); gr.addColorStop(1, PALETA.pergaminho2); }
+  g.fillStyle = gr; g.fillRect(0, 0, W, H);
+}
+
+function fmtNumero(v, casas) {
+  return Number(v).toLocaleString("pt-BR", { minimumFractionDigits: casas, maximumFractionDigits: casas });
+}
+
+function contador(t) {
+  fundoPergaminho(true);
+  particulas("moedas", t, 14);
+  const de = +(SPEC.de ?? 0), ate = +SPEC.ate, casas = SPEC.casas ?? (Number.isInteger(ate) ? 0 : 1);
+  const t0 = 0.12 * DUR, dc = clamp(0.5 * DUR, 1, 4);
+  const k = easeOut((t - t0) / dc);
+  const v = lerp(de, ate, k);
+  const txt = `${SPEC.prefixo || ""}${fmtNumero(casas === 0 ? Math.round(v) : v, casas)}${SPEC.sufixo || ""}`;
+  // pulso quando termina de contar
+  const fim = t - (t0 + dc), pulso = fim > 0 && fim < 0.35 ? 1 + 0.06 * Math.sin(fim / 0.35 * Math.PI) : 1;
+  g.save(); g.translate(W / 2, H * 0.47); g.scale(pulso, pulso);
+  g.font = fonte(700, 200); g.textAlign = "center"; g.textBaseline = "middle"; g.letterSpacing = `${2 * S}px`;
+  let tam = 200; while (g.measureText(txt).width > W * 0.86 && tam > 80) { tam -= 10; g.font = fonte(700, tam); }
+  g.shadowColor = "rgba(0,0,0,0.5)"; g.shadowBlur = 24 * S;
+  const gr = g.createLinearGradient(0, -tam * S / 2, 0, tam * S / 2);
+  gr.addColorStop(0, "#F7DE93"); gr.addColorStop(0.55, PALETA.ouro); gr.addColorStop(1, "#9C7A2C");
+  g.fillStyle = gr; g.fillText(txt, 0, 0);
+  // brilho que passa pelo número quando termina
+  if (fim > 0 && fim < 0.9) {
+    g.globalCompositeOperation = "source-atop";
+    const x = lerp(-W * 0.5, W * 0.5, fim / 0.9);
+    const br = g.createLinearGradient(x - 80 * S, 0, x + 80 * S, 0);
+    br.addColorStop(0, "rgba(255,255,255,0)"); br.addColorStop(0.5, "rgba(255,255,255,0.55)"); br.addColorStop(1, "rgba(255,255,255,0)");
+    g.fillStyle = br; g.fillRect(-W / 2, -tam * S, W, tam * S * 2);
+  }
+  g.restore();
+  if (SPEC.rotulo) {
+    g.save(); g.globalAlpha = easeOut((t - 0.05 * DUR) / 0.5); g.font = fonte(500, 40); g.letterSpacing = `${6 * S}px`;
+    g.textAlign = "center"; g.fillStyle = PALETA.creme; g.fillText(String(SPEC.rotulo).toUpperCase(), W / 2, H * 0.47 + 150 * S);
+    g.fillStyle = PALETA.ouro; const lw = 120 * S * easeOut((t - 0.1 * DUR) / 0.6); g.fillRect(W / 2 - lw, H * 0.47 + 185 * S, lw * 2, 3 * S);
+    g.restore();
+  }
+  if (SPEC.comparacao) {
+    const kk = easeOut((t - (t0 + dc + 0.3)) / 0.5);
+    if (kk > 0) {
+      g.save(); g.globalAlpha = kk; g.font = fonte(500, 34); g.letterSpacing = `${2 * S}px`; g.textAlign = "center";
+      g.fillStyle = "rgba(243,235,221,0.85)"; g.fillText(String(SPEC.comparacao), W / 2, H * 0.47 + 250 * S + (1 - kk) * 12 * S);
+      g.restore();
+    }
+  }
+}
+
+function linhaTempo(t) {
+  fundoPergaminho(false);
+  const ev = SPEC.eventos || [], foco = clamp(SPEC.foco ?? ev.length - 1, 0, ev.length - 1);
+  const passo = 460 * S, y = H * 0.56;
+  const anterior = Math.max(0, foco - 1);
+  const kc = easeInOut((t - 0.05 * DUR) / clamp(0.3 * DUR, 0.6, 1.6));
+  const centro = lerp(anterior, foco, foco === 0 ? 1 : kc);
+  const ox = W / 2 - centro * passo;
+  // linha
+  g.strokeStyle = "#3B2F22"; g.lineWidth = 5 * S; g.lineCap = "round";
+  const fimLinha = ox + passo * foco;
+  g.beginPath(); g.moveTo(Math.min(ox - passo * 0.8, -50), y); g.lineTo(fimLinha, y); g.stroke();
+  g.setLineDash([4 * S, 12 * S]); g.beginPath(); g.moveTo(fimLinha, y); g.lineTo(W + 100, y); g.stroke(); g.setLineDash([]);
+  ev.forEach((e, i) => {
+    if (i > foco) return;
+    const x = ox + i * passo, ehFoco = i === foco;
+    const k = ehFoco ? easeBack((t - 0.2 * DUR) / 0.5) : 1;
+    if (k <= 0) return;
+    g.save(); g.globalAlpha = ehFoco ? clamp(k) : 0.55;
+    if (ehFoco) {
+      const gr = g.createRadialGradient(x, y, 0, x, y, 60 * S);
+      gr.addColorStop(0, "rgba(226,120,46,0.6)"); gr.addColorStop(1, "rgba(226,120,46,0)");
+      g.fillStyle = gr; g.beginPath(); g.arc(x, y, 60 * S, 0, 7); g.fill();
+    }
+    g.translate(x, y); g.scale(k, k);
+    g.fillStyle = ehFoco ? PALETA.ouro : "#6B5A44"; g.strokeStyle = "#2B241B"; g.lineWidth = 4 * S;
+    g.beginPath(); g.arc(0, 0, (ehFoco ? 20 : 13) * S, 0, 7); g.fill(); g.stroke();
+    g.restore();
+    g.save(); g.globalAlpha = ehFoco ? easeOut((t - 0.3 * DUR) / 0.5) : 0.5;
+    g.textAlign = "center"; g.fillStyle = "#2B241B";
+    g.font = fonte(700, ehFoco ? 84 : 52); g.textBaseline = "alphabetic"; g.fillText(String(e.ano), x, y - 48 * S);
+    g.font = fonte(500, ehFoco ? 32 : 24); g.textBaseline = "top"; g.letterSpacing = `${1.5 * S}px`;
+    quebrar(String(e.texto || "").toUpperCase(), 400 * S, g.font).slice(0, 3).forEach((l, j) => g.fillText(l, x, y + 44 * S + j * (ehFoco ? 42 : 32) * S));
+    g.restore();
+  });
+}
+
+function imagemViva(t) {
+  g.fillStyle = "#000"; g.fillRect(0, 0, W, H);
+  if (!IMG) return;
+  const mov = SPEC.movimento || "zoom_in", k = easeInOut(t / DUR);
+  let esc = 1.02, dx = 0, dy = 0;
+  if (mov === "zoom_in") esc = lerp(1.02, 1.12, k);
+  else if (mov === "zoom_out") esc = lerp(1.12, 1.02, k);
+  else if (mov === "pan_esquerda") { esc = 1.12; dx = lerp(0.045, -0.045, k); }
+  else if (mov === "pan_direita") { esc = 1.12; dx = lerp(-0.045, 0.045, k); }
+  else if (mov === "sobe") { esc = 1.12; dy = lerp(0.04, -0.04, k); }
+  const base = Math.max(W / IMG.width, H / IMG.height) * esc;
+  const w = IMG.width * base, h = IMG.height * base;
+  g.drawImage(IMG, (W - w) / 2 + dx * W, (H - h) / 2 + dy * H, w, h);
+}
+
+// ---------------------------------------------------------------- quadro
+window.quadro = function (t) {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.globalCompositeOperation = "source-over"; g.letterSpacing = "0px";
+  g.textAlign = "left"; g.textBaseline = "alphabetic"; g.setLineDash([]); g.shadowBlur = 0; g.shadowColor = "transparent";
+  const m = SPEC.modelo;
+  if (m === "mapa") mapa(t);
+  else if (m === "contador") contador(t);
+  else if (m === "linha_tempo") linhaTempo(t);
+  else imagemViva(t);
+  if (SPEC.neblina) neblina(t);
+  luzes(SPEC.luzes, t);
+  if (m !== "contador") particulas(SPEC.particulas, t);
+  vinheta(m === "mapa" ? 0.38 : 0.45);
+  tituloInferior(SPEC.titulo_inferior, t);
+  grao(t, m === "imagem" ? 0.06 : 0.09);
+};
+
+carregarFontes().then(() => { window.pronto = true; });
+</script></body></html>

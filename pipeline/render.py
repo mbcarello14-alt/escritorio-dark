@@ -19,10 +19,11 @@ MOVIMENTOS = {
 
 
 def clipe_imagem(img: Path, audio: Path, dur: float, saida: Path, movimento: str = "zoom_in",
-                 sobreposicao: Path | None = None) -> Path:
+                 sobreposicao: Path | None = None, textura: bool = False) -> Path:
     n = max(1, round(dur * FPS))
     z, x, y = (e.format(n=n) for e in MOVIMENTOS.get(movimento, MOVIMENTOS["zoom_in"]))
-    filtro = f"[0:v]zoompan=z='{z}':x='{x}':y='{y}':d={n}:s={LARGURA}x{ALTURA}:fps={FPS},format=yuv420p[v0]"
+    filtro = f"[0:v]zoompan=z='{z}':x='{x}':y='{y}':d={n}:s={LARGURA}x{ALTURA}:fps={FPS}" \
+        + (",noise=alls=6:allf=t,vignette=angle=PI/5" if textura else "") + ",format=yuv420p[v0]"
     entradas = ["-i", str(img), "-i", str(audio)]
     saida_v = "[v0]"
     if sobreposicao:

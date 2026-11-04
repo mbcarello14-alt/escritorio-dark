@@ -1,0 +1,622 @@
+{
+  "canal": "historia",
+  "titulo": "[DEMO animação] O rei que penhorou a coroa e 'quebrou' dois bancos",
+  "descricao": "Em 1340, o rei da Inglaterra fugiu de Gante deixando a rainha e os filhos como garantia de dívida. Pouco depois, dois dos maiores bancos da Europa quebraram.\nFoi calote de rei ou a história foi mal contada? Seguimos o dinheiro para descobrir.\n\nEduardo III, os Bardi e os Peruzzi: a lã inglesa, o cartão de crédito do rei, a Grande Coroa no penhor e o cronista Giovanni Villani, que tinha dinheiro no caso. Comparamos a versão clássica com o que dizem os historiadores Ephraim Russell e Edwin Hunt, vemos por que os Acciaiuoli quebraram sem ter emprestado nada ao rei e quem de fato pagou a conta. Onde as fontes discordam (datas, valores, percentuais recuperados), o vídeo avisa.\n\nGostou? Inscreva-se, deixe o like e conte nos comentários: o rei foi o vilão ou só o empurrão final?\n\nFontes:\n- Russell, Ephraim. The Bardi and Peruzzi loans to Edward III (1918), British History Online: https://www.british-history.ac.uk/manchester-uni/london-lay-subsidy/1332/pp93-135\n- Hunt, Edwin S. A New Look at the Dealings of the Bardi and Peruzzi with Edward III. Journal of Economic History, 1990: https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/new-look-at-the-dealings-of-the-bardi-and-peruzzi-with-edward-iii/2AD04842FACDAE9D0A660EDCD72EC097\n- Hunt, Edwin S. The Medieval Super-Companies (Cambridge University Press, 1994), introdução: https://www.cambridge.org/core/books/medieval-supercompanies/introduction/ED84CB6808B41CFE1D63A8C924F4A0D5\n- Villani, Giovanni. Nuova Cronica, XII.54 (trad. inglesa): https://elfinspell.com/BenhamVillani.html\n- Del Punta, Ignazio. Italian firms in late medieval England and their bankruptcy, Cambridge: https://www.cambridge.org/core/books/angloitalian-cultural-relations-in-the-later-middle-ages/italian-firms-in-late-medieval-england-and-their-bankruptcy-rereading-an-old-history-of-financial-crisis/75CAEC33B7F44804A1E5A6E515058F68\n- Como Eduardo III financiou a guerra nos primeiros anos: https://thehundredyearswar.co.uk/how-did-edward-iii-finance-the-conflict-with-france-in-its-initial-stages\n- The Financiers of Medieval Florence, Tontine Coffee-House: https://tontinecoffeehouse.com/2020/08/17/the-financiers-of-medieval-florence/\n- Wikipedia: Edward III of England, Compagnia dei Bardi, Peruzzi, Riccardi of Lucca\n\nIlustrações geradas por inteligência artificial (estilo ilustração, sem pessoas reais em imagem realista), combinadas com obras de domínio público e acervos livres como Wikimedia Commons; os créditos de cada imagem estão listados automaticamente nesta descrição. Narração gerada por voz sintética a partir de roteiro revisado e aprovado pelo canal. Trilha sonora: acervo de música livre do canal.",
+  "tags": [
+    "história",
+    "história econômica",
+    "idade média",
+    "eduardo iii",
+    "bardi e peruzzi",
+    "banqueiros de florença",
+    "guerra dos cem anos",
+    "calote",
+    "história do dinheiro",
+    "florim",
+    "crise bancária",
+    "lã inglesa",
+    "ouro e império"
+  ],
+  "hashtags": [
+    "#história",
+    "#idademédia",
+    "#economia"
+  ],
+  "playlist": "Idade Média",
+  "sintetico_realista": false,
+  "musica_humor": "misterio",
+  "comentario_inicial": "Pergunta do meio do vídeo: para você, Eduardo III foi o vilão dessa história ou só o último empurrão num prédio que já estava rachando? Conta aí o porquê.",
+  "thumbnail": {
+    "texto": "CALOTE OU ÁLIBI?",
+    "cena": "Medieval king in an ornate crown pawn-shop scene, a huge golden crown sitting on a banker's counter with a small coin scale, florentine gold florins scattered, dramatic warm lighting, illustrated style, main element on the right side, empty dark space on the left",
+    "imagem_busca": "Edward III England medieval manuscript illumination crown",
+    "layout": "esquerda"
+  },
+  "blocos": [
+    {
+      "capitulo": "A família como garantia",
+      "cenas": [
+        {
+          "narracao": "Mil trezentos e quarenta. No começo do ano, na cidade de Gante, onde hoje fica a Bélgica, o rei da Inglaterra se proclama rei da França também. Duas coroas e nenhum tostão no bolso.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              -7,
+              45,
+              10,
+              56.5
+            ],
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    -5.7,
+                    50.0
+                  ],
+                  [
+                    -3,
+                    50.6
+                  ],
+                  [
+                    1.4,
+                    51.1
+                  ],
+                  [
+                    1.75,
+                    52.7
+                  ],
+                  [
+                    0.2,
+                    53.5
+                  ],
+                  [
+                    -0.5,
+                    54.5
+                  ],
+                  [
+                    -1.6,
+                    55.6
+                  ],
+                  [
+                    -3,
+                    55
+                  ],
+                  [
+                    -3.1,
+                    54
+                  ],
+                  [
+                    -4.6,
+                    53.3
+                  ],
+                  [
+                    -4.7,
+                    52.0
+                  ],
+                  [
+                    -5.3,
+                    51.7
+                  ],
+                  [
+                    -4.2,
+                    51.2
+                  ]
+                ],
+                "cor": "ouro",
+                "rotulo": "Inglaterra",
+                "em": 0.12,
+                "crescer": false
+              }
+            ],
+            "paises": [
+              {
+                "nomes": [
+                  "França"
+                ],
+                "cor": "azul",
+                "rotulo": "França",
+                "em": 0.55
+              }
+            ],
+            "cidades": [
+              {
+                "nome": "Gante",
+                "lon": 3.72,
+                "lat": 51.05,
+                "destaque": true,
+                "em": 0.3
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "1340",
+              "subtitulo": "Gante, Flandres",
+              "em": 0.05
+            }
+          }
+        },
+        {
+          "narracao": "No fim do ano, sem conseguir pagar ninguém, ele sai escondido e volta para a Inglaterra. E deixa para trás a rainha e os filhos, como garantia para quem ele devia.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              -7,
+              45,
+              10,
+              56.5
+            ],
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    -5.7,
+                    50.0
+                  ],
+                  [
+                    -3,
+                    50.6
+                  ],
+                  [
+                    1.4,
+                    51.1
+                  ],
+                  [
+                    1.75,
+                    52.7
+                  ],
+                  [
+                    0.2,
+                    53.5
+                  ],
+                  [
+                    -0.5,
+                    54.5
+                  ],
+                  [
+                    -1.6,
+                    55.6
+                  ],
+                  [
+                    -3,
+                    55
+                  ],
+                  [
+                    -3.1,
+                    54
+                  ],
+                  [
+                    -4.6,
+                    53.3
+                  ],
+                  [
+                    -4.7,
+                    52.0
+                  ],
+                  [
+                    -5.3,
+                    51.7
+                  ],
+                  [
+                    -4.2,
+                    51.2
+                  ]
+                ],
+                "cor": "ouro",
+                "rotulo": "Inglaterra",
+                "em": 0,
+                "crescer": false
+              }
+            ],
+            "paises": [
+              {
+                "nomes": [
+                  "França"
+                ],
+                "cor": "azul",
+                "rotulo": "França",
+                "em": 0
+              }
+            ],
+            "cidades": [
+              {
+                "nome": "Gante",
+                "lon": 3.72,
+                "lat": 51.05,
+                "destaque": true,
+                "em": 0
+              },
+              {
+                "nome": "Londres",
+                "lon": -0.13,
+                "lat": 51.51,
+                "em": 0.15,
+                "lado": "esquerda"
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    3.72,
+                    51.05
+                  ],
+                  [
+                    2.6,
+                    51.35
+                  ],
+                  [
+                    1.4,
+                    51.35
+                  ],
+                  [
+                    0.6,
+                    51.45
+                  ],
+                  [
+                    -0.13,
+                    51.51
+                  ]
+                ],
+                "carga": "navio",
+                "em": 0.2,
+                "duracao": 0.45
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "a família fica de garantia",
+                "lon": 3.9,
+                "lat": 50.45,
+                "tipo": "destaque",
+                "em": 0.7
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "A família real virou caução de empréstimo. Poucos anos depois, as duas maiores companhias de Florença, gigantes do crédito na Europa, estavam quebradas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a pawn shop counter where a royal family portrait sits with a price tag labeled loan collateral, a clerk examining it through a magnifying glass, bewildered",
+            "busca_reserva": "Florence medieval city view painting 14th century",
+            "particulas": "poeira",
+            "luzes": [
+              {
+                "x": 0.7,
+                "y": 0.3,
+                "raio": 0.22
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "A versão clássica diz que foi calote desse rei. Hoje a gente vai ver se essa versão para em pé.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Edward III of England portrait medieval",
+            "movimento": "zoom_in",
+            "titulo_inferior": {
+              "titulo": "Eduardo III",
+              "subtitulo": "Rei da Inglaterra · 1327–1377"
+            }
+          }
+        },
+        {
+          "narracao": "Se você curte entender a história seguindo o dinheiro, se inscreve e deixa o like, que isso ajuda demais o canal.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly medieval Florentine banker with a gold coin in one hand pointing at the viewer with a big grin and a thumbs up",
+            "busca_reserva": "florin gold coin Florence medieval",
+            "particulas": "moedas"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Os donos do florim",
+      "cenas": [
+        {
+          "narracao": "Para entender o tamanho do tombo, você precisa conhecer os credores. Florença, começo do século catorze.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              -10,
+              38,
+              22,
+              57
+            ],
+            "camera_para": [
+              6.5,
+              41.2,
+              16.5,
+              46.6
+            ],
+            "camera_em": 0.25,
+            "cidades": [
+              {
+                "nome": "Florença",
+                "lon": 11.25,
+                "lat": 43.77,
+                "destaque": true,
+                "em": 0.55
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Itália",
+                "lon": 13.2,
+                "lat": 42.3,
+                "tipo": "pais",
+                "em": 0.6
+              },
+              {
+                "texto": "Mar Tirreno",
+                "lon": 11.0,
+                "lat": 40.6,
+                "tipo": "mar",
+                "em": 0.7
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Florença",
+              "subtitulo": "Começo do século XIV",
+              "em": 0.6
+            }
+          }
+        },
+        {
+          "narracao": "A cidade tinha uma moeda de ouro famosa, o florim, tão confiável que até o rei inglês ia tentar imitar mais tarde. E tinha duas empresas que eram praticamente os bancões da época: os Bardi e os Peruzzi.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Florin gold coin Florence 13th century",
+            "movimento": "zoom_in",
+            "legenda": "O florim de ouro",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "Os historiadores chamam esse tipo de firma de supercompanhia. Elas negociavam mercadoria, aceitavam depósito e emprestavam para quem tivesse poder.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a busy medieval Italian counting house where clerks weigh sacks of goods, stack gold coins and take deposits, with a giant octopus-like merchant holding everything at once",
+            "busca_reserva": "medieval Italian bankers counting house painting",
+            "particulas": "poeira",
+            "luzes": [
+              {
+                "x": 0.3,
+                "y": 0.35,
+                "raio": 0.2
+              },
+              {
+                "x": 0.75,
+                "y": 0.3,
+                "raio": 0.16
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Os Bardi eram os maiores, uma vez e meia o tamanho dos Peruzzi, e chegaram a ter mais de trezentos funcionários. Os Peruzzi, no auge, tinham quinze filiais e perto de cem empregados.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 300,
+            "prefixo": "+",
+            "sufixo": " funcionários",
+            "rotulo": "Os Bardi, a maior supercompanhia",
+            "comparacao": "Os Peruzzi: 15 filiais e perto de 100 empregados"
+          }
+        },
+        {
+          "narracao": "Em mil trezentos e trinta e cinco, os ativos dos Peruzzi somavam por volta de meio milhão de florins, segundo uma das estimativas. Era o tipo de família que encomendava capela pintada.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 500000,
+            "sufixo": " florins",
+            "rotulo": "Ativos dos Peruzzi em 1335",
+            "comparacao": "segundo uma das estimativas"
+          }
+        },
+        {
+          "narracao": "Os Peruzzi têm uma em Florença, com afrescos que provavelmente são de Giotto.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Giotto frescoes Peruzzi Chapel Santa Croce Florence",
+            "movimento": "zoom_in",
+            "legenda": "Capela Peruzzi, Santa Croce",
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.2,
+                "raio": 0.25
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "E Boccaccio, o do Decamerão, trabalhou para os Bardi quando jovem, assim como o pai dele. Antes de virar clássico da literatura, o homem bateu ponto no banco.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a young medieval Italian poet in a rumpled tunic stamping a time card at a bank counter, quill behind his ear, yawning, a thick book labeled nothing under his arm",
+            "busca_reserva": "Giovanni Boccaccio portrait painting",
+            "titulo_inferior": {
+              "titulo": "Giovanni Boccaccio",
+              "subtitulo": "Autor do Decamerão · trabalhou para os Bardi"
+            }
+          }
+        },
+        {
+          "narracao": "Agora, quem era o maior cliente dessa turma? Um reino frio, chuvoso e cheio de ovelhas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a rainy green English hillside crowded with fluffy sheep wearing tiny gold crowns, grey clouds overhead",
+            "busca_reserva": "medieval English sheep manuscript illumination",
+            "particulas": "chuva",
+            "neblina": true
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Lã, o ouro inglês",
+      "cenas": [
+        {
+          "narracao": "A Inglaterra da época não tinha petróleo nem soja, mas tinha ovelha. E ovelha dá lã. A lã inglesa era a mercadoria mais cobiçada do reino.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              -9,
+              40,
+              19,
+              57
+            ],
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    -5.7,
+                    50.0
+                  ],
+                  [
+                    -3,
+                    50.6
+                  ],
+                  [
+                    1.4,
+                    51.1
+                  ],
+                  [
+                    1.75,
+                    52.7
+                  ],
+                  [
+                    0.2,
+                    53.5
+                  ],
+                  [
+                    -0.5,
+                    54.5
+                  ],
+                  [
+                    -1.6,
+                    55.6
+                  ],
+                  [
+                    -3,
+                    55
+                  ],
+                  [
+                    -3.1,
+                    54
+                  ],
+                  [
+                    -4.6,
+                    53.3
+                  ],
+                  [
+                    -4.7,
+                    52.0
+                  ],
+                  [
+                    -5.3,
+                    51.7
+                  ],
+                  [
+                    -4.2,
+                    51.2
+                  ]
+                ],
+                "cor": "ouro",
+                "rotulo": "Inglaterra",
+                "em": 0.05
+              }
+            ],
+            "cidades": [
+              {
+                "nome": "Londres",
+                "lon": -0.13,
+                "lat": 51.51,
+                "destaque": true,
+                "em": 0.15,
+                "lado": "esquerda"
+              },
+              {
+                "nome": "Bruges",
+                "lon": 3.22,
+                "lat": 51.21,
+                "em": 0.3
+              },
+              {
+                "nome": "Florença",
+                "lon": 11.25,
+                "lat": 43.77,
+                "em": 0.5
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    -0.13,
+                    51.51
+                  ],
+                  [
+                    1.4,
+                    51.35
+                  ],
+                  [
+                    2.6,
+                    51.3
+                  ],
+                  [
+                    3.22,
+                    51.21
+                  ]
+                ],
+                "carga": "navio",
+                "em": 0.3,
+                "duracao": 0.25
+              },
+              {
+                "pontos": [
+                  [
+                    3.22,
+                    51.21
+                  ],
+                  [
+                    4.8,
+                    48.7
+                  ],
+                  [
+                    5.4,
+                    46.4
+                  ],
+                  [
+                    8.9,
+                    45.5
+                  ],
+                  [
+                    11.25,
+                    43.77
+                  ]
+                ],
+                "carga": "moeda",
+                "em": 0.5,
+                "duracao": 0.4
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "lã inglesa",
+                "lon": -1.3,
+                "lat": 54.6,
+                "tipo": "destaque",
+                "em": 0.4
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

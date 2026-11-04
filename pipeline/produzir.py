@@ -13,7 +13,7 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import apresentador, cartoes, engajamento, gravacao, legendas, quadro_branco, render
+from . import animar, apresentador, cartoes, engajamento, gravacao, legendas, quadro_branco, render
 from .agenda import proximo_horario
 from .comum import FPS, RAIZ, carregar_config, carregar_producao, duracao_audio, log
 from .imagens import Buscador
@@ -30,6 +30,16 @@ class Contexto:
         self.branco = cfg["estilo"].get("modo") == "quadro_branco"
         self.buscador = None if sem_rede else Buscador(pasta / "saida", cfg["imagens"]["fontes"])
         self.ilustrador = None if sem_rede else Ilustrador(pasta / "saida", cfg)
+        self.animado = bool(cfg["estilo"].get("animado")) and not self.branco
+        self.animador = animar.Animador()
+
+    def animar(self, cena: dict, audio: Path, dur: float, saida: Path) -> Path | None:
+        """Cena animada em código; None se o render de animação não estiver disponível (o motor usa o plano B)."""
+        try:
+            return animar.clipe(self.animador, cena, audio, dur, saida, self.tmp)
+        except Exception as e:
+            log.warning("animação indisponível nesta cena (%s) — usando a versão parada", e)
+            return None
 
     def imagem(self, descricao_ia: str | None, busca: str | None) -> Path | None:
         if descricao_ia and self.ilustrador:
@@ -68,10 +78,18 @@ def _visual(ctx: Contexto, cena: dict, idx: int, audio: Path, dur: float, bloco:
                 return _desenhar(ctx, quadro_branco.preparar_desenho(origem, cfg["estilo"]["fundo"]), None, idx, audio, dur)
             img = cartoes.preparar_imagem(origem, tmp / f"cena_{idx:03d}.jpg",
                                           preencher=origem.parent.name in ("ilustracoes", "imagens-fixas"))
+            if ctx.animado:
+                vv = dict(v)
+                if vv.get("legenda") and not vv.get("titulo_inferior") and origem.parent.name != "imagens-fixas":
+                    vv["titulo_inferior"] = {"titulo": vv["legenda"], "pequeno": True, "em": 0.08}
+                if animar.tem_extras(vv):
+                    feito = ctx.animar(animar.cena_de(vv, img), audio, dur, saida)
+                    if feito:
+                        return feito
             # imagem fixa tirada de uma versão anterior já traz a legenda gravada
             sobre = cartoes.sobreposicao_legenda(cfg, v["legenda"], tmp / f"leg_{idx:03d}.png") \
                 if v.get("legenda") and origem.parent.name != "imagens-fixas" else None
-            return render.clipe_imagem(img, audio, dur, saida, movimento, sobre)
+            return render.clipe_imagem(img, audio, dur, saida, movimento, sobre, textura=ctx.animado)
         # sem imagem: nada de repetir o nome do capítulo na tela
         if ctx.branco:
             quadro = cartoes.fundo(cfg)                      # quadro branco limpo
@@ -82,7 +100,16 @@ def _visual(ctx: Contexto, cena: dict, idx: int, audio: Path, dur: float, bloco:
     elif t == "cartao":
         quadro = cartoes.cartao(cfg, v["titulo"], v.get("subtitulo", ""))
     elif t == "numero":
+        cont = animar.numero_para_contador(v) if ctx.animado else None
+        feito = ctx.animar(animar.cena_de(cont), audio, dur, saida) if cont else None
+        if feito:
+            return feito
         quadro = cartoes.numero(cfg, str(v["valor"]), v.get("rotulo", ""))
+    elif t in animar.MODELOS:
+        feito = ctx.animar(animar.cena_de(v), audio, dur, saida)
+        if feito:
+            return feito
+        quadro = _plano_b(cfg, v)
     elif t == "citacao":
         quadro = cartoes.citacao(cfg, v["texto"], v.get("autor", ""))
     elif t == "lista":
@@ -108,6 +135,19 @@ def _visual(ctx: Contexto, cena: dict, idx: int, audio: Path, dur: float, bloco:
     png = tmp / f"cena_{idx:03d}.png"
     quadro.save(png)
     return render.clipe_estatico(png, audio, dur, saida)
+
+
+def _plano_b(cfg: dict, v: dict):
+    """Cena animada que não pôde ser renderizada: vira um cartão parado com a mesma informação."""
+    t = v["tipo"]
+    if t == "contador":
+        return cartoes.numero(cfg, f"{v.get('prefixo', '')}{v['ate']:,.0f}{v.get('sufixo', '')}".replace(",", "."), v.get("rotulo", ""))
+    if t == "linha_tempo" and v.get("eventos"):
+        e = v["eventos"][min(int(v.get("foco", len(v["eventos"]) - 1)), len(v["eventos"]) - 1)]
+        return cartoes.cartao(cfg, str(e.get("ano", "")), e.get("texto", ""))
+    ti = v.get("titulo_inferior") or {}
+    rot = [p.get("rotulo") for p in v.get("paises", []) + v.get("areas", []) if p.get("rotulo")]
+    return cartoes.cartao(cfg, ti.get("titulo") or (rot[0] if rot else ""), ti.get("subtitulo", ""))
 
 
 def _baixar_audios(pasta: Path, total: int) -> None:
@@ -229,6 +269,7 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
             # palavras com tempo global (os cortes são contíguos, então o deslocamento é o início do bloco)
             palavras_globais += [{**w, "inicio": w["inicio"] + inicio_bloco, "fim": w["fim"] + inicio_bloco} for w in palavras]
 
+    ctx.animador.fechar()
     saida = pasta / "saida"
     bruto = render.concatenar(clipes, tmp / "narrado.mp4")
     try:
