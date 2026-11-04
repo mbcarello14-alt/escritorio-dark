@@ -1,0 +1,1427 @@
+{
+  "canal": "vestibular",
+  "titulo": "Escala no mapa: a conta de 5 zeros que derruba no vestibular",
+  "descricao": "Uma cidade de 4,5 km num mapa 1:50.000 ocupa quantos centímetros? Resolva a questão real da Unicamp 2013 com o mapa mental da escala.\nCinco zeros, área ao quadrado e a pergunta que pega o erro antes de você marcar: faz sentido?\n\nNeste vídeo você monta, ramo a ramo, o mapa mental da escala cartográfica: o que é escala, numérica x gráfica, escala grande x pequena (olhe o denominador), a conta em três passos (multiplica pelo denominador, divide por 100.000, confere) e as pegadinhas dos zeros, da área ao quadrado e da fotocópia. No fim, o mapa completo fica na tela para você pausar e printar.\n\nCartografia é um tema pequeno no Enem (levantamentos de cursinhos apontam entre 3% e 4% das questões de Geografia, com critérios diferentes), mas a escala aparece escondida em mapas de outros assuntos e já foi cobrada mais de uma vez na Unicamp e na Uerj. É ponto que dá para garantir.\n\nSe a aula ajudou, inscreva-se no Mapeado, deixe o like e comente qual ramo foi novidade para você.\n\nIlustrações geradas por inteligência artificial (estilo quadro branco). A narração é de voz sintética.\n\nFontes:\n- IBGE, Atlas Geográfico Escolar, Escala: https://educa.ibge.gov.br/cartografia/21734-escala.html\n- IBGE, Noções básicas de cartografia: https://biblioteca.ibge.gov.br/visualizacao/livros/liv8595_v1.pdf\n- UFABC, Escalas: https://moodle.ufabc.edu.br/pluginfile.php/82515/mod_page/content/9/05_Escalas.pdf\n- Unipar, apostila de cartografia: https://moodle.ead.unipar.br/materiais/library/66b07e3e1522c60b0477070ef3b88f12/unidade.2.pdf\n- SEDUC-GO, Escalas gráficas e numéricas: https://portal.educacao.go.gov.br/wp-content/uploads/2021/11/Atividade-19-6o-GEO-Escalas-graficas-e-numericas-1.pdf\n- Estratégia Vestibulares, Escala cartográfica: https://vestibulares.estrategia.com/portal/materias/geografia/escala-cartografica-conceitos-fundamentais-e-aplicacoes/\n- Toda Matéria, exercícios de escala cartográfica: https://www.todamateria.com.br/exercicios-de-escala-cartografica/\n- Matéria Educativa, escala: exercícios resolvidos: https://materiaeducativa.com.br/geografia-e-atualidades/escala-exercicios-resolvidos/\n- Blog do Vestibular, questão comentada (Unicamp 2013): https://www.blogdovestibular.com/questoes/questao-comentada-cartografia-escala.html\n- Blog do Vestibular, questão comentada (Enem 2013): https://www.blogdovestibular.com/questoes/questao-comentada-sobre-escalas-do-enem.html\n- Incidência de Cartografia no Enem: SAS Raio X Enem 2023 (https://enem.saseducacao.com.br/wp-content/uploads/2023/10/Raio_X_ENEM_2023.pdf), Estuda.com (https://estuda.com/geografia-no-enem/) e Guia FTD (https://res.cloudinary.com/dandlolaz/image/upload/v1788445156/END-8248-GUIA-ENEM-GEOGRAFIA_hgvc6u.pdf)\n\nMúsica: trilha de fundo da biblioteca do canal.",
+  "tags": [
+    "escala cartográfica",
+    "escala no mapa",
+    "cartografia",
+    "geografia enem",
+    "enem 2026",
+    "vestibular",
+    "unicamp",
+    "mapa mental",
+    "escala grande e pequena",
+    "como calcular escala",
+    "revisão enem",
+    "questão resolvida",
+    "mapeado"
+  ],
+  "hashtags": [
+    "#escala",
+    "#geografia",
+    "#enem"
+  ],
+  "playlist": "Geografia",
+  "comentario_inicial": "Qual pegadinha de escala te pega mais: os zeros, escala grande x pequena ou a área ao quadrado? Conta aqui que eu respondo.",
+  "musica_humor": "foco",
+  "sintetico_realista": false,
+  "thumbnail": {
+    "texto": "CORTE 5 ZEROS",
+    "cena": "big expressive hand-drawn whiteboard doodle of a ruler and a pair of scissors cutting a row of five red zeros, small folded map doodle in the corner, thick black marker lines with red accents, white background, main element on the right side, empty space on the left",
+    "imagem_busca": "ruler and scissors drawing map scale",
+    "layout": "esquerda"
+  },
+  "blocos": [
+    {
+      "capitulo": "Gancho: a cidade no papel",
+      "cenas": [
+        {
+          "narracao": "Imagina uma prova da Unicamp. O enunciado fala de uma cidade com quatro vírgula cinco quilômetros de extensão e de um mapa na escala um para cinquenta mil.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Prova da Unicamp",
+            "subtitulo": "Cidade de 4,5 km · mapa na escala 1:50.000"
+          }
+        },
+        {
+          "narracao": "A pergunta é direta: quantos centímetros essa cidade ocupa no papel? Parece Geografia, mas é conta.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Quantos centímetros no papel?",
+            "subtitulo": "Parece Geografia, mas é conta"
+          }
+        },
+        {
+          "narracao": "E é uma conta que derruba muita gente por causa de um detalhe bobo: os zeros.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "5 zeros",
+            "rotulo": "o detalhe bobo que derruba muita gente"
+          }
+        },
+        {
+          "narracao": "Hoje a gente monta, ramo a ramo, o mapa mental da escala cartográfica, e no final você resolve essa questão conferindo tudo com uma pergunta que serve para qualquer proporção: faz sentido?",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        },
+        {
+          "narracao": "Se essa aula te ajuda a revisar, se inscreve no Mapeado e deixa o like.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Inscreva-se no Mapeado",
+            "subtitulo": "Deixa o like"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Primeiro ramo: o que é escala",
+      "cenas": [
+        {
+          "narracao": "Pensa no seu bairro. Agora pega uma folha de caderno e tenta desenhar o bairro inteiro ali. Não cabe, né?",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "O bairro cabe na folha?",
+            "subtitulo": "Não cabe, então encolhe tudo"
+          }
+        },
+        {
+          "narracao": "Então você encolhe tudo. A rua, a praça, a escola. Mas tem uma regra: tudo encolhe na mesma proporção.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Tudo encolhe na mesma proporção",
+            "itens": [
+              "A rua",
+              "A praça",
+              "A escola"
+            ]
+          }
+        },
+        {
+          "narracao": "Se a rua ficou cem mil vezes menor, a praça também fica cem mil vezes menor. Essa regra tem nome, e ela vai no centro do nosso quadro. Desenha um círculo e escreve dentro: escala.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        },
+        {
+          "narracao": "Primeiro ramo: o que é. Escala é a relação entre uma medida no mapa e a medida correspondente no terreno, lá na superfície da Terra.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        },
+        {
+          "narracao": "Um exemplo que eu quero que você desenhe junto comigo. Numa escala de um para cem mil, um centímetro no mapa vale cem mil centímetros no terreno.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "No mapa",
+              "itens": [
+                "1 cm"
+              ]
+            },
+            "direita": {
+              "titulo": "No terreno",
+              "itens": [
+                "100.000 cm"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E cem mil centímetros é exatamente um quilômetro. Ou seja: um centímetro no papel, um quilômetro no chão. Guarda essa frase, porque ela vai voltar no final.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "1 cm no papel = 1 km no chão",
+            "subtitulo": "Escala 1:100.000"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Segundo ramo: numérica e gráfica",
+      "cenas": [
+        {
+          "narracao": "Segundo ramo: os dois tipos de escala. Do lado esquerdo do ramo, desenha uma fração. Essa é a escala numérica.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "Ela sempre tem o número um na frente. Um para cinquenta mil quer dizer que uma unidade no mapa corresponde a cinquenta mil unidades iguais no terreno.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "1 : 50.000",
+            "subtitulo": "1 unidade no mapa = 50.000 unidades iguais no terreno"
+          }
+        },
+        {
+          "narracao": "A palavra que importa aqui é iguais. Um centímetro no mapa, cinquenta mil centímetros no chão. Um milímetro no mapa, cinquenta mil milímetros no chão. Quem escolhe a unidade é você, e você usa a mesma dos dois lados.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "1 cm no mapa",
+              "itens": [
+                "50.000 cm no chão"
+              ]
+            },
+            "direita": {
+              "titulo": "1 mm no mapa",
+              "itens": [
+                "50.000 mm no chão"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Do lado direito do ramo, desenha uma reguinha dividida em pedaços, com números embaixo. Essa é a escala gráfica. Ela mostra direto quanto cada pedaço da barra vale no terreno.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "Uma questão clássica dá a reguinha e pede a fração. Se cada centímetro da barra vale tantos quilômetros, você transforma esses quilômetros em centímetros e pronto, achou o número de baixo da fração.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Dá a reguinha, pede a fração",
+            "subtitulo": "Quilômetros por centímetro viram centímetros por centímetro"
+          }
+        },
+        {
+          "narracao": "E tem uma pegadinha clássica nesse ramo. Imagina que alguém ampliou o mapa na fotocopiadora. A reguinha cresceu junto com o desenho, então continua valendo.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Mapa ampliado na fotocopiadora",
+            "subtitulo": "A reguinha cresceu junto e continua valendo"
+          }
+        },
+        {
+          "narracao": "Já a fração impressa ficou igual, enquanto o desenho mudou de tamanho. Ela deixou de valer. Mapa ampliado ou reduzido pede escala gráfica.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Escala gráfica",
+              "itens": [
+                "Cresce junto com o desenho",
+                "Continua valendo"
+              ]
+            },
+            "direita": {
+              "titulo": "Escala numérica",
+              "itens": [
+                "Fração impressa não muda",
+                "Deixa de valer"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Terceiro ramo: grande ou pequena",
+      "cenas": [
+        {
+          "narracao": "Terceiro ramo, e aqui mora a pegadinha que mais confunde: escala grande e escala pequena. O instinto diz que escala grande é a do número grande. Errado.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "O segredo é olhar para o número de baixo da fração, o denominador. Denominador pequeno, tipo um para cinquenta ou um para mil, é escala grande. Ela mostra pouca área, mas com muitos detalhes. Dá para ver a casa, a calçada, a árvore.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Escala grande",
+            "subtitulo": "Denominador pequeno: pouca área, muito detalhe"
+          }
+        },
+        {
+          "narracao": "Denominador grande, tipo um para um milhão ou um para dez milhões, é escala pequena. Ela mostra muita área, com poucos detalhes. É o mapa do país inteiro, onde a sua cidade vira um pontinho.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Escala pequena",
+            "subtitulo": "Denominador grande: muita área, pouco detalhe"
+          }
+        },
+        {
+          "narracao": "E por que o nome é esse? Porque é fração. Um cinquenta avos é muito maior do que um milionésimo. Então um para cinquenta é, literalmente, uma escala maior. Nada de decorar macete: você só está comparando frações.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "1/50",
+              "itens": [
+                "Fração maior",
+                "Escala grande"
+              ]
+            },
+            "direita": {
+              "titulo": "1/1.000.000",
+              "itens": [
+                "Fração menor",
+                "Escala pequena"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Desenha no ramo duas lupas. Uma bem pertinho do chão, com a casa cheia de detalhe, escrito escala grande. Outra lá no alto, vendo o país todo, escrito escala pequena.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Lupa perto do chão",
+              "itens": [
+                "A casa cheia de detalhe",
+                "Escala grande"
+              ]
+            },
+            "direita": {
+              "titulo": "Lupa lá no alto",
+              "itens": [
+                "O país todo",
+                "Escala pequena"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Agora me conta nos comentários: antes deste ramo, você achava que escala grande era a que mostrava mais coisa? Pode ser sincero. E se esse ramo já valeu o vídeo, deixa o like.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Escala grande mostra mais coisa?",
+            "subtitulo": "Conta nos comentários"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Quarto ramo: a conta em três passos",
+      "cenas": [
+        {
+          "narracao": "Quarto ramo: a conta em três passos. Primeiro passo: multiplica a distância no mapa pelo denominador. O resultado é a distância real, na mesma unidade do mapa, quase sempre em centímetros.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Segundo passo: transforma centímetros em quilômetros. E aqui vai a frase para escrever em vermelho no quadro: um quilômetro tem cem mil centímetros. Cinco zeros.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "100.000",
+            "rotulo": "centímetros em 1 quilômetro (cinco zeros)"
+          }
+        },
+        {
+          "narracao": "Um quilômetro são mil metros, e cada metro tem cem centímetros. Mil vezes cem, cem mil. Então, para sair de centímetros e chegar em quilômetros, você divide por cem mil.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "1.000 m × 100 cm = 100.000 cm",
+            "subtitulo": "De cm para km: divide por 100.000"
+          }
+        },
+        {
+          "narracao": "Terceiro passo: confere se o resultado faz sentido. Vamos fazer um exemplo juntos. Num mapa na escala um para um milhão, duas cidades estão a três centímetros uma da outra.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Exemplo: escala 1:1.000.000",
+            "subtitulo": "Duas cidades a 3 cm no mapa"
+          }
+        },
+        {
+          "narracao": "Três vezes um milhão dá três milhões de centímetros. Divide por cem mil, ou seja, corta cinco zeros. Sobram trinta. Trinta quilômetros.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "3 × 1.000.000 = 3.000.000 cm",
+            "subtitulo": "Corta cinco zeros: 30 km"
+          }
+        },
+        {
+          "narracao": "Duas cidades vizinhas a trinta quilômetros? Faz sentido. Se desse três mil quilômetros, você saberia na hora que algum zero fugiu.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "30 km",
+            "rotulo": "Duas cidades vizinhas: faz sentido?"
+          }
+        },
+        {
+          "narracao": "E esse teste não é só de escala. Serve para qualquer questão de proporção: antes de marcar, imagina o resultado no mundo real e pergunta se faz sentido.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Faz sentido?",
+            "subtitulo": "Vale para qualquer questão de proporção"
+          }
+        },
+        {
+          "narracao": "Agora, três atalhos para deixar desenhados no ramo. Um para cinquenta mil: cada centímetro vale meio quilômetro. Um para cem mil: cada centímetro vale um quilômetro. Um para um milhão: cada centímetro vale dez quilômetros.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Três atalhos",
+            "itens": [
+              "1:50.000 → 1 cm vale 0,5 km",
+              "1:100.000 → 1 cm vale 1 km",
+              "1:1.000.000 → 1 cm vale 10 km"
+            ]
+          }
+        },
+        {
+          "narracao": "E o caminho de volta é o mesmo, ao contrário. Se a questão dá a distância real e pede o tamanho no mapa, você transforma quilômetros em centímetros e divide pelo denominador.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Quinto ramo: zeros e área ao quadrado",
+      "cenas": [
+        {
+          "narracao": "Quinto e último ramo: as pegadinhas. A primeira você já conhece, a da fotocópia. A segunda é a dos zeros.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 5
+          }
+        },
+        {
+          "narracao": "Os distratores, que são as alternativas erradas, costumam trazer o número certo com um zero a menos ou a mais. Por quê? Porque um erro comum é converter quilômetro em centímetro com três zeros, pensando em metro, ou com quatro, na pressa.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Certo",
+              "itens": [
+                "Cinco zeros"
+              ]
+            },
+            "direita": {
+              "titulo": "Distratores",
+              "itens": [
+                "Três zeros (pensando em metro)",
+                "Quatro zeros (na pressa)"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Se a sua resposta bate com uma alternativa, mas outra tem o mesmo número com outra quantidade de zeros, para e conta de novo.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Para e conta os zeros de novo",
+            "subtitulo": "Mesmo número, outra quantidade de zeros"
+          }
+        },
+        {
+          "narracao": "A terceira é a mais traiçoeira: a área ao quadrado. Pensa num quadrado de lado um. Agora dobra o lado. O lado ficou duas vezes maior, mas a área ficou quatro vezes maior, porque cabem quatro quadradinhos dentro dele.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Lado 1",
+              "itens": [
+                "Área 1",
+                "1 quadradinho"
+              ]
+            },
+            "direita": {
+              "titulo": "Lado 2",
+              "itens": [
+                "Área 4",
+                "4 quadradinhos"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Com mapa é igual. Imagina o mesmo estado desenhado em dois mapas. Um na escala um para vinte e cinco milhões, outro na escala um para quatro milhões.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Mapa 1",
+              "itens": [
+                "Escala 1:25.000.000"
+              ]
+            },
+            "direita": {
+              "titulo": "Mapa 2",
+              "itens": [
+                "Escala 1:4.000.000"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Vinte e cinco dividido por quatro dá seis vírgula vinte e cinco. Então cada comprimento no segundo mapa é seis vírgula vinte e cinco vezes maior.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "6,25 vezes",
+            "rotulo": "maior em cada comprimento no segundo mapa"
+          }
+        },
+        {
+          "narracao": "Mas, se a pergunta é sobre área, você multiplica de novo: seis vírgula vinte e cinco vezes seis vírgula vinte e cinco dá pouco mais de trinta e nove. Quem para no seis cai direitinho na armadilha.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "39 vezes",
+            "rotulo": "a área (6,25 × 6,25)"
+          }
+        },
+        {
+          "narracao": "E o faz sentido também pega esse erro: se cada lado cresceu mais de seis vezes, a área não pode ter crescido só isso. Comprimento multiplica uma vez. Área multiplica ao quadrado.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Comprimento",
+              "itens": [
+                "Multiplica uma vez"
+              ]
+            },
+            "direita": {
+              "titulo": "Área",
+              "itens": [
+                "Multiplica ao quadrado"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Revisão: o mapa completo",
+      "cenas": [
+        {
+          "narracao": "Agora dá um passo para trás e olha o quadro inteiro. É o momento de pausar e tirar print. No centro, escala.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        },
+        {
+          "narracao": "Primeiro ramo: o que é. A relação entre o mapa e o terreno, com a frase-âncora: em um para cem mil, um centímetro vale um quilômetro.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        },
+        {
+          "narracao": "Segundo ramo: os tipos. Numérica é a fração, gráfica é a reguinha, e só a reguinha sobrevive à fotocópia.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "Terceiro ramo: grande e pequena. Olha o denominador. Denominador pequeno, escala grande, muito detalhe e pouca área. Denominador grande, escala pequena, pouco detalhe e muita área.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "Quarto ramo: a conta. Multiplica pelo denominador, divide por cem mil, confere se faz sentido.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Quinto ramo: as pegadinhas. Conta os zeros, eleva a área ao quadrado e desconfia da fração em mapa ampliado. E, valendo para todos eles, a pergunta do terceiro passo: faz sentido?",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 5
+          }
+        },
+        {
+          "narracao": "E onde isso aparece? No Enem, cartografia é um pedaço pequeno da prova de Geografia. Levantamentos de cursinhos apontam algo entre três e quatro por cento, e o número muda conforme o critério de cada um.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "3 a 4%",
+            "rotulo": "da prova de Geografia do Enem (levantamentos de cursinhos)"
+          }
+        },
+        {
+          "narracao": "Mas a escala também vem escondida em mapas de outros assuntos. E vestibulares como a Unicamp e a Uerj já cobraram escala mais de uma vez. É ponto pequeno, mas é ponto que dá para garantir.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Unicamp e Uerj já cobraram escala",
+            "subtitulo": "Ponto pequeno, mas dá para garantir"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Questão real: Unicamp dois mil e treze",
+      "cenas": [
+        {
+          "narracao": "Agora a prova de verdade. Vestibular da Unicamp de dois mil e treze. A situação é aquela do começo: uma cidade com quatro vírgula cinco quilômetros de extensão, representada num mapa na escala um para cinquenta mil. Quantos centímetros ela ocupa no mapa?",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Unicamp 2013",
+            "subtitulo": "Cidade de 4,5 km · escala 1:50.000 · quantos cm no mapa?"
+          }
+        },
+        {
+          "narracao": "Vamos andar pelo mapa mental. Terceiro ramo primeiro. Um para cinquenta mil tem denominador pequeno perto de um para um milhão, então é uma escala grande, boa para mostrar uma cidade com detalhe. A gente espera uma resposta de alguns centímetros.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "Agora o quarto ramo, a conta. Aqui o caminho é de volta: a questão dá o real e pede o mapa.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Primeiro, transforma quilômetros em centímetros. Quatro vírgula cinco vezes cem mil dá quatrocentos e cinquenta mil centímetros.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "4,5 × 100.000 = 450.000 cm",
+            "subtitulo": "Quilômetros em centímetros"
+          }
+        },
+        {
+          "narracao": "Depois divide pelo denominador. Quatrocentos e cinquenta mil dividido por cinquenta mil dá nove. Nove centímetros.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "9 cm",
+            "rotulo": "450.000 ÷ 50.000"
+          }
+        },
+        {
+          "narracao": "Quer conferir pelo atalho? Em um para cinquenta mil, cada centímetro vale meio quilômetro. Quantos meios quilômetros cabem em quatro vírgula cinco? Nove. Bateu. A resposta é nove centímetros.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "4,5 ÷ 0,5 = 9",
+            "subtitulo": "Bateu: 9 centímetros"
+          }
+        },
+        {
+          "narracao": "E repara no quinto ramo: se você tivesse usado só três zeros, chegaria a quatro mil e quinhentos dividido por cinquenta mil, menos de um milímetro.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Cinco zeros",
+              "itens": [
+                "450.000 ÷ 50.000",
+                "9 cm"
+              ]
+            },
+            "direita": {
+              "titulo": "Só três zeros",
+              "itens": [
+                "4.500 ÷ 50.000",
+                "Menos de 1 mm"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Uma cidade inteira menor que a cabeça de um alfinete numa escala grande? Não faz sentido. É o teste do terceiro passo pegando o zero que fugiu antes de você marcar.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Não faz sentido!",
+            "subtitulo": "O teste pega o zero que fugiu antes de marcar"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Fechamento e próximo mapa",
+      "cenas": [
+        {
+          "narracao": "O mapa completo fica na tela agora, pausa e guarda. Se for levar três coisas deste quadro, leva os cinco zeros, a área ao quadrado e a pergunta do terceiro passo, o faz sentido, que serve para escala, planta baixa ou qualquer regra de três.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Escala",
+              "ramos": [
+                {
+                  "rotulo": "O que é",
+                  "filhos": [
+                    "Mapa x terreno",
+                    "1:100.000 = 1 cm vale 1 km"
+                  ]
+                },
+                {
+                  "rotulo": "Numérica e gráfica",
+                  "filhos": [
+                    "Numérica: fração",
+                    "Gráfica: reguinha"
+                  ]
+                },
+                {
+                  "rotulo": "Grande ou pequena",
+                  "filhos": [
+                    "Denominador pequeno = grande",
+                    "Denominador grande = pequena"
+                  ]
+                },
+                {
+                  "rotulo": "A conta em 3 passos",
+                  "filhos": [
+                    "Multiplica pelo denominador",
+                    "Divide por 100.000",
+                    "Faz sentido?"
+                  ]
+                },
+                {
+                  "rotulo": "Pegadinhas",
+                  "filhos": [
+                    "Zeros",
+                    "Área ao quadrado",
+                    "Fotocópia"
+                  ]
+                }
+              ]
+            },
+            "revelar": 5
+          }
+        },
+        {
+          "narracao": "Se esse quadro te ajudou, se inscreve no canal, deixa o like e volta lá na pergunta do meio. Me conta nos comentários se você também achava que escala grande era a que mostrava mais área, e qual dos cinco ramos foi novidade para você.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Inscreva-se, deixe o like e comente",
+            "subtitulo": "Qual dos cinco ramos foi novidade?"
+          }
+        },
+        {
+          "narracao": "Esses comentários ajudam a escolher os próximos mapas do canal. E, na próxima questão com mapa, olha a escala antes de olhar a legenda.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Olha a escala antes da legenda",
+            "subtitulo": "Na próxima questão com mapa"
+          }
+        },
+        {
+          "narracao": "Se a parte da conta foi a sua favorita, aqui no canal tem um Short com a pegadinha de regra de três, que é parente bem próxima dessa escala: no fundo, é a mesma conta de proporção. Te vejo no próximo mapa.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Short: pegadinha da regra de três",
+            "subtitulo": "No fundo, a mesma conta de proporção"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1],
+      "ate": [1, 4],
+      "gancho": "5 zeros derrubam gente na Unicamp",
+      "titulo": "A conta da Unicamp que derruba por causa dos zeros",
+      "descricao": "Cidade de 4,5 km, mapa 1:50.000: quantos centímetros no papel? O mapa mental da escala resolve. A aula completa está no canal.",
+      "hashtags": ["#enem", "#geografia", "#escala"],
+      "legenda_reels": "Uma questão real da Unicamp, uma cidade de 4,5 km e um mapa 1:50.000. Quantos cm no papel? Os zeros derrubam muita gente. Segue o perfil para mais mapas mentais. #enem #vestibular #geografia #escala"
+    },
+    {
+      "de": [4, 1],
+      "ate": [4, 3],
+      "gancho": "Escala grande não é número grande",
+      "titulo": "Escala grande ou pequena? O erro que quase todo mundo comete",
+      "descricao": "O instinto diz que escala grande é a do número grande. Errado. Veja o truque do denominador. O mapa mental completo está no canal.",
+      "hashtags": ["#geografia", "#enem", "#cartografia"],
+      "legenda_reels": "Escala grande ou escala pequena? O instinto engana: olha o denominador. Dica de Geografia que cai em prova. Segue o perfil para mais mapas mentais. #geografia #enem #cartografia #vestibular"
+    },
+    {
+      "de": [6, 4],
+      "ate": [6, 7],
+      "gancho": "Dobrou o lado, a área quadruplicou",
+      "titulo": "A pegadinha da área ao quadrado nas questões de escala",
+      "descricao": "Quem para no 6,25 cai na armadilha: em área, a conta multiplica de novo. A explicação completa com o mapa mental está no canal.",
+      "hashtags": ["#enem", "#matematica", "#escala"],
+      "legenda_reels": "Comprimento multiplica uma vez, área multiplica ao quadrado. Quem esquece cai na pegadinha da escala. Segue o perfil para mais mapas mentais para o Enem. #enem #escala #geografia #vestibular"
+    }
+  ]
+}
