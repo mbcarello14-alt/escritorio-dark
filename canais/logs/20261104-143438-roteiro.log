@@ -1,0 +1,196 @@
+comando: /roteiro canais/vestibular/videos/2026-11-12
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-12 && ls && cat estado.json && cat pautas.json | head -60"}
+🔧 Agent {"description": "Dossiê escala no mapa", "subagent_type": "pesquisador-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12. Leia estado
+💬 O dossiê está sendo montado pelo `pesquisador-vestibular`. Aguardo a conclusão dele antes de passar para o roteiro.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/01-pauta.md"}
+🔧 WebSearch {"query": "questão ENEM escala cartográfica resolvida gabarito distância real mapa", "mode": "extended"}
+🔧 WebSearch {"query": "Cartografia escala questões Unicamp UERJ vestibular escala 1:50.000 resolução", "mode": "standard"}
+🔧 WebSearch {"query": "escala grande e escala pequena cartografia IBGE conceito escala numérica gráfica", "mode": "standard"}
+🔧 WebFetch {"url": "https://vestibulares.estrategia.com/portal/atualidades-e-dicas/7-questoes-sobre-cartografia-que-ja-cairam-nos-vestibulares-e-no-enem/", "prompt": "Liste cada questão: instituição, ano, enunci
+🔧 WebFetch {"url": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=8188", "prompt": "Transcreva o enunciado completo da questão (ENEM 2022), alternativas, gabarito e res
+🔧 WebFetch {"url": "https://www.todamateria.com.br/exercicios-de-escala-cartografica/", "prompt": "Liste as questões com instituição/ano (ENEM, UERJ, Unicamp etc.), escala, dados e gabarito."}
+🔧 WebFetch {"url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv8595_v1.pdf", "prompt": "Encontre a seção sobre escala (numérica, gráfica, escala grande/pequena, erro gráfico). Cite o trecho em paráfra
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/questao-78-caderno-azul-do-enem-2022-d1/", "prompt": "Transcreva o enunciado, alternativas, gabarito e resolução da questão (escala, destroços do avião)."}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2022/primeiro-dia/considerando-se-que-distancia-entre-o-local-onde-os-destrocos-aviao-foram-avistados-e-cidade/", "prompt": "Transcreva o enu
+🔧 WebFetch {"url": "https://www.blogdovestibular.com/questoes/questao-comentada-sobre-escalas-do-enem.html", "prompt": "Qual ano do ENEM, enunciado, alternativas, gabarito, resolução."}
+🔧 WebSearch {"query": "Cartografia no ENEM quantas questões por ano incidência Geografia escala cartografia cai todo ano levantamento", "mode": "standard"}
+🔧 WebSearch {"query": "ENEM 2022 questão MH370 Perth \"2 cm\" distância real km escala aproximada enunciado \"Considerando-se que a distância\"", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.preparaenem.com/enem/cartografia-no-enem.htm", "prompt": "Quais anos do ENEM tiveram questões de escala/cartografia citadas? Detalhes e incidência."}
+🔧 WebFetch {"url": "https://enem.saseducacao.com.br/wp-content/uploads/2023/10/Raio_X_ENEM_2023.pdf", "prompt": "Cartografia: quantas questões, período analisado, total de questões de Geografia, metodologia. Cit
+🔧 WebFetch {"url": "https://www.saseducacao.com.br/sas-no-enem/wp-content/uploads/2023/10/Raio_X_ENEM_2023.pdf", "prompt": "Cartografia: quantas questões, período analisado (anos), total de questões de Geografia
+🔧 WebSearch {"query": "IBGE Educa Jovens escala cartográfica \"escala\" mapas grande pequena detalhes educa.ibge.gov.br", "mode": "standard", "allowed_domains": ["educa.ibge.gov.br", "ibge.gov.br", "biblioteca.ib
+🔧 WebFetch {"url": "https://www.blogdovestibular.com/questoes/questao-comentada-cartografia-escala.html", "prompt": "Qual a instituição/ano, enunciado, alternativas, gabarito e resolução?"}
+🔧 WebFetch {"url": "https://educa.ibge.gov.br/cartografia/21734-escala.html", "prompt": "Parafraseie: definição de escala, tipos (numérica, gráfica), exemplo 1:100.000, grande/pequena escala se houver. Cite trec
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/02-dossie.md", "content": "# Dossiê — Mapeado — quinta 12/11/2026 17h00\n**Tema:** Escala cartográf
+💬 Dossiê salvo em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/02-dossie.md`. Ele tem linha do tempo, 12 fatos com fonte e confiança, números, personagens, controvérsias, ganchos, estrutura sugerida do mapa e material visual. A ideia 3 ficou fraca, e dois pontos da pauta não se confirmaram.
+
+**Recorrência.** A pauta dizia que Cartografia "cai quase todo ano", mas as fontes não sustentam isso.
+- **ENEM:** Cartografia é cerca de 3 a 4% das questões de Geografia (SAS 2023, Estuda.com, Guia FTD 2019–2025). Ninguém publica contagem anual de questões de escala
+🔧 Agent {"description": "Roteiro escala no mapa", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12. Leia estado
+💬 O dossiê ficou pronto e o `roteirista-vestibular` está escrevendo o roteiro. Quando ele terminar, sigo com a checagem, a originalidade e a conferência das chamadas de engajamento e do nicho.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/pautas.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Escala no mapa: a conta de 5 zeros que der
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "old_string": "qual dos cinco ramos foi novidade para você. Eu
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "content": "# Roteiro — Mapeado — quinta 12/11/2026 17h00\n\n**Título provisório:**
+💬 O roteiro de escala cartográfica para quinta, 12/11, está escrito, com o `03-roteiro.md` e o `roteiro.json`. O checador e o guardião de originalidade ainda não rodaram. Contei as palavras por estimativa, sem ferramenta.
+
+**Tamanho:** cerca de 1.760 palavras em 9 blocos, uns 11 min e 40 s. O alvo do briefing é de 8 a 12 min. O bloco 1 tem cerca de 118 palavras e os outros ficam entre 165 e 230.
+
+**Como o vídeo anda:** abre com a questão da Unicamp 2013 em aberto (cidade de 4,5 km numa escala de 1:50.000). Depois vem a história do bairro desenhado no caderno e os cinco ramos, cada um anunciado n
+🔧 Agent {"description": "Checar roteiro", "subagent_type": "checador", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12. Cheque cada afirmação de 03-rote
+💬 O roteiro está escrito e o `checador` está conferindo as afirmações. Depois dele vêm o `guardiao-originalidade` e a minha conferência de engajamento e nicho.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json"}
+🔧 WebFetch {"url": "https://www.blogdovestibular.com/questoes/questao-comentada-cartografia-escala.html", "prompt": "Qual é o enunciado exato da questão (ano, banca, cidade com 4,5 km, escala 1:50.000)? Quais as
+🔧 WebFetch {"url": "https://educa.ibge.gov.br/cartografia/21734-escala.html", "prompt": "Como o IBGE define escala? Há o exemplo 1:100.000 com 1 cm = 100.000 cm = 1 km? Cite o texto literal."}
+🔧 WebSearch {"query": "Unicamp 2013 questão cidade 4,5 km escala 1:50.000 centímetros mapa", "mode": "standard"}
+🔧 WebSearch {"query": "educa IBGE escala \"1:100.000\" 1 cm no mapa 100.000 cm no terreno Atlas Geográfico Escolar", "mode": "standard"}
+🔧 WebSearch {"query": "educa.ibge.gov.br escala \"relação entre a medida de um determinado território no papel e a medida real da superfície da Terra\"", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular'
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/04-checagem.md", "content": "# Checagem — Mapeado — quinta 12/11/2026 17h00\n**Roteiro:** Escala no
+💬 **Veredito: CORRIGIR.** Escrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/04-checagem.md`. As contas estão certas e a questão da Unicamp 2013 foi confirmada. O que reprova é só redação.
+
+**O que confere**
+- **Unicamp 2013:** o enunciado é "cidade que tem 4,5 km de extensão entre seus extremos", em escala 1:50.000. As alternativas são 9 cm, 90 cm, 225 mm e 11 mm, e o gabarito é A, 9 cm. A conta bate: 4,5 × 100.000 = 450.000 cm, e 450.000 ÷ 50.000 = 9.
+- **Atalhos de escala:** 0,5 km por cm em 1:50.000, 1 km por cm em 1:100.000 e 10 km por cm em 1:1.0
+🔧 Agent {"description": "Corrigir roteiro (volta 1)", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12. Leia 04
+💬 O checador devolveu o roteiro com `CORRIGIR`: as contas estão certas, mas sete trechos de redação precisam mudar. O `roteirista-vestibular` está aplicando essas correções, que contam como a primeira volta. Em seguida o checador reconfere.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json"}
+💬 Agora verifico o Short de regra de três no histórico.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos'
+💬 O histórico do canal confirma o Short de regra de três (845/844 views, citado em 31/10, 02/11, 03/11 e 04/11), então a frase fica, sem citar views. Aplico as correções.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "lá na superfície da Terra. É assim que o Insti
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "A banca adora colocar nas alternativas o númer
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "No Enem, cartografia é um pedaço pequeno da Ge
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "resposta de poucos centímetros.", "new_string"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "menos de um centímetro. Uma cidade inteira men
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "aqui no canal tem a pegadinha de regra de três
+💬 Agora cabeçalho, títulos dos blocos e notas.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "**Contagem:** cerca de 1.760 palavras em 9 blo
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "## Bloco 1 — Gancho: a cidade no papel (~118 p
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "o que é escala (~185 palavras)", "new_string":
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "numérica e gráfica (~205 palavras)", "new_stri
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "grande ou pequena (~215 palavras)", "new_strin
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "a conta em três passos (~230 palavras)", "new_
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "zeros e área ao quadrado (~225 palavras)", "ne
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "o mapa completo (~195 palavras)", "new_string"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "dois mil e treze (~225 palavras)", "new_string
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "próximo mapa (~165 palavras)", "new_string": "
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "- **Incidência (bloco 7):** \"entre três e qua
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "- **Rodapé no bloco 9:** a \"pegadinha de regr
+💬 Agora a lista de mudanças no fim do roteiro.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "old_string": "Dá para abrir o quinto ramo com a sua história
+💬 Agora o roteiro.json.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "old_string": "lá na superfície da Terra. É assim que o Instit
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "old_string": "A banca adora colocar nas alternativas o número
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "old_string": "No Enem, cartografia é um pedaço pequeno da Geo
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "old_string": "resposta de poucos centímetros.", "new_string":
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "old_string": "menos de um centímetro. Uma cidade inteira meno
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "old_string": "aqui no canal tem a pegadinha de regra de três,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "old_string": "  \"resumo_checagem\": \"Pendente: o checador a
+💬 Corrigi as sete coisas que a checagem pediu, e também os itens 8 e 9. Os textos lidos no `03-roteiro.md` e no `roteiro.json` estão iguais. Uma ressalva: não consegui rodar o `wc -w`, porque aqui eu só tenho ferramentas de ler e editar arquivos. Contei as palavras uma a uma, com o mesmo critério do `wc -w`. Vale rodar o `wc -w` de verdade para confirmar.
+
+1. **Bloco 2:** tirei a menção ao IBGE e ao Atlas Geográfico Escolar. Ficou "Um exemplo que eu quero que você desenhe junto comigo."
+2. **Bloco 7, frequência no Enem:** agora diz "um pedaço pequeno da prova de Geografia. Levantamentos de cursi
+🔧 Agent {"description": "Rechecar roteiro", "subagent_type": "checador", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12. O roteirista aplicou as correç
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/02-dossie.md"}
+🔧 Agent {"description": "Checar originalidade", "subagent_type": "guardiao-originalidade", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12. Avalie 03-ro
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md"}
+💬 A segunda checagem e a de originalidade rodam em paralelo. O semáforo verde que o roteirista pôs no `roteiro.json` não vale até o checador confirmar, então vou esperar os dois resultados antes de fechar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json"}
+🔧 WebSearch {"query": "YouTube inauthentic content policy monetization repetitive mass-produced 2025", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/04-checagem.md", "content": "# Checagem final — Mapeado — quinta 12/11/2026 17h00\n**Roteiro:** Esc
+💬 **Veredito: APROVADO.** Reescrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/04-checagem.md`.
+
+- **Itens da checagem anterior:** os 8 foram resolvidos. O `03-roteiro.md` e o `roteiro.json` têm os mesmos textos.
+- **Short de regra de três (bloco 9):** o `canais/vestibular/historico.md` confirma que ele existe, em 31/10, 02/11, 03/11 e 04/11. O texto não cita título nem views, o que está certo.
+- **Afirmações novas:** não surgiu nenhuma sem base. Todas as contas que reconferi estão certas, e a questão da Unicamp 2013 já estava confirmada na checagem an
+💬 Checagem aprovada. Aguardo o guardião de originalidade.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/05-originalidade.md", "content": "# Originalidade — Mapeado — quinta 12/11/2026 17h00\n**Roteiro:**
+💬 **Semáforo: 🟡 ajustar.** Escrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/05-originalidade.md`.
+
+O conteúdo está correto e sem material de terceiros. O risco é de canal: o roteiro tem cara de molde e falta a voz do Miguel.
+
+**Notas**
+- **Variação, 6/10:** o `historico.md` não tem nenhum vídeo registrado, então não deu para comparar com os 5 últimos. A estrutura (gancho com questão aberta, 5 ramos, revisão, questão real, fechamento) é uma fórmula de série. Se os próximos vídeos repetirem o esqueleto, vira template.
+- **Valor próprio, 7/10:** a regra
+🔧 Agent {"description": "Ajustar originalidade (1 volta)", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12. Le
+💬 O guardião deu 🟡. O risco é o roteiro parecer molde e faltar a voz do Miguel. O `roteirista-vestibular` está aplicando a volta única de ajuste de originalidade. Depois confiro engajamento e nicho, valido o `roteiro.json` e atualizo o título no `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/05-originalidade.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Escala no mapa: a conta de 5 zeros que der
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/03-roteiro.md", "content": "# Roteiro — Mapeado — quinta 12/11/2026 17h00\n\n**Título provisório:**
+💬 Fiz as mudanças de originalidade no `03-roteiro.md` e no `roteiro.json`, sem fatos novos. Não criei `producao.json`. Contei as palavras à mão, porque não tenho como rodar comandos aqui: deu 1.755 palavras, cerca de 11 min e 42 s, dentro do alvo de 8 a 12 min.
+
+**Frases trocadas**
+- **Bloco 1:** a chamada de slogan virou "Se essa aula te ajuda a revisar, se inscreve no Mapeado e deixa o like." "Parece Geografia, mas é conta." agora aparece só aqui.
+- **Bloco 3:** "A banca gosta de dar a reguinha e pedir a fração" virou "Uma questão clássica dá a reguinha e pede a fração."
+- **Bloco 5:** saiu "É
+💬 Agora confiro eu mesmo as chamadas, o nicho e o JSON.
+🔧 Bash {"command": "python3 -I - <<'E'\nimport json\nd=json.load(open('roteiro.json'))\nprint(d['titulo_provisorio'],d['semaforo'],d['pergunta_para_miguel'],sep='\\n')\nprint(d['resumo_checagem'],d['resumo_o
+🔧 Bash {"command": "python3 -I - <<'E'\nimport json\ne=json.load(open('estado.json'));r=json.load(open('roteiro.json'))\ne['titulo']=r['titulo_provisorio']\njson.dump(e,open('estado.json','w'),ensure_ascii=F
+💬 O roteiro de **"Escala no mapa: a conta de 5 zeros que derruba no vestibular"** está pronto em `03-roteiro.md` e `roteiro.json`. O `estado.json` agora tem o `titulo`. O semáforo ficou 🟡: o texto está correto, mas falta a voz do Miguel. Não rodei `python -m pipeline.validar`, porque não há `producao.json` ainda.
+
+- **Pauta:** usei a ideia 3 (escala cartográfica). A `nota_miguel` veio vazia.
+- **Estrutura:** 9 blocos, cerca de 1.756 palavras (uns 11 min e 40 s). O vídeo abre com a questão da Unicamp 2013 e passa por cinco ramos: o que é escala, numérica e gráfica, escala grande e pequena, a cont
+
+=== resultado: success | turnos 3 | 5s | erro=False
+O dossiê está sendo montado pelo `pesquisador-vestibular`. Aguardo a conclusão dele antes de passar para o roteiro.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O dossiê ficou pronto e o `roteirista-vestibular` está escrevendo o roteiro. Quando ele terminar, sigo com a checagem, a originalidade e a conferência das chamadas de engajamento e do nicho.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+O roteiro está escrito e o `checador` está conferindo as afirmações. Depois dele vêm o `guardiao-originalidade` e a minha conferência de engajamento e nicho.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+O checador devolveu o roteiro com `CORRIGIR`: as contas estão certas, mas sete trechos de redação precisam mudar. O `roteirista-vestibular` está aplicando essas correções, que contam como a primeira volta. Em seguida o checador reconfere.
+
+=== resultado: success | turnos 3 | 5s | erro=False
+A segunda checagem e a de originalidade rodam em paralelo. O semáforo verde que o roteirista pôs no `roteiro.json` não vale até o checador confirmar, então vou esperar os dois resultados antes de fechar.
+
+=== resultado: success | turnos 1 | 0s | erro=False
+Checagem aprovada. Aguardo o guardião de originalidade.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O guardião deu 🟡. O risco é o roteiro parecer molde e faltar a voz do Miguel. O `roteirista-vestibular` está aplicando a volta única de ajuste de originalidade. Depois confiro engajamento e nicho, valido o `roteiro.json` e atualizo o título no `estado.json`.
+
+=== resultado: success | turnos 3 | 11s | erro=False
+O roteiro de **"Escala no mapa: a conta de 5 zeros que derruba no vestibular"** está pronto em `03-roteiro.md` e `roteiro.json`. O `estado.json` agora tem o `titulo`. O semáforo ficou 🟡: o texto está correto, mas falta a voz do Miguel. Não rodei `python -m pipeline.validar`, porque não há `producao.json` ainda.
+
+- **Pauta:** usei a ideia 3 (escala cartográfica). A `nota_miguel` veio vazia.
+- **Estrutura:** 9 blocos, cerca de 1.756 palavras (uns 11 min e 40 s). O vídeo abre com a questão da Unicamp 2013 e passa por cinco ramos: o que é escala, numérica e gráfica, escala grande e pequena, a conta em três passos e as pegadinhas. Depois vêm a revisão do mapa e a questão da Unicamp resolvida.
+- **Checagem:** a primeira rodada deu `CORRIGIR`. As contas estavam certas e só a redação precisou mudar. A segunda rodada aprovou.
+- **Originalidade:** deu 🟡 e apliquei a única volta permitida. Troquei as frases de molde e o teste "faz sentido?" virou o fio do vídeo.
+- **Engajamento:** conferi no `roteiro.json`. Inscrição e like estão no bloco 1. Pergunta para os comentários e like no bloco 4, por volta de 4 min 25 s. Inscrição, like e comentário no bloco 9.
+- **Nicho:** o texto fala só de escala como conta para prova, sem sair do Mapeado.
+
+**Pontos de atenção para o Miguel**
+- **Pergunta para ele:** "Na sua época de vestibular, qual pegadinha de escala te pegou?" A resposta entraria antes do quinto ramo, e o `03-roteiro.md` marca o lugar. Se ela entrar, o texto passa do alvo de 12 min. A sugestão é cortar uma frase do bloco 7.
+- **Demanda:** o pesquisador não achou dado de demanda no YouTube, e Cartografia pesa só cerca de 3 a 4% da Geografia no ENEM, segundo cursinhos. O 1º dia do ENEM (8/11) já terá passado em 12/11. Ele deixou como alternativa a ideia 1 (estequiometria), que tem mais peso na prova de Natureza de 15/11.
+- **Contagem de palavras:** a minha conferência deu 1.756 e a do roteirista 1.755. A duração em minutos é estimativa.
+- **Produção:** não usar prints de enunciados ou mapas prontos de terceiros.
+codigo de saida: 0
