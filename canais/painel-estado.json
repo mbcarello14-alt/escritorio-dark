@@ -1,21 +1,11 @@
 {
-  "atualizado_em": "2026-11-04T16:31:07Z",
+  "atualizado_em": "2026-11-04T17:11:09Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
     ],
     "narrador": [
-      "Mapeado: Escala no mapa: a conta de 5 zeros que derruba no vestibular",
       "Longo Ouro & Império: roma antiga"
-    ],
-    "ilustrador": [
-      "Mapeado: Escala no mapa: a conta de 5 zeros que derruba no vestibular"
-    ],
-    "editor": [
-      "Mapeado: Escala no mapa: a conta de 5 zeros que derruba no vestibular"
-    ],
-    "clipador": [
-      "Mapeado: Escala no mapa: a conta de 5 zeros que derruba no vestibular"
     ]
   },
   "proximos": [
@@ -64,10 +54,10 @@
       "dia": "2026-11-12",
       "rotulo": "quinta 12/11 17h00",
       "publicar_em_utc": "2026-11-12T20:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Escala no mapa: a conta de 5 zeros que derruba no vestibular",
-      "url": ""
+      "url": "https://youtu.be/6chkYedaq1E"
     }
   ],
   "publicados": [
@@ -156,8 +146,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 1,
+    "neurons": 55,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
