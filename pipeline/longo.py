@@ -197,14 +197,16 @@ def narrar(pasta: Path, cfg: dict) -> bool:
         try:
             sintetizar(texto, voz, lon["tom"], wav, tentativas=10)
         except Exception as e:
-            log.warning("narração parou (%s) — continua na próxima rodada; faltam %d partes", e, len(pendentes))
+            log.warning("narração parou (%s) — continua na próxima rodada; faltam %d partes", e,
+                        sum(1 for c, _ in pendentes if c not in feito))
             return False
         _limpar_cabeca(wav, texto, cfg)
         mp3 = m / "voz" / f"{chave}.mp3"
         rodar(["ffmpeg", "-y", "-v", "error", "-i", str(wav), "-ac", "1", "-ar", "44100", "-b:a", "80k", str(mp3)])
         feito[chave] = round(duracao_audio(mp3), 3)
         manifesto.write_text(json.dumps(feito, indent=1))
-        log.info("narrada %s (%.0fs) — %d de %d", chave, feito[chave], len(feito), len(feito) + len(pendentes) - 1)
+        total = len(feito) + sum(1 for c, _ in pendentes if c not in feito)
+        log.info("narrada %s (%.0fs) — %d de %d", chave, feito[chave], len(feito), total)
         pendentes_restantes = [p for p in pendentes if p[0] not in feito]
         if pendentes_restantes:
             time.sleep(22)
