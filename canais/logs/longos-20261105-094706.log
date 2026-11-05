@@ -1,0 +1,47 @@
+09:47:35 INFO Processing audio with duration 00:40.000
+[0;93m2026-11-05 09:47:35.818483749 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+09:47:35 INFO VAD filter removed 00:00.000 of audio
+09:47:51 INFO narrada b09_p04 (116s) — 41 de 65
+09:48:41 INFO Processing audio with duration 00:40.000
+09:48:42 INFO VAD filter removed 00:00.000 of audio
+09:48:57 INFO narrada b10_p01 (134s) — 42 de 66
+09:49:45 INFO Processing audio with duration 00:40.000
+09:49:45 INFO VAD filter removed 00:00.000 of audio
+09:50:01 INFO narrada b10_p02 (115s) — 43 de 67
+09:50:54 INFO Processing audio with duration 00:40.000
+09:50:54 INFO VAD filter removed 00:00.000 of audio
+09:51:10 INFO narrada b10_p03 (120s) — 44 de 68
+09:52:01 INFO Processing audio with duration 00:40.000
+09:52:01 INFO VAD filter removed 00:00.000 of audio
+09:52:17 INFO narrada b10_p04 (124s) — 45 de 69
+09:53:07 INFO Processing audio with duration 00:40.000
+09:53:07 INFO VAD filter removed 00:00.000 of audio
+09:53:23 INFO narrada b11_p01 (131s) — 46 de 70
+09:54:12 INFO Processing audio with duration 00:40.000
+09:54:12 INFO VAD filter removed 00:00.000 of audio
+09:54:29 INFO narrada b11_p02 (119s) — 47 de 71
+09:55:21 INFO Processing audio with duration 00:40.000
+09:55:21 INFO VAD filter removed 00:00.000 of audio
+09:55:36 INFO narrada b11_p03 (134s) — 48 de 72
+09:56:20 INFO Processing audio with duration 00:40.000
+09:56:20 INFO VAD filter removed 00:00.000 of audio
+09:56:35 INFO narrada b11_p04 (89s) — 49 de 73
+09:57:26 INFO Processing audio with duration 00:40.000
+09:57:26 INFO VAD filter removed 00:00.016 of audio
+09:57:41 INFO narrada b12_p01 (136s) — 50 de 74
+09:58:31 INFO Processing audio with duration 00:40.000
+09:58:31 INFO VAD filter removed 00:00.000 of audio
+09:58:47 INFO narrada b12_p02 (132s) — 51 de 75
+09:59:39 INFO Processing audio with duration 00:40.000
+09:59:39 INFO VAD filter removed 00:00.000 of audio
+09:59:55 INFO narrada b12_p03 (142s) — 52 de 76
+10:00:17 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+10:00:57 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+10:01:42 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+10:03:15 WARNING Gemini TTS devolveu resposta sem áudio (gemini-2.5-flash-preview-tts, OTHER) — tentando de novo
+10:04:48 WARNING Gemini TTS devolveu resposta sem áudio (gemini-2.5-flash-preview-tts, OTHER) — tentando de novo
+10:05:37 INFO Processing audio with duration 00:40.000
+10:05:37 INFO VAD filter removed 00:00.000 of audio
+10:05:54 INFO narrada b12_p04 (98s) — 53 de 77
+10:11:16 WARNING narração parou (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=300)) — continua na próxima rodada; faltam 25 partes
+narrando
