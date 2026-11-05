@@ -21,3 +21,4 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-04
 - Short e depois longo comparando outro instrumento financeiro antigo com algo de hoje (letra de câmbio como cheque, seguro marítimo como seguro de carro), no molde do Pix medieval; checar fontes antes.
+- Série de Shorts e longos que explicam instrumentos financeiros antigos por equivalentes de hoje (Pix medieval, letra de câmbio, seguro marítimo), molde do Short de 1.257 views; checar fontes antes.
