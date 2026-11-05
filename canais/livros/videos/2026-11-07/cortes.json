@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 3],
+      "gancho": "Um julgamento onde só o réu... acusa?",
+      "titulo": "Dom Casmurro: o julgamento em que só o marido fala",
+      "descricao": "Em Dom Casmurro, o acusador é também a testemunha, o escrivão e o juiz. A análise completa das provas contra Capitu está no canal.",
+      "hashtags": ["#domcasmurro", "#machadodeassis", "#livros"],
+      "legenda_reels": "Em Dom Casmurro, quem acusa Capitu é o próprio marido, que também é testemunha e juiz. Será que dá para confiar nesse processo? Segue o perfil para mais livros explicados com opinião. #domcasmurro #machadodeassis #livros #capitu"
+    },
+    {
+      "de": [5, 4], "ate": [5, 7],
+      "gancho": "A prova da semelhança vale alguma coisa?",
+      "titulo": "Ezequiel parecia com Escobar? O que o livro realmente mostra",
+      "descricao": "A semelhança, a fotografia e as expressões que fariam qualquer defesa sorrir. As cinco provas contra Capitu estão no vídeo completo do Marca-Página.",
+      "hashtags": ["#domcasmurro", "#capitu", "#literatura"],
+      "legenda_reels": "Ezequiel parecia com Escobar, ou só imitava todo mundo? Duas das cinco provas contra Capitu, examinadas com calma. Segue o perfil para mais resenhas com crítica. #domcasmurro #capitu #literatura #livros"
+    },
+    {
+      "de": [6, 4], "ate": [6, 6],
+      "gancho": "A prova que anda em círculo",
+      "titulo": "A prova final contra Capitu é um argumento circular",
+      "descricao": "A fruta dentro da casca: a infância prova o adulto e o adulto prova a infância. O julgamento completo de Dom Casmurro está no canal.",
+      "hashtags": ["#domcasmurro", "#machadodeassis", "#capitu"],
+      "legenda_reels": "A quinta prova contra Capitu: a criança já trazia a adulta dentro, feito fruta na casca. Só que o argumento anda em círculo. Segue o perfil para mais livros explicados. #domcasmurro #machadodeassis #capitu #livros"
+    }
+  ]
+}
