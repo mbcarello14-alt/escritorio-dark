@@ -2,11 +2,12 @@
   "canal": "historia",
   "tema": "roma antiga",
   "formato": "dormir",
-  "etapa": "aguardando_aprovacao_longo",
+  "etapa": "agendado",
   "ajustes": [],
   "blocos_total": 15,
   "criado_em": "2026-11-02",
-  "atualizado_em": "2026-11-05T20:33:48+00:00",
+  "atualizado_em": "2026-11-05T20:50:43+00:00",
   "duracao_s": 8855.0,
-  "url": "https://youtu.be/vWqLO3pPHFA"
+  "url": "https://youtu.be/vWqLO3pPHFA",
+  "publicar_em_utc": "2026-11-09T00:00:00Z"
 }
