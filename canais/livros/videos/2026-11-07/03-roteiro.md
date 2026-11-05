@@ -1,0 +1,87 @@
+# Roteiro — Dom Casmurro: Capitu traiu? O livro não prova nada
+
+**Canal:** Marca-Página · **Publicação:** sábado 07/11/2026, 11h · **Pauta:** nº 2 · **Nota do Miguel:** nenhuma
+**Versão:** 3 (checagem, volta 1, + originalidade 🟡)
+
+**Tese (1 frase):** Dom Casmurro é um julgamento em que o acusador é também o narrador, e por isso a pergunta "Capitu traiu?" não tem resposta no livro; o que o livro prova é a obsessão de Bento por um veredito.
+
+**Estrutura (livro como tribunal):** gancho do julgamento → ficha e aviso de spoiler → quem narra (sem spoiler) → enredo com spoiler → as cinco "provas" da acusação, uma a uma → quem reabriu o caso e qual leitura convence mais o canal → o que acerta → o que envelheceu → para quem serve.
+
+**Contagem:** cerca de 2.200 palavras.
+**Duração estimada:** cerca de 14 min 40 s a 150 palavras por minuto (alvo do briefing: 10 a 15 min).
+**Spoilers:** começam no bloco 4, por volta de 3 min 50 s. O texto diz "lá pelo minuto quatro" e repete o aviso no início do bloco 4.
+**Chamadas:** bloco 1 (inscrição + like), bloco 6 (pergunta para os comentários + like, perto da metade), bloco 10 (inscrição + like + comentário, retomando a pergunta do bloco 6, antes do gancho final).
+**Espaço para o Miguel:** no fim do bloco 6, depois de "É por que Bento precisa tanto de um veredito." e antes de "Agora quem senta na cadeira de jurado é você." Ali entra o veredito dele, se ele responder a `pergunta_para_miguel`.
+
+---
+
+## Bloco 1 — O julgamento (gancho + promessa) · ~119 palavras · CHAMADA 1
+
+Imagine um julgamento em que só o marido fala. Ele é o promotor, a testemunha, o escrivão e o juiz. A ré só fala quando ele conta o que ela disse. No fim, ele bate o martelo: culpada. E, por décadas, muita gente saiu desse tribunal concordando com ele. O processo se chama Dom Casmurro, de Machado de Assis. Hoje a gente vai abrir os autos, olhar cada prova que o Bentinho apresenta contra a Capitu e ver o que ela demonstra de verdade. Adiantando: menos do que ele acha. Se você gosta de livro explicado com opinião e sem cara de aula, se inscreve e deixa o like, que isso ajuda o Marca-Página a chegar em mais leitores.
+
+## Bloco 2 — A ficha do processo · ~213 palavras
+
+Primeiro, a ficha do livro. Dom Casmurro saiu pela Livraria Garnier, no Rio de Janeiro, e já começa com uma pequena confusão de datas. A folha de rosto da primeira edição traz mil oitocentos e noventa e nove. Mas, segundo uma reportagem do Brasil de Fato, o livro só chegou às livrarias em quatorze de março de mil e novecentos. Por isso você encontra as duas datas por aí, e nenhuma está propriamente errada. A primeira tiragem foi de dois mil exemplares, esgotou logo, e uma segunda edição saiu no mesmo ano. Machado não publicou esse romance aos pedaços em jornal, como tinha feito com Memórias Póstumas de Brás Cubas e com Quincas Borba. Escreveu direto para o livro. São cento e quarenta e oito capítulos, quase todos curtinhos, e alguns títulos já são uma piada sozinhos. Se você quer uma edição para acompanhar, a da Penguin-Companhia, selo da Companhia das Letras, tem quatrocentas páginas, porque vem com introdução e notas. Existem edições bem mais enxutas, e o número de páginas muda muito de uma para outra. O texto original é de domínio público, então dá para ler de graça. Agora, o aviso: é ficção, e eu vou contar o final. Os spoilers começam lá pelo minuto quatro, e eu aviso de novo na hora.
+
+## Bloco 3 — Quem segura a caneta (sem spoiler) · ~250 palavras
+
+Quem conta a história é Bento Santiago, um advogado carioca já na casa dos cinquenta. O apelido Dom Casmurro, ele explica logo no primeiro capítulo, veio de um rapaz do bairro que recitou versos para ele no trem. Bento cochilou, o rapaz se ofendeu, e pronto. O narrador abre o livro contando isso e achando graça de ter ganhado um apelido por causa de um cochilo. Guarde esse tom: é um narrador que sabe ser simpático. Bento mora sozinho no Engenho Novo, numa casa que mandou construir como cópia da casa da infância, em Matacavalos. E diz que escreve para atar as duas pontas da vida, juntar o menino e o velho. Só que ele mesmo admite que a reconstrução falhou. A casa ficou igual. Ele, não. O passado que ele vai contar é desse tipo: uma maquete bem-feita, com o dono morando dentro. A primeira metade do livro é a juventude. A mãe, Dona Glória, prometeu a Deus que o filho seria padre. Ali do lado mora Capitu, a vizinha pobre, esperta, que pensa mais rápido do que todo mundo na sala. Quem dispara a trama é José Dias, o agregado da casa, um homem que vive de favor e de superlativos. É ele quem avisa a mãe que os dois andam juntos demais. A partir daí, Capitu e Bentinho viram dois pequenos conspiradores tentando livrar o menino do seminário. E quem tem as ideias é ela.
+
+## Bloco 4 — Agora é spoiler: o que acontece · ~280 palavras
+
+Agora é spoiler. Se você não leu e quer a surpresa, pausa aqui, lê o livro e depois volta. No seminário, Bentinho ganha um melhor amigo, Escobar. Consegue escapar da batina, estuda Direito e casa com Capitu. Escobar casa com Sancha, amiga dela, e os dois casais vivem grudados. Nasce Ezequiel, o filho de Bento e Capitu. Até aqui, parece romance com final feliz. Aí Escobar morre afogado, nadando no mar. No velório, Bento vê Capitu olhando o corpo do amigo, e o capítulo se chama Olhos de ressaca. É o mesmo título de um capítulo lá da juventude, quando ele descreve o olhar dela pela primeira vez. E quem escolhe os títulos é o próprio Bento. Ele passa a enxergar Escobar no rosto e nos gestos do filho. Vai ao teatro, assiste a Otelo, a peça de Shakespeare em que um marido ciumento mata a esposa inocente, e sai de lá achando que a peça lhe dá razão. Ele compra veneno e planeja dissolvê-lo no café para se matar. Então o filho entra correndo, e Bento, num segundo impulso, quase dá a xícara ao menino. Para na hora. É uma das cenas mais tensas do livro. Logo depois, Bento diz ao menino que não é pai dele, e Capitu propõe a separação. Ele leva mulher e filho para a Europa, deixa os dois na Suíça, volta sozinho e finge para todo mundo que continua convivendo com eles. Anos mais tarde, Ezequiel reaparece adulto, a cara de Escobar, e morre de febre tifoide depois de uma viagem. Fim do enredo. Começa o processo.
+
+## Bloco 5 — As provas da acusação, parte um · ~220 palavras
+
+Se Dom Casmurro fosse um processo, a acusação teria cinco provas. Vamos a elas, com a calma de quem não é parente de ninguém. Prova número um: o olhar. Capitu tem olhos de ressaca, que puxam a pessoa como a maré, e no velório esse olhar estaria preso ao morto. Só que olhar é impressão. Quem viu, quem interpretou e quem batizou o capítulo foi a mesma pessoa. E a explicação mais simples, uma mulher chorando o melhor amigo da família, nem é chamada para depor. Prova número dois: a semelhança. Ezequiel teria o jeito de Escobar, os gestos, a cara. Mas o próprio livro mostra o menino como um imitador de mão cheia, que copia gente da casa, inclusive o José Dias. Se a criança imita todo mundo, imitar também o amigo do pai prova o quê, exatamente? Que crianças imitam. E semelhança de rosto, num livro em que só um homem descreve rostos, é a palavra dele contra a de ninguém. Prova número três: a fotografia. Bento olha o retrato de Escobar e descreve um olhar trocado que, segundo ele, quase confessa tudo. Quase. Segundo ele. Duas expressões que, num tribunal de verdade, fariam qualquer advogado da defesa sorrir.
+
+## Bloco 6 — As provas da acusação, parte dois (e o júri) · ~275 palavras · CHAMADA 2
+
+Prova número quatro, e talvez a mais reveladora: Otelo. Bento sai do teatro convencido de que Shakespeare escreveu sobre ele. Só que a escolha tem um problema sério. Em Otelo, a esposa é inocente. O marido é que se perde no ciúme, empurrado por um vilão que sussurra no ouvido dele. Bento escolhe como espelho justamente a história do homem que matou por engano. E, como defendeu a pesquisadora Helen Caldwell, de quem eu já vou falar, no livro dele não tem vilão sussurrando: o sussurro vem de dentro. Prova número cinco, a cartada final, está no último capítulo. Bento conclui que a Capitu menina já trazia dentro dela a Capitu adulta, feito fruta dentro da casca. Então a infância prova o adulto, e o adulto prova a infância. É um argumento que anda em círculo e volta exatamente para onde saiu. A imagem é boa, mas não prova nada. Somando tudo: cinco provas, nenhuma testemunha independente e um acusador que é, ao mesmo tempo, o marido ferido, o narrador e o dono da caneta. Por isso o título deste vídeo não é provocação. O livro não prova que Capitu traiu. Também não prova que ela não traiu. E, para o canal, a pergunta mais interessante nem é essa. É por que Bento precisa tanto de um veredito. Agora quem senta na cadeira de jurado é você. Com essas cinco provas na mesa, você condenava, absolvia ou pedia mais investigação? Me conta nos comentários e, se o julgamento está valendo a pena, deixa o like.
+
+## Bloco 7 — Quem reabriu o caso · ~225 palavras
+
+E essa defesa não foi inventada aqui. Por décadas, o livro foi lido do jeito que Bento queria: Capitu culpada, caso encerrado. Quem reabriu o processo foi a Helen Caldwell, que traduziu Dom Casmurro para o inglês em mil novecentos e cinquenta e três. Em mil novecentos e sessenta, ela publicou O Otelo Brasileiro de Machado de Assis, defendendo que a suspeita nunca é provada e que quem está no banco dos réus é o narrador. Esse livro só ganhou edição em português bem mais tarde, pela Ateliê Editorial. Depois vieram outros. Silviano Santiago separou o menino Bento do velho Dom Casmurro que escreve: o narrador quer parecer convincente, o que é diferente de ser verdadeiro. John Gledson, em Machado de Assis: Impostura e Realismo, sugere outra versão dos fatos por baixo do relato, com um Bento até sinistro. E Roberto Schwarz, no livro Duas meninas, de mil novecentos e noventa e sete, discute o romance pelo lado da posse e da classe social. Das quatro, a leitura que o canal acha mais convincente é a de Caldwell, porque é a que pede menos fé. Dá para conferir com o livro na mão, prova por prova, como a gente acabou de fazer. A de Gledson é mais ousada, e por isso mesmo pede que o leitor aceite um Bento que o texto só insinua.
+
+## Bloco 8 — O que o livro acerta (opinião do canal) · ~215 palavras
+
+Agora, a crítica, e daqui em diante é opinião do canal. O que Dom Casmurro acerta, e acerta muito, é o narrador que se entrega sem perceber. Machado deixa todas as ferramentas da dúvida em cima da mesa. Tem o narrador que, num capítulo do começo, muda de ideia no meio da própria frase. Tem a casa que é maquete. Tem os títulos de capítulo usados para amarrar o que ele quer amarrar. O livro inteiro é um homem tentando convencer, e deixando à mostra cada costura do convencimento. O segundo acerto é mostrar o ciúme como poder. O ciúme de Bento não é só dor de cotovelo. É o ciúme de quem tem dinheiro, sobrenome e a última palavra, e por isso consegue mandar mulher e filho para outro continente e contar a versão que quiser. O terceiro acerto é o humor. Os capítulos são curtos, os títulos são irônicos, e o José Dias é uma comédia à parte. O homem vive de superlativos, e a última palavra dele no livro é, claro, lindíssimo. Machado faz um livro sobre ciúme, morte e abandono que, em várias páginas, faz a gente rir. E a conversa segue viva: ainda saem artigos acadêmicos lendo a Capitu de jeitos novos.
+
+## Bloco 9 — O que envelheceu (opinião do canal) · ~220 palavras
+
+E o que envelheceu? De novo, aqui é leitura do canal, não de um crítico. Primeiro, a distância. O livro é cheio de latim, ópera, referências do Império e humor de salão. Muita piada que fazia o leitor da época sorrir hoje passa batido sem nota de rodapé. Não é defeito do livro, mas é uma barreira real para quem chega sem guia. Segundo, o ritmo do fim. Depois da separação, o livro entra numa sequência de capítulos de despedida e balanço, e quem esperava um último golpe pode sentir a energia cair. Faz sentido como escolha, um homem fazendo as contas de uma vida esvaziada, mas é o trecho em que o livro mais pede paciência. Terceiro, e mais interessante: a Capitu dissimulada. Os olhos de cigana oblíqua e dissimulada viraram uma das frases mais citadas do livro. Só que, no capítulo vinte e cinco, quem diz isso é o José Dias, o mesmo agregado que começou a fofoca, e o Bento depois repete como se fosse dele. Para o canal, nesse ponto o livro não envelheceu nada. Quem envelheceu foi o jeito de ler que aceitava o adjetivo como fato.
+
+## Bloco 10 — Para quem serve e próximo processo · ~225 palavras · CHAMADA 3
+
+Para quem serve? Para quem gosta de narrador suspeito, de romance curto em capítulos e de discutir leitura com os amigos depois. Para quem quer entender por que um livro de mais de cem anos ainda rende briga em mesa de bar. E para quem precisa dele para prova: a lista de leituras da Fuvest para o vestibular de dois mil e vinte e nove inclui Dom Casmurro. Para quem não serve? Para quem quer ação, e para quem quer uma resposta fechada no fim. Se você precisa saber se Capitu traiu, este livro vai te deixar irritado, e de propósito. Numa primeira leitura, uma edição com notas ajuda bastante, por causa de todas aquelas referências de época. Aqui no Marca-Página a ideia é sempre separar o que um livro tem de bom do que ele erra. Dom Casmurro erra pouco. Só não deixa ninguém sair do tribunal com a sentença na mão. Se esta audiência te convenceu de alguma coisa, nem que seja de que não dá para condenar ninguém, se inscreve, deixa o like e volta lá nos comentários com o seu veredito: condena, absolve ou pede mais provas? E se você curte clássico que todo mundo acha que conhece, tem um Short aqui no canal sobre Frankenstein e o nome que quase ninguém acerta. Até o próximo livro.
+
+---
+
+## Notas para a produção e o Miguel
+
+- **Veredito do Miguel:** não inventei nenhum. O bloco 6 tem só uma posição curta e neutra do canal ("a pergunta mais interessante é por que Bento precisa tanto de um veredito"), que ele pode completar. A `pergunta_para_miguel` continua no `roteiro.json`.
+- **Fuvest 2029, pendência bloqueante:** a frase do bloco 10 se apoia em fonte secundária (Estratégia Vestibulares, Vestibulando Web). **Antes do áudio**, alguém confere a lista no site oficial da Fuvest. Se ela não aparecer, corte a frase "E para quem precisa dele para prova... inclui Dom Casmurro."
+- **Short de Frankenstein:** o `historico.md` registra 431 views em 9 horas em 29/10, o que indica que ele foi publicado. Se a produção não achar o Short no canal, corte a penúltima frase do bloco 10.
+- **Cena do café:** o veneno era para o próprio Bento (caps. CXXXVI e CXXXVII). Os itens 3.2 e 12.2 do dossiê estão errados nesse ponto. Thumbnail, Shorts e descrição não devem repetir o erro nem usar a cena como gancho sensacionalista.
+- **Visual (guardião):** só ilustrações próprias. Nada de imagens, capas ou atores da microssérie Capitu (2008) nem do filme Dom (2003).
+- **Críticos:** nenhuma frase entre aspas atribuída a eles. A preferência por Caldwell no bloco 7 é opinião declarada do canal e não traz fato novo.
+
+## O que mudou
+
+### Versão 2 (checagem, volta 1)
+1. Bloco 4: café corrigido (veneno para o próprio Bento; no segundo impulso ele quase dá a xícara ao filho).
+2. Bloco 3: idade virou "já na casa dos cinquenta"; cena do trem corrigida.
+3. Bloco 6: o "sem vilão sussurrando" passou a ser atribuído a Caldwell.
+4. Bloco 7: Ateliê sem ano; Gledson com "até sinistro"; Schwarz reduzido a posse e classe.
+5. Bloco 9: frase dos olhos de cigana ficou com José Dias, no capítulo vinte e cinco, e virou "uma das frases mais citadas".
+6. Bloco 10: Fuvest 2029 atribuída à lista.
+7. Todas as marcações de fonte e notas saíram do texto dos blocos.
+
+### Versão 3 (originalidade 🟡)
+1. Bloco 6: "essa é a minha favorita" virou "e talvez a mais reveladora". "Mas repara no tamanho do tropeço" virou "Só que a escolha tem um problema sério". "Bonito como imagem. Como prova, não para em pé." virou "A imagem é boa, mas não prova nada." "Resumo dos autos" virou "Somando tudo". Entrou uma posição neutra do canal antes da pergunta para os comentários, sem veredito inventado.
+2. Bloco 3: "Primeiro sinal de que esse narrador não entrega o passado. Entrega uma maquete." virou "O passado que ele vai contar é desse tipo: uma maquete bem-feita, com o dono morando dentro." "E repara quem tem as ideias. É ela." virou "E quem tem as ideias é ela."
+3. Bloco 4: "Repara nisso: quem escolhe os títulos é ele." virou "E quem escolhe os títulos é o próprio Bento." Não sobrou nenhum "repara" no roteiro.
+4. Bloco 7: ficou mais enxuto, com menos detalhe de edição. Ganhou um ponto de vista do canal: Caldwell é a leitura mais convincente porque pede menos fé e dá para conferir no livro, e Gledson é mais ousado. Saiu "Resumindo do meu jeito...".
+5. Bloco 9: "foi o trecho em que eu mais tive vontade de acelerar" virou "é o trecho em que o livro mais pede paciência". "Na minha leitura" virou "Para o canal".
+6. Bloco 10: "a minha dica é ir de edição com notas" virou "uma edição com notas ajuda bastante, por causa de todas aquelas referências de época". "a irritação é o ponto" virou "e de propósito". "fica a tese do Marca-Página" virou uma frase simples de fechamento com a ideia do canal.
+7. As três chamadas continuam nos blocos 1, 6 e 10. Nenhum fato novo. O `resumo_originalidade` e o `semaforo` (🟡) foram preenchidos no `roteiro.json`.
