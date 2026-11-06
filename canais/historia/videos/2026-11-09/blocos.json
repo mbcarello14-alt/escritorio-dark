@@ -1,0 +1,433 @@
+[
+  {
+    "capitulo": "A fatura de quinhentos milhões",
+    "cenas": [
+      {
+        "narracao": "Nove de novembro de mil novecentos e oitenta e nove. O Muro de Berlim cai e a galera sobe no concreto.",
+        "visual": { "tipo": "ilustracao", "cena": "a cheerful crowd of cartoon people climbing on top of the Berlin Wall at night, waving and cheering, searchlights and confetti in the air", "busca_reserva": "Berlin Wall fall 1989 crowd on the wall", "titulo_inferior": { "titulo": "Berlim, 9 de novembro de 1989", "subtitulo": "A noite em que o Muro caiu" }, "luzes": [{ "x": 0.3, "y": 0.2, "raio": 0.15 }], "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Só que duas semanas antes, o governo da Alemanha Oriental mandou um homem até a capital do inimigo pedir quinhentos milhões de marcos, com fatura e tudo.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 500000000, "sufixo": " de marcos", "rotulo": "O pedido de Berlim Oriental a Bonn, duas semanas antes do Muro", "comparacao": "com fatura e tudo" }
+      },
+      {
+        "narracao": "Tipo parente que só aparece no almoço de domingo quando o aluguel venceu. Hoje a gente abre o extrato bancário de um país pra responder: o Muro caiu por falta de dinheiro? Spoiler: não só. Mas sem dinheiro ele não ficava de pé.",
+        "visual": { "tipo": "ilustracao", "cena": "a giant open bank statement ledger on a table with a crumbling brick wall standing on top of the page, a worried little banker holding a magnifying glass over it", "busca_reserva": "Berlin Wall segment concrete", "particulas": "poeira", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Se você curte ver a história pelo caixa, se inscreve e deixa o like. E comenta aí: o que pesou mais, o povo na rua ou o cofre vazio?",
+        "visual": { "tipo": "ilustracao", "cena": "a friendly cartoon narrator with round head pointing at the viewer with a big grin, a crowd of people on one side and an empty open vault on the other side", "busca_reserva": "Berlin 1989 crowd street protest", "movimento": "zoom_out" }
+      }
+    ]
+  },
+  {
+    "capitulo": "O dinheiro errado",
+    "cenas": [
+      {
+        "narracao": "Pra entender essa história, começa pela carteira. A Alemanha Oriental tinha a própria moeda, o marco oriental.",
+        "visual": { "tipo": "ilustracao", "cena": "a worn leather wallet open on a table with light aluminum coins and plain banknotes spilling out, drab grey socialist-era style", "busca_reserva": "East German mark coins banknotes", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Só que pra comprar coisa do Ocidente e pagar dívida com banco ocidental, ela precisava de outro tipo de dinheiro.",
+        "visual": { "tipo": "ilustracao", "cena": "an East German clerk at a border counter holding useless paper money while behind a glass window a colorful Western shop displays jeans and radios", "busca_reserva": "Intershop East Germany interior", "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "Moeda forte. Dólar. Marco ocidental. O dinheiro que o resto do mundo aceitava.",
+        "visual": { "tipo": "ilustracao", "cena": "a shiny golden stack of dollar bills and Deutsche Mark coins glowing on a pedestal, small people from all over the world reaching toward it", "busca_reserva": "Deutsche Mark coins and US dollar banknotes", "particulas": "moedas", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Tanto que o governo tinha até uma unidade de contabilidade só pra isso, o tal do marco de divisas, que nos cálculos oficiais valia o mesmo que o marco ocidental.",
+        "visual": { "tipo": "cartao", "titulo": "Marco de divisas", "subtitulo": "Nas contas oficiais, valia o mesmo que o marco ocidental" }
+      },
+      {
+        "narracao": "É como receber o salário inteiro em vale-refeição, mas o seu aluguel só aceitar Pix. Você até tem dinheiro. Só não é o dinheiro certo. E em mil novecentos e oitenta e três o problema já era sério.",
+        "visual": { "tipo": "ilustracao", "cena": "a frustrated man holding a fistful of meal vouchers in front of a landlord who points to a payment terminal that only accepts instant bank transfer", "busca_reserva": "meal voucher coupons old", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Segundo o Arquivo Federal alemão, a Alemanha Oriental estava perto da insolvência, e os bancos ocidentais tinham parado de liberar crédito novo.",
+        "visual": { "tipo": "ilustracao", "cena": "a row of stern Western bankers in suits closing a heavy vault door in the face of a small East German official holding an empty briefcase", "busca_reserva": "bank vault door closing 1980s", "titulo_inferior": { "titulo": "1983", "subtitulo": "Perto da insolvência" }, "movimento": "zoom_out" }
+      },
+      {
+        "narracao": "Então o regime fez o que todo endividado criativo faz. Foi atrás de dinheiro onde tinha. E onde tinha era justamente do outro lado do Muro.",
+        "visual": { "tipo": "ilustracao", "cena": "a sneaky cartoon official in a trench coat peeking over a tall concrete wall at a big pile of gold coins on the other side", "busca_reserva": "Berlin Wall 1980s West side graffiti", "movimento": "sobe" }
+      },
+      {
+        "narracao": "A partir de agora eu vou te mostrar esse extrato. Lançamento por lançamento.",
+        "visual": { "tipo": "ilustracao", "cena": "a long bank statement scroll unrolling across the screen with golden coins marking each line, a magnifying glass hovering over it", "busca_reserva": "old accounting ledger pages", "particulas": "moedas", "movimento": "pan_esquerda" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Lançamento um: o tesoureiro espião",
+    "cenas": [
+      {
+        "narracao": "Primeiro lançamento: o homem do caixa. O nome dele era Alexander Schalck-Golodkowski. Vou chamar só de Schalck, porque a gente tem um vídeo inteiro pela frente.",
+        "visual": { "tipo": "ilustracao", "cena": "a smooth cartoon East German official in a dark suit with round head and a briefcase full of banknotes, standing in front of a grey government building", "busca_reserva": "Alexander Schalck-Golodkowski portrait", "titulo_inferior": { "titulo": "Alexander Schalck-Golodkowski", "subtitulo": "O homem do caixa · Alemanha Oriental" }, "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Desde mil novecentos e sessenta e seis ele chefiava uma empresa comercial secreta do Estado, conhecida como Koko, de coordenação comercial. E a missão central da Koko era uma só: trazer moeda forte pra dentro do país.",
+        "visual": { "tipo": "ilustracao", "cena": "a dim secret office with crates, telephones and stacks of foreign banknotes on a desk, a lamp glowing, agents sorting money", "busca_reserva": "East Berlin office building 1970s", "luzes": [{ "x": 0.5, "y": 0.4, "raio": 0.15 }], "particulas": "poeira", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Schalck acumulava cargos de um jeito que travaria qualquer perfil de LinkedIn. Era secretário de Estado do comércio exterior.",
+        "visual": { "tipo": "ilustracao", "cena": "a cartoon official balancing a tall tower of different hats on his head, each hat labeled by a different tiny badge, looking proud and a bit wobbly", "busca_reserva": "stack of hats vintage", "movimento": "sobe" }
+      },
+      {
+        "narracao": "E, segundo o próprio governo alemão de hoje, também era oficial da Stasi, a polícia política do regime. O principal caçador de divisas da Alemanha Oriental. Um tesoureiro com crachá de espião.",
+        "visual": { "tipo": "ilustracao", "cena": "a man in a trench coat and hat holding a magnifying glass in one hand and a money bag in the other, a secret police ID badge pinned on his coat", "busca_reserva": "Stasi headquarters Berlin building", "neblina": true, "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "Uma das rendas mais estáveis desse caixa era quase cômica de tão simples. Pedágio.",
+        "visual": { "tipo": "ilustracao", "cena": "a toll booth on a Cold War highway with a barrier arm, a grey East German guard collecting a bag of coins from a car window", "busca_reserva": "inner German border checkpoint Helmstedt Marienborn", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "A Alemanha Ocidental pagava todo ano pra garantir o trânsito até Berlim Ocidental, que ficava ilhada no meio do território oriental.",
+        "visual": { "tipo": "mapa_animado", "regiao": [5.5, 47, 16, 55.5], "areas": [{ "pontos": [[10.9, 53.2], [10.2, 52.5], [10.1, 51.5], [10.2, 50.7], [12.1, 50.3], [12.5, 50.4], [14.8, 50.8], [15.0, 51.2], [14.7, 52.5], [14.2, 53.9], [13.0, 54.5], [12.0, 54.2], [10.9, 53.8]], "cor": "cinza", "rotulo": "Alemanha Oriental", "em": 0.1 }], "cidades": [{ "nome": "Hamburgo", "lon": 10.0, "lat": 53.55, "em": 0.3 }, { "nome": "Berlim Ocidental", "lon": 13.4, "lat": 52.5, "destaque": true, "lado": "direita", "em": 0.5 }], "rotas": [{ "pontos": [[10.0, 53.55], [11.5, 53.0], [12.5, 52.6], [13.4, 52.5]], "carga": "moeda", "em": 0.6 }], "titulo_inferior": { "titulo": "Berlim Ocidental", "subtitulo": "Uma ilha dentro do território oriental" } }
+      },
+      {
+        "narracao": "Eram quinhentos e vinte e cinco milhões de marcos ocidentais por ano.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 525000000, "sufixo": " de marcos ocidentais", "rotulo": "O pedágio que Bonn pagava por ano" }
+      },
+      {
+        "narracao": "Quem já pagou praça de pedágio descendo pra praia sabe a dor. Agora imagina pagar pedágio pro vizinho com quem você nem se fala.",
+        "visual": { "tipo": "ilustracao", "cena": "a long queue of old cars at a summer toll plaza, a grumpy driver in a beach hat handing a huge bag of coins to a neighbor who stands behind the barrier with arms crossed", "busca_reserva": "traffic jam toll plaza vintage cars", "particulas": "poeira", "movimento": "pan_esquerda" }
+      },
+      {
+        "narracao": "Em mil novecentos e oitenta e oito, Schalck negociou um reajuste: a partir de mil novecentos e noventa, seriam oitocentos e sessenta milhões por ano.",
+        "visual": { "tipo": "contador", "de": 525000000, "ate": 860000000, "sufixo": " de marcos por ano", "rotulo": "O novo pedágio, a partir de 1990", "comparacao": "reajuste negociado em 1988" }
+      },
+      {
+        "narracao": "Em troca, entre outras coisas, a Alemanha Oriental se comprometia a reduzir a poluição que jogava no rio Elba. Planejamento de caixa pra dez anos.",
+        "visual": { "tipo": "ilustracao", "cena": "a smoking grey chemical factory beside a river, a little official ticking a checklist on a calendar covering ten years, dirty water flowing", "busca_reserva": "Elbe river industrial pollution 1980s", "neblina": true, "movimento": "pan_direita" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Lançamento dois: a liberdade com preço",
+    "cenas": [
+      {
+        "narracao": "Segundo lançamento. E aqui eu baixo o tom, porque a mercadoria eram pessoas.",
+        "visual": { "tipo": "ilustracao", "cena": "a dark prison cell window with iron bars and a pale sliver of moonlight falling on the stone floor, a lonely silhouette sitting below", "busca_reserva": "prison cell window bars", "neblina": true, "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "A partir do começo dos anos sessenta, a Alemanha Ocidental passou a pagar pra tirar presos políticos das cadeias da Alemanha Oriental. Gente trancada pelo regime por motivo político.",
+        "visual": { "tipo": "ilustracao", "cena": "a stern guard opening a heavy prison gate at dawn, a plain bus waiting outside with its door open, tired prisoners in grey coats stepping toward it", "busca_reserva": "East German prison political prisoners release bus", "neblina": true, "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "O intermediário era um advogado do lado oriental, Wolfgang Vogel, que o governo alemão de hoje descreve como colaborador secreto da Stasi.",
+        "visual": { "tipo": "ilustracao", "cena": "a cartoon lawyer in a grey suit with a leather briefcase sliding a folder across a table toward a hidden shadowy figure", "busca_reserva": "Wolfgang Vogel lawyer", "titulo_inferior": { "titulo": "Wolfgang Vogel", "subtitulo": "Advogado e intermediário" }, "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "E existia preço por cabeça. No começo, quarenta mil marcos ocidentais.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 40000, "sufixo": " marcos ocidentais", "rotulo": "O preço por preso, no começo" }
+      },
+      {
+        "narracao": "Em mil novecentos e setenta e sete, o valor já tinha chegado a noventa e cinco mil oitocentos e quarenta e sete marcos. Com reajuste, como uma tabela.",
+        "visual": { "tipo": "contador", "de": 40000, "ate": 95847, "sufixo": " marcos ocidentais", "rotulo": "O preço por preso em 1977", "comparacao": "com reajuste, como uma tabela" }
+      },
+      {
+        "narracao": "O pagamento nem vinha em dinheiro vivo. Vinha em mercadoria: cádmio, borracha natural, óleo de cozinha, café.",
+        "visual": { "tipo": "ilustracao", "cena": "a cargo truck loaded with wooden crates, rubber rolls, cooking oil barrels and sacks of coffee beans at a loading dock", "busca_reserva": "coffee sacks cargo truck vintage", "movimento": "pan_esquerda" }
+      },
+      {
+        "narracao": "A Koko pegava essa carga e revendia no mercado mundial. Ou seja, cada pessoa libertada virava moeda forte no caixa do regime.",
+        "visual": { "tipo": "ilustracao", "cena": "an old balance scale with a human silhouette on one plate and a heap of gold coins on the other plate, a cold official hand on the lever", "busca_reserva": "old balance scale coins", "particulas": "moedas", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Pelos números oficiais do governo alemão, foram trinta e três mil setecentos e cinquenta e cinco presos libertados até mil novecentos e oitenta e nove, por quase três vírgula cinco bilhões de marcos.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 33755, "sufixo": " presos libertados", "rotulo": "Até 1989, pelos números oficiais do governo alemão", "comparacao": "por quase 3,5 bilhões de marcos" }
+      },
+      {
+        "narracao": "Outras contagens chegam a uns três vírgula quatro bilhões e a um número de presos um pouco menor. E pelos últimos libertados ainda havia sessenta e cinco milhões de marcos em mercadoria a entregar.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 65000000, "sufixo": " de marcos", "rotulo": "Em mercadoria ainda a entregar pelos últimos libertados", "comparacao": "outras contagens: cerca de 3,4 bilhões no total" }
+      },
+      {
+        "narracao": "Pra quem saiu, era a liberdade. Pras famílias, era esperança com etiqueta de preço. Pro regime, era receita.",
+        "visual": { "tipo": "ilustracao", "cena": "a family hugging at a bus door on a grey morning, a small paper price tag tied by a string to the mother's coat, sad and hopeful faces", "busca_reserva": "family reunion station 1970s black and white", "neblina": true, "movimento": "zoom_in" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Lançamento três: o anticomunista fiador",
+    "cenas": [
+      {
+        "narracao": "Terceiro lançamento. Na primavera de mil novecentos e oitenta e dois, surgiu um plano apelidado de modelo Zurique: um crédito de quatro a cinco bilhões de marcos pra Alemanha Oriental, em troca de facilidades no trânsito.",
+        "visual": { "tipo": "contador", "de": 4000000000, "ate": 5000000000, "sufixo": " de marcos", "rotulo": "O plano do modelo Zurique, 1982", "comparacao": "um crédito em troca de facilidades no trânsito" }
+      },
+      {
+        "narracao": "Só que o governo em Bonn mudou, e o plano morreu na gaveta. No ano seguinte, o caixa oriental estava no limite.",
+        "visual": { "tipo": "ilustracao", "cena": "a thick folder of plans being dropped into a dusty desk drawer by a bureaucrat, cobwebs forming, an empty treasury chest in the background", "busca_reserva": "dusty drawer old documents", "particulas": "poeira", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "E aí entra o personagem mais improvável dessa história: Franz Josef Strauss. Chefe do governo da Baviera. Conservador. Anticomunista de carteirinha.",
+        "visual": { "tipo": "ilustracao", "cena": "a stout cartoon Bavarian politician with glasses and a dark suit standing proudly in front of the Bavarian blue and white diamond flag, arms crossed", "busca_reserva": "Franz Josef Strauss portrait", "titulo_inferior": { "titulo": "Franz Josef Strauss", "subtitulo": "Chefe do governo da Baviera" }, "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Em tese, o último homem do mundo a estender a mão pro regime oriental. E quem fez a ponte?",
+        "visual": { "tipo": "ilustracao", "cena": "a conservative man in a suit hesitating, extending a hand across a barbed wire fence toward a grey hand reaching from the other side, a small bridge sketched beneath", "busca_reserva": "barbed wire fence Cold War border", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Um comerciante de carne bávaro chamado Josef März, amigo de Strauss e com negócios do outro lado. A grande diplomacia financeira da Guerra Fria passou pelas mãos de um vendedor de carne.",
+        "visual": { "tipo": "ilustracao", "cena": "a jolly Bavarian butcher in a white apron holding a string of sausages in one hand and a briefcase in the other, standing between two world leaders silhouettes", "busca_reserva": "Bavarian butcher shop sausages vintage", "titulo_inferior": { "titulo": "Josef März", "subtitulo": "Comerciante de carne bávaro" }, "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "Entre o fim de junho e o começo de julho de mil novecentos e oitenta e três, o crédito saiu. Um consórcio de bancos ocidentais, liderado pelo banco estadual da Baviera, emprestou o dinheiro.",
+        "visual": { "tipo": "mapa_animado", "regiao": [5.5, 47, 16, 55.5], "areas": [{ "pontos": [[10.9, 53.2], [10.2, 52.5], [10.1, 51.5], [10.2, 50.7], [12.1, 50.3], [12.5, 50.4], [14.8, 50.8], [15.0, 51.2], [14.7, 52.5], [14.2, 53.9], [13.0, 54.5], [12.0, 54.2], [10.9, 53.8]], "cor": "cinza", "rotulo": "Alemanha Oriental", "em": 0.05 }], "cidades": [{ "nome": "Munique", "lon": 11.6, "lat": 48.1, "destaque": true, "em": 0.3 }, { "nome": "Berlim", "lon": 13.4, "lat": 52.5, "em": 0.5 }], "rotas": [{ "pontos": [[11.6, 48.1], [11.9, 50.0], [12.5, 51.3], [13.4, 52.5]], "carga": "moeda", "em": 0.6 }], "titulo_inferior": { "titulo": "Junho e julho de 1983", "subtitulo": "O crédito sai de Munique" } }
+      },
+      {
+        "narracao": "E quem assinou como fiador foi o governo federal da Alemanha Ocidental. Se a Alemanha Oriental desse calote, a garantia era reter o dinheiro do pedágio. Lembra dele?",
+        "visual": { "tipo": "ilustracao", "cena": "a government official in Bonn signing a big guarantee contract with a quill, next to a toll booth model on his desk and a hand holding a small bag of toll coins in reserve", "busca_reserva": "Bonn Bundeshaus 1980s", "particulas": "poeira", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Agora, quanto foi? As fontes oficiais não dão número. O Arquivo Federal só fala em crédito bilionário.",
+        "visual": { "tipo": "ilustracao", "cena": "an archive room with shelves of folders and a researcher scratching his head under a giant question mark floating above a blank line where a number should be", "busca_reserva": "German Federal Archive reading room", "particulas": "poeira", "movimento": "pan_esquerda" }
+      },
+      {
+        "narracao": "A conta de pesquisadores como Hertle fala em cerca de um bilhão de marcos em oitenta e três e mais uns novecentos e cinquenta milhões num segundo crédito, provavelmente em oitenta e quatro. Perto de dois bilhões no total. Então guarda a ordem de grandeza, não o número exato.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 1950000000, "sufixo": " de marcos", "rotulo": "Estimativa de Hertle para os dois créditos, 1983 e 1984", "comparacao": "guarde a ordem de grandeza, não o número exato" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Nada no papel, tudo no gesto",
+    "cenas": [
+      {
+        "narracao": "E o que o Ocidente levou em troca? Aqui mora a pegadinha. O Arquivo Federal alemão é claro: não existia condição escrita ligando o dinheiro a nenhuma concessão.",
+        "visual": { "tipo": "ilustracao", "cena": "a sealed official contract lying on a table with a completely blank page, a cartoon banker holding a magnifying glass finding nothing written", "busca_reserva": "blank contract paper pen desk", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Mas, em setembro de mil novecentos e oitenta e três, a Alemanha Oriental começou a desmontar os dispositivos de tiro automático da fronteira. E acabou com a exigência de câmbio mínimo pra menores de quinze anos.",
+        "visual": { "tipo": "ilustracao", "cena": "border workers on ladders unscrewing automatic gun devices from a long fence under a pale sky, a small group of children with parents waiting at a crossing", "busca_reserva": "inner German border fence SM-70 removal", "titulo_inferior": { "titulo": "Setembro de 1983", "subtitulo": "A fronteira começa a mudar" }, "neblina": true, "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "Nada no papel. Tudo no gesto. Strauss e Schalck se encontraram pessoalmente treze vezes entre oitenta e três e oitenta e quatro, fora centenas de mensagens.",
+        "visual": { "tipo": "ilustracao", "cena": "two men in suits shaking hands discreetly behind a stone pillar, one with a Bavarian hat pin, a winking cartoon sun in the corner, a calendar with thirteen marked days", "busca_reserva": "two diplomats handshake 1980s", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "E alguém não gostou nada dessa aproximação: Moscou. Segundo o Wilson Center, um centro de pesquisa americano, em mil novecentos e oitenta e quatro a liderança soviética criticou Erich Honecker, o chefe da Alemanha Oriental, acusando ele de trocar o socialismo por ajuda econômica.",
+        "visual": { "tipo": "ilustracao", "cena": "grim Soviet officials in fur hats around a long table in a Moscow hall, one of them wagging a finger at a small East German leader who shrinks in his chair", "busca_reserva": "Kremlin 1984 Soviet leadership meeting", "titulo_inferior": { "titulo": "Moscou, 1984", "subtitulo": "A bronca em Erich Honecker" }, "movimento": "pan_esquerda" }
+      },
+      {
+        "narracao": "Então, nesse lançamento, quem ganhou? O regime ganhou fôlego. Os bancos emprestaram com o governo como fiador. E o risco ficou com o contribuinte ocidental.",
+        "visual": { "tipo": "ilustracao", "cena": "a tired Western taxpayer in a plain coat carrying a huge heavy sack of coins on his back, while a comfortable banker and a relieved East German official relax on his shoulders", "busca_reserva": "man carrying heavy sack vintage illustration", "particulas": "moedas", "movimento": "zoom_out" }
+      },
+      {
+        "narracao": "Agora eu quero te ouvir. Se você fosse o Strauss em mil novecentos e oitenta e três, assinava o empréstimo pro rival ou deixava o caixa da Alemanha Oriental secar sozinho? Escreve aí nos comentários.",
+        "visual": { "tipo": "ilustracao", "cena": "a friendly cartoon narrator wearing a Bavarian hat pointing at the viewer, holding a pen over a loan contract with one hand and a dry empty money box in the other, big question mark above", "busca_reserva": "Bavarian hat vintage", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "E se esse extrato tá te prendendo até aqui, se inscreve e deixa o like, porque o próximo lançamento é de dar azia.",
+        "visual": { "tipo": "ilustracao", "cena": "a cartoon man with a stomachache holding his belly and a glass of antacid, a giant thumbs-up icon and a ringing bell beside him, ledger page about to turn", "busca_reserva": "old ledger page turning", "movimento": "zoom_out" }
+      }
+    ]
+  },
+  {
+    "capitulo": "A pasta que se abre sentado",
+    "cenas": [
+      {
+        "narracao": "Agora vira a página do extrato pra mil novecentos e oitenta e nove. E nessa página não tem entrada. Tem alerta.",
+        "visual": { "tipo": "ilustracao", "cena": "a ledger page turning to reveal a column of red warning marks and a flashing alarm bell, no gold coins in the income column", "busca_reserva": "red alarm warning ledger", "luzes": [{ "x": 0.7, "y": 0.3, "raio": 0.12 }], "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "No dia dezoito de outubro, Honecker sai, e quem assume o comando do partido é Egon Krenz.",
+        "visual": { "tipo": "linha_tempo", "foco": 0, "eventos": [{ "ano": "18 out 1989", "texto": "Honecker sai; Krenz assume o partido" }, { "ano": "30 out 1989", "texto": "O relatório Schürer chega à cúpula" }] }
+      },
+      {
+        "narracao": "Em trinta de outubro, chega à cúpula do partido um documento de tirar o sono. O chefe do planejamento do Estado, Gerhard Schürer, apresenta uma análise da economia do país.",
+        "visual": { "tipo": "ilustracao", "cena": "a worried planning chief in glasses laying a thick report on a polished table in front of stern party leaders, one of them already pale", "busca_reserva": "East German politburo meeting 1989", "titulo_inferior": { "titulo": "Gerhard Schürer", "subtitulo": "Chefe do planejamento do Estado · 30 de outubro de 1989" }, "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Segundo o governo alemão, que divulgou o conteúdo depois, a conclusão era dura. Só pra parar de aumentar a dívida, o padrão de vida da população teria que cair entre vinte e cinco e trinta por cento já em mil novecentos e noventa.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 30, "sufixo": "%", "rotulo": "Queda do padrão de vida só para parar a dívida, em 1990", "comparacao": "o relatório falava em 25% a 30%" }
+      },
+      {
+        "narracao": "Pra garantir que o país conseguisse pagar as contas em mil novecentos e noventa e um, o relatório recomendava negociar com Bonn mais dois a três bilhões em marcos de divisas, aquela moeda de contabilidade lá do começo, em créditos além das linhas que já existiam.",
+        "visual": { "tipo": "contador", "de": 2000000000, "ate": 3000000000, "sufixo": " em marcos de divisas", "rotulo": "Novos créditos pedidos a Bonn pelo relatório", "comparacao": "além das linhas que já existiam" }
+      },
+      {
+        "narracao": "Descartava reunificação ou confederação com o Ocidente e admitia que o país continuava dependente de dinheiro ocidental.",
+        "visual": { "tipo": "ilustracao", "cena": "a report with two crossed-out paths labeled by a tiny unity bridge and a tiny confederation sign, a small figure standing on an island held by a rope tied to a Western bank", "busca_reserva": "East Germany 1989 economy planning report", "movimento": "zoom_out" }
+      },
+      {
+        "narracao": "Outro texto do mesmo governo alemão ainda cita uma produtividade do trabalho uns quarenta por cento abaixo da ocidental.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 40, "sufixo": "%", "rotulo": "Produtividade do trabalho abaixo da ocidental", "comparacao": "segundo outro texto do governo alemão" }
+      },
+      {
+        "narracao": "Imagina as suas primeiras semanas como chefe e o contador te entrega uma pasta escrito: abre sentado.",
+        "visual": { "tipo": "ilustracao", "cena": "a newly appointed boss in a big chair, an accountant sliding a heavy thick folder with a warning sticker across the desk, the boss already sweating", "busca_reserva": "accountant folder desk vintage office", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Agora, sendo honesto com você. A Alemanha Oriental faliu? Não dá pra cravar isso.",
+        "visual": { "tipo": "ilustracao", "cena": "a cartoon narrator shrugging with palms up, a big question mark over a small grey country on a balance beam between a cliff and solid ground", "busca_reserva": "East Germany map 1989", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Tem quem diga que, sem uma mudança completa, a insolvência era questão de tempo.",
+        "visual": { "tipo": "ilustracao", "cena": "a large hourglass with golden coins instead of sand running low, a grey factory silhouette behind it", "busca_reserva": "hourglass coins", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "E tem quem argumente que o relatório pintou o quadro pior que o real, que o país ainda conseguia crédito e que a própria União Soviética devia dinheiro pra Alemanha Oriental.",
+        "visual": { "tipo": "ilustracao", "cena": "a Soviet officer in a fur hat sheepishly handing an IOU note to an East German official, who holds the note up with a raised eyebrow", "busca_reserva": "Soviet East German trade agreement 1980s", "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "Esse debate continua aberto. O que dá pra dizer com segurança é outra coisa. O país estava apertado e dependia em boa parte do caixa do rival.",
+        "visual": { "tipo": "ilustracao", "cena": "a tight shoe-shaped country squeezing a small official, who is leaning on a large vault that belongs to the neighboring rival, open and glowing", "busca_reserva": "Berlin Wall East side 1989", "movimento": "zoom_out" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Lançamento quatro: o pedido de saque",
+    "cenas": [
+      {
+        "narracao": "Lançamento quatro: o pedido de saque. Uns seis dias antes desse relatório chegar à cúpula, o nosso homem do caixa já estava em Bonn. Vinte e quatro de outubro de mil novecentos e oitenta e nove.",
+        "visual": { "tipo": "mapa_animado", "regiao": [5.5, 47, 16, 55.5], "areas": [{ "pontos": [[10.9, 53.2], [10.2, 52.5], [10.1, 51.5], [10.2, 50.7], [12.1, 50.3], [12.5, 50.4], [14.8, 50.8], [15.0, 51.2], [14.7, 52.5], [14.2, 53.9], [13.0, 54.5], [12.0, 54.2], [10.9, 53.8]], "cor": "cinza", "rotulo": "Alemanha Oriental", "em": 0.05 }], "cidades": [{ "nome": "Berlim", "lon": 13.4, "lat": 52.5, "em": 0.2 }, { "nome": "Bonn", "lon": 7.1, "lat": 50.7, "destaque": true, "em": 0.7 }], "rotas": [{ "pontos": [[13.4, 52.5], [11.0, 52.0], [9.0, 51.3], [7.1, 50.7]], "carga": "caravana", "em": 0.4 }], "titulo_inferior": { "titulo": "Bonn, 24 de outubro de 1989", "subtitulo": "Schalck bate à porta do rival" } }
+      },
+      {
+        "narracao": "A mando de Krenz, Schalck vai até a capital da Alemanha Ocidental e pede quinhentos milhões de marcos.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 500000000, "sufixo": " de marcos", "rotulo": "O pedido de Schalck a Bonn, a mando de Krenz" }
+      },
+      {
+        "narracao": "Mas não pede de qualquer jeito. Ele chega com uma conta de custos adicionais da ferrovia ocidental dentro do território oriental. Uma fatura de ferrovia pra cobrir um pedido de dinheiro.",
+        "visual": { "tipo": "ilustracao", "cena": "a cartoon official in a coat sliding a long invoice scroll that unrolls like a train track across a desk toward a skeptical Bonn minister, a toy steam train riding on the paper", "busca_reserva": "Deutsche Reichsbahn train East Germany 1980s", "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "Antes disso, a representação da Alemanha Oriental já tinha avisado que uma nova lei de viagens ia exigir vinte bilhões de marcos de Bonn. Vinte bilhões. Pra deixar o próprio povo viajar.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 20000000000, "sufixo": " de marcos", "rotulo": "O que a nova lei de viagens ia exigir de Bonn", "comparacao": "só pra deixar o próprio povo viajar" }
+      },
+      {
+        "narracao": "E a fatura combinava com o autor. A tese de doutorado de Schalck dizia que a Alemanha Oriental poderia cobrar mais de oitenta e cinco bilhões de marcos do vizinho, pelas perdas com a fuga de gente antes do Muro. O homem via fatura em tudo.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 85000000000, "prefixo": "mais de ", "sufixo": " de marcos", "rotulo": "O que a tese de doutorado de Schalck dizia poder cobrar do vizinho", "comparacao": "pelas perdas com a fuga de gente antes do Muro" }
+      },
+      {
+        "narracao": "Só que dessa vez o cofre não abriu fácil. Por volta de vinte e seis de outubro, o chanceler Helmut Kohl liga pra Krenz e põe as condições na mesa: nova lei de viagens e anistia pra manifestantes e pra quem tinha fugido.",
+        "visual": { "tipo": "ilustracao", "cena": "a broad-shouldered chancellor in a suit speaking on a vintage telephone with a firm face, two conditions listed as tiny drawings on a table: a passport and an open prison door", "busca_reserva": "Helmut Kohl portrait 1989", "titulo_inferior": { "titulo": "Helmut Kohl", "subtitulo": "Chanceler da Alemanha Ocidental" }, "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Antes era dinheiro em troca de gesto. Agora era gesto antes de qualquer dinheiro.",
+        "visual": { "tipo": "ilustracao", "cena": "two panels: on the left a bag of coins passing first and a small gesture after; on the right the order reversed, a gesture first and a locked vault still closed", "busca_reserva": "vintage lock and key vault", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Não dá pra provar uma relação direta de causa e efeito. Mas essa pressão ajudou a empurrar a lei de viagens que ia ser anunciada dali a poucos dias.",
+        "visual": { "tipo": "linha_tempo", "foco": 2, "eventos": [{ "ano": "24 out", "texto": "Schalck pede 500 milhões a Bonn" }, { "ano": "26 out", "texto": "Kohl liga pra Krenz e põe condições" }, { "ano": "9 nov", "texto": "A nova lei de viagens é anunciada" }] }
+      }
+    ]
+  },
+  {
+    "capitulo": "Pelo que eu sei, imediatamente",
+    "cenas": [
+      {
+        "narracao": "Nove de novembro. Perto das sete da noite. Günter Schabowski, porta-voz do partido, está numa coletiva de imprensa ao vivo.",
+        "visual": { "tipo": "ilustracao", "cena": "a press conference hall at night with dozens of journalists holding microphones and notebooks, a spokesman at a long table under bright TV lights", "busca_reserva": "Schabowski press conference 9 November 1989", "titulo_inferior": { "titulo": "Günter Schabowski", "subtitulo": "Porta-voz do partido · 9 de novembro de 1989" }, "luzes": [{ "x": 0.5, "y": 0.35, "raio": 0.2 }], "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Pouco antes, Krenz tinha entregado pra ele um papel com a nova regra de viagens e de saída do país, previsto pra entrar em vigor só no dia seguinte. Pelos relatos mais citados por historiadores alemães, havia embargo de divulgação até as quatro da manhã.",
+        "visual": { "tipo": "ilustracao", "cena": "a folded paper with an official stamp passed from one hand to another across a corridor, a clock on the wall showing four in the morning, a rope barrier labeled by a tiny padlock", "busca_reserva": "old clock four a.m. paper document", "particulas": "poeira", "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "E aqui as versões brigam. Segundo Schabowski, ninguém falou em embargo. Krenz diz que avisou.",
+        "visual": { "tipo": "ilustracao", "cena": "two cartoon officials pointing at each other with exaggerated shocked faces, each one with a speech bubble containing only a question mark", "busca_reserva": "Egon Krenz Schabowski 1989", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Um jornalista pergunta quando aquilo começa a valer. Ele olha o papel, procura, e responde, em tradução livre: pelo que eu sei, é imediatamente, sem demora.",
+        "visual": { "tipo": "ilustracao", "cena": "a journalist raising his hand in the crowd while the spokesman nervously shuffles through his papers, glasses sliding down his nose", "busca_reserva": "Schabowski reading paper press conference", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Uma frase de coletiva virou a noite do avesso. A notícia corre.",
+        "visual": { "tipo": "ilustracao", "cena": "a night street where people crowd around a small television in a shop window and run off in all directions with shocked and excited faces, headlights streaking", "busca_reserva": "Berlin 9 November 1989 night crowd checkpoint", "luzes": [{ "x": 0.3, "y": 0.5, "raio": 0.15 }], "movimento": "pan_esquerda" }
+      },
+      {
+        "narracao": "Nessa página do extrato não tem cifra nenhuma. Tem uma frase. Mas repara no encadeamento. Não foi o dinheiro sozinho que derrubou o Muro.",
+        "visual": { "tipo": "ilustracao", "cena": "a ledger page with no numbers in its columns and a single speech bubble written across the line, a small wall behind the page with a crack running down", "busca_reserva": "ledger page empty column", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Pesaram os protestos nas ruas. Pesou a fuga em massa de alemães orientais pela Hungria e pela Tchecoslováquia. E, no fim, uma coletiva confusa.",
+        "visual": { "tipo": "mapa_animado", "regiao": [8, 44, 25, 56], "areas": [{ "pontos": [[10.9, 53.2], [10.2, 52.5], [10.1, 51.5], [10.2, 50.7], [12.1, 50.3], [12.5, 50.4], [14.8, 50.8], [15.0, 51.2], [14.7, 52.5], [14.2, 53.9], [13.0, 54.5], [12.0, 54.2], [10.9, 53.8]], "cor": "cinza", "rotulo": "Alemanha Oriental", "em": 0.05 }], "cidades": [{ "nome": "Berlim", "lon": 13.4, "lat": 52.5, "em": 0.1 }, { "nome": "Praga", "lon": 14.4, "lat": 50.1, "destaque": true, "em": 0.3 }, { "nome": "Budapeste", "lon": 19.0, "lat": 47.5, "destaque": true, "em": 0.5 }], "rotas": [{ "pontos": [[13.4, 52.5], [14.0, 51.3], [14.4, 50.1]], "carga": "caravana", "em": 0.3 }, { "pontos": [[14.4, 50.1], [16.4, 48.5], [19.0, 47.5]], "carga": "caravana", "em": 0.5 }], "rotulos": [{ "texto": "fuga em massa", "lon": 17.5, "lat": 50.0, "tipo": "destaque", "em": 0.7 }] }
+      },
+      {
+        "narracao": "O que o dinheiro fez foi encurtar a corda do regime. Sem caixa, ele precisava do Ocidente. E o Ocidente agora cobrava em liberdade.",
+        "visual": { "tipo": "ilustracao", "cena": "a stiff grey official with a rope tied around his waist, the rope held by a Western hand that shortens it step by step, a golden key marked by a tiny bird of freedom in the other hand", "busca_reserva": "rope tied vintage illustration", "movimento": "zoom_in" }
+      }
+    ]
+  },
+  {
+    "capitulo": "O um por um",
+    "cenas": [
+      {
+        "narracao": "Só que o lançamento mais pesado do extrato ainda estava por vir. Primeiro de julho de mil novecentos e noventa. O marco ocidental vira a moeda oficial também do lado oriental.",
+        "visual": { "tipo": "ilustracao", "cena": "a crowd queueing in front of a bank counter in the morning, clerks handing out shiny new Deutsche Mark banknotes and coins to smiling East Germans", "busca_reserva": "currency union July 1990 East Germany queue bank", "titulo_inferior": { "titulo": "1º de julho de 1990", "subtitulo": "O marco ocidental chega ao Leste" }, "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "E a regra de troca foi assim. Salários, aposentadorias, aluguéis e os pagamentos do dia a dia passaram na base do um por um. Quem ganhava mil marcos orientais passou a ganhar mil marcos ocidentais.",
+        "visual": { "tipo": "comparacao", "esquerda": { "titulo": "Antes", "itens": ["Salário: 1.000 marcos orientais", "Aluguel e aposentadoria em marcos orientais"] }, "direita": { "titulo": "Depois (um por um)", "itens": ["Salário: 1.000 marcos ocidentais", "Aluguel e aposentadoria em marcos ocidentais"] } }
+      },
+      {
+        "narracao": "Na poupança, cada pessoa trocava um por um até um teto que dependia da idade: dois mil marcos pros menores de quinze anos, quatro mil pra quem tinha de quinze a cinquenta e nove, seis mil pra quem tinha sessenta ou mais.",
+        "visual": { "tipo": "lista", "titulo": "Teto de troca um por um na poupança", "itens": ["Menores de 15 anos: 2.000 marcos", "De 15 a 59 anos: 4.000 marcos", "60 anos ou mais: 6.000 marcos"] }
+      },
+      {
+        "narracao": "O que passasse disso ia na base de dois por um. Na média, a poupança saiu a mais ou menos um vírgula oito por um.",
+        "visual": { "tipo": "contador", "de": 1, "ate": 1.8, "casas": 1, "sufixo": " por 1", "rotulo": "Troca média da poupança", "comparacao": "acima do teto, a troca era de dois por um" }
+      },
+      {
+        "narracao": "O banco central da Alemanha Ocidental queria cautela. O presidente dele defendia dois por um, e o banco alertou que a troca podia provocar um surto de inflação. Perdeu a discussão.",
+        "visual": { "tipo": "ilustracao", "cena": "a serious central bank president shaking his head and holding up two fingers in front of a rising inflation thermometer, politicians pushing him aside", "busca_reserva": "Bundesbank Frankfurt building 1990", "titulo_inferior": { "titulo": "Banco central da Alemanha Ocidental", "subtitulo": "Cautela, e uma discussão perdida" , "pequeno": true }, "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "Do outro lado, quem defendia o um por um dizia que um câmbio pior derrubaria salários e empurraria ainda mais gente pro Oeste.",
+        "visual": { "tipo": "ilustracao", "cena": "long line of cartoon families with suitcases walking west along a road toward a bright city skyline, a salary graph dropping behind them", "busca_reserva": "East Germans migrating west 1990 suitcases", "particulas": "poeira", "movimento": "pan_esquerda" }
+      },
+      {
+        "narracao": "Foi generosidade, cálculo político ou erro? Economista briga por isso até hoje.",
+        "visual": { "tipo": "ilustracao", "cena": "a group of economists in tweed jackets arguing around a table covered in charts, one throwing papers in the air, three signs held up marked only by a heart, a ballot box and a cross", "busca_reserva": "economists debate vintage", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Tem instituto de pesquisa alemão que vê ali uma moeda supervalorizada pra uma economia sem competitividade. Agora, eu não vou te vender uma relação direta entre essa troca e o que aconteceu depois com empregos e fábricas, porque as fontes que a gente usou não medem isso.",
+        "visual": { "tipo": "ilustracao", "cena": "a huge shiny golden coin balloon floating over an old fading factory with closed gates, a researcher looking up at it with a clipboard, shrugging", "busca_reserva": "abandoned East German factory 1990s", "neblina": true, "movimento": "zoom_out" }
+      }
+    ]
+  },
+  {
+    "capitulo": "Fechando o extrato",
+    "cenas": [
+      {
+        "narracao": "E quem pagou a conta da reunificação? Em boa parte, o contribuinte do lado ocidental.",
+        "visual": { "tipo": "ilustracao", "cena": "a Western taxpayer at a restaurant table staring in disbelief at a gigantic bill handed by a waiter, reunified Germany map on the tablecloth", "busca_reserva": "German reunification 1990 Brandenburg Gate celebration", "titulo_inferior": { "titulo": "A conta da reunificação", "subtitulo": "Alemanha, anos 1990" }, "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "As estimativas do dinheiro transferido do Oeste para o Leste vão de cerca de um trilhão e meio a quase dois trilhões de euros, conforme o período e o que entra na conta.",
+        "visual": { "tipo": "contador", "de": 0, "ate": 1500000000000, "prefixo": "de ", "sufixo": " de euros", "rotulo": "Transferências do Oeste para o Leste", "comparacao": "até quase dois trilhões, conforme o período e o que entra na conta" }
+      },
+      {
+        "narracao": "E tem economista que lembra que o Leste também gerou impostos e contribuições, então a conta líquida é menor. No começo dos anos noventa nasceu ainda um imposto extra, o adicional de solidariedade, pra ajudar a bancar isso.",
+        "visual": { "tipo": "ilustracao", "cena": "an economist drawing a smaller net balance on a chalkboard with arrows going both ways between west and east, a tax collector adding a small extra stamp on a pay slip", "busca_reserva": "German pay slip tax solidarity surcharge", "movimento": "pan_direita" }
+      },
+      {
+        "narracao": "Então vamos fechar o extrato. Eu não vou somar tudo numa cifra só, porque são moedas e períodos diferentes. Mas dá pra ler pelas colunas.",
+        "visual": { "tipo": "ilustracao", "cena": "the bank statement ledger closing with a big stamp, its pages divided into two columns, a calculator crossed out in the corner because the currencies don't match", "busca_reserva": "ledger book closing stamp", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Na coluna de quem ganhou, o regime, que comprou tempo durante anos com pedágio, com crédito e, do jeito mais duro possível, cobrando pela liberdade de presos políticos. E os bancos, que emprestaram com o governo de fiador.",
+        "visual": { "tipo": "ilustracao", "cena": "a grey regime official sitting on a huge alarm clock buying time with a bag of coins, bankers in suits standing safely behind him under an umbrella held by a government hand", "busca_reserva": "old alarm clock coins", "particulas": "moedas", "movimento": "pan_esquerda" }
+      },
+      {
+        "narracao": "Na coluna de quem pagou, o contribuinte ocidental, que foi fiador, comprador de liberdade e, no fim, pagador da reunificação. E quem virou moeda de troca foram os presos políticos e suas famílias.",
+        "visual": { "tipo": "comparacao", "esquerda": { "titulo": "Quem ganhou", "itens": ["O regime, que comprou tempo", "Os bancos, com o governo de fiador"] }, "direita": { "titulo": "Quem pagou", "itens": ["O contribuinte ocidental", "Presos políticos e famílias, moeda de troca"] } }
+      },
+      {
+        "narracao": "O Muro caiu por falta de dinheiro? Não só. Mas a falta de dinheiro apertou o regime e tirou a margem de manobra. E quem tem o cofre dita as condições.",
+        "visual": { "tipo": "ilustracao", "cena": "a cracked concrete wall with a big open empty vault door beside it, a confident hand holding the vault key dictating terms to a shrinking small official", "busca_reserva": "Berlin Wall crack concrete", "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Se foi certo abrir esse cofre pro rival, até pra comprar liberdade, essa eu deixo com você.",
+        "visual": { "tipo": "ilustracao", "cena": "a hand holding out a heavy key toward the viewer in front of a vault door slightly ajar, golden light spilling out, with a hesitant crowd behind", "busca_reserva": "vault door key golden light", "luzes": [{ "x": 0.55, "y": 0.5, "raio": 0.18 }], "movimento": "zoom_in" }
+      },
+      {
+        "narracao": "Se esse extrato mudou o jeito como você vê o nove de novembro, se inscreve, deixa o like e volta lá na pergunta: você assinava ou não o empréstimo do Strauss? Conta nos comentários, que eu quero ler cada resposta.",
+        "visual": { "tipo": "ilustracao", "cena": "a friendly cartoon narrator pointing at the viewer with a big smile, thumbs-up icon and a bell floating beside him, holding a loan contract with a question mark above it, a pile of comment bubbles", "busca_reserva": "Berlin Wall 9 November 1989 celebration crowd", "movimento": "zoom_out" }
+      },
+      {
+        "narracao": "E se você curtiu ver dinheiro atravessando fronteira sem ninguém carregar moeda, dá uma olhada no Pix medieval dos Templários, aqui no canal.",
+        "visual": { "tipo": "ilustracao", "cena": "a medieval Templar knight in a white tunic with a red cross handing a sealed letter of credit scroll across a long table, coins staying locked in a chest behind him", "busca_reserva": "Knights Templar medieval manuscript illustration", "particulas": "moedas", "movimento": "pan_direita" }
+      }
+    ]
+  }
+]

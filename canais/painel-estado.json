@@ -1,8 +1,16 @@
 {
-  "atualizado_em": "2026-11-06T18:45:30Z",
+  "atualizado_em": "2026-11-06T18:50:09Z",
   "ativos": {
     "miguel": [
-      "Mapeado: quinta 05/11 17h00",
+      "Mapeado: quinta 05/11 17h00"
+    ],
+    "diretor_visual": [
+      "Ouro & Império: O Muro de Berlim caiu por falta de dinheiro?"
+    ],
+    "seo": [
+      "Ouro & Império: O Muro de Berlim caiu por falta de dinheiro?"
+    ],
+    "thumbnail": [
       "Ouro & Império: O Muro de Berlim caiu por falta de dinheiro?"
     ]
   },
@@ -32,8 +40,8 @@
       "dia": "2026-11-09",
       "rotulo": "segunda 09/11 18h00",
       "publicar_em_utc": "2026-11-09T21:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "etapa": "producao_json",
+      "etapa_txt": "🎨 planejando cenas, título e thumbnail",
       "titulo": "O Muro de Berlim caiu por falta de dinheiro?",
       "url": ""
     },
