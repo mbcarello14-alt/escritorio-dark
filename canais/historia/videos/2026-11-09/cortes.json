@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 3],
+      "gancho": "O Muro caiu por falta de grana?",
+      "titulo": "Duas semanas antes do Muro cair, o governo pediu dinheiro ao inimigo",
+      "descricao": "A Alemanha Oriental mandou um homem a Bonn pedir 500 milhões de marcos, com fatura e tudo. O extrato completo está no canal.",
+      "hashtags": ["#historia", "#economia", "#murodeberlim"],
+      "legenda_reels": "Duas semanas antes do Muro de Berlim cair, a Alemanha Oriental foi pedir 500 milhões de marcos ao rival. Segue o perfil para mais história contada pelo dinheiro. #historia #economia #murodeberlim #guerrafria"
+    },
+    {
+      "de": [5, 3], "ate": [5, 6],
+      "gancho": "O anticomunista que salvou o comunismo",
+      "titulo": "O anticomunista que emprestou bilhões para a Alemanha Oriental",
+      "descricao": "Franz Josef Strauss, conservador da Baviera, virou fiador do regime rival. E a ponte foi um vendedor de carne. Vídeo completo no canal.",
+      "hashtags": ["#historia", "#guerrafria", "#alemanha"],
+      "legenda_reels": "Um anticomunista de carteirinha ajudou a salvar o caixa da Alemanha Oriental, e quem fez a ponte foi um vendedor de carne. Segue o perfil para mais história contada pelo dinheiro. #historia #guerrafria #alemanha #economia"
+    },
+    {
+      "de": [9, 1], "ate": [9, 5],
+      "gancho": "A frase que abriu o Muro",
+      "titulo": "\"Pelo que eu sei, imediatamente\": a frase que derrubou o Muro",
+      "descricao": "Uma resposta confusa numa coletiva ao vivo virou a noite de 9 de novembro de 1989 do avesso. A história pelo dinheiro está no canal.",
+      "hashtags": ["#historia", "#murodeberlim", "#1989"],
+      "legenda_reels": "Um porta-voz leu um papel errado numa coletiva ao vivo, e naquela noite o Muro de Berlim se abriu. Segue o perfil para mais história contada pelo dinheiro. #historia #murodeberlim #1989 #guerrafria"
+    }
+  ]
+}
