@@ -1,33 +1,11 @@
 {
-  "atualizado_em": "2026-11-06T20:30:17Z",
+  "atualizado_em": "2026-11-06T21:28:06Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
-    ],
-    "narrador": [
-      "Ouro & Império: O Muro de Berlim caiu por falta de dinheiro?"
-    ],
-    "ilustrador": [
-      "Ouro & Império: O Muro de Berlim caiu por falta de dinheiro?"
-    ],
-    "editor": [
-      "Ouro & Império: O Muro de Berlim caiu por falta de dinheiro?"
-    ],
-    "clipador": [
-      "Ouro & Império: O Muro de Berlim caiu por falta de dinheiro?"
     ]
   },
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-06",
-      "rotulo": "sexta 06/11 18h00",
-      "publicar_em_utc": "2026-11-06T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "O rei que penhorou a coroa e 'quebrou' dois bancos",
-      "url": "https://youtu.be/o_0Ff6Gpdn8"
-    },
     {
       "canal": "livros",
       "dia": "2026-11-07",
@@ -43,10 +21,10 @@
       "dia": "2026-11-09",
       "rotulo": "segunda 09/11 18h00",
       "publicar_em_utc": "2026-11-09T21:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "O Muro de Berlim caiu por falta de dinheiro?",
-      "url": ""
+      "url": "https://youtu.be/0GCVHi81phU"
     },
     {
       "canal": "vestibular",
@@ -70,16 +48,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "vestibular",
-      "dia": "2026-10-29",
-      "rotulo": "quinta 29/10 17h00",
-      "publicar_em_utc": "2026-10-29T20:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Era Vargas no ENEM: 3 governos em 1 mapa mental",
-      "url": "https://youtu.be/K4aaYBSIPYs"
-    },
     {
       "canal": "historia",
       "dia": "2026-10-30",
@@ -129,6 +97,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "A Revolução dos Bichos: o livro que 4 editores recusaram",
       "url": "https://youtu.be/kPpyQ3MbDug"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-11-06",
+      "rotulo": "sexta 06/11 18h00",
+      "publicar_em_utc": "2026-11-06T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "O rei que penhorou a coroa e 'quebrou' dois bancos",
+      "url": "https://youtu.be/o_0Ff6Gpdn8"
     }
   ],
   "canais": [
@@ -137,7 +115,7 @@
       "nome": "Ouro & Império",
       "inscritos": 5,
       "horas": 17.2,
-      "publicados": 3
+      "publicados": 4
     },
     {
       "id": "vestibular",
@@ -155,8 +133,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 68,
+    "neurons": 3740,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

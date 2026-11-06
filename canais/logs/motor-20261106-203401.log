@@ -1,0 +1,238 @@
+20:34:02 INFO ilustrações: higgsfield desligado (sem chave)
+20:34:38 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 1/11
+20:34:38 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+20:34:38 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+20:34:39 INFO Processing audio with duration 00:55.967
+[0;93m2026-11-06 20:34:39.237009847 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+20:34:39 INFO VAD filter removed 00:00.048 of audio
+20:34:52 INFO Processing audio with duration 00:55.967
+20:34:52 INFO VAD filter removed 00:00.048 of audio
+20:35:05 WARNING instrução lida em bloco_01.wav (4.1–16.6s): 'youtuber jovem e carismático explicando história e economia com bom humor, ritmo dinâmico, ironia le' — cortando
+20:35:42 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 2/11
+20:35:42 INFO Processing audio with duration 01:00.487
+20:35:42 INFO VAD filter removed 00:00.000 of audio
+20:36:00 INFO Processing audio with duration 01:00.487
+20:36:00 INFO VAD filter removed 00:00.000 of audio
+20:36:59 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 3/11
+20:36:59 INFO Processing audio with duration 01:18.087
+20:36:59 INFO VAD filter removed 00:00.000 of audio
+20:37:21 INFO Processing audio with duration 01:18.087
+20:37:21 INFO VAD filter removed 00:00.000 of audio
+20:38:26 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 4/11
+20:38:26 INFO Processing audio with duration 01:30.807
+20:38:26 INFO VAD filter removed 00:00.000 of audio
+20:38:49 WARNING voz falou fora do roteiro em bloco_04.wav — aparando ('Segundo…')
+20:38:49 INFO Processing audio with duration 01:30.087
+20:38:49 INFO VAD filter removed 00:00.000 of audio
+20:39:57 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 5/11
+20:39:57 INFO Processing audio with duration 01:28.807
+20:39:57 INFO VAD filter removed 00:00.000 of audio
+20:40:23 INFO Processing audio with duration 01:28.807
+20:40:24 INFO VAD filter removed 00:00.000 of audio
+20:41:30 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 6/11
+20:41:31 INFO Processing audio with duration 01:13.527
+20:41:31 INFO VAD filter removed 00:00.000 of audio
+20:41:51 INFO Processing audio with duration 01:13.527
+20:41:51 INFO VAD filter removed 00:00.000 of audio
+20:42:57 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 7/11
+20:42:57 INFO Processing audio with duration 01:43.567
+20:42:57 INFO VAD filter removed 00:00.000 of audio
+20:43:25 INFO Processing audio with duration 01:43.567
+20:43:25 INFO VAD filter removed 00:00.000 of audio
+20:44:31 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 8/11
+20:44:31 INFO Processing audio with duration 01:18.847
+20:44:31 INFO VAD filter removed 00:00.000 of audio
+20:44:55 INFO Processing audio with duration 01:18.847
+20:44:56 INFO VAD filter removed 00:00.000 of audio
+20:45:58 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 9/11
+20:45:58 INFO Processing audio with duration 01:04.487
+20:45:58 INFO VAD filter removed 00:00.000 of audio
+20:46:17 INFO Processing audio with duration 01:04.487
+20:46:17 INFO VAD filter removed 00:00.000 of audio
+20:46:37 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+20:47:27 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Charon): bloco 10/11
+20:47:28 INFO Processing audio with duration 01:28.080
+20:47:28 INFO VAD filter removed 00:00.016 of audio
+20:47:52 INFO Processing audio with duration 01:28.080
+20:47:53 INFO VAD filter removed 00:00.016 of audio
+20:48:52 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+20:49:32 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+20:50:35 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 11/11
+20:50:35 INFO Processing audio with duration 01:35.611
+20:50:35 INFO VAD filter removed 00:00.000 of audio
+20:51:03 INFO Processing audio with duration 01:35.611
+20:51:03 INFO VAD filter removed 00:00.000 of audio
+20:51:30 INFO gerando 68 ilustrações…
+20:55:02 INFO ilustrações prontas: 68 geradas (68 pedidas)
+20:55:03 INFO Processing audio with duration 00:43.522
+20:55:03 INFO VAD filter removed 00:00.080 of audio
+20:55:13 INFO bloco 1: 43.5s, 116 palavras reconhecidas
+cena: Failed to load resource: the server responded with a status of 404 (Not Found)
+20:55:56 INFO cena 1 pronta (11.8s, total 12s)
+20:56:12 INFO cena 2 pronta (9.5s, total 21s)
+20:56:36 INFO cena 3 pronta (13.9s, total 35s)
+20:56:56 INFO cena 4 pronta (8.4s, total 44s)
+20:56:58 INFO Processing audio with duration 01:00.487
+20:56:58 INFO VAD filter removed 00:00.000 of audio
+20:57:15 INFO bloco 2: 60.5s, 175 palavras reconhecidas
+20:57:22 INFO cena 5 pronta (6.4s, total 50s)
+20:57:29 INFO cena 6 pronta (6.3s, total 56s)
+20:57:39 INFO cena 7 pronta (5.9s, total 62s)
+20:57:44 INFO cena 8 pronta (8.7s, total 71s)
+20:57:57 INFO cena 9 pronta (11.6s, total 83s)
+20:58:10 INFO cena 10 pronta (7.6s, total 90s)
+20:58:20 INFO cena 11 pronta (8.8s, total 99s)
+20:58:29 INFO cena 12 pronta (5.0s, total 104s)
+20:58:31 INFO Processing audio with duration 01:18.087
+20:58:31 INFO VAD filter removed 00:00.000 of audio
+20:58:53 INFO bloco 3: 78.1s, 217 palavras reconhecidas
+20:59:09 INFO cena 13 pronta (9.1s, total 113s)
+20:59:31 INFO cena 14 pronta (13.2s, total 126s)
+20:59:38 INFO cena 15 pronta (5.8s, total 132s)
+21:00:01 INFO cena 16 pronta (12.0s, total 144s)
+21:00:07 INFO cena 17 pronta (4.9s, total 149s)
+21:00:23 INFO cena 18 pronta (6.4s, total 156s)
+21:00:28 INFO cena 19 pronta (3.6s, total 159s)
+21:00:41 INFO cena 20 pronta (6.9s, total 166s)
+21:00:52 INFO cena 21 pronta (7.4s, total 173s)
+21:01:08 INFO cena 22 pronta (8.6s, total 182s)
+21:01:10 INFO Processing audio with duration 01:30.087
+21:01:11 INFO VAD filter removed 00:00.000 of audio
+21:01:33 INFO bloco 4: 90.1s, 196 palavras reconhecidas
+21:01:43 INFO cena 23 pronta (4.9s, total 187s)
+21:02:05 INFO cena 24 pronta (11.0s, total 198s)
+21:02:22 INFO cena 25 pronta (9.4s, total 207s)
+21:02:29 INFO cena 26 pronta (5.0s, total 212s)
+21:02:43 INFO cena 27 pronta (9.2s, total 222s)
+21:02:51 INFO cena 28 pronta (8.2s, total 230s)
+21:03:06 INFO cena 29 pronta (8.7s, total 239s)
+21:03:25 INFO cena 30 pronta (12.8s, total 251s)
+21:03:42 INFO cena 31 pronta (12.2s, total 264s)
+21:04:00 INFO cena 32 pronta (8.6s, total 272s)
+21:04:02 INFO Processing audio with duration 01:28.807
+21:04:03 INFO VAD filter removed 00:00.000 of audio
+21:04:29 INFO bloco 5: 88.8s, 245 palavras reconhecidas
+21:04:48 INFO cena 33 pronta (12.9s, total 285s)
+21:05:00 INFO cena 34 pronta (7.0s, total 292s)
+21:05:20 INFO cena 35 pronta (10.4s, total 302s)
+21:05:26 INFO cena 36 pronta (5.9s, total 308s)
+21:05:47 INFO cena 37 pronta (11.2s, total 320s)
+21:06:12 INFO cena 38 pronta (10.2s, total 330s)
+21:06:28 INFO cena 39 pronta (9.4s, total 339s)
+21:06:40 INFO cena 40 pronta (6.4s, total 346s)
+21:07:02 INFO cena 41 pronta (15.4s, total 361s)
+21:07:04 INFO Processing audio with duration 01:13.527
+21:07:04 INFO VAD filter removed 00:00.000 of audio
+21:07:24 INFO bloco 6: 73.5s, 198 palavras reconhecidas
+21:07:36 INFO cena 42 pronta (9.9s, total 371s)
+21:07:59 INFO cena 43 pronta (11.5s, total 382s)
+21:08:08 INFO cena 44 pronta (9.2s, total 391s)
+21:08:38 INFO cena 45 pronta (16.2s, total 408s)
+21:08:54 INFO cena 46 pronta (9.4s, total 417s)
+21:09:19 INFO cena 47 pronta (10.5s, total 428s)
+21:09:34 INFO cena 48 pronta (6.8s, total 434s)
+21:09:37 INFO Processing audio with duration 01:43.567
+21:09:37 INFO VAD filter removed 00:00.000 of audio
+21:10:04 INFO bloco 7: 103.6s, 281 palavras reconhecidas
+21:10:17 INFO cena 49 pronta (7.5s, total 442s)
+21:10:25 INFO cena 50 pronta (5.8s, total 448s)
+21:10:43 INFO cena 51 pronta (10.4s, total 458s)
+21:11:01 INFO cena 52 pronta (14.3s, total 472s)
+21:11:22 INFO cena 53 pronta (14.6s, total 487s)
+21:11:30 INFO cena 54 pronta (7.1s, total 494s)
+21:11:40 INFO cena 55 pronta (7.6s, total 502s)
+21:11:47 INFO cena 56 pronta (6.4s, total 508s)
+21:11:56 INFO cena 57 pronta (7.2s, total 515s)
+21:12:01 INFO cena 58 pronta (4.9s, total 520s)
+21:12:11 INFO cena 59 pronta (8.8s, total 529s)
+21:12:22 INFO cena 60 pronta (9.0s, total 538s)
+21:12:24 INFO Processing audio with duration 01:18.847
+21:12:24 INFO VAD filter removed 00:00.000 of audio
+21:12:49 INFO bloco 8: 78.8s, 237 palavras reconhecidas
+21:13:20 INFO cena 61 pronta (12.9s, total 551s)
+21:13:28 INFO cena 62 pronta (5.2s, total 556s)
+21:13:40 INFO cena 63 pronta (10.5s, total 567s)
+21:13:56 INFO cena 64 pronta (11.3s, total 578s)
+21:14:14 INFO cena 65 pronta (13.1s, total 591s)
+21:14:36 INFO cena 66 pronta (12.7s, total 604s)
+21:14:42 INFO cena 67 pronta (4.9s, total 609s)
+21:14:54 INFO cena 68 pronta (8.1s, total 617s)
+21:14:55 INFO Processing audio with duration 01:04.487
+21:14:55 INFO VAD filter removed 00:00.000 of audio
+21:15:16 INFO bloco 9: 64.5s, 192 palavras reconhecidas
+21:15:29 INFO cena 69 pronta (7.2s, total 624s)
+21:15:52 INFO cena 70 pronta (13.8s, total 638s)
+21:15:58 INFO cena 71 pronta (5.2s, total 643s)
+21:16:08 INFO cena 72 pronta (9.8s, total 653s)
+21:16:17 INFO cena 73 pronta (4.8s, total 658s)
+21:16:25 INFO cena 74 pronta (7.7s, total 665s)
+21:16:44 INFO cena 75 pronta (7.8s, total 673s)
+21:16:53 INFO cena 76 pronta (8.1s, total 681s)
+21:16:55 INFO Processing audio with duration 01:27.812
+21:16:55 INFO VAD filter removed 00:00.000 of audio
+21:17:20 INFO bloco 10: 87.8s, 240 palavras reconhecidas
+21:17:40 INFO cena 77 pronta (11.2s, total 693s)
+21:17:47 INFO cena 78 pronta (13.1s, total 706s)
+21:17:54 INFO cena 79 pronta (13.6s, total 719s)
+21:18:04 INFO cena 80 pronta (7.6s, total 727s)
+21:18:24 INFO cena 81 pronta (11.3s, total 738s)
+21:18:38 INFO cena 82 pronta (8.1s, total 746s)
+21:18:46 INFO cena 83 pronta (7.1s, total 753s)
+21:19:15 INFO cena 84 pronta (15.8s, total 769s)
+21:19:18 INFO Processing audio with duration 01:35.589
+21:19:18 INFO VAD filter removed 00:00.000 of audio
+21:19:46 INFO bloco 11: 95.6s, 296 palavras reconhecidas
+21:19:55 INFO cena 85 pronta (5.3s, total 775s)
+21:20:09 INFO cena 86 pronta (9.7s, total 784s)
+21:20:22 INFO cena 87 pronta (12.7s, total 797s)
+21:20:30 INFO cena 88 pronta (7.7s, total 805s)
+21:20:53 INFO cena 89 pronta (13.2s, total 818s)
+21:21:00 INFO cena 90 pronta (12.9s, total 831s)
+21:21:10 INFO cena 91 pronta (9.4s, total 840s)
+21:21:20 INFO cena 92 pronta (5.7s, total 846s)
+21:21:46 INFO cena 93 pronta (11.4s, total 857s)
+21:21:59 INFO cena 94 pronta (7.7s, total 865s)
+21:22:01 INFO sem trilha em musica/misterio — vídeo sai só com narração
+21:22:03 INFO upload 3%
+21:22:03 INFO upload 6%
+21:22:04 INFO upload 9%
+21:22:04 INFO upload 12%
+21:22:04 INFO upload 16%
+21:22:05 INFO upload 19%
+21:22:05 INFO upload 22%
+21:22:05 INFO upload 25%
+21:22:06 INFO upload 29%
+21:22:06 INFO upload 32%
+21:22:06 INFO upload 35%
+21:22:07 INFO upload 38%
+21:22:07 INFO upload 41%
+21:22:07 INFO upload 45%
+21:22:07 INFO upload 48%
+21:22:08 INFO upload 51%
+21:22:08 INFO upload 54%
+21:22:08 INFO upload 58%
+21:22:09 INFO upload 61%
+21:22:09 INFO upload 64%
+21:22:10 INFO upload 67%
+21:22:10 INFO upload 70%
+21:22:10 INFO upload 74%
+21:22:11 INFO upload 77%
+21:22:11 INFO upload 80%
+21:22:11 INFO upload 83%
+21:22:12 INFO upload 87%
+21:22:12 INFO upload 90%
+21:22:12 INFO upload 93%
+21:22:13 INFO upload 96%
+21:22:13 INFO upload 99%
+21:22:14 INFO vídeo enviado: https://youtu.be/0GCVHi81phU (agendado para 2026-11-09T21:00:00Z)
+21:22:17 INFO playlist criada: Idade Contemporânea
+21:22:17 INFO na playlist 'Idade Contemporânea'
+21:22:17 WARNING Encountered 403 Forbidden with reason "forbidden"
+21:22:17 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+21:23:50 INFO corte 1 pronto (35s)
+21:25:35 INFO corte 2 pronto (38s)
+21:27:32 INFO corte 3 pronto (41s)
+21:27:34 INFO Short agendado: https://youtube.com/shorts/wMUVURj_7pI (2026-11-10T15:00:00Z)
+21:27:40 INFO Short agendado: https://youtube.com/shorts/J-GLeNRvB9Q (2026-11-11T15:00:00Z)
+21:27:44 INFO Short agendado: https://youtube.com/shorts/DAAX5tbgAoU (2026-11-12T15:00:00Z)
+21:27:46 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-09/saida/video.mp4 (14.4 min) → https://youtu.be/0GCVHi81phU
