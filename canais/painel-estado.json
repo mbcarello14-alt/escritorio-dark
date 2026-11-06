@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-06T09:49:51Z",
+  "atualizado_em": "2026-11-06T11:46:21Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
@@ -120,15 +120,15 @@
     {
       "id": "vestibular",
       "nome": "Mapeado",
-      "inscritos": 9,
-      "horas": 12.5,
+      "inscritos": 11,
+      "horas": 13.0,
       "publicados": 3
     },
     {
       "id": "livros",
       "nome": "Marca-Página",
       "inscritos": 7,
-      "horas": 10.2,
+      "horas": 11.8,
       "publicados": 3
     }
   ],
