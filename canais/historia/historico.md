@@ -25,3 +25,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-05
 - Longo em que o gancho do Short mais visto (Pix medieval dos Templários, 1.257 views) vira o título e a thumb, em vez de títulos descritivos; checar fontes antes.
+
+### 2026-11-06
+- Short e longo sobre a letra de câmbio medieval explicada como um cheque de hoje, no molde do Pix medieval dos Templários (1.257 views); checar fontes antes.

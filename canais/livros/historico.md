@@ -18,3 +18,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 ### 2026-11-04
 - Short "o que todo mundo acha que sabe" sobre outro clássico muito conhecido (nome ou autoria confundidos); os Shorts de obras menos conhecidas ficam abaixo de 40 views.
 - Short no molde "o que todo mundo acha que sabe" sobre outro clássico muito conhecido; o do Frankenstein fez 462 views e os de obras pouco conhecidas ficaram abaixo de 40.
+
+### 2026-11-06
+- Short no molde "o que todo mundo acha que sabe" sobre outro clássico muito conhecido (nome, autoria ou final confundidos); o do Frankenstein fez 462 views, os de obras menos conhecidas ficaram abaixo de 40.

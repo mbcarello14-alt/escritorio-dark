@@ -23,3 +23,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-05
 - Longo que expande a pegadinha da regra de três (Short de 844 views) com o título em forma de pergunta; os longos de contexto histórico ficaram abaixo de 20 views.
+
+### 2026-11-06
+- Short de pegadinha com número e pergunta no título em Química ou Biologia, repetindo o molde da regra de três (844 views); os Shorts de contexto histórico ficaram perto de 90.
