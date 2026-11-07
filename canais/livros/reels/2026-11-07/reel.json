@@ -1,0 +1,58 @@
+{
+  "canal": "livros",
+  "titulo": "Escrito em 9 dias, sem querer assinar (Em Busca de Sentido)",
+  "descricao": "Viktor Frankl escreveu O Homem em Busca de Sentido em nove dias e queria publicar sem o nome. O autor defende que encontrar um sentido ajuda a suportar o sofrimento. O livro passa de dez milhões de cópias.",
+  "hashtags": ["#livros", "#frankl", "#emBuscadeSentido"],
+  "legenda_reels": "Frankl escreveu esse livro em nove dias e não queria assinar. Hoje passa de dez milhões de cópias. Qual é o seu porquê? Comenta SENTIDO #livros #viktorfrankl #booktok",
+  "isca": "Comenta SENTIDO",
+  "cenario": {"ceu": "#cdb4db", "chao": "#8fb996", "cidade": false, "arvores": 1, "nuvens": true, "sol": false},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "dias", "tipo": "numero", "valor": 0, "sufixo": " dias", "casas": 0, "cor": "#ffffff", "tam": 2.0, "pos": [0, 0.72], "oculto": true},
+    {"id": "autor", "tipo": "boneco", "pos": [-1.7, 0, 0.8], "cor": "#6d6875", "calca": "#2b2d42", "fala": true, "oculto": true},
+    {"id": "anonimo", "tipo": "texto", "texto": "SEM ASSINATURA?", "cor": "#ffffff", "fundo": "#6d6875", "tam": 1.0, "pos": [0, 0.52], "oculto": true},
+    {"id": "livro", "tipo": "livro", "cor": "#1d3557", "titulo": "O Homem em Busca de Sentido\nViktor Frankl", "pos": [0.4, 0, 1.8], "escala": 1.7, "oculto": true},
+    {"id": "sentido", "tipo": "texto", "texto": "UM SENTIDO AJUDA\nA SUPORTAR", "cor": "#ffffff", "fundo": "#2a9d8f", "tam": 0.9, "pos": [0, 0.74], "oculto": true},
+    {"id": "copias", "tipo": "barra", "pos": [2.0, 0, -1.5], "altura": 0, "largura": 1.4, "cor": "#ffd166", "oculto": true},
+    {"id": "milhoes", "tipo": "numero", "valor": 0, "sufixo": " mi de cópias", "casas": 0, "cor": "#ffd166", "tam": 1.3, "pos": [0, 0.74], "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Um psiquiatra escreveu um livro em nove dias, e não queria assinar.", "acoes": [
+      {"t": 0.1, "alvo": "dias", "acao": "aparecer", "som": "pop"},
+      {"t": 0.3, "alvo": "dias", "acao": "contar", "para": 9, "dur": 1.8, "som": "tic"},
+      {"t": 1.0, "alvo": "autor", "acao": "aparecer", "som": "pop"},
+      {"t": 2.6, "alvo": "anonimo", "acao": "aparecer", "som": "ding"},
+      {"t": 3.2, "alvo": "dias", "acao": "escalar", "para": 1.3}
+    ]},
+    {"texto": "Viktor Frankl tinha acabado de sair dos campos de concentração, em mil novecentos e quarenta e cinco.", "acoes": [
+      {"t": 0.0, "alvo": "dias", "acao": "sumir"},
+      {"t": 0.0, "acao": "camera", "pos": [0, 4.5, 13], "olha": [0, 2.8, 0], "dur": 1.0, "som": "whoosh"},
+      {"t": 1.0, "alvo": "autor", "acao": "mover", "para": [-1.0, 0, 1.0], "som": "whoosh"},
+      {"t": 3.0, "alvo": "anonimo", "acao": "cor", "cor": "#e63946"},
+      {"t": 4.0, "alvo": "autor", "acao": "olhar", "para": 40}
+    ]},
+    {"texto": "Em O Homem em Busca de Sentido, o autor defende que encontrar um sentido ajuda a suportar o sofrimento.", "acoes": [
+      {"t": 0.0, "alvo": "anonimo", "acao": "sumir"},
+      {"t": 0.2, "alvo": "livro", "acao": "aparecer", "som": "ding"},
+      {"t": 0.5, "alvo": "livro", "acao": "girar", "voltas": 1},
+      {"t": 3.0, "alvo": "sentido", "acao": "aparecer", "som": "whoosh"},
+      {"t": 5.0, "alvo": "sentido", "acao": "escalar", "para": 1.2, "som": "ding"}
+    ]},
+    {"texto": "O livro que ele nem queria assinar passou de dez milhões de cópias.", "acoes": [
+      {"t": 0.0, "alvo": "sentido", "acao": "sumir"},
+      {"t": 0.2, "alvo": "milhoes", "acao": "aparecer", "som": "pop"},
+      {"t": 0.3, "alvo": "milhoes", "acao": "contar", "para": 10, "dur": 1.5, "som": "tic"},
+      {"t": 0.4, "alvo": "copias", "acao": "aparecer", "som": "pop"},
+      {"t": 0.6, "alvo": "copias", "acao": "crescer", "para": 9, "dur": 2.0, "som": "caixa"},
+      {"t": 2.8, "acao": "tremer", "forca": 0.4, "som": "boom"},
+      {"t": 2.8, "alvo": "autor", "acao": "pular", "altura": 0.9}
+    ]},
+    {"texto": "Qual é o seu porquê? Comenta SENTIDO, que a gente indica mais um.", "acoes": [
+      {"t": 0.0, "alvo": "milhoes", "acao": "sumir"},
+      {"t": 0.0, "acao": "camera", "pos": [0, 5, 15], "olha": [0, 3.2, 0], "dur": 1.0},
+      {"t": 0.8, "alvo": "autor", "acao": "acenar"},
+      {"t": 2.2, "alvo": "livro", "acao": "pular", "altura": 0.7, "som": "pop"},
+      {"t": 3.5, "alvo": "livro", "acao": "girar", "voltas": 1, "som": "ding"}
+    ]}
+  ]
+}

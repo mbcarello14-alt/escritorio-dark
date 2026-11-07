@@ -1,0 +1,14 @@
+14:10:30 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+14:10:31 INFO Processing audio with duration 00:41.807
+[0;93m2026-11-07 14:10:31.341757646 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+14:10:31 INFO VAD filter removed 00:00.000 of audio
+14:10:47 INFO Processing audio with duration 00:41.807
+14:10:47 INFO VAD filter removed 00:00.000 of audio
+14:11:04 WARNING instrução lida em bloco_01.wav (4.0–8.6s): 'Tom de conversa, opinião firme, ironia leve e pausas para reflexão.' — cortando
+14:11:04 WARNING instrução lida em bloco_01.wav (11.1–16.6s): 'com energia, ritmo rápido, sem pausas longas. Como quem conta uma curiosidade incrível para' — cortando
+14:11:05 INFO Processing audio with duration 00:41.807
+14:11:05 INFO VAD filter removed 00:00.016 of audio
+14:11:21 INFO bloco 1: 41.8s, 117 palavras reconhecidas
+14:19:45 INFO render 3D: pronto: 1297 quadros em 501s
+14:20:42 INFO reel pronto: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-07/saida/reel.mp4 (43.2s)
+14:20:45 INFO Short agendado: https://youtube.com/shorts/gmPMdm8o6aU (2026-11-09T23:00:00Z)

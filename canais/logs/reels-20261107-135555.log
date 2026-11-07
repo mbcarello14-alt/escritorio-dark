@@ -1,0 +1,14 @@
+13:56:09 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+13:56:11 INFO Processing audio with duration 00:53.847
+[0;93m2026-11-07 13:56:11.061584765 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+13:56:11 INFO VAD filter removed 00:00.000 of audio
+13:56:31 INFO Processing audio with duration 00:53.847
+13:56:31 INFO VAD filter removed 00:00.000 of audio
+13:56:50 WARNING instrução lida em bloco_01.wav (2.1–13.6s): 'sotaque brasileiro neutro, como um professor jovem, animado e muito claro, explicando para vestibula' — cortando
+13:56:50 WARNING instrução lida em bloco_01.wav (15.9–19.9s): 'Fale com energia, ritmo rápido, sem pausas longas, como quem' — cortando
+13:56:52 INFO Processing audio with duration 00:53.847
+13:56:52 INFO VAD filter removed 00:00.000 of audio
+13:57:11 INFO bloco 1: 53.8s, 146 palavras reconhecidas
+14:09:04 INFO render 3D: pronto: 1658 quadros em 710s
+14:10:14 INFO reel pronto: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-07/saida/reel.mp4 (55.2s)
+14:10:16 INFO Short agendado: https://youtube.com/shorts/IFPZLOOPEmM (2026-11-09T22:00:00Z)
