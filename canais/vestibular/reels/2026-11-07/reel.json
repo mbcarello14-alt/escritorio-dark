@@ -1,9 +1,9 @@
 {
   "canal": "vestibular",
   "titulo": "O Brasil tem 4 horas ao mesmo tempo (cai no ENEM)",
-  "descricao": "Geografia que cai no ENEM: o Brasil tem quatro fusos horários (UTC-2 a UTC-5). O Acre fica duas horas atrás de Brasília. Grava: oeste = mais cedo.",
+  "descricao": "Geografia que cai no Enem: o Brasil tem quatro fusos horários (UTC-2 a UTC-5). Quando é 13h em Brasília, no Acre são 11h, duas horas atrás. Grava: oeste = mais cedo.",
   "hashtags": ["#enem", "#geografia", "#vestibular"],
-  "legenda_reels": "Quando é meio-dia em Brasília, no Acre são 10h! O Brasil tem 4 fusos horários e isso cai muito no ENEM. Grava: quanto mais a oeste, mais cedo. Comenta FUSO #enem #geografia #vestibular",
+  "legenda_reels": "Quando é 13h em Brasília, no Acre são 11h! O Brasil tem 4 fusos horários e isso cai muito no Enem. Grava: quanto mais a oeste, mais cedo. Comenta FUSO #enem #geografia #vestibular",
   "isca": "Comenta FUSO",
   "cenario": {"ceu": "#bfe3f7", "chao": "#86c06c", "cidade": false, "arvores": 2, "nuvens": true, "sol": true},
   "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
@@ -21,12 +21,12 @@
     {"id": "h_acre", "tipo": "texto", "texto": "Acre\n11h", "cor": "#ffffff", "fundo": "#5b3fa8", "tam": 0.55, "pos": [-0.7, 0.5], "oculto": true}
   ],
   "falas": [
-    {"texto": "Quando é uma da tarde em Brasília, no Acre ainda são onze da manhã!", "acoes": [
+    {"texto": "Quando é uma da tarde em Brasília, no Acre são onze da manhã!", "acoes": [
       {"t": 0.0, "alvo": "quadro", "acao": "aparecer", "som": "pop"},
       {"t": 1.0, "alvo": "quadro", "acao": "escalar", "para": 1.25},
       {"t": 2.5, "alvo": "prof", "acao": "acenar"}
     ]},
-    {"texto": "O Brasil tem quatro fusos horários. Isso cai muito no ENEM.", "acoes": [
+    {"texto": "O Brasil tem quatro fusos horários. Isso cai muito no Enem.", "acoes": [
       {"t": 0.2, "alvo": "noronha", "acao": "aparecer", "som": "pop"},
       {"t": 0.4, "alvo": "h_noronha", "acao": "aparecer"},
       {"t": 1.2, "alvo": "brasilia", "acao": "aparecer", "som": "pop"},
@@ -37,17 +37,17 @@
       {"t": 3.2, "alvo": "h_acre", "acao": "aparecer"},
       {"t": 3.3, "alvo": "quadro", "acao": "sumir"}
     ]},
-    {"texto": "A pegadinha é: o horário de Brasília não vale para o país inteiro. Do leste para o oeste, cada fuso atrasa uma hora.", "acoes": [
+    {"texto": "A pegadinha é esta: Brasília não manda no país inteiro. Indo para o oeste, cada fuso atrasa uma hora.", "acoes": [
       {"t": 0.3, "alvo": "brasilia", "acao": "pular", "altura": 1, "som": "ding"},
       {"t": 2.0, "alvo": "noronha", "acao": "pular", "altura": 0.8},
       {"t": 3.0, "alvo": "manaus", "acao": "pular", "altura": 0.8},
       {"t": 4.0, "alvo": "acre", "acao": "pular", "altura": 0.8},
       {"t": 4.1, "alvo": "", "acao": "tremer", "forca": 0.35, "som": "boom"}
     ]},
-    {"texto": "Entre dois mil e oito e dois mil e treze, eram só três fusos. A lei de dois mil e treze trouxe o quarto de volta.", "acoes": [
-      {"t": 0.3, "alvo": "h_acre", "acao": "texto", "texto": "Acre\n11h (2013)"},
+    {"texto": "Desde dois mil e treze, o Acre fica duas horas atrás de Brasília.", "acoes": [
+      {"t": 0.3, "alvo": "h_acre", "acao": "texto", "texto": "Acre\n11h (-2h)"},
       {"t": 0.4, "alvo": "h_acre", "acao": "escalar", "para": 1.3, "som": "ding"},
-      {"t": 3.5, "alvo": "h_acre", "acao": "escalar", "para": 1.0}
+      {"t": 3.0, "alvo": "h_acre", "acao": "escalar", "para": 1.0}
     ]},
     {"texto": "Grava assim: quanto mais a oeste, mais cedo.", "acoes": [
       {"t": 0.0, "alvo": "prof", "acao": "acenar"},
