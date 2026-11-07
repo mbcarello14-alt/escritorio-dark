@@ -1,12 +1,21 @@
 {
   "video_id": "kPpyQ3MbDug",
   "janelas": {},
-  "parcial": {},
+  "parcial": {
+    "views": 15,
+    "estimatedMinutesWatched": 30,
+    "averageViewDuration": 202,
+    "averageViewPercentage": 25.45,
+    "subscribersGained": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0
+  },
   "canal": {
-    "viewCount": "4777",
+    "viewCount": "4823",
     "subscriberCount": "7",
     "hiddenSubscriberCount": false,
-    "videoCount": "15"
+    "videoCount": "16"
   },
-  "atualizado_em": "2026-11-06T11:46:19+00:00"
+  "atualizado_em": "2026-11-07T11:30:27+00:00"
 }
