@@ -1,13 +1,13 @@
 {
   "canal": "livros",
   "dia": "2026-11-07",
-  "etapa": "ajuste_reel",
+  "etapa": "agendado",
   "ajustes": [
     "Este também deu o mesmo erro"
   ],
-  "atualizado_em": "2026-11-07T20:14:29+00:00",
+  "atualizado_em": "2026-11-07T20:19:38+00:00",
   "titulo": "Escrito em 9 dias, sem querer assinar (Em Busca de Sentido)",
-  "duracao_s": 43.21,
+  "duracao_s": 25.37,
   "publicar_em_utc": "2026-11-09T23:00:00Z",
-  "url": "https://youtube.com/shorts/gmPMdm8o6aU"
+  "url": "https://youtube.com/shorts/ta2eNBTNO7Y"
 }
