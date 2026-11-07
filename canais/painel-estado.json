@@ -1,21 +1,11 @@
 {
-  "atualizado_em": "2026-11-07T11:30:30Z",
+  "atualizado_em": "2026-11-07T14:16:25Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
     ]
   },
   "proximos": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-07",
-      "rotulo": "sábado 07/11 11h00",
-      "publicar_em_utc": "2026-11-07T14:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Dom Casmurro: Capitu traiu? O livro não prova nada",
-      "url": "https://youtu.be/7Oij1SwLO7k"
-    },
     {
       "canal": "historia",
       "dia": "2026-11-09",
@@ -48,16 +38,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "historia",
-      "dia": "2026-10-30",
-      "rotulo": "sexta 30/10 18h00",
-      "publicar_em_utc": "2026-10-30T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Templários: o rei sem dinheiro e o banco que ele quebrou",
-      "url": "https://youtu.be/uj-4EEC4yiQ"
-    },
     {
       "canal": "livros",
       "dia": "2026-10-31",
@@ -107,6 +87,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "O rei que penhorou a coroa e 'quebrou' dois bancos",
       "url": "https://youtu.be/o_0Ff6Gpdn8"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-07",
+      "rotulo": "sábado 07/11 11h00",
+      "publicar_em_utc": "2026-11-07T14:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Dom Casmurro: Capitu traiu? O livro não prova nada",
+      "url": "https://youtu.be/7Oij1SwLO7k"
     }
   ],
   "canais": [
@@ -129,7 +119,7 @@
       "nome": "Marca-Página",
       "inscritos": 7,
       "horas": 12.4,
-      "publicados": 3
+      "publicados": 4
     }
   ],
   "imagens": {
