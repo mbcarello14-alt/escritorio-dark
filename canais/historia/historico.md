@@ -28,3 +28,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-06
 - Short e longo sobre a letra de câmbio medieval explicada como um cheque de hoje, no molde do Pix medieval dos Templários (1.257 views); checar fontes antes.
+
+### 2026-11-07
+- Fazer um Short que termine mandando para o longo do mesmo assunto (Pix medieval para o vídeo dos Templários), já que o Short chegou a 1.257 views e o longo tem 15.

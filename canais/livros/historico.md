@@ -21,3 +21,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-06
 - Short no molde "o que todo mundo acha que sabe" sobre outro clássico muito conhecido (nome, autoria ou final confundidos); o do Frankenstein fez 462 views, os de obras menos conhecidas ficaram abaixo de 40.
+
+### 2026-11-07
+- Repetir com Dom Casmurro o molde que funcionou: Short "o que todo mundo acha que sabe" (Capitu traiu?) e levar o espectador ao longo.

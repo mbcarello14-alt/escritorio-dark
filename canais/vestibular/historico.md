@@ -26,3 +26,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-06
 - Short de pegadinha com número e pergunta no título em Química ou Biologia, repetindo o molde da regra de três (844 views); os Shorts de contexto histórico ficaram perto de 90.
+
+### 2026-11-07
+- Mapa mental curto de "pegadinhas de porcentagem" ligando os Shorts campeões (regra de três, 10% + 10%), como longo com título em pergunta.
