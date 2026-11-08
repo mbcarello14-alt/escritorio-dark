@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 3],
+      "gancho": "Um Nobel admitiu o erro em público",
+      "titulo": "O Nobel que admitiu que um capítulo do best-seller era fraco",
+      "descricao": "Em 2017, Daniel Kahneman admitiu que um capítulo de Rápido e Devagar se apoiava em provas fracas. O resumo, a crítica e o veredito completos estão no vídeo do canal.",
+      "hashtags": ["#livros", "#psicologia", "#kahneman"],
+      "legenda_reels": "Um Nobel admitiu em público que um capítulo inteiro do seu best-seller se apoiava em provas fracas. Segue o perfil para mais resumos e críticas de livros. #livros #kahneman #psicologia #booktok"
+    },
+    {
+      "de": [7, 2], "ate": [7, 6],
+      "gancho": "Nota 14 de 100 para o priming",
+      "titulo": "31 estudos, todos positivos e nota 14: o que isso quer dizer?",
+      "descricao": "Um blog analisou 31 estudos citados em Rápido e Devagar com uma régua estatística, o R-index. Entenda o que a nota 14 mostra e o que ela não prova, no vídeo completo.",
+      "hashtags": ["#psicologia", "#ciencia", "#livros"],
+      "legenda_reels": "31 estudos, todos com resultado positivo, e nota 14 de 100. O que isso diz sobre um capítulo famoso de Rápido e Devagar? Segue o perfil para mais crítica de livros. #psicologia #ciencia #livros #kahneman"
+    },
+    {
+      "de": [9, 5], "ate": [9, 10],
+      "gancho": "A lição que não está no livro",
+      "titulo": "A lição mais valiosa de Rápido e Devagar nem está no livro",
+      "descricao": "O que envelheceu em Rápido e Devagar e qual é a lição que fica, segundo o Marca-Página. O veredito completo e para quem o livro serve estão no vídeo do canal.",
+      "hashtags": ["#livros", "#resenha", "#kahneman"],
+      "legenda_reels": "O que envelheceu em Rápido e Devagar e qual a lição que mais fica? Veredito completo no canal. Segue o perfil para mais resumo e crítica de livros. #livros #resenha #kahneman #psicologia"
+    }
+  ]
+}
