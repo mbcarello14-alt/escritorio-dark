@@ -1,0 +1,189 @@
+comando: /roteiro canais/livros/videos/2026-11-11
+🔧 Bash {"command": "cd canais/livros/videos/2026-11-11 && ls && cat estado.json && cat pautas.json && cat 01-pauta.md | head -50"}
+💬 Pauta escolhida: nº 3, *Rápido e Devagar*. Não há nota do Miguel. Começo pelo dossiê.
+🔧 Agent {"subagent_type": "pesquisador-livros", "description": "Dossiê Rápido e Devagar", "prompt": "Etapa 2 (dossiê). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/pautas.json"}
+💬 O dossiê está sendo montado pelo pesquisador. Aguardo a conclusão para seguir para o roteiro.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 WebSearch {"query": "Rápido e Devagar: Duas Formas de Pensar Kahneman Objetiva 2012 páginas tradução Cássio de Arantes Leite", "mode": "standard"}
+🔧 WebSearch {"query": "Kahneman open letter priming 2012 \"train wreck\" Nature Daniel Kahneman email Bargh", "mode": "standard"}
+🔧 WebSearch {"query": "Replicability-Index Kahneman comment \"I placed too much faith in underpowered studies\" Schimmack 2017", "mode": "standard"}
+🔧 WebSearch {"query": "loss aversion meta-analysis Gal Rucker 2018 \"The loss of loss aversion\" Mrkva 2020 Brown 2024 meta-analysis loss aversion", "mode": "standard"}
+🔧 WebFetch {"url": "https://retractionwatch.com/2017/02/20/placed-much-faith-underpowered-studies-nobel-prize-winner-admits-mistakes", "prompt": "Extract Kahneman's quoted comment (short quotes only), date, what
+🔧 WebFetch {"url": "https://www.nature.com/articles/nature.2012.11535", "prompt": "Summarize: date, what Kahneman wrote, who reported, and reactions. Short quotes only."}
+🔧 WebFetch {"url": "https://www.companhiadasletras.com.br/livro/9788539003839/rapido-e-devagar", "prompt": "Extract edition data: publisher/imprint, pages, date, ISBN, translator, and the blurb summarizing the b
+🔧 WebSearch {"query": "Many Labs replication anchoring effect replicated priming flag money failed Klein 2014 Many Labs 1 results", "mode": "standard"}
+🔧 WebFetch {"url": "https://decisionsciencenews.com/?p=3634", "prompt": "Extract the date, and short quotes from Kahneman's September 2012 letter: 'train wreck', daisy chain, what he says about priming and 'beli
+🔧 WebFetch {"url": "https://replicationindex.com/2017/02/02/reconstruction-of-a-train-wreck-how-priming-research-went-of-the-rails/", "prompt": "Extract: R-Index result for chapter 4, number of studies, Kahneman
+🔧 WebSearch {"query": "Daniel Kahneman morre 2024 Nobel Prêmio Nobel de Economia 2002 Rápido e Devagar obituário", "mode": "standard"}
+🔧 WebSearch {"query": "Open Science Collaboration 2015 Estimating the reproducibility of psychological science 36% replications significant Science", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.nature.com/news/polopoly_fs/7.6716.1349271308!/suppinfoFile/Kahneman Letter.pdf", "prompt": "Extract date, recipients, and key points of the letter; quote at most 3 short phrases 
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow", "prompt": "Extract: book structure (parts, chapters, pages in original), publication date, sales/awards (NYT list, Los Angeles Times bo
+🔧 WebSearch {"query": "Nobel Prize 2002 Daniel Kahneman \"for having integrated insights from psychological research into economic science\" prospect theory", "mode": "standard", "allowed_domains": ["nobelprize.o
+🔧 WebSearch {"query": "Norbert Schwarz response Kahneman \"no empirical evidence that work in this area is more or less replicable\" priming", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.nationalgeographic.com/science/article/daniel-kahneman-daisy-chain-replications-priming-psychology", "prompt": "Date of article, date of Kahneman's email, how it became public, wh
+🔧 WebFetch {"url": "https://www.aeaweb.org/doi/10.1257/jel.20221698", "prompt": "Title, authors, abstract (paraphrase), mean loss aversion coefficient, and conclusions on publication bias or moderators."}
+🔧 WebSearch {"query": "Gal Rucker 2018 \"The Loss of Loss Aversion: Will It Loom Larger Than Its Gain?\" Journal of Consumer Psychology", "mode": "standard"}
+🔧 WebSearch {"query": "ego depletion Many Labs registered replication Hagger 2016 failed Baumeister; Kahneman Thinking Fast and Slow cites glucose", "mode": "standard"}
+🔧 WebFetch {"url": "https://gwern.net/doc/www/replicationindex.com/89f18ec67ce498df5c316c96f0f6c5ccbbc6d2bb.html", "prompt": "What does this meta-scientific review conclude about the book chapter by chapter? Giv
+🔧 WebFetch {"url": "https://research.unipd.it/bitstream/11577/2688304/1/ManyLabs.2014.SP.fulltext.pdf", "prompt": "Which of the 13 effects replicated and which did not? Specifically anchoring (Jacowitz & Kahnema
+🔧 WebSearch {"query": "Schimmack \"A Meta-Scientific Perspective on Thinking: Fast and Slow\" 2020 chapter R-Index anchoring conclusion", "mode": "standard"}
+🔧 WebSearch {"query": "Klein 2014 \"Investigating variation in replicability\" Many Labs: flag priming and currency priming did not replicate; anchoring, gain vs loss framing results", "mode": "standard"}
+🔧 WebSearch {"query": "Kahneman Klein 2009 \"Conditions for intuitive expertise: a failure to disagree\" American Psychologist", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/02-dossie.md", "content": "# Dossiê — Rápido e Devagar (Daniel Kahneman) — Marca-Página, quarta 11/11/2
+💬 Escrevi o dossiê em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/02-dossie.md`. Várias fontes (Nature, os PDFs da carta e do Many Labs, parte do post de Schimmack de 2020) não abriram em texto integral. O que veio só de resumo de busca está marcado como confiança média ou baixa, e a seção 12 lista 14 itens não confirmados.
+
+**Dados da edição brasileira.** Objetiva (Companhia das Letras), lançamento em 24/07/2012, 608 páginas, tradução de Cássio de Arantes Leite, ISBN 978-85-390-0383-9. As páginas aparecem só na página da editora. O original é de 2011, da F
+🔧 Agent {"subagent_type": "roteirista-livros", "description": "Roteiro Rápido e Devagar", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11. Leia estado.json,
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/pautas.json"}
+💬 O dossiê está pronto e o roteirista está escrevendo o roteiro. Sigo para a checagem quando ele terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Rápido e Devagar: o que ainda vale do best-sel
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/03-roteiro.md", "content": "# Roteiro — Marca-Página — quarta 11/11/2026, 19h00\n\n**Título provisório:
+💬 O roteiro de Rápido e Devagar está pronto nos dois arquivos. São 10 blocos com cerca de 2.020 palavras, o que dá uns 13 minutos e meio. As contagens são estimativas minhas, não rodei contagem automática.
+
+**Título provisório:** Rápido e Devagar: o que ainda vale do best-seller de Kahneman
+
+**Tese:** o livro continua valendo como mapa dos erros previsíveis da cabeça, desde que lido com a mesma desconfiança que o próprio Kahneman passou a ter de um dos seus capítulos.
+
+**Ordem dos blocos:**
+1. **Gancho:** o autor admitiu o erro num blog. Mais a primeira chamada.
+2. **Quem é Kahneman:** o Nobel d
+🔧 Agent {"subagent_type": "checador", "description": "Checar roteiro", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11. Confira cada afirmação de 03-roteiro
+💬 O roteiro está escrito e o checador está conferindo as afirmações. Quando ele terminar, sigo para a originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/02-dossie.md"}
+🔧 WebFetch {"url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/", "prompt": "Birth place and date of Daniel Kahneman; prize motivation; shared with whom."}
+🔧 WebFetch {"url": "https://www.nationalgeographic.com/science/article/daniel-kahneman-daisy-chain-replications-priming-psychology", "prompt": "When did Kahneman send the email (date)? How many researchers? 'tra
+🔧 WebFetch {"url": "https://replicationindex.com/2017/02/02/reconstruction-of-a-train-wreck-how-priming-research-went-of-the-rails/", "prompt": "Publication date, authors, chapter number, 31 studies / 12 article
+🔧 WebFetch {"url": "https://www.companhiadasletras.com.br/livro/9788539003839/rapido-e-devagar", "prompt": "Selo, data de lançamento, páginas, tradutor, ISBN, ano da edição."}
+🔧 WebSearch {"query": "Rápido e devagar Kahneman sumário capítulo 4 \"A máquina associativa\" Objetiva", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/roteiro.json"}
+🔧 WebFetch {"url": "https://retractionwatch.com/2017/02/20/placed-much-faith-underpowered-studies-nobel-prize-winner-admits-mistakes", "prompt": "Exact Kahneman quotes (\"too much faith\", \"simply an error\"), 
+🔧 WebSearch {"query": "Daniel Kahneman born 1934 Tel Aviv Mandatory Palestine biography Nobel", "mode": "standard"}
+🔧 WebSearch {"query": "Kahneman Thinking Fast and Slow \"System 1\" \"System 2\" \"characters\" \"fictitious\" introduction not systems in brain", "mode": "standard"}
+🔧 WebSearch {"query": "Objetiva editora Companhia das Letras compra 2015 selo Objetiva Penguin Random House", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/livros'
+🔧 WebSearch {"query": "Marca-Página Frankenstein Short \"o monstro\" Mary Shelley canal", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/04-checagem.md", "content": "# Checagem — Rápido e Devagar (Marca-Página, quarta 11/11/2026)\n\n**VERED
+💬 **Veredito: CORRIGIR.** Escrevi a checagem completa em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/04-checagem.md`.
+
+Os fatos centrais conferem. O que reprova é pequeno e fácil de arrumar.
+
+**Os pontos que você pediu**
+- **"Nasceu em Tel Aviv": confere.** A confirmação veio por busca (Nobel e Britannica), porque o NobelPrize.org devolveu 403 ao fetch direto. Ele nasceu lá numa visita da mãe, mas a família morava em Paris. Pode ficar.
+- **"Usa os dois quase como personagens": confere.** A Introdução do livro chama os dois sistemas de "personagens fictícios
+🔧 Agent {"subagent_type": "roteirista-livros", "description": "Aplicar correções da checagem", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11. O checador d
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/04-checagem.md"}
+💬 O checador devolveu o roteiro com 11 correções (primeira volta). O roteirista está aplicando todas. Depois sigo para a originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+💬 O histórico confirma que o Short do Frankenstein existe e foi publicado (462 visualizações), então a menção fica. Vou aplicar as correções.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Rápido e Devagar: o que ainda vale do best-sel
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/03-roteiro.md", "content": "# Roteiro — Marca-Página — quarta 11/11/2026, 19h00 (versão 2, após checage
+💬 Apliquei as 11 correções do checador em `03-roteiro.md` e em `roteiro.json`. O json continua no mesmo formato, e o `resumo_checagem` agora tem uma frase dizendo que a volta 1 foi corrigida e que o roteiro aguarda a nova checagem.
+
+**Chamadas de engajamento**
+- **Bloco 1:** agora pede inscrição, like e comentário ("conta nos comentários qual livro de psicologia você já largou no meio"). Enxuguei a frase da promessa para o bloco caber no limite: ficou com 113 palavras.
+- **Bloco 6:** mantém a pergunta para os comentários e o like, e ganhou o pedido de inscrição. Ele termina em "a conta dessa his
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar roteiro corrigido", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11. Segunda checagem (volta 
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/04-checagem.md"}
+🔧 Agent {"subagent_type": "guardiao-originalidade", "description": "Originalidade do roteiro", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11. Avalie 03-ro
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/02-dossie.md"}
+💬 As correções foram aplicadas. Estão rodando em paralelo a segunda checagem e a avaliação de originalidade. Aguardo as duas.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/roteiro.json"}
+🔧 WebFetch {"url": "file:///home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md", "prompt": "Does it mention a Short about Frankenstein published, with 462 views? Quote the lines."}
+❌ Invalid URL
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/04-checagem.md", "content": "# Checagem final — Rápido e Devagar (Marca-Página, quarta 11/11/2026)\n\n*
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/05-originalidade.md", "content": "# Originalidade — Rápido e Devagar (Marca-Página, quarta 11/11/2026)\
+💬 **APROVADO.** Reescrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/04-checagem.md` com o veredito final.
+
+- **Correções:** as 11 correções estão aplicadas em `03-roteiro.md`, e `roteiro.json` tem o mesmo texto. As chamadas de engajamento estão completas nos blocos 1, 6 e 10. A menção ao Short do Frankenstein foi confirmada em `canais/livros/historico.md`, que registra o Short com 462 visualizações.
+- **Fato novo:** não entrou nenhum sem fonte. As frases novas, como a de Gary Klein e a remissão à descrição do vídeo, estão cobertas pelo dossiê.
+- **Fora do
+💬 Checagem aprovada. Falta a avaliação de originalidade.
+💬 Escrevi o `05-originalidade.md` com o semáforo 🟡 (ajustar). Não é 🔴, porque a tese e a estrutura são do vídeo e não de template. Também não é 🟢, porque a opinião do Miguel ainda não entrou.
+
+**Resumo:** a tese do roteiro é própria e verificável: o livro vale como mapa de vieses, mas deve ser lido com a desconfiança que o Kahneman passou a ter. Só que o veredito do bloco 9 e a voz do texto ainda são de IA. A `nota_miguel` está vazia e o bloco 9 é provisório.
+
+**Notas (0–10):**
+
+| Item | Nota | Motivo |
+|---|---|---|
+| Variação | 6 | O `historico.md` não tem nenhum vídeo registrado, então não há
+🔧 Agent {"subagent_type": "roteirista-livros", "description": "Aplicar ajustes de originalidade", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11. Leia 05-o
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/05-originalidade.md"}
+💬 A originalidade deu 🟡. O roteirista está aplicando a volta única de ajustes. Depois eu confiro as chamadas de engajamento e o nicho, valido o JSON e atualizo o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Rápido e Devagar: o que ainda vale do best-sel
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/03-roteiro.md", "content": "# Roteiro — Marca-Página — quarta 11/11/2026, 19h00 (versão 3, após origina
+💬 Apliquei as mudanças que a avaliação de originalidade (🟡) apontou como mais importantes, nos dois arquivos. Os textos dos blocos ficaram iguais entre eles e nenhum fato novo entrou. Não contei as palavras com ferramenta: os números abaixo são estimativas.
+
+1. **Frases com cara de IA cortadas.**
+   - **Bloco 1:** saíram "Imagina escrever..." e "E tem ironia:". O gancho agora começa pela cena concreta: "Em dois mil e dezessete, Daniel Kahneman entrou no blog de um crítico para admitir...". O fato é o mesmo do bloco 7.
+   - **Bloco 5:** saiu "Até aqui, um livro brilhante...". Entrou "Essas cinco 
+💬 Agora confiro eu mesmo o JSON, as chamadas de engajamento e o nicho.
+🔧 Bash {"command": "python3 -I - <<'E'\nimport json\nr=json.load(open('roteiro.json'))\nprint({k:(v if k!='blocos' else len(v)) for k,v in r.items()})\nimport re\nfor i,b in enumerate(r['blocos'],1):\n    t=
+❌ Contains brace with quote character (expansion obfuscation)
+🔧 Bash {"command": "cat > /tmp/chk.py <<'E'\nimport json,sys\nr=json.load(open('roteiro.json'))\nfor k,v in r.items():\n    if k!='blocos': print(k,':',v)\nfor i,b in enumerate(r['blocos'],1):\n    t=b['text
+❌ Output redirection to '/tmp/chk.py' needs approval. The path is outside the working directories for this session ('/home/runner/work/escritorio-dark/escritorio-dark'). Allowing runs the command as written.
+🔧 Bash {"command": "python3 -c \"\nimport json\nr=json.load(open('roteiro.json'))\n[print(k,':',v) for k,v in r.items() if k!='blocos']\nfor i,b in enumerate(r['blocos'],1):\n    t=b['texto'].lower()\n    pr
+🔧 Bash {"command": "python3 -c \"\nimport json\nr=json.load(open('roteiro.json'))\nfor i in (0,5,9): print(i+1, r['blocos'][i]['texto'],'\\n')\n\""}
+💬 Os três pedidos de engajamento estão no roteiro e o conteúdo fica no nicho. Atualizo o `estado.json`.
+🔧 Bash {"command": "python3 -c \"\nimport json\ne=json.load(open('estado.json'));r=json.load(open('roteiro.json'))\ne['titulo']=r['titulo_provisorio']\njson.dump(e,open('estado.json','w'),ensure_ascii=False,
+💬 O roteiro de *Rápido e Devagar* (Marca-Página, quarta 11/11) está pronto. Ficou com cerca de 1.910 palavras, uns 12 min 45 s, em 10 blocos.
+
+- **Dossiê:** as fontes principais ficaram sem texto integral. Elas são os PDFs da carta e do Many Labs, o artigo de 2024 e o post de Schimmack de 2020. Os números vêm de resumos e batem entre si. O dossiê lista 14 itens não confirmados, e o roteiro deixa de fora o que não deu para confirmar.
+- **Checagem:** a primeira rodada deu CORRIGIR, com 11 correções. Depois delas, a segunda rodada deu APROVADO: 48 afirmações checadas, 12 corrigidas, nenhuma pendênc
+
+=== resultado: success | turnos 3 | 10s | erro=False
+O dossiê está sendo montado pelo pesquisador. Aguardo a conclusão para seguir para o roteiro.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+O dossiê está pronto e o roteirista está escrevendo o roteiro. Sigo para a checagem quando ele terminar.
+
+=== resultado: success | turnos 2 | 7s | erro=False
+O roteiro está escrito e o checador está conferindo as afirmações. Quando ele terminar, sigo para a originalidade.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+O checador devolveu o roteiro com 11 correções (primeira volta). O roteirista está aplicando todas. Depois sigo para a originalidade.
+
+=== resultado: success | turnos 3 | 7s | erro=False
+As correções foram aplicadas. Estão rodando em paralelo a segunda checagem e a avaliação de originalidade. Aguardo as duas.
+
+=== resultado: success | turnos 1 | 1s | erro=False
+Checagem aprovada. Falta a avaliação de originalidade.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+A originalidade deu 🟡. O roteirista está aplicando a volta única de ajustes. Depois eu confiro as chamadas de engajamento e o nicho, valido o JSON e atualizo o `estado.json`.
+
+=== resultado: success | turnos 6 | 33s | erro=False
+O roteiro de *Rápido e Devagar* (Marca-Página, quarta 11/11) está pronto. Ficou com cerca de 1.910 palavras, uns 12 min 45 s, em 10 blocos.
+
+- **Dossiê:** as fontes principais ficaram sem texto integral. Elas são os PDFs da carta e do Many Labs, o artigo de 2024 e o post de Schimmack de 2020. Os números vêm de resumos e batem entre si. O dossiê lista 14 itens não confirmados, e o roteiro deixa de fora o que não deu para confirmar.
+- **Checagem:** a primeira rodada deu CORRIGIR, com 11 correções. Depois delas, a segunda rodada deu APROVADO: 48 afirmações checadas, 12 corrigidas, nenhuma pendência.
+- **Originalidade:** deu 🟡. Apliquei os ajustes (frases com cara de IA cortadas, bloco 8 enxuto, pedidos de engajamento com redação variada). Esses ajustes não passaram por nova checagem. As frases reescritas que valem conferir estão em "Notas para o checador", no `03-roteiro.md`: "a maioria se repetiu" (10 de 13 efeitos) e "metanálise recente" (a de 2024).
+- **Engajamento:** conferi no `roteiro.json`. O bloco 1 pede inscrição, like e comentário. O bloco 6, perto da metade, tem a pergunta para os comentários, o like e a inscrição. O bloco 10 fecha com inscrição, like e comentário.
+- **Nicho:** o roteiro fala só do livro. Não há ENEM nem vestibular.
+- **Estado:** `estado.json` agora tem `titulo` = "Rápido e Devagar: o que ainda vale do best-seller de Kahneman". Não criei `producao.json`.
+
+A `nota_miguel` veio vazia, então o veredito do bloco 9 é provisório e está marcado para o Miguel trocar pela opinião dele. A pergunta para ele está no `roteiro.json`: o capítulo do priming derruba a confiança no livro, ou a admissão pública do Kahneman faz o livro valer mais? E ele mandaria ler as 608 páginas, só partes ou nada? Se ele discordar da tese, o bloco 9 e o fecho do bloco 10 precisam de nova leitura.
+
+O fecho cita o Short de Frankenstein, que o `historico.md` confirma como publicado. Não fiz commit.
+codigo de saida: 0
