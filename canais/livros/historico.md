@@ -27,3 +27,4 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-08
 - Short "o que todo mundo acha que sabe" sobre 1984 ou outro clássico muito conhecido (ideias atribuídas ao livro que ele não diz); checar o texto antes.
+- Short "o que todo mundo acha que sabe" sobre outro clássico muito conhecido, como o do Frankenstein (462 views), levando ao longo do mesmo livro; checar o texto antes.

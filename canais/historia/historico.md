@@ -34,3 +34,4 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-08
 - Shorts com contradição entre dinheiro e poder (a Bolsa quase não caiu, mas o presidente caiu: 648 views) em outras crises, contados pelo dinheiro; os de número seco sem personagem (70% das exportações) não decolaram. Checar fontes antes.
+- Short sobre o devedor que mandou um "Pix" de 150 libras e disse que estava tudo em dia (Eduardo III e os Bardi), no molde de comparação com hoje do Pix medieval (1.257 views); checar fontes antes.
