@@ -1,0 +1,51 @@
+20:56:07 INFO ilustrações: higgsfield desligado (sem chave)
+20:56:07 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+20:56:07 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+20:56:09 INFO Processing audio with duration 00:35.008
+[0;93m2026-11-08 20:56:09.164054410 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+20:56:09 INFO VAD filter removed 00:00.000 of audio
+20:56:21 INFO Processing audio with duration 00:35.008
+20:56:21 INFO VAD filter removed 00:00.000 of audio
+20:56:33 INFO Processing audio with duration 01:07.128
+20:56:33 INFO VAD filter removed 00:00.000 of audio
+20:56:55 INFO Processing audio with duration 01:07.128
+20:56:55 INFO VAD filter removed 00:00.000 of audio
+20:57:16 INFO Processing audio with duration 01:03.128
+20:57:16 INFO VAD filter removed 00:00.000 of audio
+20:57:38 INFO Processing audio with duration 01:03.128
+20:57:38 INFO VAD filter removed 00:00.000 of audio
+20:58:00 INFO Processing audio with duration 01:04.328
+20:58:00 INFO VAD filter removed 00:00.000 of audio
+20:58:23 INFO Processing audio with duration 01:04.328
+20:58:23 INFO VAD filter removed 00:00.000 of audio
+20:58:47 INFO Processing audio with duration 01:09.248
+20:58:47 INFO VAD filter removed 00:00.000 of audio
+20:59:10 INFO Processing audio with duration 01:09.248
+20:59:10 INFO VAD filter removed 00:00.000 of audio
+20:59:34 INFO Processing audio with duration 01:15.688
+20:59:34 INFO VAD filter removed 00:00.000 of audio
+21:00:02 INFO Processing audio with duration 01:15.688
+21:00:02 INFO VAD filter removed 00:00.000 of audio
+21:00:29 INFO Processing audio with duration 01:20.448
+21:00:29 INFO VAD filter removed 00:00.000 of audio
+21:00:55 INFO Processing audio with duration 01:20.448
+21:00:55 INFO VAD filter removed 00:00.000 of audio
+21:01:22 INFO Processing audio with duration 01:02.288
+21:01:22 INFO VAD filter removed 00:00.000 of audio
+21:01:44 INFO Processing audio with duration 01:02.288
+21:01:44 INFO VAD filter removed 00:00.000 of audio
+21:02:05 INFO Processing audio with duration 00:57.928
+21:02:05 INFO VAD filter removed 00:00.000 of audio
+21:02:27 INFO Processing audio with duration 00:57.928
+21:02:27 INFO VAD filter removed 00:00.000 of audio
+21:02:48 INFO Processing audio with duration 01:15.688
+21:02:48 INFO VAD filter removed 00:00.000 of audio
+21:03:15 INFO Processing audio with duration 01:15.688
+21:03:16 INFO VAD filter removed 00:00.000 of audio
+21:03:43 INFO gerando 93 ilustrações…
+21:03:43 WARNING ilustrações: teto do flux atingido
+21:03:43 WARNING ilustrações: teto do flux atingido
+21:03:43 WARNING ilustrações: teto do flux atingido
+21:03:43 WARNING ilustrações: teto do flux atingido
+21:03:43 INFO ilustrações prontas: 64 geradas (93 pedidas)
+21:03:43 WARNING cota de imagens: 63 de 92 desenhos prontos — montagem adiada
