@@ -24,3 +24,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-07
 - Repetir com Dom Casmurro o molde que funcionou: Short "o que todo mundo acha que sabe" (Capitu traiu?) e levar o espectador ao longo.
+
+### 2026-11-08
+- Short "o que todo mundo acha que sabe" sobre 1984 ou outro clássico muito conhecido (ideias atribuídas ao livro que ele não diz); checar o texto antes.

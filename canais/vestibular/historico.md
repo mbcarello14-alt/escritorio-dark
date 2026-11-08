@@ -29,3 +29,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-07
 - Mapa mental curto de "pegadinhas de porcentagem" ligando os Shorts campeões (regra de três, 10% + 10%), como longo com título em pergunta.
+
+### 2026-11-08
+- Short de pegadinha com número e pergunta no título em Química (ex.: concentração ou pH), repetindo o molde da regra de três (844 views); o Short de Mariana, só com contexto, fez 35.

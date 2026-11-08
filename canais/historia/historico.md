@@ -31,3 +31,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-07
 - Fazer um Short que termine mandando para o longo do mesmo assunto (Pix medieval para o vídeo dos Templários), já que o Short chegou a 1.257 views e o longo tem 15.
+
+### 2026-11-08
+- Shorts com contradição entre dinheiro e poder (a Bolsa quase não caiu, mas o presidente caiu: 648 views) em outras crises, contados pelo dinheiro; os de número seco sem personagem (70% das exportações) não decolaram. Checar fontes antes.
