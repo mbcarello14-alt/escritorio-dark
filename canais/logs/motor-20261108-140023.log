@@ -1,0 +1,59 @@
+14:00:24 INFO ilustrações: higgsfield desligado (sem chave)
+14:00:56 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 1/10
+14:00:56 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+14:00:56 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+14:00:57 INFO Processing audio with duration 00:35.008
+[0;93m2026-11-08 14:00:57.805921663 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+14:00:57 INFO VAD filter removed 00:00.000 of audio
+14:01:07 INFO Processing audio with duration 00:35.008
+14:01:08 INFO VAD filter removed 00:00.000 of audio
+14:01:56 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 2/10
+14:01:57 INFO Processing audio with duration 01:07.128
+14:01:57 INFO VAD filter removed 00:00.000 of audio
+14:02:15 INFO Processing audio with duration 01:07.128
+14:02:15 INFO VAD filter removed 00:00.000 of audio
+14:03:11 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 3/10
+14:03:12 INFO Processing audio with duration 01:03.128
+14:03:12 INFO VAD filter removed 00:00.000 of audio
+14:03:30 INFO Processing audio with duration 01:03.128
+14:03:30 INFO VAD filter removed 00:00.000 of audio
+14:04:26 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 4/10
+14:04:26 INFO Processing audio with duration 01:04.328
+14:04:26 INFO VAD filter removed 00:00.000 of audio
+14:04:45 INFO Processing audio with duration 01:04.328
+14:04:45 INFO VAD filter removed 00:00.000 of audio
+14:05:43 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 5/10
+14:05:43 INFO Processing audio with duration 01:09.248
+14:05:43 INFO VAD filter removed 00:00.000 of audio
+14:06:03 INFO Processing audio with duration 01:09.248
+14:06:03 INFO VAD filter removed 00:00.000 of audio
+14:07:04 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 6/10
+14:07:04 INFO Processing audio with duration 01:15.688
+14:07:04 INFO VAD filter removed 00:00.000 of audio
+14:07:26 INFO Processing audio with duration 01:15.688
+14:07:26 INFO VAD filter removed 00:00.000 of audio
+14:08:30 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 7/10
+14:08:30 INFO Processing audio with duration 01:20.448
+14:08:30 INFO VAD filter removed 00:00.000 of audio
+14:08:52 INFO Processing audio with duration 01:20.448
+14:08:52 INFO VAD filter removed 00:00.000 of audio
+14:09:51 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 8/10
+14:09:51 INFO Processing audio with duration 01:02.288
+14:09:51 INFO VAD filter removed 00:00.000 of audio
+14:10:08 INFO Processing audio with duration 01:02.288
+14:10:08 INFO VAD filter removed 00:00.000 of audio
+14:11:03 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 9/10
+14:11:03 INFO Processing audio with duration 00:57.928
+14:11:03 INFO VAD filter removed 00:00.000 of audio
+14:11:21 INFO Processing audio with duration 00:57.928
+14:11:21 INFO VAD filter removed 00:00.000 of audio
+14:12:20 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 10/10
+14:12:20 INFO Processing audio with duration 01:15.688
+14:12:20 INFO VAD filter removed 00:00.000 of audio
+14:12:42 INFO Processing audio with duration 01:15.688
+14:12:43 INFO VAD filter removed 00:00.000 of audio
+14:13:05 INFO gerando 93 ilustrações…
+14:13:28 WARNING Flux klein falhou (3030: Your output has been flagged. Please choose another prompt / input image combination) — usando o próximo modelo
+14:14:02 WARNING ilustrações: teto do flux atingido
+14:14:03 INFO ilustrações prontas: 64 geradas (93 pedidas)
+14:14:04 WARNING cota de imagens: 63 de 92 desenhos prontos — montagem adiada

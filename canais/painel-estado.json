@@ -1,20 +1,8 @@
 {
-  "atualizado_em": "2026-11-08T13:59:25Z",
+  "atualizado_em": "2026-11-08T14:14:07Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
-    ],
-    "narrador": [
-      "Marca-Página: Kahneman errou? O que ainda vale de Rápido e Devagar"
-    ],
-    "ilustrador": [
-      "Marca-Página: Kahneman errou? O que ainda vale de Rápido e Devagar"
-    ],
-    "editor": [
-      "Marca-Página: Kahneman errou? O que ainda vale de Rápido e Devagar"
-    ],
-    "clipador": [
-      "Marca-Página: Kahneman errou? O que ainda vale de Rápido e Devagar"
     ]
   },
   "proximos": [
@@ -43,8 +31,8 @@
       "dia": "2026-11-11",
       "rotulo": "quarta 11/11 19h00",
       "publicar_em_utc": "2026-11-11T22:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "aguardando_cota",
+      "etapa_txt": "🎨 esperando a cota de imagens para desenhar",
       "titulo": "Kahneman errou? O que ainda vale de Rápido e Devagar",
       "url": ""
     },
@@ -145,8 +133,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 64,
+    "neurons": 9880,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
