@@ -1,0 +1,52 @@
+{
+  "canal": "livros",
+  "titulo": "O clássico escrito com 9 dólares em moedas (Fahrenheit 451)",
+  "descricao": "Ray Bradbury escreveu a primeira versão de Fahrenheit 451 em uma máquina de escrever alugada na biblioteca da UCLA, pagando em moedas de dez centavos.",
+  "hashtags": ["#livros", "#fahrenheit451", "#raybradbury"],
+  "legenda_reels": "Fahrenheit 451, de Ray Bradbury, nasceu em nove dias numa máquina de escrever alugada na biblioteca, por US$ 9,80 em moedas. Qual livro você salvaria do fogo? Comenta FAHRENHEIT #livros #booktok #fahrenheit451",
+  "isca": "Comenta FAHRENHEIT",
+  "cenario": {"ceu": "#ffb27a", "chao": "#7fb069", "cidade": false, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "valor", "tipo": "numero", "valor": 0, "prefixo": "US$ ", "casas": 2, "cor": "#ffffff", "tam": 1.5, "pos": [0, 0.72], "oculto": true},
+    {"id": "pilha", "tipo": "pilha_moedas", "pos": [2, 0, 0.5], "altura": 0, "max_moedas": 98, "cor": "prata"},
+    {"id": "bradbury", "tipo": "boneco", "pos": [-1.2, 0, 0.5], "cor": "#8d5a97", "calca": "#3d3d3d", "fala": true, "oculto": true},
+    {"id": "maquina", "tipo": "cubo", "pos": [-1.2, 1.1, 2], "tam": [1.6, 0.6, 1.1], "cor": "#2b2d42", "oculto": true},
+    {"id": "livro", "tipo": "livro", "pos": [0, 0.3, 2], "escala": 1.7, "cor": "#e63946", "titulo": "Fahrenheit 451\nRay Bradbury", "oculto": true},
+    {"id": "frase", "tipo": "texto", "texto": "9 dias\nna biblioteca", "cor": "#ffffff", "fundo": "#1d1d1d", "tam": 1.1, "pos": [0, 0.6], "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Um clássico mundial foi escrito com nove dólares e oitenta em moedas.", "acoes": [
+      {"t": 0.0, "alvo": "valor", "acao": "aparecer", "som": "pop"},
+      {"t": 0.3, "alvo": "valor", "acao": "contar", "para": 9.8, "dur": 2.0, "som": "tic"},
+      {"t": 0.5, "alvo": "pilha", "acao": "crescer", "para": 98, "dur": 2.5, "som": "caixa"},
+      {"t": 3.2, "alvo": "valor", "acao": "escalar", "para": 1.3, "som": "ding"}
+    ]},
+    {"texto": "Ray Bradbury não tinha dinheiro para um escritório, então alugou uma máquina de escrever na biblioteca da UCLA.", "acoes": [
+      {"t": 0.0, "alvo": "valor", "acao": "sumir"},
+      {"t": 0.2, "alvo": "bradbury", "acao": "aparecer", "som": "pop"},
+      {"t": 1.5, "alvo": "maquina", "acao": "aparecer", "som": "whoosh"},
+      {"t": 2.5, "acao": "camera", "pos": [-0.5, 4.5, 12], "olha": [-0.5, 2.5, 0], "dur": 1.2},
+      {"t": 4.0, "alvo": "bradbury", "acao": "pular", "altura": 0.7}
+    ]},
+    {"texto": "Cada moeda de dez centavos comprava um pouco de tempo. Em nove dias, saiu a primeira versão de Fahrenheit quatrocentos e cinquenta e um.", "acoes": [
+      {"t": 0.0, "alvo": "pilha", "acao": "crescer", "para": 20, "dur": 1.0, "som": "caixa"},
+      {"t": 1.0, "alvo": "frase", "acao": "aparecer", "som": "ding"},
+      {"t": 3.0, "alvo": "maquina", "acao": "pular", "altura": 0.5, "som": "tic"},
+      {"t": 4.5, "alvo": "livro", "acao": "aparecer", "som": "whoosh"},
+      {"t": 5.0, "alvo": "livro", "acao": "girar", "voltas": 1}
+    ]},
+    {"texto": "Um livro sobre queimar livros, escrito dentro de uma biblioteca.", "acoes": [
+      {"t": 0.0, "alvo": "frase", "acao": "sumir"},
+      {"t": 0.2, "acao": "camera", "pos": [0, 5, 15], "olha": [0, 3.2, 0], "dur": 1.0},
+      {"t": 2.0, "alvo": "livro", "acao": "explodir", "som": "boom"},
+      {"t": 2.0, "acao": "tremer", "forca": 0.45}
+    ]},
+    {"texto": "Qual livro você salvaria do fogo? Comenta FAHRENHEIT, que a gente indica mais um.", "acoes": [
+      {"t": 0.2, "alvo": "frase", "acao": "texto", "texto": "Comenta\nFAHRENHEIT"},
+      {"t": 0.3, "alvo": "frase", "acao": "aparecer", "som": "ding"},
+      {"t": 0.5, "alvo": "bradbury", "acao": "acenar"},
+      {"t": 2.5, "alvo": "bradbury", "acao": "pular", "altura": 1.0, "som": "pop"}
+    ]}
+  ]
+}

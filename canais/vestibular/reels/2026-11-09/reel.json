@@ -1,0 +1,74 @@
+{
+  "canal": "vestibular",
+  "titulo": "De onde vem a massa de uma árvore? Cai no ENEM",
+  "descricao": "O experimento do salgueiro de van Helmont e a pegadinha da fotossíntese: a massa da planta vem em grande parte do gás carbônico do ar, não da terra.",
+  "hashtags": ["#enem", "#biologia", "#fotossintese"],
+  "legenda_reels": "Uma árvore de 75 kg quase não tirou nada da terra. A pegadinha de fotossíntese que cai no ENEM. Comenta AR e eu faço o mapa mental! #enem #biologia #fotossintese #vestibular",
+  "isca": "Comenta AR",
+  "cenario": {"ceu": "#bfe3f7", "chao": "#86c06c", "cidade": false, "arvores": 0, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "lousa", "tipo": "lousa", "pos": [0, 0, -3.5]},
+    {"id": "vaso", "tipo": "cubo", "tam": [2.2, 0.9, 2.2], "cor": "#8b5a2b", "pos": [-1.2, 0.45, 0]},
+    {"id": "arvore", "tipo": "arvore", "pos": [-1.2, 0.9, 0], "escala": 0.3},
+    {"id": "prof", "tipo": "boneco", "cor": "#3b6fd4", "pele": "#f1c9a0", "cabelo": "#3a2a1a", "calca": "#2b2b3a", "pos": [2.2, 0, 0.5], "rot": -30, "fala": true},
+    {"id": "kg", "tipo": "numero", "valor": 0, "sufixo": " kg", "casas": 0, "cor": "#1b8a3a", "tam": 1.6, "pos": [0, 0.78], "oculto": true},
+    {"id": "termo", "tipo": "texto", "texto": "ÁRVORE = AR", "cor": "#ffffff", "fundo": "#1b8a3a", "tam": 1.3, "pos": [0, 0.62], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Uma árvore de setenta e cinco quilos quase não tirou nada da terra.",
+      "acoes": [
+        {"t": 0.1, "alvo": "kg", "acao": "aparecer", "som": "pop"},
+        {"t": 0.3, "alvo": "kg", "acao": "contar", "para": 75, "dur": 2.5},
+        {"t": 0.5, "alvo": "arvore", "acao": "escalar", "para": 3, "dur": 3, "som": "whoosh"}
+      ]
+    },
+    {
+      "texto": "No século dezessete, van Helmont plantou um salgueiro num vaso e esperou cinco anos.",
+      "acoes": [
+        {"t": 0.2, "alvo": "kg", "acao": "sumir"},
+        {"t": 0.3, "alvo": "arvore", "acao": "escalar", "para": 0.3},
+        {"t": 0.5, "alvo": "prof", "acao": "acenar"},
+        {"t": 2.0, "alvo": "arvore", "acao": "escalar", "para": 2.2, "dur": 2.5}
+      ]
+    },
+    {
+      "texto": "A árvore ganhou setenta e cinco quilos. A terra perdeu menos de cem gramas.",
+      "acoes": [
+        {"t": 0.2, "alvo": "kg", "acao": "aparecer", "som": "ding"},
+        {"t": 0.3, "alvo": "kg", "acao": "contar", "para": 75, "dur": 1.5},
+        {"t": 2.5, "alvo": "vaso", "acao": "escalar", "para": 0.9},
+        {"t": 2.6, "alvo": "kg", "acao": "texto", "texto": "terra: -0,06 kg"},
+        {"t": 2.6, "alvo": "prof", "acao": "pular", "altura": 1}
+      ]
+    },
+    {
+      "texto": "A pegadinha: essa massa vem do gás carbônico do ar, pela fotossíntese.",
+      "acoes": [
+        {"t": 0.2, "alvo": "kg", "acao": "sumir"},
+        {"t": 0.3, "alvo": "termo", "acao": "aparecer", "som": "pop"},
+        {"t": 1.5, "alvo": "termo", "acao": "texto", "texto": "CO2 do ar\n+ água + luz"},
+        {"t": 2.8, "alvo": "arvore", "acao": "escalar", "para": 3, "dur": 1.5},
+        {"t": 3.2, "acao": "tremer", "forca": 0.4, "som": "boom"}
+      ]
+    },
+    {
+      "texto": "Grava assim: planta é feita, em grande parte, de ar. Isso cai muito no ENEM.",
+      "acoes": [
+        {"t": 0.3, "alvo": "termo", "acao": "texto", "texto": "PLANTA = AR"},
+        {"t": 0.5, "alvo": "prof", "acao": "acenar"},
+        {"t": 2.5, "alvo": "termo", "acao": "cor", "cor": "#d4a017"},
+        {"t": 3.0, "alvo": "prof", "acao": "pular", "altura": 1, "som": "ding"}
+      ]
+    },
+    {
+      "texto": "De onde você achava que vinha a massa? Comenta AR.",
+      "acoes": [
+        {"t": 0.2, "alvo": "termo", "acao": "texto", "texto": "De onde vinha?"},
+        {"t": 0.5, "alvo": "prof", "acao": "girar", "voltas": 1, "som": "whoosh"},
+        {"t": 2.0, "alvo": "termo", "acao": "texto", "texto": "Comenta AR"}
+      ]
+    }
+  ]
+}
