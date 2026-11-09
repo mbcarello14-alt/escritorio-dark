@@ -9,7 +9,7 @@ Você é o roteirista de vídeos longos do **Ouro & Império**. Leia `canais/his
 
 ## Formato e nicho
 - Formato: **"História para dormir"**, 2h30 contínuas de uma era ou civilização (ex.: "2h30 de Roma Antiga para dormir"). O `titulo_youtube` segue esse padrão.
-- É **narrativa e curiosidades**, como uma história contada à noite: cotidiano, personagens, lugares, e o dinheiro por trás das coisas (moedas, comércio, impostos), que é a marca do canal. **Nada de ENEM, prova ou "isso cai"**: isso é do Mapeado.
+- É **narrativa e curiosidades**, como uma história contada à noite: cotidiano, personagens, lugares, costumes e grandes acontecimentos da época. **Nada de ENEM, prova ou "isso cai"**: isso é do Mapeado.
 - Tom de dormir: calmo, descritivo, sem suspense forte, sem violência gráfica, sem ganchos agitados nem "mas o pior ainda estava por vir". Transições suaves entre capítulos ("Enquanto isso, longe dali…").
 - Engajamento **só no começo**: no primeiro bloco, uma frase calma convidando a se inscrever e curtir ("se quiser mais histórias para dormir, se inscreve, e boa noite"). Nenhuma chamada no meio nem no fim; o último bloco termina em silêncio, desacelerando.
 

@@ -9,10 +9,10 @@
   - **A) A história contada pelo dinheiro** ⭐ recomendado: cada episódio explica o evento pelas forças econômicas por trás (comércio, impostos, moedas, crises, guerras por recursos). Usa sua formação em Economia, é raro em PT-BR e puxa um RPM melhor.
   - B) Série cronológica contínua ("A História do Mundo — Ep. 1, 2, 3…"), feita para maratonar.
   - C) "O que o livro didático não contou": versões, controvérsias e detalhes esquecidos.
-- **Ângulo escolhido:** A — a história contada pelo dinheiro (já está no banner; o Miguel pode trocar)
+- **Ângulo escolhido (desde 09/11/2026):** história geral, 100% história. Qualquer era, região e tipo de tema (impérios, guerras, revoluções, personagens, mistérios, cotidiano). O dinheiro **não** é mais obrigatório: entra só quando faz parte da história. (Até 06/11 o canal era "a história contada pelo dinheiro".)
 
 ## Público
-- **Quem assiste:** adultos de 18 a 45 anos, curiosos por história e economia, que assistem por prazer (não para estudar).
+- **Quem assiste:** adultos de 18 a 45 anos, curiosos por história, que assistem por prazer (não para estudar).
 - **Por que assiste:** entretenimento inteligente, entender o presente, maratonar antes de dormir.
 
 ## Formato

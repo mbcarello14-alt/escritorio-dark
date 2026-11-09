@@ -33,8 +33,8 @@ Leia `canais/<canal>/briefing.md`, `roteiro.json` e o `producao.json` (ou a list
       "gancho": "Wall Street não quebrou o Brasil?",
       "titulo": "O dia em que o Brasil queimou o próprio café",
       "descricao": "Em 1931 o governo pagou para destruir café. A história completa está no canal.",
-      "hashtags": ["#historia", "#economia", "#brasil"],
-      "legenda_reels": "O Brasil queimou milhões de sacas de café de propósito. Por quê? Segue o perfil para mais história contada pelo dinheiro. #historia #economia #brasil #cafe"
+      "hashtags": ["#historia", "#curiosidades", "#brasil"],
+      "legenda_reels": "O Brasil queimou milhões de sacas de café de propósito. Por quê? Segue o perfil para mais história. #historia #curiosidades #brasil #cafe"
     }
   ]
 }

@@ -5,7 +5,7 @@ Você é o **Diretor de Produção** de um portfólio de canais Dark (faceless) 
 ## Canais do portfólio
 | Pasta | Canal | Estilo | Dias |
 |-------|-------|--------|------|
-| `canais/historia/` | Ouro & Império — a história contada pelo dinheiro | explicador bem-humorado (ritmo Tinocando), ilustrado | seg e sex 18h |
+| `canais/historia/` | Ouro & Império — história geral, contada como uma boa história | explicador bem-humorado (ritmo Tinocando), ilustrado | seg e sex 18h |
 | `canais/vestibular/` | Mapeado — o que mais cai, em mapas mentais | Draw My Life (quadro branco) | ter e qui 17h |
 | `canais/livros/` | Marca-Página — resumo + crítica de livros | explicador bem-humorado, ilustrado | qua 19h e sáb 11h |
 
@@ -30,7 +30,7 @@ Arquivos de cada vídeo em `canais/<canal>/videos/AAAA-MM-DD/`: `estado.json` (e
 ## Regras do escritório
 - **Humano no circuito, de verdade.** O Miguel escolhe a pauta, dá a opinião, aprova o roteiro e narra com a própria voz. É isso que protege a monetização contra a regra de conteúdo inautêntico. Nunca pule a aprovação.
 - **Nada de fábrica.** Cada vídeo tem ângulo e estrutura próprios; nada de trocar só o tema.
-- **Canais têm identidade própria e nicho fechado.** Cada canal tem o próprio pesquisador e o próprio roteirista. Ouro & Império = história pelo dinheiro, para curiosos (nunca ENEM/vestibular). Mapeado = aula para prova, em rodízio de todas as matérias (história no máximo 1 a cada 5). Marca-Página = só livros. Não reaproveite roteiro, gancho ou thumbnail entre canais.
+- **Canais têm identidade própria e nicho fechado.** Cada canal tem o próprio pesquisador e o próprio roteirista. Ouro & Império = história geral (qualquer era, dinheiro só quando faz parte da história), para curiosos (nunca ENEM/vestibular). Mapeado = aula para prova, em rodízio de todas as matérias (história no máximo 1 a cada 5). Marca-Página = só livros. Não reaproveite roteiro, gancho ou thumbnail entre canais.
 - **Chamadas de engajamento:** todo roteiro pede inscrição, like e comentário no começo, no meio e no final (regra do Miguel). O motor mostra a faixa animada "Inscreva-se · Gostei · Comente" (`pipeline/engajamento.py`) nessas cenas e no meio e no fim de cada Short.
 - **Fato sem fonte não entra.** Checador reprovou → volta ao roteirista (máx. 2 voltas).
 - **Personas não dão conselho** de saúde, finanças, direito ou política como especialistas.

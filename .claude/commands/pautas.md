@@ -17,4 +17,4 @@ O subagente deve escrever na pasta:
 [{"titulo": "até 60 caracteres", "angulo": "o ângulo próprio do canal em 1 frase", "porque": "prova de demanda/lacuna em 1 frase curta"}]
 ```
 
-Antes de terminar, confira que todas as pastas têm `pautas.json` válido (JSON com 3 itens) e que **cada ideia é do nicho do canal**: nada de ENEM/vestibular no Ouro & Império, nada de economia-história de entretenimento no Mapeado (e no Mapeado, as 3 ideias de matérias diferentes), só livros no Marca-Página. Ideia fora do nicho volta ao pesquisador. Não edite mais nada.
+Antes de terminar, confira que todas as pastas têm `pautas.json` válido (JSON com 3 itens) e que **cada ideia é do nicho do canal**: nada de ENEM/vestibular no Ouro & Império, nada de história de entretenimento no Mapeado (e no Mapeado, as 3 ideias de matérias diferentes), só livros no Marca-Página. Ideia fora do nicho volta ao pesquisador. Não edite mais nada.

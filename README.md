@@ -4,7 +4,7 @@ Um escritório de agentes de IA (Claude Code) que produz três canais do YouTube
 
 | Canal | Estilo | Publica |
 |---|---|---|
-| **Ouro & Império** — a história contada pelo dinheiro | explicador bem-humorado, ilustrado | seg e sex 18h |
+| **Ouro & Império** — histórias que mudaram o mundo | explicador bem-humorado, ilustrado | seg e sex 18h |
 | **Mapeado** — o que mais cai, em mapas mentais | Draw My Life (quadro branco) | ter e qui 17h |
 | **Marca-Página** — resumo + crítica de livros | explicador bem-humorado, ilustrado | qua 19h e sáb 11h |
 
