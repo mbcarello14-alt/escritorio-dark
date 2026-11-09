@@ -1,0 +1,39 @@
+comando: /pautas canais/historia/videos/2026-11-13
+🔧 Bash {"command": "cd canais/historia/videos/2026-11-13 && ls && cat estado.json"}
+🔧 Agent {"description": "Pautas Ouro & Império", "subagent_type": "pesquisador-historia", "prompt": "Etapa 1 (pauta). Canal: historia (Ouro & Império). Pasta: /home/runner/work/escritorio-dark/escritorio-dark
+💬 O pesquisador do Ouro & Império está trabalhando nas pautas de 13/11. Aguardo ele terminar para conferir o `pautas.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 WebSearch {"query": "Proclamação da República 1889 Deodoro \"bestializado\" Aristides Lobo golpe militar documentário youtube", "mode": "standard"}
+🔧 WebSearch {"query": "Cajamarca 16 novembro 1532 Atahualpa Pizarro 168 homens resgate sala de ouro", "mode": "standard"}
+🔧 WebSearch {"query": "origem do medo da sexta-feira 13 história triskaidekafobia Rossini jantar 1869 Thomas Lawson 1907", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/pautas.json", "content": "[\n  {\"titulo\": \"O dia em que o Brasil virou república sem perceber\", \
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/01-pauta.md", "content": "# Pauta — sexta 13/11/2026 18h00\n\nContexto: 13/11/2026 é sexta-feira 13 e
+💬 Escrevi `01-pauta.md` e `pautas.json` na pasta do vídeo. Não consegui medir a demanda de YouTube: a busca não trouxe views de outros canais, então não há outliers citados. A "prova de demanda" é sazonalidade e cobertura em sites. Os outliers precisam ser conferidos no dossiê.
+
+As três ideias, em ordem:
+
+1. **O dia em que o Brasil virou república sem perceber.** O 15 de novembro cai dois dias depois da publicação. O ângulo é contar o dia como bastidor, com Deodoro doente, os boatos e o povo "bestializado", e não como aula de causas. Risco: a frase de Aristides Lobo e o "viva o Imperador" de Deo
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('pautas.json'));print(len(d));[print(x['titulo'],len(x['titulo']),set(x)) for x in d]\""}
+💬 As pautas de `canais/historia/videos/2026-11-13` estão prontas. O `pautas.json` é válido, com 3 itens, e todos os títulos têm menos de 60 caracteres. As três ideias são história geral para curiosos, sem nada de ENEM ou vestibular.
+
+1. **O dia em que o Brasil virou república sem perceber.** O 15 de novembro cai dois dias depois da publicação. O ângulo é o bastidor do dia, não a aula de causas.
+2. **Sexta-feira 13: a superstição que nasceu num romance.** Cai no dia exato da publicação. O ângulo é a origem real da superstição, com a biografia de Rossini de 1869 e o romance de Lawson de 1907.
+3. *
+
+=== resultado: success | turnos 3 | 12s | erro=False
+O pesquisador do Ouro & Império está trabalhando nas pautas de 13/11. Aguardo ele terminar para conferir o `pautas.json`.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+As pautas de `canais/historia/videos/2026-11-13` estão prontas. O `pautas.json` é válido, com 3 itens, e todos os títulos têm menos de 60 caracteres. As três ideias são história geral para curiosos, sem nada de ENEM ou vestibular.
+
+1. **O dia em que o Brasil virou república sem perceber.** O 15 de novembro cai dois dias depois da publicação. O ângulo é o bastidor do dia, não a aula de causas.
+2. **Sexta-feira 13: a superstição que nasceu num romance.** Cai no dia exato da publicação. O ângulo é a origem real da superstição, com a biografia de Rossini de 1869 e o romance de Lawson de 1907.
+3. **168 homens e uma sala de ouro: a cilada de Cajamarca.** O aniversário é 15–16/11/1532. O ângulo é a guerra civil inca e as epidemias, além da façanha militar.
+
+A prova de demanda das ideias é fraca. O pesquisador não conseguiu medir views de outros canais no YouTube, então o "porque" de cada uma se apoia em sazonalidade e cobertura em sites. Vale conferir isso no dossiê, depois que você escolher.
+
+A pauta 3 tem fontes que divergem no número de espanhóis (160 a 180), na data e nas dimensões da sala. A pauta 2 tem pouca fonte primária e pode render pouco para 12 minutos.
+
+Não editei mais nada além dos arquivos do pesquisador (`01-pauta.md` e `pautas.json`).
+codigo de saida: 0
