@@ -1,0 +1,111 @@
+comando: /relatorio
+🔧 Agent {"subagent_type": "analista", "description": "Relatório semanal", "prompt": "Relatório semanal do portfólio (hoje 2026-11-09), diretório /home/runner/work/escritorio-dark/escritorio-dark. Faça:\n1. Pa
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/metricas-canal.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/metricas-canal.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/metricas-canal.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+💬 Chamei o analista para montar o relatório semanal. Ainda não tenho o resultado e aviso quando ele terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/painel.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-26/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-30/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-02/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-28/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-07/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-03/metricas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/publicacao.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-03/publicacao.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-03/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/10-analise.md"}
+❌ File does not exist. Note: your current working directory is /home/runner/work/escritorio-dark/escritorio-dark.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/publicacao.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-30/publicacao.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-02/publicacao.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-28/publicacao.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-04/publicacao.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-07/publicacao.json", "limit": 3}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-06/publicacao.json", "limit": 3}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-26/publicacao.json", "limit": 3}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-31/publicacao.json", "limit": 3}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/10-analise.md", "content": "# Análise — Era Vargas no ENEM: 3 governos em 1 mapa mental (Mapeado, 2
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-27/10-analise.md", "content": "# Análise — 10% + 10% não dá 20%: o mapa da porcentagem no Enem (Mapead
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-10-28/10-analise.md", "content": "# Análise — O monstro do livro lê Milton (e não se chama Frankenstein) (Mar
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-30/10-analise.md", "content": "# Análise — Templários: o rei sem dinheiro e o banco que ele quebrou (Our
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-02/10-analise.md", "content": "# Análise — Quanto custava tirar uma alma do purgatório? (Ouro & Império,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-02/10-analise.md", "old_string": "O wall Street (26/10)", "new_string": "O Wall St
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md", "old_string": "|------|-------|------|-------------------|-----------|------------
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md", "old_string": "|------|-------|------|-------------------|-----------|--------------
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md", "old_string": "|------|-------|------|-------------------|-----------|----------
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/painel.md", "content": "# Painel do Portfólio\n\nGerado pelo `analista` com o comando `painel` — 09/11/2026.\n\n**Situação:** pr
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/relatorio-semana.md", "content": "# Relatório da semana — 09/11/2026\n\n**Meta Parcerias: 500 inscritos e 3.000 horas (365 dias)
+💬 Escrevi cinco análises, atualizei o painel e fiz o relatório da semana. As amostras são minúsculas (6 a 19 views por vídeo) e nenhuma coleta traz impressões nem CTR. Tratei tudo como pista, não como conclusão, e todos os canais seguem "ainda em teste".
+
+**Análises (`10-analise.md`) e linhas no `historico.md`**
+- Ouro & Império: Templários (30/10) e Purgatório (02/11).
+- Mapeado: Porcentagem (27/10) e Era Vargas (29/10).
+- Marca-Página: Frankenstein (28/10).
+
+**Progresso rumo ao Programa de Parcerias** (meta de 500 inscritos e 3.000 horas em 365 dias)
+
+| Canal | Inscritos | Horas |
+|---|---|---
+💬 O analista terminou o relatório semanal. As amostras são minúsculas (6 a 19 views por vídeo) e nenhuma coleta traz impressões nem CTR. Por isso tudo vale como pista, não como conclusão, e os três canais seguem "em teste".
+
+**Progresso rumo ao Programa de Parcerias** (meta: 500 inscritos e 3.000 horas em 365 dias)
+
+| Canal | Inscritos | Horas |
+|---|---|---|
+| Ouro & Império | 5 (1%) | 17,5 (0,6%) |
+| Mapeado | 12 (2,4%) | 16,2 (0,5%) |
+| Marca-Página | 7 (1,4%) | 12,8 (0,4%) |
+
+**Melhor e pior vídeo da semana**
+- **Melhor: Era Vargas (Mapeado).** Teve 43,1% assistido, com média de 5m25. Perdeu
+
+=== resultado: success | turnos 2 | 9s | erro=False
+Chamei o analista para montar o relatório semanal. Ainda não tenho o resultado e aviso quando ele terminar.
+
+=== resultado: success | turnos 1 | 10s | erro=False
+O analista terminou o relatório semanal. As amostras são minúsculas (6 a 19 views por vídeo) e nenhuma coleta traz impressões nem CTR. Por isso tudo vale como pista, não como conclusão, e os três canais seguem "em teste".
+
+**Progresso rumo ao Programa de Parcerias** (meta: 500 inscritos e 3.000 horas em 365 dias)
+
+| Canal | Inscritos | Horas |
+|---|---|---|
+| Ouro & Império | 5 (1%) | 17,5 (0,6%) |
+| Mapeado | 12 (2,4%) | 16,2 (0,5%) |
+| Marca-Página | 7 (1,4%) | 12,8 (0,4%) |
+
+**Melhor e pior vídeo da semana**
+- **Melhor: Era Vargas (Mapeado).** Teve 43,1% assistido, com média de 5m25. Perdeu 36% do público nos primeiros 23 s, mas depois a curva ficou plana até cerca de metade do vídeo.
+- **Pior: Templários (Ouro & Império).** A média foi de 5 segundos, com 7 views. O título é descritivo, sem o "Pix medieval" que levou o Short a 1.257 views. O vídeo tem só 1 ilustração de IA entre 94 cenas.
+
+**O que se repete nos dados**
+- Os Shorts rendem de 20 a 180 vezes mais views que o longo do mesmo tema.
+- O tráfego de "relacionados" já puxa parte dos longos: 11 de 17 views no Era Vargas e 9 de 19 no Frankenstein.
+- As listas de créditos de imagem de acervo trazem arquivos sem relação com o tema, como um papa esqueleto com a Taylor Swift nos Templários. O analista não viu os vídeos, então falta conferir se essas imagens aparecem na tela.
+
+**3 ações para a próxima semana**
+1. Terminar cada Short com a chamada para o longo do mesmo tema.
+2. Levar para os longos o título e o gancho que funcionaram nos Shorts (pergunta com número, comparação com hoje).
+3. Conferir as imagens de acervo antes de publicar.
+
+**O que foi escrito**
+- Cinco `10-analise.md`: Templários, Purgatório, Porcentagem, Era Vargas e Frankenstein.
+- As linhas correspondentes nos três `historico.md`.
+- `canais/painel.md` e `canais/relatorio-semana.md`.
+
+Seis vídeos ficaram sem análise por falta de dados utilizáveis:
+- Wall Street (26/10) e Brás Cubas (31/10) têm a janela de 7 dias vazia.
+- Ecologia (03/11), Revolução dos Bichos (04/11), Dom Casmurro (07/11) e a letra de câmbio (06/11) só têm dados parciais ou quase nenhum (Ecologia e a letra de câmbio, 2 views cada).
+
+Não rodei `pipeline.validar`, porque ninguém mexeu em `producao.json`. As alterações ainda não foram commitadas nem enviadas.
+codigo de saida: 0

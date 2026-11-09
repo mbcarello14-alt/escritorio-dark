@@ -1,17 +1,15 @@
-# Relatório da semana — 02/11
+# Relatório da semana — 09/11/2026
 
-**Dados ainda curtos:** 6 vídeos longos já foram ao ar, mas a API do YouTube ainda não fechou a janela de 7 dias de nenhum (sem CTR nem curva de retenção). Só há números parciais.
+**Meta Parcerias: 500 inscritos e 3.000 horas (365 dias)**
+- Ouro & Império: 5 inscritos (1%), 17,5 h (0,6%)
+- Mapeado: 12 inscritos (2,4%), 16,2 h (0,5%)
+- Marca-Página: 7 inscritos (1,4%), 12,8 h (0,4%)
 
-**Rumo ao Programa de Parcerias (500 inscritos + 3.000 h)**
-- Ouro & Império: 6 inscritos · 12,2 h
-- Mapeado: 7 inscritos · 5,8 h
-- Marca-Página: 5 inscritos · 5,1 h
+**Melhor vídeo:** Mapeado, Era Vargas. As pessoas assistiram 43% do vídeo (5m25). Quem passou dos primeiros 23 s ficou até a metade.
+**Pior vídeo:** Ouro & Império, Templários. Média de 5 segundos assistidos (7 views). O título é descritivo e não usa o "Pix medieval" que fez o Short chegar a 1.257 views.
+Atenção: as amostras são minúsculas (6 a 19 views), então são pistas, não conclusões. Ainda não temos CTR.
 
-**Melhor (provisório):** Mapeado "Era Vargas" — 9 views, mas 62% assistido (7m50 de média). Amostra minúscula.
-**Pior (provisório):** Mapeado "Porcentagem" — 6 views e só 11 s de média (1,9%). Marca-Página "Frankenstein" tem 22% assistido (17 views). História "Templários": 0 views contadas ainda.
-**Curiosidade:** os Shorts puxam mais que os longos (Templários 1.252 views, Porcentagem 845, Frankenstein 456).
-
-**3 ações para a próxima semana**
-1. Mandar os áudios do Ecologia (Mapeado, ter 17h) e de Revolução dos Bichos (Marca-Página, qua 19h) a tempo.
-2. Transformar os Shorts campeões em longos: Pix medieval dos Templários e pegadinha de Enem com pergunta no título.
-3. Revisar o começo do vídeo de Porcentagem (saída em 11 s); na próxima segunda leio CTR e retenção de verdade.
+**3 ações para a semana**
+1. Terminar cada Short com a chamada para o vídeo longo do mesmo tema. Os Shorts têm 20 a 180 vezes mais views que os longos.
+2. Usar nos longos o título e o gancho que funcionaram nos Shorts (pergunta com número, comparação com hoje como o "Pix medieval").
+3. Olhar as imagens de acervo antes de publicar: apareceram arquivos sem relação com o tema na lista de créditos.

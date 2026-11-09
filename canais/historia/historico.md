@@ -4,6 +4,8 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 | Data | Pasta | Tema | Gancho (1ª frase) | Estrutura | Thumb (conceito) | CTR 7d | Retenção média | Lição |
 |------|-------|------|-------------------|-----------|------------------|--------|----------------|-------|
+| 2026-10-30 | 2026-10-30 | Templários: rei sem dinheiro e o banco quebrado | "Em 13 de outubro de 1307, o rei da França mandou prender o gerente do banco." | Gancho de data, 12 capítulos cronológicos | ver 09-thumbnail.md | n/d | 0,57% (7 views, 5 s) | Título descritivo e 1 ilustração de IA: levar o "Pix medieval" (Short de 1.257 views) para título e gancho |
+| 2026-11-02 | 2026-11-02 | Preço de uma alma no purgatório (Finados) | "Hoje é Finados." | Pergunta com preço, Cluny até Fugger e Lutero, 13 capítulos | ver 09-thumbnail.md | n/d | 5,8% (12 views, 55 s) | Tema sazonal rendeu busca (5 de 12 views); entregar o primeiro preço até 0:30 |
 
 ## Ideias vindas da audiência
 

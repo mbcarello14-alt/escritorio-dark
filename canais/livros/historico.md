@@ -4,6 +4,7 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 | Data | Pasta | Tema | Gancho (1ª frase) | Estrutura | Thumb (conceito) | CTR 7d | Retenção média | Lição |
 |------|-------|------|-------------------|-----------|------------------|--------|----------------|-------|
+| 2026-10-28 | 2026-10-28 | Frankenstein (Mary Shelley) | "Frankenstein não é o monstro: é o criador que fugiu da própria obra." (veredito no começo) | Veredito, ficha, boneca russa de narradores, crítica, para quem serve | ver 09-thumbnail.md | n/d | 19,7% (19 views, 2m10) | Short irmão fez ~462 views e o longo 19: ligar Short ao longo (9 de 19 views vieram de relacionados) e abrir o longo pela pegadinha |
 
 ## Ideias vindas da audiência
 

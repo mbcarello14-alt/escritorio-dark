@@ -4,6 +4,8 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 | Data | Pasta | Tema | Gancho (1ª frase) | Estrutura | Thumb (conceito) | CTR 7d | Retenção média | Lição |
 |------|-------|------|-------------------|-----------|------------------|--------|----------------|-------|
+| 2026-10-27 | 2026-10-27 | Regra de três e porcentagem (Matemática) | "Uma loja dá 10% de desconto duas vezes e depois aumenta 10% duas vezes. O preço volta para R$ 100?" | Gancho de loja, 4 ramos (balança, gangorra, engrenagens, etiqueta), questão Enem 2019 | ver 09-thumbnail.md | n/d | 1,9% (6 views, 11 s) | Gancho não segurou; Short do mesmo tema fez ~845 views: título do longo em pergunta e ponte Short para longo |
+| 2026-10-29 | 2026-10-29 | Era Vargas, 3 governos (História) | "Faz 81 anos que Vargas foi deposto..." | 3 ramos com 4 galhos, recapitulação, questão Enem 2010 | ver 09-thumbnail.md | n/d | 43,1% (17 views, 5m25) | Ramos com mesmo molde seguraram 50% de 20% a 48% do vídeo; encurtar a recapitulação e abrir pela pegadinha |
 
 ## Ideias vindas da audiência
 
