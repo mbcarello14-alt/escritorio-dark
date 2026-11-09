@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T19:53:05Z",
+  "atualizado_em": "2026-11-09T23:27:25Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00",
@@ -7,16 +7,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-09",
-      "rotulo": "segunda 09/11 18h00",
-      "publicar_em_utc": "2026-11-09T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "O Muro de Berlim caiu por falta de dinheiro?",
-      "url": "https://youtu.be/0GCVHi81phU"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-10",
@@ -59,16 +49,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "livros",
-      "dia": "2026-10-31",
-      "rotulo": "sábado 31/10 11h00",
-      "publicar_em_utc": "2026-10-31T14:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Brás Cubas vale ler hoje? Resumo e crítica honesta",
-      "url": "https://youtu.be/0iS8C3pzNYY"
-    },
     {
       "canal": "historia",
       "dia": "2026-11-02",
@@ -118,6 +98,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Dom Casmurro: Capitu traiu? O livro não prova nada",
       "url": "https://youtu.be/7Oij1SwLO7k"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-11-09",
+      "rotulo": "segunda 09/11 18h00",
+      "publicar_em_utc": "2026-11-09T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "O Muro de Berlim caiu por falta de dinheiro?",
+      "url": "https://youtu.be/0GCVHi81phU"
     }
   ],
   "canais": [
@@ -126,7 +116,7 @@
       "nome": "Ouro & Império",
       "inscritos": 5,
       "horas": 17.5,
-      "publicados": 4
+      "publicados": 5
     },
     {
       "id": "vestibular",
