@@ -1,9 +1,9 @@
 {
-  "atualizado_em": "2026-11-09T13:54:03Z",
+  "atualizado_em": "2026-11-09T14:10:16Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00",
-      "Ouro & Império: sexta 13/11 18h00"
+      "Ouro & Império: O dia em que o Brasil virou república sem perceber"
     ]
   },
   "proximos": [
@@ -52,9 +52,9 @@
       "dia": "2026-11-13",
       "rotulo": "sexta 13/11 18h00",
       "publicar_em_utc": "2026-11-13T21:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
-      "titulo": "",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "titulo": "O dia em que o Brasil virou república sem perceber",
       "url": ""
     }
   ],

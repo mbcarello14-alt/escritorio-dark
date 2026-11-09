@@ -1,0 +1,190 @@
+comando: /roteiro canais/historia/videos/2026-11-13
+🔧 Bash {"command": "cd canais/historia/videos/2026-11-13 && ls && cat estado.json && cat pautas.json && ls ../ | tail -5"}
+❌ This Bash command contains multiple operations. The following part requires approval: cd canais/historia/videos/2026-11-13 && ls && cat estado.json && cat pautas.json && ls ../
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/pautas.json"}
+🔧 Agent {"description": "Dossiê república", "subagent_type": "pesquisador-historia", "prompt": "Pasta: canais/historia/videos/2026-11-13. Pauta escolhida: nº 1 de pautas.json (\"O dia em que o Brasil virou re
+💬 O pesquisador está montando o dossiê. Aguardo a conclusão para seguir para o roteiro.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 WebSearch {"query": "Proclamação da República 15 de novembro 1889 Aristides Lobo \"bestializado\" Deodoro doente boato prisão", "mode": "standard"}
+🔧 WebSearch {"query": "Proclamação da República Benjamin Constant Deodoro Visconde de Ouro Preto Campo de Santana Senado cronologia Câmara Municipal 16 novembro", "mode": "standard"}
+🔧 WebSearch {"query": "Proclamação da República Deodoro \"Viva a Sua Majestade o Imperador\" Max Fleiuss relato controvérsia Deodoro não proclamou", "mode": "standard"}
+💬 Vou ler as fontes mais sólidas.
+🔧 WebFetch {"url": "https://www.gazetadopovo.com.br/ideias/proclamacao-da-republica-foi-fruto-de-uma-das-maiores-fake-news-da-historia-do-brasil-db03cdkyl9fdxuhkx90jz4ax4/", "prompt": "Extraia fatos detalhados: 
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Proclamation_of_the_Republic_(Brazil)", "prompt": "Detailed timeline of 14-17 Nov 1889: rumor of arrest, Deodoro illness, Ouro Preto, Floriano Peixoto, Benjamin 
+🔧 WebFetch {"url": "https://fpabramo.org.br/a-semana-na-historia-12-a-18-de-novembro/", "prompt": "Extraia o relato do 15 de novembro de 1889: eventos, horários, personagens, citações."}
+🔧 WebSearch {"query": "Celso Castro \"A Proclamação da República\" Deodoro boato 14 novembro Mallet Sólon \"Viva Sua Majestade o Imperador\" Silveira Martins", "mode": "standard"}
+🔧 WebSearch {"query": "Decreto nº 1 15 de novembro de 1889 proclama provisoriamente república texto Câmara dos Deputados", "mode": "standard"}
+🔧 WebSearch {"query": "família imperial embarcou Alagoas 17 novembro 1889 madrugada Pedro II banimento notificação Solon Paço da Cidade", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.opovo.com.br/noticias/politica/2024/11/14/15-de-novembro-o-dia-em-que-a-republica-quase-nao-foi-proclamada.html", "prompt": "Extraia os fatos detalhados do 14-16 nov 1889: boato, 
+🔧 WebFetch {"url": "https://www.al.sp.gov.br/noticia/?id=271537", "prompt": "Extraia o relato do último dia do Império: Pedro II em Petrópolis, telegrama, chegada ao Rio, Paço, notificação, embarque. Horários e 
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Proclamação_da_República_do_Brasil", "prompt": "Extraia: cronologia 14-16 nov 1889, boato, Deodoro doente, Silveira Martins, citação 'Viva Sua Majestade o Impera
+🔧 WebSearch {"query": "Deodoro \"Viva a Sua Majestade o Imperador\" Proclamação da República Campo de Santana Celso Castro historiador versão", "mode": "extended"}
+🔧 WebFetch {"url": "https://commons.wikimedia.org/wiki/Category:Proclamation_of_the_Republic_(Brazil)", "prompt": "List the files/images available (title, brief description) such as Proclamação da República pain
+🔧 WebFetch {"url": "https://aventurasnahistoria.com.br/noticias/reportagem/brasil-como-as-fake-news-ajudaram-os-republicanos-derrubar-monarquia.phtml", "prompt": "Extraia fatos: boato, quem espalhou, Deodoro doe
+🔧 WebFetch {"url": "https://commons.wikimedia.org/wiki/Category:Proclamation_of_the_Brazilian_Republic", "prompt": "List files and subcategories (title and short description, URL), especially paintings (Benedito
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/02-dossie.md", "content": "# Dossiê — \"O dia em que o Brasil virou república sem perceber\"\nCanal: 
+💬 Montei o dossiê da pauta nº 1, mas há três pontos que ainda precisam de fonte mais forte antes do roteiro.
+
+Pendências:
+- **Falas e tropas:** o que Deodoro disse, o tamanho das tropas e o boato vêm de fontes secundárias. Falta conferir em Celso Castro (*A Proclamação da República*) e José Murilo de Carvalho (*Os Bestializados*).
+- **Carta de 13/9/1889:** a carta em que Deodoro chama a república de "desgraça" só aparece em texto de divulgação. Falta a fonte primária.
+- **Plebiscito de 1993:** a matéria do O Povo traz datas inconsistentes. Falta conferir no TSE.
+
+O dossiê tem linha do tempo, 15 
+🔧 Agent {"description": "Escrever roteiro república", "subagent_type": "roteirista-historia", "prompt": "Pasta: canais/historia/videos/2026-11-13. Leia 02-dossie.md, pautas.json (pauta nº 1) e estado.json (no
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+💬 O dossiê está pronto e o roteirista está escrevendo o roteiro. Aguardo ele terminar antes de passar para o checador.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"O dia em que o Brasil virou república sem pe
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "Imagina a cena. Tarde de quatorze de novembro de 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "Rua do Ouvidor. Era o lugar onde a elite carioca 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "Estava em Petrópolis, na serra, onde a corte pass
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "que reagiu quando tentaram prendê-lo. Ele sobrevi
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "Só tem um probleminha. Ninguém tinha câmera ali, 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "o jornalista Aristides Lobo, que era republicano,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "pelo vereador e jornalista José do Patrocínio", "
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "Um homem idoso e doente, que tinha passado quase 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "entra no bloco 12 como opinião do canal.", "new_s
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "content": "# Roteiro — O dia em que o Brasil virou república sem perceber\nCanal: Ou
+💬 Escrevi o roteiro e o JSON. Não rodei nenhum validador e não mexi no `estado.json`. O campo `titulo` continua por sua conta, como o `/roteiro` manda.
+
+**Tamanho:** 13 blocos, cerca de 2.350 palavras. A contagem é estimada, não exata, e dá uns 15 minutos e meio. O alvo do briefing é de 12 a 20 minutos. O bloco 1 tem cerca de 115 palavras e os outros ficam entre 165 e 210.
+
+**Tese:** a República veio de um golpe militar antecipado por um boato falso e chefiado por um marechal relutante e doente. O "sem perceber" é uma leitura da época que até hoje divide os historiadores.
+
+**Chamadas de engajame
+🔧 Agent {"description": "Checar roteiro", "subagent_type": "checador", "prompt": "Pasta: canais/historia/videos/2026-11-13. Cheque cada afirmação de 03-roteiro.md/roteiro.json contra 02-dossie.md e fontes ext
+💬 O roteiro está escrito e o checador está conferindo as afirmações. Aguardo o resultado.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json"}
+🔧 WebFetch {"url": "https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d0001.htm", "prompt": "Transcreva o texto completo do decreto. Ele menciona consulta ao povo, plebiscito ou Constituinte?"}
+🔧 WebFetch {"url": "https://www.al.sp.gov.br/noticia/?id=271537", "prompt": "Extraia: hora de chegada de Pedro II ao Paço, navio chileno, fogo de palha, joias da imperatriz (quando e onde ocorreu), Saraiva e 'ag
+🔧 WebSearch {"query": "Euclides da Cunha casou 1890 Ana Emília Ribeiro filha do major Sólon Ribeiro", "mode": "standard"}
+🔧 WebSearch {"query": "José Murilo de Carvalho Os Bestializados tese \"bilontras\" povo não era bestializado", "mode": "standard"}
+🔧 WebSearch {"query": "família imperial exílio 1889 chegada Lisboa data vapor Alagoas dezembro", "mode": "standard"}
+🔧 WebFetch {"url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1-15-novembro-1889-532625-publicacaooriginal-14906-pe.html", "prompt": "Transcreva o texto completo do decreto, em especial qualq
+🔧 WebFetch {"url": "https://www.al.sp.gov.br/noticia/?id=346367", "prompt": "Datas e horas de: partida da família imperial, chegada a Lisboa, dias de viagem; Parnaíba/Alagoas; joias da imperatriz."}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/04-checagem.md", "content": "# Checagem — \"O dia em que o Brasil virou república sem perceber\"\nCan
+💬 **Veredito: CORRIGIR.** Escrevi a checagem completa em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/04-checagem.md`. A tabela tem 37 afirmações com status, fonte e correção sugerida.
+
+Correções que o roteirista precisa fazer (no `03-roteiro.md` e no `roteiro.json`):
+
+1. **Bloco 11, chegada a Lisboa:** o roteiro diz 5/12 e 18 dias de viagem. Duas fontes (ALESP 346367 e Wikipedia EN) dão 7/12, cerca de 20 dias. O 5/12 do dossiê vem de uma crônica fraca, então o dossiê também precisa ser corrigido.
+2. **Bloco 8:** "fogo de palha" não tem "duas palavras", te
+🔧 Agent {"description": "Corrigir roteiro (volta 1)", "subagent_type": "roteirista-historia", "prompt": "Pasta: canais/historia/videos/2026-11-13. O checador devolveu CORRIGIR; leia 04-checagem.md e aplique e
+💬 O roteirista está aplicando as correções do checador (volta 1 de 2). Aguardo ele terminar para seguir ao guardião de originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/02-dossie.md"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/02-dossie.md", "old_string": "- **5/12/1889:** Alagoas chega a Lisboa (18 dias 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/02-dossie.md", "old_string": "- 18 dias de viagem; chegada a Lisboa em 5/12/188
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/02-dossie.md", "old_string": "- O decreto diz \"provisoriamente\": o povo só vo
+💬 Agora vou reescrever o roteiro com as correções.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "content": "# Roteiro — O dia em que o Brasil virou república sem perceber\nCanal: Ou
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"O dia em que o Brasil virou república sem pe
+💬 Apliquei as 13 correções do checador. O texto de cada bloco está igual no `03-roteiro.md` e no `roteiro.json`. Não rodei nenhuma validação do JSON depois de reescrever. As três chamadas de engajamento continuam nos blocos 1, 8 e 13.
+
+**O que mudou no roteiro**
+1. **Bloco 11:** a chegada a Lisboa passou para sete de dezembro de mil oitocentos e oitenta e nove, com "cerca de vinte dias de viagem". No `02-dossie.md` corrigi a linha do tempo e a seção de números, citando ALESP 346367 e a Wikipedia EN.
+2. **Bloco 8:** "fogo de palha" agora é "uma expressão".
+3. **Bloco 10:** "agora já é tarde" agor
+🔧 Agent {"description": "Originalidade do roteiro", "subagent_type": "guardiao-originalidade", "prompt": "Pasta: canais/historia/videos/2026-11-13. Avalie 03-roteiro.md/roteiro.json (já corrigido após 04-chec
+💬 As correções estão aplicadas e o guardião de originalidade está avaliando o roteiro. Aguardo o resultado.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "limit": 40}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/01-pauta.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/05-originalidade.md", "content": "# Originalidade — \"O dia em que o Brasil virou república sem perce
+💬 **Semáforo: 🟡 ajustar.** Escrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/05-originalidade.md`.
+
+**Notas**
+
+| Item | Nota | Resumo |
+|---|---|---|
+| Variação | 7 | O gancho e o tema são novos, mas continua uma sequência cronológica de 13 blocos, como os dois vídeos anteriores. |
+| Valor próprio | 6 | A síntese e a separação entre fato, versão e fofoca são boas. Falta uma tese do canal, e o bloco 12 termina com "os historiadores ainda discutem". |
+| Voz humana | 4 | A nota do Miguel está vazia, então nada do ângulo veio dele. Há muitos tiques de IA, c
+🔧 Agent {"description": "Ajuste de originalidade", "subagent_type": "roteirista-historia", "prompt": "Pasta: canais/historia/videos/2026-11-13. O guardião deu 🟡; leia 05-originalidade.md e aplique as 3 mudanç
+💬 O guardião deu 🟡 e o roteirista está aplicando as três mudanças de maior impacto. Depois eu confiro as chamadas de engajamento e o nicho, e atualizo o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/05-originalidade.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "Canal: Ouro & Império | Publicação: sexta 13/11/
+💬 Now the blocks.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "Isso é mais fofoca de corredor do que documento,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "Pensa no efeito disso. É como aquele áudio de gr
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "Agora imagina a cena, por sua conta e risco: alg
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "uma pressão sobre o governo. Ou seja: um líder q
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "Dom Pedro Segundo não estava no Rio. Estava em P
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "Ele era o ajudante-general do Exército, ou seja,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "A de Calixto, por exemplo, veio quatro anos depo
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "Pensa na ironia: o marechal", "new_string": "A i
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "Enquanto o imperador esperava o fogo de palha ap
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "E no dia vinte e um de dezembro um decreto forma
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "É uma leitura de época que virou debate, e que a
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "só entendeu o tamanho da coisa depois. Se o povo
+💬 Now the notes and changelog.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "- Bloco 13: confirmar que o vídeo dos Templários
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "## O que mudou (versão 2, correções do checador)
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "offset": 26, "limit": 38}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "Agora uma cena que é minha, não dos documentos:"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/03-roteiro.md", "old_string": "virou \"uma cena que é minha, não dos documentos
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"O dia em que o Brasil virou república sem pe
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json", "old_string": "Mello? Ou seja: o povo", "new_string": "Mello? Em
+💬 Apliquei as três mudanças nos dois arquivos, mexendo só em forma e voz. Não entrou nenhum fato novo. Saiu uma única coisa de conteúdo: a frase sem fonte de que o quadro de Calixto foi feito "quando a República já precisava de uma foto oficial", que o próprio guardião apontou. Os textos dos blocos estão iguais no `.md` e no `.json`. Não rodei nenhum script de comparação nem de validação.
+
+**1. Opinião do Miguel (blocos 12 e 13)**
+- Não inventei opinião dele. O bloco 12 agora termina com a pergunta aberta: "E aqui a pergunta fica aberta, para você e para a gente: o povo do Rio foi deixado de for
+💬 Agora confiro eu mesmo o JSON final.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-13/estado.json", "old_string": "  \"nota_miguel\": \"\"", "new_string": "  \"nota_
+💬 O roteiro de "O dia em que o Brasil virou república sem perceber" está pronto em `canais/historia/videos/2026-11-13/`. O semáforo ficou 🟡, porque a nota do Miguel veio vazia e o vídeo ainda não tem a opinião dele. Atualizei o `estado.json` com o `titulo`. Não rodei validador nenhum, e o `producao.json` não foi criado.
+
+- **Roteiro:** 13 blocos, cerca de 2.320 palavras (uns 15 minutos e meio de leitura).
+- **Dossiê e checagem:** o checador conferiu 37 afirmações e devolveu 11 para corrigir. As correções foram aplicadas numa volta só. Depois dos ajustes de originalidade, o roteirista reescreveu 
+
+=== resultado: success | turnos 5 | 16s | erro=False
+O pesquisador está montando o dossiê. Aguardo a conclusão para seguir para o roteiro.
+
+=== resultado: success | turnos 2 | 10s | erro=False
+O dossiê está pronto e o roteirista está escrevendo o roteiro. Aguardo ele terminar antes de passar para o checador.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+O roteiro está escrito e o checador está conferindo as afirmações. Aguardo o resultado.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O roteirista está aplicando as correções do checador (volta 1 de 2). Aguardo ele terminar para seguir ao guardião de originalidade.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+As correções estão aplicadas e o guardião de originalidade está avaliando o roteiro. Aguardo o resultado.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O guardião deu 🟡 e o roteirista está aplicando as três mudanças de maior impacto. Depois eu confiro as chamadas de engajamento e o nicho, e atualizo o `estado.json`.
+
+=== resultado: success | turnos 3 | 8s | erro=False
+O roteiro de "O dia em que o Brasil virou república sem perceber" está pronto em `canais/historia/videos/2026-11-13/`. O semáforo ficou 🟡, porque a nota do Miguel veio vazia e o vídeo ainda não tem a opinião dele. Atualizei o `estado.json` com o `titulo`. Não rodei validador nenhum, e o `producao.json` não foi criado.
+
+- **Roteiro:** 13 blocos, cerca de 2.320 palavras (uns 15 minutos e meio de leitura).
+- **Dossiê e checagem:** o checador conferiu 37 afirmações e devolveu 11 para corrigir. As correções foram aplicadas numa volta só. Depois dos ajustes de originalidade, o roteirista reescreveu algumas frases dos blocos 4, 5, 7, 9 e 13 sem fato novo, e o checador não revisou essas versões finais.
+- **Originalidade:** o guardião deu 🟡. Os tiques de IA foram limpos, três blocos mudaram de molde e o gancho final dos Templários saiu. Ninguém inventou opinião do Miguel.
+- **Engajamento:** conferi as três chamadas. Inscrição e like estão no bloco 1, a pergunta aos comentários no bloco 8 e inscrição, like e comentário no bloco 13.
+- **Nicho:** o roteiro não fala de ENEM, vestibular, prova nem revisão.
+
+**Pergunta para o Miguel:** o povo do Rio em 15/11/1889 foi deixado de fora, como diz Aristides Lobo ("bestializado"), ou viu o que acontecia e deixou passar, como sugere Maria Tereza Chaves de Mello ("consentido")? A resposta, em 3 a 5 frases, entra no bloco 13, logo depois de "só entendeu o tamanho da coisa depois." Com ela o semáforo vai a 🟢. Se a resposta trouxer algum fato, ela precisa passar de novo pelo checador.
+
+**Pendências:**
+- Três pontos do dossiê vêm de fontes secundárias e dependem de conferência em Celso Castro e José Murilo de Carvalho: as falas de Deodoro, as tropas e o boato.
+- Não consegui confirmar na busca que Carvalho discute se o povo era passivo (capítulo "Bestializados ou bilontras?"). Vale conferir no livro antes de gravar.
+- A página do Planalto bloqueou o acesso automático. O checador leu o Decreto 1 na versão da Câmara dos Deputados.
+codigo de saida: 0
