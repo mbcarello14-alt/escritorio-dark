@@ -1,0 +1,227 @@
+01:34:53 INFO ilustrações: higgsfield desligado (sem chave)
+01:34:53 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+01:34:53 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+01:34:54 INFO Processing audio with duration 00:35.008
+01:34:54 INFO VAD filter removed 00:00.000 of audio
+01:35:03 INFO Processing audio with duration 00:35.008
+01:35:03 INFO VAD filter removed 00:00.000 of audio
+01:35:12 INFO Processing audio with duration 01:07.128
+01:35:12 INFO VAD filter removed 00:00.000 of audio
+01:35:29 INFO Processing audio with duration 01:07.128
+01:35:29 INFO VAD filter removed 00:00.000 of audio
+01:35:45 INFO Processing audio with duration 01:03.128
+01:35:45 INFO VAD filter removed 00:00.000 of audio
+01:36:02 INFO Processing audio with duration 01:03.128
+01:36:02 INFO VAD filter removed 00:00.000 of audio
+01:36:19 INFO Processing audio with duration 01:04.328
+01:36:19 INFO VAD filter removed 00:00.000 of audio
+01:36:38 INFO Processing audio with duration 01:04.328
+01:36:38 INFO VAD filter removed 00:00.000 of audio
+01:36:56 INFO Processing audio with duration 01:09.248
+01:36:56 INFO VAD filter removed 00:00.000 of audio
+01:37:15 INFO Processing audio with duration 01:09.248
+01:37:15 INFO VAD filter removed 00:00.000 of audio
+01:37:33 INFO Processing audio with duration 01:15.688
+01:37:33 INFO VAD filter removed 00:00.000 of audio
+01:37:55 INFO Processing audio with duration 01:15.688
+01:37:55 INFO VAD filter removed 00:00.000 of audio
+01:38:16 INFO Processing audio with duration 01:20.448
+01:38:16 INFO VAD filter removed 00:00.000 of audio
+01:38:37 INFO Processing audio with duration 01:20.448
+01:38:38 INFO VAD filter removed 00:00.000 of audio
+01:38:59 INFO Processing audio with duration 01:02.288
+01:38:59 INFO VAD filter removed 00:00.000 of audio
+01:39:16 INFO Processing audio with duration 01:02.288
+01:39:16 INFO VAD filter removed 00:00.000 of audio
+01:39:33 INFO Processing audio with duration 00:57.928
+01:39:33 INFO VAD filter removed 00:00.000 of audio
+01:39:50 INFO Processing audio with duration 00:57.928
+01:39:50 INFO VAD filter removed 00:00.000 of audio
+01:40:07 INFO Processing audio with duration 01:15.688
+01:40:07 INFO VAD filter removed 00:00.000 of audio
+01:40:29 INFO Processing audio with duration 01:15.688
+01:40:29 INFO VAD filter removed 00:00.000 of audio
+01:40:50 INFO gerando 93 ilustrações…
+01:42:06 INFO ilustrações prontas: 93 geradas (93 pedidas)
+01:42:07 INFO Processing audio with duration 00:35.008
+01:42:07 INFO VAD filter removed 00:00.000 of audio
+01:42:17 INFO bloco 1: 35.0s, 100 palavras reconhecidas
+01:42:23 INFO cena 1 pronta (11.0s, total 11s)
+01:42:26 INFO cena 2 pronta (4.7s, total 16s)
+01:42:32 INFO cena 3 pronta (8.6s, total 24s)
+01:42:43 INFO cena 4 pronta (6.6s, total 31s)
+01:42:46 INFO cena 5 pronta (4.1s, total 35s)
+01:42:47 INFO Processing audio with duration 01:07.128
+01:42:47 INFO VAD filter removed 00:00.000 of audio
+01:43:05 INFO bloco 2: 67.1s, 174 palavras reconhecidas
+01:43:06 WARNING nenhuma imagem livre para 'Daniel Kahneman portrait' — usando cartão
+01:43:07 INFO imagem 'Daniel Kahneman' ← wikimedia
+01:43:07 INFO imagem para 'Daniel Kahneman portrait' achada buscando 'Daniel Kahneman'
+01:43:09 INFO cena 6 pronta (1.8s, total 37s)
+01:43:10 INFO imagem 'Tel Aviv 1930s street photograph' ← wikimedia
+01:43:18 INFO cena 7 pronta (9.6s, total 46s)
+01:43:19 INFO cena 8 pronta (2.1s, total 48s)
+01:43:22 WARNING nenhuma imagem livre para 'Amos Tversky psychologist' — usando cartão
+01:43:24 WARNING nenhuma imagem livre para 'Amos Tversky' — usando cartão
+01:43:26 WARNING nenhuma imagem livre para 'Tversky psychologist' — usando cartão
+01:43:36 INFO cena 9 pronta (5.4s, total 54s)
+01:43:40 INFO cena 10 pronta (6.0s, total 60s)
+01:43:44 INFO cena 11 pronta (6.5s, total 66s)
+01:43:46 WARNING nenhuma imagem livre para 'Nobel Prize medal Stockholm ceremony' — usando cartão
+01:43:48 WARNING nenhuma imagem livre para 'Nobel Prize medal Stockholm' — usando cartão
+01:43:49 INFO imagem 'Nobel Prize medal' ← wikimedia
+01:43:49 INFO imagem para 'Nobel Prize medal Stockholm ceremony' achada buscando 'Nobel Prize medal'
+01:43:58 INFO cena 12 pronta (9.5s, total 76s)
+01:44:00 INFO cena 13 pronta (3.6s, total 79s)
+01:44:01 INFO cena 14 pronta (1.8s, total 81s)
+01:44:04 INFO cena 15 pronta (4.8s, total 86s)
+01:44:08 INFO cena 16 pronta (5.5s, total 92s)
+01:44:10 INFO cena 17 pronta (2.3s, total 94s)
+01:44:15 INFO cena 18 pronta (8.2s, total 102s)
+01:44:16 INFO Processing audio with duration 01:03.128
+01:44:16 INFO VAD filter removed 00:00.000 of audio
+01:44:34 INFO bloco 3: 63.1s, 170 palavras reconhecidas
+01:44:40 INFO cena 19 pronta (11.3s, total 113s)
+01:44:41 INFO cena 20 pronta (1.6s, total 115s)
+01:44:46 INFO cena 21 pronta (7.7s, total 123s)
+01:44:49 INFO cena 22 pronta (5.6s, total 128s)
+01:44:50 INFO cena 23 pronta (2.3s, total 131s)
+01:44:52 INFO cena 24 pronta (3.7s, total 134s)
+01:44:55 INFO cena 25 pronta (5.3s, total 140s)
+01:44:58 INFO cena 26 pronta (4.6s, total 144s)
+01:45:03 INFO cena 27 pronta (7.3s, total 151s)
+01:45:10 INFO cena 28 pronta (13.8s, total 165s)
+01:45:11 INFO Processing audio with duration 01:04.328
+01:45:11 INFO VAD filter removed 00:00.000 of audio
+01:45:30 INFO bloco 4: 64.3s, 195 palavras reconhecidas
+01:45:34 INFO cena 29 pronta (5.9s, total 171s)
+01:45:37 INFO cena 30 pronta (5.9s, total 177s)
+01:45:39 INFO cena 31 pronta (3.2s, total 180s)
+01:45:44 INFO cena 32 pronta (7.8s, total 188s)
+01:45:46 INFO cena 33 pronta (3.9s, total 192s)
+01:45:52 INFO cena 34 pronta (9.8s, total 202s)
+01:45:53 INFO cena 35 pronta (2.0s, total 204s)
+01:45:54 INFO cena 36 pronta (2.4s, total 206s)
+01:45:59 INFO cena 37 pronta (8.1s, total 214s)
+01:46:02 INFO cena 38 pronta (4.4s, total 219s)
+01:46:08 INFO cena 39 pronta (11.0s, total 230s)
+01:46:10 INFO Processing audio with duration 01:09.248
+01:46:10 INFO VAD filter removed 00:00.000 of audio
+01:46:30 INFO bloco 5: 69.2s, 216 palavras reconhecidas
+01:46:36 INFO cena 40 pronta (11.2s, total 241s)
+01:46:40 INFO cena 41 pronta (7.1s, total 248s)
+01:46:42 INFO cena 42 pronta (2.7s, total 251s)
+01:46:43 INFO cena 43 pronta (2.1s, total 253s)
+01:46:46 INFO cena 44 pronta (7.1s, total 260s)
+01:46:48 INFO cena 45 pronta (4.2s, total 264s)
+01:46:51 INFO cena 46 pronta (3.2s, total 267s)
+01:46:52 INFO imagem 'The Thinker Rodin sculpture' ← wikimedia
+01:46:55 INFO cena 47 pronta (2.9s, total 270s)
+01:46:57 INFO cena 48 pronta (3.1s, total 273s)
+01:46:58 INFO cena 49 pronta (2.3s, total 275s)
+01:47:03 INFO cena 50 pronta (7.8s, total 283s)
+01:47:07 INFO cena 51 pronta (6.3s, total 290s)
+01:47:09 INFO cena 52 pronta (3.5s, total 293s)
+01:47:12 INFO cena 53 pronta (5.7s, total 299s)
+01:47:13 INFO Processing audio with duration 01:15.688
+01:47:13 INFO VAD filter removed 00:00.048 of audio
+01:47:35 INFO bloco 6: 75.7s, 224 palavras reconhecidas
+01:47:40 INFO cena 54 pronta (8.1s, total 307s)
+01:47:42 INFO cena 55 pronta (5.7s, total 313s)
+01:47:49 INFO cena 56 pronta (9.7s, total 322s)
+01:47:53 INFO cena 57 pronta (6.4s, total 329s)
+01:47:54 INFO imagem 'train derailment 1900s photograph' ← wikimedia
+01:48:01 INFO cena 58 pronta (7.7s, total 336s)
+01:48:02 INFO imagem 'newspaper printing press 1920s' ← wikimedia
+01:48:05 INFO cena 59 pronta (4.9s, total 341s)
+01:48:09 INFO cena 60 pronta (6.2s, total 348s)
+01:48:14 INFO cena 61 pronta (7.6s, total 355s)
+01:48:18 INFO cena 62 pronta (8.3s, total 364s)
+01:48:21 INFO cena 63 pronta (1.8s, total 365s)
+01:48:27 INFO cena 64 pronta (9.2s, total 375s)
+01:48:28 INFO Processing audio with duration 01:20.448
+01:48:28 INFO VAD filter removed 00:00.080 of audio
+01:48:49 INFO bloco 7: 80.4s, 211 palavras reconhecidas
+01:48:52 INFO cena 65 pronta (3.2s, total 378s)
+01:48:58 INFO cena 66 pronta (11.5s, total 389s)
+01:49:02 INFO cena 67 pronta (7.5s, total 397s)
+01:49:06 INFO cena 68 pronta (7.0s, total 404s)
+01:49:08 INFO cena 69 pronta (3.4s, total 407s)
+01:49:10 INFO cena 70 pronta (3.7s, total 411s)
+01:49:14 INFO cena 71 pronta (8.1s, total 419s)
+01:49:16 INFO cena 72 pronta (3.6s, total 423s)
+01:49:18 INFO cena 73 pronta (3.6s, total 426s)
+01:49:20 INFO cena 74 pronta (3.1s, total 429s)
+01:49:25 INFO cena 75 pronta (10.2s, total 439s)
+01:49:26 INFO cena 76 pronta (3.5s, total 443s)
+01:49:28 INFO cena 77 pronta (1.8s, total 445s)
+01:49:28 WARNING nenhuma imagem livre para '1971 psychological bulletin journal vintage' — usando cartão
+01:49:30 WARNING nenhuma imagem livre para '1971 psychological bulletin journal' — usando cartão
+01:49:30 WARNING nenhuma imagem livre para '1971 psychological bulletin' — usando cartão
+01:49:33 INFO imagem '1971 psychological' ← openverse
+01:49:33 INFO imagem para '1971 psychological bulletin journal vintage' achada buscando '1971 psychological'
+01:49:39 INFO cena 78 pronta (7.3s, total 452s)
+01:49:41 INFO cena 79 pronta (2.9s, total 455s)
+01:49:42 INFO Processing audio with duration 01:02.288
+01:49:43 INFO VAD filter removed 00:00.080 of audio
+01:49:59 INFO bloco 8: 62.3s, 161 palavras reconhecidas
+01:50:00 INFO cena 80 pronta (2.2s, total 457s)
+01:50:01 INFO cena 81 pronta (1.0s, total 458s)
+01:50:03 INFO cena 82 pronta (2.0s, total 460s)
+01:50:04 INFO cena 83 pronta (1.6s, total 462s)
+01:50:07 INFO cena 84 pronta (5.7s, total 468s)
+01:50:12 INFO cena 85 pronta (6.7s, total 474s)
+01:50:21 INFO cena 86 pronta (15.3s, total 489s)
+01:50:24 INFO cena 87 pronta (4.3s, total 494s)
+01:50:29 INFO cena 88 pronta (8.1s, total 502s)
+01:50:34 INFO cena 89 pronta (9.1s, total 511s)
+01:50:38 INFO cena 90 pronta (6.4s, total 517s)
+01:50:39 INFO Processing audio with duration 00:57.928
+01:50:39 INFO VAD filter removed 00:00.000 of audio
+01:50:56 INFO bloco 9: 57.9s, 154 palavras reconhecidas
+01:50:58 INFO cena 91 pronta (2.9s, total 520s)
+01:51:01 INFO cena 92 pronta (4.9s, total 525s)
+01:51:06 INFO cena 93 pronta (8.1s, total 533s)
+01:51:10 INFO cena 94 pronta (5.5s, total 539s)
+01:51:11 INFO cena 95 pronta (2.3s, total 541s)
+01:51:18 INFO cena 96 pronta (12.3s, total 553s)
+01:51:20 INFO cena 97 pronta (1.9s, total 555s)
+01:51:25 INFO cena 98 pronta (8.7s, total 564s)
+01:51:28 INFO cena 99 pronta (3.7s, total 568s)
+01:51:32 INFO cena 100 pronta (7.5s, total 575s)
+01:51:33 INFO Processing audio with duration 01:15.688
+01:51:33 INFO VAD filter removed 00:00.000 of audio
+01:51:56 INFO bloco 10: 75.7s, 240 palavras reconhecidas
+01:51:57 INFO cena 101 pronta (1.5s, total 577s)
+01:52:04 INFO cena 102 pronta (10.5s, total 587s)
+01:52:09 INFO cena 103 pronta (8.2s, total 595s)
+01:52:14 INFO cena 104 pronta (7.9s, total 603s)
+01:52:18 INFO cena 105 pronta (6.3s, total 610s)
+01:52:23 INFO cena 106 pronta (10.9s, total 621s)
+01:52:27 INFO cena 107 pronta (5.1s, total 626s)
+01:52:39 INFO cena 108 pronta (7.5s, total 633s)
+01:52:44 INFO cena 109 pronta (7.8s, total 641s)
+01:52:45 INFO imagem 'Frankenstein 1831 frontispiece Mary Shelley engraving' ← wikimedia
+01:52:53 INFO cena 110 pronta (7.3s, total 648s)
+01:52:54 INFO cena 111 pronta (2.7s, total 651s)
+01:52:56 INFO sem trilha em musica/calmo — vídeo sai só com narração
+01:52:58 INFO upload 11%
+01:52:59 INFO upload 23%
+01:52:59 INFO upload 34%
+01:52:59 INFO upload 46%
+01:53:00 INFO upload 58%
+01:53:00 INFO upload 69%
+01:53:01 INFO upload 81%
+01:53:01 INFO upload 93%
+01:53:02 INFO vídeo enviado: https://youtu.be/Abj5ZXjjpn8 (agendado para 2026-11-11T22:00:00Z)
+01:53:05 INFO playlist criada: Não ficção
+01:53:16 INFO na playlist 'Não ficção'
+01:53:16 WARNING Encountered 403 Forbidden with reason "forbidden"
+01:53:16 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+01:54:20 INFO corte 1 pronto (24s)
+01:55:41 INFO corte 2 pronto (33s)
+01:57:15 INFO corte 3 pronto (36s)
+01:57:17 INFO Short agendado: https://youtube.com/shorts/Si35x-Uc2yM (2026-11-12T15:00:00Z)
+01:57:22 INFO Short agendado: https://youtube.com/shorts/gPkBHG01dZE (2026-11-13T15:00:00Z)
+01:57:25 INFO Short agendado: https://youtube.com/shorts/VJfCJBqsrmI (2026-11-14T15:00:00Z)
+01:57:27 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-11/saida/video.mp4 (10.8 min) → https://youtu.be/Abj5ZXjjpn8
