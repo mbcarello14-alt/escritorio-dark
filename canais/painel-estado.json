@@ -1,9 +1,20 @@
 {
-  "atualizado_em": "2026-11-10T02:16:08Z",
+  "atualizado_em": "2026-11-10T02:20:51Z",
   "ativos": {
     "miguel": [
-      "Mapeado: quinta 05/11 17h00",
-      "Ouro & Império: O dia em que o Brasil virou república sem perceber"
+      "Mapeado: quinta 05/11 17h00"
+    ],
+    "narrador": [
+      "Ouro & Império: O dia em que o Brasil virou república sem perceber?"
+    ],
+    "ilustrador": [
+      "Ouro & Império: O dia em que o Brasil virou república sem perceber?"
+    ],
+    "editor": [
+      "Ouro & Império: O dia em que o Brasil virou república sem perceber?"
+    ],
+    "clipador": [
+      "Ouro & Império: O dia em que o Brasil virou república sem perceber?"
     ]
   },
   "proximos": [
@@ -42,9 +53,9 @@
       "dia": "2026-11-13",
       "rotulo": "sexta 13/11 18h00",
       "publicar_em_utc": "2026-11-13T21:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "O dia em que o Brasil virou república sem perceber",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "O dia em que o Brasil virou república sem perceber?",
       "url": ""
     }
   ],

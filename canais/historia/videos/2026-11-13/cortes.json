@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 3],
+      "gancho": "Uma fofoca derrubou um império?",
+      "titulo": "A fake news que derrubou o Império do Brasil",
+      "descricao": "Em 14 de novembro de 1889, um boato falso correu pelo Rio e o Império acabou em pouco mais de um dia. A história completa está no canal.",
+      "hashtags": ["#historiadobrasil", "#proclamaçãodarepública", "#curiosidades"],
+      "legenda_reels": "Um boato falso, um marechal doente e um imperador que foi à missa derrubaram o Império do Brasil. Segue o perfil para mais história contada de um jeito diferente. #historiadobrasil #proclamaçãodarepública #curiosidades #1889"
+    },
+    {
+      "de": [5, 1], "ate": [5, 4],
+      "gancho": "Império caindo, imperador na missa",
+      "titulo": "Enquanto o governo caía, Dom Pedro II foi à missa",
+      "descricao": "Telegrama, passeio, missa, viagem. A manhã de Dom Pedro II em 15 de novembro de 1889. A história completa está no canal.",
+      "hashtags": ["#dompedroii", "#historiadobrasil", "#15denovembro"],
+      "legenda_reels": "Enquanto o governo dele caía no Rio, Dom Pedro II seguia a agenda em Petrópolis: telegrama, passeio e missa. Segue o perfil para mais história. #dompedroii #historiadobrasil #15denovembro #curiosidades"
+    },
+    {
+      "de": [8, 1], "ate": [8, 4],
+      "gancho": "Doente demais para ver o imperador?",
+      "titulo": "O imperador recusou fugir: \"é fogo de palha\"",
+      "descricao": "Oferecem um navio chileno a Dom Pedro II, e ele recusa. Deodoro, doente demais para conversar, derruba o governo. A história completa está no canal.",
+      "hashtags": ["#deodorodafonseca", "#historiadobrasil", "#republica"],
+      "legenda_reels": "O imperador recusou fugir num navio chileno e chamou a crise de fogo de palha. Deodoro estava doente demais para conversar, mas não para derrubar o governo. Segue o perfil! #deodorodafonseca #historiadobrasil #republica #curiosidades"
+    }
+  ]
+}
