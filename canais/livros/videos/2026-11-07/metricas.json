@@ -1,12 +1,21 @@
 {
   "video_id": "7Oij1SwLO7k",
   "janelas": {},
-  "parcial": {},
-  "canal": {
-    "viewCount": "5032",
-    "subscriberCount": "7",
-    "hiddenSubscriberCount": false,
-    "videoCount": "20"
+  "parcial": {
+    "views": 0,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 0,
+    "averageViewPercentage": 0,
+    "subscribersGained": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0
   },
-  "atualizado_em": "2026-11-09T11:51:06+00:00"
+  "canal": {
+    "viewCount": "5096",
+    "subscriberCount": "8",
+    "hiddenSubscriberCount": false,
+    "videoCount": "22"
+  },
+  "atualizado_em": "2026-11-10T11:46:49+00:00"
 }
