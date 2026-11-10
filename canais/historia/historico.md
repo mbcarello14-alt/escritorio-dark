@@ -40,3 +40,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-09
 - Depois do longo do Muro de Berlim, usar os Shorts da série para apontar para o longo e testar um Short com comparação com o presente (ex.: "o calote que parou um país"), no molde do Pix medieval; checar fontes antes.
+
+### 2026-11-10
+- Short com comparação ao presente (ex.: o calote que parou um país) levando ao longo do Muro de Berlim, no molde do Pix medieval (1.257 views); checar fontes antes.

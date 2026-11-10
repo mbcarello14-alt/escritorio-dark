@@ -32,3 +32,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-09
 - Manter o molde "o que todo mundo acha que sabe" no Short de Rápido e Devagar (Kahneman) e ligar ao longo; Shorts com pergunta sobre obras muito conhecidas rendem mais que os de obras de nicho.
+
+### 2026-11-10
+- Short "o que todo mundo acha que sabe" sobre outro clássico muito conhecido, no molde do Frankenstein (462 views), apontando para o longo do mesmo livro.

@@ -38,3 +38,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-09
 - Aproveitar o longo da conta de luz (10/11) com um Short de pegadinha com número e pergunta no título, e usar a descrição como ponte para o mapa mental completo.
+
+### 2026-11-10
+- Short de pegadinha com número e pergunta no título em Química ou Biologia, no molde da regra de três (844 views), com a descrição apontando para o longo da matéria.
