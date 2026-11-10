@@ -1,21 +1,11 @@
 {
-  "atualizado_em": "2026-11-10T19:49:29Z",
+  "atualizado_em": "2026-11-10T20:55:39Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00"
     ]
   },
   "proximos": [
-    {
-      "canal": "vestibular",
-      "dia": "2026-11-10",
-      "rotulo": "terça 10/11 17h00",
-      "publicar_em_utc": "2026-11-10T20:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Conta de luz no ENEM: o erro que a banca deixa pronto",
-      "url": "https://youtu.be/xo7NkH-qRz0"
-    },
     {
       "canal": "livros",
       "dia": "2026-11-11",
@@ -48,16 +38,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-02",
-      "rotulo": "segunda 02/11 18h00",
-      "publicar_em_utc": "2026-11-02T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Quanto custava tirar uma alma do purgatório?",
-      "url": "https://youtu.be/Ow6CaIrVHwY"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-03",
@@ -107,6 +87,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "O Muro de Berlim caiu por falta de dinheiro?",
       "url": "https://youtu.be/0GCVHi81phU"
+    },
+    {
+      "canal": "vestibular",
+      "dia": "2026-11-10",
+      "rotulo": "terça 10/11 17h00",
+      "publicar_em_utc": "2026-11-10T20:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Conta de luz no ENEM: o erro que a banca deixa pronto",
+      "url": "https://youtu.be/xo7NkH-qRz0"
     }
   ],
   "canais": [
@@ -122,7 +112,7 @@
       "nome": "Mapeado",
       "inscritos": 12,
       "horas": 16.3,
-      "publicados": 3
+      "publicados": 4
     },
     {
       "id": "livros",
