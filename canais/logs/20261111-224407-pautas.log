@@ -1,0 +1,37 @@
+comando: /pautas canais/livros/videos/2026-11-14
+🔧 Bash {"command": "cat canais/livros/videos/2026-11-14/estado.json; ls canais/livros/videos/2026-11-14"}
+🔧 Agent {"subagent_type": "pesquisador-livros", "description": "Pautas Marca-Página", "prompt": "Etapa 1 (pauta) do canal livros (Marca-Página). Pasta: canais/livros/videos/2026-11-14. Dia de publicação (rotu
+💬 Aguardando o pesquisador-livros terminar; assim que ele avisar, confiro o `pautas.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 WebSearch {"query": "Enem 2026 datas provas novembro segundo domingo", "mode": "standard"}
+🔧 WebSearch {"query": "livros mais vendidos novembro 2026 Brasil", "mode": "standard"}
+🔧 WebSearch {"query": "Dom Casmurro resumo crítica Capitu traiu vídeo YouTube milhões de views", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-14/01-pauta.md", "content": "# Pauta — Marca-Página — sábado 14/11/2026, 11h00 (BRT)\n\nContexto da semana
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-14/pautas.json", "content": "[\n  {\n    \"titulo\": \"Rápido e Devagar: o que ainda vale no Kahneman\",\n
+💬 Escrevi os dois arquivos da pauta de sábado 14/11. Não confirmei views de vídeos concorrentes: a busca não trouxe contagens, então os "outliers" de outros canais estão marcados como "checar".
+
+As 3 ideias, em ordem:
+1. **"Rápido e Devagar: o que ainda vale no Kahneman"** (nota 8,0). É não ficção, depois do clássico Frankenstein, e cai perto da Black Friday. A audiência já pediu o tema e o ângulo é a crise de replicação da psicologia.
+2. **"Quarto de Despejo: o diário que virou best-seller"** (nota 7,7). Cai na semana do Dia da Consciência Negra (20/11). O ângulo é a edição de Audálio Dantas e 
+🔧 Bash {"command": "cd canais/livros/videos/2026-11-14 && python3 -c \"\nimport json;d=json.load(open('pautas.json'));print(len(d));[print(x) for x in d]\""}
+💬 `canais/livros/videos/2026-11-14/pautas.json` está válido, com 3 itens, e as três ideias são livros, dentro do nicho do Marca-Página. O `01-pauta.md` com a análise completa também está na pasta. Não editei mais nada.
+
+As ideias, já ranqueadas:
+1. **Rápido e Devagar: o que ainda vale no Kahneman.** Resumo dos dois sistemas, com a crítica baseada na crise de replicação da psicologia.
+2. **Quarto de Despejo: o diário que virou best-seller.** O ângulo é a edição de Audálio Dantas e o debate sobre autenticidade. Cai na semana do Dia da Consciência Negra (20/11).
+3. **Dom Casmurro: Capitu traiu ou e
+
+=== resultado: success | turnos 3 | 4s | erro=False
+Aguardando o pesquisador-livros terminar; assim que ele avisar, confiro o `pautas.json`.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+`canais/livros/videos/2026-11-14/pautas.json` está válido, com 3 itens, e as três ideias são livros, dentro do nicho do Marca-Página. O `01-pauta.md` com a análise completa também está na pasta. Não editei mais nada.
+
+As ideias, já ranqueadas:
+1. **Rápido e Devagar: o que ainda vale no Kahneman.** Resumo dos dois sistemas, com a crítica baseada na crise de replicação da psicologia.
+2. **Quarto de Despejo: o diário que virou best-seller.** O ângulo é a edição de Audálio Dantas e o debate sobre autenticidade. Cai na semana do Dia da Consciência Negra (20/11).
+3. **Dom Casmurro: Capitu traiu ou ele nos enganou?** O livro visto como defesa escrita pelo próprio acusador. A demanda é alta, mas a saturação também.
+
+O pesquisador não conseguiu confirmar as views de vídeos concorrentes. Esses "outliers" estão marcados como "checar" no `01-pauta.md`. As fichas dos livros (editora, páginas, cobrança em vestibular) também estão "a confirmar" e precisam ser checadas no dossiê.
+codigo de saida: 0

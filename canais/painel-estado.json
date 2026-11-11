@@ -1,22 +1,13 @@
 {
-  "atualizado_em": "2026-11-11T19:56:12Z",
+  "atualizado_em": "2026-11-11T22:45:04Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00",
+      "Marca-Página: sábado 14/11 11h00",
       "Longo Marca-Página: Machado de Assis"
     ]
   },
   "proximos": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-11",
-      "rotulo": "quarta 11/11 19h00",
-      "publicar_em_utc": "2026-11-11T22:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Kahneman errou? O que ainda vale de Rápido e Devagar",
-      "url": "https://youtu.be/Abj5ZXjjpn8"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-12",
@@ -36,19 +27,19 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "O dia em que o Brasil virou república sem perceber?",
       "url": "https://youtu.be/mUhLSP6ex3g"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-14",
+      "rotulo": "sábado 14/11 11h00",
+      "publicar_em_utc": "2026-11-14T14:00:00Z",
+      "etapa": "aguardando_escolha",
+      "etapa_txt": "👉 esperando você escolher a pauta",
+      "titulo": "",
+      "url": ""
     }
   ],
   "publicados": [
-    {
-      "canal": "vestibular",
-      "dia": "2026-11-03",
-      "rotulo": "terça 03/11 17h00",
-      "publicar_em_utc": "2026-11-03T20:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Ecologia no ENEM: energia desce, veneno sobe",
-      "url": "https://youtu.be/_C38hqcUFGI"
-    },
     {
       "canal": "livros",
       "dia": "2026-11-04",
@@ -98,6 +89,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Conta de luz no ENEM: o erro que a banca deixa pronto",
       "url": "https://youtu.be/xo7NkH-qRz0"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-11",
+      "rotulo": "quarta 11/11 19h00",
+      "publicar_em_utc": "2026-11-11T22:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Kahneman errou? O que ainda vale de Rápido e Devagar",
+      "url": "https://youtu.be/Abj5ZXjjpn8"
     }
   ],
   "canais": [
@@ -120,7 +121,7 @@
       "nome": "Marca-Página",
       "inscritos": 8,
       "horas": 13.2,
-      "publicados": 4
+      "publicados": 5
     }
   ],
   "imagens": {
