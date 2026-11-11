@@ -1,0 +1,15 @@
+17:21:27 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+17:21:27 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+17:21:28 INFO Processing audio with duration 00:37.807
+[0;93m2026-11-11 17:21:28.080750008 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+17:21:28 INFO VAD filter removed 00:00.000 of audio
+17:21:35 INFO Processing audio with duration 00:37.807
+17:21:35 INFO VAD filter removed 00:00.000 of audio
+17:21:42 WARNING instrução lida em bloco_01.wav (2.3–12.4s): 'brasileiro neutro, como uma apresentadora inteligente e bem humorada, comentando um livro com uma am' — cortando
+17:21:42 WARNING instrução lida em bloco_01.wav (15.6–17.9s): 'rápido, sem pausas longas, como quem' — cortando
+17:21:43 INFO Processing audio with duration 00:37.808
+17:21:43 INFO VAD filter removed 00:00.000 of audio
+17:21:50 INFO bloco 1: 37.8s, 107 palavras reconhecidas
+17:28:31 INFO render 3D: pronto: 1177 quadros em 397s
+17:29:04 INFO reel pronto: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-11-desafio/saida/reel.mp4 (39.2s)
+17:29:06 INFO Short agendado: https://youtube.com/shorts/ZTL--2pjRc0 (2026-11-16T23:00:00Z)

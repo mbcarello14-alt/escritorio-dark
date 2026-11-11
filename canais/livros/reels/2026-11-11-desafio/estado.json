@@ -1,6 +1,11 @@
 {
   "canal": "livros",
   "dia": "2026-11-11",
-  "etapa": "roteiro_reel",
-  "ajustes": []
+  "etapa": "agendado",
+  "ajustes": [],
+  "atualizado_em": "2026-11-11T17:29:06+00:00",
+  "titulo": "Leitor atento: pause com os 3 livros no quadro 📚",
+  "duracao_s": 39.21,
+  "publicar_em_utc": "2026-11-16T23:00:00Z",
+  "url": "https://youtube.com/shorts/ZTL--2pjRc0"
 }
