@@ -13,7 +13,7 @@
     "ceu": "#F6D6E8",
     "chao": "#B7D99A",
     "cidade": false,
-    "arvores": 5,
+    "arvores": 0,
     "nuvens": true,
     "sol": true
   },
@@ -36,9 +36,9 @@
       "texto": "LEITOR ATENTO:\nPAUSE COM OS 3\nNO QUADRO!",
       "pos": [
         0,
-        0.74
+        0.7
       ],
-      "tam": 1.05,
+      "tam": 3.1,
       "cor": "#ffffff"
     },
     {
