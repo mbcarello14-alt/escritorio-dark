@@ -1,6 +1,11 @@
 {
   "canal": "vestibular",
   "dia": "2026-11-11",
-  "etapa": "roteiro_reel",
-  "ajustes": []
+  "etapa": "agendado",
+  "ajustes": [],
+  "atualizado_em": "2026-11-11T17:26:30+00:00",
+  "titulo": "Teste de foco: pause com os 3 dentro do quadro ✏️",
+  "duracao_s": 19.49,
+  "publicar_em_utc": "2026-11-16T22:00:00Z",
+  "url": "https://youtube.com/shorts/d7fmSv7zmks"
 }
