@@ -1,0 +1,52 @@
+{
+  "canal": "vestibular",
+  "titulo": "Você carrega um fio de 2 metros em cada célula",
+  "descricao": "O DNA esticado de uma célula tem cerca de 2 metros e cabe num núcleo minúsculo graças às histonas. Tema que cai muito no ENEM.",
+  "hashtags": ["#enem", "#biologia", "#dna"],
+  "legenda_reels": "Cada célula sua guarda cerca de 2 metros de DNA! Cabe porque se enrola em histonas (cromatina). Cai muito no ENEM. Comenta DNA que a gente faz o mapa mental completo. #enem #biologia #dna",
+  "isca": "Comenta DNA",
+  "cenario": {"ceu": "#bfe3f7", "chao": "#86c06c", "cidade": false, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "lousa", "tipo": "lousa", "pos": [0, 0, -3]},
+    {"id": "prof", "tipo": "boneco", "pos": [-2, 0, 1], "cor": "#4a7bd8", "fala": true},
+    {"id": "celula", "tipo": "esfera", "tam": 1.2, "cor": "#f4a8c8", "pos": [1.8, 1.2, 1], "oculto": true},
+    {"id": "fio", "tipo": "barra", "altura": 0.1, "largura": 0.3, "cor": "#e0407a", "pos": [0.2, 0, 0.5], "oculto": true},
+    {"id": "dois", "tipo": "numero", "valor": 0, "sufixo": " m", "casas": 0, "cor": "#ffffff", "fundo": "#e0407a", "tam": 1.6, "pos": [0, 0.72]},
+    {"id": "termo", "tipo": "texto", "texto": "HISTONA + DNA\n= CROMATINA", "cor": "#ffffff", "fundo": "#2a6f3a", "tam": 0.9, "pos": [0, 0.6], "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Dentro de você tem um fio de dois metros, enfiado numa célula invisível.", "acoes": [
+      {"t": 0.0, "alvo": "fio", "acao": "aparecer", "som": "pop"},
+      {"t": 0.3, "alvo": "fio", "acao": "crescer", "para": 6, "dur": 2.0, "som": "whoosh"},
+      {"t": 0.4, "alvo": "dois", "acao": "contar", "para": 2, "dur": 1.6},
+      {"t": 3.0, "alvo": "celula", "acao": "aparecer", "som": "pop"}
+    ]},
+    {"texto": "É o DNA. Esticado, o de uma única célula mede cerca de dois metros.", "acoes": [
+      {"t": 0.0, "alvo": "prof", "acao": "acenar"},
+      {"t": 1.5, "alvo": "dois", "acao": "escalar", "para": 1.3, "som": "ding"},
+      {"t": 2.5, "alvo": "prof", "acao": "pular", "altura": 0.6}
+    ]},
+    {"texto": "E como cabe? Ele se enrola em proteínas chamadas histonas, igual linha em carretel.", "acoes": [
+      {"t": 0.3, "alvo": "fio", "acao": "crescer", "para": 0.3, "dur": 2.5, "som": "whoosh"},
+      {"t": 0.5, "alvo": "celula", "acao": "girar", "voltas": 2},
+      {"t": 2.5, "alvo": "fio", "acao": "cor", "cor": "#8a4bd8"},
+      {"t": 3.5, "alvo": "dois", "acao": "sumir"}
+    ]},
+    {"texto": "A pegadinha: toda célula sua tem o mesmo DNA. Muda só qual gene fica ligado.", "acoes": [
+      {"t": 0.0, "alvo": "celula", "acao": "escalar", "para": 1.6, "som": "boom"},
+      {"t": 0.0, "acao": "tremer", "forca": 0.4},
+      {"t": 1.5, "alvo": "celula", "acao": "cor", "cor": "#ffd23f"},
+      {"t": 3.0, "alvo": "celula", "acao": "cor", "cor": "#6fd3ff"}
+    ]},
+    {"texto": "Grava assim: DNA mais histona é igual a cromatina. Isso cai muito.", "acoes": [
+      {"t": 0.0, "alvo": "termo", "acao": "aparecer", "som": "ding"},
+      {"t": 1.0, "alvo": "prof", "acao": "acenar"},
+      {"t": 3.0, "alvo": "termo", "acao": "escalar", "para": 1.2}
+    ]},
+    {"texto": "Qual matéria você quer ver assim? Comenta DNA, que a gente faz o mapa mental completo.", "acoes": [
+      {"t": 0.0, "alvo": "prof", "acao": "pular", "altura": 0.8, "som": "pop"},
+      {"t": 2.0, "alvo": "prof", "acao": "girar", "voltas": 1}
+    ]}
+  ]
+}

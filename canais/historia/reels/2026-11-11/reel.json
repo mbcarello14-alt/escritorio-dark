@@ -1,0 +1,63 @@
+{
+  "canal": "historia",
+  "titulo": "A guerra em que a Austrália perdeu para os emus",
+  "descricao": "Em 1932, o exército australiano foi enfrentar cerca de 20 mil emus com metralhadoras e voltou sem vitória. A Guerra dos Emus de verdade.",
+  "hashtags": ["#historia", "#curiosidades", "#australia"],
+  "legenda_reels": "Em 1932 a Austrália mandou o exército contra 20 mil emus. Quem venceu? Comenta EMU! #historia #curiosidades #australia",
+  "isca": "Comenta EMU",
+  "cenario": {"ceu": "#f2b66d", "chao": "#d9a85b", "cidade": false, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "emus", "tipo": "numero", "valor": 0, "sufixo": " emus", "cor": "#8b4a1f", "tam": 1.3, "pos": [0, 0.78]},
+    {"id": "soldado1", "tipo": "boneco", "cor": "#556b2f", "calca": "#3d4a22", "pos": [-2, 0, 0], "oculto": true},
+    {"id": "soldado2", "tipo": "boneco", "cor": "#556b2f", "calca": "#3d4a22", "pos": [2, 0, 0], "oculto": true},
+    {"id": "balas", "tipo": "numero", "valor": 0, "sufixo": " balas", "cor": "#b22222", "tam": 1.2, "pos": [0, 0.62], "oculto": true},
+    {"id": "placar", "tipo": "texto", "texto": "EMUS 1 x 0 EXÉRCITO", "cor": "#ffffff", "fundo": "#b22222", "tam": 0.9, "pos": [0, 0.5], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Em mil novecentos e trinta e dois, a Austrália mandou o exército contra vinte mil emus. E perdeu.",
+      "acoes": [
+        {"t": 0.1, "alvo": "emus", "acao": "contar", "para": 20000, "dur": 2.5, "som": "ding"},
+        {"t": 3.5, "alvo": "soldado1", "acao": "aparecer", "som": "pop"},
+        {"t": 4.0, "alvo": "soldado2", "acao": "aparecer", "som": "pop"}
+      ]
+    },
+    {
+      "texto": "Eram soldados com duas metralhadoras e dez mil balas.",
+      "acoes": [
+        {"t": 0.3, "alvo": "soldado1", "acao": "pular", "altura": 1},
+        {"t": 0.8, "alvo": "soldado2", "acao": "pular", "altura": 1},
+        {"t": 1.8, "alvo": "balas", "acao": "aparecer", "som": "pop"},
+        {"t": 2.0, "alvo": "balas", "acao": "contar", "para": 10000, "dur": 1.8, "som": "caixa"}
+      ]
+    },
+    {
+      "texto": "Mas os emus se espalhavam em bandos pequenos, corriam rápido e as armas travavam.",
+      "acoes": [
+        {"t": 0.2, "alvo": "emus", "acao": "escalar", "para": 1.4, "som": "whoosh"},
+        {"t": 1.5, "alvo": "soldado1", "acao": "mover", "para": [-2.5, 0, 1.5], "som": "whoosh"},
+        {"t": 1.8, "alvo": "soldado2", "acao": "mover", "para": [2.5, 0, -1.5]},
+        {"t": 3.0, "acao": "camera", "pos": [0, 6, 12], "olha": [0, 3, 0]}
+      ]
+    },
+    {
+      "texto": "Quase dez mil balas para novecentos e oitenta e seis emus abatidos, segundo o major. Os fazendeiros discordaram.",
+      "acoes": [
+        {"t": 0.3, "alvo": "balas", "acao": "contar", "para": 9860, "dur": 1.0},
+        {"t": 1.5, "alvo": "emus", "acao": "contar", "para": 986, "dur": 2.0, "som": "tic"},
+        {"t": 4.5, "alvo": "emus", "acao": "cor", "cor": "#b22222"}
+      ]
+    },
+    {
+      "texto": "Os soldados recuaram e os emus ficaram. Qual guerra mais absurda você conhece? Comenta EMU.",
+      "acoes": [
+        {"t": 0.2, "alvo": "placar", "acao": "aparecer", "som": "boom"},
+        {"t": 0.2, "acao": "tremer", "forca": 0.4},
+        {"t": 1.0, "alvo": "soldado1", "acao": "mover", "para": [-3, 0, -3]},
+        {"t": 1.2, "alvo": "soldado2", "acao": "mover", "para": [3, 0, -3]},
+        {"t": 3.5, "alvo": "placar", "acao": "pular", "altura": 0.3}
+      ]
+    }
+  ]
+}
