@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-11T09:47:04Z",
+  "atualizado_em": "2026-11-11T11:51:08Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00",
@@ -105,21 +105,21 @@
       "id": "historia",
       "nome": "Ouro & Império",
       "inscritos": 6,
-      "horas": 18.4,
+      "horas": 19.1,
       "publicados": 5
     },
     {
       "id": "vestibular",
       "nome": "Mapeado",
       "inscritos": 12,
-      "horas": 16.3,
+      "horas": 17.6,
       "publicados": 4
     },
     {
       "id": "livros",
       "nome": "Marca-Página",
       "inscritos": 8,
-      "horas": 13.0,
+      "horas": 13.2,
       "publicados": 4
     }
   ],

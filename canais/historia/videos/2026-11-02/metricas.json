@@ -39,20 +39,20 @@
     }
   },
   "parcial": {
-    "views": 25,
-    "estimatedMinutesWatched": 43,
-    "averageViewDuration": 286,
-    "averageViewPercentage": 29.68,
+    "views": 30,
+    "estimatedMinutesWatched": 59,
+    "averageViewDuration": 323,
+    "averageViewPercentage": 33.53,
     "subscribersGained": 0,
     "likes": 1,
     "comments": 0,
     "shares": 0
   },
   "canal": {
-    "viewCount": "7024",
+    "viewCount": "7040",
     "subscriberCount": "6",
     "hiddenSubscriberCount": false,
-    "videoCount": "24"
+    "videoCount": "26"
   },
-  "atualizado_em": "2026-11-10T11:46:50+00:00"
+  "atualizado_em": "2026-11-11T11:51:07+00:00"
 }
