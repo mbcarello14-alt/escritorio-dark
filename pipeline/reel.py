@@ -116,8 +116,15 @@ def _timeline(reel: dict, inicios: list[float], dur_total: float) -> dict:
         objetos.append({"id": "_isca", "tipo": "texto", "texto": reel["isca"].upper(), "pos": [0, 0.36], "tam": 0.9,
                         "fundo": "#E63946", "cor": "#ffffff", "oculto": True})
         acoes.append({"t": round(inicios[-1], 3), "alvo": "_isca", "acao": "aparecer", "som": "pop"})
-    return {"cenario": reel.get("cenario", {}), "camera": reel.get("camera", {}), "objetos": objetos,
-            "acoes": sorted(acoes, key=lambda a: a["t"]), "duracao": dur_total}
+    tl = {"cenario": reel.get("cenario", {}), "camera": reel.get("camera", {}), "objetos": objetos,
+          "acoes": sorted(acoes, key=lambda a: a["t"]), "duracao": dur_total}
+    if reel.get("desafio"):   # "pause com os 3 dentro do quadro": o momento vira segundos absolutos
+        d = dict(reel["desafio"])
+        m = d.get("momento") or {}
+        f = min(int(m.get("fala", len(inicios))) - 1, len(inicios) - 1)
+        d["momento_s"] = round(inicios[max(0, f)] + float(m.get("t", 1.0)), 3)
+        tl["desafio"] = d
+    return tl
 
 
 def _trilha_sons(timeline: dict, dur: float, tmp: Path) -> Path | None:
@@ -245,7 +252,8 @@ def despublicar(pasta: Path) -> None:
 ACOES_OK = {"aparecer", "sumir", "mover", "pular", "girar", "olhar", "acenar", "escalar", "crescer", "contar", "texto",
             "cor", "explodir", "tremer", "camera"}
 TIPOS_OK = {"boneco", "predio", "casa", "arvore", "pilha_moedas", "moeda", "saco_dinheiro", "barra", "seta", "livro", "navio",
-            "lousa", "cubo", "esfera", "cilindro", "texto", "numero"}
+            "lousa", "cubo", "esfera", "cilindro", "texto", "numero",
+            "piramide", "templo", "castelo", "torre", "estante", "lapis", "coroa", "atomo", "balao"}
 
 
 def validar(pasta: Path) -> list[str]:
@@ -273,7 +281,7 @@ def validar(pasta: Path) -> list[str]:
             erros.append(f"id repetido '{o.get('id')}'")
         ids.add(o.get("id"))
         pos = o.get("pos") or [0, 0, 0]
-        if len(pos) == 3 and abs(pos[0]) > 3.6:
+        if len(pos) == 3 and abs(pos[0]) > 3.6 + 0.45 * max(0.0, -pos[2]):   # ao fundo cabe mais para os lados
             erros.append(f"'{o.get('id')}' em x={pos[0]} sai da tela vertical (use −3 a 3)")
     for i, f in enumerate(falas, 1):
         for a in f.get("acoes", []):
@@ -283,6 +291,10 @@ def validar(pasta: Path) -> list[str]:
                 erros.append(f"fala {i}: alvo '{a.get('alvo')}' não existe")
             if a.get("som") and a["som"] not in SONS:
                 erros.append(f"fala {i}: som desconhecido '{a['som']}'")
+    if r.get("desafio"):
+        mov = r["desafio"].get("moveis") or []
+        if len(mov) != 3 or any(m not in ids for m in mov):
+            erros.append("desafio precisa de exatamente 3 'moveis' que existam em 'objetos'")
     if r.get("isca") and r["isca"].split()[-1].lower().strip(".!") not in falas[-1].get("texto", "").lower():
         erros.append("a última fala precisa falar a isca (ex.: 'Comenta OURO')")
     return erros

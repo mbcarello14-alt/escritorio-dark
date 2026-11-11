@@ -1,0 +1,153 @@
+{
+  "canal": "vestibular",
+  "titulo": "Teste de foco: pause com os 3 dentro do quadro ✏️",
+  "descricao": "Desafio de atenção do Mapeado antes de estudar: o lápis, o livro e o átomo só se encontram dentro do quadro uma vez.",
+  "hashtags": [
+    "#desafio",
+    "#foco",
+    "#estudos"
+  ],
+  "legenda_reels": "Teste de foco antes de estudar: pause com os 3 dentro do quadro vermelho. Conseguiu? Comenta FOCO ✏️ #desafio #foco #estudos #enem",
+  "isca": "Comenta FOCO",
+  "cenario": {
+    "ceu": "#9AD0F5",
+    "chao": "#86C06C",
+    "cidade": true,
+    "arvores": 3,
+    "nuvens": true,
+    "sol": true
+  },
+  "camera": {
+    "pos": [
+      0,
+      5,
+      15
+    ],
+    "olha": [
+      0,
+      5.2,
+      0
+    ]
+  },
+  "objetos": [
+    {
+      "id": "desafio_txt",
+      "tipo": "texto",
+      "texto": "TESTE DE FOCO:\nPAUSE COM OS 3\nNO QUADRO!",
+      "pos": [
+        0,
+        0.74
+      ],
+      "tam": 1.05,
+      "cor": "#ffffff"
+    },
+    {
+      "id": "escola",
+      "tipo": "predio",
+      "pos": [
+        2.6,
+        0,
+        -7
+      ],
+      "altura": 5,
+      "largura": 3.4,
+      "cor": "#F4A261"
+    },
+    {
+      "id": "lousa",
+      "tipo": "lousa",
+      "pos": [
+        -2.4,
+        0,
+        -6
+      ],
+      "rot": 15
+    },
+    {
+      "id": "torre",
+      "tipo": "torre",
+      "pos": [
+        -4.4,
+        0,
+        -17
+      ],
+      "altura": 22,
+      "cor": "#B8C4D6"
+    },
+    {
+      "id": "lapis",
+      "tipo": "lapis",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "escala": 0.6
+    },
+    {
+      "id": "livro",
+      "tipo": "livro",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "escala": 0.95,
+      "cor": "#3A86FF"
+    },
+    {
+      "id": "atomo",
+      "tipo": "atomo",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "escala": 0.85
+    }
+  ],
+  "desafio": {
+    "moveis": [
+      "lapis",
+      "livro",
+      "atomo"
+    ],
+    "quadro": {
+      "pos": [
+        0,
+        0.22
+      ],
+      "larg": 0.56,
+      "alt": 0.2
+    },
+    "momento": {
+      "fala": 3,
+      "t": 2.3
+    }
+  },
+  "falas": [
+    {
+      "texto": "Teste de foco rápido antes de estudar: pause o vídeo com os três dentro do quadro vermelho.",
+      "acoes": [
+        {
+          "t": 0.1,
+          "acao": "tremer",
+          "forca": 0.15,
+          "som": "whoosh"
+        }
+      ]
+    },
+    {
+      "texto": "Um lápis, um livro e um átomo, cada um na sua velocidade.",
+      "acoes": []
+    },
+    {
+      "texto": "Só existe um instante em que os três ficam lá dentro. Concentra.",
+      "acoes": []
+    },
+    {
+      "texto": "Conseguiu? Se pausou com os três, comenta FOCO.",
+      "acoes": []
+    }
+  ]
+}

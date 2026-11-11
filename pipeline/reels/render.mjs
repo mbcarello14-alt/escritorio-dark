@@ -33,6 +33,8 @@ const pag = await nav.newPage({ viewport: { width: +wS, height: +hS } });
 pag.on("pageerror", e => { console.error("ERRO NA CENA:", e.message); process.exitCode = 2; });
 await pag.goto(`http://localhost:${porta}/reels/cena.html?w=${wS}&h=${hS}`);
 await pag.waitForFunction(() => window.pronto === true, null, { timeout: 60000 });
+const janela = await pag.evaluate(() => window.janelaDesafio || null);
+if (janela) console.log(`desafio: os 3 ficam dentro do quadro em ${janela.length} quadros: ${janela.slice(0, 12).join(", ")}s`);
 const t0 = Date.now();
 for (let i = 0; i < total; i++) {
   const dados = await pag.evaluate(t => { window.quadro(t); return document.querySelector("canvas").toDataURL("image/jpeg", 0.9); }, i / fps);
