@@ -1,0 +1,367 @@
+{
+  "blocos": [
+    {
+      "capitulo": "Quem escreveu essa história",
+      "cenas": [
+        {
+          "narracao": "Quem escreveu essa história? É a pergunta que manda aqui. Num dezesseis de novembro como hoje, em mil quinhentos e trinta e dois, o homem mais poderoso dos Andes entrou numa praça chamada Cajamarca para encontrar cento e poucos estrangeiros.",
+          "visual": {"tipo": "mapa_animado", "regiao": [-84, -18, -68, 2], "camera_para": [-78.5, -7.2, -77, -6], "camera_em": 0.5, "cidades": [{"nome": "Cajamarca", "lon": -78.5, "lat": -7.16, "destaque": true, "em": 0.6}], "rotulos": [{"texto": "Andes", "lon": -75, "lat": -10, "tipo": "pais"}], "titulo_inferior": {"titulo": "Cajamarca, 16 de novembro de 1532", "subtitulo": "O dia em que um imperador entrou numa praça"}}
+        },
+        {
+          "narracao": "Em mais ou menos meia hora, virou refém. E um dos relatos mais antigos desse dia foi publicado pelo secretário do chefe dos estrangeiros.",
+          "visual": {"tipo": "ilustracao", "cena": "a serious 16th century Spanish secretary writing with a quill at a small desk in a stone plaza, while behind him a Inca emperor on a golden litter is surrounded by armored soldiers", "busca_reserva": "Spanish conquistador chronicle manuscript 1534", "movimento": "pan_direita", "particulas": "poeira"}
+        },
+        {
+          "narracao": "É a ata do condomínio escrita pelo síndico que deu o golpe. Hoje a gente conta o que aconteceu e, no caminho, desconfia de quem contou.",
+          "visual": {"tipo": "ilustracao", "cena": "a smug conquistador in a helmet acting as an apartment building manager, writing meeting minutes at a desk, while a cartoon viewer holds a magnifying glass over his notes", "busca_reserva": "magnifying glass over old manuscript", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "Se essa desconfiança te agrada, clica em inscrever e no joinha. E escreve aí embaixo: o que você sabia de Atahualpa antes deste vídeo, nem que seja o nome?",
+          "visual": {"tipo": "ilustracao", "cena": "a friendly cartoon Inca-era storyteller in a poncho pointing at the viewer with a big grin, a giant thumbs-up and a bell floating beside him", "busca_reserva": "Inca textile pattern Andes", "movimento": "zoom_out"}
+        }
+      ]
+    },
+    {
+      "capitulo": "Um império rachado e um visitante bem informado",
+      "cenas": [
+        {
+          "narracao": "Para entender a praça, volta uns anos. O Império Inca era um dos maiores do mundo naquela época, esticado ao longo dos Andes.",
+          "visual": {"tipo": "mapa_animado", "regiao": [-84, -24, -66, 4], "areas": [{"pontos": [[-78.5, 1], [-76.5, -2], [-78.5, -6], [-76, -10], [-72, -13], [-69, -14], [-68, -18], [-70, -23], [-70.5, -19], [-72, -16], [-76, -14], [-79, -9], [-80.5, -5], [-80, -1]], "cor": "ouro", "rotulo": "Império Inca", "em": 0.3}], "rotulos": [{"texto": "Oceano Pacífico", "lon": -82, "lat": -15, "tipo": "mar"}]}
+        },
+        {
+          "narracao": "Em algum momento entre mil quinhentos e vinte e cinco e mil quinhentos e vinte e oito, o imperador Huayna Cápac morre, e morre junto o herdeiro que ele tinha escolhido. A causa mais provável é uma epidemia, talvez de varíola, mas a data e a doença são incertas.",
+          "visual": {"tipo": "ilustracao", "cena": "an aging Inca emperor lying on a bed in a stone palace room, a worried noble holding his hand, a tiny sick-looking cloud drifting through the window", "busca_reserva": "Inca emperor Huayna Capac portrait", "movimento": "zoom_in", "neblina": true, "titulo_inferior": {"titulo": "Huayna Cápac", "subtitulo": "Imperador inca · morre entre 1525 e 1528"}}
+        },
+        {
+          "narracao": "Sobra um trono vazio e dois filhos de olho nele. Huáscar, reconhecido pela nobreza de Cusco, a capital. E o meio-irmão Atahualpa, no norte, perto de Quito, com o exército principal.",
+          "visual": {"tipo": "mapa_animado", "regiao": [-84, -24, -66, 4], "areas": [{"pontos": [[-78.5, 1], [-76.5, -2], [-78.5, -6], [-76, -10], [-72, -13], [-69, -14], [-68, -18], [-70, -23], [-70.5, -19], [-72, -16], [-76, -14], [-79, -9], [-80.5, -5], [-80, -1]], "cor": "ouro", "rotulo": "Império Inca"}], "cidades": [{"nome": "Cusco", "lon": -71.97, "lat": -13.52, "destaque": true, "em": 0.35}, {"nome": "Quito", "lon": -78.5, "lat": -0.18, "destaque": true, "em": 0.75}], "rotulos": [{"texto": "Huáscar", "lon": -72, "lat": -11.5, "tipo": "destaque", "em": 0.4}, {"texto": "Atahualpa", "lon": -76.5, "lat": 1.5, "tipo": "destaque", "em": 0.8}]}
+        },
+        {
+          "narracao": "Sabe aquela briga de herança que termina com irmão bloqueando irmão no grupo da família? Troca o apartamento da avó por um império, e o grupo da família por exércitos.",
+          "visual": {"tipo": "ilustracao", "cena": "two cartoon Inca princes glaring at each other across an empty golden throne, one of them holding a tiny smartphone with a blocked icon", "busca_reserva": "Inca nobles Cusco painting", "movimento": "zoom_out"}
+        },
+        {
+          "narracao": "A guerra civil vai mais ou menos de mil quinhentos e vinte e nove a mil quinhentos e trinta e dois, e quem ganha é Atahualpa. Os generais dele prendem Huáscar na batalha de Quipaipán, no início de mil quinhentos e trinta e dois, e tomam Cusco.",
+          "visual": {"tipo": "mapa_animado", "regiao": [-84, -24, -66, 4], "camera_para": [-80, -14, -70, -2], "areas": [{"pontos": [[-78.5, 1], [-76.5, -2], [-78.5, -6], [-76, -10], [-72, -13], [-69, -14], [-68, -18], [-70, -23], [-70.5, -19], [-72, -16], [-76, -14], [-79, -9], [-80.5, -5], [-80, -1]], "cor": "ouro"}], "cidades": [{"nome": "Quito", "lon": -78.5, "lat": -0.18}, {"nome": "Cusco", "lon": -71.97, "lat": -13.52, "destaque": true, "em": 0.8}], "rotas": [{"pontos": [[-78.5, -0.18], [-78.5, -7.16], [-75, -11], [-71.97, -13.52]], "carga": "caravana", "duracao": 0.6}], "rotulos": [{"texto": "Guerra civil, 1529–1532", "lon": -76.5, "lat": -9, "tipo": "destaque", "em": 0.3}]}
+        },
+        {
+          "narracao": "Na Espanha, em mil quinhentos e vinte e nove, Francisco Pizarro tinha conseguido da Coroa espanhola a licença para conquistar a região. O rei Carlos Quinto aprovou a empreitada contando com só duzentos e cinquenta espanhóis.",
+          "visual": {"tipo": "ilustracao", "cena": "King Charles V on a throne in a Spanish palace signing a royal license with a huge feather quill, while a rugged Francisco Pizarro kneels holding a tiny list of 250 names", "busca_reserva": "Charles V Habsburg portrait Titian", "movimento": "pan_esquerda", "particulas": "poeira", "titulo_inferior": {"titulo": "Francisco Pizarro", "subtitulo": "Conquistador espanhol · licença de 1529"}}
+        },
+        {
+          "narracao": "Na terceira viagem, Pizarro encontra a cidade costeira de Tumbes em ruínas. Dois jovens locais, que ele tinha ensinado a falar espanhol, contam o que se passa terra adentro: uma guerra entre irmãos e uma doença que fez estrago.",
+          "visual": {"tipo": "ilustracao", "cena": "Pizarro and two young Andean interpreters standing on a beach looking at a ruined coastal town, the interpreters gesturing inland toward the mountains", "busca_reserva": "Tumbes Peru coast ruins", "movimento": "pan_direita", "neblina": true}
+        },
+        {
+          "narracao": "Pizarro funda um povoado na costa, San Miguel de Piura, e sobe para o interior sabendo que vai encontrar um império dividido.",
+          "visual": {"tipo": "mapa_animado", "regiao": [-84, -18, -68, 2], "cidades": [{"nome": "Tumbes", "lon": -80.45, "lat": -3.57}, {"nome": "San Miguel de Piura", "lon": -80.63, "lat": -5.19, "destaque": true, "em": 0.2}, {"nome": "Cajamarca", "lon": -78.5, "lat": -7.16, "destaque": true, "lado": "esquerda", "em": 0.8}], "rotas": [{"pontos": [[-80.63, -5.19], [-79.5, -6.2], [-78.5, -7.16]], "carga": "caravana", "duracao": 0.5}]}
+        }
+      ]
+    },
+    {
+      "capitulo": "A cidade vazia",
+      "cenas": [
+        {
+          "narracao": "Quinze de novembro de mil quinhentos e trinta e dois. Pizarro entra em Cajamarca com cerca de cento e sessenta e oito homens.",
+          "visual": {"tipo": "ilustracao", "cena": "a small column of Spanish soldiers and horses climbing a mountain road into a quiet Andean town, led by Pizarro", "busca_reserva": "Cajamarca Peru colonial plaza", "movimento": "zoom_in", "particulas": "poeira", "titulo_inferior": {"titulo": "Cajamarca, 15 de novembro de 1532", "subtitulo": "Os espanhóis chegam"}}
+        },
+        {
+          "narracao": "Cento e seis a pé, sessenta e dois a cavalo, uns poucos canhões pequenos e uns doze arcabuzes, as armas de fogo pesadas da época. Alguns textos falam em cento e oitenta homens.",
+          "visual": {"tipo": "contador", "de": 0, "ate": 168, "sufixo": " espanhóis", "rotulo": "106 a pé, 62 a cavalo", "comparacao": "alguns textos falam em 180"}
+        },
+        {
+          "narracao": "A cidade está quase vazia. Atahualpa, que ainda voltava da campanha contra o irmão, está acampado do lado de fora, perto dos banhos termais, com o exército.",
+          "visual": {"tipo": "mapa_animado", "regiao": [-80, -9, -76.5, -5.5], "cidades": [{"nome": "Cajamarca", "lon": -78.5, "lat": -7.16, "destaque": true, "em": 0.2}], "areas": [{"pontos": [[-78.38, -7.13], [-78.3, -7.15], [-78.3, -7.2], [-78.4, -7.21], [-78.44, -7.17]], "cor": "vermelho", "rotulo": "Acampamento de Atahualpa", "em": 0.6}], "rotulos": [{"texto": "banhos termais", "lon": -78.3, "lat": -7.25, "tipo": "destaque", "em": 0.7}]}
+        },
+        {
+          "narracao": "Quantos soldados? As estimativas vão de uns oito mil veteranos até oitenta mil. Dez vezes de diferença. Margem de erro desse tamanho é o jeito educado de dizer que ninguém sabe.",
+          "visual": {"tipo": "contador", "de": 8000, "ate": 80000, "sufixo": " soldados", "rotulo": "O exército de Atahualpa, segundo as estimativas", "comparacao": "dez vezes de diferença entre as fontes"}
+        },
+        {
+          "narracao": "Em qualquer versão, os espanhóis eram uma gota no mar. Antes do encontro, dois homens de Pizarro, Hernando de Soto e Hernando Pizarro, vão ao acampamento visitar Atahualpa e voltam com uma promessa: o Inca iria até a cidade.",
+          "visual": {"tipo": "ilustracao", "cena": "a tiny group of Spanish horsemen riding into a vast Andean camp full of thousands of tents and warriors, one horseman bowing before a distant golden litter", "busca_reserva": "Inca army camp Andes painting", "movimento": "pan_esquerda", "particulas": "poeira"}
+        },
+        {
+          "narracao": "Na véspera, o plano toma forma. Nada de batalha em campo aberto. A ideia é capturar o imperador dentro da praça.",
+          "visual": {"tipo": "ilustracao", "cena": "Pizarro and a few officers huddled around a candle at night in a stone hall, pointing at a sketch of a square plaza drawn on the floor", "busca_reserva": "Pizarro conquistador council night", "movimento": "zoom_in", "luzes": [{"x": 0.5, "y": 0.6, "raio": 0.2}], "particulas": "poeira"}
+        },
+        {
+          "narracao": "Repara no que isso revela. Cento e poucos homens, a milhares de quilômetros de casa, com um exército gigante logo ali, não planejam vencer uma guerra. Planejam pegar uma pessoa.",
+          "visual": {"tipo": "ilustracao", "cena": "a chessboard where a single small golden emperor piece is circled in red while a huge crowd of pawns stands untouched at the edge of the board", "busca_reserva": "antique chess pieces gold king", "movimento": "zoom_in"}
+        }
+      ]
+    },
+    {
+      "capitulo": "A entrada na praça",
+      "cenas": [
+        {
+          "narracao": "Dezesseis de novembro. Atahualpa vem, mas vem no ritmo dele, numa marcha lenta e cerimonial.",
+          "visual": {"tipo": "ilustracao", "cena": "a long slow ceremonial Andean procession on a dusty mountain road, hundreds of attendants in colorful tunics carrying a golden litter far in the distance", "busca_reserva": "Inca road procession painting", "movimento": "pan_direita", "neblina": true, "titulo_inferior": {"titulo": "16 de novembro de 1532", "subtitulo": "O dia do encontro"}}
+        },
+        {
+          "narracao": "Do lado espanhol, o plano está pronto e o dia vai passando. Dá para supor que ninguém ali queria lutar no escuro, e cada hora a mais era luz a menos.",
+          "visual": {"tipo": "ilustracao", "cena": "nervous Spanish soldiers hiding in the stone buildings around an empty plaza, peeking out of doorways as the afternoon sun slides lower", "busca_reserva": "empty stone plaza afternoon Andes", "movimento": "zoom_in", "particulas": "poeira"}
+        },
+        {
+          "narracao": "Perto do pôr do sol, Atahualpa finalmente entra na praça. Vem numa liteira, uma espécie de trono carregado nos ombros.",
+          "visual": {"tipo": "ilustracao", "cena": "an Inca emperor in a magnificent feathered headdress seated on a golden litter carried on the shoulders of bearers, entering a stone plaza at sunset", "busca_reserva": "Atahualpa litter engraving", "movimento": "zoom_in", "luzes": [{"x": 0.5, "y": 0.3, "raio": 0.25}], "titulo_inferior": {"titulo": "Atahualpa", "subtitulo": "Imperador inca · Cajamarca, 1532"}}
+        },
+        {
+          "narracao": "Com ele, milhares de acompanhantes: de três mil a oito mil, conforme a fonte. E aqui está o detalhe que faz essa tarde ser discutida até hoje. Eles entram sem armas à vista. O grosso do exército fica do lado de fora dos muros.",
+          "visual": {"tipo": "ilustracao", "cena": "a huge crowd of unarmed attendants in colorful tunics streaming through the gate of a stone plaza, while the walls behind show a distant army waiting outside", "busca_reserva": "Inca nobles procession illustration", "movimento": "pan_esquerda"}
+        },
+        {
+          "narracao": "Uma versão diz que alguns levavam pequenas armas escondidas debaixo das roupas, e os autores discordam se aquilo era uma guarda armada ou só um cortejo. Mas, no geral, o homem que tinha acabado de vencer uma guerra pelo trono entra numa praça cheia de estrangeiros armados quase como quem vai a uma cerimônia.",
+          "visual": {"tipo": "ilustracao", "cena": "an attendant with a tiny sling peeking out from under his tunic, while two cartoon historians in the corner argue with question marks over their heads", "busca_reserva": "Inca sling weapon", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "E quem descreveu essa entrada para a posteridade foram justamente os homens que esperavam por ele com o plano pronto. Fica a pergunta que todo mundo faz: por quê?",
+          "visual": {"tipo": "ilustracao", "cena": "Spanish scribes watching from a dark window with quills in hand and sly smiles, while a giant glowing question mark hovers over the plaza", "busca_reserva": "Spanish chronicler writing manuscript", "movimento": "zoom_out", "particulas": "poeira"}
+        }
+      ]
+    },
+    {
+      "capitulo": "Por que ele entrou",
+      "cenas": [
+        {
+          "narracao": "Por que ele entrou? Muito vídeo por aí responde com uma certeza que ninguém tem.",
+          "visual": {"tipo": "ilustracao", "cena": "a giant question mark casting a shadow over a small stone plaza, a confident cartoon narrator with a megaphone being politely waved off", "busca_reserva": "question mark ancient parchment", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "O que se sabe cabe em quatro frases. Atahualpa foi convidado. Tinha uma vantagem numérica enorme. Tinha acabado de ganhar uma guerra. E deixou o exército do lado de fora.",
+          "visual": {"tipo": "lista", "titulo": "O que se sabe", "itens": ["Foi convidado", "Tinha vantagem numérica enorme", "Tinha acabado de ganhar uma guerra", "Deixou o exército do lado de fora"]}
+        },
+        {
+          "narracao": "O que ele pensava, ninguém registrou. Nenhum andino escreveu um diário naquela tarde. Daqui para frente é suposição, e vai como suposição.",
+          "visual": {"tipo": "ilustracao", "cena": "an open blank diary with a quill resting on it on a wooden table, a knotted quipu cord hanging beside it, soft light from a window", "busca_reserva": "quipu Inca knotted cord", "movimento": "zoom_in", "particulas": "poeira"}
+        },
+        {
+          "narracao": "Primeira hipótese: confiança. Com milhares de soldados por perto, cento e sessenta e oito estrangeiros podiam parecer pouco demais para levar a sério.",
+          "visual": {"tipo": "ilustracao", "cena": "a relaxed Inca emperor on his litter smiling at a tiny huddle of Spanish soldiers as if they were a minor curiosity, thousands of warriors behind him", "busca_reserva": "Inca emperor Atahualpa illustration", "movimento": "zoom_out"}
+        },
+        {
+          "narracao": "Segunda: diplomacia. Uma visita, um encontro formal, quem sabe um banquete, e chegar sem armas podia ser um gesto de boa vontade, talvez até pedido pelos próprios espanhóis.",
+          "visual": {"tipo": "ilustracao", "cena": "a ceremonial table set with golden cups and corn beer in a stone hall, empty seats waiting for two sides of a formal meeting, no weapons in sight", "busca_reserva": "Inca ceremonial gold cups", "movimento": "pan_direita", "luzes": [{"x": 0.5, "y": 0.4, "raio": 0.15}]}
+        },
+        {
+          "narracao": "Terceira: curiosidade. Aqueles homens andavam em cima de bichos que ninguém nos Andes tinha visto, os cavalos.",
+          "visual": {"tipo": "ilustracao", "cena": "wide-eyed Andean villagers staring in amazement at a large horse for the first time, one child hiding behind a llama", "busca_reserva": "conquistador horse Peru painting", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "Pode ser uma delas, a mistura das três ou uma quarta que a gente nunca vai saber. Inventar o pensamento de um homem e vender como fato, isso não dá.",
+          "visual": {"tipo": "ilustracao", "cena": "the silhouette of a thoughtful Inca emperor with three empty thought bubbles above his head marked with a heart, a handshake and a horse, and a fourth bubble that is blank", "busca_reserva": "silhouette thinker thought bubbles", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "Agora é com você, e essa eu quero ver pegando fogo lá embaixo: Atahualpa caiu numa armadilha que ninguém ali teria como prever, ou foi um erro de cálculo dele?",
+          "visual": {"tipo": "ilustracao", "cena": "two cartoon commenters facing off, one holding a mousetrap sign and the other a calculator, flames of a lively debate between them", "busca_reserva": "mousetrap and calculator", "movimento": "zoom_in", "particulas": "brasas"}
+        },
+        {
+          "narracao": "Defende o teu lado nos comentários. E se o vídeo te fez pensar até aqui, o like e a inscrição são o jeito mais rápido de me avisar.",
+          "visual": {"tipo": "ilustracao", "cena": "a cheerful cartoon Andean storyteller pointing at the viewer, a giant thumbs-up, a subscribe bell and a speech bubble floating around him", "busca_reserva": "Andes llama cartoon happy", "movimento": "zoom_out"}
+        }
+      ]
+    },
+    {
+      "capitulo": "O sinal",
+      "cenas": [
+        {
+          "narracao": "A partir daqui o tom muda, porque o que vem não tem graça nenhuma. Na praça, quem se aproxima de Atahualpa é um frade dominicano, frei Vicente de Valverde, com um intérprete.",
+          "visual": {"tipo": "ilustracao", "cena": "a Dominican friar in a black and white habit holding a cross and a book, walking toward a golden litter in a stone plaza with a young interpreter at his side", "busca_reserva": "Dominican friar 16th century engraving", "movimento": "zoom_in", "neblina": true, "titulo_inferior": {"titulo": "Frei Vicente de Valverde", "subtitulo": "Frade dominicano · Cajamarca, 1532"}}
+        },
+        {
+          "narracao": "Ele apresenta ao imperador uma exigência: aceitar a fé cristã e reconhecer a autoridade do rei Carlos Quinto. Um homem que tinha acabado de vencer uma guerra pelo trono, ouvindo por tradução que agora devia obediência a um rei do outro lado do oceano.",
+          "visual": {"tipo": "ilustracao", "cena": "an Inca emperor on his litter listening with a baffled, unimpressed face as a friar holds out a book and a cross, a map of the Atlantic Ocean in the background", "busca_reserva": "Valverde Atahualpa book painting", "movimento": "pan_direita"}
+        },
+        {
+          "narracao": "A resposta, segundo os próprios espanhóis, é uma recusa. E, nos relatos espanhóis, essa recusa vira o pretexto: o frade teria incitado o ataque. Na leitura aqui do canal, essa é a cena que mais merece desconfiança, porque é a que melhor justifica quem atacou.",
+          "visual": {"tipo": "ilustracao", "cena": "a magnifying glass hovering over an old chronicle page showing a friar raising his arm, the page glowing with a red suspicion mark", "busca_reserva": "old chronicle page magnifying glass", "movimento": "zoom_in", "particulas": "poeira"}
+        },
+        {
+          "narracao": "Vem o sinal, e os homens de Pizarro atacam. Dura cerca de meia hora.",
+          "visual": {"tipo": "ilustracao", "cena": "a dark stone plaza at dusk in chaos, smoke, mounted Spanish soldiers charging with swords, silhouettes scattering, no gore", "busca_reserva": "Cajamarca massacre engraving", "movimento": "zoom_in", "particulas": "brasas", "neblina": true}
+        },
+        {
+          "narracao": "Do lado andino, as estimativas vão de alguns milhares a mais de sete mil mortos, conforme a fonte. Do lado espanhol, os cronistas falam em quase nenhuma morte. Por isso muitos estudiosos preferem não chamar aquilo de batalha. Chamam de massacre de Cajamarca.",
+          "visual": {"tipo": "contador", "de": 0, "ate": 7000, "prefixo": "mais de ", "rotulo": "Mortos do lado andino, segundo algumas estimativas", "comparacao": "do lado espanhol, quase nenhum morto"}
+        },
+        {
+          "narracao": "Atahualpa é capturado vivo, e esse era o objetivo.",
+          "visual": {"tipo": "ilustracao", "cena": "an Inca emperor in a golden headband held gently but firmly by the arms by several Spanish soldiers in a torch-lit plaza, his litter overturned behind him", "busca_reserva": "capture of Atahualpa engraving", "movimento": "zoom_in", "luzes": [{"x": 0.3, "y": 0.5, "raio": 0.15}, {"x": 0.75, "y": 0.5, "raio": 0.15}]}
+        },
+        {
+          "narracao": "E o exército de milhares lá fora? Naquela noite, ele se dispersa. Não há registro de contra-ataque.",
+          "visual": {"tipo": "ilustracao", "cena": "a vast empty camp of tents outside stone walls at dawn, fires burning low and warriors walking away in small groups into the mist", "busca_reserva": "Andes mountains dawn camp", "movimento": "pan_esquerda", "neblina": true}
+        },
+        {
+          "narracao": "O império não perdeu uma guerra naquele dia. Perdeu a cabeça que dava as ordens.",
+          "visual": {"tipo": "ilustracao", "cena": "a large wooden puppet with Andean patterns collapsing on a stage, its strings cut and dangling from an empty crossbar above", "busca_reserva": "marionette puppet cut strings", "movimento": "zoom_out"}
+        }
+      ]
+    },
+    {
+      "capitulo": "Um refém, não uma vitória",
+      "cenas": [
+        {
+          "narracao": "Alan Covey, historiador da Universidade do Texas, defende que aquilo não foi uma vitória militar. Foi a traição de uma negociação diplomática para conseguir um refém e cobrar resgate.",
+          "visual": {"tipo": "ilustracao", "cena": "a thoughtful historian in glasses at a desk piled with books about the Andes, a small model of a stone plaza on the table", "busca_reserva": "historian desk books Andes", "movimento": "zoom_in", "titulo_inferior": {"titulo": "Alan Covey", "subtitulo": "Historiador · Universidade do Texas"}}
+        },
+        {
+          "narracao": "E ele vai além: os próprios espanhóis sabiam que não tinham vencido batalha decisiva nenhuma. O exército inca continuava lá. O que eles tinham era um homem.",
+          "visual": {"tipo": "ilustracao", "cena": "a few Spanish soldiers standing in a stone hall holding a single rope tied to a captive emperor, while behind the walls a huge army waits on the hills", "busca_reserva": "Spanish soldiers captive Inca emperor", "movimento": "pan_direita"}
+        },
+        {
+          "narracao": "Uma comparação minha, não do Covey: aquele homem era o seguro de vida deles. Com o imperador nas mãos, tinham com o que negociar. Sem ele, só a própria sorte.",
+          "visual": {"tipo": "ilustracao", "cena": "a Spanish conquistador clutching a giant insurance policy document with a tiny golden emperor portrait stamped on it, looking relieved", "busca_reserva": "old insurance policy document", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "E a ideia não caiu do céu. Na Europa daquela década, prender gente graúda para cobrar resgate estava, digamos, na moda.",
+          "visual": {"tipo": "ilustracao", "cena": "a medieval-style market stall where a salesman displays kings and nobles in little cages with price tags, customers browsing like in a shop", "busca_reserva": "16th century European nobles ransom", "movimento": "pan_esquerda"}
+        },
+        {
+          "narracao": "Em mil quinhentos e vinte e cinco, na batalha de Pavia, o rei da França, Francisco Primeiro, foi capturado.",
+          "visual": {"tipo": "imagem", "busca": "Battle of Pavia 1525 tapestry Francis I captured", "movimento": "zoom_in", "titulo_inferior": {"titulo": "Pavia, 1525", "subtitulo": "O rei da França é capturado", "pequeno": true}}
+        },
+        {
+          "narracao": "Em mil quinhentos e vinte e sete, no saque de Roma, foi a vez do papa Clemente Sétimo ficar preso.",
+          "visual": {"tipo": "imagem", "busca": "Sack of Rome 1527 painting", "movimento": "pan_direita", "titulo_inferior": {"titulo": "Roma, 1527", "subtitulo": "O papa fica preso", "pequeno": true}}
+        },
+        {
+          "narracao": "Covey lembra esses casos como o mundo em que os homens de Pizarro viviam. Um rei, um papa e agora um imperador inca: a mesma lógica, agora nos Andes.",
+          "visual": {"tipo": "linha_tempo", "foco": 2, "eventos": [{"ano": "1525", "texto": "Pavia: rei da França capturado"}, {"ano": "1527", "texto": "Saque de Roma: papa preso"}, {"ano": "1532", "texto": "Cajamarca: imperador inca capturado"}]}
+        }
+      ]
+    },
+    {
+      "capitulo": "O refém que ainda mandava",
+      "cenas": [
+        {
+          "narracao": "E o refém continuou mandando. Atahualpa, preso, segue dando ordens. É como se um presidente fosse sequestrado e continuasse despachando pelo celular do sequestrador.",
+          "visual": {"tipo": "ilustracao", "cena": "a captive Inca emperor sitting calmly in a stone room giving orders to a messenger, while a sleepy Spanish guard dozes beside a tiny phone in his hand", "busca_reserva": "Atahualpa captive Cajamarca engraving", "movimento": "zoom_in", "luzes": [{"x": 0.7, "y": 0.35, "raio": 0.12}]}
+        },
+        {
+          "narracao": "Ele faz uma oferta: encher de ouro uma sala, até uma marca na parede, e ainda entregar prata, num prazo de dois meses.",
+          "visual": {"tipo": "ilustracao", "cena": "a stone room being filled with golden vessels and jewelry up to a painted line on the wall, the emperor pointing at the line with an outstretched arm", "busca_reserva": "Inca gold objects ransom room", "movimento": "zoom_out", "particulas": "moedas", "luzes": [{"x": 0.5, "y": 0.6, "raio": 0.2}]}
+        },
+        {
+          "narracao": "Os números exatos desse ouro e dessa prata que circulam por aí não batem entre si, e sem a fonte original não dá para cravar, então este vídeo fica sem tabela.",
+          "visual": {"tipo": "ilustracao", "cena": "an empty accountant ledger with blank columns and a scribe shrugging with open hands, scales on the desk perfectly balanced", "busca_reserva": "old ledger accounting book", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "Nas semanas seguintes, as entregas começam a chegar, e continuam ao longo de vários meses, até meados de mil quinhentos e trinta e três. O metal foi fundido e virou barra antes da divisão.",
+          "visual": {"tipo": "mapa_animado", "regiao": [-84, -18, -68, 2], "cidades": [{"nome": "Cusco", "lon": -71.97, "lat": -13.52}, {"nome": "Cajamarca", "lon": -78.5, "lat": -7.16, "destaque": true, "lado": "esquerda", "em": 0.2}], "rotas": [{"pontos": [[-71.97, -13.52], [-75, -10.5], [-78.5, -7.16]], "carga": "caravana", "duracao": 0.6}], "rotulos": [{"texto": "ouro e prata a caminho", "lon": -75.5, "lat": -9, "tipo": "destaque", "em": 0.5}]}
+        },
+        {
+          "narracao": "E Atahualpa ofereceu isso para quê? Para ser solto? Outro debate.",
+          "visual": {"tipo": "ilustracao", "cena": "an Inca emperor handing over a heavy golden jar to a Spaniard while a big question mark hangs between them, a locked door in the background", "busca_reserva": "Inca gold ransom painting", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "O historiador John Hemming defende que ele ofereceu o resgate para salvar a própria vida, e lembra que os primeiros cronistas nem falam em promessa de libertação. Se você sempre ouviu que os espanhóis prometeram soltar e não cumpriram, saiba que nem isso é ponto pacífico.",
+          "visual": {"tipo": "ilustracao", "cena": "a British historian in a tweed jacket reading an old chronicle at a desk, an unlit signed promise scroll with a cross-out beside him", "busca_reserva": "historian reading old chronicle", "movimento": "pan_direita", "titulo_inferior": {"titulo": "John Hemming", "subtitulo": "Historiador da conquista do Peru"}}
+        },
+        {
+          "narracao": "Enquanto o ouro chegava, outra história acontecia longe dali. Huáscar, o irmão derrotado, morre durante o cativeiro de Atahualpa.",
+          "visual": {"tipo": "ilustracao", "cena": "a lone prisoner prince sitting under guard in a dim stone cell far from the capital, mountains seen through a narrow window", "busca_reserva": "Huascar Inca prisoner illustration", "movimento": "zoom_in", "neblina": true, "titulo_inferior": {"titulo": "Huáscar", "subtitulo": "Inca derrotado · morre durante o cativeiro de Atahualpa"}}
+        },
+        {
+          "narracao": "A versão mais repetida diz que foi por ordem de Atahualpa, mesmo preso. Existem outras versões, e nenhuma fecha a questão.",
+          "visual": {"tipo": "ilustracao", "cena": "a messenger whispering at a cell door with several different versions of a story shown as floating scrolls around him, none of them complete", "busca_reserva": "old scrolls floating mystery", "movimento": "zoom_out", "particulas": "poeira"}
+        }
+      ]
+    },
+    {
+      "capitulo": "O julgamento de fachada",
+      "cenas": [
+        {
+          "narracao": "Com o resgate entregue, sobra a pergunta: o que fazer com o refém? Chega o sócio de Pizarro, Diego de Almagro.",
+          "visual": {"tipo": "ilustracao", "cena": "a tough bearded conquistador arriving on horseback with reinforcements at a stone town gate, a pile of gold bars visible in the courtyard", "busca_reserva": "Diego de Almagro portrait", "movimento": "pan_direita", "titulo_inferior": {"titulo": "Diego de Almagro", "subtitulo": "Sócio de Pizarro"}}
+        },
+        {
+          "narracao": "Os relatos apontam dois motivos para o que veio depois: Almagro pressionando pela morte do Inca e o medo de uma revolta.",
+          "visual": {"tipo": "ilustracao", "cena": "Spanish officers whispering with worried faces in the torchlight of a stone hall, one of them pointing nervously toward the hills outside", "busca_reserva": "conquistadors torchlight council", "movimento": "zoom_in", "luzes": [{"x": 0.2, "y": 0.5, "raio": 0.12}, {"x": 0.8, "y": 0.5, "raio": 0.12}]}
+        },
+        {
+          "narracao": "Os espanhóis montam então um julgamento de fachada. As acusações incluíam revolta, idolatria e, numa das versões, a morte de Huáscar.",
+          "visual": {"tipo": "ilustracao", "cena": "a mock courtroom in a stone hall where Spanish officers sit behind a table with a ready-made verdict already written, the accused emperor standing calmly", "busca_reserva": "trial of Atahualpa engraving", "movimento": "zoom_out"}
+        },
+        {
+          "narracao": "A sentença era a fogueira. Depois que Atahualpa aceitou o batismo, ela foi trocada pela execução por garrote.",
+          "visual": {"tipo": "ilustracao", "cena": "a solemn friar with a bowl of water in a dim stone cell with a captive emperor kneeling, a single shaft of light from a window", "busca_reserva": "friar baptism 16th century", "movimento": "zoom_in", "neblina": true}
+        },
+        {
+          "narracao": "A data mais aceita hoje é vinte e seis de julho de mil quinhentos e trinta e três. Durante muito tempo se falou em vinte e nove de agosto, mas pesquisas posteriores corrigiram para julho.",
+          "visual": {"tipo": "linha_tempo", "foco": 1, "eventos": [{"ano": "16 nov 1532", "texto": "Captura em Cajamarca"}, {"ano": "26 jul 1533", "texto": "Execução de Atahualpa"}]}
+        },
+        {
+          "narracao": "Fica o registro: um homem capturado num encontro para o qual foi convidado, que entregou o que pediram e foi morto mesmo assim. Não tem piada para fazer aqui. E não tem herói nessa parte da história.",
+          "visual": {"tipo": "ilustracao", "cena": "an empty stone plaza at night with a single burning candle on the ground and a long shadow, quiet and somber", "busca_reserva": "candle night empty plaza", "movimento": "zoom_out", "neblina": true, "luzes": [{"x": 0.5, "y": 0.7, "raio": 0.15}]}
+        }
+      ]
+    },
+    {
+      "capitulo": "A versão que ficou",
+      "cenas": [
+        {
+          "narracao": "Volta agora para a pergunta do começo. Os relatos mais antigos sobre Cajamarca foram escritos por espanhóis que estavam lá, ou por gente ligada a Pizarro. Francisco de Xerez, o secretário dele, publicou o seu em mil quinhentos e trinta e quatro.",
+          "visual": {"tipo": "ilustracao", "cena": "a Spanish secretary writing quickly with a quill by candlelight, a stack of finished pages beside him and a printing press in the background", "busca_reserva": "Francisco de Xerez Verdadera relacion 1534", "movimento": "pan_direita", "luzes": [{"x": 0.35, "y": 0.5, "raio": 0.12}], "titulo_inferior": {"titulo": "Francisco de Xerez", "subtitulo": "Secretário de Pizarro · relato publicado em 1534"}}
+        },
+        {
+          "narracao": "Pedro Pizarro, primo do chefe, escreveu décadas depois. Covey aponta que esses primeiros relatos capricham na missão cristã e no papel de representantes de Carlos Quinto, o que dá a tudo cara de justificativa.",
+          "visual": {"tipo": "ilustracao", "cena": "a pile of old chronicle manuscripts decorated with large crosses and royal crests, a cartoon stamp reading approved pressing down on top", "busca_reserva": "Spanish colonial chronicle manuscript", "movimento": "zoom_in", "particulas": "poeira"}
+        },
+        {
+          "narracao": "E a versão andina? Testemunha ocular andina que tenha deixado relato, não existe.",
+          "visual": {"tipo": "ilustracao", "cena": "a knotted quipu cord hanging over an empty wooden stool in a stone room, no scribe present, a soft beam of light on the cord", "busca_reserva": "Inca quipu museum", "movimento": "zoom_in", "neblina": true}
+        },
+        {
+          "narracao": "Os textos com voz andina, como os de Titu Cusi e de Guamán Poma, ou o de Juan de Betanzos, um espanhol casado com uma nobre inca, vêm décadas depois.",
+          "visual": {"tipo": "imagem", "busca": "Guaman Poma Nueva coronica drawing Atahualpa", "movimento": "pan_direita", "titulo_inferior": {"titulo": "Guamán Poma", "subtitulo": "Desenho da Nueva corónica, c. 1615", "pequeno": true}}
+        },
+        {
+          "narracao": "Até a imagem que a gente tem na cabeça foi construída. Uma pintura famosa da cena, feita por Millais em mil oitocentos e quarenta e seis, foi inspirada numa descrição em inglês, não num relato da época.",
+          "visual": {"tipo": "imagem", "busca": "Millais Pizarro Seizing the Inca of Peru 1846 painting", "movimento": "zoom_in", "titulo_inferior": {"titulo": "Millais, 1846", "subtitulo": "Pizarro capturando o Inca do Peru", "pequeno": true}}
+        },
+        {
+          "narracao": "Essa pintura foi parar na capa do livro de Jared Diamond, que usou Cajamarca como símbolo da ideia de armas, germes e aço. Covey critica essa leitura de pura superioridade.",
+          "visual": {"tipo": "ilustracao", "cena": "a balance scale with steel swords and tiny cartoon germs on one side and a big question mark on the other, a historian shaking his head", "busca_reserva": "steel swords medieval", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "E o historiador Matthew Restall, no livro Sete Mitos da Conquista Espanhola, defende que, na conquista como um todo, aliados nativos fizeram a maior parte do trabalho militar. Nos anos seguintes, povos como os cañaris, maltratados pelas tropas de Atahualpa, se juntaram aos espanhóis.",
+          "visual": {"tipo": "ilustracao", "cena": "Andean warriors in wool tunics marching side by side with a few Spanish soldiers along a mountain trail, the Andean group far larger than the Spanish one", "busca_reserva": "indigenous allies conquest of Peru painting", "movimento": "pan_esquerda", "particulas": "poeira", "titulo_inferior": {"titulo": "Matthew Restall", "subtitulo": "Sete Mitos da Conquista Espanhola", "pequeno": true}}
+        },
+        {
+          "narracao": "E a ironia final: no século dezoito, a própria Coroa espanhola passou a dizer que Atahualpa era o soberano legítimo e que Carlos Quinto era o herdeiro dele. O homem que eles mataram virou, no papel, a escritura do Peru.",
+          "visual": {"tipo": "ilustracao", "cena": "a Spanish royal official proudly presenting a large land deed of Peru that has a portrait of the Inca emperor on it, with a smug smile", "busca_reserva": "Spanish colonial land deed document", "movimento": "zoom_in", "particulas": "poeira"}
+        }
+      ]
+    },
+    {
+      "capitulo": "Quem segurou a caneta",
+      "cenas": [
+        {
+          "narracao": "Então, como cento e sessenta e oito homens pararam um império? Não pararam sozinhos, e não foi numa batalha.",
+          "visual": {"tipo": "mapa_animado", "regiao": [-84, -24, -66, 4], "areas": [{"pontos": [[-78.5, 1], [-76.5, -2], [-78.5, -6], [-76, -10], [-72, -13], [-69, -14], [-68, -18], [-70, -23], [-70.5, -19], [-72, -16], [-76, -14], [-79, -9], [-80.5, -5], [-80, -1]], "cor": "ouro", "rotulo": "Império Inca"}], "cidades": [{"nome": "Cajamarca", "lon": -78.5, "lat": -7.16, "destaque": true, "lado": "esquerda", "em": 0.5}]}
+        },
+        {
+          "narracao": "Chegaram no pior momento possível para os incas, com um imperador recém-saído de uma guerra contra o próprio irmão e um império ainda rachado. Transformaram um encontro em armadilha, pegaram a pessoa que segurava tudo de pé e, depois, escreveram a versão oficial.",
+          "visual": {"tipo": "ilustracao", "cena": "a cracked golden stone wall of an Inca temple with a crack running down the middle, a small group of Spaniards pulling a rope around its central pillar", "busca_reserva": "Inca stonework Cusco wall", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "Aço e cavalos ajudaram, claro. Mas o que decidiu aquela tarde foi a soma de um império dividido com um sequestro planejado. E a gente só conhece os detalhes porque quem planejou fez questão de publicar.",
+          "visual": {"tipo": "ilustracao", "cena": "a giant quill pen writing a single large page that fills the whole frame, a tiny Spanish soldier standing proudly on the nib, steel helmet and horse nearby", "busca_reserva": "quill pen parchment", "movimento": "zoom_out", "particulas": "poeira"}
+        },
+        {
+          "narracao": "Antes de você ir, volta comigo na pergunta do meio: enganado ou erro de cálculo? Se você já respondeu, confere se mudou de ideia depois do julgamento e das crônicas. Se ainda não, o espaço dos comentários é teu.",
+          "visual": {"tipo": "ilustracao", "cena": "a cheerful cartoon storyteller leaning toward the viewer, pointing at a big speech bubble with a mousetrap on one side and a calculator on the other", "busca_reserva": "comment speech bubbles cartoon", "movimento": "zoom_in"}
+        },
+        {
+          "narracao": "Aproveita, deixa o like e se inscreve, que tem muita história esperando alguém perguntar quem segurou a caneta.",
+          "visual": {"tipo": "ilustracao", "cena": "a smiling cartoon Andean character holding a giant quill pen like a flag, a large thumbs-up and a subscribe bell flying beside him", "busca_reserva": "quill pen thumbs up cartoon", "movimento": "zoom_out"}
+        },
+        {
+          "narracao": "E da próxima vez que alguém te contar uma vitória impossível, aqui no canal ou em qualquer mesa de bar, faz a pergunta que abriu este vídeo: quem escreveu essa história?",
+          "visual": {"tipo": "ilustracao", "cena": "friends sitting at a bar table, one raising his eyebrow skeptically at another telling a grand tale, a huge golden question mark glowing above the table", "busca_reserva": "friends bar table storytelling", "movimento": "zoom_out", "luzes": [{"x": 0.5, "y": 0.25, "raio": 0.2}]}
+        }
+      ]
+    }
+  ]
+}

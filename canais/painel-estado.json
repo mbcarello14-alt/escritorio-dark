@@ -1,10 +1,21 @@
 {
-  "atualizado_em": "2026-11-12T17:32:51Z",
+  "atualizado_em": "2026-11-12T17:38:56Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00",
-      "Ouro & Império: Como 168 espanhóis sequestraram um imperador (e quem contou essa história)",
       "Longo Marca-Página: Machado de Assis"
+    ],
+    "narrador": [
+      "Ouro & Império: 168 espanhóis, 1 imperador e quem escreveu a história"
+    ],
+    "ilustrador": [
+      "Ouro & Império: 168 espanhóis, 1 imperador e quem escreveu a história"
+    ],
+    "editor": [
+      "Ouro & Império: 168 espanhóis, 1 imperador e quem escreveu a história"
+    ],
+    "clipador": [
+      "Ouro & Império: 168 espanhóis, 1 imperador e quem escreveu a história"
     ]
   },
   "proximos": [
@@ -43,9 +54,9 @@
       "dia": "2026-11-16",
       "rotulo": "segunda 16/11 18h00",
       "publicar_em_utc": "2026-11-16T21:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "Como 168 espanhóis sequestraram um imperador (e quem contou essa história)",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "168 espanhóis, 1 imperador e quem escreveu a história",
       "url": ""
     }
   ],

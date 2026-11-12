@@ -1,0 +1,31 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1],
+      "ate": [1, 3],
+      "gancho": "Quem escreveu a história de Cajamarca?",
+      "titulo": "O imperador que virou refém em meia hora",
+      "descricao": "Em 1532, o homem mais poderoso dos Andes entrou numa praça e saiu preso. E quem contou o dia foi quem armou a cilada. A história completa está no canal.",
+      "hashtags": ["#historia", "#incas", "#curiosidades"],
+      "legenda_reels": "O imperador inca entrou numa praça e virou refém em meia hora. Quem contou essa história? Quem deu o golpe. Segue o perfil para mais história. #historia #incas #atahualpa #curiosidades"
+    },
+    {
+      "de": [3, 4],
+      "ate": [3, 7],
+      "gancho": "Ninguém sabe o tamanho desse exército",
+      "titulo": "8 mil ou 80 mil? O exército que ninguém sabe contar",
+      "descricao": "Cento e poucos espanhóis planejaram capturar um imperador cercado por um exército gigante. A história completa está no canal.",
+      "hashtags": ["#historia", "#incas", "#pizarro"],
+      "legenda_reels": "Entre 8 mil e 80 mil soldados de um lado, cento e poucos do outro. O plano não era vencer a guerra, era pegar uma pessoa. Segue o perfil para mais história. #historia #incas #pizarro #atahualpa"
+    },
+    {
+      "de": [7, 1],
+      "ate": [7, 4],
+      "gancho": "Cajamarca não foi uma vitória militar",
+      "titulo": "O seguro de vida de Pizarro: um imperador como refém",
+      "descricao": "Para um historiador da Universidade do Texas, Cajamarca foi sequestro, não batalha. A história completa está no canal.",
+      "hashtags": ["#historia", "#atahualpa", "#conquista"],
+      "legenda_reels": "Cajamarca não foi uma vitória militar: foi um sequestro com resgate, e a Europa da época vivia disso. Segue o perfil para mais história. #historia #atahualpa #pizarro #incas"
+    }
+  ]
+}
