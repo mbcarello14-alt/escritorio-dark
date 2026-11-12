@@ -1,21 +1,9 @@
 {
-  "atualizado_em": "2026-11-12T17:38:56Z",
+  "atualizado_em": "2026-11-12T17:53:13Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00",
       "Longo Marca-Página: Machado de Assis"
-    ],
-    "narrador": [
-      "Ouro & Império: 168 espanhóis, 1 imperador e quem escreveu a história"
-    ],
-    "ilustrador": [
-      "Ouro & Império: 168 espanhóis, 1 imperador e quem escreveu a história"
-    ],
-    "editor": [
-      "Ouro & Império: 168 espanhóis, 1 imperador e quem escreveu a história"
-    ],
-    "clipador": [
-      "Ouro & Império: 168 espanhóis, 1 imperador e quem escreveu a história"
     ]
   },
   "proximos": [
@@ -54,8 +42,8 @@
       "dia": "2026-11-16",
       "rotulo": "segunda 16/11 18h00",
       "publicar_em_utc": "2026-11-16T21:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "aguardando_cota",
+      "etapa_txt": "🎨 esperando a cota de imagens para desenhar",
       "titulo": "168 espanhóis, 1 imperador e quem escreveu a história",
       "url": ""
     }

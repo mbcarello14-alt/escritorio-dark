@@ -1,0 +1,66 @@
+17:39:54 INFO ilustrações: higgsfield desligado (sem chave)
+17:40:27 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 1/11
+17:40:27 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+17:40:27 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+17:40:27 INFO Processing audio with duration 00:37.287
+[0;93m2026-11-12 17:40:27.888880275 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+17:40:27 INFO VAD filter removed 00:00.000 of audio
+17:40:35 INFO Processing audio with duration 00:37.287
+17:40:35 INFO VAD filter removed 00:00.000 of audio
+17:41:27 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 2/11
+17:41:27 INFO Processing audio with duration 01:28.481
+17:41:27 INFO VAD filter removed 00:00.000 of audio
+17:41:45 INFO Processing audio with duration 01:28.481
+17:41:45 INFO VAD filter removed 00:00.000 of audio
+17:42:42 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 3/11
+17:42:42 INFO Processing audio with duration 01:11.527
+17:42:42 INFO VAD filter removed 00:00.000 of audio
+17:42:54 INFO Processing audio with duration 01:11.527
+17:42:54 INFO VAD filter removed 00:00.000 of audio
+17:43:49 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 4/11
+17:43:49 INFO Processing audio with duration 01:10.041
+17:43:49 INFO VAD filter removed 00:00.000 of audio
+17:44:01 INFO Processing audio with duration 01:10.041
+17:44:01 INFO VAD filter removed 00:00.000 of audio
+17:44:57 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 5/11
+17:44:57 INFO Processing audio with duration 01:23.407
+17:44:57 INFO VAD filter removed 00:00.000 of audio
+17:45:11 INFO Processing audio with duration 01:23.407
+17:45:11 INFO VAD filter removed 00:00.000 of audio
+17:46:07 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 6/11
+17:46:07 INFO Processing audio with duration 01:16.961
+17:46:07 INFO VAD filter removed 00:00.000 of audio
+17:46:21 INFO Processing audio with duration 01:16.961
+17:46:21 INFO VAD filter removed 00:00.000 of audio
+17:47:14 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 7/11
+17:47:14 INFO Processing audio with duration 00:56.081
+17:47:14 INFO VAD filter removed 00:00.000 of audio
+17:47:25 INFO Processing audio with duration 00:56.081
+17:47:25 INFO VAD filter removed 00:00.000 of audio
+17:47:43 WARNING Gemini TTS instável (503) — tentando de novo
+17:48:42 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 8/11
+17:48:42 INFO Processing audio with duration 01:15.487
+17:48:43 INFO VAD filter removed 00:00.000 of audio
+17:48:56 INFO Processing audio with duration 01:15.487
+17:48:56 INFO VAD filter removed 00:00.000 of audio
+17:49:46 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 9/11
+17:49:46 INFO Processing audio with duration 00:52.327
+17:49:46 INFO VAD filter removed 00:00.000 of audio
+17:49:56 INFO Processing audio with duration 00:52.327
+17:49:56 INFO VAD filter removed 00:00.000 of audio
+17:50:53 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 10/11
+17:50:54 INFO Processing audio with duration 01:33.641
+17:50:54 INFO VAD filter removed 00:00.000 of audio
+17:51:11 INFO Processing audio with duration 01:33.641
+17:51:12 INFO VAD filter removed 00:00.000 of audio
+17:51:29 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+17:51:55 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+17:52:47 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Charon): bloco 11/11
+17:52:47 INFO Processing audio with duration 01:14.720
+17:52:47 INFO VAD filter removed 00:00.000 of audio
+17:52:59 INFO Processing audio with duration 01:14.720
+17:52:59 INFO VAD filter removed 00:00.000 of audio
+17:53:11 INFO gerando 60 ilustrações…
+17:53:11 WARNING ilustrações: teto do flux atingido
+17:53:11 INFO ilustrações prontas: 0 geradas (60 pedidas)
+17:53:11 WARNING cota de imagens: -1 de 59 desenhos prontos — montagem adiada
