@@ -1,0 +1,40 @@
+comando: /pautas canais/historia/videos/2026-11-16
+🔧 Bash {"command": "cd canais/historia/videos/2026-11-16 && ls && cat estado.json"}
+🔧 Agent {"description": "Pautas Ouro & Império", "subagent_type": "pesquisador-historia", "prompt": "Etapa 1 (pauta). Canal: historia (Ouro & Império). Pasta: /home/runner/work/escritorio-dark/escritorio-dark
+💬 O pesquisador do Ouro & Império está trabalhando na pauta de 16/11. Aguardo a conclusão para validar o `pautas.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 WebSearch {"query": "Cajamarca 1532 Atahualpa Pizarro 16 de novembro vídeo história", "mode": "standard"}
+🔧 WebSearch {"query": "Proclamação da República 1889 povo bestializado Deodoro vídeo YouTube", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-16/pautas.json", "content": "[\n  {\"titulo\": \"Os 168 homens que pararam um império em 30 minutos\", \
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-16/01-pauta.md", "content": "# Pauta — segunda 16/11/2026, 18h\n\nContexto: últimos temas do canal foram
+💬 Escrevi `01-pauta.md` e `pautas.json` com as 3 ideias ranqueadas para segunda 16/11, 18h. Não toquei em mais nada.
+
+1. **Os 168 homens que pararam um império em 30 minutos.** Cajamarca, 16/11/1532, aniversário exato do dia da publicação. Nota geral 8,5.
+2. **A República que o povo achou que era um desfile.** Proclamação da República, 15/11/1889, feriado que acabou de passar. Nota geral 8.
+3. **A frota gigante que a China queimou de propósito.** Zheng He e a China Ming, tema perene sem gancho de calendário. Nota geral 7.
+
+A busca web não trouxe métricas do YouTube, então não confirmei nenhum ví
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('pautas.json'));print(len(d));[print(i['titulo'],len(i['titulo']),sorted(i)) for i in d]\""}
+💬 As pautas de segunda 16/11 18h estão prontas em `canais/historia/videos/2026-11-16/`. O `pautas.json` é válido: tem 3 itens, com os campos `titulo`, `angulo` e `porque`, e os títulos têm até 50 caracteres.
+
+As 3 ideias são de história geral, sem ENEM/vestibular, então ficam dentro do nicho do Ouro & Império:
+
+1. **Os 168 homens que pararam um império em 30 minutos.** É Cajamarca, em 16/11/1532, o mesmo dia da publicação. O pesquisador recomenda esta.
+2. **A República que o povo achou que era um desfile.** É a Proclamação da República, em 15/11/1889, feriado que acabou de passar.
+3. **A frota g
+
+=== resultado: success | turnos 3 | 5s | erro=False
+O pesquisador do Ouro & Império está trabalhando na pauta de 16/11. Aguardo a conclusão para validar o `pautas.json`.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+As pautas de segunda 16/11 18h estão prontas em `canais/historia/videos/2026-11-16/`. O `pautas.json` é válido: tem 3 itens, com os campos `titulo`, `angulo` e `porque`, e os títulos têm até 50 caracteres.
+
+As 3 ideias são de história geral, sem ENEM/vestibular, então ficam dentro do nicho do Ouro & Império:
+
+1. **Os 168 homens que pararam um império em 30 minutos.** É Cajamarca, em 16/11/1532, o mesmo dia da publicação. O pesquisador recomenda esta.
+2. **A República que o povo achou que era um desfile.** É a Proclamação da República, em 15/11/1889, feriado que acabou de passar.
+3. **A frota gigante que a China queimou de propósito.** É Zheng He e a China Ming, tema perene sem gancho de calendário.
+
+A busca web não trouxe métricas de YouTube. A prova de demanda nas ideias 1 e 2 vem de sinais indiretos, como datas e cobertura anual de imprensa. Na ideia 3 o pesquisador não achou prova nenhuma. Isso fica para a checagem do dossiê da ideia escolhida.
+codigo de saida: 0
