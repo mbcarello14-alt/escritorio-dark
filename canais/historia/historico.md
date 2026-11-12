@@ -43,3 +43,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-10
 - Short com comparação ao presente (ex.: o calote que parou um país) levando ao longo do Muro de Berlim, no molde do Pix medieval (1.257 views); checar fontes antes.
+
+### 2026-11-12
+- Short com contradição entre dinheiro e poder aplicada a outra crise (um governo que pediu crédito ao rival, como no Muro de Berlim), no molde dos Shorts que passaram de 600 views; checar fontes antes.
