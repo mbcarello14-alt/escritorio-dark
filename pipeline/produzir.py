@@ -41,9 +41,9 @@ class Contexto:
             log.warning("animação indisponível nesta cena (%s) — usando a versão parada", e)
             return None
 
-    def imagem(self, descricao_ia: str | None, busca: str | None) -> Path | None:
+    def imagem(self, descricao_ia: str | None, busca: str | None, estilo: str | None = None) -> Path | None:
         if descricao_ia and self.ilustrador:
-            p = self.ilustrador.gerar(descricao_ia)
+            p = self.ilustrador.gerar(descricao_ia, estilo)
             if p:
                 return p
         if self.buscador and (busca or descricao_ia):
@@ -289,13 +289,14 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         import shutil
         thumb = Path(shutil.copy(fixa, saida / "thumbnail.jpg"))
     else:
-        img_thumb = ctx.imagem(th.get("cena"), th.get("imagem_busca"))
+        img_thumb = ctx.imagem(th.get("cena"), th.get("imagem_busca"), (cfg.get("thumbnail") or {}).get("estilo_imagem"))
         if not img_thumb:   # thumbnail nunca sai sem imagem: usa a melhor ilustração do próprio vídeo
             ilus = sorted((pasta / "saida" / "ilustracoes").glob("*.img"), key=lambda a: -a.stat().st_size) \
                 if (pasta / "saida" / "ilustracoes").exists() else []
             img_thumb = ilus[0] if ilus else None
             log.warning("thumbnail sem a imagem planejada — usando %s", img_thumb.name if img_thumb else "só o fundo")
-        thumb = cartoes.thumbnail(cfg, th["texto"], img_thumb, th.get("layout", "direita"), saida / "thumbnail.jpg")
+        thumb = cartoes.thumbnail(cfg, th["texto"], img_thumb, th.get("layout") or (cfg.get("thumbnail") or {}).get("layout", "direita"),
+                                  saida / "thumbnail.jpg")
 
     partes = [prod["descricao"].strip()]
     caps = legendas.capitulos(tempos_blocos)

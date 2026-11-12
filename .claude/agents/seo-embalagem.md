@@ -10,6 +10,7 @@ Você cuida da embalagem do vídeo. Leia `canais/<canal>/briefing.md`, `roteiro.
 ## `09-seo.md`
 1. **5 opções de título** (até 60 caracteres), cada uma com o gatilho que usa (curiosidade, contradição, número, nome forte). Marque a recomendada. O título tem que ser honesto com o conteúdo — nada de clickbait que o vídeo não entrega.
 2. **Título + thumbnail juntos:** o título não repete o texto da thumb; eles se completam.
+   **Ouro & Império (referência: canais de documentário animado como o Arquivo do Mundo):** a thumb mostra só o NOME do assunto, então o título é o gancho. Dois moldes que funcionam, alterne entre eles: (a) **"<Assunto>: A História Completa"** quando o tema é grande e conhecido (Chernobyl, Primeira Guerra, Império Romano); (b) **pergunta ou revelação sobre uma pessoa ou fato** quando há uma virada ("Santos Dumont sabia que a guerra destruiria seu sonho?"). Sem números de dinheiro no título, a não ser que a história seja sobre isso.
 3. **Descrição:** 2 primeiras linhas fortes (aparecem antes do "mais"), resumo, **fontes** do dossiê, créditos de imagem e música.
 4. **Capítulos:** não escreva — o motor calcula pelos blocos.
 5. **Tags** (10–15) e 3 hashtags.

@@ -4,9 +4,9 @@ from __future__ import annotations
 import math
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageOps
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
-from .comum import (ALTURA, ASSETS, LARGURA, fonte_texto, fonte_titulo, hex_rgb, misturar,
+from .comum import (ALTURA, ASSETS, FONTES, LARGURA, fonte_texto, fonte_titulo, hex_rgb, misturar,
                     quebrar_linhas)
 
 
@@ -221,7 +221,61 @@ def sobreposicao_legenda(cfg, legenda: str, destino: Path) -> Path:
 
 
 # ---------------------------------------------------------------- thumbnail
+def _thumb_topo(cfg, texto: str, imagem: Path | None, destino: Path) -> Path:
+    """Estilo documentário: a ilustração ocupa tudo e o nome do assunto vai no alto, em caixa alta espaçada."""
+    W, H = 1280, 720
+    tc = cfg.get("thumbnail") or {}
+    if imagem:
+        base = ImageOps.fit(ImageOps.exif_transpose(Image.open(imagem)).convert("RGB"), (W, H), Image.LANCZOS)
+    else:
+        base = fundo(cfg, W, H)
+    # escurece só o alto, para o título respirar
+    grad = Image.new("L", (W, H), 0)
+    gd = ImageDraw.Draw(grad)
+    for y in range(int(H * 0.5)):
+        gd.line((0, y, W, y), fill=int(150 * (1 - y / (H * 0.5)) ** 1.6))
+    base.paste(Image.new("RGB", (W, H), (12, 9, 6)), (0, 0), grad)
+    titulo = texto.upper().strip()
+    arq = FONTES / tc.get("fonte", "Oswald-Bold.ttf")
+    esp_rel = tc.get("espacamento", 0.12)
+
+    def medir(f, linha):
+        esp = f.size * esp_rel
+        return sum(f.getlength(c) for c in linha) + esp * (len(linha) - 1)
+
+    tam = 150
+    while tam > 56:
+        f = ImageFont.truetype(str(arq), tam)
+        linhas = quebrar_linhas(titulo, f, W - 160) if medir(f, titulo) > W - 140 else [titulo]
+        if len(linhas) <= 2 and all(medir(f, l) <= W - 140 for l in linhas):
+            break
+        tam -= 6
+    alt = tam * 1.08
+    camada = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    sombra = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    dc, ds = ImageDraw.Draw(camada), ImageDraw.Draw(sombra)
+    creme = tuple(int(tc.get("cor_texto", "#F6EEDC").lstrip("#")[i:i + 2], 16) for i in (0, 2, 4))
+    y0 = 34
+    for i, l in enumerate(linhas):
+        x = (W - medir(f, l)) / 2
+        y = y0 + i * alt
+        for c in l:
+            ds.text((x + 3, y + 6), c, font=f, fill=(0, 0, 0, 200))
+            dc.text((x, y), c, font=f, fill=creme + (255,))
+            x += f.getlength(c) + f.size * esp_rel
+    base = base.convert("RGBA")
+    base.alpha_composite(sombra.filter(ImageFilter.GaussianBlur(9)))
+    base.alpha_composite(camada)
+    base = base.convert("RGB")
+    base.save(destino, quality=92)
+    if destino.stat().st_size > 2_000_000:
+        base.save(destino, quality=80)
+    return destino
+
+
 def thumbnail(cfg, texto: str, imagem: Path | None, layout: str, destino: Path) -> Path:
+    if layout == "topo":
+        return _thumb_topo(cfg, texto, imagem, destino)
     bg, ac, ac2, tx = _cores(cfg)
     W, H = 1280, 720
     if imagem:

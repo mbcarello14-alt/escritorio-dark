@@ -150,14 +150,14 @@ class Ilustrador:
         if not self.ativo:
             log.info("nenhum gerador de ilustração disponível — usando imagens livres")
 
-    def _prompt(self, descricao: str) -> str:
-        return f"{descricao.strip().rstrip('.')}. {self.extra} Style: {self.estilo}".replace("  ", " ")
+    def _prompt(self, descricao: str, estilo: str | None = None) -> str:
+        return f"{descricao.strip().rstrip('.')}. {self.extra} Style: {estilo or self.estilo}".replace("  ", " ")
 
-    def _destino(self, descricao: str) -> Path:
-        return self.pasta / (hashlib.sha1(self._prompt(descricao).encode()).hexdigest()[:16] + ".img")
+    def _destino(self, descricao: str, estilo: str | None = None) -> Path:
+        return self.pasta / (hashlib.sha1(self._prompt(descricao, estilo).encode()).hexdigest()[:16] + ".img")
 
-    def gerar(self, descricao: str) -> Path | None:
-        destino = self._destino(descricao)
+    def gerar(self, descricao: str, estilo: str | None = None) -> Path | None:
+        destino = self._destino(descricao, estilo)
         if destino.exists():   # já feita numa tentativa anterior (cache): conta como ilustração do vídeo
             with _trava:
                 if destino not in self._contadas:
@@ -174,7 +174,7 @@ class Ilustrador:
                 m.ativo = False
                 continue
             try:
-                if m.gerar(self._prompt(descricao), destino):
+                if m.gerar(self._prompt(descricao, estilo), destino):
                     with _trava:
                         self._contadas.add(destino)
                         self.gerados += 1

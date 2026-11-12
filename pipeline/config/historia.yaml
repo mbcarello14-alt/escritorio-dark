@@ -98,3 +98,15 @@ canal_youtube:
 
     Se inscreva e ative o sininho para não perder a próxima história.
   palavras_chave: [história, história geral, curiosidades históricas, impérios, idade média, antiguidade, história do brasil, história mundial, documentário animado, ouro e império]
+
+# Thumbnail no estilo documentário (referência: canais de história animada como o Arquivo do Mundo):
+# ilustração detalhada ocupando tudo + o NOME do assunto no alto, em caixa alta espaçada.
+thumbnail:
+  layout: topo
+  fonte: Oswald-Bold.ttf
+  espacamento: 0.06
+  cor_texto: "#F6EEDC"
+  estilo_imagem: >-
+    richly detailed painterly digital illustration, cinematic wide shot, golden hour light with warm orange
+    and teal sky, soft clouds, atmospheric depth, the main subject large and centered in the lower two thirds,
+    calm open sky in the top third, storybook documentary poster feel, highly detailed, no text, no letters, no watermark

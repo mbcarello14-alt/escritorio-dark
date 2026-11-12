@@ -9,6 +9,7 @@
   - **A) A história contada pelo dinheiro** ⭐ recomendado: cada episódio explica o evento pelas forças econômicas por trás (comércio, impostos, moedas, crises, guerras por recursos). Usa sua formação em Economia, é raro em PT-BR e puxa um RPM melhor.
   - B) Série cronológica contínua ("A História do Mundo — Ep. 1, 2, 3…"), feita para maratonar.
   - C) "O que o livro didático não contou": versões, controvérsias e detalhes esquecidos.
+- **Referência de embalagem (desde 12/11/2026):** canais de documentário animado de história, como o Arquivo do Mundo: thumbnail com ilustração detalhada e só o nome do assunto no alto; títulos "X: A História Completa" ou uma pergunta sobre a virada da história. Usamos a técnica, sem copiar a identidade deles.
 - **Ângulo escolhido (desde 09/11/2026):** história geral, 100% história. Qualquer era, região e tipo de tema (impérios, guerras, revoluções, personagens, mistérios, cotidiano). O dinheiro **não** é mais obrigatório: entra só quando faz parte da história. (Até 06/11 o canal era "a história contada pelo dinheiro".)
 
 ## Público
