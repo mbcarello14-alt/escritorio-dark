@@ -1,9 +1,9 @@
 {
-  "atualizado_em": "2026-11-12T00:07:36Z",
+  "atualizado_em": "2026-11-12T01:55:09Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00",
-      "Marca-Página: sábado 14/11 11h00",
+      "Marca-Página: Quarto de Despejo: o best-seller que escondeu a escritora",
       "Longo Marca-Página: Machado de Assis"
     ]
   },
@@ -33,9 +33,9 @@
       "dia": "2026-11-14",
       "rotulo": "sábado 14/11 11h00",
       "publicar_em_utc": "2026-11-14T14:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
-      "titulo": "",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "titulo": "Quarto de Despejo: o best-seller que escondeu a escritora",
       "url": ""
     }
   ],
