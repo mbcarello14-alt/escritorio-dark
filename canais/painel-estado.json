@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-12T19:51:48Z",
+  "atualizado_em": "2026-11-12T21:16:50Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00",
@@ -7,16 +7,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "vestibular",
-      "dia": "2026-11-12",
-      "rotulo": "quinta 12/11 17h00",
-      "publicar_em_utc": "2026-11-12T20:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Escala no mapa: a conta de 5 zeros que derruba no vestibular",
-      "url": "https://youtu.be/6chkYedaq1E"
-    },
     {
       "canal": "historia",
       "dia": "2026-11-13",
@@ -49,16 +39,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-04",
-      "rotulo": "quarta 04/11 19h00",
-      "publicar_em_utc": "2026-11-04T22:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "A Revolução dos Bichos: o livro que 4 editores recusaram",
-      "url": "https://youtu.be/kPpyQ3MbDug"
-    },
     {
       "canal": "historia",
       "dia": "2026-11-06",
@@ -108,6 +88,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Kahneman errou? O que ainda vale de Rápido e Devagar",
       "url": "https://youtu.be/Abj5ZXjjpn8"
+    },
+    {
+      "canal": "vestibular",
+      "dia": "2026-11-12",
+      "rotulo": "quinta 12/11 17h00",
+      "publicar_em_utc": "2026-11-12T20:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Escala no mapa: a conta de 5 zeros que derruba no vestibular",
+      "url": "https://youtu.be/6chkYedaq1E"
     }
   ],
   "canais": [
@@ -123,7 +113,7 @@
       "nome": "Mapeado",
       "inscritos": 13,
       "horas": 21.1,
-      "publicados": 4
+      "publicados": 5
     },
     {
       "id": "livros",
