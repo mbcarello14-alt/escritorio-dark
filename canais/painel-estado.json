@@ -1,21 +1,9 @@
 {
-  "atualizado_em": "2026-11-12T01:59:29Z",
+  "atualizado_em": "2026-11-12T02:32:19Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 05/11 17h00",
       "Longo Marca-Página: Machado de Assis"
-    ],
-    "narrador": [
-      "Marca-Página: Quarto de Despejo: o best-seller que escondeu a escritora"
-    ],
-    "ilustrador": [
-      "Marca-Página: Quarto de Despejo: o best-seller que escondeu a escritora"
-    ],
-    "editor": [
-      "Marca-Página: Quarto de Despejo: o best-seller que escondeu a escritora"
-    ],
-    "clipador": [
-      "Marca-Página: Quarto de Despejo: o best-seller que escondeu a escritora"
     ]
   },
   "proximos": [
@@ -44,10 +32,10 @@
       "dia": "2026-11-14",
       "rotulo": "sábado 14/11 11h00",
       "publicar_em_utc": "2026-11-14T14:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Quarto de Despejo: o best-seller que escondeu a escritora",
-      "url": ""
+      "url": "https://youtu.be/9cIgCjdnEio"
     }
   ],
   "publicados": [
@@ -136,8 +124,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 65,
+    "neurons": 9935,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
