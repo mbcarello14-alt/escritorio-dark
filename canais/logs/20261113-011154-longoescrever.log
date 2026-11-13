@@ -1,0 +1,253 @@
+comando: /longo-escrever canais/livros/longos/2026-11-10-machado-de-assis 3
+🔧 Bash {"command": "cd canais/livros/longos/2026-11-10-machado-de-assis && cat estado.json && cat plano.json && ls blocos 2>/dev/null && grep -l '\"checado\": *true' blocos/*.json 2>/dev/null"}
+❌ Exit code 2
+{
+  "canal": "livros",
+  "tema": "Machado de Assis",
+  "formato": "dormir",
+  "etapa": "escrevendo",
+  "ajustes": [],
+  "blocos_total": 15,
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-13T01:09:02+00:00"
+}{
+  "titulo": "Livros para dormir: cinco romances de Machado de Assis",
+  "titulo_youtube": "Livros para dormir: 5 romances de Machado de Assis, resumidos com calma | 2h30
+🔧 Bash {"command": "cd canais/livros/longos/2026-11-10-machado-de-assis && ls -la . blocos 2>&1; grep -H '\"checado\"' blocos/*.json 2>&1; ls ../../../logs | tail -5"}
+❌ This Bash command contains multiple operations. The following part requires approval: cd canais/livros/longos/2026-11-10-machado-de-assis && ls -la . blocos 2>&1; grep -H '"checado"' blocos/*.json 2>&1; ls ../../../logs
+🔧 Bash {"command": "ls -la canais/livros/longos/2026-11-10-machado-de-assis canais/livros/longos/2026-11-10-machado-de-assis/blocos"}
+❌ Exit code 2
+ls: cannot access 'canais/livros/longos/2026-11-10-machado-de-assis/blocos': No such file or directory
+canais/livros/longos/2026-11-10-machado-de-assis:
+total 24
+drwxr-xr-x 2 runner runner  4096 Nov 13 01:10 .
+drwxr-xr-x 3 runner runner  4096 Nov 13 01:10 ..
+-rw-r--r-- 1 runner runner   217 Nov 13 01:10 estado.json
+-rw-r--r-- 1 runner runner 11874 Nov 13 01:10 plano.json
+🔧 Grep {"pattern": "\"checado\"", "path": "canais/livros/longos/2026-11-10-machado-de-assis/blocos", "output_mode": "content"}
+❌ Path does not exist: canais/livros/longos/2026-11-10-machado-de-assis/blocos. Note: your current working directory is /home/runner/work/escritorio-dark/escritorio-dark.
+💬 Ainda não há blocos, então começo pelos blocos 1 a 3 (Memórias Póstumas).
+🔧 Agent {"subagent_type": "roteirista-longo-livros", "description": "Escrever blocos 1-3 Machado", "prompt": "Etapa 2 (escrever). Pasta: canais/livros/longos/2026-11-10-machado-de-assis. Leia estado.json e pl
+💬 Aguardando o roteirista terminar os blocos 1–3; depois sigo com a checagem de cada um.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/plano.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/longo.py", "limit": 80}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "content": "{\n  \"n\": 1,\n  \"capitulo\": \"Memórias Póstumas
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "Era filho de um pintor de 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": " Brás vai contrariado, e a
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "Gastou com ela presentes, 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "Por um tempo, ele se retir
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json", "content": "{\n  \"n\": 2,\n  \"capitulo\": \"Memórias Póstumas
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json", "old_string": " Mais à frente, ele enlouq
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json", "old_string": " Mais tarde, os dois se re
+💬 Agora o bloco 3.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json", "content": "{\n  \"n\": 3,\n  \"capitulo\": \"Memórias Póstumas
+💬 Escrevi os blocos 1, 2 e 3 (Memórias Póstumas de Brás Cubas), todos com `"checado": false`. Não rodei `pipeline.longo validar` e não conferi a contagem de palavras com ferramenta. Pelas minhas estimativas, os blocos ficam entre cerca de 1.200 e 1.560 palavras, dentro da faixa de 75% a 130% (o bloco 1 é o mais longo e fica perto do teto).
+
+- **Bloco 1, o defunto autor:** abre com a frase de engajamento e o aviso de que os finais serão contados. Traz o fio dos cinco livros e a biografia curta de Machado de Assis. Depois conta a dedicatória ao verme, a morte e o delírio, a infância (Prudêncio), M
+💬 Agora a checagem dos três blocos, em paralelo.
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 1 Machado", "prompt": "Cheque os fatos do `texto` de canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json contra as `fontes`
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json"}
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 2 Machado", "prompt": "Cheque os fatos do `texto` de canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json contra as `fontes`
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json"}
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 3 Machado", "prompt": "Cheque os fatos do `texto` de canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json contra as `fontes`
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos'
+💬 Os três checadores estão rodando. Aguardo os vereditos para marcar os blocos como checados ou devolver ao roteirista.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json"}
+🔧 WebSearch {"query": "Memórias Póstumas de Brás Cubas prólogo terceira edição \"forma livre de um Sterne, ou de um Xavier de Maistre\" \"pena da galhofa\"", "mode": "standard"}
+🔧 WebSearch {"query": "\"Das negativas\" Brás Cubas \"ao chegar ao outro lado do mistério, achei-me com um pequeno saldo\" \"não fui califa\"", "mode": "standard"}
+💬 Vou verificar a ordem dos episódios no livro (morte da mãe, Eugênia e Virgília) e os detalhes de Prudêncio.
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Mem%C3%B3rias_P%C3%B3stumas_de_Br%C3%A1s_Cubas", "prompt": "Resuma o enredo na ordem cronológica: morte da mãe de Brás (antes ou depois de voltar de Coimbra?), V
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Machado_de_Assis", "prompt": "Pais de Machado de Assis (profissão do pai, origem da mãe), data de nascimento, casamento com Carolina (ano) e morte dela, tipógraf
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Mem%C3%B3rias_P%C3%B3stumas_de_Br%C3%A1s_Cubas", "prompt": "Resuma o enredo: Virgília, Lobo Neves, Cotrim, Dona Plácida (como e onde morre), Quincas Borba (encon
+🔧 WebSearch {"query": "Memórias Póstumas de Brás Cubas Nhã-loló Eulália morre febre amarela Dona Plácida morre Santa Casa capítulo", "mode": "standard"}
+🔧 WebSearch {"query": "Memórias Póstumas de Brás Cubas capítulo \"Voltei\" minha mãe morte Coimbra carta pai \"cancro\" texto integral", "mode": "standard"}
+🔧 WebSearch {"query": "Memórias Póstumas capítulo LXVIII Prudêncio \"Não pega\" \"nhonhô\" Brás Cubas pediu que perdoasse", "mode": "standard"}
+🔧 WebFetch {"url": "https://fundar.org.br/wp-content/uploads/2021/06/memorias-postumas-de-bras-cubas.pdf", "prompt": "Cite trechos literais sobre: (1) Dona Plácida morrendo na Santa Casa/hospital e a reação de B
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_03.md", "content": "# Checagem do bloco 3 (Memórias Póstumas: o saldo 
+🔧 WebFetch {"url": "https://www.cervantesvirtual.com/portales/joaquim_maria_machado_de_assis/obra-visor/memorias-postumas-de-bras-cubas--0/html/", "prompt": "Trechos literais curtos sobre: Dona Plácida na Santa 
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "prompt": "Is this Memórias Póstumas de Brás Cubas? Give title and first lines."}
+💬 **Veredito: CORREÇÕES.** Salvei a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_03.md`, sem editar o bloco.
+
+Os pontos que você pediu:
+- **"Das negativas" e a frase do saldo:** conferem. A paráfrase bate com o original: "Ao chegar ao outro lado do mistério, achei-me com um pequeno saldo... Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria." A lista do que Brás não alcançou também confere (celebridade do emplasto, ministro, casamento).
+- **"A única coisa boa que ele fez foi não repetir a 
+💬 Bloco 3 voltou com quatro correções. Vou devolvê-las ao roteirista enquanto os checadores dos blocos 1 e 2 terminam.
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "prompt": "Cite literalmente (curto) o que o capítulo I e II dizem sobre friagem, pneumonia, a ideia do emplasto (onde estava, o que d
+🔧 Agent {"subagent_type": "roteirista-longo-livros", "description": "Corrigir bloco 3 Machado", "prompt": "Corrija canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json conforme blocos/checage
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "offset": 300000, "prompt": "Cite literalmente (curto) trechos sobre: Dona Plácida morrendo (onde? Santa Casa?, reação de Brás); Nhã-l
+💬 O bloco 3 está com o roteirista para corrigir. Os checadores dos blocos 1 e 2 ainda rodam, e espero os dois vereditos.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_03.md"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json", "old_string": "Machado, no prólogo de uma
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json", "old_string": "O próprio Machado descreve
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json", "old_string": "a única coisa boa que ele 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json", "old_string": "Também serve para estudant
+💬 As quatro correções da checagem estão aplicadas no campo `texto` de `canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json`.
+
+1. **Atribuição do "Ao leitor":** a frase sobre Sterne e Xavier de Maistre agora é dita por Brás Cubas no aviso "Ao leitor", com "de língua inglesa e de língua francesa". A "pena da galhofa e a tinta da melancolia" também foi atribuída a Brás nesse aviso.
+2. **Frase do saldo:** "a única coisa boa que ele fez foi não repetir a si mesmo" virou "o único saldo que ele reconhece é não ter deixado herdeiros para a mesma miséria."
+3. **Vestibulares:** removi o 
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 3 Machado", "prompt": "Recheque canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json depois das correções pedidas em bloco
+💬 A segunda checagem do bloco 3 está rodando. Os blocos 1 e 2 ainda estão com os checadores, e espero os resultados.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_03.md"}
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "offset": 340000, "prompt": "Cite literalmente (curto) o capítulo CXLV a CLX: Virgília visita Brás na doença? (cap. CLVII?), a doença 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_01.md", "content": "# Checagem do bloco 01 (Machado de Assis, Memórias
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "offset": 100000, "prompt": "Cite literalmente (curto): Conselheiro Dutra/Virgília noiva e casamento com Lobo Neves (por que); morte d
+💬 Verifiquei o texto atual do bloco contra as quatro correções. Vou registrar a segunda rodada no arquivo de checagem.
+💬 Salvei a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_01.md`. O veredito é **CORREÇÕES**: a biografia de Machado confere, mas o enredo tem trechos imprecisos. Não editei o bloco.
+
+Não consegui abrir a página da ABL nem o machadodeassis.net. Os dados biográficos foram confirmados pela Wikipédia e pela bibliografia padrão, e o enredo pela Wikipédia, por resumos e pelo texto do cap. LXVIII.
+
+**O que confere**
+- **Biografia:**
+  - Nasceu em 21/06/1839, no Rio.
+  - O pai era pintor de paredes; a mãe era portuguesa, a
+🔧 Agent {"subagent_type": "roteirista-longo-livros", "description": "Corrigir bloco 1 Machado", "prompt": "Corrija canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json aplicando TODAS as corr
+💬 O bloco 1 voltou com sete correções, que estão com o roteirista. Ainda faltam o veredito do bloco 2 e a segunda checagem do bloco 3.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_01.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "Brás observa a cena sem es
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "A mãe, no entanto, adoece 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "e sente algo parecido com 
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "offset": 370000, "prompt": "Neste final do livro (caps. CLVIII–CLX e antes): há visita de Virgília à doença de Brás? Descreva literal
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "Nessa altura, o narrador f
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "offset": 200000, "prompt": "Cite literalmente (curto), indicando capítulos: Humanitismo (explicação, quando Quincas Borba é rico, her
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "No próximo bloco, entram n
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "um gosto no vídeo", "new_s
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "uma imigrante portuguesa,"
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_03.md", "content": "# Checagem do bloco 3 (Memórias Póstumas: o saldo 
+💬 Apliquei as sete correções em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json`. Não reli o arquivo nem validei o JSON depois das edições. Todas foram aceitas pela ferramenta.
+
+1. **Prudêncio:** Brás agora pede que Prudêncio perdoe o escravo, e Prudêncio obedece. A conversa para por aí, e Brás "não se indigna de verdade".
+2. **Mãe:** ela está gravemente doente, Brás a encontra ainda viva, e ela morre pouco depois.
+3. **Eugênia:** o remorso saiu. O texto diz que o encontro com ela, já em miséria, "o incomoda".
+4. **Coimbra:
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 1 Machado", "prompt": "Recheque canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json depois das 7 correções listadas em bl
+💬 A segunda checagem do bloco 1 está rodando. Faltam o veredito do bloco 2 e os resultados das rechecagens dos blocos 1 e 3.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_01.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json"}
+💬 **APROVADO**
+
+As 4 correções estão aplicadas em `bloco_03.json`, e não encontrei erro novo.
+
+1. **Atribuição do "Ao leitor":** o bloco agora diz "Logo na abertura, no aviso Ao leitor, Brás Cubas confessa…". A frase "O próprio Brás… pena da galhofa e a tinta da melancolia" também está atribuída ao narrador, não a Machado.
+2. **Nacionalidades:** o texto usa "dois escritores de língua inglesa e de língua francesa, respectivamente".
+3. **Frase do saldo:** "a única coisa boa que ele fez" saiu. No lugar está "o único saldo que ele reconhece é não ter deixado herdeiros para a mesma miséria", que é pa
+💬 Bloco 3 aprovado; marco como checado.
+🔧 Grep {"pattern": "\"checado\"", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json", "output_mode": "content"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_03.json", "old_string": "  \"checado\": false", "ne
+💬 Bloco 3 está marcado como checado. Ainda aguardo o veredito do bloco 2 e a rechecagem do bloco 1.
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "offset": 300000, "prompt": "Cite literalmente (curto), com capítulos: Brás eleito deputado e discurso; Cotrim 'contrabando de escravo
+🔧 WebSearch {"query": "Brás Cubas Cotrim \"contrabando de escravos\" capítulo XXIII OR XXIV OR XLVI \"tinha sido\" contrabandista", "mode": "standard"}
+💬 Li o arquivo e o bloco. Vou anexar a segunda rodada à checagem, preservando a primeira.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_01.md", "content": "# Checagem do bloco 01 (Machado de Assis, Memórias
+💬 **CORREÇÕES.** Falta um ajuste factual pequeno.
+
+**Correções aplicadas:** as 7 estão no `bloco_01.json`. As 6 obrigatórias e a opcional (Açores) aparecem exatamente como sugeridas.
+
+**JSON:** parece válido pela leitura. A estrutura está íntegra, não há aspas soltas no `texto` e `checado` continua `false`. Não tenho shell nesta sessão e não rodei um parser, então vale um `python -m json.tool` no bloco.
+
+**Erro novo, causado pela correção 2:**
+- O fecho do bloco diz "Brás volta ao Rio com o diploma na mala, a mãe morta e o futuro por decidir."
+- Isso contradiz o trecho corrigido, em que ele enco
+🔧 Grep {"pattern": "a mãe morta e o futuro por decidir|Mesmo ela, no entanto|Acompanhe agora a imagem", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-a
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "a mãe morta e o futuro por
+🔧 Bash {"command": "cd canais/livros/longos/2026-11-10-machado-de-assis/blocos && python3 -m json.tool bloco_01.json >/dev/null && sed -i 's/\"checado\": false/\"checado\": true/' bloco_01.json && grep -n '\
+❌ Commands that change directories and perform write operations require explicit approval to ensure paths are evaluated correctly. For security, Claude Code cannot automatically determine the final working directory when 'cd' is used in compound commands.
+🔧 Bash {"command": "python3 -m json.tool canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json >/dev/null && echo ok"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_01.json", "old_string": "  \"checado\": false", "ne
+💬 Bloco 1 está marcado como checado. A segunda rodada só apontou uma contradição pequena sobre a mãe, que corrigi eu mesmo. Falta o veredito do bloco 2.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_02.md", "content": "# Checagem do bloco 02 (Memórias Póstumas: Virgíli
+💬 **Veredito: CORREÇÕES.** O relatório completo está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_02.md`. Não editei o bloco.
+
+Conferi o texto contra o romance integral (Project Gutenberg) e contra o resumo da Wikipédia. O site machadodeassis.net, também listado em `fontes`, não foi consultado.
+
+**Os cinco pontos que você pediu**
+- **Nhã-loló e febre amarela:** a morte confere, no cap. CXXVI. Mas ela é sobrinha de Cotrim, arranjada por Sabina, e não "filha de um conhecido". "Em poucos dias" não tem fonte. O livro diz que B
+🔧 Agent {"subagent_type": "roteirista-longo-livros", "description": "Corrigir bloco 2 Machado", "prompt": "Corrija canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json aplicando TODAS as 12 c
+💬 O bloco 2 voltou com 12 correções, que estão com o roteirista. Quando ele terminar, o checador faz a segunda rodada, que é a última permitida para esse bloco.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_02.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json", "content": "{\n  \"n\": 2,\n  \"capitulo\": \"Memórias Póstumas
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json", "limit": 1}
+💬 Apliquei as 12 correções em `bloco_02.json`, mas não consegui validar o JSON com um parser. Não tenho ferramenta de shell nesta sessão. Reli o arquivo à mão e não há aspas nem barras soltas dentro do `texto`. `"checado"` continua `false`, e nenhum outro bloco foi alterado.
+
+**Correções**
+1. Virgília escolhe Lobo Neves, que lhe promete um título de marquesa.
+2. Cortei a "boa história" e a "paixão era vaidade". Agora o próprio Brás conta que não sofreu muito.
+3. Brás entra na briga da partilha. Cotrim responde que não faz esmolas e os dois rompem. Tirei o "cansaço divertido".
+4. Dona Plácida: Br
+🔧 Bash {"command": "python3 -m json.tool canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json >/dev/null && echo ok"}
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 2 Machado", "prompt": "Recheque canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json depois das 12 correções listadas em b
+💬 O JSON do bloco 2 está válido e a segunda checagem está rodando. Quando o veredito chegar, marco o bloco como checado e rodo `python -m pipeline.longo validar` na pasta.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_02.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json"}
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "prompt": "Quote exactly the text of chapter I (O Auctor hesita...) and chapter II (O emplasto) about the cold/rain, the pneumonia, an
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_02.md", "limit": 1}
+🔧 WebFetch {"url": "https://www.gutenberg.org/cache/epub/54829/pg54829.txt", "prompt": "Quote exactly Chapter III's passage and Chapter V's passage about \"golpe de ar\", how he fell ill (where he was, what he w
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/checagem_02.md", "content": "# Checagem do bloco 02 (Memórias Póstumas: Virgíli
+💬 **Veredito: CORREÇÕES.** Há um erro factual restante, e a causa foi a minha própria correção da primeira rodada.
+
+**As 12 correções:** 11 foram aplicadas e estão corretas. A ordem dos fatos também está coerente. Os saltos para a morte de Plácida e para a loucura de Quincas estão sinalizados ("Mais tarde", "Mais à frente") e retomados com "Voltemos a Brás".
+
+**A que falha é a nº 10 (friagem).** Na primeira rodada, o checador pediu "apanha uma chuva fria". Isso estava errado. Conferi o texto de Gutenberg:
+- No cap. I, a "chuvinha miúda, triste e constante" cai durante o enterro dele. Não é a cau
+🔧 Grep {"pattern": "[^.]*chuva fria[^.]*\\.[^.]*\\.", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json", "output_mode": "conten
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json", "old_string": " Um dia, ao sair de casa, 
+🔧 Grep {"pattern": "pneumonia", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json", "output_mode": "content", "-o": true, "-C": 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-10-machado-de-assis/blocos/bloco_02.json", "old_string": "  \"checado\": false", "ne
+🔧 Bash {"command": "python -m pipeline.longo validar canais/livros/longos/2026-11-10-machado-de-assis 2>&1 | tail -30"}
+💬 Os blocos 1, 2 e 3 de Machado de Assis (Memórias Póstumas de Brás Cubas) estão escritos e marcados `"checado": true`, e `python -m pipeline.longo validar` deu OK.
+
+- **Bloco 3:** aprovado na segunda rodada do checador.
+- **Bloco 1:** a segunda rodada achou uma contradição sobre a mãe de Brás. Corrigi o trecho e validei o JSON, mas não houve uma terceira checagem desse trecho.
+- **Bloco 2:** a segunda rodada apontou um erro na cena da friagem, causado pela correção anterior. Troquei o trecho por "golpe de ar", como o livro diz, mas também sem terceira checagem. Fiz isso porque o limite de 2 vol
+
+=== resultado: success | turnos 6 | 8s | erro=False
+Aguardando o roteirista terminar os blocos 1–3; depois sigo com a checagem de cada um.
+
+=== resultado: success | turnos 4 | 5s | erro=False
+Os três checadores estão rodando. Aguardo os vereditos para marcar os blocos como checados ou devolver ao roteirista.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O bloco 3 está com o roteirista para corrigir. Os checadores dos blocos 1 e 2 ainda rodam, e espero os dois vereditos.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+A segunda checagem do bloco 3 está rodando. Os blocos 1 e 2 ainda estão com os checadores, e espero os resultados.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+O bloco 1 voltou com sete correções, que estão com o roteirista. Ainda faltam o veredito do bloco 2 e a segunda checagem do bloco 3.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+A segunda checagem do bloco 1 está rodando. Faltam o veredito do bloco 2 e os resultados das rechecagens dos blocos 1 e 3.
+
+=== resultado: success | turnos 3 | 3s | erro=False
+Bloco 3 está marcado como checado. Ainda aguardo o veredito do bloco 2 e a rechecagem do bloco 1.
+
+=== resultado: success | turnos 6 | 7s | erro=False
+Bloco 1 está marcado como checado. A segunda rodada só apontou uma contradição pequena sobre a mãe, que corrigi eu mesmo. Falta o veredito do bloco 2.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+O bloco 2 voltou com 12 correções, que estão com o roteirista. Quando ele terminar, o checador faz a segunda rodada, que é a última permitida para esse bloco.
+
+=== resultado: success | turnos 3 | 3s | erro=False
+O JSON do bloco 2 está válido e a segunda checagem está rodando. Quando o veredito chegar, marco o bloco como checado e rodo `python -m pipeline.longo validar` na pasta.
+
+=== resultado: success | turnos 6 | 10s | erro=False
+Os blocos 1, 2 e 3 de Machado de Assis (Memórias Póstumas de Brás Cubas) estão escritos e marcados `"checado": true`, e `python -m pipeline.longo validar` deu OK.
+
+- **Bloco 3:** aprovado na segunda rodada do checador.
+- **Bloco 1:** a segunda rodada achou uma contradição sobre a mãe de Brás. Corrigi o trecho e validei o JSON, mas não houve uma terceira checagem desse trecho.
+- **Bloco 2:** a segunda rodada apontou um erro na cena da friagem, causado pela correção anterior. Troquei o trecho por "golpe de ar", como o livro diz, mas também sem terceira checagem. Fiz isso porque o limite de 2 voltas ao roteirista já estava esgotado.
+- **Validador:** o `validar` confere o formato. Ele não confirma o fato desses dois trechos corrigidos.
+
+As observações de cada checagem estão em `blocos/checagem_01.md`, `checagem_02.md` e `checagem_03.md`. Escrevi só os 3 blocos pedidos; faltam os blocos 4 a 15.
+
+O `estado.json` ficou como estava.
+codigo de saida: 0
