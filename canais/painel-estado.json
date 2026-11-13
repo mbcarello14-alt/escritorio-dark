@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-13T09:47:42Z",
+  "atualizado_em": "2026-11-13T11:50:01Z",
   "ativos": {
     "roteirista_livros": [
       "Longo Marca-Página: Machado de Assis"
@@ -104,21 +104,21 @@
       "id": "historia",
       "nome": "Ouro & Império",
       "inscritos": 6,
-      "horas": 19.7,
+      "horas": 20.5,
       "publicados": 5
     },
     {
       "id": "vestibular",
       "nome": "Mapeado",
-      "inscritos": 13,
-      "horas": 21.1,
+      "inscritos": 14,
+      "horas": 22.4,
       "publicados": 5
     },
     {
       "id": "livros",
       "nome": "Marca-Página",
       "inscritos": 8,
-      "horas": 13.3,
+      "horas": 13.9,
       "publicados": 5
     }
   ],
