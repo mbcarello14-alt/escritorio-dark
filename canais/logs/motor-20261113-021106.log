@@ -1,0 +1,44 @@
+02:11:06 INFO ilustrações: higgsfield desligado (sem chave)
+02:11:39 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 1/2
+02:11:39 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+02:11:39 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+02:11:40 INFO Processing audio with duration 00:36.321
+[0;93m2026-11-13 02:11:40.409057932 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+02:11:40 INFO VAD filter removed 00:00.000 of audio
+02:11:48 INFO Processing audio with duration 00:36.321
+02:11:48 INFO VAD filter removed 00:00.000 of audio
+02:11:56 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+02:12:28 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Charon): bloco 2/2
+02:12:28 INFO Processing audio with duration 00:26.880
+02:12:28 INFO VAD filter removed 00:00.000 of audio
+02:12:33 INFO Processing audio with duration 00:26.880
+02:12:33 INFO VAD filter removed 00:00.000 of audio
+02:12:37 INFO gerando 5 ilustrações…
+02:12:37 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+02:12:37 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+02:12:37 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+02:12:37 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+02:12:37 INFO ilustrações prontas: 0 geradas (5 pedidas)
+02:12:38 INFO Processing audio with duration 00:36.321
+02:12:38 INFO VAD filter removed 00:00.000 of audio
+02:12:46 INFO bloco 1: 36.3s, 108 palavras reconhecidas
+02:13:19 INFO cena 1 pronta (13.0s, total 13s)
+02:13:23 WARNING nenhuma imagem livre para 'Spanish conquistador chronicle manuscript 1534' — usando cartão
+02:13:26 WARNING nenhuma imagem livre para 'Spanish conquistador chronicle manuscript' — usando cartão
+02:13:28 INFO imagem 'Spanish conquistador chronicle' ← wikimedia
+02:13:28 INFO imagem para 'Spanish conquistador chronicle manuscript 1534' achada buscando 'Spanish conquistador chronicle'
+02:13:42 INFO cena 2 pronta (7.3s, total 20s)
+02:13:44 INFO imagem 'magnifying glass over old manuscript' ← wikimedia
+02:13:49 INFO cena 3 pronta (6.9s, total 27s)
+02:13:50 INFO imagem 'Inca textile pattern Andes' ← wikimedia
+02:14:03 INFO cena 4 pronta (9.1s, total 36s)
+02:14:04 INFO Processing audio with duration 00:26.707
+02:14:04 INFO VAD filter removed 00:00.000 of audio
+02:14:08 INFO bloco 2: 26.7s, 61 palavras reconhecidas
+02:14:28 INFO cena 5 pronta (8.7s, total 45s)
+02:14:29 INFO imagem 'Inca emperor Huayna Capac portrait' ← wikimedia
+02:15:21 INFO cena 6 pronta (18.0s, total 63s)
+02:15:21 INFO sem trilha em musica/misterio — vídeo sai só com narração
+02:15:22 INFO imagem 'Millais Pizarro seizing the Inca of Peru' ← wikimedia
+02:15:22 INFO sem cortes.json — nenhum Short neste vídeo
+02:15:22 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/demos/2026-11-16-hyperframes/saida/video.mp4 (1.1 min)
