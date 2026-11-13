@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-13T01:20:35Z",
+  "atualizado_em": "2026-11-13T02:02:13Z",
   "ativos": {
     "roteirista_livros": [
       "Longo Marca-Página: Machado de Assis"
@@ -31,10 +31,10 @@
       "dia": "2026-11-16",
       "rotulo": "segunda 16/11 18h00",
       "publicar_em_utc": "2026-11-16T21:00:00Z",
-      "etapa": "aguardando_cota",
-      "etapa_txt": "🎨 esperando a cota de imagens para desenhar",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "168 espanhóis, 1 imperador e quem escreveu a história",
-      "url": ""
+      "url": "https://youtu.be/zLWcpr5qxOU"
     }
   ],
   "publicados": [
@@ -123,8 +123,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 61,
+    "neurons": 3355,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
