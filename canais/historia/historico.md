@@ -46,3 +46,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-12
 - Short com contradição entre dinheiro e poder aplicada a outra crise (um governo que pediu crédito ao rival, como no Muro de Berlim), no molde dos Shorts que passaram de 600 views; checar fontes antes.
+
+### 2026-11-13
+- Short com comparação ao presente (ex.: o devedor que mandou um "Pix" de 150 libras e disse que estava tudo em dia), no molde do Pix medieval dos Templários (1.257 views), com a descrição apontando para o longo; checar fontes antes.

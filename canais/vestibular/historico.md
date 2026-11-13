@@ -41,3 +41,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-10
 - Short de pegadinha com número e pergunta no título em Química ou Biologia, no molde da regra de três (844 views), com a descrição apontando para o longo da matéria.
+
+### 2026-11-13
+- Short de pegadinha com número e pergunta no título em Química ou Biologia, no molde da regra de três (845 views), com a descrição apontando para o longo da matéria.
