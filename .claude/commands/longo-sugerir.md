@@ -10,6 +10,7 @@ Chame o roteirista de longos **do canal** (`roteirista-longo-historia`, `roteiri
 Regras para os 3 temas:
 - No nicho do canal (veja `canais/$ARGUMENTS/briefing.md`). Ouro & Império: história geral, qualquer era; temas com material para 2h30 de narração calma (uma civilização, uma cidade, uma era, uma grande viagem, a vida cotidiana de uma época).
 - **Não repetir** nenhum tema dos longos já feitos (`canais/$ARGUMENTS/longos/*/estado.json`, campo `tema`) nem dos vídeos normais recentes (`canais/$ARGUMENTS/videos/*/estado.json`, campo `titulo`).
+- **Temas conhecidos e muito buscados** (ex.: Segunda Guerra, Império Romano, Egito Antigo; para livros, clássicos famosos como Dom Casmurro ou Vidas Secas).
 - Os 3 bem diferentes entre si (épocas e regiões diferentes).
 - Cada um com uma frase de "por que funciona" (curiosidade, apelo para dormir, quantidade de histórias boas).
 

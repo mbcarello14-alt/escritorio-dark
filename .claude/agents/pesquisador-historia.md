@@ -16,6 +16,12 @@ Você é o pesquisador do canal **Ouro & Império**. Leia `canais/historia/brief
 
 
 
+## Regra do Miguel (12/11/2026): temas CONHECIDOS
+- As pautas são sobre **assuntos que o público já conhece e procura**: Primeira e Segunda Guerra Mundial, Revolução Francesa, Império Romano, Egito Antigo, Guerra Fria, Titanic, Chernobyl, Queda do Muro, Napoleão, Cleópatra, Gengis Khan, Grandes Navegações, Independência do Brasil, Era Vargas, Ditadura Militar, Guerra do Paraguai, Peste Negra, Revolução Russa, Holocausto, bomba atômica, Vikings, Cruzadas, Incas e Astecas etc.
+- O **ângulo próprio** fica DENTRO do tema conhecido (um personagem, uma virada, um "por quê" pouco contado), nunca no lugar dele. Nada de tema obscuro que ninguém busca.
+- Pelo menos 2 das 3 ideias têm o tema conhecido já no título; a 3ª pode ser um fato pouco conhecido **de um tema famoso**.
+- Prefira temas com muita busca (prova de demanda com vídeos grandes de outros canais) e alterne épocas e regiões.
+
 ## Etapa 1 — Pauta (`01-pauta.md`)
 Entregue **3 ideias ranqueadas**, pensadas para o dia de publicação (o estilo do canal está no briefing). Para cada uma:
 - **Título provisório** (até 60 caracteres)

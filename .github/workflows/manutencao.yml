@@ -5,7 +5,7 @@ on:
       tarefa:
         description: "Tarefa"
         type: choice
-        options: [reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao, comparar-voz, recuperar-thumb, extrair-cenas, verificar-narracao]
+        options: [renomear, reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao, comparar-voz, recuperar-thumb, extrair-cenas, verificar-narracao]
       pasta:
         description: "Pasta do vídeo (reparar-publicacao) ou canais separados por espaço (branding)"
         required: false
@@ -35,6 +35,9 @@ jobs:
       - uses: ./.github/actions/preparar
         with:
           requisitos: pipeline/requirements-producao.txt
+      - name: Trocar títulos (canais/renomear.json)
+        if: inputs.tarefa == 'renomear'
+        run: python -m pipeline.renomear
       - name: Reparar registro
         if: inputs.tarefa == 'reparar-publicacao'
         run: |

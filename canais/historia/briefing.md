@@ -1,4 +1,5 @@
 # Briefing — Canal de História Geral
+- **Temas (regra do Miguel, 12/11/2026):** só assuntos conhecidos e muito buscados (grandes guerras, impérios, revoluções, personagens famosos); título começa pelo nome do assunto.
 
 ## Identidade
 - **Nome do canal:** Ouro & Império

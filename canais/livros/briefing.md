@@ -1,4 +1,5 @@
 # Briefing — Canal de Livros
+- **Temas (regra do Miguel, 12/11/2026):** só assuntos conhecidos e muito buscados (livros e autores famosos: Vidas Secas, Dom Casmurro, 1984…); título começa pelo nome do assunto.
 
 ## Identidade
 - **Nome do canal:** Marca-Página
