@@ -1,0 +1,50 @@
+{
+ "voz": "Charon",
+ "tom": "Narre em português do Brasil, com sotaque brasileiro neutro, como um youtuber de tecnologia carismático mostrando os bastidores de um projeto: tom de conversa, curioso e animado sem exagero, ritmo dinâmico, pausas curtas antes das revelações e um meio sorriso na voz.",
+ "cenas": [
+  {
+   "id": "gancho",
+   "texto": "Três canais no YouTube. Seis vídeos por semana. Shorts todos os dias. E nenhuma câmera, nenhum editor, nenhuma equipe. Só um escritório que não existe de verdade."
+  },
+  {
+   "id": "time",
+   "texto": "O Escritório Dark é uma equipe de agentes de inteligência artificial. Cada um tem um cargo, como numa empresa de verdade: pesquisador, roteirista, checador de fatos, diretor visual, especialista em SEO, designer de thumbnail, clipador, gestor de tráfego e analista."
+  },
+  {
+   "id": "nuvem",
+   "texto": "E eles não ficam num computador ligado. Trabalham sozinhos na nuvem, no GitHub, em horários marcados, e conversam com o dono por um bot no Telegram. E se alguma coisa dá errado, o próprio bot avisa e tenta de novo."
+  },
+  {
+   "id": "pautas",
+   "texto": "Todo domingo e toda quarta, os pesquisadores trazem três ideias para cada vídeo da semana. Cada canal tem o seu: história no Ouro e Império, ENEM no Mapeado e livros no Marca-Página. O dono só responde com um número."
+  },
+  {
+   "id": "roteiro",
+   "texto": "Escolhida a pauta, o pesquisador monta um dossiê com fontes, o roteirista escreve, e o checador confere frase por frase. Fato sem fonte não entra: volta para o roteirista."
+  },
+  {
+   "id": "aprovar",
+   "texto": "E nada segue sem aprovação humana. O roteiro chega no celular e só vai para a produção com um aprovar."
+  },
+  {
+   "id": "motor",
+   "texto": "Aí entra o motor. Ele narra com voz de IA, gera as ilustrações, anima mapas, títulos e contadores, coloca as legendas e cria a thumbnail. Se faltar alguma imagem, ele espera a cota renovar e tenta de novo, em vez de publicar um vídeo pela metade. Um vídeo de quinze minutos fica pronto em menos de uma hora."
+  },
+  {
+   "id": "publica",
+   "texto": "O vídeo é agendado sozinho no YouTube. E o clipador escolhe três trechos que viram Shorts, um por dia, ao meio-dia."
+  },
+  {
+   "id": "depois",
+   "texto": "Depois que o vídeo sai, o trabalho continua. Duas vezes por dia, o gestor de tráfego responde os comentários, no tom de cada canal, e troca os títulos que estão rendendo pouco. E toda segunda, o analista manda um relatório com o que funcionou."
+  },
+  {
+   "id": "extras",
+   "texto": "E ainda tem os extras: vídeos de duas horas e meia para dormir, um por semana, e reels em 3D feitos por código, três por canal toda semana."
+  },
+  {
+   "id": "fecho",
+   "texto": "Tudo isso funciona com um ser humano no comando: ele escolhe a pauta, aprova o roteiro e dá a palavra final. É por isso que cada vídeo tem um ângulo próprio e fontes na descrição. A inteligência artificial faz o trabalho pesado. E agora você sabe como funciona, por dentro, um escritório que não existe."
+  }
+ ]
+}
