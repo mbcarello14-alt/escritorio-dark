@@ -61,6 +61,15 @@ jobs:
           # navegador sem tela para as cenas animadas (mapas, contadores, títulos)
           npm i --no-save --prefix pipeline/reels playwright-core@1.48.2 >/dev/null || echo "sem playwright — cenas animadas viram cartões"
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: HyperFrames (animações do Ouro & Império)
+        run: |
+          npm i --no-save --prefix pipeline/hf hyperframes@0.9.40 gsap@3.13.0 d3-geo@3.1.1 topojson-client@3.1.0 >/dev/null || echo "sem HyperFrames — usa o motor antigo"
+          npm i --no-save --prefix pipeline/reels playwright-core@1.48.2 >/dev/null || true
+
       - name: Ilustrações e narração já feitas (cache)
         # se a montagem falhar e rodar de novo, reaproveita imagens e áudios (não gasta cota de novo)
         uses: actions/cache/restore@v4

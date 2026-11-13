@@ -1,0 +1,214 @@
+{
+  "canal": "historia",
+  "titulo": "[DEMO HyperFrames] 168 espanhóis, 1 imperador e quem escreveu a história",
+  "descricao": "Em 16 de novembro de 1532, o homem mais poderoso dos Andes entrou numa praça e saiu refém. Quem contou esse dia foi quem armou a armadilha.\n\nCajamarca não foi uma batalha entre exércitos. Foi a captura de um imperador que saía de uma guerra civil contra o próprio irmão, contada depois, em grande parte, por espanhóis ligados a Pizarro. Neste vídeo a gente conta o que aconteceu, separa o que se sabe do que se supõe e desconfia de quem escreveu.\n\nO que você vai ver: o império inca rachado entre Huáscar e Atahualpa, a chegada de cerca de 168 espanhóis, a entrada na praça, o debate sobre por que Atahualpa foi ao encontro, o resgate, o julgamento de fachada e a versão que ficou.\n\nE você, o que acha: Atahualpa caiu numa armadilha que ninguém teria como prever ou foi um erro de cálculo? Conta nos comentários. Se curtiu, deixe o like e se inscreva no canal.\n\nAviso: as ilustrações deste vídeo foram geradas por inteligência artificial, em estilo de pintura e ilustração, e misturadas a gravuras e pinturas de domínio público. Elas não são registros reais da cena. Os números de soldados e de mortos variam muito entre as fontes, e o vídeo avisa quando há debate.\n\nFontes:\n- R. Alan Covey, Reading between the lines at Cajamarca (LLILAS Benson, Universidade do Texas): https://sites.utexas.edu/llilas-benson-magazine/2019/08/20/reading-between-the-lines-at-cajamarca/\n- Battle of Cajamarca (Wikipedia): https://en.wikipedia.org/wiki/Battle_of_Cajamarca\n- Captura de Atahualpa (Wikipedia, espanhol): https://es.wikipedia.org/wiki/Captura_de_Atahualpa\n- Atahualpa (Wikipedia): https://en.wikipedia.org/wiki/Atahualpa\n- Inca Civil War (Wikipedia): https://en.wikipedia.org/wiki/Inca_Civil_War\n- Spanish conquest of the Inca Empire (Wikipedia): https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire\n- Ransom Room (Wikipedia): https://en.wikipedia.org/wiki/Ransom_Room\n- Seven Myths of the Spanish Conquest, de Matthew Restall (Wikipedia): https://en.wikipedia.org/wiki/Seven_Myths_of_the_Spanish_Conquest\n- Military History Now, The Battle of Cajamarca (2024): https://militaryhistorynow.com/2024/11/09/the-battle-of-cajamarca-how-a-handful-of-spaniards-brought-down-the-incan-empire-in-minutes/\n- History.com, 16 de novembro: https://www.history.com/this-day-in-history/november-16/pizarro-traps-incan-emperor-atahualpa\n- History.com, 26 de julho: https://www.history.com/this-day-in-history/july-26/pizarro-executes-last-inca-emperor\n- Revista de Indias (CSIC), artigo sobre as testemunhas de Cajamarca: https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/1406/1518/1941",
+  "tags": [
+    "cajamarca",
+    "atahualpa",
+    "francisco pizarro",
+    "império inca",
+    "incas",
+    "conquista do peru",
+    "história do peru",
+    "huáscar",
+    "conquista espanhola",
+    "história da américa",
+    "captura de atahualpa",
+    "história geral",
+    "canal de história"
+  ],
+  "hashtags": [
+    "#história",
+    "#incas",
+    "#atahualpa"
+  ],
+  "playlist": "Idade Moderna",
+  "comentario_inicial": "Atahualpa caiu numa armadilha que ninguém ali teria como prever, ou foi um erro de cálculo dele? Defende o teu lado aqui embaixo, e vale contar o que você sabia dele antes do vídeo.",
+  "sintetico_realista": false,
+  "musica_humor": "misterio",
+  "thumbnail": {
+    "texto": "NÃO FOI BATALHA",
+    "cena": "flat vector illustration, an Inca emperor with a golden headdress seated on a golden litter in the center-right of a stone plaza at sunset, small armored Spanish soldiers with spears and a few horses closing in around him from the edges, Andean mountains and long dramatic shadows behind, ochre and dusty teal palette with gold accents, simple round-headed cartoon figures with minimal faces, empty dark space on the left side, no text",
+    "imagem_busca": "Millais Pizarro seizing the Inca of Peru",
+    "layout": "esquerda"
+  },
+  "blocos": [
+    {
+      "capitulo": "Quem escreveu essa história",
+      "cenas": [
+        {
+          "narracao": "Quem escreveu essa história? É a pergunta que manda aqui. Num dezesseis de novembro como hoje, em mil quinhentos e trinta e dois, o homem mais poderoso dos Andes entrou numa praça chamada Cajamarca para encontrar cento e poucos estrangeiros.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              -84,
+              -18,
+              -68,
+              2
+            ],
+            "camera_para": [
+              -78.5,
+              -7.2,
+              -77,
+              -6
+            ],
+            "camera_em": 0.5,
+            "cidades": [
+              {
+                "nome": "Cajamarca",
+                "lon": -78.5,
+                "lat": -7.16,
+                "destaque": true,
+                "em": 0.6
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Andes",
+                "lon": -75,
+                "lat": -10,
+                "tipo": "pais"
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Cajamarca, 16 de novembro de 1532",
+              "subtitulo": "O dia em que um imperador entrou numa praça"
+            }
+          }
+        },
+        {
+          "narracao": "Em mais ou menos meia hora, virou refém. E um dos relatos mais antigos desse dia foi publicado pelo secretário do chefe dos estrangeiros.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a serious 16th century Spanish secretary writing with a quill at a small desk in a stone plaza, while behind him a Inca emperor on a golden litter is surrounded by armored soldiers",
+            "busca_reserva": "Spanish conquistador chronicle manuscript 1534",
+            "movimento": "pan_direita",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "É a ata do condomínio escrita pelo síndico que deu o golpe. Hoje a gente conta o que aconteceu e, no caminho, desconfia de quem contou.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smug conquistador in a helmet acting as an apartment building manager, writing meeting minutes at a desk, while a cartoon viewer holds a magnifying glass over his notes",
+            "busca_reserva": "magnifying glass over old manuscript",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Se essa desconfiança te agrada, clica em inscrever e no joinha. E escreve aí embaixo: o que você sabia de Atahualpa antes deste vídeo, nem que seja o nome?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly cartoon Inca-era storyteller in a poncho pointing at the viewer with a big grin, a giant thumbs-up and a bell floating beside him",
+            "busca_reserva": "Inca textile pattern Andes",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Um império rachado e um visitante bem informado",
+      "cenas": [
+        {
+          "narracao": "Para entender a praça, volta uns anos. O Império Inca era um dos maiores do mundo naquela época, esticado ao longo dos Andes.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              -84,
+              -24,
+              -66,
+              4
+            ],
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    -78.5,
+                    1
+                  ],
+                  [
+                    -76.5,
+                    -2
+                  ],
+                  [
+                    -78.5,
+                    -6
+                  ],
+                  [
+                    -76,
+                    -10
+                  ],
+                  [
+                    -72,
+                    -13
+                  ],
+                  [
+                    -69,
+                    -14
+                  ],
+                  [
+                    -68,
+                    -18
+                  ],
+                  [
+                    -70,
+                    -23
+                  ],
+                  [
+                    -70.5,
+                    -19
+                  ],
+                  [
+                    -72,
+                    -16
+                  ],
+                  [
+                    -76,
+                    -14
+                  ],
+                  [
+                    -79,
+                    -9
+                  ],
+                  [
+                    -80.5,
+                    -5
+                  ],
+                  [
+                    -80,
+                    -1
+                  ]
+                ],
+                "cor": "ouro",
+                "rotulo": "Império Inca",
+                "em": 0.3
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Oceano Pacífico",
+                "lon": -82,
+                "lat": -15,
+                "tipo": "mar"
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Em algum momento entre mil quinhentos e vinte e cinco e mil quinhentos e vinte e oito, o imperador Huayna Cápac morre, e morre junto o herdeiro que ele tinha escolhido. A causa mais provável é uma epidemia, talvez de varíola, mas a data e a doença são incertas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an aging Inca emperor lying on a bed in a stone palace room, a worried noble holding his hand, a tiny sick-looking cloud drifting through the window",
+            "busca_reserva": "Inca emperor Huayna Capac portrait",
+            "movimento": "zoom_in",
+            "neblina": true,
+            "titulo_inferior": {
+              "titulo": "Huayna Cápac",
+              "subtitulo": "Imperador inca · morre entre 1525 e 1528"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

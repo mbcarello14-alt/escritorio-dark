@@ -32,14 +32,20 @@ class Contexto:
         self.ilustrador = None if sem_rede else Ilustrador(pasta / "saida", cfg)
         self.animado = bool(cfg["estilo"].get("animado")) and not self.branco
         self.animador = animar.Animador()
+        self.hf = None
+        if self.animado and cfg["estilo"].get("motor_animacao") == "hyperframes":
+            from .hf import AnimadorHF
+            self.hf = AnimadorHF(tmp)
 
     def animar(self, cena: dict, audio: Path, dur: float, saida: Path) -> Path | None:
-        """Cena animada em código; None se o render de animação não estiver disponível (o motor usa o plano B)."""
-        try:
-            return animar.clipe(self.animador, cena, audio, dur, saida, self.tmp)
-        except Exception as e:
-            log.warning("animação indisponível nesta cena (%s) — usando a versão parada", e)
-            return None
+        """Cena animada em código. Ordem: HyperFrames (se ligado) → motor de animação antigo → None (cena parada)."""
+        for anim in [a for a in (self.hf, self.animador) if a]:
+            try:
+                return animar.clipe(anim, cena, audio, dur, saida, self.tmp)
+            except Exception as e:
+                log.warning("animação %s falhou nesta cena (%s)", type(anim).__name__, str(e)[:300])
+        log.warning("animação indisponível nesta cena — usando a versão parada")
+        return None
 
     def imagem(self, descricao_ia: str | None, busca: str | None, estilo: str | None = None) -> Path | None:
         if descricao_ia and self.ilustrador:

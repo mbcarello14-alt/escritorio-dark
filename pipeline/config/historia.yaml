@@ -27,7 +27,8 @@ estilo:
   fonte_titulo_variacao: Bold
   fonte_texto: Inter.ttf
   caixa_alta_titulo: true
-  animado: true          # cenas animadas em código (mapas, contadores, linha do tempo, títulos, partículas) — pipeline/animacao/FORMATO.md
+  animado: true
+  motor_animacao: hyperframes   # cenas animadas pelo HyperFrames (pipeline/hf.py); se falhar, cai no motor antigo          # cenas animadas em código (mapas, contadores, linha do tempo, títulos, partículas) — pipeline/animacao/FORMATO.md
 
 video:
   musica_humor: misterio  # pasta em musica/<humor>/ (opcional)
