@@ -45,6 +45,7 @@ python -m pipeline.validar canais/<canal>/videos/<pasta>
 - `comentario_inicial` (opcional): pergunta que o canal publica como primeiro comentário.
 - Cortes verticais (Shorts e Reels) ficam em outro arquivo, `cortes.json`, escrito pelo `clipador`.
 - `musica_humor`: nome de uma pasta em `musica/` (se não existir, o vídeo sai sem trilha).
+- `thumbnail.alternativa` (opcional): mesma forma (`texto`, `cena`, `imagem_busca`, `layout`); vira `thumbnail-b.jpg` na pasta do vídeo, usada pelo gestor de tráfego se o vídeo for mal.
 - `thumbnail.texto`: até 4 palavras. `layout`: `esquerda`, `direita` ou `centro` (lado onde fica o texto).
 - `blocos[].capitulo`: vira capítulo na descrição (os tempos são calculados sozinhos). O primeiro bloco é o gancho e o capítulo "0:00".
 - `cenas[].narracao`: 1 a 3 frases (6 a 20 segundos). Cada cena é um plano do vídeo.

@@ -27,6 +27,7 @@ Entregue **3 ideias ranqueadas**, pensadas para o dia de publicação (o estilo 
 - **Título provisório** (até 60 caracteres)
 - **Ângulo do canal:** por que ESTE canal contaria isso de um jeito que ninguém contou. Se não houver ângulo próprio, descarte a ideia.
 - **Prova de demanda:** vídeos de outros canais sobre o tema com views muito acima da média do próprio canal ("outliers"), buscas em alta, notícia recente. Cite links.
+- **Ideia validada (regra do garimpo):** o sinal mais forte é um vídeo do tema num **canal pequeno (menos de 100 mil inscritos) com pelo menos 5 vezes mais views do que o canal tem de inscritos** (ex.: canal de 20 mil com vídeo de 100 mil+). Isso prova que o tema puxa sozinho, sem depender da fama do canal. Para cada ideia, liste até 3 desses outliers com: canal, inscritos, views, título e o que a embalagem (título + thumb) deles faz bem. Ideia sem nenhum outlier perde nota. A sua versão nunca copia: o tema é validado, a embalagem e o roteiro são melhores e próprios.
 - **Lacuna:** o que os vídeos existentes deixaram de fora ou erraram.
 - **Risco:** tema sensível, falta de fontes, saturação, problema de direitos autorais.
 - **Nota 0–10** em demanda, originalidade possível e facilidade visual.

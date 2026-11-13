@@ -26,6 +26,7 @@ Leia:
 Para vídeos longos **públicos com 48 horas a 10 dias**, compare as views com as dos outros vídeos do mesmo canal em idade parecida. Num canal muito novo (poucos vídeos), use o bom senso: abaixo de ~30 views em 72 horas já é sinal de embalagem fraca.
 - Se estiver claramente abaixo, proponha **um** título novo: mais curiosidade e mais clareza, honesto com o conteúdo, até 60 caracteres, diferente do atual no gatilho (contradição, número, pergunta, nome forte). Explique o motivo em 1 frase.
 - No máximo 2 trocas por canal por dia; nunca troque um vídeo que já foi trocado (`titulo_ja_trocado`).
+- Se o vídeo tem `tem_thumb_b: true`, mande também `"trocar_thumb": true`: título e thumbnail mudam juntos (a B foi feita com outro gatilho). Escreva o título novo combinando com a thumb B, que está em `<pasta>/thumbnail-b.jpg` e o conceito em `<pasta>/09-thumbnail.md`.
 - Não troque título de Shorts.
 
 ## 3. Leitura do jogo
@@ -36,7 +37,7 @@ Em `resumo` (até 3 frases): o que está puxando views (qual vídeo/Short, qual 
 {
   "respostas": [{"comentario_id": "...", "texto": "..."}],
   "ignorar": ["id_de_spam"],
-  "titulos": [{"canal": "historia", "video_id": "...", "novo_titulo": "...", "motivo": "..."}],
+  "titulos": [{"canal": "historia", "video_id": "...", "novo_titulo": "...", "motivo": "...", "trocar_thumb": true}],
   "alertas": ["frase curta para o Miguel"],
   "resumo": "1 a 3 frases",
   "sugestoes": [{"canal": "historia", "ideia": "..."}]

@@ -305,6 +305,7 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
 
     th = prod["thumbnail"]
     fixa = pasta / "thumbnail-fixa.jpg"   # thumbnail escolhida pelo Miguel: usada como está
+    img_thumb = None
     if fixa.exists():
         import shutil
         thumb = Path(shutil.copy(fixa, saida / "thumbnail.jpg"))
@@ -317,6 +318,15 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
             log.warning("thumbnail sem a imagem planejada — usando %s", img_thumb.name if img_thumb else "só o fundo")
         thumb = cartoes.thumbnail(cfg, th["texto"], img_thumb, th.get("layout") or (cfg.get("thumbnail") or {}).get("layout", "direita"),
                                   saida / "thumbnail.jpg")
+
+    alt = th.get("alternativa")
+    if isinstance(alt, dict) and alt.get("texto") and not (pasta / "thumbnail-b.jpg").exists():
+        try:   # thumbnail B (teste A/B do gestor de tráfego); fica na pasta do vídeo, salva no repositório
+            img_b = ctx.imagem(alt.get("cena"), alt.get("imagem_busca"), (cfg.get("thumbnail") or {}).get("estilo_imagem")) or img_thumb
+            cartoes.thumbnail(cfg, alt["texto"], img_b, alt.get("layout") or th.get("layout") or
+                              (cfg.get("thumbnail") or {}).get("layout", "direita"), pasta / "thumbnail-b.jpg")
+        except Exception as e:   # noqa: BLE001 — a B nunca derruba o vídeo
+            log.warning("thumbnail B falhou: %s", e)
 
     partes = [prod["descricao"].strip()]
     caps = legendas.capitulos(tempos_blocos)

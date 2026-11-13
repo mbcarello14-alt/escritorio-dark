@@ -86,7 +86,8 @@ def coletar() -> bool:
                                "publico": publico, "idade_horas": idade_h, "pasta": info["pasta"],
                                "views": int(v["statistics"].get("viewCount", 0)), "likes": int(v["statistics"].get("likeCount", 0)),
                                "comentarios": int(v["statistics"].get("commentCount", 0)), "metricas_7d": m7,
-                               "titulo_ja_trocado": any(t["video_id"] == v["id"] for t in estado["titulos"])})
+                               "titulo_ja_trocado": any(t["video_id"] == v["id"] for t in estado["titulos"]),
+                               "tem_thumb_b": (RAIZ / info["pasta"] / "thumbnail-b.jpg").exists()})
                 # comentário inicial que ficou para quando o vídeo abrisse
                 if info["tipo"] == "longo" and publico:
                     arq = RAIZ / info["pasta"] / "publicacao.json"
@@ -180,7 +181,16 @@ def aplicar() -> None:
                                             "tags": sn.get("tags", []), "defaultLanguage": sn.get("defaultLanguage", "pt-BR"),
                                             "defaultAudioLanguage": sn.get("defaultAudioLanguage", "pt-BR")}}
             yt.videos().update(part="snippet", body=corpo).execute()
+            thumb_b = None
+            if t.get("trocar_thumb"):
+                pasta_v = next((arq.parent for arq, pub in _publicacoes(canal) if pub.get("video_id") == vid), None)
+                if pasta_v and (pasta_v / "thumbnail-b.jpg").exists():
+                    from googleapiclient.http import MediaFileUpload
+                    yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(str(pasta_v / "thumbnail-b.jpg"),
+                                                                               mimetype="image/jpeg")).execute()
+                    thumb_b = True
             reg = {"canal": canal, "video_id": vid, "antes": antigo, "depois": novo, "motivo": t.get("motivo", ""),
+                   "thumb_b": bool(thumb_b),
                    "em": _agora().isoformat(timespec="seconds")}
             estado["titulos"].append(reg)
             feitos["titulos"].append(reg)
@@ -206,7 +216,7 @@ def _avisar(feitos: dict, resumo: str) -> None:
         linhas.append("💬 Respondi " + ", ".join(f"{n} no {nomes[c]}" for c, n in feitos["respostas"].items()) + " comentários")
     for t in feitos["titulos"]:
         linhas.append(f"✏️ {nomes[t['canal']]}: título trocado\nde “{T.esc(t['antes'])}”\npara “{T.esc(t['depois'])}”\n"
-                      f"<i>{T.esc(t['motivo'])}</i>")
+                      f"<i>{T.esc(t['motivo'])}</i>" + ("\n🖼️ thumbnail trocada pela versão B" if t.get("thumb_b") else ""))
     for a in feitos["alertas"]:
         linhas.append(f"⚠️ {T.esc(a)}")
     T.enviar("\n\n".join(linhas))

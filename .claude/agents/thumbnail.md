@@ -19,6 +19,7 @@ Você cria a thumbnail. O motor monta a imagem sozinho: fundo (ilustração de I
 ```json
 {"texto": "PAGOS EM SAL", "cena": "descrição em inglês da imagem de fundo, com o elemento principal do lado oposto ao texto", "imagem_busca": "reserva no acervo livre", "layout": "direita"}
 ```
+Inclua também `"alternativa"`: o **2º conceito**, com um gatilho diferente (outro texto e outra cena), no mesmo formato: `"alternativa": {"texto": "...", "cena": "...", "imagem_busca": "...", "layout": "..."}`. O motor deixa essa thumbnail B pronta; se o vídeo for mal nas primeiras 48 horas, o gestor de tráfego troca título **e** thumb juntos (é o nosso teste A/B).
 `layout` é o lado onde fica o **texto** (esquerda, direita ou centro). No Mapeado, prefira `cena` de doodle grande e expressivo.
 
 ## Ouro & Império: estilo documentário (layout `topo`)

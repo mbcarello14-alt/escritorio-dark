@@ -33,8 +33,11 @@ def validar(prod: dict) -> list[str]:
     th = prod["thumbnail"]
     if not th.get("texto") or len(th["texto"].split()) > 5:
         erros.append("thumbnail.texto deve ter de 1 a 5 palavras")
-    if th.get("layout", "direita") not in ("esquerda", "direita", "centro"):
+    if th.get("layout", "direita") not in ("esquerda", "direita", "centro", "topo"):
         erros.append("thumbnail.layout deve ser esquerda, direita ou centro")
+    alt = th.get("alternativa")
+    if alt is not None and (not isinstance(alt, dict) or not alt.get("texto") or len(alt["texto"].split()) > 5):
+        erros.append("thumbnail.alternativa precisa de texto com 1 a 5 palavras")
     total_cenas, palavras = 0, 0
     for i, b in enumerate(prod["blocos"], 1):
         if not b.get("cenas"):
