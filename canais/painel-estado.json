@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-13T15:46:11Z",
+  "atualizado_em": "2026-11-13T21:49:49Z",
   "ativos": {
     "pesquisador_vestibular": [
       "Mapeado: terça 17/11 17h00"
@@ -18,16 +18,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-13",
-      "rotulo": "sexta 13/11 18h00",
-      "publicar_em_utc": "2026-11-13T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Proclamação da República: o dia em que o Brasil virou república sem perceber",
-      "url": "https://youtu.be/mUhLSP6ex3g"
-    },
     {
       "canal": "livros",
       "dia": "2026-11-14",
@@ -60,16 +50,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-06",
-      "rotulo": "sexta 06/11 18h00",
-      "publicar_em_utc": "2026-11-06T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "O rei que penhorou a coroa e 'quebrou' dois bancos",
-      "url": "https://youtu.be/o_0Ff6Gpdn8"
-    },
     {
       "canal": "livros",
       "dia": "2026-11-07",
@@ -119,6 +99,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Escala no mapa: a conta de 5 zeros que derruba no vestibular",
       "url": "https://youtu.be/6chkYedaq1E"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-11-13",
+      "rotulo": "sexta 13/11 18h00",
+      "publicar_em_utc": "2026-11-13T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Proclamação da República: o dia em que o Brasil virou república sem perceber",
+      "url": "https://youtu.be/mUhLSP6ex3g"
     }
   ],
   "canais": [
@@ -127,7 +117,7 @@
       "nome": "Ouro & Império",
       "inscritos": 6,
       "horas": 20.5,
-      "publicados": 5
+      "publicados": 6
     },
     {
       "id": "vestibular",
