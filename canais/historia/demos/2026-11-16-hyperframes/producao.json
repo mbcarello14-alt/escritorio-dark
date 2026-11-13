@@ -79,29 +79,162 @@
         {
           "narracao": "Em mais ou menos meia hora, virou refém. E um dos relatos mais antigos desse dia foi publicado pelo secretário do chefe dos estrangeiros.",
           "visual": {
-            "tipo": "ilustracao",
-            "cena": "a serious 16th century Spanish secretary writing with a quill at a small desk in a stone plaza, while behind him a Inca emperor on a golden litter is surrounded by armored soldiers",
-            "busca_reserva": "Spanish conquistador chronicle manuscript 1534",
-            "movimento": "pan_direita",
-            "particulas": "poeira"
+            "tipo": "cena_animada",
+            "cenario": "the stone main plaza of Cajamarca in the Andes mountains, 1532",
+            "busca_reserva": "Cajamarca plaza Andes",
+            "movimento": "zoom_in",
+            "particulas": "poeira",
+            "personagens": [
+              {
+                "figurino": "inca_nobre",
+                "pele": "morena",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "entra",
+                    "de": "direita",
+                    "em": 0.0,
+                    "ate": 0.3
+                  },
+                  {
+                    "acao": "surpreso",
+                    "em": 0.35
+                  },
+                  {
+                    "acao": "assusta",
+                    "em": 0.38
+                  }
+                ]
+              },
+              {
+                "figurino": "conquistador",
+                "pele": "clara",
+                "x": 0.48,
+                "olha": "direita",
+                "prop": "espada",
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.32,
+                    "ate": 0.62
+                  },
+                  {
+                    "acao": "bravo",
+                    "em": 0.32
+                  }
+                ]
+              },
+              {
+                "figurino": "nobre",
+                "pele": "clara",
+                "x": 0.16,
+                "olha": "direita",
+                "prop": "pena",
+                "acoes": [
+                  {
+                    "acao": "entra",
+                    "de": "esquerda",
+                    "em": 0.55,
+                    "ate": 0.8
+                  },
+                  {
+                    "acao": "segura",
+                    "em": 0.82
+                  }
+                ]
+              }
+            ]
           }
         },
         {
           "narracao": "É a ata do condomínio escrita pelo síndico que deu o golpe. Hoje a gente conta o que aconteceu e, no caminho, desconfia de quem contou.",
           "visual": {
-            "tipo": "ilustracao",
-            "cena": "a smug conquistador in a helmet acting as an apartment building manager, writing meeting minutes at a desk, while a cartoon viewer holds a magnifying glass over his notes",
-            "busca_reserva": "magnifying glass over old manuscript",
-            "movimento": "zoom_in"
+            "tipo": "cena_animada",
+            "cenario": "a small office room with a wooden desk and a window, interior",
+            "busca_reserva": "old desk manuscript",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "conquistador",
+                "pele": "clara",
+                "x": 0.35,
+                "olha": "direita",
+                "prop": "pergaminho",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "segura",
+                    "em": 0.05
+                  },
+                  {
+                    "acao": "ri",
+                    "em": 0.3
+                  }
+                ]
+              },
+              {
+                "figurino": "estudante",
+                "pele": "media",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "entra",
+                    "de": "direita",
+                    "em": 0.45,
+                    "ate": 0.7
+                  },
+                  {
+                    "acao": "pensa",
+                    "em": 0.72
+                  },
+                  {
+                    "acao": "nega",
+                    "em": 0.85
+                  }
+                ]
+              }
+            ]
           }
         },
         {
           "narracao": "Se essa desconfiança te agrada, clica em inscrever e no joinha. E escreve aí embaixo: o que você sabia de Atahualpa antes deste vídeo, nem que seja o nome?",
           "visual": {
-            "tipo": "ilustracao",
-            "cena": "a friendly cartoon Inca-era storyteller in a poncho pointing at the viewer with a big grin, a giant thumbs-up and a bell floating beside him",
-            "busca_reserva": "Inca textile pattern Andes",
-            "movimento": "zoom_out"
+            "tipo": "cena_animada",
+            "cenario": "green Andes valley with mountains",
+            "busca_reserva": "Andes valley",
+            "movimento": "zoom_out",
+            "personagens": [
+              {
+                "figurino": "inca",
+                "pele": "morena",
+                "x": 0.5,
+                "escala": 1.15,
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "acena",
+                    "em": 0.05,
+                    "ate": 0.35
+                  },
+                  {
+                    "acao": "comemora",
+                    "em": 0.4,
+                    "ate": 0.6
+                  },
+                  {
+                    "acao": "aponta",
+                    "em": 0.65,
+                    "ate": 0.95
+                  },
+                  {
+                    "acao": "feliz",
+                    "em": 0.05
+                  }
+                ]
+              }
+            ]
           }
         }
       ]
@@ -197,15 +330,52 @@
         {
           "narracao": "Em algum momento entre mil quinhentos e vinte e cinco e mil quinhentos e vinte e oito, o imperador Huayna Cápac morre, e morre junto o herdeiro que ele tinha escolhido. A causa mais provável é uma epidemia, talvez de varíola, mas a data e a doença são incertas.",
           "visual": {
-            "tipo": "ilustracao",
-            "cena": "an aging Inca emperor lying on a bed in a stone palace room, a worried noble holding his hand, a tiny sick-looking cloud drifting through the window",
-            "busca_reserva": "Inca emperor Huayna Capac portrait",
+            "tipo": "cena_animada",
+            "cenario": "a stone palace room interior with a window",
+            "busca_reserva": "Inca palace",
             "movimento": "zoom_in",
             "neblina": true,
             "titulo_inferior": {
               "titulo": "Huayna Cápac",
               "subtitulo": "Imperador inca · morre entre 1525 e 1528"
-            }
+            },
+            "personagens": [
+              {
+                "figurino": "inca_nobre",
+                "pele": "morena",
+                "cabelo": "grisalho",
+                "x": 0.38,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "triste",
+                    "em": 0.1
+                  },
+                  {
+                    "acao": "anda",
+                    "x": 0.3,
+                    "em": 0.5,
+                    "ate": 0.75
+                  }
+                ]
+              },
+              {
+                "figurino": "inca",
+                "pele": "morena",
+                "x": 0.68,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "triste",
+                    "em": 0.2
+                  },
+                  {
+                    "acao": "concorda",
+                    "em": 0.6
+                  }
+                ]
+              }
+            ]
           }
         }
       ]

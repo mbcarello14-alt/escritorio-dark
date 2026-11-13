@@ -65,3 +65,27 @@ Qualquer `ilustracao`/`imagem` aceita, junto com os campos normais:
 - `movimento`: zoom_in | zoom_out | pan_esquerda | pan_direita | sobe (suave, com aceleração).
 
 Sem nenhum extra, a imagem sai com o zoom de sempre + grão e vinheta (mais rápido de renderizar).
+
+## `cena_animada` — personagens animados (bonecos por código, estilo documentário animado)
+```json
+{ "tipo": "cena_animada",
+  "cenario": "the stone main plaza of Cajamarca in the Andes mountains, 1532",   // o LUGAR, em inglês, sem pessoas (vira a ilustração de fundo)
+  "busca_reserva": "Cajamarca plaza Andes",
+  "movimento": "zoom_in",
+  "personagens": [
+    { "figurino": "conquistador", "pele": "clara", "x": 0.45, "olha": "direita", "prop": "espada",
+      "acoes": [ { "acao": "aponta", "em": 0.3, "ate": 0.6 }, { "acao": "bravo", "em": 0.3 } ] },
+    { "figurino": "inca_nobre", "pele": "morena", "x": 0.7, "olha": "esquerda", "fala": true,
+      "acoes": [ { "acao": "entra", "de": "direita", "em": 0, "ate": 0.3 }, { "acao": "assusta", "em": 0.4 } ] } ],
+  "titulo_inferior": { "titulo": "Atahualpa", "subtitulo": "Imperador inca" } }
+```
+- **Todo boneco já é vivo sozinho:** respira, balança a cabeça e pisca. `fala: true` mexe a boca **no ritmo da narração** (use em quem "está falando" na cena; um por cena).
+- **figurino:** romano, senador, legionario, rei, rainha, nobre, campones, monge, cavaleiro, conquistador, inca_nobre, inca, mercador, farao, samurai, viking, pirata, soldado_napoleao, soldado_1900, cavalheiro_1900, dama_1900, operario, cientista, terno, estudante, narrador.
+- **pele:** clara, media, morena, escura · **cabelo:** preto, castanho, loiro, ruivo, grisalho, branco · `barba`/`bigode`: true.
+- **prop** (na mão direita): espada, lanca, pergaminho, pena, saco_moedas, bandeira, tocha, livro, calice, moeda.
+- **acoes** (`em`/`ate` = fração da cena): entra, sai, anda, aponta, acena, comemora, cruza_bracos, pensa, segura, assusta, ri, nega, concorda, olha, triste, bravo, surpreso, feliz, fala, cala, senta.
+  `entra` (`de`: esquerda/direita) e `sai` (`para`) fazem o boneco andar de verdade; `anda` vai até `x`; `olha` vira para `para`.
+  Gestos (aponta, acena, comemora, cruza_bracos, pensa, segura, assusta, triste) voltam ao repouso no `ate`.
+  Emoções (bravo, surpreso, feliz, triste) mudam sobrancelhas e olhos.
+- **x:** posição horizontal (0 a 1). 1 a 4 bonecos por cena, espaçados (≥ 0,2 de distância). `escala` 0,8–1,3.
+- Sem ilustração disponível (cota), o motor desenha um cenário por código (montanhas, deserto, porto, interior ou campo) pelas palavras do `cenario`.

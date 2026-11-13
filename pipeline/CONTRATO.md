@@ -63,6 +63,7 @@ python -m pipeline.validar canais/<canal>/videos/<pasta>
 | `mapa_animado` | `regiao` + `paises`, `areas`, `cidades`, `rotas`, `rotulos`, `camera_para`, `titulo_inferior` | **só canais com `estilo.animado`** (Ouro & Império): mapa que se desenha — ver `pipeline/animacao/FORMATO.md` |
 | `contador` | `ate`, `de`, `prefixo`, `sufixo`, `rotulo`, `comparacao` | **animado**: valor em dinheiro contando |
 | `linha_tempo` | `eventos` (`{ano, texto}`), `foco` | **animado**: datas em sequência |
+| `cena_animada` | `cenario` (lugar sem pessoas, inglês), `personagens` (figurino, x, acoes, fala…) | **animado**: bonecos que andam, gesticulam e falam — ver `pipeline/animacao/FORMATO.md` |
 
 Em canais animados, `ilustracao` e `imagem` também aceitam `titulo_inferior`, `particulas`, `neblina` e `luzes` (ver `pipeline/animacao/FORMATO.md`).
 

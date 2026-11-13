@@ -22,7 +22,7 @@ from .comum import FPS, RAIZ, log, rodar
 
 DIR = RAIZ / "pipeline" / "animacao"
 PARTICULAS = ("folhas", "poeira", "neve", "brasas", "moedas", "chuva")
-MODELOS = {"mapa_animado": "mapa", "contador": "contador", "linha_tempo": "linha_tempo"}
+MODELOS = {"mapa_animado": "mapa", "contador": "contador", "linha_tempo": "linha_tempo", "cena_animada": "personagens"}
 AAC = ["-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2"]
 
 
@@ -214,8 +214,35 @@ def numero_para_contador(v: dict) -> dict | None:
             "sufixo": (" " + suf) if suf else "", "rotulo": v.get("rotulo", ""), "casas": 0 if valor.is_integer() else 1}
 
 
+def envelope(audio: Path, fps: int = FPS) -> list[float]:
+    """Abertura da boca por quadro (0–1), a partir do volume da narração."""
+    import numpy as np
+    bruto = subprocess.run(["ffmpeg", "-v", "error", "-i", str(audio), "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
+                           capture_output=True, check=True).stdout
+    a = np.frombuffer(bruto, dtype="<i2").astype(np.float32) / 32768
+    n = 16000 // fps
+    if len(a) < n:
+        return []
+    q = len(a) // n
+    rms = np.sqrt((a[: q * n].reshape(q, n) ** 2).mean(axis=1))
+    ref = np.percentile(rms, 95) + 1e-6
+    v = np.clip((rms / ref - 0.12) / 0.88, 0, 1)
+    return [float(x) for x in v]
+
+
+def descricao_cenario(v: dict) -> str | None:
+    """A ilustração de fundo de uma cena_animada: o lugar, sem gente (os personagens são os bonecos)."""
+    d = v.get("cenario")
+    return f"{d.strip().rstrip('.')}, empty scene with no people and no characters, open floor space in the lower third" if d else None
+
+
 def clipe(anim: Animador, cena: dict, audio: Path, dur: float, saida: Path, tmp: Path) -> Path:
     cena = {**cena, "duracao": dur}
+    if cena.get("modelo") == "personagens" and not cena.get("boca"):
+        try:
+            cena["boca"] = envelope(audio)
+        except Exception as e:
+            log.warning("sem sincronia de boca: %s", e)
     mudo = saida.with_name(saida.stem + "_anim.mp4")
     anim.video(cena, mudo)
     som = mixar(audio, eventos(cena, dur), saida.with_name(saida.stem + "_sfx.wav"), tmp / "sfx")
@@ -271,6 +298,25 @@ def erros_cena(v: dict, onde: str) -> list[str]:
             erros.append(f"{onde}: linha_tempo precisa de 1 a 12 eventos")
         if not 0 <= int(v.get("foco", len(ev) - 1)) < max(1, len(ev)):
             erros.append(f"{onde}: 'foco' fora da lista de eventos")
+    elif t == "cena_animada":
+        from .personagens import ACOES, FIGURINOS, PELE, PROPS
+        ps = v.get("personagens") or []
+        if not 1 <= len(ps) <= 4:
+            erros.append(f"{onde}: cena_animada precisa de 1 a 4 personagens")
+        for p in ps:
+            if p.get("figurino") not in FIGURINOS:
+                erros.append(f"{onde}: figurino '{p.get('figurino')}' não existe ({', '.join(FIGURINOS)})")
+            if p.get("pele") and p["pele"] not in PELE:
+                erros.append(f"{onde}: pele deve ser {', '.join(PELE)}")
+            if p.get("prop") and p["prop"] not in PROPS:
+                erros.append(f"{onde}: prop '{p['prop']}' não existe ({', '.join(PROPS)})")
+            for a in p.get("acoes", []):
+                if a.get("acao") not in ACOES:
+                    erros.append(f"{onde}: ação '{a.get('acao')}' não existe ({', '.join(ACOES)})")
+                if a.get("em") is not None and not 0 <= a["em"] <= 1:
+                    erros.append(f"{onde}: 'em' das ações é fração da cena (0 a 1)")
+            if not 0 <= float(p.get("x", 0.5)) <= 1:
+                erros.append(f"{onde}: x do personagem é fração da largura (0 a 1)")
     if v.get("particulas") and v["particulas"] not in PARTICULAS:
         erros.append(f"{onde}: particulas deve ser uma de {', '.join(PARTICULAS)}")
     for item in ("paises", "areas", "cidades", "rotas", "rotulos"):

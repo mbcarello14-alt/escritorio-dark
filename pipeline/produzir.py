@@ -111,6 +111,19 @@ def _visual(ctx: Contexto, cena: dict, idx: int, audio: Path, dur: float, bloco:
         if feito:
             return feito
         quadro = cartoes.numero(cfg, str(v["valor"]), v.get("rotulo", ""))
+    elif t == "cena_animada":
+        # bonecos animados por código sobre a ilustração do lugar (sem gente)
+        cena_a = animar.cena_de(v)
+        origem = ctx.imagem(animar.descricao_cenario(v), v.get("busca_reserva"))
+        img = cartoes.preparar_imagem(origem, tmp / f"cena_{idx:03d}.jpg", preencher=origem.parent.name == "ilustracoes") if origem else None
+        if img:
+            cena_a["imagem"] = str(img.resolve())
+        feito = ctx.animar(cena_a, audio, dur, saida)
+        if feito:
+            return feito
+        if img:
+            return render.clipe_imagem(img, audio, dur, saida, movimento, None, textura=ctx.animado)
+        quadro = cartoes.cartao(cfg, (v.get("titulo_inferior") or {}).get("titulo", ""), "")
     elif t in animar.MODELOS:
         feito = ctx.animar(animar.cena_de(v), audio, dur, saida)
         if feito:
@@ -224,6 +237,7 @@ def produzir(pasta: Path, sem_upload=False, motor_voz=None, sem_rede=False) -> d
         todas = [c for b in prod["blocos"] for c in b["cenas"]]
         pedidos = [c["visual"].get("cena") for i, c in enumerate(todas, 1) if c["visual"]["tipo"] == "ilustracao"
                    and not (pasta / "imagens-fixas" / f"cena_{i:03d}.jpg").exists()]
+        pedidos += [animar.descricao_cenario(c["visual"]) for c in todas if c["visual"]["tipo"] == "cena_animada"]
         ctx.ilustrador.pre_gerar(pedidos + [prod["thumbnail"].get("cena")])
         # trava: sem os desenhos, o vídeo não sobe — espera a cota de imagens voltar (o que já foi feito fica guardado)
         faltam = [d for d in pedidos if d and not ctx.ilustrador._destino(d).exists()]

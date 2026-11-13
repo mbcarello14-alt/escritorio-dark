@@ -11,7 +11,7 @@ from pathlib import Path
 TIPOS = {
     "imagem": ["busca"], "ilustracao": ["cena"], "cartao": ["titulo"], "numero": ["valor"], "citacao": ["texto"],
     "lista": ["titulo", "itens"], "mapa_mental": ["mapa", "revelar"], "comparacao": ["esquerda", "direita"],
-    "mapa_animado": ["regiao"], "contador": ["ate"], "linha_tempo": ["eventos"],
+    "mapa_animado": ["regiao"], "contador": ["ate"], "linha_tempo": ["eventos"], "cena_animada": ["cenario", "personagens"],
 }
 
 

@@ -377,7 +377,72 @@ def _imagem(cena: dict, dur: float, pasta: Path) -> str:
     return _pagina(dur, css, corpo, "\n".join(js))
 
 
-MODELOS = {"mapa": _mapa, "contador": _contador, "linha_tempo": _linha_tempo, "imagem": _imagem}
+def _cenario_codigo(desc: str) -> str:
+    """Cenário vetorial simples (céu, relevo, chão) escolhido pelas palavras da descrição."""
+    d = desc.lower()
+    if any(k in d for k in ("throne", "palace", "room", "hall", "interior", "church", "temple interior", "office", "court")):
+        return ('<div class="camada" style="background:linear-gradient(#5E4632, #3E2E20)"></div>'
+                '<svg class="camada" viewBox="0 0 2160 1080"><rect x="0" y="0" width="2160" height="760" fill="#6E5440"/>'
+                + "".join(f'<rect x="{120 + k * 400}" y="120" width="70" height="640" fill="#5A4430"/>' for k in range(6))
+                + '<rect x="840" y="160" width="480" height="380" rx="200" fill="#8E6E4E"/><rect x="0" y="760" width="2160" height="320" fill="#4A382A"/>'
+                '<path d="M0 760 L2160 760" stroke="#2E2218" stroke-width="10"/></svg>')
+    if any(k in d for k in ("sea", "port", "harbor", "beach", "coast", "ship", "ocean")):
+        return ('<div class="camada" style="background:linear-gradient(#9EC3D6, #E8D9B8 70%)"></div>'
+                '<svg class="camada" viewBox="0 0 2160 1080"><rect y="560" width="2160" height="300" fill="#4A7A92"/>'
+                '<path d="M0 600 q40 -10 80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0" fill="none" stroke="#E8F0F4" stroke-opacity=".4" stroke-width="4"/>'
+                '<path d="M0 800 Q540 760 1080 790 T2160 780 L2160 1080 L0 1080 Z" fill="#D9C08E"/></svg>')
+    if any(k in d for k in ("desert", "dune", "egypt", "pyramid", "sand")):
+        return ('<div class="camada" style="background:linear-gradient(#F2C98E, #F7E3B8)"></div>'
+                '<svg class="camada" viewBox="0 0 2160 1080"><circle cx="1600" cy="300" r="90" fill="#FFF1C8"/>'
+                '<path d="M200 760 L520 360 L840 760 Z" fill="#D9A866"/><path d="M760 760 L980 470 L1200 760 Z" fill="#C99858"/>'
+                '<path d="M0 820 Q600 720 1200 800 T2160 790 L2160 1080 L0 1080 Z" fill="#E2B878"/></svg>')
+    mont = any(k in d for k in ("mountain", "andes", "valley", "highland", "peak"))
+    return ('<div class="camada" style="background:linear-gradient(#A9C7D8, #EDE0C2 75%)"></div>'
+            '<svg class="camada" viewBox="0 0 2160 1080">'
+            + ('<path d="M0 700 L260 380 L460 560 L760 260 L1060 600 L1320 340 L1640 620 L1900 400 L2160 640 L2160 1080 L0 1080 Z" fill="#8E9AA6"/>'
+               '<path d="M690 330 L760 260 L830 330 Z M1260 400 L1320 340 L1380 400 Z" fill="#F3F3F0"/>' if mont else
+               '<path d="M0 700 Q400 560 900 660 T2160 620 L2160 1080 L0 1080 Z" fill="#9FB08A"/>')
+            + '</svg><svg class="camada" viewBox="0 0 2160 1080"><path d="M0 800 Q700 730 1300 790 T2160 770 L2160 1080 L0 1080 Z" fill="#B8A777"/>'
+            '<path d="M0 860 Q800 820 2160 850 L2160 1080 L0 1080 Z" fill="#A38F60"/></svg>')
+
+
+def _personagens(cena: dict, dur: float, pasta: Path) -> str:
+    from . import personagens as P
+    fundo = ""
+    if cena.get("imagem"):
+        img = Path(cena["imagem"])
+        destino = pasta / "assets" / ("fundo" + (img.suffix or ".jpg"))
+        shutil.copy(img, destino)
+        fundo = f'<img id="fundo" src="assets/{destino.name}">'
+    if not fundo:   # sem ilustração (cota de imagens): cenário desenhado por código, com camadas em parallax
+        fundo = _cenario_codigo(cena.get("cenario", ""))
+    bonecos = cena.get("personagens") or []
+    css = """
+.camada { position:absolute; left:-120px; top:0; width:2160px; height:1080px; }
+#palco { position:absolute; inset:0; overflow:hidden; background:linear-gradient(#C9B48E, #8E7656); }
+#fundo { position:absolute; left:0; top:0; width:1920px; height:1080px; object-fit:cover; }
+#chaoSombra { position:absolute; left:0; right:0; bottom:0; height:260px; background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.28)); }
+.boneco { position:absolute; width:0; height:0; }
+"""
+    corpo = (f'<div id="palco"><div id="camP" style="position:absolute; inset:0; transform-origin:960px 700px">{fundo}<div id="chaoSombra"></div>'
+             + "".join(P.boneco_html(i, b, dur) for i, b in enumerate(bonecos)) + "</div></div>" + _titulo_html(cena.get("titulo_inferior")))
+    js = []
+    mov = cena.get("movimento") or "zoom_in"
+    alvo = {"zoom_in": (1.0, 1.08), "zoom_out": (1.08, 1.0)}.get(mov, (1.04, 1.04))
+    dx = {"pan_esquerda": (40, -40), "pan_direita": (-40, 40)}.get(mov, (0, 0))
+    js.append(f"tl.fromTo('#camP', {{ scale: {alvo[0]}, x: {dx[0]} }}, {{ scale: {alvo[1]}, x: {dx[1]}, duration: D, ease: 'sine.inOut' }}, 0);")
+    js.append("tl.fromTo('#fundo', { x: 0 }, { x: -18, duration: D, ease: 'none' }, 0);")
+    js.append("document.querySelectorAll('.camada').forEach((c, k) => tl.fromTo(c, { x: 0 }, { x: -12 - k * 22, duration: D, ease: 'none' }, 0));")   # parallax leve: o fundo anda menos que os bonecos
+    js.append("const POSAR = []; const posar = () => POSAR.forEach(f => f());")
+    for i, b in enumerate(bonecos):
+        js.append(f"gsap.set('#bn{i}', {{ opacity: 0 }}); tl.to('#bn{i}', {{ opacity: 1, duration: 0.35, ease: 'power2.out' }}, 0.05);")
+        js.append(P.boneco_js(i, b, dur, cena.get("boca"), FPS))
+    js.append(_titulo_js(cena.get("titulo_inferior")))
+    js.append("tl.eventCallback('onUpdate', posar); tl.to({}, { duration: D, onUpdate: posar }, 0); posar();")
+    return _pagina(dur, css, corpo, "\n".join(js))
+
+
+MODELOS = {"mapa": _mapa, "contador": _contador, "linha_tempo": _linha_tempo, "imagem": _imagem, "personagens": _personagens}
 
 
 # ---------------------------------------------------------------- render
