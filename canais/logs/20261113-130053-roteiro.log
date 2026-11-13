@@ -1,0 +1,149 @@
+comando: /roteiro canais/vestibular/videos/2026-11-17
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-17 && ls && cat estado.json && cat 01-pauta.md && cat pautas.json | head -60"}
+🔧 Agent {"description": "Dossiê soro x vacina", "subagent_type": "pesquisador-vestibular", "prompt": "Etapa 2 (dossiê). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-1
+💬 Aguardando o pesquisador terminar o dossiê.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 WebSearch {"query": "ENEM questão soro vacina imunização ativa passiva gabarito", "mode": "standard"}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/questao-93-caderno-amarelo-enem-2025-dia-2/", "prompt": "Transcreva o enunciado completo, alternativas, gabarito e a explicação (resumida). Diga qual é o tema 
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=28689", "prompt": "Transcreva o enunciado completo, alternativas, gabarito e a explicação (resumida). Diga qual é o tema e qual prova/ano."}
+🔧 WebFetch {"url": "https://canaltech.com.br/saude/qual-a-diferenca-entre-soro-e-vacina-214412/", "prompt": "Resuma conceitos: diferença soro x vacina, tétano, veneno, reforço, memória. Cite fontes citadas e dat
+🔧 WebSearch {"query": "gov.br saúde soro antiveneno antitetânico imunoglobulina imunidade passiva diferença vacina", "mode": "standard"}
+🔧 WebFetch {"url": "https://publicacoeseducativas.butantan.gov.br/web/soros-vacinas/pages/pdf/soros_vacinas.pdf", "prompt": "Resuma: como o soro é produzido (cavalos), imunização ativa x passiva, tétano (soro e 
+🔧 WebSearch {"query": "Ministério da Saúde Programa Nacional de Imunizações PNI criado 1973 calendário nacional de vacinação gov.br", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest OR Unicamp questão vacina soro imunidade ativa passiva primeira fase", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.vestibulandoweb.com.br/biologia/questoes-soro-vacina/", "prompt": "Liste as questões com instituição e ano de cada uma (ENEM, Fuvest, Unicamp, etc.), enunciado resumido e gabarito
+🔧 WebFetch {"url": "https://www.gov.br/saude/pt-br/vacinacao/calendario", "prompt": "O que a página diz sobre o Calendário Nacional de Vacinação, PNI, doses de reforço, gratuidade pelo SUS? Data de atualização."
+🔧 WebFetch {"url": "https://vestibulares.estrategia.com/portal/materias/biologia/vacinas-e-soro/", "prompt": "Resuma conceitos corretos: imunidade ativa/passiva, resposta primária x secundária, reforço, soro ant
+🔧 WebSearch {"query": "Enem 2011 questão vacina H1N1 aumenta a imunidade gabarito linfócitos memória", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/02-dossie.md", "content": "# Dossiê — Mapeado — terça 17/11/2026 — \"Soro ou vacina? A pegadinha de
+💬 O dossiê está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/02-dossie.md`. Os enunciados e gabaritos vêm de sites de cursinho, não do Inep, e não consegui ler o PDF do Butantan nem achar o manual do Ministério sobre soros e tétano.
+
+**Conceitos (confiança alta):**
+- **Vacina:** é imunidade ativa. O corpo produz anticorpos e células de memória, e o reforço mantém essa memória.
+- **Soro:** é imunidade passiva. O anticorpo vem pronto de outro organismo, age na hora, dura pouco e não gera memória.
+- **Soro contra veneno:** o corpo leva dias para a primei
+🔧 Agent {"description": "Roteiro soro x vacina", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17. Leia estado.
+💬 Aguardando o roteirista terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/pautas.json"}
+💬 Agora escrevo o roteiro.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "content": "# Roteiro — Mapeado — terça 17/11/2026, 17h00\n\n**Título provisório:**
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Soro ou vacina? A pegadinha de Biologia qu
+💬 Escrevi o roteiro do "Soro ou vacina?" em 10 blocos, com cerca de 1.745 palavras, umas 11 min e 40 s de vídeo. Isso fica dentro dos 8 a 12 minutos do briefing, mas perto do teto. Contei as palavras à mão, porque não tinha como rodar um contador.
+
+- **Tese:** soro e vacina protegem em tempos diferentes. A vacina faz o próprio corpo produzir anticorpos e guardar memória. O soro entrega anticorpo pronto, que age na hora e acaba. Na prova, basta perguntar "quem produziu o anticorpo?".
+- **Caminho do vídeo:**
+  1. Duas cenas lado a lado: uma picada de jararaca e uma criança no posto de saúde.
+  2. 
+🔧 Agent {"description": "Checagem do roteiro", "subagent_type": "checador", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17. Leia 02-dossie.md, 03-rotei
+💬 Aguardando o checador.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json"}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=28689", "prompt": "Transcreva o enunciado completo e as alternativas da questão ENEM 2014 sobre imunobiológicos I e II, humanos e equinos, e o gabarito."}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/questao-93-caderno-amarelo-enem-2025-dia-2/", "prompt": "Transcreva o enunciado completo, alternativas e gabarito da questão 93."}
+🔧 WebSearch {"query": "ENEM 2014 questão 85 caderno azul imunobiológicos I e II humanos equinos gabarito", "mode": "standard"}
+🔧 WebSearch {"query": "Programa Nacional de Imunizações criado 1973 Ministério da Saúde 18 de setembro", "mode": "standard"}
+🔧 WebFetch {"url": "https://agenciagov.ebc.com.br/noticias/202611/tema-da-redacao-201ca-valorizacao-do-sistema-unico-de-saude-sus-como-direito-universal201d", "prompt": "Qual o tema da redação do ENEM 2026 e a d
+🔧 WebSearch {"query": "Instituto Butantan produção de soros antiofídicos cavalos plasma hiperimune", "mode": "standard"}
+🔧 WebSearch {"query": "tétano imunoglobulina humana antitetânica soro antitetânico ferimento Ministério da Saúde indicação vacina dT", "mode": "standard"}
+🔧 WebSearch {"query": "ENEM 2011 questão 69 caderno azul gripe H1N1 vacina gabarito", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.gov.br/saude/pt-br/vacinacao/publicacoes/programa-nacional-de-imunizacoes-50-anos", "prompt": "Quando e como o PNI foi criado/instituído (data, 1973)? Qualquer menção a 1975 e Lei
+🔧 WebSearch {"query": "ENEM 2025 segundo dia caderno amarelo questão 93 vacina antígeno \"proteínas neutralizadoras\" gabarito", "mode": "standard"}
+🔧 WebSearch {"query": "Unicamp 2008 questão vacina soro gráfico concentração de anticorpos tempo primeira dose segunda dose", "mode": "standard"}
+🔧 WebFetch {"url": "https://vestibulares.estrategia.com/portal/materias/biologia/vacinas-e-soro/", "prompt": "O que diz sobre: células de memória (linfócito B), plasmócito, toxoide, vacina atenuada/inativada, du
+❌ maxContentLength size of 10485760 exceeded
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2014/primeiro-dia/embora-sejam-produzidos-e-utilizados-em-situacoes-distintas-os-imunobiologicos-i-e-ii/", "prompt": "Transcreva o enunciado 
+🔧 WebFetch {"url": "https://fisica.net/enem/provas/2014/ENEM-2014-PROVA-DIA-01.pdf", "prompt": "Localize a questão 85 do caderno azul (imunobiológicos I e II). Transcreva o enunciado e o texto da figura (rótulos
+💬 **Não gravei `04-checagem.md`.** Minhas instruções de ambiente proíbem arquivos de relatório, então o conteúdo está abaixo, pronto para salvar. Não editei o roteiro.
+
+# 04-checagem.md: Mapeado, terça 17/11/2026, "Soro ou vacina?"
+
+## Veredito: CORRIGIR
+
+O conteúdo de biologia está sólido. As correções são pontuais: duas promessas sem confirmação, uma frase sobre a questão de 2014 que não consigo verificar, três afirmações infladas e a rota de rodízio.
+
+## Tabela de afirmações
+
+| # | Afirmação (bloco) | Status | Fonte | Correção sugerida |
+|---|---|---|---|---|
+| 1 | Vacina = imunidade ativa; t
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/04-checagem.md", "content": "# 04-checagem.md — Mapeado, terça 17/11/2026, \"Soro ou vacina?\"\n\n#
+🔧 Agent {"description": "Aplicar correções do checador", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17. Apli
+💬 Correções enviadas ao roteirista; aguardando.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "content": "# Roteiro — Mapeado — terça 17/11/2026, 17h00\n\n**Título provisório:**
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Soro ou vacina? A pegadinha de Biologia qu
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "old_string": "Até lá, desenha esse mapa", "new_string": "E an
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "old_string": "Até lá, desenha esse mapa", "new_string": "E a
+💬 Apliquei as 12 correções do `04-checagem.md` em `03-roteiro.md` e em `roteiro.json`, com o mesmo texto de fala nos dois. Não validei o JSON com uma ferramenta, e a contagem de palavras foi estimada à mão.
+
+**As 12 correções:**
+1. **Bloco 1:** troquei o gancho pela frase pedida. "Soro e vacina" agora só aparece com 2014, e 2011 e 2025 entram como "vacina e imunização ativa". Também tirei "aparece em vários vestibulares" e enxuguei duas frases para o bloco ficar em cerca de 116 palavras, abaixo do limite de 120.
+2. **Título:** "Soro ou vacina? A pegadinha de Biologia que cai no ENEM", no `.md` e
+🔧 Agent {"description": "Originalidade do roteiro", "subagent_type": "guardiao-originalidade", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17. Leia 03-
+💬 Aguardando o guardião de originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/05-originalidade.md", "content": "# Originalidade — Mapeado — 17/11/2026 — \"Soro ou vacina? A pega
+💬 Gravei `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/05-originalidade.md` com o semáforo 🟡 (ajustar).
+
+**Notas**
+- **Variação:** 7. A estrutura difere de 27/10 e 29/10. Mas o histórico só tem 2 vídeos, então a base de comparação é fraca.
+- **Valor próprio:** 7. A pergunta única "quem produziu o anticorpo?" e o cavalo como ponte são síntese útil.
+- **Voz humana:** 4. `nota_miguel` veio vazia, então não há opinião dele no roteiro.
+- **Conteúdo reutilizado:** 8. O visual é gerado por código, sem clipes de terceiros.
+- **Temas sensíveis:** 8. O tétano e o c
+🔧 Agent {"description": "Aplicar mudanças de originalidade", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17. 
+💬 Aguardando o ajuste final.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/05-originalidade.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "old_string": "esse ramo ganha quatro galhos. Antígeno. O cor
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "old_string": "esse ramo ganha quatro galhos. Antígeno. O corp
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "old_string": "Terceiro ramo, e aqui a história fica boa.", "
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "old_string": "Terceiro ramo, e aqui a história fica boa.", "n
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "old_string": "Ela tem mais quatro truques.", "new_string": "
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "old_string": "Ela tem mais quatro truques.", "new_string": "E
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "old_string": "Um último galho, só de contexto. A vacinação n
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "old_string": "Um último galho, só de contexto. A vacinação no
+💬 Agora o fechamento (bloco 10).
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "old_string": "\"texto\": \"Então fica a tese. Soro e vacina n
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "old_string": "teria te pegado? Quero ver o placar nos comentá
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json", "old_string": "  \"semaforo\": \"🟢\",\n  \"resumo_originalidad
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "old_string": "## Bloco 10 — Fechamento (cerca de 168 palavra
+💬 You've hit your weekly limit · resets 7pm (UTC)
+💬 You've hit your weekly limit · resets 7pm (UTC)
+
+=== resultado: success | turnos 3 | 6s | erro=False
+Aguardando o pesquisador terminar o dossiê.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+Aguardando o roteirista terminar.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+Aguardando o checador.
+
+=== resultado: success | turnos 3 | 11s | erro=False
+Correções enviadas ao roteirista; aguardando.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+Aguardando o guardião de originalidade.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+Aguardando o ajuste final.
+
+=== resultado: success | turnos 1 | 0s | erro=True
+You've hit your weekly limit · resets 7pm (UTC)
+codigo de saida: 1

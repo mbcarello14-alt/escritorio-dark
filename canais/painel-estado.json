@@ -1,7 +1,16 @@
 {
-  "atualizado_em": "2026-11-13T12:59:31Z",
+  "atualizado_em": "2026-11-13T13:13:43Z",
   "ativos": {
-    "miguel": [
+    "pesquisador_vestibular": [
+      "Mapeado: terça 17/11 17h00"
+    ],
+    "roteirista_vestibular": [
+      "Mapeado: terça 17/11 17h00"
+    ],
+    "checador": [
+      "Mapeado: terça 17/11 17h00"
+    ],
+    "guardiao": [
       "Mapeado: terça 17/11 17h00"
     ],
     "roteirista_livros": [
@@ -44,8 +53,8 @@
       "dia": "2026-11-17",
       "rotulo": "terça 17/11 17h00",
       "publicar_em_utc": "2026-11-17T20:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
+      "etapa": "roteiro",
+      "etapa_txt": "✍️ escrevendo e checando o roteiro",
       "titulo": "",
       "url": ""
     }
