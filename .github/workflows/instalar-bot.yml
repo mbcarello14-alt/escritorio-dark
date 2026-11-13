@@ -21,6 +21,7 @@ jobs:
       GH_PAT: ${{ secrets.GH_PAT }}
       YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      CONTATO: ${{ secrets.CONTATO }}
       GH_REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v4
@@ -62,7 +63,7 @@ jobs:
               "WEBHOOK_SECRET": secrets.token_hex(24),
               "PAINEL_KEY": hashlib.sha256((os.environ["GH_PAT"] + "painel").encode()).hexdigest()[:24],
           }
-          for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET"):
+          for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "CONTATO"):
               if os.environ.get(k, "").strip():
                   s[k] = os.environ[k].strip()
           if os.environ.get("TELEGRAM_CHAT_ID", "").strip():
