@@ -101,6 +101,24 @@ def enviar_roteiro(pasta: Path) -> None:
     E.salvar_estado(pasta, etapa="aguardando_aprovacao")
 
 
+def enviar_sugestoes_longo(canal: str) -> None:
+    from .comum import carregar_config
+    import json as _json
+    from datetime import datetime, timezone
+    arq = RAIZ / "canais" / canal / "longos" / "sugestoes.json"
+    if not arq.exists():
+        T.enviar("⚠️ As sugestões de tema do vídeo longo não ficaram prontas. Mande /longo ouro <tema> se quiser escolher você.")
+        return
+    d = _json.loads(arq.read_text(encoding="utf-8"))
+    cfg = carregar_config(canal)
+    ops = "\n\n".join(f"<b>{i}. {esc(o['tema'])}</b>\n{esc(o.get('por_que', ''))}" for i, o in enumerate(d["opcoes"], 1))
+    ids = T.enviar(f"🌙 <b>Vídeo longo da semana — {esc(cfg['nome'])}</b> ({esc(cfg['longos']['nome_formato'])}, ~{cfg['longos']['minutos']} min)\n\n"
+                   f"{ops}\n\nResponda com o <b>número</b> (pode acrescentar um foco: “2, foca no cotidiano”) ou mande outro tema.")
+    E.registrar_msgs(ids[:1], arq.parent, "longo_sugestao", canal=canal)
+    d["enviado_em"] = datetime.now(timezone.utc).isoformat()
+    arq.write_text(_json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def enviar_plano_longo(pasta: Path) -> None:
     from . import longo as L
     from .comum import carregar_config
@@ -374,6 +392,27 @@ def receber(evento: dict) -> None:
             _saida(comando=f"/ajustar {E.rel(pasta)}", pos="enviar-roteiro", pasta=E.rel(pasta))
         return
 
+    if tipo == "longo_sugestao":
+        from . import longo as L
+        import json as _json
+        canal = info.get("canal") or pasta.parent.name
+        d = _json.loads((pasta / "sugestoes.json").read_text(encoding="utf-8"))
+        if d.get("escolhido"):
+            T.enviar("Esse vídeo longo já foi escolhido. /longos mostra o andamento.", responder_a=msg["message_id"])
+            return
+        m = re.match(r"^\s*([1-9])\b[\s,.;:-]*(.*)$", texto, re.S)
+        if m and int(m.group(1)) <= len(d["opcoes"]):
+            tema = d["opcoes"][int(m.group(1)) - 1]["tema"] + (f" — foco: {m.group(2).strip()}" if m.group(2).strip() else "")
+        else:
+            tema = texto.strip()
+        d["escolhido"] = tema
+        (pasta / "sugestoes.json").write_text(_json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        nova = L.criar(canal, tema)
+        T.enviar(f"🌙 Fechado: <b>{esc(tema)}</b>. O roteirista está planejando os capítulos; o plano chega aqui para você aprovar.",
+                 responder_a=msg["message_id"])
+        _saida(comando=f"/longo-plano {L.rel(nova)}", pos="enviar-plano-longo", pasta=L.rel(nova))
+        return
+
     if tipo in ("longo_plano", "longo_video"):
         from . import longo as L
         e = L.ler(pasta)
@@ -381,7 +420,7 @@ def receber(evento: dict) -> None:
             if APROVAR.match(texto):
                 L.salvar(pasta, etapa="escrevendo")
                 total = e["blocos_total"]
-                T.enviar(f"✍️ Plano aprovado! Agora os blocos são escritos e checados aos poucos (3 por rodada, 2 rodadas por dia; "
+                T.enviar(f"✍️ Plano aprovado! Agora os blocos são escritos e checados aos poucos (3 por rodada, 3 rodadas por dia; "
                          f"{total} no total), depois vêm a narração e as imagens. Em uns 3 a 5 dias o vídeo chega aqui para você assistir. "
                          "Acompanhe com /longos.", responder_a=msg["message_id"])
                 _saida(longo_acao="escrever", longo_pasta=L.rel(pasta))
@@ -468,6 +507,8 @@ def main():
         evento = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text(encoding="utf-8")) if not args else \
             json.loads(Path(args[0]).read_text(encoding="utf-8"))
         receber(evento)
+    elif cmd == "enviar-sugestoes-longo":
+        enviar_sugestoes_longo(sys.argv[2])
     elif cmd == "enviar-plano-longo":
         enviar_plano_longo(_pasta(sys.argv[2]))
     elif cmd == "enviar-roteiro":

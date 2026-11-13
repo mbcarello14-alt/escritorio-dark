@@ -493,6 +493,32 @@ def para_escrever() -> Path | None:
     return None
 
 
+def sugerir_quem() -> str | None:
+    """Canal que deve receber 3 sugestões de tema nesta rodada (vídeo longo semanal automático)."""
+    from .agenda import BRT, DIAS
+    agora = datetime.now(timezone.utc).astimezone(BRT)
+    semana = agora.strftime("%G-W%V")
+    for cfg_arq in sorted((RAIZ / "pipeline" / "config").glob("*.yaml")):
+        canal = cfg_arq.stem
+        if canal == "geral":
+            continue
+        cfg = carregar_config(canal)
+        auto = (cfg.get("longos") or {}).get("automatico") or {}
+        if not auto.get("ligado") or not cfg.get("ativo", True):
+            continue
+        if agora.weekday() < DIAS[auto.get("dia_sugestao", "mon")[:3]]:
+            continue   # ainda não chegou o dia desta semana
+        arq = RAIZ / "canais" / canal / "longos" / "sugestoes.json"
+        if arq.exists() and json.loads(arq.read_text(encoding="utf-8")).get("semana") == semana:
+            continue   # já sugeriu nesta semana
+        ocupado = [p for p in todas() if ler(p).get("canal") == canal
+                   and ler(p).get("etapa") not in ("agendado", "cancelado", "publicado")]
+        if ocupado:
+            continue   # ainda tem um longo andando: não empilha
+        return canal
+    return None
+
+
 def cancelar(pasta: Path) -> None:
     pub = pasta / "publicacao.json"
     if pub.exists():
@@ -525,6 +551,11 @@ def main():
         ps = [rel(p) for p in todas() if ler(p).get("etapa") in ("escrevendo", "narrando", "imagens", "montando")]
         _saida(andamento=" ".join(ps))
         print(" ".join(ps))
+        return
+    if acao == "sugerir-quem":
+        c = sugerir_quem()
+        _saida(sugerir=c or "")
+        print(c or "nenhum")
         return
     if acao == "criar":
         print(rel(criar(sys.argv[2], " ".join(sys.argv[3:]))))

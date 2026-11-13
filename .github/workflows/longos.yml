@@ -1,10 +1,11 @@
 name: Vídeos longos
-# Duas rodadas por dia (6h e 16h de Brasília): escreve e checa 3 blocos do vídeo longo da vez e avança os outros
+# Três rodadas por dia (6h, 12h e 18h de Brasília): escreve e checa 3 blocos do vídeo longo da vez e avança os outros
 # (narração em partes, imagens, montagem) até onde as cotas grátis deixarem. A mídia fica no cache entre as rodadas.
 on:
   schedule:
     - cron: "0 9 * * *"
-    - cron: "0 19 * * *"
+    - cron: "0 15 * * *"
+    - cron: "0 21 * * *"
   workflow_dispatch:
     inputs:
       acao:
@@ -42,6 +43,22 @@ jobs:
       - uses: ./.github/actions/preparar
         with:
           requisitos: pipeline/requirements-producao.txt
+
+      - name: Vídeo longo da semana (sugestões automáticas)
+        id: sug
+        if: inputs.acao == '' || inputs.acao == 'rodada'
+        run: python -m pipeline.longo sugerir-quem
+
+      - name: Sugerir 3 temas
+        if: steps.sug.outputs.sugerir != ''
+        uses: ./.github/actions/agentes
+        with:
+          comando: /longo-sugerir ${{ steps.sug.outputs.sugerir }}
+          token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+
+      - name: Mandar as sugestões no Telegram
+        if: steps.sug.outputs.sugerir != ''
+        run: python -m pipeline.bot enviar-sugestoes-longo ${{ steps.sug.outputs.sugerir }}
 
       - name: Qual vídeo ganha blocos nesta rodada
         id: fila
