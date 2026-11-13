@@ -1,0 +1,40 @@
+02:23:51 INFO ilustrações: higgsfield desligado (sem chave)
+02:23:51 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+02:23:51 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+02:23:52 INFO Processing audio with duration 00:36.321
+[0;93m2026-11-13 02:23:52.972482458 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+02:23:53 INFO VAD filter removed 00:00.000 of audio
+02:24:04 INFO Processing audio with duration 00:36.321
+02:24:04 INFO VAD filter removed 00:00.000 of audio
+02:24:14 INFO Processing audio with duration 00:26.880
+02:24:15 INFO VAD filter removed 00:00.000 of audio
+02:24:20 INFO Processing audio with duration 00:26.880
+02:24:20 INFO VAD filter removed 00:00.000 of audio
+02:24:26 INFO gerando 5 ilustrações…
+02:24:26 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+02:24:26 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+02:24:26 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+02:24:26 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+02:24:26 INFO ilustrações prontas: 0 geradas (5 pedidas)
+02:24:27 INFO Processing audio with duration 00:36.321
+02:24:27 INFO VAD filter removed 00:00.000 of audio
+02:24:38 INFO bloco 1: 36.3s, 107 palavras reconhecidas
+02:25:17 INFO cena 1 pronta (12.6s, total 13s)
+02:25:21 WARNING nenhuma imagem livre para 'Cajamarca plaza Andes' — usando cartão
+02:25:23 INFO imagem 'Cajamarca plaza' ← wikimedia
+02:25:23 INFO imagem para 'Cajamarca plaza Andes' achada buscando 'Cajamarca plaza'
+02:25:54 INFO cena 2 pronta (7.7s, total 20s)
+02:25:56 INFO imagem 'old desk manuscript' ← wikimedia
+02:26:14 INFO cena 3 pronta (6.9s, total 27s)
+02:26:16 INFO imagem 'Andes valley' ← wikimedia
+02:26:48 INFO cena 4 pronta (9.1s, total 36s)
+02:26:49 INFO Processing audio with duration 00:26.707
+02:26:49 INFO VAD filter removed 00:00.000 of audio
+02:26:55 INFO bloco 2: 26.7s, 62 palavras reconhecidas
+02:27:19 INFO cena 5 pronta (8.6s, total 45s)
+02:27:32 INFO imagem 'Inca palace' ← openverse
+02:28:45 INFO cena 6 pronta (18.1s, total 63s)
+02:28:46 INFO sem trilha em musica/misterio — vídeo sai só com narração
+02:28:47 INFO imagem 'Millais Pizarro seizing the Inca of Peru' ← wikimedia
+02:28:47 INFO sem cortes.json — nenhum Short neste vídeo
+02:28:47 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/demos/2026-11-16-hyperframes/saida/video.mp4 (1.1 min)
