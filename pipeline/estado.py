@@ -35,6 +35,7 @@ ETAPAS = {
     "aguardando_cota": "🎨 esperando a cota de imagens para desenhar",
     "agendado": "✅ agendado no YouTube",
     "erro": "⚠️ deu erro",
+    "pulado": "⏭️ pulado (o dia passou sem pauta escolhida)",
 }
 
 

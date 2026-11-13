@@ -423,11 +423,20 @@ def receber(evento: dict) -> None:
 def lembrar() -> None:
     """Lembra o Miguel do que depende dele (pauta, aprovação, áudios) para vídeos que saem em até 2 dias."""
     from datetime import datetime, timedelta, timezone
-    limite = (datetime.now(timezone.utc) + timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    agora = datetime.now(timezone.utc)
+    limite = (agora + timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    passou = (agora - timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
     pend = []
     for pasta, e in E.todos_videos():
         et = e.get("etapa")
-        if et in ("aguardando_escolha", "aguardando_aprovacao", "aguardando_audio", "erro") and e.get("publicar_em_utc", "") <= limite:
+        if et not in ("aguardando_escolha", "aguardando_aprovacao", "aguardando_audio", "erro"):
+            continue
+        if e.get("publicar_em_utc", "") < passou:
+            # o dia do vídeo já passou e ninguém mexeu: sai da fila em silêncio, sem lembrete eterno
+            E.salvar_estado(pasta, etapa="pulado")
+            log.info("vídeo %s passou da data sem andar — marcado como pulado", pasta.name)
+            continue
+        if e.get("publicar_em_utc", "") <= limite:
             extra = ""
             if et == "aguardando_audio":
                 falta = sorted(set(range(1, E.total_blocos(pasta) + 1)) - E.blocos_com_audio(pasta))
