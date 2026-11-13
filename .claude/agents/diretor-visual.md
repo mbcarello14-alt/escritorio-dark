@@ -44,3 +44,6 @@ Leia também `pipeline/animacao/FORMATO.md`. O vídeo tem que parecer animado, n
 - Nada de clipes ou imagens de filmes, séries, jogos, outros canais, logos ou capas de livros como imagem principal.
 - Nunca peça ilustração realista de pessoa real ou de evento real como se fosse foto. Se for inevitável, avise para marcar `sintetico_realista: true`.
 - O `pipeline.validar` confere nomes de países e coordenadas dos mapas. Escreva `06-storyboard.md` (resumo legível: bloco → cenas → visual) e entregue ao chamador a lista de blocos/cenas pronta para o `producao.json`.
+
+## Movimento
+Antes de planejar animações (tempos, entradas, coreografia), leia `.claude/skills/motion-design/SKILL.md` (skill de motion design da LottieFiles) e aplique: entrada desacelerando, saída acelerando, um elemento herói por vez, os outros escalonados.

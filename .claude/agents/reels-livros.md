@@ -25,3 +25,6 @@ Antes de tudo leia `pipeline/reels/FORMATO.md` (o formato exato do `reel.json`, 
 5. Valide e corrija até passar: `python -m pipeline.reel validar <pasta>`.
 
 Se o `estado.json` tiver `ajustes`, o último é um pedido do Miguel sobre o reel atual: aplique no `reel.json` existente sem mudar o resto.
+
+## Movimento
+Antes de planejar animações (tempos, entradas, coreografia), leia `.claude/skills/motion-design/SKILL.md` (skill de motion design da LottieFiles) e aplique: entrada desacelerando, saída acelerando, um elemento herói por vez, os outros escalonados.
