@@ -1,0 +1,1394 @@
+{
+  "canal": "vestibular",
+  "titulo": "Soro ou vacina? A pegadinha de Biologia no ENEM",
+  "descricao": "Uma pessoa picada por jararaca e uma criança no posto de saúde saem protegidas, mas uma recebeu soro e a outra, vacina. Se você acha que é tudo igual, a banca te pega.\nUma pergunta só (quem produziu o anticorpo?) organiza imunidade ativa, imunidade passiva e a pegadinha do cavalo em um mapa mental desenhado ao vivo.\n\nNeste vídeo você monta, ramo a ramo, o mapa de soro e vacina: imunidade ativa, imunidade passiva, o cavalo que liga os dois e os cinco disfarces que a banca usa. No fim, resolvemos com o mapa uma questão real do ENEM 2025. É conteúdo de Biologia (imunologia) para revisão de prova, não orientação médica: sobre vacinas, soros e condutas de saúde, procure um serviço de saúde.\n\nQuestões comentadas no vídeo:\n- ENEM 2014, primeiro dia, caderno azul, questão 85: imunobiológicos em humanos e equinos\n- ENEM 2025, segundo dia, caderno amarelo, questão 93: o antígeno da vacina\n- Também citada: ENEM 2011 (vacina contra H1N1)\n\nAtenção: os textos e gabaritos das questões foram consultados em sites privados de gabaritos comentados, não no site do Inep. Antes de estudar por elas, confira o enunciado e o gabarito no caderno oficial do Inep.\n\nCapítulos logo abaixo.\n\nGostou do mapa? Se inscreva, deixe o like e conte nos comentários de que matéria você quer o próximo mapa.\n\nFontes:\n- Inep, provas e gabaritos do ENEM (conferência dos cadernos oficiais): https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos\n- Estratégia Vestibulares, vacinas e soro (Biologia): https://vestibulares.estrategia.com/portal/materias/biologia/vacinas-e-soro/\n- Canaltech, qual a diferença entre soro e vacina (com pesquisadora do Butantan): https://canaltech.com.br/saude/qual-a-diferenca-entre-soro-e-vacina-214412/\n- Instituto Butantan, publicações educativas sobre soros e vacinas: https://publicacoeseducativas.butantan.gov.br/web/soros-vacinas/pages/pdf/soros_vacinas.pdf\n- Ministério da Saúde, Calendário Nacional de Vacinação: https://www.gov.br/saude/pt-br/vacinacao/calendario\n- Centro de Vigilância Epidemiológica de São Paulo, tétano: https://saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/imunizacao/doc/imuni08_prof_tetano.pdf\n- Questão ENEM 2014 (Q85), gabarito comentado, Plataforma Assaad (site privado): https://plataformaassaad.com.br/?p=28689\n- Questão ENEM 2025 (Q93), gabarito comentado, Plataforma Assaad (site privado): https://plataformaassaad.com.br/questao-93-caderno-amarelo-enem-2025-dia-2/\n- Questão ENEM 2011, Descomplica (site privado): https://descomplica.com.br/gabarito-enem/questoes/2011/primeiro-dia/os-sintomas-mais-serios-da-gripe-a-causada-pelo-virus-h1n1/\n- Questões de vestibulares sobre soro e vacina, Vestibulando Web (site privado): https://www.vestibulandoweb.com.br/biologia/questoes-soro-vacina/\n- Programa Nacional de Imunizações, histórico, SciELO: https://scielosp.org/pdf/ress/2023.v32n3/e20231009/pt\n\nCréditos: ilustrações geradas por inteligência artificial no estilo quadro branco (algumas imagens podem ser geradas por IA). Narração com a voz do apresentador, tratada digitalmente. Trilha instrumental da categoria foco, sem direitos reservados ao canal.\n\nEste canal não promete aprovação nem nota: o mapa é uma ferramenta de revisão. Estude também com a prova oficial na mão.\n\n#enem #biologia #imunologia",
+  "tags": [
+    "soro ou vacina",
+    "imunidade ativa e passiva",
+    "imunização",
+    "biologia enem",
+    "enem 2025 questão 93",
+    "enem 2014 questão 85",
+    "imunologia",
+    "anticorpos e antígenos",
+    "vacina",
+    "soro antiofídico",
+    "mapa mental",
+    "revisão enem",
+    "questões do enem resolvidas",
+    "vestibular",
+    "mapeado"
+  ],
+  "hashtags": [
+    "#enem",
+    "#biologia",
+    "#imunologia"
+  ],
+  "playlist": "Biologia",
+  "comentario_inicial": "Sem mentir: no dia da prova, o cavalo da questão de 2014 teria te levado para a letra A? E qual é o seu jeito de separar soro e vacina?",
+  "sintetico_realista": false,
+  "musica_humor": "foco",
+  "thumbnail": {
+    "texto": "O CAVALO TE PEGA?",
+    "cena": "Huge hand-drawn doodle of a friendly horse head in profile with a big syringe stuck in its neck, a small Y-shaped antibody symbol floating above it and a tiny vial beside it, thick black marker outlines with touches of orange and dark blue, plain white background, main element large and centered on the left half of the frame, right side empty",
+    "imagem_busca": "horse antivenom serum syringe vial",
+    "layout": "direita",
+    "alternativa": {
+      "texto": "QUEM FEZ O ANTICORPO?",
+      "cena": "Huge hand-drawn doodle split in two halves: a vaccine syringe with a small happy child silhouette on one side and a snake bite mark on a leg with a serum vial on the other, a large question mark between them, thick black marker outlines with touches of orange and dark blue, plain white background, main element large and centered on the right half of the frame, left side empty",
+      "imagem_busca": "vaccine syringe antibody immune system",
+      "layout": "esquerda"
+    }
+  },
+  "blocos": [
+    {
+      "capitulo": "Gancho: duas injeções",
+      "cenas": [
+        {
+          "narracao": "Soro ou vacina? Imagina duas pessoas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two simple doodle figures side by side, each with a question mark above the head",
+            "busca_reserva": "two people silhouette question mark"
+          }
+        },
+        {
+          "narracao": "Uma acabou de levar uma picada de jararaca. A outra é uma criança no posto, tomando a dose do calendário.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a coiled pit viper snake next to a small child getting a shot from a nurse",
+            "busca_reserva": "jararaca snake bothrops"
+          }
+        },
+        {
+          "narracao": "As duas saem protegidas. Uma recebeu soro, a outra, vacina.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Picada de jararaca",
+              "itens": [
+                "Recebeu soro"
+              ]
+            },
+            "direita": {
+              "titulo": "Criança no posto",
+              "itens": [
+                "Recebeu vacina"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Se você acha que é tudo igual, a banca te pega.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a big hand reaching out to grab a worried student by the collar",
+            "busca_reserva": "hand grabbing student cartoon"
+          }
+        },
+        {
+          "narracao": "Soro e vacina já apareceram no ENEM em dois mil e catorze. E vacina e imunização ativa caíram de novo em dois mil e onze e em dois mil e vinte e cinco.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Já caiu no ENEM",
+            "itens": [
+              "2014: soro e vacina",
+              "2011: vacina e imunização ativa",
+              "2025: vacina e imunização ativa"
+            ]
+          }
+        },
+        {
+          "narracao": "Se você revisa melhor vendo o mapa nascer no quadro, se inscreve, solta o like e conta nos comentários de que matéria você quer o próximo mapa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smiling doodle student pointing at the viewer with a thumbs up and a speech bubble with a question mark",
+            "busca_reserva": "thumbs up student smiling"
+          }
+        },
+        {
+          "narracao": "A diferença entre as duas começa por uma coisa simples: o relógio.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A escola de defesa",
+      "cenas": [
+        {
+          "narracao": "Pensa no seu corpo como uma escola de segurança. Quando um invasor entra, os alunos dessa escola, os linfócitos B, estudam a cara dele.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a small school building with a security badge, little students studying a drawing of a masked intruder",
+            "busca_reserva": "lymphocyte B cell illustration"
+          }
+        },
+        {
+          "narracao": "Essa cara tem nome na prova: antígeno. É a marca do invasor, o pedaço que o corpo reconhece.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Antígeno",
+            "subtitulo": "A marca do invasor, o pedaço que o corpo reconhece"
+          }
+        },
+        {
+          "narracao": "Depois de estudar o antígeno, o linfócito B vira um plasmócito, uma fábrica de anticorpos. Desenha o anticorpo como um Y.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a little factory with a chimney releasing many Y-shaped antibodies",
+            "busca_reserva": "plasma cell antibodies illustration"
+          }
+        },
+        {
+          "narracao": "As pontas do Y se encaixam no antígeno e neutralizam o invasor.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a Y-shaped antibody snapping onto a small spiky germ like a puzzle piece",
+            "busca_reserva": "antibody antigen binding diagram"
+          }
+        },
+        {
+          "narracao": "Parte desses alunos não vai para a fábrica. Vira célula de memória e guarda a cara do invasor para a próxima vez.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a small cell student holding a photo album with a wanted poster of a germ",
+            "busca_reserva": "memory cell immune illustration"
+          }
+        },
+        {
+          "narracao": "Agora o detalhe que costuma cair. Na primeira vez, a resposta é lenta e fraca. O corpo leva dias.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a slow snail with a tiny weak shield and a calendar showing several days",
+            "busca_reserva": "snail slow calendar"
+          }
+        },
+        {
+          "narracao": "Na segunda vez, com memória, a resposta é rápida e intensa.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "1ª vez",
+              "itens": [
+                "Lenta",
+                "Fraca",
+                "Leva dias"
+              ]
+            },
+            "direita": {
+              "titulo": "2ª vez, com memória",
+              "itens": [
+                "Rápida",
+                "Intensa"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Volta para a pessoa da jararaca. O veneno age em minutos ou horas. O corpo dela leva dias para a primeira resposta.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Veneno",
+              "itens": [
+                "Minutos ou horas"
+              ]
+            },
+            "direita": {
+              "titulo": "Primeira resposta do corpo",
+              "itens": [
+                "Dias"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "A conta não fecha. Então como ela se salva?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a worried bitten person looking at a ticking clock with a big question mark",
+            "busca_reserva": "worried person clock question mark"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Primeiro ramo: imunidade ativa",
+      "cenas": [
+        {
+          "narracao": "Primeiro ramo do mapa: imunidade ativa. Ativa porque quem trabalha é o seu próprio corpo.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        },
+        {
+          "narracao": "O exemplo de prova é a vacina. E a vacina não traz anticorpo. Ela traz o antígeno.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a syringe with a tiny spiky germ icon inside, and a crossed-out Y shape beside it",
+            "busca_reserva": "vaccine syringe illustration"
+          }
+        },
+        {
+          "narracao": "Pode ser o agente atenuado, enfraquecido. Pode ser o agente inativado. Pode ser só um fragmento dele. Ou um toxoide, que é a toxina modificada para perder o efeito.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "O que a vacina pode trazer",
+            "itens": [
+              "Agente atenuado",
+              "Agente inativado",
+              "Fragmento do agente",
+              "Toxoide"
+            ]
+          }
+        },
+        {
+          "narracao": "A ideia é sempre a mesma: mostrar a cara do invasor sem a doença. O corpo estuda, produz os próprios anticorpos e guarda memória.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a student body character studying a wanted poster of a germ and making antibodies, smiling and healthy",
+            "busca_reserva": "immune response vaccine diagram"
+          }
+        },
+        {
+          "narracao": "No mapa, esse ramo ganha quatro galhos. Primeiro, antígeno. Segundo, o corpo produz. Terceiro, memória. Quarto, demora para começar, mas dura mais, com memória de longa duração, conforme a vacina.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        },
+        {
+          "narracao": "Uma imagem para não esquecer: a vacina ensina a pescar.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a person teaching a kid to fish with a fishing rod",
+            "busca_reserva": "teach to fish illustration"
+          }
+        },
+        {
+          "narracao": "E as doses de reforço? Elas mantêm a memória viva. Só não generaliza: o esquema de reforço depende do tipo de vacina, e o Calendário Nacional de Vacinação, do Ministério da Saúde, mostra cada caso.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Doses de reforço mantêm a memória viva",
+            "subtitulo": "Cada vacina tem o seu esquema · Calendário Nacional de Vacinação"
+          }
+        },
+        {
+          "narracao": "Só que a vacina tem um ponto fraco: ela demora. E a pessoa da jararaca não tem dias.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a vaccine syringe leaning on a long calendar while a bitten person waves frantically",
+            "busca_reserva": "syringe calendar waiting"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Segundo ramo: imunidade passiva",
+      "cenas": [
+        {
+          "narracao": "Segundo ramo: imunidade passiva. Passiva porque o seu corpo não fabrica esses anticorpos. Ele recebe o trabalho pronto.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "O exemplo de prova é o soro. O soro traz anticorpos prontos, feitos em outro organismo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a vial of serum with ready-made Y-shaped antibodies inside and a gift ribbon on it",
+            "busca_reserva": "antivenom vial serum"
+          }
+        },
+        {
+          "narracao": "Eles chegam com o Y montado e neutralizam a toxina que já está circulando. Por isso o soro age logo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "Y-shaped antibodies rushing through a blood vessel and catching drops of toxin",
+            "busca_reserva": "antibodies neutralizing toxin diagram"
+          }
+        },
+        {
+          "narracao": "Não dá tempo de esperar o corpo aprender, então o anticorpo vem de fora.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a delivery person handing a package of antibodies through the window of a body-shaped house",
+            "busca_reserva": "delivery package emergency"
+          }
+        },
+        {
+          "narracao": "Existem soros específicos: o antibotrópico, para jararaca, o anticrotálico, para cascavel, o antiescorpiônico, para escorpião.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Soros específicos",
+            "itens": [
+              "Antibotrópico: jararaca",
+              "Anticrotálico: cascavel",
+              "Antiescorpiônico: escorpião"
+            ]
+          }
+        },
+        {
+          "narracao": "Agora o outro lado. Esses anticorpos não ativaram os linfócitos do paciente. Então não nasce memória. O efeito é temporário.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a sleeping memory cell with a 'zzz' while borrowed antibodies fade away like smoke",
+            "busca_reserva": "fading smoke sleeping cell"
+          }
+        },
+        {
+          "narracao": "Lembra da pescaria? O soro te dá o peixe. Mata a fome na hora, mas o peixe acaba.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a hand giving a single fish, with a half-eaten fish skeleton on a plate",
+            "busca_reserva": "fish skeleton plate"
+          }
+        },
+        {
+          "narracao": "No mapa: anticorpo pronto, efeito imediato, curta duração, sem memória.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "Tem até um caso que junta os dois ramos: o tétano. Num ferimento de risco, a conduta pode combinar vacina e anticorpo pronto, e a parte passiva dura só algumas semanas.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Vacina (ativa)",
+              "itens": [
+                "Corpo aprende"
+              ]
+            },
+            "direita": {
+              "titulo": "Anticorpo pronto (passiva)",
+              "itens": [
+                "Dura só algumas semanas"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Quem decide cada caso é o serviço de saúde. Para a prova, fica o conceito.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Para a prova, fica o conceito",
+            "subtitulo": "Cada caso é decidido pelo serviço de saúde"
+          }
+        },
+        {
+          "narracao": "Mas espera aí. Se o anticorpo do soro foi feito em outro organismo, que organismo é esse?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a vial of serum with a silhouette of a mysterious large animal behind a curtain and a question mark",
+            "busca_reserva": "mystery silhouette animal curtain"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Terceiro ramo: o cavalo",
+      "cenas": [
+        {
+          "narracao": "Terceiro ramo, e é aqui que a banca arma a cilada. Os soros contra veneno são feitos em animais grandes, como o cavalo.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "O cavalo recebe uma dose controlada do veneno ou da toxina. O corpo dele reconhece aquilo como antígeno e produz anticorpos.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a calm doodle horse getting a small controlled injection from a veterinarian, little Y antibodies floating around it",
+            "busca_reserva": "horse veterinarian injection"
+          }
+        },
+        {
+          "narracao": "Repara: dentro do cavalo, isso é imunização ativa. Foi o corpo dele que trabalhou.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "No cavalo: imunização ativa",
+            "subtitulo": "Foi o corpo dele que trabalhou"
+          }
+        },
+        {
+          "narracao": "Depois, o plasma do cavalo é coletado, e é dele que vem o soro. No Brasil, um dos produtores de soro é o Instituto Butantan.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Instituto Butantan São Paulo building",
+            "movimento": "zoom_in",
+            "legenda": "Instituto Butantan, São Paulo"
+          }
+        },
+        {
+          "narracao": "Quando esse soro chega em você, a imunização é passiva. Você só recebeu o resultado.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle person receiving a wrapped gift labeled with a Y shape, looking grateful",
+            "busca_reserva": "gift received person illustration"
+          }
+        },
+        {
+          "narracao": "Então escreve no mapa: é como se o soro fosse uma vacina que o cavalo tomou por você. Ativa no cavalo, passiva em você.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "No cavalo",
+              "itens": [
+                "Ativa",
+                "Ele produziu"
+              ]
+            },
+            "direita": {
+              "titulo": "Em você",
+              "itens": [
+                "Passiva",
+                "Você só recebeu"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "A resposta muda conforme quem a questão está olhando.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a magnifying glass switching between a horse and a person, each with a different label",
+            "busca_reserva": "magnifying glass perspective"
+          }
+        },
+        {
+          "narracao": "Um detalhe de passagem: no tétano, costuma-se preferir a imunoglobulina humana, que também é anticorpo pronto. Para a prova, soro e imunoglobulina ficam no mesmo ramo, o passivo.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "No mesmo ramo, o passivo",
+            "itens": [
+              "Soro",
+              "Imunoglobulina humana",
+              "Os dois: anticorpo pronto"
+            ]
+          }
+        },
+        {
+          "narracao": "E foi esse cavalo que o ENEM de dois mil e catorze usou para montar uma armadilha.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle horse standing innocently on top of a hidden trap door with a pit under it",
+            "busca_reserva": "trap door pitfall cartoon"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A pegadinha de 2014",
+      "cenas": [
+        {
+          "narracao": "ENEM de dois mil e catorze, questão oitenta e cinco do caderno azul.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "ENEM 2014, questão 85",
+            "subtitulo": "Caderno azul"
+          }
+        },
+        {
+          "narracao": "A banca fala em imunobiológicos um e dois, usados em situações diferentes, envolvendo humanos e cavalos, e diz que os dois agem de forma parecida. Por quê?",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Imunobiológico 1",
+              "itens": [
+                "Humanos"
+              ]
+            },
+            "direita": {
+              "titulo": "Imunobiológico 2",
+              "itens": [
+                "Cavalos"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "A: conferem imunidade passiva. B: transferem células de defesa. C: suprimem a resposta imunológica. D: estimulam a produção de anticorpos. E: desencadeiam a produção de antígenos.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Os dois agem de forma parecida porque...",
+            "itens": [
+              "A: conferem imunidade passiva",
+              "B: transferem células de defesa",
+              "C: suprimem a resposta imunológica",
+              "D: estimulam a produção de anticorpos",
+              "E: desencadeiam a produção de antígenos"
+            ]
+          }
+        },
+        {
+          "narracao": "A armadilha mais provável é a letra A. Viu cavalo, pensou em soro, soro é passiva, marca A.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle student quickly circling the letter A on an answer sheet while a horse smirks behind him",
+            "busca_reserva": "student answer sheet circle A"
+          }
+        },
+        {
+          "narracao": "Só que agora você tem o terceiro ramo. O que os dois têm em comum? Nos dois casos, um corpo recebeu antígeno e produziu anticorpos.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "Na vacina, o corpo humano. Na produção do soro, o corpo do cavalo. Resposta: letra D.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Vacina",
+              "itens": [
+                "Corpo humano produz anticorpos"
+              ]
+            },
+            "direita": {
+              "titulo": "Produção do soro",
+              "itens": [
+                "Corpo do cavalo produz anticorpos"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "A pegadinha é olhar só para o paciente e esquecer o animal. E a letra E inverte tudo: quem traz o antígeno é o invasor, o corpo produz anticorpo.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Resposta: letra D",
+            "subtitulo": "Não esqueça o animal · a E inverte: o corpo produz anticorpo, não antígeno"
+          }
+        },
+        {
+          "narracao": "Me conta nos comentários, sem mentir: no dia da prova, o cavalo teria te levado para a letra A? E se essa virada te pegou, deixa o like e se inscreve, que ajuda o vídeo a chegar em quem ainda vai cair nela.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smiling doodle horse wearing glasses pointing at the viewer with a thumbs-up hoof and a speech bubble with the letter A",
+            "busca_reserva": "horse thumbs up cartoon"
+          }
+        },
+        {
+          "narracao": "Só que a banca não disfarça só com cavalo. E ela tem pelo menos cinco truques. Um deles você acabou de desarmar.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a sneaky examiner in a mask holding five tricks cards, one of them with a horse crossed out",
+            "busca_reserva": "magician cards tricks"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Quarto ramo: os disfarces da banca",
+      "cenas": [
+        {
+          "narracao": "Quarto ramo: como a banca disfarça. Primeiro truque, trocar os nomes. No lugar de soro e vacina, aparece imunobiológico, preparado, produto ou tratamento. Sua tarefa é traduzir de volta.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Segundo truque, descrever a cena sem dar o nome. Alguém picado por cobra? Anticorpo pronto, soro, passiva. Proteger alguém por mais tempo, por exemplo uma criança até a idade escolar? Memória, vacina, ativa.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Picado por cobra",
+              "itens": [
+                "Anticorpo pronto",
+                "Soro",
+                "Passiva"
+              ]
+            },
+            "direita": {
+              "titulo": "Proteger por mais tempo",
+              "itens": [
+                "Memória",
+                "Vacina",
+                "Ativa"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Terceiro truque, o gráfico de anticorpos ao longo do tempo. Esse tipo de gráfico já apareceu em questão discursiva de vestibular. Desenha as duas curvas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a simple doodle chart with two axes labeled time and antibodies, still empty, with a pencil about to draw",
+            "busca_reserva": "antibody levels over time graph"
+          }
+        },
+        {
+          "narracao": "A da vacina sobe devagar no primeiro contato e, no segundo, sobe mais rápido e mais alto. A do soro dá um pico logo no começo e depois cai. É o peixe acabando.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Curva da vacina",
+              "itens": [
+                "Sobe devagar no 1º contato",
+                "No 2º, mais rápido e mais alto"
+              ]
+            },
+            "direita": {
+              "titulo": "Curva do soro",
+              "itens": [
+                "Pico logo no começo",
+                "Depois cai"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Quarto truque, a alternativa que diz que a vacina contém anticorpos ou imunoglobulinas. É a vacina vestida de soro. Vacina traz antígeno, não anticorpo pronto.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle syringe wearing a serum vial costume and a fake mustache",
+            "busca_reserva": "disguise costume syringe"
+          }
+        },
+        {
+          "narracao": "Quinto truque, o cavalo, que você já desarmou. Quatro ramos no quadro.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Os cinco disfarces",
+            "itens": [
+              "Trocar os nomes",
+              "Descrever a cena",
+              "Gráfico de anticorpos",
+              "Vacina vestida de soro",
+              "O cavalo"
+            ]
+          }
+        },
+        {
+          "narracao": "Antes da questão final, vamos ver o mapa inteiro, e eu vou te dar a única pergunta que resolve esse tema.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O mapa completo",
+      "cenas": [
+        {
+          "narracao": "Pausa e printa, porque esse é o mapa completo. No centro, imunização.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "À esquerda, o ramo ativo: vacina, antígeno, o corpo produz, memória, demora para começar e dura mais.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Ramo ativo: vacina",
+            "itens": [
+              "Antígeno",
+              "O corpo produz",
+              "Memória",
+              "Demora para começar e dura mais"
+            ]
+          }
+        },
+        {
+          "narracao": "À direita, o ramo passivo: soro, anticorpo pronto, efeito imediato, curta duração, sem memória, contra veneno e toxina.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Ramo passivo: soro",
+            "itens": [
+              "Anticorpo pronto",
+              "Efeito imediato",
+              "Curta duração, sem memória",
+              "Contra veneno e toxina"
+            ]
+          }
+        },
+        {
+          "narracao": "Embaixo, o cavalo ligando os dois. É como se o soro fosse uma vacina que o cavalo tomou por você: ativa nele, passiva em você. No canto, os cinco disfarces da banca.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle horse in the middle holding a bridge connecting a syringe on the left and a serum vial on the right",
+            "busca_reserva": "horse bridge connecting two sides"
+          }
+        },
+        {
+          "narracao": "Agora a pergunta única. Em qualquer questão, pergunta: quem produziu o anticorpo? Se foi o próprio corpo, é ativa. Se o anticorpo veio pronto de outro organismo, é passiva.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Quem produziu o anticorpo?",
+            "subtitulo": "O próprio corpo: ativa · Veio pronto de outro organismo: passiva"
+          }
+        },
+        {
+          "narracao": "Essa pergunta resolve até o cavalo. Testa agora com as duas pessoas do começo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle horse holding a small test paper with a gold star, next to two small figures waiting in line",
+            "busca_reserva": "horse test paper star"
+          }
+        },
+        {
+          "narracao": "A criança do posto: quem produziu o anticorpo? O corpo dela. Ativa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle child with a bandage on the arm flexing little muscles, tiny antibodies coming out of the child",
+            "busca_reserva": "child vaccine bandage arm"
+          }
+        },
+        {
+          "narracao": "A pessoa da jararaca: quem produziu? O cavalo. Ela só recebeu. Passiva.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle bitten person on a hospital bed receiving a vial from a smiling horse",
+            "busca_reserva": "antivenom hospital snakebite"
+          }
+        },
+        {
+          "narracao": "Viu? A mesma pergunta, duas respostas, zero decoreba.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Criança do posto",
+              "itens": [
+                "O corpo dela produziu",
+                "Ativa"
+              ]
+            },
+            "direita": {
+              "titulo": "Pessoa da jararaca",
+              "itens": [
+                "O cavalo produziu",
+                "Passiva"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Agora sim, a questão de dois mil e vinte e cinco. E vigia uma palavra que a banca plantou lá: imunoglobulinas.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Imunoglobulinas",
+            "subtitulo": "A palavra que a banca plantou na questão de 2025"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Questão final: ENEM 2025",
+      "cenas": [
+        {
+          "narracao": "ENEM de dois mil e vinte e cinco, segundo dia, caderno amarelo, questão noventa e três.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "ENEM 2025, questão 93",
+            "subtitulo": "Segundo dia, caderno amarelo"
+          }
+        },
+        {
+          "narracao": "O enunciado mostra as etapas de fabricação de uma vacina pela tecnologia tradicional e pergunta por que o antígeno da vacina tem efeito protetor.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a small vaccine factory conveyor belt with vials moving along, a question mark above",
+            "busca_reserva": "vaccine production line"
+          }
+        },
+        {
+          "narracao": "Primeiro: qual ramo? Vacina, ramo ativo. Então o antígeno não combate nada sozinho. Ele mostra a cara do invasor para o corpo trabalhar.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Agora as alternativas. A: mata o vírus pela ligação. Isso descreve uma ação que seria do anticorpo, não do antígeno. Fora.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "A: mata o vírus pela ligação",
+            "subtitulo": "Ação do anticorpo, não do antígeno · Fora"
+          }
+        },
+        {
+          "narracao": "B: aglutina o vírus por associação. Mesmo erro: é uma ação que seria do anticorpo, entregue ao antígeno. Fora.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "B: aglutina o vírus por associação",
+            "subtitulo": "Mesmo erro: ação do anticorpo · Fora"
+          }
+        },
+        {
+          "narracao": "C: contém imunoglobulinas de defesa. Olha a palavra vigiada. Imunoglobulina é anticorpo, e anticorpo pronto é soro. É a vacina vestida de soro, o quarto disfarce. Fora.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "C: contém imunoglobulinas de defesa",
+            "subtitulo": "Anticorpo pronto é soro · a vacina vestida de soro · Fora"
+          }
+        },
+        {
+          "narracao": "D: induz a produção de proteínas neutralizadoras. Proteína neutralizadora é o jeito elegante da banca dizer anticorpo. E induzir significa que quem produz é o corpo. É o ramo ativo inteiro numa frase.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "D: induz a produção de proteínas neutralizadoras",
+            "subtitulo": "Induzir: quem produz é o corpo · o ramo ativo numa frase"
+          }
+        },
+        {
+          "narracao": "E: mantém a quantidade de anticorpos preexistentes. Não. A vacina cria uma defesa nova, com memória. Fora.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "E: mantém anticorpos preexistentes",
+            "subtitulo": "A vacina cria uma defesa nova, com memória · Fora"
+          }
+        },
+        {
+          "narracao": "Resposta: letra D. Repara que você não decorou tabela nenhuma. Só fez a pergunta do mapa.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "D",
+            "rotulo": "ENEM 2025 · sem decorar tabela, só a pergunta do mapa"
+          }
+        },
+        {
+          "narracao": "Quem produziu o anticorpo? O próprio corpo. Ativa. Letra D.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle student happily checking letter D on an answer sheet with a big green checkmark",
+            "busca_reserva": "student answer sheet checkmark"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Fechamento",
+      "cenas": [
+        {
+          "narracao": "Se for para levar uma coisa só daqui, leva esta. Soro e vacina não competem: os dois protegem, só que em tempos diferentes.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Vacina",
+              "itens": [
+                "Protege depois, por mais tempo"
+              ]
+            },
+            "direita": {
+              "titulo": "Soro",
+              "itens": [
+                "Protege agora, por pouco tempo"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "A vacina é o corpo aprendendo devagar para lembrar por mais tempo. O soro é o anticorpo emprestado que resolve agora e depois vai embora.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a slow student writing a notebook next to a hand lending an umbrella that blows away",
+            "busca_reserva": "borrowed umbrella blown away"
+          }
+        },
+        {
+          "narracao": "E a banca só te pega quando você esquece de perguntar quem produziu o anticorpo.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Imunização",
+              "ramos": [
+                {
+                  "rotulo": "Ativa: vacina",
+                  "filhos": [
+                    "Antígeno",
+                    "Corpo produz, com memória",
+                    "Demora, mas dura mais"
+                  ]
+                },
+                {
+                  "rotulo": "Passiva: soro",
+                  "filhos": [
+                    "Anticorpo pronto",
+                    "Efeito imediato",
+                    "Curta duração, sem memória"
+                  ]
+                },
+                {
+                  "rotulo": "Cavalo",
+                  "filhos": [
+                    "Ativa no cavalo",
+                    "Plasma vira soro",
+                    "Passiva em você"
+                  ]
+                },
+                {
+                  "rotulo": "Disfarces da banca",
+                  "filhos": [
+                    "Nomes trocados",
+                    "Cena sem o nome",
+                    "Gráfico e vacina com anticorpo"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "É isso que o Mapeado faz: pega o que costuma cair e transforma num mapa que você entende uma vez e revisa em um minuto.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a whiteboard with a small tidy mind map and a stopwatch showing one minute",
+            "busca_reserva": "whiteboard mind map stopwatch"
+          }
+        },
+        {
+          "narracao": "Se o cavalo te confundiu, me conta lá embaixo se a letra A de dois mil e catorze teria te pegado. E conta também o seu jeito de separar soro e vacina. Uma frase, um desenho, uma rima ruim, vale tudo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle of a speech bubble with the letter A and a horse peeking from behind it, a pencil drawing a rhyme",
+            "busca_reserva": "comment speech bubble horse"
+          }
+        },
+        {
+          "narracao": "Aproveita, se inscreve e deixa o like.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smiling doodle teacher at a whiteboard pointing at the viewer with a thumbs up and a bell icon beside him",
+            "busca_reserva": "teacher whiteboard thumbs up"
+          }
+        },
+        {
+          "narracao": "E antes do próximo vídeo, desenha esse mapa de memória numa folha. Se você refizer os dois ramos e o cavalo sem olhar, esse tema está bem encaminhado para a prova.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle student drawing a mind map on a sheet of paper from memory with a pencil, a horse icon in the corner",
+            "busca_reserva": "student drawing mind map notebook"
+          }
+        },
+        {
+          "narracao": "O próximo mapa vem de outra matéria, porque aqui é rodízio. Te vejo lá.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a doodle carousel with small school subject icons like a book, a flask and a globe, and a hand waving goodbye",
+            "busca_reserva": "carousel school subjects icons"
+          }
+        }
+      ]
+    }
+  ]
+}
