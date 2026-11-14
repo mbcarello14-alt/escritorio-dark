@@ -27,6 +27,9 @@ estilo:
   fonte_titulo_variacao: null
   fonte_texto: Inter.ttf
   caixa_alta_titulo: false
+  animado: true
+  motor_animacao: hyperframes   # cenas animadas (bonecos, linha do tempo, mapas) no visual do Marca-Página
+  tema_animacao: livros
 
 video:
   musica_humor: calmo

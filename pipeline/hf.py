@@ -98,7 +98,7 @@ def _pagina(dur: float, css: str, corpo: str, js: str) -> str:
     return f"""<!doctype html>
 <html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=1920, height=1080">
 <script src="assets/gsap.min.js"></script>
-<style>{CSS_BASE}{css}</style></head>
+<style>{CSS_BASE}{css}{TEMA["css"]}</style></head>
 <body>
 <div id="root" data-composition-id="main" data-start="0" data-duration="{dur:.3f}" data-width="1920" data-height="1080">
   <div id="cena" class="clip" data-start="0" data-duration="{dur:.3f}" data-track-index="0" data-layout-allow-overflow data-layout-allow-overlap data-layout-allow-occlusion>
@@ -114,6 +114,48 @@ const tl = gsap.timeline({{ paused: true }});
 window.__timelines["main"] = tl;
 </script>
 </body></html>"""
+
+
+# ---------------------------------------------------------------- temas por canal
+# Ouro & Império é o padrão (papel antigo + ouro). Os outros canais trocam cores e fontes por cima, sem mexer nos modelos.
+_TEMA_LIVROS = """
+@font-face { font-family: "Tema"; src: url("assets/fonts/DMSerifDisplay-Regular.ttf"); }
+:root { --ouro:#E9B44C; --creme:#F7EEDF; --tinta:#3A1016; }
+#tit, #num, .ev .ano { font-family:"Tema"; font-weight:400; letter-spacing:0; }
+#tit { text-transform:none; }
+#fundoC { background:radial-gradient(ellipse at 50% 45%, #8E2A36, #3E0E15 78%); }
+#num { background:linear-gradient(180deg, #FFE3A3, #E9B44C 55%, #B07E22); -webkit-background-clip:text; background-clip:text; }
+#fundoL { background:radial-gradient(ellipse at 50% 45%, #F4E9D6, #E2CFAE); }
+#linhaL { background:#7A1F2B; } .ev .bola { background:#E9B44C; border-color:#7A1F2B; } .ev .ano, .ev .txt { color:#4A121A; }
+#palco { background:linear-gradient(#B98E6A, #6E3A30); }
+"""
+_TEMA_QUADRO = """
+@font-face { font-family: "Tema"; src: url("assets/fonts/PatrickHand.ttf"); }
+:root { --mar:#E4EEF9; --mar2:#CFE0F3; --terra:#FFFFFF; --borda:#1E3A8A; --tinta:#1E3A8A; --creme:#FFFFFF; --ouro:#F59E0B; --laranja:#F59E0B; }
+html, body { background:#FAFAF7; }
+#root, #root * { font-family:"Tema" !important; font-weight:400 !important; }
+#vinheta, #grao { display:none; }
+#sombraTit { background:radial-gradient(ellipse at 0% 100%, rgba(250,250,247,.95), rgba(250,250,247,.6) 45%, rgba(250,250,247,0) 72%); }
+#tit { color:#1E3A8A; text-shadow:none; letter-spacing:1px; text-transform:none; }
+#sub { color:#1E3A8A; text-shadow:none; letter-spacing:2px; }
+#fundoC { background:#FAFAF7; } .mo { display:none; }
+#num { background:none; -webkit-text-fill-color:#1E3A8A; color:#1E3A8A; }
+#rotC { color:#1E3A8A; } #comp { color:#F59E0B; }
+#fundoL { background:#FAFAF7; } #linhaL { background:#1E3A8A; }
+.ev .bola { background:#F59E0B; border-color:#1E3A8A; } .ev .ano, .ev .txt { color:#1E3A8A; }
+.rot.mar { color:rgba(30,58,138,.55); } .rot.destaque { color:#C2410C; }
+.cidade .nome, .rot.pais { color:#1E3A8A; }
+#palco { background:#FAFAF7; }
+"""
+TEMAS = {"padrao": {"css": "", "fontes": []},
+         "livros": {"css": _TEMA_LIVROS, "fontes": ["DMSerifDisplay-Regular.ttf"]},
+         "quadro": {"css": _TEMA_QUADRO, "fontes": ["PatrickHand.ttf"]}}
+TEMA = TEMAS["padrao"]
+
+
+def tema_do_canal(cfg: dict | None) -> str:
+    est = (cfg or {}).get("estilo", {})
+    return est.get("tema_animacao") or ("quadro" if est.get("modo") == "quadro_branco" else "padrao")
 
 
 # ---------------------------------------------------------------- modelos
@@ -194,7 +236,7 @@ def _mapa(cena: dict, dur: float, pasta: Path) -> str:
 """
     corpo = (f'<div id="cam">{"".join(svg)}{"".join(cargas)}</div><div id="sobre">{"".join(divs)}</div>'
              f'<svg width="0" height="0" style="position:absolute"><defs><radialGradient id="marG" cx="50%" cy="45%" r="75%">'
-             f'<stop offset="0" stop-color="#4A6F86"/><stop offset="1" stop-color="#34566A"/></radialGradient></defs></svg>'
+             f'<stop offset="0" style="stop-color:var(--mar)"/><stop offset="1" style="stop-color:var(--mar2)"/></radialGradient></defs></svg>'
              + _titulo_html(cena.get("titulo_inferior")))
     ini, fim = g["inicio"], g["fim"]
     cam_em = cena.get("camera_em", 0.2) if cena.get("camera_em") is not None else 0.2
@@ -414,6 +456,9 @@ def _personagens(cena: dict, dur: float, pasta: Path) -> str:
         destino = pasta / "assets" / ("fundo" + (img.suffix or ".jpg"))
         shutil.copy(img, destino)
         fundo = f'<img id="fundo" src="assets/{destino.name}">'
+    if not fundo and TEMA is TEMAS["quadro"]:   # quadro branco: só o chão riscado a caneta
+        fundo = ('<svg class="camada" viewBox="0 0 2160 1080"><path d="M80 870 Q1080 845 2080 868" stroke="#1E3A8A" '
+                 'stroke-width="7" fill="none" stroke-linecap="round"/></svg>')
     if not fundo:   # sem ilustração (cota de imagens): cenário desenhado por código, com camadas em parallax
         fundo = _cenario_codigo(cena.get("cenario", ""))
     bonecos = cena.get("personagens") or []
@@ -454,7 +499,8 @@ def _hyperframes() -> list[str]:
 class AnimadorHF:
     """Mesma interface do animar.Animador: video(cena, saida) → mp4 sem som, no padrão do motor."""
 
-    def __init__(self, tmp: Path):
+    def __init__(self, tmp: Path, tema: str = "padrao"):
+        self.tema = TEMAS.get(tema, TEMAS["padrao"])
         self.tmp = tmp / "hf"
         self.tmp.mkdir(parents=True, exist_ok=True)
         self.n = 0
@@ -468,7 +514,9 @@ class AnimadorHF:
         if proj.exists():
             shutil.rmtree(proj)
         (proj / "assets" / "fonts").mkdir(parents=True)
-        for f in ("Oswald-Bold.ttf", "Oswald-Medium.ttf"):
+        global TEMA
+        TEMA = self.tema
+        for f in ("Oswald-Bold.ttf", "Oswald-Medium.ttf", *self.tema["fontes"]):
             shutil.copy(RAIZ / "assets" / "fonts" / f, proj / "assets" / "fonts" / f)
         gsap = DIR / "node_modules" / "gsap" / "dist" / "gsap.min.js"
         shutil.copy(gsap, proj / "assets" / "gsap.min.js")
@@ -499,5 +547,5 @@ if __name__ == "__main__" and len(sys.argv) > 3 and sys.argv[1] == "teste":
     from .animar import cena_de
     cena = c if c.get("modelo") else cena_de(c)
     cena["duracao"] = float(sys.argv[4]) if len(sys.argv) > 4 else 8
-    a = AnimadorHF(Path(sys.argv[3]).parent)
+    a = AnimadorHF(Path(sys.argv[3]).parent, sys.argv[5] if len(sys.argv) > 5 else "padrao")
     print(a.video(cena, Path(sys.argv[3])))

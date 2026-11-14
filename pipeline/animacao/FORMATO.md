@@ -1,4 +1,7 @@
-# Cenas animadas em código (canais com `estilo.animado: true` — hoje o Ouro & Império)
+# Cenas animadas em código (canais com `estilo.animado: true` — Ouro & Império, Marca-Página e Mapeado)
+
+Cada canal tem o seu visual (`estilo.tema_animacao` no config): Ouro = papel antigo e ouro; Marca-Página = vinho,
+dourado e letra serifada; Mapeado = quadro branco, tinta azul, laranja e letra de mão. O formato das cenas é o mesmo.
 
 Estilo de referência: documentário animado (mapas de papel antigo com mar azul, marcadores laranja que brilham,
 rotas tracejadas que se desenham, títulos grandes com linha dourada, grão de papel). Tudo é desenhado por

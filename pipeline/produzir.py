@@ -30,16 +30,18 @@ class Contexto:
         self.branco = cfg["estilo"].get("modo") == "quadro_branco"
         self.buscador = None if sem_rede else Buscador(pasta / "saida", cfg["imagens"]["fontes"])
         self.ilustrador = None if sem_rede else Ilustrador(pasta / "saida", cfg)
-        self.animado = bool(cfg["estilo"].get("animado")) and not self.branco
+        self.animado = bool(cfg["estilo"].get("animado"))   # no quadro branco, só as cenas animadas explícitas (o desenho continua)
         self.animador = animar.Animador()
         self.hf = None
         if self.animado and cfg["estilo"].get("motor_animacao") == "hyperframes":
-            from .hf import AnimadorHF
-            self.hf = AnimadorHF(tmp)
+            from .hf import AnimadorHF, tema_do_canal
+            self.hf = AnimadorHF(tmp, tema_do_canal(cfg))
 
     def animar(self, cena: dict, audio: Path, dur: float, saida: Path) -> Path | None:
         """Cena animada em código. Ordem: HyperFrames (se ligado) → motor de animação antigo → None (cena parada)."""
-        for anim in [a for a in (self.hf, self.animador) if a]:
+        # o motor antigo (canvas) só tem o visual do Ouro: nos outros canais, se o HyperFrames falhar, vai a versão parada
+        reservas = [self.animador] if (self.cfg["estilo"].get("tema_animacao") or "padrao") == "padrao" and not self.branco else []
+        for anim in [a for a in (self.hf, *reservas) if a]:
             try:
                 return animar.clipe(anim, cena, audio, dur, saida, self.tmp)
             except Exception as e:
@@ -122,7 +124,7 @@ def _visual(ctx: Contexto, cena: dict, idx: int, audio: Path, dur: float, bloco:
         if feito:
             return feito
         if img:
-            return render.clipe_imagem(img, audio, dur, saida, movimento, None, textura=ctx.animado)
+            return render.clipe_imagem(img, audio, dur, saida, movimento, None, textura=ctx.animado and not ctx.branco)
         quadro = cartoes.cartao(cfg, (v.get("titulo_inferior") or {}).get("titulo", ""), "")
     elif t in animar.MODELOS:
         feito = ctx.animar(animar.cena_de(v), audio, dur, saida)

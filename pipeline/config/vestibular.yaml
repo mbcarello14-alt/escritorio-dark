@@ -28,6 +28,9 @@ estilo:
   fonte_texto: PatrickHand.ttf
   escala_fonte: 1.3      # a letra de mão é menor que as outras fontes
   caixa_alta_titulo: false
+  animado: true
+  motor_animacao: hyperframes   # cenas animadas no visual de quadro branco (o desenho a caneta continua)
+  tema_animacao: quadro
 
 video:
   musica_humor: foco

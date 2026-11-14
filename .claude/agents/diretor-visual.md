@@ -26,10 +26,17 @@ Leia também `pipeline/animacao/FORMATO.md`. O vídeo tem que parecer animado, n
 - Cartões (`cartao`, `lista`, `comparacao`, `citacao`) só em último caso.
 - Chamadas de engajamento: igual aos outros canais (ilustração divertida; a faixa entra sozinha).
 
-**Marca-Página (modo ilustrado)**
-- **~90% das cenas são imagem em tela cheia:**
-  - **~60% `ilustracao`** (IA). A `cena` vai em **inglês** e é concreta: quem está na imagem, fazendo o quê, onde, com a piada visual ("a bewildered Roman soldier holding a tiny bag of salt as his salary, coins flying away"). Uma ação por imagem, poucos personagens. O estilo do canal é acrescentado sozinho, então não descreva estilo.
-  - **~30% `imagem` de arquivo** em domínio público, com `busca` em inglês e específica: pinturas, gravuras, mapas antigos, moedas, documentos e fotos históricas ("Roman denarius coin", "Wall Street crash 1929 crowd photograph"). Em Marca-Página, use fotos do autor e da época; capa só para identificar o livro, uma vez.
+**Marca-Página (modo ilustrado + animado, visual vinho e dourado)**
+Leia também `pipeline/animacao/FORMATO.md`. Os mesmos recursos do Ouro, no visual do canal (o motor aplica sozinho):
+- **~30% `cena_animada`:** as cenas DO LIVRO em que personagens agem (Fabiano e a família andando no sertão, Bentinho e Capitu conversando, Winston escrevendo escondido) e cenas da vida do autor. Figurinos: `campones`/`operario` para gente simples, `dama_1900`/`cavalheiro_1900` para os séculos XIX e XX, `estudante`, `terno`, `narrador`. `cenario` = o lugar do livro, sem gente (`deserto`, `campo`, `interior`, `porto` funcionam até sem ilustração). Quem fala no trecho leva `fala: true`.
+- **`linha_tempo`** para a vida do autor e a época do livro (publicação, contexto histórico), mesma lista com `foco` subindo.
+- **`mapa_animado`** quando o lugar importa (o sertão nordestino de Vidas Secas, o Rio de Machado, a Londres de 1984), com `titulo_inferior`.
+- **`contador`** só para 1 a 3 números marcantes (exemplares vendidos, anos até a publicação, páginas).
+- `titulo_inferior` na primeira aparição do autor, do livro e de cada personagem principal ("Fabiano" / "Vidas Secas · 1938"). Em parte das ilustrações, `particulas` (poeira no sertão, chuva, folhas) e `luzes` (vela, lampião).
+- O resto como antes:
+- **Imagem em tela cheia no restante:**
+  - **~35% `ilustracao`** (IA). A `cena` vai em **inglês** e é concreta: quem está na imagem, fazendo o quê, onde, com a piada visual ("a bewildered Roman soldier holding a tiny bag of salt as his salary, coins flying away"). Uma ação por imagem, poucos personagens. O estilo do canal é acrescentado sozinho, então não descreva estilo.
+  - **~15% `imagem` de arquivo** em domínio público, com `busca` em inglês e específica: pinturas, gravuras, mapas antigos, moedas, documentos e fotos históricas ("Roman denarius coin", "Wall Street crash 1929 crowd photograph"). Em Marca-Página, use fotos do autor e da época; capa só para identificar o livro, uma vez.
 - **No máximo ~10% de cartões** (`numero`, `cartao`, `comparacao`, `lista`, `citacao`), só para o número ou o conceito que o espectador precisa guardar. Em vez de uma lista de 4 itens, prefira 4 cenas com uma imagem cada.
 - **Chamadas de engajamento** (inscrever, like, comentar): use uma `ilustracao` divertida ligada ao tema (ex.: "a 1920s banker pointing at the viewer with a big friendly grin"). Não use cartão de texto: o motor põe sozinho a faixa animada "Inscreva-se · Gostei · Comente" por cima dessas cenas (e nos Shorts).
 - Toda `ilustracao` leva `busca_reserva` (o que procurar no acervo livre se a geração falhar).
@@ -40,6 +47,11 @@ Leia também `pipeline/animacao/FORMATO.md`. O vídeo tem que parecer animado, n
 - Tudo é "desenhado" na tela. Use `ilustracao` com `cena` de **doodle simples**: um objeto ou personagem, sem cenário ("a steam engine", "a sad factory worker with a hammer"). Um doodle novo a cada frase.
 - O `mapa_mental` é o centro do vídeo: defina o `mapa` uma vez (até 6 ramos, até 3 filhos) e repita-o nas cenas que o constroem, com `revelar` = 0, 1, 2… exatamente quando a narração anuncia cada ramo. A revisão final mostra o mapa completo.
 - A questão de prova: `cartao` com o enunciado resumido e `lista` com as alternativas relevantes.
+- **Animação no visual de quadro branco** (o motor desenha em branco, tinta azul e laranja, letra de mão; leia `pipeline/animacao/FORMATO.md`). Sem tirar o lugar do mapa mental e dos doodles, use em **~25% das cenas**:
+  - `mapa_animado` em geografia e história (onde fica, rotas, fronteiras, biomas, migrações), com `camera_para` e `destaque`;
+  - `linha_tempo` para datas em sequência (história, literatura, ciência);
+  - `contador` para o número-chave da aula (no lugar do cartão `numero`, que já vira contador sozinho);
+  - `cena_animada` para "teatrinhos" curtos: dois bonecos explicando um conceito, um cientista descobrindo algo, o aluno caindo na pegadinha (`estudante`, `cientista`, `narrador`, figurinos de época na história). Sem `cenario` (o fundo é o quadro branco com uma linha de chão), só `personagens`.
 
 ## Regras
 - Nada de clipes ou imagens de filmes, séries, jogos, outros canais, logos ou capas de livros como imagem principal.
