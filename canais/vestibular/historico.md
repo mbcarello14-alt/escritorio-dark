@@ -47,3 +47,4 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-14
 - Mapa mental curto de "pegadinhas do Enem por matéria" reunindo as pegadinhas que mais renderam em Shorts (regra de três, 10% + 10%, cadeia alimentar), para o longo herdar a audiência dos Shorts.
+- Longo ou Short sobre a pegadinha "escala grande x escala pequena" (denominador pequeno = escala grande), com título em pergunta contraintuitiva; mesmo molde da regra de três (845 views).
