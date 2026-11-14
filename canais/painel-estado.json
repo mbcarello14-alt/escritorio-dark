@@ -1,6 +1,9 @@
 {
-  "atualizado_em": "2026-11-14T02:40:16Z",
+  "atualizado_em": "2026-11-14T02:42:04Z",
   "ativos": {
+    "miguel": [
+      "Marca-Página: quarta 18/11 19h00"
+    ],
     "roteirista_livros": [
       "Longo Marca-Página: Machado de Assis"
     ]
@@ -35,6 +38,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Soro ou vacina? A pegadinha de Biologia no ENEM",
       "url": "https://youtu.be/Cq3S8BsBscI"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-18",
+      "rotulo": "quarta 18/11 19h00",
+      "publicar_em_utc": "2026-11-18T22:00:00Z",
+      "etapa": "aguardando_escolha",
+      "etapa_txt": "👉 esperando você escolher a pauta",
+      "titulo": "",
+      "url": ""
     }
   ],
   "publicados": [
