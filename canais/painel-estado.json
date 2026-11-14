@@ -1,8 +1,8 @@
 {
-  "atualizado_em": "2026-11-14T02:42:04Z",
+  "atualizado_em": "2026-11-14T03:20:13Z",
   "ativos": {
     "miguel": [
-      "Marca-Página: quarta 18/11 19h00"
+      "Marca-Página: Pai Rico Pai Pobre: o que ensina e o que não prova"
     ],
     "roteirista_livros": [
       "Longo Marca-Página: Machado de Assis"
@@ -44,9 +44,9 @@
       "dia": "2026-11-18",
       "rotulo": "quarta 18/11 19h00",
       "publicar_em_utc": "2026-11-18T22:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
-      "titulo": "",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "titulo": "Pai Rico Pai Pobre: o que ensina e o que não prova",
       "url": ""
     }
   ],
