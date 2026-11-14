@@ -1,12 +1,21 @@
 {
   "video_id": "Abj5ZXjjpn8",
   "janelas": {},
-  "parcial": {},
+  "parcial": {
+    "views": 0,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 0,
+    "averageViewPercentage": 0,
+    "subscribersGained": 0,
+    "likes": 0,
+    "comments": 1,
+    "shares": 0
+  },
   "canal": {
-    "viewCount": "5464",
+    "viewCount": "5627",
     "subscriberCount": "8",
     "hiddenSubscriberCount": false,
-    "videoCount": "26"
+    "videoCount": "27"
   },
-  "atualizado_em": "2026-11-13T11:49:57+00:00"
+  "atualizado_em": "2026-11-14T11:31:43+00:00"
 }

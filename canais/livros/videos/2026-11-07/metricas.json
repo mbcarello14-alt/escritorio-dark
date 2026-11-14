@@ -1,21 +1,54 @@
 {
   "video_id": "7Oij1SwLO7k",
-  "janelas": {},
+  "janelas": {
+    "7": {
+      "ate": "2026-11-14",
+      "metricas": {
+        "views": 6,
+        "estimatedMinutesWatched": 14,
+        "averageViewDuration": 422,
+        "averageViewPercentage": 51.73,
+        "subscribersGained": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "retencao": [],
+      "trafego": [
+        [
+          "SUBSCRIBER",
+          3
+        ],
+        [
+          "NO_LINK_OTHER",
+          1
+        ],
+        [
+          "YT_CHANNEL",
+          1
+        ],
+        [
+          "YT_SEARCH",
+          1
+        ]
+      ]
+    }
+  },
   "parcial": {
-    "views": 5,
-    "estimatedMinutesWatched": 0,
-    "averageViewDuration": 2,
-    "averageViewPercentage": 0.29,
+    "views": 6,
+    "estimatedMinutesWatched": 14,
+    "averageViewDuration": 422,
+    "averageViewPercentage": 51.73,
     "subscribersGained": 0,
     "likes": 0,
     "comments": 0,
     "shares": 0
   },
   "canal": {
-    "viewCount": "5464",
+    "viewCount": "5627",
     "subscriberCount": "8",
     "hiddenSubscriberCount": false,
-    "videoCount": "26"
+    "videoCount": "27"
   },
-  "atualizado_em": "2026-11-13T11:49:58+00:00"
+  "atualizado_em": "2026-11-14T11:31:44+00:00"
 }
