@@ -1,21 +1,11 @@
 {
-  "atualizado_em": "2026-11-14T11:31:47Z",
+  "atualizado_em": "2026-11-14T14:18:19Z",
   "ativos": {
     "roteirista_livros": [
       "Longo Marca-Página: Machado de Assis"
     ]
   },
   "proximos": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-14",
-      "rotulo": "sábado 14/11 11h00",
-      "publicar_em_utc": "2026-11-14T14:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Quarto de Despejo, de Carolina Maria de Jesus: resumo e análise",
-      "url": "https://youtu.be/9cIgCjdnEio"
-    },
     {
       "canal": "historia",
       "dia": "2026-11-16",
@@ -48,16 +38,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-07",
-      "rotulo": "sábado 07/11 11h00",
-      "publicar_em_utc": "2026-11-07T14:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Dom Casmurro: Capitu traiu? O livro não prova nada",
-      "url": "https://youtu.be/7Oij1SwLO7k"
-    },
     {
       "canal": "historia",
       "dia": "2026-11-09",
@@ -107,6 +87,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Proclamação da República: o dia em que o Brasil virou república sem perceber",
       "url": "https://youtu.be/mUhLSP6ex3g"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-14",
+      "rotulo": "sábado 14/11 11h00",
+      "publicar_em_utc": "2026-11-14T14:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Quarto de Despejo, de Carolina Maria de Jesus: resumo e análise",
+      "url": "https://youtu.be/9cIgCjdnEio"
     }
   ],
   "canais": [
@@ -129,7 +119,7 @@
       "nome": "Marca-Página",
       "inscritos": 8,
       "horas": 14.6,
-      "publicados": 5
+      "publicados": 6
     }
   ],
   "imagens": {

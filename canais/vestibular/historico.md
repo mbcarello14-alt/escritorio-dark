@@ -44,3 +44,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-13
 - Short de pegadinha com número e pergunta no título em Química ou Biologia, no molde da regra de três (845 views), com a descrição apontando para o longo da matéria.
+
+### 2026-11-14
+- Mapa mental curto de "pegadinhas do Enem por matéria" reunindo as pegadinhas que mais renderam em Shorts (regra de três, 10% + 10%, cadeia alimentar), para o longo herdar a audiência dos Shorts.

@@ -49,3 +49,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-13
 - Short com comparação ao presente (ex.: o devedor que mandou um "Pix" de 150 libras e disse que estava tudo em dia), no molde do Pix medieval dos Templários (1.257 views), com a descrição apontando para o longo; checar fontes antes.
+
+### 2026-11-14
+- Testar no longo da Conquista do Império Inca (16/11) um título e uma abertura que repitam o molde dos Shorts campeões (comparação com o presente ou contradição), em vez de título descritivo; o Short do exército de 8 mil ou 80 mil serve de ponte.
