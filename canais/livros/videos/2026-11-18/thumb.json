@@ -1,0 +1,12 @@
+{
+  "texto": "A CASA É PASSIVO?",
+  "cena": "flat 2D editorial illustration, a cute cartoon house balanced on one pan of a big old-fashioned scale, a pile of gold coins and an arrow of money leaving a wallet on the other pan, large and centered on the right side, big empty space on the left, burgundy, mustard and cream palette, soft paper texture",
+  "imagem_busca": "balance scale house coins illustration",
+  "layout": "esquerda",
+  "alternativa": {
+    "texto": "O PAI SEM NOME",
+    "cena": "flat 2D editorial illustration, a tall faceless businessman silhouette in a mustard suit with a blank face and a question mark shadow, next to a small cartoon man with a government badge, large on the left side, big empty space on the right, burgundy, mustard and cream palette, soft paper texture",
+    "imagem_busca": "faceless businessman silhouette illustration",
+    "layout": "direita"
+  }
+}

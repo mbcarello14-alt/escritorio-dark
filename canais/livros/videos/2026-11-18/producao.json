@@ -1,0 +1,1665 @@
+{
+  "canal": "livros",
+  "titulo": "Pai Rico Pai Pobre: o que ensina e o que não prova",
+  "descricao": "Pai Rico Pai Pobre ensina uma pergunta que vale ouro: isso põe ou tira dinheiro do seu bolso? Mas conta como memória o que talvez seja fábula.\nNeste vídeo: o que Kiyosaki defende, o que os críticos dizem e para quem o livro serve (e para quem não).\n\nO livro mais vendido de finanças pessoais passa pelo teste do Marca-Página: a regra do ativo e do passivo, a polêmica da casa própria, a dívida boa, o mistério de quem era o pai rico e o negócio de seminários que cresceu em torno do livro. No fim, o veredito: um ótimo primeiro livro sobre dinheiro e um péssimo último.\n\nAviso: tudo aqui é o que o autor defende e o que os críticos dizem. Não é recomendação de investimento, de imposto ou de crédito. O Marca-Página não é consultor financeiro.\n\nE você: casa própria é ativo ou passivo? Conta nos comentários e se inscreve no canal para o próximo livro.\n\nFontes:\n- Publishers Weekly, 16/5/2022: https://www2.publishersweekly.com/pw/print/20220516/89314-rich-dad-poor-dad-25-years-of-financial-advice-books.html\n- Star-Bulletin (Honolulu), 10/7/2000: https://archives.starbulletin.com/2000/07/10/features/story1.html\n- Honolulu Advertiser, 1/2/2009: https://the.honoluluadvertiser.com/article/2009/Feb/01/ln/hawaii902010355.html\n- Slate, Rob Walker, 20/6/2002: http://www.slate.com/articles/arts/number_1/2002/06/if_i_were_a_rich_dad.html\n- NBC News, 2012: https://www.nbcnews.com/id/wbna49393384\n- CBS MoneyWatch, Allan Roth, 19/1/2013: https://www.cbsnews.com/news/rich-dad-poor-dads-bankrupt-company/\n- Suno, resenha do livro: https://www.suno.com.br/artigos/resenha-do-livro-pai-rico-pai-pobre/\n- Forbes Portugal, Sérgio Rodrigues, 29/7/2026: https://www.forbespt.com/?p=191199\n- Revista Terceiro Incluído (UFG), 27/7/2026: https://revistas.ufg.br/teri/article/view/82348\n- InfoMoney, 1/9/2017: https://www.infomoney.com.br/?p=19423\n- Wikipedia, Rich Dad Poor Dad e Robert Kiyosaki: https://en.wikipedia.org/wiki/Rich_Dad_Poor_Dad\n- Motley Fool (Richard Emert, 2003), via Economist Writing Every Day: https://economistwritingeveryday.com/2024/02/13/is-rich-dad-poor-dad-a-fraud/\n- CPC 00 (R2), Comitê de Pronunciamentos Contábeis (definição contábil de ativo e passivo)\n\nCréditos de imagem: as ilustrações deste vídeo foram geradas por inteligência artificial e são representações estilizadas, não fotografias de pessoas ou eventos reais. A capa do livro aparece apenas para identificação da obra. Demais imagens de acervos livres creditadas abaixo, quando houver.\nMúsica: trilha da biblioteca do canal.",
+  "tags": [
+    "pai rico pai pobre",
+    "pai rico pai pobre resumo",
+    "pai rico pai pobre vale a pena",
+    "robert kiyosaki",
+    "kiyosaki",
+    "ativo e passivo",
+    "educação financeira",
+    "finanças pessoais",
+    "resumo de livro",
+    "crítica de livro",
+    "casa própria é passivo",
+    "livros de finanças",
+    "marca-página"
+  ],
+  "hashtags": [
+    "#PaiRicoPaiPobre",
+    "#Kiyosaki",
+    "#EducaçãoFinanceira"
+  ],
+  "playlist": "Não ficção",
+  "comentario_inicial": "Casa própria é ativo ou passivo? Pela regra do Kiyosaki é passivo, pelo contador é bem com dívida. Qual é o seu time e por quê? E se já leu o livro, conta o que ele mudou (ou não) no seu jeito de lidar com dinheiro.",
+  "sintetico_realista": false,
+  "musica_humor": "leve",
+  "thumbnail": {
+    "texto": "A CASA É PASSIVO?",
+    "cena": "flat 2D editorial illustration, a cute cartoon house balanced on one pan of a big old-fashioned scale, a pile of gold coins and an arrow of money leaving a wallet on the other pan, large and centered on the right side, big empty space on the left, burgundy, mustard and cream palette, soft paper texture",
+    "imagem_busca": "balance scale house coins illustration",
+    "layout": "esquerda",
+    "alternativa": {
+      "texto": "O PAI SEM NOME",
+      "cena": "flat 2D editorial illustration, a tall faceless businessman silhouette in a mustard suit with a blank face and a question mark shadow, next to a small cartoon man with a government badge, large on the left side, big empty space on the right, burgundy, mustard and cream palette, soft paper texture",
+      "imagem_busca": "faceless businessman silhouette illustration",
+      "layout": "direita"
+    }
+  },
+  "blocos": [
+    {
+      "capitulo": "O pai sem nome",
+      "cenas": [
+        {
+          "narracao": "Pai Rico Pai Pobre tem um detalhe que quase ninguém comenta. O pai pobre tem nome, sobrenome e cargo público.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two fathers standing side by side in a cozy study, the poor one wearing a visible name badge and an official government ID card, the rich one in a fancy suit with a blank empty name badge, a reader peeking between them with curiosity",
+            "busca_reserva": "two businessmen name badge illustration",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "O pai rico, o herói do livro, passou anos sem nome nenhum.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a mysterious rich man in an elegant suit and top hat standing in a luxurious study, his face hidden in shadow with a big golden question mark floating above his head",
+            "busca_reserva": "mysterious man silhouette top hat",
+            "movimento": "zoom_out",
+            "luzes": [
+              {
+                "x": 0.2,
+                "y": 0.35,
+                "raio": 0.15
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "É um dos livros de finanças pessoais mais vendidos do mundo, e hoje a gente separa a ideia que realmente presta do que a parábola deixa sem prova.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a towering stack of identical paperback books climbing like a skyscraper into the clouds while a tiny reader at the bottom holds a big magnifying glass and a pair of scissors to separate good ideas from empty ones",
+            "busca_reserva": "stack of books skyscraper illustration",
+            "movimento": "sobe",
+            "titulo_inferior": {
+              "titulo": "Pai Rico Pai Pobre",
+              "subtitulo": "Robert Kiyosaki · 1997"
+            }
+          }
+        },
+        {
+          "narracao": "Tudo aqui é o que o autor defende e o que os críticos dizem, porque ninguém neste canal é seu consultor financeiro.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a cozy burgundy-toned home library with wooden shelves full of books and a warm reading lamp",
+            "busca_reserva": "cozy library interior warm lamp",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "narrador",
+                "pele": "media",
+                "x": 0.5,
+                "olha": "direita",
+                "prop": "livro",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "acena",
+                    "em": 0.1,
+                    "ate": 0.4
+                  },
+                  {
+                    "acao": "nega",
+                    "em": 0.6,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Se você gosta de saber onde um livro acerta antes de gastar com ele, se inscreve, deixa o like e conta nos comentários se já leu esse aqui.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cheerful woman in a cardigan with round glasses pointing at the viewer with a big friendly grin and a thumbs up, holding a paperback book, a bright bookshelf behind her",
+            "busca_reserva": "friendly woman holding book thumbs up",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Os dois pais",
+      "cenas": [
+        {
+          "narracao": "O autor é Robert Kiyosaki, nascido no Havaí, e o livro é contado como memória de infância dele.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              -162,
+              17,
+              -153,
+              24
+            ],
+            "paises": [
+              {
+                "nomes": [
+                  "Estados Unidos"
+                ],
+                "cor": "ouro",
+                "em": 0.1
+              }
+            ],
+            "cidades": [
+              {
+                "nome": "Honolulu",
+                "lon": -157.86,
+                "lat": 21.31,
+                "destaque": true,
+                "em": 0.5
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Oceano Pacífico",
+                "lon": -158,
+                "lat": 18,
+                "tipo": "mar"
+              },
+              {
+                "texto": "Havaí",
+                "lon": -156.5,
+                "lat": 22.8,
+                "tipo": "destaque",
+                "em": 0.6
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Robert Kiyosaki",
+              "subtitulo": "Autor · nascido no Havaí"
+            }
+          }
+        },
+        {
+          "narracao": "De um lado, o pai biológico: um homem estudado, com doutorado, funcionário público, que acreditava no roteiro clássico. Estude, tire boas notas, arrume um emprego estável. Esse é o pai pobre.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a modest 1970s home study with a wooden desk, stacks of books and a diploma frame on the wall, warm light",
+            "busca_reserva": "home study desk books diploma",
+            "movimento": "zoom_in",
+            "titulo_inferior": {
+              "titulo": "O pai pobre",
+              "subtitulo": "O pai biológico do autor",
+              "pequeno": true
+            },
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "cabelo": "grisalho",
+                "x": 0.4,
+                "olha": "direita",
+                "prop": "livro",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.3,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "concorda",
+                    "em": 0.6,
+                    "ate": 0.85
+                  }
+                ]
+              },
+              {
+                "figurino": "estudante",
+                "pele": "media",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "entra",
+                    "de": "direita",
+                    "em": 0,
+                    "ate": 0.25
+                  },
+                  {
+                    "acao": "concorda",
+                    "em": 0.5,
+                    "ate": 0.8
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Do outro lado, o pai do melhor amigo do menino: pouco estudo, muitos negócios, e a mania de ensinar o garoto a pensar como dono, não como empregado. Esse é o pai rico.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a sunny Hawaiian business office with big windows facing palm trees, a large desk and a map on the wall",
+            "busca_reserva": "Hawaii office palm trees window",
+            "movimento": "pan_direita",
+            "titulo_inferior": {
+              "titulo": "O pai rico",
+              "subtitulo": "O pai do melhor amigo",
+              "pequeno": true
+            },
+            "personagens": [
+              {
+                "figurino": "mercador",
+                "pele": "morena",
+                "bigode": true,
+                "x": 0.35,
+                "olha": "direita",
+                "prop": "saco_moedas",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "feliz",
+                    "em": 0.6
+                  }
+                ]
+              },
+              {
+                "figurino": "estudante",
+                "pele": "media",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "surpreso",
+                    "em": 0.3,
+                    "ate": 0.6
+                  },
+                  {
+                    "acao": "concorda",
+                    "em": 0.7,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "A tese que sai daí é direta. Segundo Kiyosaki, a escola não ensina dinheiro.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a classic schoolhouse building with a blackboard full of math and grammar but a big empty corner where a coin and a wallet are crossed out with a red marker",
+            "busca_reserva": "old school classroom blackboard",
+            "movimento": "zoom_out",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "Quem trabalha só pelo salário fica preso no que ele chama de corrida dos ratos. Ganha, gasta, ganha mais, gasta mais, e a roda nunca para.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a tired office worker in a suit running inside a giant hamster wheel, coins falling out of his pockets as he runs, a paycheck dangling in front of his nose on a stick",
+            "busca_reserva": "hamster wheel office worker illustration",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "O que liberta, para ele, não é diploma nem salário alto. É o que ele chama de inteligência financeira.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a man stepping out of a hamster wheel through an open door, holding a glowing golden key shaped like a lightbulb, a bright sunrise beyond the door",
+            "busca_reserva": "man golden key open door sunrise",
+            "movimento": "zoom_in",
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.4,
+                "raio": 0.2
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "E a parábola funciona. Tem herói, tem contraexemplo, e todo mundo conhece um pai pobre. Talvez tenha um em casa.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a small warm family living room with a sofa, a TV and a family photo on the wall, evening light",
+            "busca_reserva": "family living room evening",
+            "movimento": "zoom_out",
+            "personagens": [
+              {
+                "figurino": "narrador",
+                "pele": "clara",
+                "x": 0.3,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "ri",
+                    "em": 0.7,
+                    "ate": 0.95
+                  }
+                ]
+              },
+              {
+                "figurino": "terno",
+                "pele": "morena",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "entra",
+                    "de": "direita",
+                    "em": 0,
+                    "ate": 0.3
+                  },
+                  {
+                    "acao": "surpreso",
+                    "em": 0.7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Só que o pai pobre não é um personagem genérico. Ralph Kiyosaki foi superintendente estadual de escolas do Havaí e chegou a disputar o cargo de vice-governador pelo Partido Republicano.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Hawaii State Capitol Honolulu building",
+            "movimento": "zoom_in",
+            "titulo_inferior": {
+              "titulo": "Ralph Kiyosaki",
+              "subtitulo": "Superintendente de escolas do Havaí"
+            }
+          }
+        },
+        {
+          "narracao": "Perdeu, mas disputou. O homem que o livro usa como contraexemplo era um alto funcionário do estado.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a dignified government official in a suit sitting behind a big desk with stacks of papers and a small campaign rosette on his lapel, a defeated but proud expression, an old election poster without text rolled up behind him",
+            "busca_reserva": "government official desk papers",
+            "movimento": "pan_direita",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "Mas não foi a história dos pais que fez o livro vender. Foi uma regra que cabe num guardanapo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a paper napkin on a cafe table with a simple scribbled drawing of two arrows, one pointing up and one pointing down, next to a steaming coffee cup, golden light on the napkin",
+            "busca_reserva": "napkin sketch cafe table",
+            "movimento": "zoom_in",
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.55,
+                "raio": 0.18
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A regra do guardanapo",
+      "cenas": [
+        {
+          "narracao": "Ativo é o que coloca dinheiro no seu bolso. Passivo é o que tira. Só isso.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Ativo",
+              "itens": [
+                "Coloca dinheiro no seu bolso"
+              ]
+            },
+            "direita": {
+              "titulo": "Passivo",
+              "itens": [
+                "Tira dinheiro do seu bolso"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "É a regra número um do livro, e aqui vale ser justo com o Kiyosaki: essa definição é a melhor coisa que ele escreveu. Ela é tão simples que vira hábito.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smiling cartoon author with a mustache giving a big thumbs up next to a napkin with a glowing lightbulb drawn on it, a tiny gold medal hanging from the napkin",
+            "busca_reserva": "thumbs up lightbulb napkin",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "A proposta do autor é que o leitor passe a fazer uma pergunta sobre cada gasto fixo, do carro ao celular parcelado: isso põe ou tira dinheiro do bolso todo mês?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a woman at a kitchen table pointing a questioning finger at a car key and a smartphone lying in front of her, small coins flying out of her pocket and into the objects",
+            "busca_reserva": "woman kitchen table car key smartphone",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Muita gente nunca tinha feito essa pergunta na vida. Junto com ela, o autor defende mais duas ideias.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a bright cozy apartment kitchen with a table and a window",
+            "busca_reserva": "apartment kitchen bright",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "narrador",
+                "pele": "morena",
+                "x": 0.3,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "acena",
+                    "em": 0.5,
+                    "ate": 0.8
+                  }
+                ]
+              },
+              {
+                "figurino": "operario",
+                "pele": "clara",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "surpreso",
+                    "em": 0.2,
+                    "ate": 0.55
+                  },
+                  {
+                    "acao": "pensa",
+                    "em": 0.6,
+                    "ate": 0.95
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "A primeira: ganhar mais não resolve nada se a despesa sobe junto. O aumento chega, o padrão de vida sobe, e a pessoa fica exatamente onde estava, só que com um carro mais caro na garagem.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a man proudly standing next to a brand new shiny luxury car parked in the garage of a very small house, empty pockets turned inside out, banknotes flying away like birds",
+            "busca_reserva": "luxury car small house garage",
+            "movimento": "zoom_out",
+            "particulas": "moedas"
+          }
+        },
+        {
+          "narracao": "A segunda: pague-se primeiro. Na visão dele, a parte guardada sai antes das contas, e não do que sobrar no fim do mês, porque no fim do mês nunca sobra.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smiling piggy bank first in line at a cashier counter ahead of a queue of grumpy utility bills, electricity, water and rent envelopes, waiting behind it",
+            "busca_reserva": "piggy bank queue bills",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Nada disso é novidade. Mas ele embalou de um jeito que um adolescente entende.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a school courtyard with a tree and benches, afternoon sun",
+            "busca_reserva": "school courtyard bench tree",
+            "movimento": "pan_esquerda",
+            "personagens": [
+              {
+                "figurino": "estudante",
+                "pele": "escura",
+                "x": 0.35,
+                "olha": "direita",
+                "prop": "livro",
+                "acoes": [
+                  {
+                    "acao": "concorda",
+                    "em": 0.5,
+                    "ate": 0.8
+                  },
+                  {
+                    "acao": "feliz",
+                    "em": 0.6
+                  }
+                ]
+              },
+              {
+                "figurino": "narrador",
+                "pele": "clara",
+                "x": 0.7,
+                "olha": "esquerda",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "ri",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "aponta",
+                    "em": 0.6,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "E foi essa embalagem que tirou o livro de uma gaveta que nenhuma editora quis abrir.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a dusty wooden drawer full of rejected manuscripts with sticky notes, a single glowing paperback being lifted out of it by a hand, golden light spilling from the drawer",
+            "busca_reserva": "dusty drawer manuscripts",
+            "movimento": "sobe",
+            "particulas": "poeira",
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.55,
+                "raio": 0.2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O livro que ninguém queria",
+      "cenas": [
+        {
+          "narracao": "O livro saiu em mil novecentos e noventa e sete, pela porta dos fundos.",
+          "visual": {
+            "tipo": "linha_tempo",
+            "foco": 0,
+            "eventos": [
+              {
+                "ano": "1997",
+                "texto": "Publicado por conta própria"
+              },
+              {
+                "ano": "2000",
+                "texto": "A Warner compra os direitos"
+              },
+              {
+                "ano": "2000",
+                "texto": "Chega ao Brasil pela Campus"
+              },
+              {
+                "ano": "2018",
+                "texto": "Edição de 20 anos, da Alta Books"
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Segundo o próprio autor, editoras de Nova York recusaram o original, e ele publicou por conta própria.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a New York publishing editor in a skyscraper office tossing a manuscript into a wastebasket with a bored face, a disappointed author waiting at the door holding a stack of papers, city skyline in the window",
+            "busca_reserva": "publisher office rejected manuscript",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "O livro foi parar na lista de mais vendidos do New York Times, e só então uma editora grande, a Warner, foi atrás dele, em dois mil.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a determined man loading boxes of self-published books into the trunk of a small car in front of the New York skyline, while a big executive in a suit runs after him waving a contract",
+            "busca_reserva": "man loading boxes books car",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Cerca de um mês depois do contrato, Kiyosaki passou uma hora inteira no programa da Oprah. De livro recusado a convidado da Oprah em três anos.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a bright television talk show studio with two comfortable armchairs, a small table with a glass of water and warm stage lights",
+            "busca_reserva": "talk show studio armchairs",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "dama_1900",
+                "pele": "escura",
+                "x": 0.3,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "senta",
+                    "em": 0,
+                    "ate": 0.2
+                  },
+                  {
+                    "acao": "surpreso",
+                    "em": 0.5,
+                    "ate": 0.8
+                  }
+                ]
+              },
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "x": 0.7,
+                "olha": "esquerda",
+                "prop": "livro",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "senta",
+                    "em": 0,
+                    "ate": 0.2
+                  },
+                  {
+                    "acao": "feliz",
+                    "em": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Hoje, autor e editora falam em mais de quarenta milhões de exemplares.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 40000000,
+            "prefixo": "mais de ",
+            "sufixo": " de exemplares",
+            "rotulo": "Vendas, segundo autor e editora",
+            "comparacao": "número informado por eles, não auditado"
+          }
+        },
+        {
+          "narracao": "Em várias edições, o crédito é dividido com Sharon Lechter, uma contadora que foi sócia dele e saiu da sociedade num acordo em dois mil e oito.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a tidy business office with a long meeting table and a window",
+            "busca_reserva": "business office meeting table",
+            "movimento": "zoom_out",
+            "titulo_inferior": {
+              "titulo": "Sharon Lechter",
+              "subtitulo": "Contadora · coautora em várias edições"
+            },
+            "personagens": [
+              {
+                "figurino": "dama_1900",
+                "pele": "clara",
+                "cabelo": "loiro",
+                "x": 0.35,
+                "olha": "direita",
+                "prop": "livro",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "acena",
+                    "em": 0.2,
+                    "ate": 0.45
+                  },
+                  {
+                    "acao": "sai",
+                    "para": "esquerda",
+                    "em": 0.7,
+                    "ate": 1
+                  }
+                ]
+              },
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "concorda",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "cruza_bracos",
+                    "em": 0.7,
+                    "ate": 0.95
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "No Brasil, o livro chegou em dois mil pela editora Campus, e a edição de vinte anos, da Alta Books, saiu em dois mil e dezoito, com pouco mais de trezentas páginas.",
+          "visual": {
+            "tipo": "linha_tempo",
+            "foco": 3,
+            "eventos": [
+              {
+                "ano": "1997",
+                "texto": "Publicado por conta própria"
+              },
+              {
+                "ano": "2000",
+                "texto": "A Warner compra os direitos"
+              },
+              {
+                "ano": "2000",
+                "texto": "Chega ao Brasil pela Campus"
+              },
+              {
+                "ano": "2018",
+                "texto": "Edição de 20 anos, da Alta Books"
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Com tanto exemplar rodando, a regra do guardanapo virou quase senso comum. O problema aparece quando ela encontra a coisa que quase todo brasileiro sonha em ter.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a crowd of ordinary people marching joyfully holding up paper napkins like banners toward a cozy small house with a red tile roof glowing on a hill at sunset",
+            "busca_reserva": "crowd marching toward small house sunset",
+            "movimento": "zoom_in",
+            "neblina": true
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A casa é passivo?",
+      "cenas": [
+        {
+          "narracao": "A casa própria. Pelo critério do livro, a casa financiada é passivo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a charming small suburban house with a red roof and a flower garden, wrapped in a heavy golden chain with a big padlock, a dark gloomy arrow cloud above its chimney",
+            "busca_reserva": "small house chain padlock",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Todo mês, a prestação sai da sua conta. Logo, ela tira dinheiro do seu bolso. Logo, passivo.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a small kitchen with a wooden table covered in envelopes and a calculator, evening light",
+            "busca_reserva": "kitchen table bills calculator",
+            "movimento": "zoom_in",
+            "particulas": "moedas",
+            "personagens": [
+              {
+                "figurino": "operario",
+                "pele": "morena",
+                "x": 0.5,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "pensa",
+                    "em": 0.1,
+                    "ate": 0.4
+                  },
+                  {
+                    "acao": "triste",
+                    "em": 0.5,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Isso divide opiniões até hoje. E boa parte da confusão some quando você percebe uma coisa: a definição do livro é de fluxo de caixa, não de contabilidade.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a bright office with a wooden table with a small toy house model in the middle",
+            "busca_reserva": "office table toy house model",
+            "movimento": "pan_direita",
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "clara",
+                "cabelo": "grisalho",
+                "x": 0.25,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "bravo",
+                    "em": 0.2
+                  },
+                  {
+                    "acao": "aponta",
+                    "em": 0.3,
+                    "ate": 0.6
+                  }
+                ]
+              },
+              {
+                "figurino": "cavalheiro_1900",
+                "pele": "morena",
+                "x": 0.75,
+                "olha": "esquerda",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "nega",
+                    "em": 0.4,
+                    "ate": 0.7
+                  },
+                  {
+                    "acao": "cruza_bracos",
+                    "em": 0.75,
+                    "ate": 0.95
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Kiyosaki olha só para o dinheiro que entra e sai no mês.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a large monthly wall calendar with one big green arrow pointing into a wallet and one big red arrow pointing out of it, a pair of eyes peeking through a keyhole at it",
+            "busca_reserva": "wall calendar wallet arrows",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Já a contabilidade brasileira, pelas regras do Comitê de Pronunciamentos Contábeis, chama de ativo um recurso econômico controlado pela empresa, e de passivo uma obrigação de entregar recursos.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "vintage accounting ledger book",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Pela régua do contador, a casa é um bem que vale dinheiro, e o financiamento é a dívida. Pela régua do Kiyosaki, o que importa é a seta do mês.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Pela régua do contador",
+              "itens": [
+                "A casa é um bem que vale dinheiro",
+                "O financiamento é a dívida"
+              ]
+            },
+            "direita": {
+              "titulo": "Pela régua do Kiyosaki",
+              "itens": [
+                "O que importa é a seta do mês",
+                "Prestação saindo: passivo"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Os críticos não engoliram. Num texto publicado este ano na Forbes Portugal, Sérgio Rodrigues argumenta que quem não compra paga aluguel, que parte da prestação vira patrimônio, e que a casa dá uma segurança que planilha nenhuma mede.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a Lisbon apartment study with a window showing red tile rooftops and a desk with a laptop",
+            "busca_reserva": "Lisbon rooftops window study",
+            "movimento": "zoom_out",
+            "titulo_inferior": {
+              "titulo": "Sérgio Rodrigues",
+              "subtitulo": "Crítica na Forbes Portugal"
+            },
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "clara",
+                "x": 0.5,
+                "olha": "direita",
+                "prop": "pergaminho",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "nega",
+                    "em": 0.1,
+                    "ate": 0.3
+                  },
+                  {
+                    "acao": "aponta",
+                    "em": 0.5,
+                    "ate": 0.8
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "A leitura do Marca-Página: a regra é ótima como lanterna e péssima como sentença. Ela ajuda a enxergar o custo de cada mês, mas não decide sozinha se comprar faz sentido para alguém.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a hand holding a glowing lantern lighting a dark path made of coins and bills at night, while a broken judge's gavel lies discarded on the ground beside the path",
+            "busca_reserva": "lantern dark path night",
+            "movimento": "pan_direita",
+            "neblina": true,
+            "luzes": [
+              {
+                "x": 0.4,
+                "y": 0.5,
+                "raio": 0.25
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "E agora a pergunta é sua: casa própria é ativo ou passivo? Escreve nos comentários com a sua justificativa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a playful cartoon house wearing a golden angel halo on one side of its roof and little red devil horns on the other side, a woman in front of it pointing at the viewer with a mischievous grin",
+            "busca_reserva": "woman pointing at viewer smiling house",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E se ainda não se inscreveu, se inscreve e deixa o like, que a briga do contador com o Kiyosaki merece. Porque a próxima ideia do livro deixa essa discussão ainda mais apimentada.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a serious accountant with a ledger and a flashy bearded businessman in a red suit wearing boxing gloves in a boxing ring, a cheering crowd of cartoon readers holding popcorn, a smiling referee in the middle",
+            "busca_reserva": "boxing ring cartoon cheering crowd",
+            "movimento": "zoom_out",
+            "particulas": "brasas"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Dívida boa",
+      "cenas": [
+        {
+          "narracao": "A ideia seguinte é a chamada dívida boa. Segundo a descrição da Forbes Portugal, o autor defende usar dinheiro emprestado para comprar ativos, aquelas coisas que, pela regra do guardanapo, põem dinheiro no bolso.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a man carrying a borrowed bag of coins out of a bank, buying a golden goose that lays golden coins into a basket, the bank teller waving goodbye with a suspicious smile",
+            "busca_reserva": "golden goose coins bank",
+            "movimento": "pan_direita",
+            "particulas": "moedas"
+          }
+        },
+        {
+          "narracao": "Os exemplos práticos mais detalhados do livro, aliás, são quase todos de imóveis. Na lógica da dívida boa, o ativo pagaria a própria dívida. No papel, é lindo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a row of small rental apartment buildings, each window dropping coins into a pipe that leads straight to a bank building, a neat blueprint paper unrolled in the foreground",
+            "busca_reserva": "apartment buildings blueprint coins",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "A mesma Forbes Portugal lembra o outro lado: o risco fica todo com quem pegou o dinheiro. Se os juros sobem, a dívida boa pode virar só dívida.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a man balancing on a tightrope while carrying a heavy bag of money, dark storm clouds above him with upward-pointing arrows made of lightning, a deep canyon below",
+            "busca_reserva": "tightrope walker heavy bag storm",
+            "movimento": "zoom_in",
+            "neblina": true
+          }
+        },
+        {
+          "narracao": "E o autor leva a ideia a sério. Em janeiro de dois mil e vinte e quatro, segundo a imprensa financeira americana, o próprio Kiyosaki disse ter mais de um bilhão de dólares em dívidas, que ele chama de dívida boa.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 1000000000,
+            "prefixo": "mais de US$ ",
+            "sufixo": "",
+            "rotulo": "Dívidas, segundo o próprio Kiyosaki (janeiro de 2024)",
+            "comparacao": "o que ele chama de dívida boa"
+          }
+        },
+        {
+          "narracao": "Esse número é palavra dele, ninguém verificou de forma independente. Se a regra dele estiver certa, ótimo para ele. Se os juros apertarem, é exatamente o risco que a Forbes descreveu.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smiling man in a suit sitting on a small yacht, chained to a giant anchor made of paper bills that drags behind him in the water, a calm blue sea and a dark storm on the far horizon",
+            "busca_reserva": "man yacht anchor storm horizon",
+            "movimento": "zoom_out",
+            "neblina": true
+          }
+        },
+        {
+          "narracao": "E o livro foi escrito com a cabeça nos Estados Unidos: imposto, tipo de empresa, estrutura jurídica.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "mundo",
+            "camera_para": "america_norte",
+            "paises": [
+              {
+                "nomes": [
+                  "Estados Unidos"
+                ],
+                "cor": "ouro",
+                "rotulo": "Estados Unidos",
+                "em": 0.1
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "imposto · empresas · leis",
+                "lon": -100,
+                "lat": 30,
+                "tipo": "destaque",
+                "em": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "A resenha da Suno, um site brasileiro de investimentos, já avisa que muita coisa não se aplica direto ao Brasil.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "mundo",
+            "camera_para": "america_sul",
+            "paises": [
+              {
+                "nomes": [
+                  "Estados Unidos"
+                ],
+                "cor": "cinza",
+                "em": 0
+              },
+              {
+                "nomes": [
+                  "Brasil"
+                ],
+                "cor": "verde",
+                "rotulo": "Brasil",
+                "em": 0.2
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "regras diferentes",
+                "lon": -52,
+                "lat": -22,
+                "tipo": "destaque",
+                "em": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Quem tentar copiar o livro ao pé da letra por aqui vai descobrir que o leão brasileiro morde diferente.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cartoon lion wearing a tie and glasses biting the briefcase of a startled businessman who is holding a foreign guidebook upside down, tax forms flying in the air",
+            "busca_reserva": "lion tie briefcase businessman cartoon",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Mas lembra do pai rico sem nome, lá do começo? Chegou a hora dele.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a theatre curtain being pulled aside by a hand to reveal the dramatic silhouette of a rich man in a top hat standing in a bright spotlight",
+            "busca_reserva": "theatre curtain spotlight silhouette",
+            "movimento": "zoom_in",
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.45,
+                "raio": 0.25
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Quem era o pai rico",
+      "cenas": [
+        {
+          "narracao": "Em dois mil, numa entrevista a um jornal de Honolulu, Kiyosaki disse que o pai rico era uma pessoa real, com o nome em segredo por um acordo com a família.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a busy newspaper office in Honolulu with wooden desks, typewriters and a large window with palm trees",
+            "busca_reserva": "newspaper office desks palm window",
+            "movimento": "pan_direita",
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "x": 0.3,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.3,
+                    "ate": 0.55
+                  },
+                  {
+                    "acao": "cala",
+                    "em": 0.75
+                  }
+                ]
+              },
+              {
+                "figurino": "cavalheiro_1900",
+                "pele": "clara",
+                "x": 0.7,
+                "olha": "esquerda",
+                "prop": "pena",
+                "acoes": [
+                  {
+                    "acao": "concorda",
+                    "em": 0.3,
+                    "ate": 0.6
+                  },
+                  {
+                    "acao": "surpreso",
+                    "em": 0.75
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Em dezembro de dois mil e oito morreu Richard Kimi, um pioneiro da hotelaria do Havaí.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Waikiki beach hotels 1960s historic photograph",
+            "movimento": "zoom_in",
+            "titulo_inferior": {
+              "titulo": "Richard Kimi",
+              "subtitulo": "Pioneiro da hotelaria do Havaí · morreu em 2008"
+            }
+          }
+        },
+        {
+          "narracao": "Semanas depois, o jornal Honolulu Advertiser publicou que o filho dele dizia que o pai rico do livro era baseado no pai dele. A reportagem não traz confirmação do Kiyosaki.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a modern living room in Hawaii with an old framed photograph on a shelf and a newspaper on a coffee table",
+            "busca_reserva": "living room framed photo newspaper",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "x": 0.35,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "feliz",
+                    "em": 0.55
+                  }
+                ]
+              },
+              {
+                "figurino": "narrador",
+                "pele": "clara",
+                "x": 0.7,
+                "olha": "esquerda",
+                "prop": "pena",
+                "acoes": [
+                  {
+                    "acao": "concorda",
+                    "em": 0.3,
+                    "ate": 0.6
+                  },
+                  {
+                    "acao": "nega",
+                    "em": 0.75,
+                    "ate": 0.95
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "E uma análise publicada em dois mil e treze por uma rede de TV americana citou a revista SmartMoney, segundo a qual os dois pais seriam personagens compostos, montados a partir de várias pessoas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "three different cartoon silhouettes of men merging like puzzle pieces into one single fatherly figure in a suit, loose puzzle pieces floating around, soft warm background",
+            "busca_reserva": "puzzle pieces silhouette merging",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "A resposta honesta, então: o livro vende uma parábola com cara de autobiografia. Um pai rico exatamente como o descrito nunca foi documentado de forma independente.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a book wearing a fake memoir mask over a fairy-tale cover, a detective with a huge magnifying glass searching under it and finding only empty space and dust",
+            "busca_reserva": "detective magnifying glass book mask",
+            "movimento": "pan_esquerda",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "Há indício de que o autor se inspirou num mentor real, segundo a família desse mentor.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an older hotel owner in a light linen suit mentoring a young man with a notebook on a sunny Hawaiian terrace with palm trees and the ocean in the background",
+            "busca_reserva": "older man mentoring young man terrace palm",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Isso não faz do livro uma fraude. Faz dele menos diário e mais fábula.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a plain leather diary on the left and a glowing illustrated fairy tale book on the right of a wooden table, a little golden fairy flying out of the fairy tale book",
+            "busca_reserva": "diary and fairy tale book table",
+            "movimento": "pan_direita",
+            "luzes": [
+              {
+                "x": 0.7,
+                "y": 0.5,
+                "raio": 0.2
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Já o pai pobre, o único dos dois com nome e cargo, morreu antes de o livro sair, segundo registros biográficos em mil novecentos e noventa e um. Não chegou a ver o retrato que o filho fez dele.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an empty ornate picture frame hanging on a wall beside a table with an unopened closed book, dusty golden afternoon light through a window",
+            "busca_reserva": "empty picture frame wall dusty light",
+            "movimento": "zoom_in",
+            "particulas": "poeira",
+            "luzes": [
+              {
+                "x": 0.75,
+                "y": 0.3,
+                "raio": 0.2
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Ralph Kiyosaki",
+              "subtitulo": "Morreu em 1991, antes do livro",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Só que a pergunta que mais incomoda não é sobre o passado. É sobre como o livro ganha dinheiro.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a paperback book with a coin slot in its spine like a piggy bank, a reader's hand sliding gold coins into it while a tiny cash register rings on top of the book",
+            "busca_reserva": "book piggy bank coin slot",
+            "movimento": "zoom_in",
+            "particulas": "moedas"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A vitrine",
+      "cenas": [
+        {
+          "narracao": "O livro diz para não depender do salário e construir outras fontes de renda. A marca do autor fez exatamente isso, e uma dessas fontes era o leitor.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a big tree whose trunk is a thick book and whose branches grow many streams of golden coins, a reader standing below shaking the trunk while coins rain onto a businessman's open umbrella",
+            "busca_reserva": "money tree book trunk coins",
+            "movimento": "sobe",
+            "particulas": "moedas"
+          }
+        },
+        {
+          "narracao": "Ainda em dois mil e dois, o jornalista Rob Walker, da revista Slate, notou que o livro funciona como vitrine para cursos, seminários e um jogo de tabuleiro chamado Cashflow.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a shop window display with a paperback book in the center surrounded by seminar tickets, course folders and a colorful board game with a spinning wheel, a curious passerby pressing his nose against the glass",
+            "busca_reserva": "shop window display board game books",
+            "movimento": "zoom_in",
+            "titulo_inferior": {
+              "titulo": "Rob Walker",
+              "subtitulo": "Jornalista · revista Slate · 2002",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "O modelo dos seminários era o clássico: palestra grátis na porta e curso pago lá dentro. O analista Allan Roth foi a um desses seminários grátis em dois mil e dez e relatou uma oferta de quatrocentos e noventa e cinco dólares.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a hotel ballroom set up for a seminar with rows of chairs, a small stage with a microphone and a large screen",
+            "busca_reserva": "seminar ballroom rows chairs stage",
+            "movimento": "pan_direita",
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "clara",
+                "x": 0.3,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "feliz",
+                    "em": 0.6
+                  }
+                ]
+              },
+              {
+                "figurino": "cavalheiro_1900",
+                "pele": "media",
+                "x": 0.7,
+                "olha": "esquerda",
+                "prop": "saco_moedas",
+                "acoes": [
+                  {
+                    "acao": "surpreso",
+                    "em": 0.5,
+                    "ate": 0.8
+                  },
+                  {
+                    "acao": "pensa",
+                    "em": 0.8,
+                    "ate": 0.98
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Uma reportagem da TV pública canadense falou em cursos de até quarenta e cinco mil.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 45000,
+            "prefixo": "até US$ ",
+            "sufixo": "",
+            "rotulo": "Cursos, segundo a TV pública canadense"
+          }
+        },
+        {
+          "narracao": "A parceria de seminários com a empresa Learning Annex rendeu cerca de quarenta e cinco milhões de dólares em royalties para a Rich Global, empresa ligada à marca Pai Rico.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two company buildings shaking hands with long cartoon arms across a street, a waterfall of gold coins falling from the sky into a vault below, a small sign-free bag of royalties on the ground",
+            "busca_reserva": "business handshake coins waterfall",
+            "movimento": "zoom_out",
+            "particulas": "moedas"
+          }
+        },
+        {
+          "narracao": "E a história terminou na Justiça: em dois mil e doze, a Rich Global foi condenada a pagar quase vinte e quatro milhões de dólares à Learning Annex e pediu falência.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a courtroom with a stern judge banging a gavel, a small toy company building on the defendant stand waving a tiny white flag, heavy bags of coins sliding across the table to the other side",
+            "busca_reserva": "courtroom judge gavel company bankruptcy",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Atenção aqui: quem pediu falência foi a empresa, não o Kiyosaki como pessoa. Então, com tudo isso na mesa: o livro presta ou não presta?",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "the stone steps in front of a courthouse with tall columns, bright daylight",
+            "busca_reserva": "courthouse steps columns daylight",
+            "movimento": "zoom_out",
+            "personagens": [
+              {
+                "figurino": "narrador",
+                "pele": "morena",
+                "x": 0.3,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.1,
+                    "ate": 0.4
+                  },
+                  {
+                    "acao": "pensa",
+                    "em": 0.65,
+                    "ate": 0.95
+                  }
+                ]
+              },
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "cruza_bracos",
+                    "em": 0.2,
+                    "ate": 0.6
+                  },
+                  {
+                    "acao": "olha",
+                    "em": 0.65,
+                    "para": "direita"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O veredito",
+      "cenas": [
+        {
+          "narracao": "O que o livro acerta: ele faz quem nunca olhou para o próprio dinheiro olhar. A distinção entre o que entra e o que sai é simples, gruda na cabeça e muda hábito.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a young person finally opening a long-forgotten dusty wallet and a notebook on a table, a bright lightbulb switching on above their head, coins neatly sorted into two piles",
+            "busca_reserva": "person opening wallet notebook lightbulb",
+            "movimento": "zoom_in",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "A resenha da Suno chega a chamar o livro de divisor de águas para leigos.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a hiker standing on a mountain ridge holding a paperback book while raindrops split into two flowing rivers on each side of the ridge, one lush and green, the other dry",
+            "busca_reserva": "mountain ridge watershed two rivers",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "O que envelheceu ou é discutível: é uma fábula sem dados. Já em dois mil e dois, a crítica da Slate apontava o tom de autoajuda e a pouca especificidade.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an open storybook with a pop-up fairy tale castle made of cardboard, a motivational coach with a huge smile standing on top of it, an empty blank chart with no numbers hanging beside it",
+            "busca_reserva": "pop-up storybook castle empty chart",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "E, segundo uma crítica do Motley Fool de dois mil e três, o material quase não tem conselho financeiro específico.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a reader squinting at a blank notepad on a desk while a speech bubble above the book contains only vague clouds and stars, a magnifying glass finds nothing specific",
+            "busca_reserva": "blank notepad reader magnifying glass",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "O livro também dá a entender que quem não enriquece simplesmente não aprendeu, como se todo mundo largasse da mesma linha.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a running race where runners start from very different starting lines, those in the back carrying heavy sandbags while a coach on a podium shouts through a megaphone for them to just run faster",
+            "busca_reserva": "race unequal starting lines sandbags",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "É a leitura do Marca-Página, e é um tema que uma resenha recente da Universidade Federal de Goiás também discute, ao tratar de meritocracia e desigualdade.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Paraisópolis Morumbi inequality aerial photograph São Paulo",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "E o pai pobre, um educador de carreira, vira o exemplo do que não fazer.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "an old classroom with a green blackboard, wooden desks and a globe",
+            "busca_reserva": "old classroom blackboard desks",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "cabelo": "grisalho",
+                "x": 0.5,
+                "olha": "direita",
+                "prop": "livro",
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.2,
+                    "ate": 0.45
+                  },
+                  {
+                    "acao": "triste",
+                    "em": 0.6,
+                    "ate": 0.95
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Para quem serve: para quem tem vinte e poucos anos, ou cinquenta, e nunca fez uma planilha de gastos na vida. Como faísca, funciona.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a young woman and a gray-haired man sitting together at a table in front of an empty spreadsheet on a laptop with confused faces, a single bright match spark lighting a small candle between them",
+            "busca_reserva": "two people empty spreadsheet candle spark",
+            "movimento": "zoom_in",
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.6,
+                "raio": 0.15
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Para quem não serve: para quem quer um manual de investimento, ou orientação de imposto e de empresa no Brasil. Para isso o livro não foi feito, e nem tenta.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a man holding a huge heavy investing manual and a pile of tax forms, looking disappointed at a small thin paperback lying on the table, shaking his head politely",
+            "busca_reserva": "man heavy manual tax forms small paperback",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "A tese do Marca-Página fica assim: Pai Rico Pai Pobre é um ótimo primeiro livro sobre dinheiro e um péssimo último.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Um ótimo primeiro livro sobre dinheiro",
+            "subtitulo": "e um péssimo último"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Fechamento",
+      "cenas": [
+        {
+          "narracao": "Um lembrete antes de ir. Tudo o que você ouviu aqui é o que o autor defende e o que os críticos dizem sobre ele. Nada disso é recomendação de investimento do canal.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a cozy burgundy-toned reading room with a leather armchair and a warm lamp, evening light",
+            "busca_reserva": "cozy reading room armchair lamp",
+            "movimento": "zoom_out",
+            "personagens": [
+              {
+                "figurino": "narrador",
+                "pele": "morena",
+                "x": 0.5,
+                "olha": "direita",
+                "prop": "livro",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "acena",
+                    "em": 0.05,
+                    "ate": 0.25
+                  },
+                  {
+                    "acao": "nega",
+                    "em": 0.7,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Se tem uma coisa deste livro que sobrevive a todas as críticas, é a pergunta do guardanapo: isso põe ou tira dinheiro do bolso?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a glowing paper napkin floating above a cafe table like a lighthouse beacon, shining a golden beam of light that cuts through a stormy sea of paperwork",
+            "busca_reserva": "lighthouse beam sea papers",
+            "movimento": "sobe",
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.35,
+                "raio": 0.22
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "O resto, o pai rico sem nome, a dívida declarada de um bilhão e o curso de quarenta e cinco mil, funciona melhor como história do que como manual.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an open storybook with pop-up illustrations rising from its pages: a faceless rich man in a top hat, a giant anchor made of banknotes and an expensive course ticket, a cozy reading lamp beside it",
+            "busca_reserva": "pop-up storybook rich man anchor ticket",
+            "movimento": "zoom_in",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "Se essa leitura com lupa te ajudou, se inscreve, deixa o like e volta lá na discussão da casa própria nos comentários: depois deste vídeo, você mudou de time ou continua firme no mesmo?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cheerful librarian woman with a magnifying glass pointing at the viewer with a big friendly grin and a thumbs up, two cartoon teams in red and blue jerseys cheering behind her",
+            "busca_reserva": "librarian magnifying glass thumbs up teams",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "No próximo vídeo do Marca-Página, outro livro famoso passa pelo mesmo teste: o que ele ensina, o que ele não prova e para quem ele serve. Até lá.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a pile of mysterious books with blank covers under a giant magnifying glass, one book lifting its cover curiously like an eyelid, a friendly hand waving goodbye from the corner",
+            "busca_reserva": "stack of books magnifying glass waving",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    }
+  ]
+}

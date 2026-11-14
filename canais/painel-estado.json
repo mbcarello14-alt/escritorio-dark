@@ -1,7 +1,16 @@
 {
-  "atualizado_em": "2026-11-14T03:20:13Z",
+  "atualizado_em": "2026-11-14T03:26:09Z",
   "ativos": {
-    "miguel": [
+    "narrador": [
+      "Marca-Página: Pai Rico Pai Pobre: o que ensina e o que não prova"
+    ],
+    "ilustrador": [
+      "Marca-Página: Pai Rico Pai Pobre: o que ensina e o que não prova"
+    ],
+    "editor": [
+      "Marca-Página: Pai Rico Pai Pobre: o que ensina e o que não prova"
+    ],
+    "clipador": [
       "Marca-Página: Pai Rico Pai Pobre: o que ensina e o que não prova"
     ],
     "roteirista_livros": [
@@ -44,8 +53,8 @@
       "dia": "2026-11-18",
       "rotulo": "quarta 18/11 19h00",
       "publicar_em_utc": "2026-11-18T22:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
       "titulo": "Pai Rico Pai Pobre: o que ensina e o que não prova",
       "url": ""
     }

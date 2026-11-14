@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [3, 1], "ate": [3, 4],
+      "gancho": "A regra do guardanapo que vendeu milhões",
+      "titulo": "A regra de uma linha que fez Pai Rico Pai Pobre vender milhões",
+      "descricao": "Ativo é o que põe dinheiro no bolso, passivo é o que tira. A crítica completa do livro, com o que acerta e o que não prova, está no canal.",
+      "hashtags": ["#paiRicopaiPobre", "#educacaofinanceira", "#livros"],
+      "legenda_reels": "Uma regra simples sobre dinheiro vendeu milhões de livros. Ela é boa mesmo? Segue o perfil para mais críticas de livros. #paiRicopaiPobre #educacaofinanceira #livros #kiyosaki"
+    },
+    {
+      "de": [5, 1], "ate": [5, 6],
+      "gancho": "A casa própria é ativo ou passivo?",
+      "titulo": "Casa própria é ativo ou passivo? Kiyosaki x contador",
+      "descricao": "Pela regra do Kiyosaki a casa financiada é passivo. Pelo contador, não. O vídeo completo no canal mostra os dois lados e o veredito.",
+      "hashtags": ["#casapropria", "#kiyosaki", "#financaspessoais"],
+      "legenda_reels": "Casa financiada é passivo para o Kiyosaki, mas o contador discorda. Quem tem razão? Segue o perfil para o próximo livro. #casapropria #kiyosaki #financaspessoais #livros"
+    },
+    {
+      "de": [7, 1], "ate": [7, 5],
+      "gancho": "O pai rico de Kiyosaki existiu mesmo?",
+      "titulo": "Quem foi o pai rico do livro? Ninguém sabe dizer",
+      "descricao": "O livro se vende como memória, mas o pai rico nunca foi documentado de forma independente. A análise completa está no canal.",
+      "hashtags": ["#paiRicopaiPobre", "#kiyosaki", "#curiosidades"],
+      "legenda_reels": "O pai rico do livro mais famoso de finanças existiu de verdade? A resposta honesta é incômoda. Segue o perfil para mais livros sob a lupa. #paiRicopaiPobre #kiyosaki #livros #curiosidades"
+    }
+  ]
+}
