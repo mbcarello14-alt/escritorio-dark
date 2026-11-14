@@ -1,0 +1,74 @@
+{
+  "canal": "livros",
+  "titulo": "Hábitos Atômicos: a conta do 1% por dia",
+  "descricao": "A ideia central de Hábitos Atômicos, de James Clear: melhorar 1% ao dia soma 37 vezes em um ano, pela conta do autor. E o lado inverso.",
+  "hashtags": ["#habitosatomicos", "#livros", "#jamesclear"],
+  "legenda_reels": "Hábitos Atômicos, de James Clear: o autor defende que 1% melhor por dia vira 37 vezes em um ano. Você compra essa conta? Comenta ATÔMICO #livros #habitosatomicos #booktok",
+  "isca": "Comenta ATÔMICO",
+  "cenario": {"ceu": "#ffd9a8", "chao": "#86c06c", "cidade": true, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "livro", "tipo": "livro", "cor": "#e8833a", "titulo": "Hábitos Atômicos", "pos": [0, 0, 1], "escala": 1.6, "oculto": true},
+    {"id": "titulo", "tipo": "texto", "texto": "1% POR DIA", "cor": "#ffffff", "fundo": "#e8833a", "tam": 1.3, "pos": [0, 0.78], "oculto": true},
+    {"id": "leitor", "tipo": "boneco", "cor": "#3a7bd5", "pele": "#f1c27d", "cabelo": "#4a2c14", "calca": "#2b3a55", "pos": [-2.2, 0, 1.5], "fala": true, "oculto": true},
+    {"id": "barra_boa", "tipo": "barra", "cor": "#3fbf6a", "altura": 0.3, "largura": 1.2, "pos": [0.6, 0, 0], "oculto": true},
+    {"id": "barra_ruim", "tipo": "barra", "cor": "#d9473f", "altura": 3, "largura": 1.2, "pos": [2.3, 0, 0], "oculto": true},
+    {"id": "num", "tipo": "numero", "valor": 1, "sufixo": "x", "casas": 0, "cor": "#ffffff", "tam": 2.2, "pos": [0, 0.6], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Um por cento por dia vira trinta e sete vezes melhor em um ano.",
+      "acoes": [
+        {"t": 0.0, "alvo": "titulo", "acao": "aparecer", "som": "pop"},
+        {"t": 0.4, "alvo": "livro", "acao": "aparecer", "som": "whoosh"},
+        {"t": 1.6, "alvo": "livro", "acao": "girar", "voltas": 1}
+      ]
+    },
+    {
+      "texto": "Essa é a conta de Hábitos Atômicos, de James Clear.",
+      "acoes": [
+        {"t": 0.0, "alvo": "livro", "acao": "pular", "altura": 1},
+        {"t": 0.8, "alvo": "leitor", "acao": "aparecer", "som": "pop"},
+        {"t": 1.6, "alvo": "leitor", "acao": "acenar"}
+      ]
+    },
+    {
+      "texto": "Parece pouco, mas o autor defende que o pouco se acumula, igual juros.",
+      "acoes": [
+        {"t": 0.0, "alvo": "livro", "acao": "sumir"},
+        {"t": 0.3, "alvo": "barra_boa", "acao": "aparecer", "som": "pop"},
+        {"t": 0.8, "alvo": "num", "acao": "aparecer"},
+        {"t": 1.2, "alvo": "barra_boa", "acao": "crescer", "para": 2, "dur": 1.2},
+        {"t": 2.6, "alvo": "barra_boa", "acao": "crescer", "para": 7, "dur": 1.5, "som": "whoosh"},
+        {"t": 2.6, "alvo": "num", "acao": "contar", "para": 37, "dur": 1.5}
+      ]
+    },
+    {
+      "texto": "E o contrário também vale: piorar um por cento por dia leva quase a zero.",
+      "acoes": [
+        {"t": 0.0, "alvo": "titulo", "acao": "texto", "texto": "-1% POR DIA"},
+        {"t": 0.0, "alvo": "titulo", "acao": "cor", "cor": "#d9473f"},
+        {"t": 0.4, "alvo": "barra_ruim", "acao": "aparecer", "som": "pop"},
+        {"t": 1.4, "alvo": "barra_ruim", "acao": "crescer", "para": 0.2, "dur": 2.0},
+        {"t": 3.2, "acao": "tremer", "forca": 0.4, "som": "boom"}
+      ]
+    },
+    {
+      "texto": "Claro, a vida real não segue uma conta tão certinha. Mas a ideia é que o pequeno, repetido, pesa.",
+      "acoes": [
+        {"t": 0.0, "alvo": "titulo", "acao": "texto", "texto": "O PEQUENO REPETIDO PESA"},
+        {"t": 0.0, "alvo": "titulo", "acao": "cor", "cor": "#ffffff"},
+        {"t": 0.5, "alvo": "leitor", "acao": "mover", "para": [-1.2, 0, 1.5]},
+        {"t": 3.0, "alvo": "leitor", "acao": "pular", "altura": 0.8}
+      ]
+    },
+    {
+      "texto": "Você compra essa conta? Comenta ATÔMICO.",
+      "acoes": [
+        {"t": 0.0, "alvo": "leitor", "acao": "acenar"},
+        {"t": 0.6, "alvo": "titulo", "acao": "texto", "texto": "COMENTA ATÔMICO"},
+        {"t": 0.6, "alvo": "titulo", "acao": "escalar", "para": 1.3, "som": "ding"}
+      ]
+    }
+  ]
+}

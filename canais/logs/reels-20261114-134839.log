@@ -1,0 +1,16 @@
+13:48:48 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+13:48:48 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+13:48:49 INFO Processing audio with duration 00:23.361
+[0;93m2026-11-14 13:48:49.316933507 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+13:48:49 INFO VAD filter removed 00:00.000 of audio
+13:48:55 INFO Processing audio with duration 00:23.361
+13:48:55 INFO VAD filter removed 00:00.000 of audio
+13:49:00 WARNING instrução lida em bloco_01.wav (3.2–14.1s): 'Como um youtuber jovem e carismático explicando história com bom humor, ritmo dinâmico, ironia leve ' — cortando
+13:49:00 WARNING instrução lida em bloco_01.wav (16.7–21.0s): 'Fale com energia, ritmo rápido, sem pausas longas, como quem conta uma' — cortando
+13:49:01 INFO Processing audio with duration 00:23.361
+13:49:01 INFO VAD filter removed 00:00.000 of audio
+13:49:07 WARNING transcrição muito diferente do roteiro (23%) — usando proporção de texto
+13:49:07 INFO bloco 1: 23.4s, 62 palavras reconhecidas
+13:52:11 INFO render 3D: pronto: 743 quadros em 180s
+13:52:30 INFO reel pronto: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/reels/2026-11-14/saida/reel.mp4 (24.8s)
+13:52:33 INFO Short agendado: https://youtube.com/shorts/W-cVM4Jwr9s (2026-11-19T23:00:00Z)
