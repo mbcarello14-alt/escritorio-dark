@@ -1,18 +1,6 @@
 {
-  "atualizado_em": "2026-11-14T03:26:09Z",
+  "atualizado_em": "2026-11-14T04:23:10Z",
   "ativos": {
-    "narrador": [
-      "Marca-Página: Pai Rico Pai Pobre: o que ensina e o que não prova"
-    ],
-    "ilustrador": [
-      "Marca-Página: Pai Rico Pai Pobre: o que ensina e o que não prova"
-    ],
-    "editor": [
-      "Marca-Página: Pai Rico Pai Pobre: o que ensina e o que não prova"
-    ],
-    "clipador": [
-      "Marca-Página: Pai Rico Pai Pobre: o que ensina e o que não prova"
-    ],
     "roteirista_livros": [
       "Longo Marca-Página: Machado de Assis"
     ]
@@ -53,10 +41,10 @@
       "dia": "2026-11-18",
       "rotulo": "quarta 18/11 19h00",
       "publicar_em_utc": "2026-11-18T22:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Pai Rico Pai Pobre: o que ensina e o que não prova",
-      "url": ""
+      "url": "https://youtu.be/5tcNksX013A"
     }
   ],
   "publicados": [
@@ -145,8 +133,8 @@
     }
   ],
   "imagens": {
-    "hoje": 42,
-    "neurons": 2310,
+    "hoje": 95,
+    "neurons": 9905,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

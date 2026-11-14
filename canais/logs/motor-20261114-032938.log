@@ -1,0 +1,254 @@
+03:29:39 INFO ilustrações: higgsfield desligado (sem chave)
+03:30:10 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 1/10
+03:30:10 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+03:30:10 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+03:30:11 INFO Processing audio with duration 00:32.921
+[0;93m2026-11-14 03:30:11.326408815 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+03:30:11 INFO VAD filter removed 00:00.000 of audio
+03:30:21 INFO Processing audio with duration 00:32.921
+03:30:21 INFO VAD filter removed 00:00.000 of audio
+03:31:12 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 2/10
+03:31:12 INFO Processing audio with duration 01:24.721
+03:31:12 INFO VAD filter removed 00:00.000 of audio
+03:31:36 INFO Processing audio with duration 01:24.721
+03:31:36 INFO VAD filter removed 00:00.000 of audio
+03:32:36 INFO narrador Gemini (gemini-3.8-flash-tts, Leda): bloco 3/10
+03:32:36 INFO Processing audio with duration 01:03.801
+03:32:37 INFO VAD filter removed 00:00.000 of audio
+03:32:54 INFO Processing audio with duration 01:03.801
+03:32:54 INFO VAD filter removed 00:00.000 of audio
+03:33:12 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+03:33:55 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Leda): bloco 4/10
+03:33:56 INFO Processing audio with duration 01:06.240
+03:33:56 INFO VAD filter removed 00:00.000 of audio
+03:34:11 INFO Processing audio with duration 01:06.240
+03:34:11 INFO VAD filter removed 00:00.000 of audio
+03:35:18 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Leda): bloco 5/10
+03:35:18 INFO Processing audio with duration 01:32.480
+03:35:18 INFO VAD filter removed 00:00.176 of audio
+03:35:44 INFO Processing audio with duration 01:32.480
+03:35:44 INFO VAD filter removed 00:00.176 of audio
+03:37:00 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Leda): bloco 6/10
+03:37:00 INFO Processing audio with duration 01:27.680
+03:37:00 INFO VAD filter removed 00:00.000 of audio
+03:37:23 INFO Processing audio with duration 01:27.680
+03:37:23 INFO VAD filter removed 00:00.000 of audio
+03:38:37 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Leda): bloco 7/10
+03:38:37 INFO Processing audio with duration 01:27.040
+03:38:37 INFO VAD filter removed 00:00.000 of audio
+03:38:57 INFO Processing audio with duration 01:27.040
+03:38:57 INFO VAD filter removed 00:00.000 of audio
+03:40:03 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Leda): bloco 8/10
+03:40:03 INFO Processing audio with duration 01:15.560
+03:40:03 INFO VAD filter removed 00:00.000 of audio
+03:40:20 INFO Processing audio with duration 01:15.560
+03:40:20 INFO VAD filter removed 00:00.000 of audio
+03:41:07 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+03:41:12 WARNING Gemini TTS: cota do modelo gemini-3.1-flash-tts-preview acabou — trocando de modelo
+03:42:01 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Leda): bloco 9/10
+03:42:01 INFO Processing audio with duration 01:19.451
+03:42:01 INFO VAD filter removed 00:00.000 of audio
+03:42:21 INFO Processing audio with duration 01:19.451
+03:42:21 INFO VAD filter removed 00:00.000 of audio
+03:43:30 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Leda): bloco 10/10
+03:43:30 INFO Processing audio with duration 00:51.731
+03:43:31 INFO VAD filter removed 00:00.016 of audio
+03:43:42 INFO Processing audio with duration 00:51.731
+03:43:42 INFO VAD filter removed 00:00.016 of audio
+03:43:54 INFO gerando 67 ilustrações…
+03:44:19 WARNING Flux klein falhou (3030: Your output has been flagged. Please choose another prompt / input image combination) — usando o próximo modelo
+03:44:48 WARNING ilustrações: teto do flux atingido
+03:44:52 INFO ilustrações prontas: 53 geradas (67 pedidas)
+03:44:53 INFO Processing audio with duration 00:32.921
+03:44:53 INFO VAD filter removed 00:00.000 of audio
+03:45:03 INFO bloco 1: 32.9s, 111 palavras reconhecidas
+03:45:09 INFO cena 1 pronta (6.9s, total 7s)
+03:45:25 INFO cena 2 pronta (4.0s, total 11s)
+03:45:43 INFO cena 3 pronta (8.0s, total 19s)
+03:46:00 INFO cena 4 pronta (6.2s, total 25s)
+03:46:14 INFO cena 5 pronta (7.9s, total 33s)
+03:46:17 INFO Processing audio with duration 01:24.721
+03:46:17 INFO VAD filter removed 00:00.000 of audio
+03:46:39 INFO bloco 2: 84.7s, 227 palavras reconhecidas
+03:47:00 INFO cena 6 pronta (7.3s, total 40s)
+03:47:42 INFO cena 7 pronta (13.3s, total 54s)
+03:48:19 INFO cena 8 pronta (11.6s, total 65s)
+03:48:35 INFO cena 9 pronta (5.9s, total 71s)
+03:48:42 INFO cena 10 pronta (9.6s, total 81s)
+03:48:59 INFO cena 11 pronta (6.3s, total 87s)
+03:49:17 INFO cena 12 pronta (7.3s, total 94s)
+03:49:19 INFO imagem 'Hawaii State Capitol Honolulu building' ← wikimedia
+03:49:55 INFO cena 13 pronta (11.2s, total 105s)
+03:50:12 INFO cena 14 pronta (6.3s, total 112s)
+03:50:26 INFO cena 15 pronta (5.9s, total 118s)
+03:50:28 INFO Processing audio with duration 01:03.801
+03:50:28 INFO VAD filter removed 00:00.000 of audio
+03:50:46 INFO bloco 3: 63.8s, 193 palavras reconhecidas
+03:50:48 INFO cena 16 pronta (5.8s, total 123s)
+03:50:56 INFO cena 17 pronta (9.7s, total 133s)
+03:51:04 INFO cena 18 pronta (10.5s, total 144s)
+03:51:06 INFO imagem 'apartment kitchen bright' ← wikimedia
+03:51:22 INFO cena 19 pronta (6.4s, total 150s)
+03:51:56 INFO cena 20 pronta (11.6s, total 162s)
+03:52:04 INFO cena 21 pronta (10.2s, total 172s)
+03:52:06 INFO imagem 'school courtyard bench tree' ← wikimedia
+03:52:24 INFO cena 22 pronta (4.8s, total 177s)
+03:52:38 INFO cena 23 pronta (4.8s, total 181s)
+03:52:40 INFO Processing audio with duration 01:06.055
+03:52:40 INFO VAD filter removed 00:00.000 of audio
+03:52:57 INFO bloco 4: 66.1s, 171 palavras reconhecidas
+03:53:04 INFO cena 24 pronta (4.7s, total 186s)
+03:53:09 INFO cena 25 pronta (6.3s, total 192s)
+03:53:16 INFO cena 26 pronta (8.8s, total 201s)
+03:53:20 WARNING nenhuma imagem livre para 'talk show studio armchairs' — usando cartão
+03:53:21 INFO imagem 'talk show studio' ← wikimedia
+03:53:21 INFO imagem para 'talk show studio armchairs' achada buscando 'talk show studio'
+03:53:48 INFO cena 27 pronta (10.8s, total 212s)
+03:53:59 INFO cena 28 pronta (5.2s, total 217s)
+03:54:01 INFO imagem 'business office meeting table' ← wikimedia
+03:54:24 INFO cena 29 pronta (8.6s, total 226s)
+03:54:37 INFO cena 30 pronta (10.1s, total 236s)
+03:55:14 INFO cena 31 pronta (11.4s, total 247s)
+03:55:16 INFO Processing audio with duration 01:32.278
+03:55:16 INFO VAD filter removed 00:00.112 of audio
+03:55:42 INFO bloco 5: 92.3s, 255 palavras reconhecidas
+03:55:47 INFO cena 32 pronta (5.9s, total 253s)
+03:55:50 WARNING nenhuma imagem livre para 'kitchen table bills calculator' — usando cartão
+03:55:51 INFO imagem 'kitchen table bills' ← wikimedia
+03:55:51 INFO imagem para 'kitchen table bills calculator' achada buscando 'kitchen table bills'
+03:56:09 INFO cena 33 pronta (7.0s, total 260s)
+03:56:11 INFO imagem 'office table toy house model' ← wikimedia
+03:56:58 INFO cena 34 pronta (11.8s, total 272s)
+03:57:00 INFO cena 35 pronta (2.7s, total 275s)
+03:57:04 INFO imagem 'vintage accounting ledger book' ← openverse
+03:57:14 INFO cena 36 pronta (12.5s, total 287s)
+03:57:18 INFO cena 37 pronta (9.4s, total 297s)
+03:57:19 INFO imagem 'Lisbon rooftops window study' ← wikimedia
+03:58:09 INFO cena 38 pronta (13.8s, total 311s)
+03:58:48 INFO cena 39 pronta (12.0s, total 323s)
+03:59:00 INFO cena 40 pronta (6.7s, total 329s)
+03:59:30 INFO cena 41 pronta (10.5s, total 340s)
+03:59:32 INFO Processing audio with duration 01:27.409
+03:59:32 INFO VAD filter removed 00:00.000 of audio
+03:59:55 INFO bloco 6: 87.4s, 227 palavras reconhecidas
+04:00:36 INFO cena 42 pronta (13.9s, total 354s)
+04:00:45 INFO cena 43 pronta (11.6s, total 365s)
+04:01:09 INFO cena 44 pronta (10.8s, total 376s)
+04:01:30 INFO cena 45 pronta (13.4s, total 389s)
+04:02:07 INFO cena 46 pronta (12.2s, total 402s)
+04:03:12 INFO cena 47 pronta (7.0s, total 409s)
+04:04:16 INFO cena 48 pronta (7.0s, total 416s)
+04:04:21 INFO cena 49 pronta (6.2s, total 422s)
+04:04:35 INFO cena 50 pronta (5.2s, total 427s)
+04:04:38 INFO Processing audio with duration 01:26.743
+04:04:38 INFO VAD filter removed 00:00.000 of audio
+04:05:25 INFO bloco 7: 86.7s, 214 palavras reconhecidas
+04:05:27 INFO imagem 'newspaper office desks palm window' ← wikimedia
+04:05:51 INFO cena 51 pronta (9.8s, total 437s)
+04:05:53 WARNING nenhuma imagem livre para 'Waikiki beach hotels 1960s historic photograph' — usando cartão
+04:05:56 WARNING nenhuma imagem livre para 'Waikiki beach hotels 1960s' — usando cartão
+04:05:58 INFO imagem 'Waikiki beach hotels' ← wikimedia
+04:05:58 INFO imagem para 'Waikiki beach hotels 1960s historic photograph' achada buscando 'Waikiki beach hotels'
+04:06:16 INFO cena 52 pronta (6.3s, total 443s)
+04:06:17 INFO imagem 'living room framed photo newspaper' ← wikimedia
+04:07:03 INFO cena 53 pronta (12.8s, total 456s)
+04:07:13 INFO cena 54 pronta (13.6s, total 470s)
+04:07:50 INFO cena 55 pronta (12.3s, total 482s)
+04:07:54 INFO cena 56 pronta (5.6s, total 487s)
+04:08:10 INFO cena 57 pronta (6.0s, total 493s)
+04:08:51 INFO cena 58 pronta (13.5s, total 507s)
+04:09:07 INFO cena 59 pronta (6.9s, total 514s)
+04:09:09 INFO Processing audio with duration 01:15.413
+04:09:09 INFO VAD filter removed 00:00.000 of audio
+04:09:26 INFO bloco 8: 75.4s, 184 palavras reconhecidas
+04:09:51 INFO cena 60 pronta (10.8s, total 525s)
+04:10:24 INFO cena 61 pronta (12.1s, total 537s)
+04:10:27 WARNING nenhuma imagem livre para 'seminar ballroom rows chairs stage' — usando cartão
+04:10:29 WARNING nenhuma imagem livre para 'seminar ballroom rows chairs' — usando cartão
+04:10:31 WARNING nenhuma imagem livre para 'seminar ballroom rows' — usando cartão
+04:10:33 INFO imagem 'seminar ballroom' ← wikimedia
+04:10:33 INFO imagem para 'seminar ballroom rows chairs stage' achada buscando 'seminar ballroom'
+04:11:22 INFO cena 62 pronta (14.9s, total 552s)
+04:11:33 INFO cena 63 pronta (5.7s, total 557s)
+04:11:58 INFO cena 64 pronta (10.6s, total 568s)
+04:12:06 INFO cena 65 pronta (10.8s, total 579s)
+04:12:09 WARNING nenhuma imagem livre para 'courthouse steps columns daylight' — usando cartão
+04:12:10 INFO imagem 'courthouse steps columns' ← wikimedia
+04:12:10 INFO imagem para 'courthouse steps columns daylight' achada buscando 'courthouse steps columns'
+04:12:38 INFO cena 66 pronta (10.6s, total 589s)
+04:12:40 INFO Processing audio with duration 01:19.451
+04:12:40 INFO VAD filter removed 00:00.000 of audio
+04:13:01 INFO bloco 9: 79.5s, 229 palavras reconhecidas
+04:13:23 INFO cena 67 pronta (10.3s, total 600s)
+04:13:27 INFO cena 68 pronta (4.7s, total 604s)
+04:13:35 INFO cena 69 pronta (10.7s, total 615s)
+04:13:41 INFO cena 70 pronta (7.5s, total 622s)
+04:13:47 INFO cena 71 pronta (7.2s, total 630s)
+04:13:50 WARNING nenhuma imagem livre para 'Paraisópolis Morumbi inequality aerial photograph São Paulo' — usando cartão
+04:13:52 WARNING nenhuma imagem livre para 'Paraisópolis Morumbi inequality aerial' — usando cartão
+04:13:54 WARNING nenhuma imagem livre para 'Paraisópolis Morumbi inequality' — usando cartão
+04:13:56 INFO imagem 'Paraisópolis Morumbi' ← wikimedia
+04:13:56 INFO imagem para 'Paraisópolis Morumbi inequality aerial photograph São Paulo' achada buscando 'Paraisópolis Morumbi'
+04:14:02 INFO cena 72 pronta (9.9s, total 640s)
+04:14:04 INFO imagem 'old classroom blackboard desks' ← wikimedia
+04:14:18 INFO cena 73 pronta (4.5s, total 644s)
+04:14:37 INFO cena 74 pronta (8.3s, total 652s)
+04:14:44 INFO cena 75 pronta (9.0s, total 661s)
+04:14:47 INFO cena 76 pronta (7.4s, total 669s)
+04:14:48 INFO Processing audio with duration 00:51.639
+04:14:48 INFO VAD filter removed 00:00.000 of audio
+04:15:01 INFO bloco 10: 51.6s, 148 palavras reconhecidas
+04:15:02 INFO imagem 'cozy reading room armchair lamp' ← wikimedia
+04:15:25 INFO cena 77 pronta (9.9s, total 679s)
+04:15:47 INFO cena 78 pronta (9.2s, total 688s)
+04:16:08 INFO cena 79 pronta (9.5s, total 697s)
+04:16:28 INFO cena 80 pronta (12.7s, total 710s)
+04:16:36 INFO cena 81 pronta (10.3s, total 720s)
+04:16:38 INFO sem trilha em musica/leve — vídeo sai só com narração
+04:16:39 INFO imagem 'balance scale house coins illustration' ← wikimedia
+04:16:44 WARNING nenhuma imagem livre para 'faceless businessman silhouette illustration' — usando cartão
+04:16:48 WARNING nenhuma imagem livre para 'faceless businessman silhouette' — usando cartão
+04:16:50 INFO imagem 'faceless businessman' ← wikimedia
+04:16:50 INFO imagem para 'faceless businessman silhouette illustration' achada buscando 'faceless businessman'
+04:16:52 INFO upload 3%
+04:16:53 INFO upload 6%
+04:16:53 INFO upload 10%
+04:16:54 INFO upload 13%
+04:16:55 INFO upload 16%
+04:16:55 INFO upload 20%
+04:16:56 INFO upload 23%
+04:16:56 INFO upload 26%
+04:16:57 INFO upload 30%
+04:16:57 INFO upload 33%
+04:16:58 INFO upload 36%
+04:16:59 INFO upload 40%
+04:16:59 INFO upload 43%
+04:17:00 INFO upload 46%
+04:17:00 INFO upload 50%
+04:17:01 INFO upload 53%
+04:17:01 INFO upload 56%
+04:17:01 INFO upload 60%
+04:17:02 INFO upload 63%
+04:17:03 INFO upload 67%
+04:17:03 INFO upload 70%
+04:17:04 INFO upload 73%
+04:17:04 INFO upload 77%
+04:17:05 INFO upload 80%
+04:17:05 INFO upload 83%
+04:17:06 INFO upload 87%
+04:17:06 INFO upload 90%
+04:17:07 INFO upload 93%
+04:17:07 INFO upload 97%
+04:17:08 INFO vídeo enviado: https://youtu.be/5tcNksX013A (agendado para 2026-11-18T22:00:00Z)
+04:17:12 INFO na playlist 'Não ficção'
+04:17:12 WARNING Encountered 403 Forbidden with reason "forbidden"
+04:17:12 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+04:18:32 INFO corte 1 pronto (32s)
+04:20:33 INFO corte 2 pronto (49s)
+04:22:34 INFO corte 3 pronto (55s)
+04:22:37 INFO Short agendado: https://youtube.com/shorts/RO8IFB7S1sI (2026-11-19T15:00:00Z)
+04:22:42 INFO upload 75%
+04:22:42 INFO Short agendado: https://youtube.com/shorts/LwVNK801yIg (2026-11-20T15:00:00Z)
+04:22:46 INFO upload 84%
+04:22:47 INFO Short agendado: https://youtube.com/shorts/Q8pabG8PYSE (2026-11-21T15:00:00Z)
+04:22:49 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-18/saida/video.mp4 (12.0 min) → https://youtu.be/5tcNksX013A
