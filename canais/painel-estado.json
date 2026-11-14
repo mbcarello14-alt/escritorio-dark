@@ -1,18 +1,6 @@
 {
-  "atualizado_em": "2026-11-14T00:10:10Z",
+  "atualizado_em": "2026-11-14T00:45:40Z",
   "ativos": {
-    "narrador": [
-      "Mapeado: Soro ou vacina? A pegadinha de Biologia no ENEM"
-    ],
-    "ilustrador": [
-      "Mapeado: Soro ou vacina? A pegadinha de Biologia no ENEM"
-    ],
-    "editor": [
-      "Mapeado: Soro ou vacina? A pegadinha de Biologia no ENEM"
-    ],
-    "clipador": [
-      "Mapeado: Soro ou vacina? A pegadinha de Biologia no ENEM"
-    ],
     "roteirista_livros": [
       "Longo Marca-Página: Machado de Assis"
     ]
@@ -43,10 +31,10 @@
       "dia": "2026-11-17",
       "rotulo": "terça 17/11 17h00",
       "publicar_em_utc": "2026-11-17T20:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Soro ou vacina? A pegadinha de Biologia no ENEM",
-      "url": ""
+      "url": "https://youtu.be/Cq3S8BsBscI"
     }
   ],
   "publicados": [
@@ -135,8 +123,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 42,
+    "neurons": 2310,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
