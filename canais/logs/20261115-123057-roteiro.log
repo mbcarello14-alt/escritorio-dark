@@ -1,0 +1,225 @@
+comando: /roteiro canais/historia/videos/2026-11-20
+🔧 Bash {"command": "cd canais/historia/videos/2026-11-20 && ls && cat estado.json && cat pautas.json && ls ../../ && cat /home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md | head -
+❌ This Bash command contains multiple operations. The following part requires approval: cd canais/historia/videos/2026-11-20 && ls && cat estado.json && cat pautas.json && ls ../../ && cat /home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/pautas.json"}
+🔧 Glob {"pattern": "canais/historia/videos/2026-11-20/*"}
+🔧 Agent {"description": "Dossiê Nuremberg", "subagent_type": "pesquisador-historia", "prompt": "Etapa 2 (dossiê). Pasta: canais/historia/videos/2026-11-20. Leia estado.json, pautas.json e 01-pauta.md. A pauta
+💬 O pesquisador está montando o dossiê de Nuremberg. As próximas etapas dependem dele, então aguardo o resultado.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 WebFetch {"url": "https://encyclopedia.ushmm.org/content/pt-br/article/the-nuremberg-trial-and-the-development-of-international-law", "prompt": "Datas, número de réus, acusações (4 contagens), sentenças, Carta
+🔧 WebFetch {"url": "https://encyclopedia.ushmm.org/content/pt-br/gallery/international-military-tribunal-at-nuremberg-films", "prompt": "Filme \"Nazi Concentration Camps\" exibido em 29/11/1945: detalhes, duraçã
+🔧 WebFetch {"url": "https://www.nationalgeographicbrasil.com/historia/2026/03/a-real-historia-por-tras-dos-julgamentos-de-nuremberg-e-as-acusacoes-contra-o-nazista-hermann-goring", "prompt": "Fatos, datas e núme
+🔧 WebSearch {"query": "Nuremberg trial sentences 12 death 3 acquitted Göring cyanide Schacht Papen Fritzsche executed 16 October 1946", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.history.com/articles/10-things-you-may-not-know-about-the-nuremberg-trials", "prompt": "Extraia todos os fatos com números: réus, filme, tradução simultânea IBM, Göring, Lynch (La
+🔧 WebFetch {"url": "https://www.wikipedia.org/wiki/Nuremberg_executions", "prompt": "Datas, número de enforcados, carrasco John C. Woods, Göring suicide cyanide, how he obtained it (Jack Wheelis 1970s claim, Lt 
+🔧 WebFetch {"url": "https://www.worldhistory.org/trans/pt/1-23653/julgamentos-de-nuremberg/", "prompt": "Fatos: Carta de Londres (8 ago 1945), juízes e promotores das quatro potências, Robert Jackson, número de 
+🔧 WebSearch {"query": "Nuremberg trial 29 November 1945 film \"Nazi Concentration Camps\" shown courtroom defendants reaction Gilbert Göring Jackson", "mode": "standard"}
+🔧 WebFetch {"url": "https://encyclopedia.ushmm.org/content/en/article/we-will-show-you-their-own-films-film-at-the-nuremberg-trial/", "prompt": "Details of the 29 Nov 1945 screening: duration, who produced (John
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Nuremberg_executions", "prompt": "Datas, número de enforcados, carrasco John C. Woods, Göring suicide cyanide and how he obtained it, cremation at Munich, ashes 
+🔧 WebFetch {"url": "https://encyclopedia.ushmm.org/content/en/article/the-nuremberg-trials-and-the-development-of-international-law", "prompt": "London Charter 8 Aug 1945, four counts, retroactivity debate (null
+🔧 WebSearch {"query": "Churchill proposed summary execution Nazi leaders Stalin toast 50,000 Yalta Tehran; Henry Stimson trial proposal 1945", "mode": "standard"}
+🔧 WebFetch {"url": "https://encyclopedia.ushmm.org/content/en/timeline-event/film-at-the-nuremberg-trial", "prompt": "What happened on November 29, 1945 at Nuremberg? Film details, reactions."}
+🔧 WebFetch {"url": "https://www.history.com/articles/hermann-goring-suicide-nuremberg-cyanide", "prompt": "How did Göring get the cyanide; theories; Jack Wheelis; his suicide notes; his trial performance against
+🔧 WebSearch {"query": "Robert Jackson opening statement Nuremberg 21 November 1945 \"civilization cannot tolerate their being ignored\" \"victor judging the vanquished\" transcript Avalon", "mode": "standard"}
+🔧 WebSearch {"query": "Göring cross-examination Jackson March 1946 Nuremberg Maxwell-Fyfe turned tables; Göring defense performance", "mode": "standard"}
+🔧 WebSearch {"query": "Nuremberg trial 20 November 1945 opened indictment read 24 defendants 21 present London Charter 8 August 1945 nullum crimen sine lege ex post facto", "mode": "standard"}
+🔧 WebSearch {"query": "Göring cyanide how obtained Jack Wheelis confession 2005 Nuremberg guard Lt. Wheelis suicide notes", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.roberthjackson.org/jackson-vs-goring/", "prompt": "Resuma os fatos sobre o contrainterrogatório de Göring por Jackson (datas, o que deu errado, o que funcionou, avaliação)."}
+🔧 WebSearch {"query": "Nuremberg IMT Soviet judge Nikitchenko dissent acquittals Schacht Papen Fritzsche Hess life sentence; why Nuremberg chosen Palace of Justice undamaged", "mode": "standard"}
+🔧 WebFetch {"url": "https://encyclopedia.ushmm.org/content/en/article/international-military-tribunal-at-nuremberg", "prompt": "Why Nuremberg was chosen, the four counts, defendants number, verdict summary, Sovi
+🔧 WebFetch {"url": "https://nuremberg.law.harvard.edu/imt_intro", "prompt": "Key facts: number of defendants, dates, counts, verdicts, judges, Soviet dissent, trial days."}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/02-dossie.md", "content": "# Dossiê — Julgamento de Nuremberg (sexta 20/11/2026, 18h00, Ouro & Impéri
+💬 O dossiê está pronto em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/02-dossie.md`.
+
+**Conteúdo**
+- Linha do tempo de 1942 a 16/10/1946.
+- 15 fatos-chave, cada um com fonte e grau de confiança.
+- Números com fonte, personagens e controvérsias.
+- Ganchos para o roteiro e material visual.
+- Lista de pendências para o roteirista e o checador.
+
+**Fatos que sustentam o thriller**
+- Houve disputa entre execução sumária (Churchill) e julgamento formal (Stimson).
+- O duelo Göring contra Jackson e Maxwell-Fyfe é a virada do meio.
+- O filme dos campos foi exibido 
+🔧 Agent {"description": "Roteiro Nuremberg", "subagent_type": "roteirista-historia", "prompt": "Escreva o roteiro do vídeo em canais/historia/videos/2026-11-20 (pauta 2, Nuremberg, thriller de tribunal). Leia
+💬 O dossiê está pronto. O roteirista está escrevendo o roteiro agora e eu espero ele terminar antes de chamar o checador.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Julgamento de Nuremberg: o tribunal que os n
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "content": "# Roteiro — Julgamento de Nuremberg (sexta 20/11/2026, 18h00, Ouro & Impé
+💬 I escrevi e salvei o roteiro de Nuremberg nos dois arquivos pedidos. O texto de cada bloco no `roteiro.json` é exatamente o que vai ser lido, com números, datas e siglas por extenso. Contei as palavras à mão, sem ferramenta: são cerca de 2.530 em 11 blocos, uns 17 minutos, dentro da meta de 12 a 20 do briefing.
+
+**Título provisório:** "Julgamento de Nuremberg: o tribunal que os nazistas quase viraram"
+
+**Tese:** Nuremberg julgou o que nunca tinha sido julgado apostando que uma lei nova, aplicada com provas, direito de defesa e até absolvições, valeria mais que o fuzilamento. Essa aposta deu pa
+🔧 Agent {"description": "Checar roteiro Nuremberg", "subagent_type": "checador", "prompt": "Cheque o roteiro em canais/historia/videos/2026-11-20 (03-roteiro.md / roteiro.json) contra 02-dossie.md e fontes ex
+💬 O roteiro está escrito e o checador está conferindo as afirmações agora. Quando ele terminar, sigo para a originalidade.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/02-dossie.md"}
+🔧 WebFetch {"url": "https://history.state.gov/historicaldocuments/frus1943CairoTehran/d368", "prompt": "Find the passage where Stalin proposes shooting 50,000 officers. What exactly did Roosevelt say (49,000?), 
+🔧 WebFetch {"url": "https://www.roberthjackson.org/nuremberg-event/concentration-camp-film-2", "prompt": "Who shot the concentration camp film shown 29 Nov 1945? Does Jackson say 'we will show you their own film
+🔧 WebFetch {"url": "https://www.history.com/articles/10-things-you-may-not-know-about-the-nuremberg-trials", "prompt": "Check: simultaneous interpretation four times faster? yellow/red lights meaning? Lemkin los
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Nuremberg_executions", "prompt": "Where were the bodies cremated and where were ashes scattered (Isar or Conwentzbach)? Göring suicide details and theories. Borm
+🔧 WebFetch {"url": "https://winstonchurchill.org/publications/finest-hour/finest-hour-129/wartime-questions-to-postwar-answers-riddles-of-war/", "prompt": "What does it say about Churchill and summary execution 
+🔧 WebSearch {"query": "Churchill 1942 summary execution Nazi leaders War Cabinet papers released 2006 National Archives", "mode": "standard"}
+🔧 WebSearch {"query": "Churchill left room Tehran Stalin 50,000 officers toast Roosevelt 49,000 Elliott Roosevelt account", "mode": "standard"}
+🔧 WebSearch {"query": "Jackson \"their own films\" Nuremberg opening statement \"Nazi Concentration Camps\" film shot by Allied army cameramen", "mode": "standard"}
+🔧 WebFetch {"url": "https://encyclopedia.ushmm.org/content/en/article/we-will-show-you-their-own-films-film-at-the-nuremberg-trial", "prompt": "Who said 'We will show you their own films' and when? Who shot the 
+🔧 WebSearch {"query": "Nuremberg International Military Tribunal 218 days 216 sessions total open court sessions number", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.roberthjackson.org/jackson-vs-goring/", "prompt": "What did Jackson himself say about the Göring cross-examination (wrangling/bate-boca)? When did Jackson cross begin and end, whe
+🔧 WebSearch {"query": "Jackson Göring cross-examination admitted \"wrangle\" OR \"wrangling\" Jackson letter Nuremberg Göring March 1946 Maxwell-Fyfe", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.nationalgeographicbrasil.com/historia/2026/03/a-real-historia-por-tras-dos-julgamentos-de-nuremberg-e-as-acusacoes-contra-o-nazista-hermann-goring", "prompt": "Confirme: 216 sessõ
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/04-checagem.md", "content": "# Checagem — Julgamento de Nuremberg (sex 20/11/2026, Ouro & Império)\n\
+💬 **Veredito: CORRIGIR.** Escrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/04-checagem.md` com a tabela de afirmações e 13 correções, agrupadas por bloco.
+
+Contagem: 46 afirmações checadas. 33 conferem, 9 estão imprecisas, 2 sem fonte confirmada e 2 contestadas. Todas viram correção, 13 no total. Não achei nada fora do nicho, nenhum conselho de saúde, finanças ou direito, nem trecho difamatório. Não li o `roteiro.json`, então a correção 13 (espelhar as trocas nele) ainda é do roteirista.
+
+Correções mais importantes:
+- **Bloco 2, Churchill em 1942:** o 
+🔧 Agent {"description": "Corrigir roteiro Nuremberg", "subagent_type": "roteirista-historia", "prompt": "Volta 1 de correção. Pasta canais/historia/videos/2026-11-20. Leia 04-checagem.md (veredito CORRIGIR, 1
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/04-checagem.md"}
+💬 O checador devolveu o roteiro com o veredito CORRIGIR e 13 correções. O roteirista está aplicando todas agora, que é a primeira das duas voltas permitidas.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/estado.json"}
+💬 Agora aplico as trocas nos dois arquivos, começando pelo bloco 2.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "liberados só em dois mil e seis, indicam que Win
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "old_string": "liberados só em dois mil e seis, indicam que Wins
+💬 Bloco 5 (mote dos filmes).
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "## Bloco 5 — Os seus próprios filmes (~185 palav
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "old_string": "      \"capitulo\": \"Os seus próprios filmes\",\
+💬 Bloco 6.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "O que importa é o que ele fez dentro daquela sal
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "old_string": "O que importa é o que ele fez dentro daquela sala
+💬 Bloco 7.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "E Göring fez, somando tudo, cerca de doze horas 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "old_string": "E Göring fez, somando tudo, cerca de doze horas d
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "O próprio Jackson admitiu que aquilo virou uma d
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "old_string": "O próprio Jackson admitiu que aquilo virou uma di
+💬 Blocos 9 e 11.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "Lembra do só cumpri ordens? Olha o placar: essa 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "old_string": "Lembra do só cumpri ordens? Olha o placar: essa f
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "Somando os treze tribunais, cerca de duzentos ré
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "old_string": "Somando os treze tribunais, cerca de duzentos réu
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "o vídeo do Muro de Berlim, que já está aqui no c
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "old_string": "o vídeo do Muro de Berlim, que já está aqui no ca
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "old_string": "  \"resumo_checagem\": \"Provisório: aguardando o
+💬 Agora atualizo cabeçalhos dos blocos, notas e a lista de mudanças no `03-roteiro.md`.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "## Bloco 6 — O filme e a desculpa (~165 palavras
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "## Bloco 7 — Göring sobe ao palco (~255 palavras
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "- **Filme dos campos:** quem exibiu é sempre \"a
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "- **Teerã x Ialta / piada dos \"49 mil\":** dito
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "- Nada de ENEM, vestibular, prova ou revisão.", 
+💬 Apliquei as 13 correções da checagem, e o `03-roteiro.md` e o `roteiro.json` estão com o mesmo texto em todos os blocos. Não rodei nenhum validador nem refiz a contagem: a soma (cerca de 2.530 palavras, uns 17 minutos) e os números de palavras por bloco são estimativas minhas. O roteiro volta para a segunda checagem.
+
+**O que mudou por bloco:**
+- **Bloco 2:**
+  - "liberados" virou "divulgados só em dois mil e seis".
+  - A piada dos quarenta e nove mil agora é atribuída "à ata americana do jantar".
+  - Churchill agora "pelo próprio relato, se levantou e saiu da mesa".
+  - O aviso Teerã ou Ialta
+🔧 Agent {"description": "Rechecar roteiro Nuremberg", "subagent_type": "checador", "prompt": "Segunda checagem (após volta 1 de correção). Pasta canais/historia/videos/2026-11-20. Releia 03-roteiro.md e rotei
+💬 O roteirista aplicou as 13 correções. O checador está fazendo a segunda checagem, e a originalidade só começa depois dela.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json"}
+🔧 WebFetch {"url": "https://history.state.gov/historicaldocuments/frus1943CairoTehran/d368", "prompt": "Find the passage where Stalin proposes shooting 50,000 (or 100,000) German officers, Roosevelt's 49,000 rem
+🔧 WebFetch {"url": "https://encyclopedia.ushmm.org/content/en/gallery/film-presented-as-evidence-nazi-concentration-camps", "prompt": "Who filmed the footage in the film \"Nazi Concentration Camps\" shown 29 Nov
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/04-checagem.md", "content": "# Checagem — Julgamento de Nuremberg (sex 20/11/2026, Ouro & Império) — 
+💬 **Veredito: APROVADO.** Sobrescrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/04-checagem.md`.
+
+**Contagem final:** 52 afirmações checadas. 50 conferem. 2 têm ressalva leve que não exige troca. Nenhuma está errada ou sem fonte. As 13 correções da 1ª rodada foram aplicadas, nenhuma ficou pendente.
+
+**Consistência entre arquivos:** os 11 blocos de `03-roteiro.md` e `roteiro.json` têm o mesmo texto. A comparação foi por leitura, sem diff por ferramenta.
+
+**Frases novas que verifiquei:**
+- **Teerã e ata americana:** reabri a FRUS (Bohlen Minutes). Stalin 
+🔧 Agent {"description": "Originalidade Nuremberg", "subagent_type": "guardiao-originalidade", "prompt": "Avalie a originalidade/risco de conteúdo inautêntico do roteiro em canais/historia/videos/2026-11-20 (0
+💬 A checagem aprovou o roteiro (52 afirmações, nenhuma errada). O guardião de originalidade está avaliando agora. Depois disso confiro as chamadas de engajamento e o nicho.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-02/03-roteiro.md", "limit": 40}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-10-30/03-roteiro.md", "limit": 40}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/05-originalidade.md", "content": "# Originalidade — Julgamento de Nuremberg (sex 20/11/2026, Ouro & I
+💬 Semáforo: amarelo (ajustar). Escrevi o arquivo em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/05-originalidade.md`.
+
+O vídeo em si é bom. O que pesa contra é o canal: os três últimos roteiros têm a mesma forma de produção, e nenhum tem a opinião do Miguel (`nota_miguel` vazia nos três).
+
+**Notas**
+- **Variação, 6/10.** O motor narrativo é novo (tribunal em atos, tese "o papel venceu o discurso"). A forma é a mesma dos anteriores: de 11 a 13 blocos de 200 a 280 palavras, cronologia linear e chamada de comentário em cerca de 50% do vídeo, retomada no fim.
+🔧 Agent {"description": "Ajuste originalidade Nuremberg", "subagent_type": "roteirista-historia", "prompt": "Pasta canais/historia/videos/2026-11-20. Leia 05-originalidade.md (🟡) e aplique, em 03-roteiro.md e
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/05-originalidade.md"}
+💬 A originalidade deu 🟡. O roteirista está aplicando as mudanças de estrutura e de título, sem mexer nos fatos e sem inventar opinião do Miguel. Depois eu confiro as chamadas de engajamento, o nicho e o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/02-dossie.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Os Aliados queriam fuzilar sem julgamento. P
+💬 Agora o 03-roteiro.md, com o mesmo texto.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "content": "# Roteiro — Julgamento de Nuremberg (sexta 20/11/2026, 18h00, Ouro & Impé
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/03-roteiro.md", "old_string": "- **Execuções:** sem horários detalhados, sem qu
+💬 Apliquei as mudanças 2 e 3 do 05-originalidade.md nos dois arquivos, com o mesmo texto em cada bloco. Não mexi em nenhum fato checado: números, datas e atribuições continuam iguais. Não rodei nenhuma checagem automática para confirmar que os dois arquivos estão idênticos nem para validar o JSON.
+
+**Mudança 3 (título):** o título agora é "Os Aliados queriam fuzilar sem julgamento. Por que desistiram?". Deixei "Nuremberg: o dia em que Göring quase venceu o tribunal" registrado como alternativa. Ajustei a pergunta central ao título novo. O bloco 1 promete essa pergunta, e o bloco 11 responde com 
+💬 Agora confiro eu mesmo o JSON, as chamadas e o nicho.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/estado.json", "old_string": "  \"nota_miguel\": \"\"", "new_string": "  \"nota_
+💬 O roteiro de Nuremberg está pronto, com semáforo 🟡 (amarelo). O `roteiro.json` e o `03-roteiro.md` têm 11 blocos, uns 17 minutos de leitura. O 🟡 vem do guardião de originalidade, e o motivo é que a `nota_miguel` está vazia. Não rodei `pipeline.validar` (só vale para o `producao.json`, que ainda não existe). A única checagem do JSON foi a leitura que fiz.
+
+- **Título:** "Os Aliados queriam fuzilar sem julgamento. Por que desistiram?". Já gravei no `estado.json`. A alternativa "Nuremberg: o dia em que Göring quase venceu o tribunal" está registrada no `03-roteiro.md`.
+- **Checagem:** aprovada na
+
+=== resultado: success | turnos 6 | 8s | erro=False
+O pesquisador está montando o dossiê de Nuremberg. As próximas etapas dependem dele, então aguardo o resultado.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O dossiê está pronto. O roteirista está escrevendo o roteiro agora e eu espero ele terminar antes de chamar o checador.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+O roteiro está escrito e o checador está conferindo as afirmações agora. Quando ele terminar, sigo para a originalidade.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O checador devolveu o roteiro com o veredito CORRIGIR e 13 correções. O roteirista está aplicando todas agora, que é a primeira das duas voltas permitidas.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O roteirista aplicou as 13 correções. O checador está fazendo a segunda checagem, e a originalidade só começa depois dela.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+A checagem aprovou o roteiro (52 afirmações, nenhuma errada). O guardião de originalidade está avaliando agora. Depois disso confiro as chamadas de engajamento e o nicho.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+A originalidade deu 🟡. O roteirista está aplicando as mudanças de estrutura e de título, sem mexer nos fatos e sem inventar opinião do Miguel. Depois eu confiro as chamadas de engajamento, o nicho e o `estado.json`.
+
+=== resultado: success | turnos 3 | 11s | erro=False
+O roteiro de Nuremberg está pronto, com semáforo 🟡 (amarelo). O `roteiro.json` e o `03-roteiro.md` têm 11 blocos, uns 17 minutos de leitura. O 🟡 vem do guardião de originalidade, e o motivo é que a `nota_miguel` está vazia. Não rodei `pipeline.validar` (só vale para o `producao.json`, que ainda não existe). A única checagem do JSON foi a leitura que fiz.
+
+- **Título:** "Os Aliados queriam fuzilar sem julgamento. Por que desistiram?". Já gravei no `estado.json`. A alternativa "Nuremberg: o dia em que Göring quase venceu o tribunal" está registrada no `03-roteiro.md`.
+- **Checagem:** aprovada na segunda rodada, com 52 afirmações checadas e nenhuma errada. Foram 13 correções na primeira volta.
+- **Originalidade:** o texto é próprio. O guardião apontou que a forma se repete nos últimos roteiros do canal e que falta a voz do Miguel. Apliquei a quebra de fôrma, o título novo e o corte das muletas, sem mexer em nenhum fato. A opinião do Miguel não pôde entrar, porque a `nota_miguel` está vazia e eu não a inventei.
+- **Chamadas de engajamento** (conferi no JSON):
+  - Bloco 1 pede inscrição e like.
+  - Bloco 7, perto da metade, faz a pergunta "justiça ou justiça dos vencedores?" para os comentários e pede o like.
+  - Bloco 11 pede inscrição, like e comentário.
+- **Nicho:** nada de ENEM, vestibular ou prova.
+
+**Pergunta para o Miguel:** Nuremberg foi justiça ou justiça dos vencedores? Qual argumento pesou mais para você: as três absolvições ou a lei ter sido escrita depois dos crimes? Duas ou três frases dele entrariam na abertura e no fecho. Este é o terceiro roteiro seguido sem a opinião dele.
+
+**Pontos para o Miguel resolver:**
+- **Muro de Berlim:** o fecho diz que o vídeo "chega em breve". O `historico.md` trata esse vídeo como já feito, então confira antes de gravar.
+- **Imagens:** o filme dos campos, "O Plano Nazista" e as fotos do USHMM exigem licença conferida item a item.
+- **`02-dossie.md`:** o link Finest Hour 129 não sustenta a frase sobre Churchill em 1942 e ainda não foi trocado. A fonte certa são os cadernos de Norman Brook. Isso não afeta o roteiro.
+- **Bloco 6:** ficou perto do mínimo de palavras por bloco.
+codigo de saida: 0
