@@ -46,7 +46,10 @@ def planejar() -> list[Path]:
         if (pasta / "estado.json").exists():
             continue
         pasta.mkdir(parents=True, exist_ok=True)
-        (pasta / "estado.json").write_text(json.dumps({"canal": canal, "dia": hoje, "etapa": "roteiro_reel",
+        # rodízio de formatos (reels.formatos no config, por dia da semana); padrão: construção na segunda e na quarta
+        dia_sem = datetime.strptime(hoje, "%Y-%m-%d").strftime("%a").lower()
+        formato = ((cfg.get("reels") or {}).get("formatos") or {"mon": "construcao", "wed": "construcao"}).get(dia_sem, "explicacao")
+        (pasta / "estado.json").write_text(json.dumps({"canal": canal, "dia": hoje, "etapa": "roteiro_reel", "formato": formato,
                                                        "ajustes": []}, ensure_ascii=False, indent=2), encoding="utf-8")
         novas.append(pasta)
     if os.environ.get("GITHUB_OUTPUT"):
@@ -116,6 +119,18 @@ def _timeline(reel: dict, inicios: list[float], dur_total: float) -> dict:
         objetos.append({"id": "_isca", "tipo": "texto", "texto": reel["isca"].upper(), "pos": [0, 0.36], "tam": 0.9,
                         "fundo": "#E63946", "cor": "#ffffff", "oculto": True})
         acoes.append({"t": round(inicios[-1], 3), "alvo": "_isca", "acao": "aparecer", "som": "pop"})
+    # "Pronto, agora você tem X": selo na tela no fim de cada etapa da construção
+    for i, (f, t0) in enumerate(zip(reel["falas"], inicios)):
+        if not f.get("pronto"):
+            continue
+        fim = inicios[i + 1] if i + 1 < len(inicios) else dur_total
+        oid = f"_pronto{i}"
+        objetos.append({"id": oid, "tipo": "texto", "texto": "✓ " + f["pronto"].upper(), "pos": [0, 0.66], "tam": 0.75,
+                        "fundo": "#2B9348", "cor": "#ffffff", "oculto": True})
+        quando = round(max(t0 + 0.4, fim - 1.3), 3)
+        acoes.append({"t": quando, "alvo": oid, "acao": "aparecer", "som": "ding"})
+        if i + 1 < len(inicios):
+            acoes.append({"t": round(fim + 0.5, 3), "alvo": oid, "acao": "sumir"})
     tl = {"cenario": reel.get("cenario", {}), "camera": reel.get("camera", {}), "objetos": objetos,
           "acoes": sorted(acoes, key=lambda a: a["t"]), "duracao": dur_total}
     if reel.get("desafio"):   # "pause com os 3 dentro do quadro": o momento vira segundos absolutos
@@ -250,10 +265,12 @@ def despublicar(pasta: Path) -> None:
 
 # ---------------------------------------------------------------- validação
 ACOES_OK = {"aparecer", "sumir", "mover", "pular", "girar", "olhar", "acenar", "escalar", "crescer", "contar", "texto",
-            "cor", "explodir", "tremer", "camera"}
+            "cor", "explodir", "tremer", "camera", "construir", "cavar", "orbitar"}
+SEM_ALVO = {"tremer", "camera", "orbitar"}
 TIPOS_OK = {"boneco", "predio", "casa", "arvore", "pilha_moedas", "moeda", "saco_dinheiro", "barra", "seta", "livro", "navio",
             "lousa", "cubo", "esfera", "cilindro", "texto", "numero",
-            "piramide", "templo", "castelo", "torre", "estante", "lapis", "coroa", "atomo", "balao"}
+            "piramide", "templo", "castelo", "torre", "estante", "lapis", "coroa", "atomo", "balao",
+            "terreno", "agua", "parede", "telhado", "cone", "escada", "arco", "tunel", "camara"}
 
 
 def validar(pasta: Path) -> list[str]:
@@ -269,10 +286,17 @@ def validar(pasta: Path) -> list[str]:
         erros.append("título longo demais (máx. 90)")
     falas = r.get("falas", [])
     palavras = sum(len(f.get("texto", "").split()) for f in falas)
-    if not 3 <= len(falas) <= 8:
-        erros.append(f"{len(falas)} falas (use 4 a 7)")
-    if not 35 <= palavras <= 95:
-        erros.append(f"{palavras} palavras (use 45 a 80)")
+    constr = r.get("formato") == "construcao"
+    lim_f, lim_p = ((5, 11), (60, 140)) if constr else ((3, 8), (35, 95))
+    if not lim_f[0] <= len(falas) <= lim_f[1]:
+        erros.append(f"{len(falas)} falas (use {'6 a 10' if constr else '4 a 7'})")
+    if not lim_p[0] <= palavras <= lim_p[1]:
+        erros.append(f"{palavras} palavras (use {'70 a 130' if constr else '45 a 80'})")
+    if constr:
+        if sum(1 for f in falas if f.get("pronto")) < 3:
+            erros.append("formato construção: pelo menos 3 falas com 'pronto' (o que você acabou de ganhar)")
+        if not any(a.get("acao") in ("construir", "cavar") for f in falas for a in f.get("acoes", [])):
+            erros.append("formato construção: use as ações 'construir' (ou 'cavar') para levantar as peças")
     ids = set()
     for o in r.get("objetos", []):
         if o.get("tipo") not in TIPOS_OK:
@@ -287,7 +311,7 @@ def validar(pasta: Path) -> list[str]:
         for a in f.get("acoes", []):
             if a.get("acao") not in ACOES_OK:
                 erros.append(f"fala {i}: ação desconhecida '{a.get('acao')}'")
-            elif a.get("acao") not in ("tremer", "camera") and a.get("alvo") not in ids:
+            elif a.get("acao") not in SEM_ALVO and a.get("alvo") not in ids:
                 erros.append(f"fala {i}: alvo '{a.get('alvo')}' não existe")
             if a.get("som") and a["som"] not in SONS:
                 erros.append(f"fala {i}: som desconhecido '{a['som']}'")

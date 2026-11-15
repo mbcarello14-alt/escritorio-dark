@@ -26,5 +26,11 @@ Antes de tudo leia `pipeline/reels/FORMATO.md` (o formato exato do `reel.json`, 
 
 Se o `estado.json` tiver `ajustes`, o último é um pedido do Miguel sobre o reel atual: aplique no `reel.json` existente sem mudar o resto.
 
+## Formato "construção passo a passo" (quando o `estado.json` pede `"formato": "construcao"`)
+Leia a seção do formato em `pipeline/reels/FORMATO.md`. No Marca-Página: o mundo de um livro famoso montado do zero: a casa de Fabiano no sertão de Vidas Secas, o cortiço de Aluísio Azevedo, a Londres de 1984 com o Ministério da Verdade, a fazenda de A Revolução dos Bichos, o planeta do Pequeno Príncipe, a casa de Dom Casmurro. Cada etapa revela um elemento do livro e por que ele importa na história (sem spoiler grande).
+- A narração conversa com o espectador no imperativo ("Primeiro, aplaine o terreno…", "Agora empilhe…") e fecha cada etapa com "Pronto, agora você tem…" (campo `pronto`).
+- A obra cresce na tela a cada 2–4 s, com `construir` (alterne `cresce`, `sobe` e `cai`), poeira e a câmera girando (`orbitar`). O final mostra a obra inteira.
+- Os fatos de cada etapa seguem a regra de fonte (`01-fontes.md`).
+
 ## Movimento
 Antes de planejar animações (tempos, entradas, coreografia), leia `.claude/skills/motion-design/SKILL.md` (skill de motion design da LottieFiles) e aplique: entrada desacelerando, saída acelerando, um elemento herói por vez, os outros escalonados.

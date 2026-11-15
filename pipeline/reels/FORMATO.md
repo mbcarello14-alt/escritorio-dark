@@ -76,3 +76,48 @@ Cada ação: `{"t": segundos desde o começo da fala, "alvo": "id", "acao": "...
 4. **4 a 7 falas**, 45 a 80 palavras no total (15–30 s). Números por extenso no `texto` falado; o `numero` na tela mostra em algarismos.
 5. A última fala termina com a pergunta + a isca ("Comenta PÃO"), igual ao campo `isca`.
 6. Só fatos com fonte (liste as fontes no `01-fontes.md` da pasta).
+
+## Formato "construção passo a passo" (`"formato": "construcao"`)
+Referência: vídeos virais em que a narração conversa com o espectador e a obra vai subindo etapa por etapa
+("Primeiro, aplaine o terreno e espalhe a areia. Pronto, agora você tem uma base. Agora empilhe os blocos…").
+O espectador fica até o fim para ver a obra pronta.
+
+- **6 a 10 falas, 70 a 130 palavras (25–45 s).** Cada fala é **uma etapa**: a ordem no imperativo ("Primeiro, cave…",
+  "Agora levante…", "Em cima disso, coloque…") + um fato curto que explica por que era feito assim.
+- Fala com **`"pronto": "uma base sólida"`** → no fim dela o motor mostra o selo verde "✓ UMA BASE SÓLIDA" com "ding"
+  (a frase falada deve terminar com "Pronto, agora você tem uma base sólida."). Pelo menos 3 etapas com `pronto`.
+- Fala 1 = gancho que promete a obra inteira ("Vamos construir uma pirâmide do Egito do zero, do jeito que eles fizeram.").
+  Última fala = obra pronta + pergunta + isca.
+- Todas as peças começam com `"oculto": true` e entram com **`construir`**. A câmera **gira devagar** em volta da obra
+  com `orbitar` (uma ação longa cobrindo o vídeo, ou várias), e se aproxima nos detalhes com `camera`.
+
+### Peças de construção (além dos objetos da tabela de cima)
+| tipo | campos | o que é |
+|---|---|---|
+| `terreno` | `tam` [largura, profundidade], `cor` | chão plano (grama, areia, terra batida, piso) |
+| `agua` | `tam` [l, p], `cor` | lago, rio, fosso, piscina |
+| `parede` | `tam` [comprimento, altura, espessura], `cor`, `rot` | parede, muro, muralha (gire 90° para os lados) |
+| `telhado` | `tam` [largura, altura, profundidade], `cor` | telhado de duas águas, frontão |
+| `cone` | `tam` [diâmetro, altura], `lados` | torre pontuda, tenda, vulcão (`lados` 4 = pirâmide) |
+| `escada` | `tam` [l, a, p], `degraus` | degraus, arquibancada, zigurate, pirâmide em degraus |
+| `arco` | `tam` [largura, altura, espessura] | arco romano, aqueduto, portão |
+| `tunel` | `pontos` [[x,y],…] (y negativo = subsolo), `largura` | túnel escavado na parede de terra (com `cenario.corte`) |
+| `camara` | `tam` [l, a], `pos` [x, y] | câmara/sala escavada no subsolo (com `cenario.corte`) |
+Use também `cubo`, `cilindro`, `esfera`, `piramide`, `predio`, `casa`, `templo`, `castelo`, `torre`, `arvore`, `boneco` (operários com `escala` 0,5).
+Para "trave", "cerca", "coluna", "rede" etc., combine `cubo` e `cilindro` (ex.: trave = 2 cilindros de pé + 1 deitado com `rot`).
+
+**Cenário em corte** (`"cenario": {"corte": true}`): a terra aparece cortada de lado, com camadas, e dá para ver o
+subsolo — formigueiro, mina, metrô, trincheira, raízes, camadas da Terra, fundação de prédio. Câmera em
+`{"pos": [0, -1.5, 15], "olha": [0, -2.5, 0]}`; `tunel` e `camara` ficam na parede de terra (só `[x, y]`).
+`cenario.camadas` (opcional) = cores das camadas de cima para baixo.
+
+### Ações de construção
+| acao | campos | efeito |
+|---|---|---|
+| `construir` | `modo`: `cresce` (padrão, sobe do chão esticando), `sobe` (emerge da terra), `cai` (despenca do céu e quica) | a peça entra com nuvem de poeira na base |
+| `cavar` | `dur`, `ate` (0–1, padrão 1) | o túnel vai sendo escavado do primeiro ao último ponto |
+| `orbitar` | `centro` [x,y,z], `raio`, `altura`, `de`, `ate` (graus), `dur` | a câmera gira em volta da obra (sem `alvo`) |
+Sons: `pop` para peças pequenas, `boom` quando algo grande `cai`, `ding` já vem sozinho no selo "pronto".
+
+Escala: a obra inteira cabe em x de −3 a 3 com a câmera padrão; para obras largas (estádio, cidade), afaste a câmera
+(`pos` [0, 10, 24]) e use `orbitar` com `raio` 20–26.
