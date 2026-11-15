@@ -195,10 +195,7 @@ def produzir(pasta: Path, enviar: bool = True, motor: str | None = None) -> Path
             ws = f["texto"].split()
             d = max(2.4, 0.36 * len(ws) + 0.9)
             inicios.append(round(t, 3))
-            pedacos = [ws[i:i + 5] for i in range(0, len(ws), 5)]
-            for k, pd in enumerate(pedacos):
-                grupos.append((t + d * k / len(pedacos), t + d * (k + 1) / len(pedacos) - 0.05, " ".join(pd)))
-            t += d
+            t += d   # sem legenda: sem narração não há o que legendar (regra do Miguel)
         dur_voz = t
         dur = round(dur_voz + 1.4, 2)
         voz = gerar_musica(dur, tmp / "musica.wav", sum(map(ord, str(pasta))) % 10007)
@@ -254,6 +251,7 @@ def produzir(pasta: Path, enviar: bool = True, motor: str | None = None) -> Path
         from .agenda import BRT
         despublicar(pasta)                      # versão anterior (ajuste) sai da agenda
         pub = publicar(pasta, avisar=False)
+        conferir_anteriores(pasta)
         q = datetime.fromisoformat(pub["publicar_em_utc"].replace("Z", "+00:00")).astimezone(BRT)
         legenda = (f"🎬 <b>Reel — {T.esc(cfg['nome'])}</b>\n<b>{T.esc(reel.get('titulo', ''))}</b>\n"
                    f"📅 Agendado no YouTube Shorts: {q:%d/%m às %Hh%M}\n\n"
@@ -262,6 +260,30 @@ def produzir(pasta: Path, enviar: bool = True, motor: str | None = None) -> Path
         mid = T.enviar_video(saida, legenda[:1000])
         E.registrar_msgs([mid], pasta, "reel")
     return saida
+
+
+def conferir_anteriores(pasta: Path) -> list[str]:
+    """Garante que as versões antigas do reel estão privadas e SEM data de publicação. Devolve o relatório."""
+    arq = pasta / "publicacao.json"
+    if not arq.exists():
+        return []
+    pub = json.loads(arq.read_text(encoding="utf-8"))
+    ids = [i for i in pub.get("anteriores", []) if i and i != pub.get("video_id")]
+    if not ids:
+        return []
+    from .youtube import servico
+    yt = servico(carregar_config(_estado(pasta)["canal"])["segredo_youtube"])
+    rel = []
+    for item in yt.videos().list(part="status", id=",".join(ids)).execute().get("items", []):
+        st = item["status"]
+        if st.get("privacyStatus") != "private" or st.get("publishAt"):
+            yt.videos().update(part="status", body={"id": item["id"], "status": {
+                "privacyStatus": "private", "selfDeclaredMadeForKids": st.get("selfDeclaredMadeForKids", False)}}).execute()
+            st = yt.videos().list(part="status", id=item["id"]).execute()["items"][0]["status"]
+        linha = f"{item['id']}: {st.get('privacyStatus')}" + (f" (agendado {st['publishAt']})" if st.get("publishAt") else " (sem agendamento)")
+        log.info("versão antiga %s", linha)
+        rel.append(linha)
+    return rel
 
 
 def despublicar(pasta: Path) -> None:
@@ -383,8 +405,10 @@ def publicar(pasta: Path, avisar: bool = True) -> dict:
     quando = _proximo_slot(cfg, pasta)   # refazendo um reel agendado: fica no mesmo horário
     corte = {"titulo": reel["titulo"], "descricao": reel.get("descricao", ""), "hashtags": reel.get("hashtags", [])}
     vid = publicar_short(cfg, corte, pasta / "saida" / "reel.mp4", quando, None)
-    antes = json.loads((pasta / "publicacao.json").read_text(encoding="utf-8")).get("anteriores", []) \
-        if (pasta / "publicacao.json").exists() else []
+    velho = json.loads((pasta / "publicacao.json").read_text(encoding="utf-8")) if (pasta / "publicacao.json").exists() else {}
+    antes = list(velho.get("anteriores", []))
+    if velho.get("video_id") and velho["video_id"] not in antes:
+        antes.append(velho["video_id"])         # guarda as versões antigas para conferir que não vão ao ar
     pub = {"video_id": vid, "url": f"https://youtube.com/shorts/{vid}", "publicar_em_utc": quando, "titulo": reel["titulo"],
            "anteriores": antes}
     (pasta / "publicacao.json").write_text(json.dumps(pub, ensure_ascii=False, indent=2), encoding="utf-8")
