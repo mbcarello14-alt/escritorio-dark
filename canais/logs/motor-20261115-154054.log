@@ -1,0 +1,70 @@
+15:40:55 INFO ilustrações: higgsfield desligado (sem chave)
+15:40:56 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+15:41:33 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 1/11
+15:41:33 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+15:41:33 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+15:41:34 INFO Processing audio with duration 00:45.080
+[0;93m2026-11-15 15:41:34.536621256 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+15:41:34 INFO VAD filter removed 00:00.016 of audio
+15:41:40 INFO Processing audio with duration 00:45.080
+15:41:40 INFO VAD filter removed 00:00.016 of audio
+15:42:32 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 2/11
+15:42:32 INFO Processing audio with duration 01:09.400
+15:42:32 INFO VAD filter removed 00:00.000 of audio
+15:42:41 WARNING voz falou fora do roteiro em bloco_02.wav — aparando ('Imagina…')
+15:42:41 INFO Processing audio with duration 01:08.480
+15:42:41 INFO VAD filter removed 00:00.000 of audio
+15:43:34 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 3/11
+15:43:34 INFO Processing audio with duration 01:08.520
+15:43:34 INFO VAD filter removed 00:00.000 of audio
+15:43:43 INFO Processing audio with duration 01:08.520
+15:43:43 INFO VAD filter removed 00:00.000 of audio
+15:44:41 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 4/11
+15:44:41 INFO Processing audio with duration 01:20.800
+15:44:41 INFO VAD filter removed 00:00.000 of audio
+15:44:50 INFO Processing audio with duration 01:20.800
+15:44:51 INFO VAD filter removed 00:00.000 of audio
+15:45:44 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 5/11
+15:45:44 INFO Processing audio with duration 01:06.840
+15:45:44 INFO VAD filter removed 00:00.048 of audio
+15:45:53 INFO Processing audio with duration 01:06.840
+15:45:53 INFO VAD filter removed 00:00.048 of audio
+15:46:48 INFO narrador Gemini (gemini-3.1-flash-tts-preview, Orus): bloco 6/11
+15:46:48 INFO Processing audio with duration 01:14.160
+15:46:48 INFO VAD filter removed 00:00.000 of audio
+15:46:59 INFO Processing audio with duration 01:14.160
+15:46:59 INFO VAD filter removed 00:00.000 of audio
+15:47:09 WARNING Gemini TTS: cota do modelo gemini-3.1-flash-tts-preview acabou — trocando de modelo
+15:48:06 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Orus): bloco 7/11
+15:48:06 INFO Processing audio with duration 01:04.371
+15:48:06 INFO VAD filter removed 00:00.000 of audio
+15:48:15 INFO Processing audio with duration 01:04.371
+15:48:15 INFO VAD filter removed 00:00.000 of audio
+15:49:16 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Orus): bloco 8/11
+15:49:16 INFO Processing audio with duration 01:24.731
+15:49:16 INFO VAD filter removed 00:00.112 of audio
+15:49:28 INFO Processing audio with duration 01:24.731
+15:49:28 INFO VAD filter removed 00:00.112 of audio
+15:50:22 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Orus): bloco 9/11
+15:50:22 INFO Processing audio with duration 01:04.251
+15:50:22 INFO VAD filter removed 00:00.000 of audio
+15:50:32 INFO Processing audio with duration 01:04.251
+15:50:32 INFO VAD filter removed 00:00.000 of audio
+15:51:37 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Orus): bloco 10/11
+15:51:37 INFO Processing audio with duration 01:38.971
+15:51:37 INFO VAD filter removed 00:00.000 of audio
+15:51:51 INFO Processing audio with duration 01:38.971
+15:51:51 INFO VAD filter removed 00:00.000 of audio
+15:52:04 WARNING Gemini TTS: cota do modelo gemini-2.5-flash-preview-tts acabou — trocando de modelo
+15:52:33 INFO narrador Gemini (gemini-3.8-flash-lite-tts, Orus): bloco 11/11
+15:52:34 INFO Processing audio with duration 00:52.401
+15:52:34 INFO VAD filter removed 00:00.000 of audio
+15:52:40 INFO Processing audio with duration 00:52.401
+15:52:40 INFO VAD filter removed 00:00.000 of audio
+15:52:47 INFO gerando 17 ilustrações…
+15:52:47 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+15:52:47 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+15:52:47 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+15:52:47 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+15:52:47 INFO ilustrações prontas: 0 geradas (17 pedidas)
+15:52:47 WARNING cota de imagens: -1 de 16 desenhos prontos — montagem adiada
