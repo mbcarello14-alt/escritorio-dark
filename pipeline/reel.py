@@ -89,20 +89,11 @@ def _narrar(pasta: Path, reel: dict, cfg: dict, tmp: Path, motor: str | None) ->
                 palavras.append({"palavra": w, "inicio": i * passo, "fim": (i + 0.9) * passo}); i += 1
         return limpo, inicios, palavras
     if not wav.exists():
-        from .gemini_voz import aparar_fora_do_roteiro, sintetizar
-        from .narracao import limpar
         v = cfg["voz"]
         tom = (v.get("gemini_tom", "") + " Este é um vídeo curto para redes sociais: fale com energia, ritmo rápido, "
                "sem pausas longas, como quem conta uma curiosidade incrível para um amigo.")
-        try:
-            sintetizar(" ".join(textos), v.get("gemini_voz", "Puck"), tom, wav)
-            aparar_fora_do_roteiro(wav, " ".join(textos))
-            limpar(wav, " ".join(textos), cfg)
-        except Exception as e:
-            log.warning("Gemini indisponível (%s) — usando a voz reserva", e)
-            from .voz import escolher_motor, narrar
-            m = escolher_motor(cfg, tmp, [x for x in cfg["voz"]["motor"] if x != "gemini"])
-            narrar(" ".join(textos), cfg, wav, m)
+        from .narracao import gerar_conferido
+        gerar_conferido(" ".join(textos), cfg, wav, tom, tmp)   # confere pela transcrição; refaz ou troca de voz
     _, palavras, inicios = gravacao.preparar_bloco(pasta, 1, textos, tmp)
     limpo = tmp / "bloco_01_limpo.wav"
     return limpo, inicios[:-1], palavras
@@ -116,7 +107,7 @@ def _timeline(reel: dict, inicios: list[float], dur_total: float) -> dict:
             acoes.append({**a, "t": round(t0 + float(a.get("t", 0)), 3)})
     objetos = list(reel.get("objetos", []))
     if reel.get("isca"):   # "comenta X": aparece na última fala e fica até o fim
-        objetos.append({"id": "_isca", "tipo": "texto", "texto": reel["isca"].upper(), "pos": [0, 0.36], "tam": 0.9,
+        objetos.append({"id": "_isca", "tipo": "texto", "texto": reel["isca"].upper(), "pos": [0, 0.52 if reel.get("jogo") else 0.36], "tam": 0.9,
                         "fundo": "#E63946", "cor": "#ffffff", "oculto": True})
         acoes.append({"t": round(inicios[-1], 3), "alvo": "_isca", "acao": "aparecer", "som": "pop"})
     # "Pronto, agora você tem X": selo na tela no fim de cada etapa da construção
@@ -195,9 +186,27 @@ def produzir(pasta: Path, enviar: bool = True, motor: str | None = None) -> Path
     tmp.mkdir(parents=True, exist_ok=True)
     _estado(pasta, etapa="renderizando_reel")
 
-    voz, inicios, palavras = _narrar(pasta, reel, cfg, tmp, motor)
-    dur_voz = duracao_audio(voz)
-    dur = round(dur_voz + 1.4, 2)                      # respiro final com a isca na tela
+    sem_voz = bool(reel.get("jogo")) or reel.get("narracao") is False
+    grupos = None
+    if sem_voz:   # jogos: sem narração; as falas viram texto na tela e o fundo é uma musiquinha gerada por código
+        from .musica import gerar as gerar_musica
+        inicios, grupos, t = [], [], 0.4
+        for f in reel["falas"]:
+            ws = f["texto"].split()
+            d = max(2.4, 0.36 * len(ws) + 0.9)
+            inicios.append(round(t, 3))
+            pedacos = [ws[i:i + 5] for i in range(0, len(ws), 5)]
+            for k, pd in enumerate(pedacos):
+                grupos.append((t + d * k / len(pedacos), t + d * (k + 1) / len(pedacos) - 0.05, " ".join(pd)))
+            t += d
+        dur_voz = t
+        dur = round(dur_voz + 1.4, 2)
+        voz = gerar_musica(dur, tmp / "musica.wav", sum(map(ord, str(pasta))) % 10007)
+        palavras = []
+    else:
+        voz, inicios, palavras = _narrar(pasta, reel, cfg, tmp, motor)
+        dur_voz = duracao_audio(voz)
+        dur = round(dur_voz + 1.4, 2)                      # respiro final com a isca na tela
     tl = _timeline(reel, inicios, dur)
     arq_tl = tmp / "timeline.json"
     arq_tl.write_text(json.dumps(tl, ensure_ascii=False), encoding="utf-8")
@@ -210,7 +219,7 @@ def produzir(pasta: Path, enviar: bool = True, motor: str | None = None) -> Path
 
     # legenda palavra a palavra (grupos de até 3) + faixa "Inscreva-se" no fim
     textos = []
-    for i, (ini, fim, txt) in enumerate(cortes._grupos(palavras, 0.0, dur_voz + 0.3)):
+    for i, (ini, fim, txt) in enumerate(grupos if grupos is not None else cortes._grupos(palavras, 0.0, dur_voz + 0.3)):
         a = tmp / f"leg{i:03d}.txt"
         a.write_text(txt, encoding="utf-8")
         from PIL import ImageFont

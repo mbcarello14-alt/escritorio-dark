@@ -194,13 +194,26 @@ def narrar(pasta: Path, cfg: dict) -> bool:
             feito[chave] = round(duracao_audio(mp3), 3)
             manifesto.write_text(json.dumps(feito, indent=1))
             continue
-        try:
-            sintetizar(texto, voz, lon["tom"], wav, tentativas=10)
-        except Exception as e:
-            log.warning("narração parou (%s) — continua na próxima rodada; faltam %d partes", e,
-                        sum(1 for c, _ in pendentes if c not in feito))
+        from .gravacao import transcrever
+        from .narracao import problemas
+        aprovado = False
+        for tentativa in range(3):   # regra do Miguel: instrução lida nunca vai para o vídeo
+            try:
+                sintetizar(texto, voz, lon["tom"], wav, tentativas=10)
+            except Exception as e:
+                log.warning("narração parou (%s) — continua na próxima rodada; faltam %d partes", e,
+                            sum(1 for c, _ in pendentes if c not in feito))
+                return False
+            _limpar_cabeca(wav, texto, cfg)
+            erros = problemas(transcrever(wav), texto, cfg)
+            if not erros:
+                aprovado = True
+                break
+            log.warning("parte %s REPROVADA (tentativa %d): %s — narrando de novo", chave, tentativa + 1, "; ".join(erros))
+            time.sleep(22)
+        if not aprovado:
+            log.warning("parte %s reprovada 3 vezes — fica para a próxima rodada", chave)
             return False
-        _limpar_cabeca(wav, texto, cfg)
         mp3 = m / "voz" / f"{chave}.mp3"
         rodar(["ffmpeg", "-y", "-v", "error", "-i", str(wav), "-ac", "1", "-ar", "44100", "-b:a", "80k", str(mp3)])
         feito[chave] = round(duracao_audio(mp3), 3)

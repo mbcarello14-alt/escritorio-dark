@@ -138,12 +138,18 @@ def narrar_blocos(pasta: Path, prod: dict, cfg: dict) -> None:
         texto = " ".join(c["narracao"] for c in b["cenas"])
         wav = pasta / "audio" / f"bloco_{n:02d}.wav"
         if not arquivo_bloco(pasta, n):
-            sintetizar(texto, voz, tom, wav)
+            from .narracao import gerar_conferido
+            motor = gerar_conferido(texto, cfg, wav, tom)   # confere pela transcrição; refaz ou troca de voz
             time.sleep(22)   # plano grátis: poucas chamadas por minuto
-            log.info("narrador Gemini (%s, %s): bloco %d/%d", modelo(), voz, n, len(prod["blocos"]))
-        aparar_fora_do_roteiro(wav, texto)
-        from .narracao import limpar
-        limpar(wav, texto, cfg)      # instrução lida no meio do trecho
+            log.info("narrador %s (%s): bloco %d/%d", motor, voz, n, len(prod["blocos"]))
+        else:
+            from .gravacao import transcrever
+            from .narracao import problemas
+            erros = problemas(transcrever(wav), texto, cfg)
+            if erros and not (pasta / "audio" / f"bloco_{n:02d}.gravado").exists():
+                log.warning("áudio do bloco %d reprovado (%s) — narrando de novo", n, "; ".join(erros))
+                from .narracao import gerar_conferido
+                gerar_conferido(texto, cfg, wav, tom)
 
 
 def aparar_fora_do_roteiro(wav: Path, texto: str) -> None:

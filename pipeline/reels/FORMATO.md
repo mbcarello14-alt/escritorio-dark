@@ -145,6 +145,9 @@ para dar aflição) e encaixa no molde do tamanho exato **num único quadro**. "
 - 8 a 24 itens, todos do mesmo `item` (`livro` ou `carta`; a `carta` aceita `emoji`, `texto`, `sub`, `cor`).
 - A esteira roda do `inicio` até o fim do vídeo (`velocidade` padrão 2600 px/s).
 
+**Jogos não têm narração** (regra do Miguel): o fundo é uma musiquinha viciante gerada por código (`pipeline/musica.py`,
+sem direitos autorais) e as `falas` aparecem como texto na tela, em pedaços de até 5 palavras. Escreva falas curtas.
+
 Textos de tela do jogo (objeto `texto` com `pos` [0, 0.72]): curtos e em caixa alta ("PAUSE QUANDO ENCAIXAR!",
 "TIRE PRINT AGORA!"). Falas: 4 a 6, 40 a 70 palavras: desafio na fala 1, provocação no meio ("quase ninguém consegue"),
 isca no fim ("Comenta EU CONSEGUI" / "Comenta o livro que saiu no seu print").

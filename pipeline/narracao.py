@@ -103,3 +103,59 @@ def verificar(arquivo: Path, canal: str, pasta: Path | None = None) -> list[tupl
 if __name__ == "__main__":
     if sys.argv[1] == "verificar":
         verificar(Path(sys.argv[2]), sys.argv[3], Path(sys.argv[4]) if len(sys.argv) > 4 else None)
+
+
+# ---------------------------------------------------------------- narração conferida (regra do Miguel)
+# A instrução de estilo NUNCA pode ir para o vídeo. Cortar o trecho deixava sobras ("…português do Brasil…"),
+# então agora o áudio só é aceito se a transcrição bater com o roteiro; senão é refeito, e no fim troca de voz.
+def problemas(palavras: list[dict], roteiro: str, cfg: dict) -> list[str]:
+    from .gravacao import _norm
+    if not palavras:
+        return ["transcrição vazia"]
+    erros = [f"instrução lida: '{t[:80]}'" for _, _, t in trechos(palavras, roteiro, cfg, janela=8, minimo=2)]
+    do_roteiro = {_norm(p) for p in roteiro.split()}
+    ouvidas = [_norm(w["palavra"]) for w in palavras]
+    instr = _vocab_instrucao(cfg)
+    suspeitas = [o for o in ouvidas if o and o in instr and o not in do_roteiro]
+    if len(suspeitas) >= 2:
+        erros.append("palavras da instrução: " + " ".join(suspeitas[:12]))
+    fora = sum(1 for o in ouvidas if o and o not in do_roteiro)
+    if fora > max(4, 0.08 * len(ouvidas)):
+        erros.append(f"{fora} de {len(ouvidas)} palavras ouvidas não estão no roteiro")
+    falou = len(ouvidas) / max(1, len([p for p in roteiro.split() if _norm(p)]))
+    if falou > 1.12:
+        erros.append(f"falou {falou:.0%} do tamanho do roteiro (sobrou fala)")
+    return erros
+
+
+TOM_CURTO_EN = "Brazilian Portuguese. Natural, warm and lively young narrator. Read exactly the transcript and nothing else."
+
+
+def gerar_conferido(texto: str, cfg: dict, wav: Path, tom: str, tmp: Path | None = None) -> str:
+    """Narra `texto` com o Gemini e confere pela transcrição. Até 3 tentativas (a 2ª e a 3ª com instrução mínima);
+    se ainda houver instrução lida ou fala fora do roteiro, usa a voz reserva (que não recebe instrução nenhuma).
+    Devolve o motor usado."""
+    from .gemini_voz import aparar_fora_do_roteiro, sintetizar
+    from .gravacao import transcrever
+    v = cfg["voz"]
+    for k, t in enumerate((tom, TOM_CURTO_EN, TOM_CURTO_EN)):
+        try:
+            sintetizar(texto, v.get("gemini_voz", "Puck"), t, wav)
+        except Exception as e:
+            log.warning("Gemini indisponível (%s)", e)
+            break
+        aparar_fora_do_roteiro(wav, texto)          # só sobra antes/depois: cortar aí é seguro
+        erros = problemas(transcrever(wav), texto, cfg)
+        if not erros:
+            if k:
+                log.info("narração aprovada na tentativa %d", k + 1)
+            return "gemini"
+        log.warning("narração REPROVADA (tentativa %d): %s — refazendo", k + 1, "; ".join(erros))
+    # voz reserva: não recebe instrução de estilo, então não tem como ler instrução
+    from .voz import escolher_motor, narrar
+    wav.unlink(missing_ok=True)
+    pasta_tmp = tmp or wav.parent
+    m = escolher_motor(cfg, pasta_tmp, [x for x in v["motor"] if x != "gemini"])
+    narrar(texto, cfg, wav, m)
+    log.warning("narração com a voz reserva (%s) para não arriscar instrução lida", m)
+    return m
