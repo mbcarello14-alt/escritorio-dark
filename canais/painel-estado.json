@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-14T23:57:03Z",
+  "atualizado_em": "2026-11-15T10:14:50Z",
   "ativos": {
     "narrador": [
       "Longo Marca-Página: Machado de Assis"
@@ -123,8 +123,8 @@
     }
   ],
   "imagens": {
-    "hoje": 95,
-    "neurons": 9905,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
