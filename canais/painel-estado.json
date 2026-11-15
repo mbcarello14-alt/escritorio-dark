@@ -1,17 +1,18 @@
 {
-  "atualizado_em": "2026-11-15T15:39:40Z",
+  "atualizado_em": "2026-11-15T15:40:06Z",
   "ativos": {
-    "diretor_visual": [
-      "Mapeado: Sócrates, Platão ou Aristóteles? Como o ENEM cobra"
-    ],
-    "seo": [
-      "Mapeado: Sócrates, Platão ou Aristóteles? Como o ENEM cobra"
-    ],
-    "thumbnail": [
-      "Mapeado: Sócrates, Platão ou Aristóteles? Como o ENEM cobra"
+    "narrador": [
+      "Mapeado: Filosofia no ENEM: Sócrates, Platão ou Aristóteles?",
+      "Longo Marca-Página: Machado de Assis"
     ],
     "ilustrador": [
-      "Longo Marca-Página: Machado de Assis"
+      "Mapeado: Filosofia no ENEM: Sócrates, Platão ou Aristóteles?"
+    ],
+    "editor": [
+      "Mapeado: Filosofia no ENEM: Sócrates, Platão ou Aristóteles?"
+    ],
+    "clipador": [
+      "Mapeado: Filosofia no ENEM: Sócrates, Platão ou Aristóteles?"
     ]
   },
   "proximos": [
@@ -50,9 +51,9 @@
       "dia": "2026-11-19",
       "rotulo": "quinta 19/11 17h00",
       "publicar_em_utc": "2026-11-19T20:00:00Z",
-      "etapa": "producao_json",
-      "etapa_txt": "🎨 planejando cenas, título e thumbnail",
-      "titulo": "Sócrates, Platão ou Aristóteles? Como o ENEM cobra",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "Filosofia no ENEM: Sócrates, Platão ou Aristóteles?",
       "url": ""
     },
     {

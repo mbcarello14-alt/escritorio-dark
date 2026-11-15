@@ -1,0 +1,12 @@
+{
+  "texto": "NOME NÃO BASTA",
+  "cena": "three big friendly marker doodle busts of ancient Greek philosophers in a row (bearded man, man with long beard, man with a wreath), each with a large orange question mark above the head, placed on the right side of the frame, empty white space on the left",
+  "imagem_busca": "ancient Greek philosophers Socrates Plato Aristotle statues",
+  "layout": "esquerda",
+  "alternativa": {
+    "texto": "EUDAIMONIA",
+    "cena": "one huge hand-drawn orange and dark blue marker doodle of a winding chain of arrows ending in a glowing star on a podium, with a small bearded Greek philosopher doodle pointing at it, placed on the left side, empty white space on the right",
+    "imagem_busca": "Aristotle bust Greek philosopher marble",
+    "layout": "direita"
+  }
+}
