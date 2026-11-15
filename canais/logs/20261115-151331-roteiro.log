@@ -1,0 +1,156 @@
+comando: /roteiro canais/vestibular/videos/2026-11-19
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-19 && ls && cat estado.json && cat 01-pauta.md && head -c 1500 pautas.json"}
+💬 Ideia 2 é a de Filosofia antiga, e a `nota_miguel` está vazia. Vou começar pelo dossiê.
+🔧 Agent {"description": "Dossiê Filosofia antiga", "subagent_type": "pesquisador-vestibular", "prompt": "Etapa 2 (dossiê). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/202
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+💬 O pesquisador está montando o dossiê. Aguardo a conclusão dele antes de seguir para o roteiro.
+🔧 WebSearch {"query": "questão ENEM Aristóteles \"o homem é por natureza um animal político\" cidade enunciado gabarito", "mode": "standard"}
+🔧 WebSearch {"query": "questão ENEM Sócrates maiêutica ironia enunciado \"Sócrates\" prova ciências humanas resolvida", "mode": "standard"}
+🔧 WebSearch {"query": "questão ENEM Platão alegoria da caverna enunciado gabarito comentado filosofia", "mode": "standard"}
+🔧 WebSearch {"query": "ENEM 2026 filosofia questões ciências humanas Aristóteles Platão gabarito comentado", "mode": "standard"}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2025/primeiro-dia/o-texto-apresenta-estrutura-de-governo-da-cidade-ideal-pensada-por-platao-que-postula-uma-indisso/", "prompt": "Transcreva 
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2020/primeiro-dia/no-fragmento-aristoteles-promove-uma-reflexao-que-associa-dois-elementos-essenciais-discussao/", "prompt": "Transcreva fiel
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2017/primeiro-dia/uma-conversacao-de-tal-natureza-transforma-o-ouvinte-o-contato-de-socrates-paralisa-e-embaraca-lev/", "prompt": "Transcreva
+🔧 WebFetch {"url": "https://www.tnh1.com.br/tnh1-variedades/esses-2-filosofos-sao-as-figuras-que-mais-aparecem-no-enem/", "prompt": "Quais filósofos mais aparecem no ENEM, qual a fonte do levantamento, período a
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=25945", "prompt": "Transcreva fielmente o enunciado completo (texto-base com fonte, comando e as cinco alternativas A-E), o gabarito e o ano/caderno."}
+🔧 WebSearch {"query": "Enem 2017 questão 66 \"Uma conversação de tal natureza transforma o ouvinte\" Sócrates Bréhier alternativas", "mode": "standard"}
+🔧 WebSearch {"query": "Enem 2025 questão 82 Platão \"cidade justa é governada pelos filósofos\" Chauí alternativas", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.vestibulandoweb.com.br/questoes/enem-2026-questao-caracteristicas-morais-helenismo-resolucao/amp/", "prompt": "Qual é o enunciado (texto-base, comando, alternativas), o gabarito e
+🔧 WebFetch {"url": "https://diariodonordeste.verdesmares.com.br/ceara/enem-2026-prova-de-ciencias-humanas-tem-modelo-inovador-e-destaque-para-protagonismo-indigena-1.3804279", "prompt": "O que os professores diz
+🔧 WebSearch {"query": "quantas questões de filosofia caem no ENEM por ano levantamento filosofia antiga Platão Aristóteles Sócrates percentual", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest segunda fase filosofia Platão Aristóteles Sócrates questão prova Unicamp filosofia antiga", "mode": "standard"}
+🔧 WebFetch {"url": "https://portal.estrategia.com/vestibular-e-enem/enem/o-que-esperar-de-filosofia-no-enem/", "prompt": "Extraia tabelas/números de questões de Filosofia por ano do ENEM, filósofos e temas mais 
+🔧 WebFetch {"url": "https://plato.stanford.edu/entries/socrates/", "prompt": "Resuma em português: elenchus (método socrático), a afirmação de ignorância, a questão socrática (Sócrates não deixou escritos; fonte
+🔧 WebFetch {"url": "https://plato.stanford.edu/entries/aristotle-ethics/", "prompt": "Resuma em português: eudaimonia como fim último, função (ergon) humana, virtude de caráter como disposição (hexis) e mediania
+🔧 WebFetch {"url": "https://plato.stanford.edu/entries/plato-ethics-political/", "prompt": "Resuma em português: A República, a alma tripartida, as quatro virtudes cardeais (sabedoria, coragem, temperança, justi
+🔧 WebFetch {"url": "https://plato.stanford.edu/entries/plato-republic/", "prompt": "Resuma em português: alma tripartida (razão, espírito, apetite), cidade com três classes, virtudes cardeais (sabedoria, coragem
+🔧 WebFetch {"url": "https://plato.stanford.edu/entries/aristotle-politics/", "prompt": "Resuma em português: a cidade (polis) como comunidade que visa o bem mais elevado, o ser humano como animal político por na
+🔧 WebSearch {"query": "Matriz de Referência ENEM Ciências Humanas competência filosofia Inep PDF \"Matriz de Referência\" ENEM", "mode": "standard", "allowed_domains": ["gov.br", "inep.gov.br"]}
+🔧 WebSearch {"query": "Enem 2015 PPL questão 21 Platão caverna \"teoria do conhecimento\" alternativas enunciado \"A República\"", "mode": "standard"}
+🔧 WebFetch {"url": "https://download.inep.gov.br/enem/filosofia_no_enem_2012-2018.pdf", "prompt": "Extraia números: quantos itens de filosofia/ciências humanas analisados, distribuição por período (antiga, medie
+❌ read ECONNRESET
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2015-segunda-aplicacao/primeiro-dia/suponha-homens-numa-morada-subterranea-em-forma-de-caverna-cuja-entrada-aberta-luz-se-estende/", "prompt"
+🔧 WebFetch {"url": "https://download.inep.gov.br/enem/filosofia_no_enem_2012-2018.pdf", "prompt": "Extraia números: quantos itens analisados, distribuição por período e por autor (Platão, Aristóteles, Sócrates),
+❌ unable to verify the first certificate
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/questao-82-caderno-azul-do-enem-ppl-2019/", "prompt": "Resuma: ano/caderno, tema, comando, se o filósofo é nomeado no comando ou só na fonte, gabarito. Citaçõe
+🔧 WebSearch {"query": "Inep \"Filosofia no Enem 2012-2018\" análise cobertura itens Platão Aristóteles Sócrates resultados", "mode": "standard"}
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/?p=43169", "prompt": "Confirme o enunciado da questão 82 do ENEM 2025 caderno azul: comando, alternativas e gabarito, e a fonte do texto-base."}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/02-dossie.md", "content": "# Dossiê — Mapeado — quinta 19/11/2026, 17h00\n**Tema:** Sócrates, Platã
+💬 Escrevi o dossiê em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/02-dossie.md`. As letras dos gabaritos vieram de sites de cursinho (Descomplica e Plataforma Assaad), não do caderno oficial do Inep. O checador deve abrir o caderno antes de pôr qualquer enunciado na tela.
+
+**Questão para o fecho:** ENEM 2020, 1º dia, caderno azul, questão 77, sobre Aristóteles. Tenho o enunciado completo (texto da *Política*, comando e as cinco alternativas). O gabarito é A ("Ética e política, pois conduzem à eudaimonia"). A letra veio de uma só fonte lida. A questão es
+🔧 Agent {"description": "Roteiro Filosofia antiga", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19. Leia esta
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/01-pauta.md"}
+💬 O roteirista está escrevendo. Aguardo a conclusão dele para seguir com a checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "limit": 60}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/03-roteiro.md", "content": "# Roteiro: Mapeado, quinta 19/11/2026, 17h00\n\n**Título provisório:** 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Sócrates, Platão ou Aristóteles? Como o EN
+💬 O roteiro de Filosofia antiga (Sócrates, Platão e Aristóteles) está pronto. Não rodei nenhuma verificação: a contagem de palavras foi feita à mão e não testei se o `roteiro.json` é um JSON válido.
+
+- **Título provisório:** "Sócrates, Platão ou Aristóteles? Como o ENEM cobra"
+- **Tese:** a banca costuma entregar o nome do filósofo; a pegadinha está no conceito, porque a alternativa certa usa a palavra-chave do filósofo (método dialético, ética e poder, eudaimonia), não o nome.
+- **Tamanho:** 1.872 palavras em 11 blocos, cerca de 12 min e 30 s. Isso fica acima dos 12 minutos do briefing, mas den
+🔧 Agent {"description": "Checagem do roteiro", "subagent_type": "checador", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19. Cheque 03-roteiro.md/roteir
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/02-dossie.md"}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2020/primeiro-dia/no-fragmento-aristoteles-promove-uma-reflexao-que-associa-dois-elementos-essenciais-discussao/", "prompt": "Transcreva o te
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2025/primeiro-dia/o-texto-apresenta-estrutura-de-governo-da-cidade-ideal-pensada-por-platao-que-postula-uma-indisso/", "prompt": "Transcreva 
+🔧 Agent {"description": "Originalidade do roteiro", "subagent_type": "guardiao-originalidade", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19. Avalie 0
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2017/primeiro-dia/uma-conversacao-de-tal-natureza-transforma-o-ouvinte-o-contato-de-socrates-paralisa-e-embaraca-lev/", "prompt": "Transcreva
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/03-roteiro.md"}
+💬 Mandei a checagem de fatos e a análise de originalidade em paralelo. Aguardo os dois retornos.
+🔧 WebFetch {"url": "https://plato.stanford.edu/entries/aristotle/", "prompt": "Does the entry say Aristotle studied/was a student at Plato's Academy, and at what age; and dates of birth/death? Quote briefly."}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/03-roteiro.md", "limit": 40}
+🔧 WebFetch {"url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf", "prompt": "Encontre a questão 77 (Aristóteles, Política) e transcreva comando e alternativas."}
+❌ read ECONNRESET
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/03-roteiro.md", "limit": 40}
+🔧 WebFetch {"url": "https://plato.stanford.edu/entries/plato-republic/", "prompt": "Describe the allegory of the cave in Book VII (prisoners, shadows, one freed who ascends). Also: Republic's view that philosoph
+🔧 WebFetch {"url": "https://plato.stanford.edu/entries/aristotle-politics/", "prompt": "Does it say democracy is a deviant constitution and politeia is the correct form of rule by the many? And does Aristotle cr
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-10-29/03-roteiro.md", "limit": 40}
+🔧 WebFetch {"url": "https://plato.stanford.edu/entries/plato/", "prompt": "Does it describe the allegory of the cave (Republic VII): prisoners watching shadows, one freed who ascends and sees the sun? Does it me
+🔧 WebFetch {"url": "https://www.britannica.com/topic/allegory-of-the-cave", "prompt": "Describe the allegory of the cave and which book of the Republic it appears in."}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/05-originalidade.md", "content": "# Originalidade: Mapeado, quinta 19/11/2026 (Filosofia antiga)\n\
+💬 O semáforo é 🟡 (ajustar). O roteiro tem uma tese própria boa, mas a voz do Miguel não aparece. E o esqueleto repete o dos últimos vídeos. Escrevi `05-originalidade.md` com tudo isso. Para comparar, li os roteiros de 10/11, 17/11 e 29/10.
+
+**Notas**
+- **Variação (5):** a sequência é a mesma de 10/11, 17/11 e 29/10. Começa com um gancho, depois a história de base, os ramos, a questão, o "Pausa e printa" com o mapa completo, a questão final e o fechamento. O "rodapé de três passos" é a "pergunta única" de 17/11 com outro nome. A chamada "Se você revisa melhor vendo o mapa nascer no quadro..." é q
+💬 Falta o retorno do checador. As mudanças de originalidade vão junto com as correções dele, numa única volta ao roteirista.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/04-checagem.md", "content": "# Checagem: Mapeado, quinta 19/11/2026\n\n**VEREDITO: CORRIGIR** (volt
+💬 **Veredito: CORRIGIR.** Escrevi a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/04-checagem.md`.
+
+Os fatos centrais estão certos. O que precisa mudar é pouco:
+
+- **Afirmação falsa no bloco 4:** "tudo o que sabemos de Sócrates passou pela mão de Platão" está errado. Xenofonte e Aristófanes também são fontes, segundo o dossiê. Sugeri "boa parte do que sabemos".
+- **As três questões do ENEM batem com o Descomplica:** o número, o caderno azul e o gabarito conferem para 2020 q.77 (A), 2025 q.82 (E) e 2017 q.66 (B). O texto de Chauí, que o roteiro
+🔧 Agent {"description": "Revisão do roteiro", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19. Leia 04-checage
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/04-checagem.md"}
+💬 O roteirista está aplicando as correções do checador e do guardião. Quando ele terminar, confiro as chamadas de engajamento e o nicho, valido o JSON e atualizo o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/05-originalidade.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Sócrates, Platão ou Aristóteles? Como o EN
+💬 Agora o 03-roteiro.md.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/03-roteiro.md", "content": "# Roteiro: Mapeado, quinta 19/11/2026, 17h00 (versão 2, após checagem e
+💬 Revisei o roteiro com todas as correções do checador e as mudanças de maior impacto do guardião. O texto ficou um pouco menor: cerca de 1.846 palavras, uns 12 min 18 s. Ficou abaixo do teto de 12 min 30 s do checador, mas um pouco acima de 12 minutos redondos. A contagem é manual, e não rodei nenhum validador no `roteiro.json`; montei o arquivo com cuidado, mas falta confirmar que é JSON válido.
+
+**Correções do checador**
+- **Bloco 4:** agora diz "boa parte do que sabemos de Sócrates veio de Platão" e "Sócrates se afasta dos dois".
+- **Bloco 8:** a democracia aparece como forma desviada do gov
+🔧 Bash {"command": "python3 -c \"\nimport json\nd=json.load(open('roteiro.json'))\nprint(d['titulo_provisorio'],d['semaforo'],len(d['blocos']))\nfor i,b in enumerate(d['blocos'],1):\n    t=b['texto'].lower()
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('roteiro.json'));print(d['blocos'][0]['texto'][-700:])\""}
+💬 O roteiro de Filosofia antiga (Sócrates, Platão e Aristóteles) está pronto em `roteiro.json`, com o semáforo em 🟡. Não rodei validador, mas o JSON carregou sem erro. Atualizei o `estado.json` com `titulo`: "Sócrates, Platão ou Aristóteles? Como o ENEM cobra".
+
+Escolhi a ideia 2 (Filosofia) porque o `estado.json` tem `ideia: 2`. O roteiro tem 11 blocos, cerca de 12 min 18 s, uns 18 s acima dos 12 minutos do briefing e dentro da margem de 10%.
+
+- **Checagem:** o checador mandou corrigir. O roteirista aplicou tudo numa volta só, e não rodei uma segunda checagem depois dela.
+- **Originalidade:** o
+
+=== resultado: success | turnos 3 | 13s | erro=False
+O pesquisador está montando o dossiê. Aguardo a conclusão dele antes de seguir para o roteiro.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O roteirista está escrevendo. Aguardo a conclusão dele para seguir com a checagem.
+
+=== resultado: success | turnos 3 | 19s | erro=False
+Mandei a checagem de fatos e a análise de originalidade em paralelo. Aguardo os dois retornos.
+
+=== resultado: success | turnos 1 | 1s | erro=False
+Falta o retorno do checador. As mudanças de originalidade vão junto com as correções dele, numa única volta ao roteirista.
+
+=== resultado: success | turnos 2 | 23s | erro=False
+O roteirista está aplicando as correções do checador e do guardião. Quando ele terminar, confiro as chamadas de engajamento e o nicho, valido o JSON e atualizo o `estado.json`.
+
+=== resultado: success | turnos 3 | 25s | erro=False
+O roteiro de Filosofia antiga (Sócrates, Platão e Aristóteles) está pronto em `roteiro.json`, com o semáforo em 🟡. Não rodei validador, mas o JSON carregou sem erro. Atualizei o `estado.json` com `titulo`: "Sócrates, Platão ou Aristóteles? Como o ENEM cobra".
+
+Escolhi a ideia 2 (Filosofia) porque o `estado.json` tem `ideia: 2`. O roteiro tem 11 blocos, cerca de 12 min 18 s, uns 18 s acima dos 12 minutos do briefing e dentro da margem de 10%.
+
+- **Checagem:** o checador mandou corrigir. O roteirista aplicou tudo numa volta só, e não rodei uma segunda checagem depois dela.
+- **Originalidade:** o guardião deu 🟡. As mudanças de maior impacto foram aplicadas, sem opinião inventada do Miguel.
+- **Engajamento:** conferi eu mesmo e as três chamadas estão no roteiro.
+  - **Bloco 1:** pede inscrição e like. O comentário veio como pergunta ("qual desses três nomes te dá branco na prova").
+  - **Bloco 6:** pergunta nos comentários, com inscrição e like.
+  - **Bloco 11:** inscrição, like e comentário.
+- **Nicho:** o roteiro é aula para prova, como o Mapeado pede.
+
+**Pendências antes da produção**
+- **`nota_miguel` vazia:** o roteiro não tem opinião do Miguel. A `pergunta_para_miguel` pede qual dos três filósofos ele mais viu gente errar e se ele aprova o ângulo ajustado. A pauta dizia que o enunciado traz um trecho sem o nome do filósofo, mas nas questões conferidas o nome quase sempre aparece. O ângulo agora é "a pegadinha é o conceito, não o nome".
+- **Questões do ENEM:** as de 2020 (q. 77), 2017 (q. 66) e 2025 (q. 82) conferem em sites de cursinho. Não consegui abrir o caderno oficial do Inep, então o texto literal só deve ir à tela depois dessa conferência.
+- **Caverna:** a descrição da alegoria ainda não tem fonte aberta. O roteiro cita a *República*, livro VII, 514a–520a, e falta conferir numa tradução.
+- **Imagens:** os links e as licenças das obras de David e Rafael no Wikimedia Commons não foram conferidos.
+codigo de saida: 0
