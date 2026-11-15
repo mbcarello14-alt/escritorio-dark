@@ -400,6 +400,129 @@ if (DES) {
   window.janelaDesafio = [];
   for (let t = 0; t < dur; t += 1 / 30) if (dentro(t)) window.janelaDesafio.push(+t.toFixed(3));
 }
+// ---------------------------------------------------------------- jogos 2D por cima da cena ("jogo" no roteiro)
+// encaixe: um item cruza a tela rapidíssimo em várias passadas e encaixa no molde SÓ num quadro (momento_s);
+// print: uma esteira de itens passa voando por uma moldura; o espectador tira print e comenta o que saiu.
+const JOGO = roteiro.jogo || null;
+const MEDIDAS = { livro: [300, 430], caderno: [330, 440], caneta: [78, 520], lingote: [420, 180], moeda: [280, 280], carta: [320, 440] };
+function formaItem(c, tipo, w, h, m = 0) {
+  c.beginPath();
+  if (tipo === "moeda") c.arc(m + w / 2, m + h / 2, w / 2, 0, Math.PI * 2);
+  else if (tipo === "lingote") { const k = w * 0.14; c.moveTo(m + k, m); c.lineTo(m + w - k, m); c.lineTo(m + w, m + h); c.lineTo(m, m + h); c.closePath(); }
+  else if (tipo === "caneta") c.roundRect(m, m, w, h, w / 2);
+  else c.roundRect(m, m, w, h, tipo === "livro" ? 10 : 22);
+}
+function quebra(c, txt, larg) {
+  const pal = String(txt || "").split(/\s+/), lin = []; let at = "";
+  for (const p of pal) { const t2 = at ? at + " " + p : p; if (c.measureText(t2).width > larg && at) { lin.push(at); at = p; } else at = t2; }
+  if (at) lin.push(at); return lin;
+}
+function desenharItem(it, tipo) {
+  const [w, h] = it.tam || MEDIDAS[tipo] || MEDIDAS.carta;
+  const tela = document.createElement("canvas"); tela.width = w; tela.height = h;
+  const c = tela.getContext("2d"), base = cor(it.cor || ({ lingote: "dourado", moeda: "dourado", caneta: "#2457C5", caderno: "#E85D75" }[tipo] || "#7A1F2B"));
+  formaItem(c, tipo, w, h); c.save(); c.clip();
+  const gr = c.createLinearGradient(0, 0, w, h); gr.addColorStop(0, base); gr.addColorStop(1, new THREE.Color(base).multiplyScalar(0.62).getStyle());
+  c.fillStyle = gr; c.fillRect(0, 0, w, h);
+  c.fillStyle = "rgba(255,255,255,.18)"; c.fillRect(0, 0, w, h * 0.08);
+  const escrever = (txt, y, tam, corT = "#fff", maxL = w * 0.82) => {
+    if (!txt) return y; c.font = `800 ${tam}px Poppins, sans-serif`; c.textAlign = "center"; c.textBaseline = "middle"; c.fillStyle = corT;
+    for (const l of quebra(c, txt, maxL)) { c.fillText(l, w / 2, y); y += tam * 1.15; } return y;
+  };
+  if (tipo === "livro") {
+    c.fillStyle = "rgba(0,0,0,.28)"; c.fillRect(0, 0, 30, h);
+    c.strokeStyle = "rgba(255,225,150,.85)"; c.lineWidth = 5; c.strokeRect(46, 22, w - 68, h - 44);
+    const tam = (it.texto || "").length > 18 ? 34 : 42;
+    const y = escrever(it.texto, h * 0.36, tam); escrever(it.sub, Math.max(y + 18, h * 0.76), 24, "rgba(255,240,210,.95)");
+  } else if (tipo === "caderno") {
+    c.fillStyle = "#FFFDF6"; c.fillRect(70, 60, w - 100, h - 120);
+    c.strokeStyle = "#9CC3E6"; c.lineWidth = 3; for (let y = 110; y < h - 70; y += 34) { c.beginPath(); c.moveTo(80, y); c.lineTo(w - 40, y); c.stroke(); }
+    c.fillStyle = "#555"; for (let y = 40; y < h - 20; y += 44) { c.beginPath(); c.arc(30, y, 11, 0, 7); c.fill(); }
+    if (it.texto) { c.fillStyle = base; c.fillRect(90, 80, w - 140, 70); escrever(it.texto, 116, 30); }
+  } else if (tipo === "caneta") {
+    c.fillStyle = "#E9EEF5"; c.fillRect(0, h * 0.8, w, h * 0.2);
+    c.fillStyle = "#333"; c.beginPath(); c.moveTo(w * 0.3, h * 0.93); c.lineTo(w * 0.7, h * 0.93); c.lineTo(w / 2, h); c.fill();
+    c.fillStyle = "rgba(255,255,255,.35)"; c.fillRect(w * 0.2, h * 0.05, w * 0.15, h * 0.7);
+    c.fillStyle = "#1B2F6B"; c.fillRect(w * 0.62, h * 0.04, w * 0.14, h * 0.32);
+  } else if (tipo === "lingote") {
+    c.fillStyle = "rgba(255,255,255,.35)"; c.beginPath(); c.moveTo(w * 0.14, 0); c.lineTo(w * 0.86, 0); c.lineTo(w * 0.8, h * 0.18); c.lineTo(w * 0.2, h * 0.18); c.fill();
+    escrever(it.texto || "OURO 999,9", h * 0.58, 40, "#7A5A00");
+  } else if (tipo === "moeda") {
+    c.strokeStyle = "rgba(122,90,0,.8)"; c.lineWidth = 10; c.beginPath(); c.arc(w / 2, h / 2, w / 2 - 22, 0, 7); c.stroke();
+    escrever(it.texto || "$", h / 2, it.texto && it.texto.length > 2 ? 46 : 110, "#7A5A00");
+  } else {   // carta
+    c.strokeStyle = "rgba(255,255,255,.8)"; c.lineWidth = 6; formaItem(c, "carta", w - 30, h - 30, 15); c.stroke();
+    if (it.emoji) escrever(it.emoji, h * 0.3, 110);
+    const y = escrever(it.texto, it.emoji ? h * 0.58 : h * 0.42, (it.texto || "").length > 10 ? 44 : 62); escrever(it.sub, y + 14, 26, "rgba(255,255,255,.9)");
+  }
+  c.restore();
+  c.lineWidth = 6; c.strokeStyle = "rgba(0,0,0,.55)"; formaItem(c, tipo, w - 6, h - 6, 3); c.stroke();
+  const tex = new THREE.CanvasTexture(tela); tex.colorSpace = THREE.SRGBColorSpace;
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, depthTest: false, transparent: true }));
+  sp.scale.set(w, h, 1); sp.renderOrder = 12; sp.userData.w = w; sp.userData.h = h; return sp;
+}
+function desenharMolde(tipo, w, h, { cor: corM = "#ffffff", vermelho = false } = {}) {
+  const m = 26, tela = document.createElement("canvas"); tela.width = w + 2 * m; tela.height = h + 2 * m;
+  const c = tela.getContext("2d");
+  if (vermelho) {   // moldura vermelha "à mão" (modo print)
+    c.strokeStyle = "#EA3323"; c.lineWidth = 16; c.lineJoin = "round"; formaItem(c, tipo, w + 20, h + 20, m - 10); c.stroke();
+  } else {          // molde vazado do tamanho EXATO do item
+    formaItem(c, tipo, w, h, m); c.fillStyle = "rgba(0,0,0,.30)"; c.fill();
+    c.lineWidth = 12; c.strokeStyle = "rgba(0,0,0,.6)"; c.stroke();
+    c.setLineDash([26, 16]); c.lineWidth = 7; c.strokeStyle = corM; c.stroke();
+  }
+  const tex = new THREE.CanvasTexture(tela); tex.colorSpace = THREE.SRGBColorSpace;
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, depthTest: false, transparent: true }));
+  sp.scale.set(tela.width, tela.height, 1); sp.renderOrder = 11; return sp;
+}
+let jogoQuadro = null;
+if (JOGO) {
+  const r3 = (() => { let x = 97; return () => ((x = (x * 16807) % 2147483647) / 2147483647); })();
+  const SX = (JOGO.pos || [0, 0.12])[0] * W / 2, SY = (JOGO.pos || [0, 0.12])[1] * H / 2;
+  const tipo = JOGO.item || (JOGO.tipo === "print" ? "carta" : "livro");
+  const ti = JOGO.inicio_s ?? 1, tf = JOGO.fim_s ?? (roteiro.duracao || 20);
+  if (JOGO.tipo === "print") {
+    const itens = (JOGO.itens || []).map(it => desenharItem(it, tipo));
+    const w = itens[0]?.userData.w || 320, h = itens[0]?.userData.h || 440, passo = w + 34, total = passo * itens.length;
+    itens.forEach(sp => hud.add(sp));
+    const sombra = [-1, 1].map(k => { const m = new THREE.Mesh(new THREE.PlaneGeometry(W, h + 80), new THREE.MeshBasicMaterial({ color: 0x000000, transparent: true, opacity: 0.38, depthTest: false }));
+      m.renderOrder = 13; m.position.set(SX + k * (w / 2 + 22 + W / 2), SY, 0); hud.add(m); return m; });
+    const moldura = desenharMolde(tipo, w, h, { vermelho: true }); moldura.position.set(SX, SY, 0); moldura.renderOrder = 14; hud.add(moldura);
+    const vel = JOGO.velocidade || 2600;
+    jogoQuadro = t => {
+      const tt = Math.max(0, t - ti);
+      const desl = tt < 0.6 ? vel * tt * tt / 1.2 : vel * (tt - 0.3) + 160 * Math.sin(tt * 2.3);   // arranca e oscila de leve
+      itens.forEach((sp, k) => {
+        let x = ((k * passo - desl) % total + total) % total; if (x > total / 2) x -= total;
+        sp.position.set(SX + x, SY, 0); sp.visible = Math.abs(x) < W / 2 + w;
+      });
+    };
+  } else {   // encaixe
+    const item = desenharItem(JOGO, tipo), w = item.userData.w, h = item.userData.h;
+    const molde = desenharMolde(tipo, w, h); molde.position.set(SX, SY, 0); hud.add(molde); hud.add(item);
+    const alvo = Math.round((JOGO.momento_s ?? (ti + tf) / 2) * 30) / 30, dAlvo = JOGO.duracao_passada || 1.3, L = 1250;
+    const passadas = [], menor = Math.min(w, h), maior = Math.max(w, h);
+    const encher = (a, b, perto) => {   // passadas que NÃO encaixam (algumas raspando, para dar aflição)
+      const G = b - a; if (G <= 0.05) return; const n = Math.max(1, Math.round(G / (JOGO.ritmo || 0.62)));
+      for (let k = 0; k < n; k++) {
+        const quase = perto && (k === n - 1 || r3() < 0.3);
+        const mag = quase ? Math.max(42, menor * (0.2 + r3() * 0.12)) : Math.max(110, menor * 0.6) + r3() * maior * 1.2;
+        passadas.push({ t0: a + k * G / n, d: G / n, ang: r3() * Math.PI * 2, off: Math.min(380, mag) * (r3() < 0.5 ? -1 : 1) });
+      }
+    };
+    encher(ti, alvo - dAlvo / 2, true);
+    passadas.push({ t0: alvo - dAlvo / 2, d: dAlvo, ang: (JOGO.angulo ?? (r3() * 360)) * Math.PI / 180, off: 0 });
+    encher(alvo + dAlvo / 2, tf, true);
+    window.momentoEncaixe = alvo;
+    jogoQuadro = t => {
+      const ps = passadas.find(q => t >= q.t0 && t < q.t0 + q.d);
+      item.visible = !!ps; if (!ps) return;
+      const dx = Math.cos(ps.ang), dy = Math.sin(ps.ang), u = -L + 2 * L * (t - ps.t0) / ps.d;
+      item.position.set(SX + dx * u - dy * ps.off, SY + dy * u + dx * ps.off, 0);
+    };
+  }
+}
+
 // partículas para "explodir"
 const particulas = Array.from({ length: 40 }, () => { const p = caixa(0.25, 0.25, 0.25, "#ffd166"); p.visible = false; cena.add(p); return p; });
 
@@ -542,6 +665,7 @@ window.quadro = function (t) {
       }
     }
   }
+  if (jogoQuadro) jogoQuadro(t);
   const tx = tremor ? Math.sin(t * 90) * tremor : 0, ty = tremor ? Math.cos(t * 77) * tremor : 0;
   camera.position.set(cam.pos[0] + tx, cam.pos[1] + ty, cam.pos[2]);
   camera.lookAt(cam.olha[0] + tx * 0.5, cam.olha[1] + ty * 0.5, cam.olha[2]);

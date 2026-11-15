@@ -121,3 +121,30 @@ Sons: `pop` para peças pequenas, `boom` quando algo grande `cai`, `ding` já ve
 
 Escala: a obra inteira cabe em x de −3 a 3 com a câmera padrão; para obras largas (estádio, cidade), afaste a câmera
 (`pos` [0, 10, 24]) e use `orbitar` com `raio` 20–26.
+
+## Jogos de pausa e de print (`"jogo"`) — substituem o antigo `desafio`
+Dois jogos 2D por cima da cena (a cena 3D vira só o fundo; deixe poucos objetos, longe do centro). O motor desenha
+o item, o molde e o movimento sozinho; o agente escolhe o item, os textos e os tempos.
+
+**Encaixe** — um item cruza a tela rapidíssimo, várias vezes, em direções diferentes (algumas passadas raspando o molde,
+para dar aflição) e encaixa no molde do tamanho exato **num único quadro**. "Pause quando o livro encaixar no quadrado."
+```json
+"jogo": {"tipo": "encaixe", "item": "livro", "texto": "Dom Casmurro", "sub": "Machado de Assis", "cor": "#7A1F2B",
+         "pos": [0, 0.12], "inicio": {"fala": 1, "t": 1.0}, "momento": {"fala": 3, "t": 0.8}}
+```
+- `item`: `livro` (com `texto`/`sub` na capa), `caderno` (`texto` na etiqueta), `caneta`, `lingote` (barra de ouro, `texto`),
+  `moeda` (`texto` = símbolo), `carta`. `cor` opcional. `pos` = centro do molde na tela (y 0 a 0,2).
+- `momento` = o quadro do encaixe (fala + segundos dentro dela). Ponha no meio do vídeo, **nunca** na primeira nem na
+  última fala, e não fale nada que entregue o momento. `ritmo` (opcional, padrão 0,62 s) = duração de cada passada.
+
+**Print** — uma esteira de itens passa voando por uma moldura vermelha; o espectador tira print e comenta o que saiu.
+```json
+"jogo": {"tipo": "print", "item": "livro", "pos": [0, 0.1], "inicio": {"fala": 2, "t": 0},
+         "itens": [{"texto": "Dom Casmurro", "sub": "Machado de Assis", "cor": "#7A1F2B"}, ...]}
+```
+- 8 a 24 itens, todos do mesmo `item` (`livro` ou `carta`; a `carta` aceita `emoji`, `texto`, `sub`, `cor`).
+- A esteira roda do `inicio` até o fim do vídeo (`velocidade` padrão 2600 px/s).
+
+Textos de tela do jogo (objeto `texto` com `pos` [0, 0.72]): curtos e em caixa alta ("PAUSE QUANDO ENCAIXAR!",
+"TIRE PRINT AGORA!"). Falas: 4 a 6, 40 a 70 palavras: desafio na fala 1, provocação no meio ("quase ninguém consegue"),
+isca no fim ("Comenta EU CONSEGUI" / "Comenta o livro que saiu no seu print").

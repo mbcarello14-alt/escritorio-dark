@@ -1,19 +1,17 @@
 {
   "canal": "livros",
-  "titulo": "Leitor atento: pause com os 3 livros no quadro 📚",
-  "descricao": "Desafio de atenção do Marca-Página: os três livros só se encontram dentro do quadro uma vez.",
+  "titulo": "Tire print: qual livro saiu pra você? 📚",
+  "descricao": "Jogo do Marca-Página: tire print enquanto os livros passam e comente qual caiu no quadro.",
   "hashtags": [
-    "#desafio",
     "#livros",
-    "#booktok"
+    "#booktok",
+    "#desafio"
   ],
-  "legenda_reels": "Desafio de leitor atento: pause com os 3 livros dentro do quadro vermelho. Conseguiu? Comenta LEITOR 📚 #desafio #livros #booktok #leitura",
-  "isca": "Comenta LEITOR",
+  "legenda_reels": "Tire print enquanto os livros passam! Qual caiu no quadro vermelho? Comenta o livro 📚 #livros #booktok #leitura #desafio",
+  "isca": "Comenta LIVRO",
   "cenario": {
     "ceu": "#F6D6E8",
     "chao": "#B7D99A",
-    "cidade": false,
-    "arvores": 0,
     "nuvens": true,
     "sol": true
   },
@@ -25,130 +23,121 @@
     ],
     "olha": [
       0,
-      5.2,
+      3,
       0
     ]
   },
   "objetos": [
     {
-      "id": "desafio_txt",
+      "id": "tt",
       "tipo": "texto",
-      "texto": "LEITOR ATENTO:\nPAUSE COM OS 3\nNO QUADRO!",
+      "texto": "TIRE PRINT AGORA!\nQUAL LIVRO SAIU?",
       "pos": [
         0,
-        0.7
+        0.74
       ],
-      "tam": 3.1,
-      "cor": "#ffffff"
-    },
-    {
-      "id": "estante",
-      "tipo": "estante",
-      "pos": [
-        -2.6,
-        0,
-        -8
-      ],
-      "rot": 12,
-      "escala": 1.3
-    },
-    {
-      "id": "castelo",
-      "tipo": "castelo",
-      "pos": [
-        2.8,
-        0,
-        -10
-      ],
-      "escala": 1.3
-    },
-    {
-      "id": "torre",
-      "tipo": "torre",
-      "pos": [
-        4.8,
-        0,
-        -20
-      ],
-      "altura": 18,
-      "cor": "#C9B8E8"
-    },
-    {
-      "id": "livro_a",
-      "tipo": "livro",
-      "pos": [
-        0,
-        0,
-        0
-      ],
-      "escala": 0.95,
-      "cor": "#E63946"
-    },
-    {
-      "id": "livro_b",
-      "tipo": "livro",
-      "pos": [
-        0,
-        0,
-        0
-      ],
-      "escala": 0.95,
-      "cor": "#2A9D8F"
-    },
-    {
-      "id": "livro_c",
-      "tipo": "livro",
-      "pos": [
-        0,
-        0,
-        0
-      ],
-      "escala": 0.95,
-      "cor": "#F4A261"
+      "tam": 1.7
     }
   ],
-  "desafio": {
-    "moveis": [
-      "livro_a",
-      "livro_b",
-      "livro_c"
+  "jogo": {
+    "tipo": "print",
+    "item": "livro",
+    "pos": [
+      0,
+      0.05
     ],
-    "quadro": {
-      "pos": [
-        0,
-        0.22
-      ],
-      "larg": 0.56,
-      "alt": 0.2
+    "inicio": {
+      "fala": 1,
+      "t": 0.5
     },
-    "momento": {
-      "fala": 3,
-      "t": 2.2
-    }
+    "itens": [
+      {
+        "texto": "Dom Casmurro",
+        "sub": "Machado de Assis",
+        "cor": "#7A1F2B"
+      },
+      {
+        "texto": "Vidas Secas",
+        "sub": "Graciliano Ramos",
+        "cor": "#C0712B"
+      },
+      {
+        "texto": "1984",
+        "sub": "George Orwell",
+        "cor": "#2E3A59"
+      },
+      {
+        "texto": "O Pequeno Príncipe",
+        "sub": "Saint-Exupéry",
+        "cor": "#3C7DC4"
+      },
+      {
+        "texto": "O Cortiço",
+        "sub": "Aluísio Azevedo",
+        "cor": "#5E7D3A"
+      },
+      {
+        "texto": "Capitães da Areia",
+        "sub": "Jorge Amado",
+        "cor": "#B5452F"
+      },
+      {
+        "texto": "A Hora da Estrela",
+        "sub": "Clarice Lispector",
+        "cor": "#6D4C8F"
+      },
+      {
+        "texto": "Crime e Castigo",
+        "sub": "Dostoiévski",
+        "cor": "#3B3B3B"
+      },
+      {
+        "texto": "Dom Quixote",
+        "sub": "Cervantes",
+        "cor": "#A8892E"
+      },
+      {
+        "texto": "Iracema",
+        "sub": "José de Alencar",
+        "cor": "#2F8F7A"
+      },
+      {
+        "texto": "Memórias Póstumas de Brás Cubas",
+        "sub": "Machado de Assis",
+        "cor": "#8E3B5A"
+      },
+      {
+        "texto": "A Revolução dos Bichos",
+        "sub": "George Orwell",
+        "cor": "#C25E2A"
+      },
+      {
+        "texto": "Grande Sertão: Veredas",
+        "sub": "Guimarães Rosa",
+        "cor": "#4E6B2F"
+      },
+      {
+        "texto": "Cem Anos de Solidão",
+        "sub": "García Márquez",
+        "cor": "#B8862B"
+      }
+    ]
   },
   "falas": [
     {
-      "texto": "Desafio de leitor atento: pause o vídeo com os três livros dentro do quadro vermelho.",
-      "acoes": [
-        {
-          "t": 0.1,
-          "acao": "tremer",
-          "forca": 0.15,
-          "som": "whoosh"
-        }
-      ]
+      "texto": "Tire um print da tela agora, enquanto os livros passam voando."
     },
     {
-      "texto": "Cada um voa num ritmo diferente, igual àquela pilha que você jura que vai ler.",
-      "acoes": []
+      "texto": "O livro que ficar dentro do quadro vermelho é a sua próxima leitura."
     },
     {
-      "texto": "Eles só se encontram ali dentro uma única vez. Fica atento.",
-      "acoes": []
+      "texto": "Tem Machado, Clarice, Graciliano, Orwell, e uns que muita gente fingiu que leu na escola."
     },
     {
-      "texto": "Conseguiu? Se pausou com os três, comenta LEITOR.",
-      "acoes": []
+      "texto": "Saiu um que você já leu? Ou um que você largou na página dez?"
+    },
+    {
+      "texto": "Comenta o nome do livro que saiu no seu print. Comenta o livro!"
     }
   ]
 }

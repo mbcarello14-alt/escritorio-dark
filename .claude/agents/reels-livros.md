@@ -32,5 +32,8 @@ Leia a seção do formato em `pipeline/reels/FORMATO.md`. No Marca-Página: o mu
 - A obra cresce na tela a cada 2–4 s, com `construir` (alterne `cresce`, `sobe` e `cai`), poeira e a câmera girando (`orbitar`). O final mostra a obra inteira.
 - Os fatos de cada etapa seguem a regra de fonte (`01-fontes.md`).
 
+## Jogos de pausa e de print (`jogo` em `pipeline/reels/FORMATO.md`)
+Quando o `estado.json` pedir `"formato": "jogo"`, faça um reel de jogo: print com vários `livro` famosos ("Tire print: qual livro saiu? Comenta se você já leu") e encaixe com um `livro` famoso entrando no espaço da estante. O antigo `desafio` (3 objetos no quadro) não se usa mais.
+
 ## Movimento
 Antes de planejar animações (tempos, entradas, coreografia), leia `.claude/skills/motion-design/SKILL.md` (skill de motion design da LottieFiles) e aplique: entrada desacelerando, saída acelerando, um elemento herói por vez, os outros escalonados.

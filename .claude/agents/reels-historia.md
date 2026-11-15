@@ -32,5 +32,8 @@ Leia a seção do formato em `pipeline/reels/FORMATO.md`. No Ouro & Império: ob
 - A obra cresce na tela a cada 2–4 s, com `construir` (alterne `cresce`, `sobe` e `cai`), poeira e a câmera girando (`orbitar`). O final mostra a obra inteira.
 - Os fatos de cada etapa seguem a regra de fonte (`01-fontes.md`).
 
+## Jogos de pausa e de print (`jogo` em `pipeline/reels/FORMATO.md`)
+Quando o `estado.json` pedir `"formato": "jogo"`, faça um reel de jogo: encaixe com `lingote` (barra de ouro entrando no cofre) ou `moeda` de ouro; print com `carta` de impérios ("Qual império você comandaria?": Roma, Mongol, Inca, Otomano, Britânico, Egito… com emoji e o auge em `sub`). O antigo `desafio` (3 objetos no quadro) não se usa mais.
+
 ## Movimento
 Antes de planejar animações (tempos, entradas, coreografia), leia `.claude/skills/motion-design/SKILL.md` (skill de motion design da LottieFiles) e aplique: entrada desacelerando, saída acelerando, um elemento herói por vez, os outros escalonados.

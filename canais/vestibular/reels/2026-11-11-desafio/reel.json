@@ -1,21 +1,19 @@
 {
   "canal": "vestibular",
-  "titulo": "Teste de foco: pause com os 3 dentro do quadro ✏️",
-  "descricao": "Desafio de atenção do Mapeado antes de estudar: o lápis, o livro e o átomo só se encontram dentro do quadro uma vez.",
+  "titulo": "Pause quando a caneta encaixar ✏️ (quase ninguém consegue)",
+  "descricao": "Desafio de atenção do Mapeado: pause no quadro exato em que a caneta encaixa no molde.",
   "hashtags": [
+    "#enem",
     "#desafio",
-    "#foco",
     "#estudos"
   ],
-  "legenda_reels": "Teste de foco antes de estudar: pause com os 3 dentro do quadro vermelho. Conseguiu? Comenta FOCO ✏️ #desafio #foco #estudos #enem",
-  "isca": "Comenta FOCO",
+  "legenda_reels": "Pause quando a caneta encaixar no molde! Conseguiu? Comenta EU CONSEGUI ✏️ #enem #vestibular #estudos #desafio",
+  "isca": "Comenta EU CONSEGUI",
   "cenario": {
-    "ceu": "#9AD0F5",
-    "chao": "#86C06C",
-    "cidade": true,
-    "arvores": 3,
+    "ceu": "#DCEBFA",
+    "chao": "#F2EFE6",
     "nuvens": true,
-    "sol": true
+    "sol": false
   },
   "camera": {
     "pos": [
@@ -25,129 +23,55 @@
     ],
     "olha": [
       0,
-      5.2,
+      3,
       0
     ]
   },
   "objetos": [
     {
-      "id": "desafio_txt",
+      "id": "tt",
       "tipo": "texto",
-      "texto": "TESTE DE FOCO:\nPAUSE COM OS 3\nNO QUADRO!",
+      "texto": "PAUSE QUANDO A\nCANETA ENCAIXAR!",
       "pos": [
         0,
-        0.7
+        0.76
       ],
-      "tam": 3.1,
+      "tam": 1.7,
       "cor": "#ffffff"
-    },
-    {
-      "id": "escola",
-      "tipo": "predio",
-      "pos": [
-        2.6,
-        0,
-        -7
-      ],
-      "altura": 5,
-      "largura": 3.4,
-      "cor": "#F4A261"
-    },
-    {
-      "id": "lousa",
-      "tipo": "lousa",
-      "pos": [
-        -2.4,
-        0,
-        -6
-      ],
-      "rot": 15
-    },
-    {
-      "id": "torre",
-      "tipo": "torre",
-      "pos": [
-        -4.4,
-        0,
-        -17
-      ],
-      "altura": 22,
-      "cor": "#B8C4D6"
-    },
-    {
-      "id": "lapis",
-      "tipo": "lapis",
-      "pos": [
-        0,
-        0,
-        0
-      ],
-      "escala": 0.6
-    },
-    {
-      "id": "livro",
-      "tipo": "livro",
-      "pos": [
-        0,
-        0,
-        0
-      ],
-      "escala": 0.95,
-      "cor": "#3A86FF"
-    },
-    {
-      "id": "atomo",
-      "tipo": "atomo",
-      "pos": [
-        0,
-        0,
-        0
-      ],
-      "escala": 0.85
     }
   ],
-  "desafio": {
-    "moveis": [
-      "lapis",
-      "livro",
-      "atomo"
+  "jogo": {
+    "tipo": "encaixe",
+    "item": "caneta",
+    "pos": [
+      0,
+      0.08
     ],
-    "quadro": {
-      "pos": [
-        0,
-        0.22
-      ],
-      "larg": 0.56,
-      "alt": 0.2
+    "inicio": {
+      "fala": 1,
+      "t": 0.8
     },
     "momento": {
       "fala": 3,
-      "t": 2.3
-    }
+      "t": 1.4
+    },
+    "ritmo": 0.55
   },
   "falas": [
     {
-      "texto": "Teste de foco rápido antes de estudar: pause o vídeo com os três dentro do quadro vermelho.",
-      "acoes": [
-        {
-          "t": 0.1,
-          "acao": "tremer",
-          "forca": 0.15,
-          "som": "whoosh"
-        }
-      ]
+      "texto": "Pause o vídeo no momento exato em que a caneta encaixar no molde."
     },
     {
-      "texto": "Um lápis, um livro e um átomo, cada um na sua velocidade.",
-      "acoes": []
+      "texto": "Parece fácil, mas ela passa rápido demais, e às vezes raspa e não entra."
     },
     {
-      "texto": "Só existe um instante em que os três ficam lá dentro. Concentra.",
-      "acoes": []
+      "texto": "É a mesma atenção que você precisa pra não cair em pegadinha no ENEM."
     },
     {
-      "texto": "Conseguiu? Se pausou com os três, comenta FOCO.",
-      "acoes": []
+      "texto": "Quase ninguém consegue de primeira. Volta e tenta de novo, sem trapacear."
+    },
+    {
+      "texto": "Conseguiu? Comenta eu consegui e conta em quantas tentativas."
     }
   ]
 }

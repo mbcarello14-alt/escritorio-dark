@@ -46,9 +46,9 @@ def planejar() -> list[Path]:
         if (pasta / "estado.json").exists():
             continue
         pasta.mkdir(parents=True, exist_ok=True)
-        # rodízio de formatos (reels.formatos no config, por dia da semana); padrão: construção na segunda e na quarta
+        # rodízio de formatos (reels.formatos no config, por dia da semana); padrão: construção na segunda e na quarta, jogo no sábado
         dia_sem = datetime.strptime(hoje, "%Y-%m-%d").strftime("%a").lower()
-        formato = ((cfg.get("reels") or {}).get("formatos") or {"mon": "construcao", "wed": "construcao"}).get(dia_sem, "explicacao")
+        formato = ((cfg.get("reels") or {}).get("formatos") or {"mon": "construcao", "wed": "construcao", "sat": "jogo"}).get(dia_sem, "explicacao")
         (pasta / "estado.json").write_text(json.dumps({"canal": canal, "dia": hoje, "etapa": "roteiro_reel", "formato": formato,
                                                        "ajustes": []}, ensure_ascii=False, indent=2), encoding="utf-8")
         novas.append(pasta)
@@ -133,6 +133,18 @@ def _timeline(reel: dict, inicios: list[float], dur_total: float) -> dict:
             acoes.append({"t": round(fim + 0.5, 3), "alvo": oid, "acao": "sumir"})
     tl = {"cenario": reel.get("cenario", {}), "camera": reel.get("camera", {}), "objetos": objetos,
           "acoes": sorted(acoes, key=lambda a: a["t"]), "duracao": dur_total}
+    if reel.get("jogo"):   # encaixe / print: falas + segundos viram tempos absolutos
+        j = dict(reel["jogo"])
+        def abs_(m, padrao):
+            if not m:
+                return padrao
+            f = min(max(1, int(m.get("fala", 1))), len(inicios)) - 1
+            return round(inicios[f] + float(m.get("t", 0)), 3)
+        j["inicio_s"] = abs_(j.get("inicio"), round(inicios[0] + 0.8, 3))
+        j["fim_s"] = abs_(j.get("fim"), dur_total)
+        if j.get("tipo") == "encaixe":
+            j["momento_s"] = abs_(j.get("momento"), round((j["inicio_s"] + j["fim_s"]) / 2, 3))
+        tl["jogo"] = j
     if reel.get("desafio"):   # "pause com os 3 dentro do quadro": o momento vira segundos absolutos
         d = dict(reel["desafio"])
         m = d.get("momento") or {}
@@ -315,6 +327,16 @@ def validar(pasta: Path) -> list[str]:
                 erros.append(f"fala {i}: alvo '{a.get('alvo')}' não existe")
             if a.get("som") and a["som"] not in SONS:
                 erros.append(f"fala {i}: som desconhecido '{a['som']}'")
+    j = r.get("jogo")
+    if j:
+        if j.get("tipo") not in ("encaixe", "print"):
+            erros.append("jogo.tipo deve ser 'encaixe' ou 'print'")
+        if j.get("tipo") == "encaixe" and j.get("item") not in ("livro", "caderno", "caneta", "lingote", "moeda", "carta"):
+            erros.append("jogo.item deve ser livro, caderno, caneta, lingote, moeda ou carta")
+        if j.get("tipo") == "print" and not 8 <= len(j.get("itens") or []) <= 24:
+            erros.append("jogo print precisa de 8 a 24 itens")
+        if j.get("tipo") == "encaixe" and not j.get("momento"):
+            erros.append("jogo encaixe precisa de 'momento' ({fala, t}) — o instante exato do encaixe")
     if r.get("desafio"):
         mov = r["desafio"].get("moveis") or []
         if len(mov) != 3 or any(m not in ids for m in mov):
@@ -325,11 +347,11 @@ def validar(pasta: Path) -> list[str]:
 
 
 # ---------------------------------------------------------------- publicação
-def _proximo_slot(cfg: dict) -> str:
+def _proximo_slot(cfg: dict, propria: Path | None = None) -> str:
     from .agenda import BRT, DIAS
     slots = (cfg.get("reels") or {}).get("publicar") or ["sun 19:00"]
     ocupados = {_estado(p.parent).get("publicar_em_utc") for p in _pastas_reels(cfg["canal"])
-                if _estado(p.parent).get("etapa") == "agendado"}
+                if _estado(p.parent).get("etapa") == "agendado" and p.parent != propria}
     agora = datetime.now(timezone.utc).astimezone(BRT)
     for dias in range(0, 30):
         d = (agora + timedelta(days=dias)).date()
@@ -349,7 +371,7 @@ def publicar(pasta: Path, avisar: bool = True) -> dict:
     from .youtube import publicar_short
     reel = json.loads((pasta / "reel.json").read_text(encoding="utf-8"))
     cfg = carregar_config(reel["canal"])
-    quando = _proximo_slot(cfg)
+    quando = _proximo_slot(cfg, pasta)   # refazendo um reel agendado: fica no mesmo horário
     corte = {"titulo": reel["titulo"], "descricao": reel.get("descricao", ""), "hashtags": reel.get("hashtags", [])}
     vid = publicar_short(cfg, corte, pasta / "saida" / "reel.mp4", quando, None)
     antes = json.loads((pasta / "publicacao.json").read_text(encoding="utf-8")).get("anteriores", []) \

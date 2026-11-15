@@ -1,21 +1,19 @@
 {
   "canal": "historia",
-  "titulo": "Você consegue pausar com os 3 dentro do quadro? 👑",
-  "descricao": "Desafio de atenção do Ouro & Império: a coroa, a moeda e o navio só se encontram dentro do quadro uma vez.",
+  "titulo": "Pause quando o ouro encaixar no cofre 🪙 (quase ninguém consegue)",
+  "descricao": "Desafio do Ouro & Império: pause no quadro exato em que a barra de ouro encaixa no cofre.",
   "hashtags": [
     "#desafio",
     "#historia",
-    "#teste"
+    "#ouro"
   ],
-  "legenda_reels": "Quase ninguém consegue pausar com os 3 dentro do quadro vermelho. Conseguiu? Comenta IMPÉRIO 👑 #desafio #historia #teste #pausechallenge",
-  "isca": "Comenta IMPÉRIO",
+  "legenda_reels": "Pause quando a barra de ouro encaixar no cofre! Conseguiu? Comenta OURO 🪙 #desafio #historia #ouro",
+  "isca": "Comenta OURO",
   "cenario": {
-    "ceu": "#8EC5EE",
-    "chao": "#A8CF7E",
-    "cidade": false,
-    "arvores": 4,
-    "nuvens": true,
-    "sol": true
+    "ceu": "#2B2118",
+    "chao": "#3E3024",
+    "nuvens": false,
+    "sol": false
   },
   "camera": {
     "pos": [
@@ -25,150 +23,55 @@
     ],
     "olha": [
       0,
-      5.2,
+      3,
       0
     ]
   },
   "objetos": [
     {
-      "id": "desafio_txt",
+      "id": "tt",
       "tipo": "texto",
-      "texto": "QUASE NINGUÉM\nPAUSA COM OS 3\nNO QUADRO!",
+      "texto": "PAUSE QUANDO O OURO\nENCAIXAR NO COFRE!",
       "pos": [
         0,
-        0.7
+        0.74
       ],
-      "tam": 3.1,
-      "cor": "#ffffff"
-    },
-    {
-      "id": "piramide",
-      "tipo": "piramide",
-      "pos": [
-        -3.2,
-        0,
-        -9
-      ],
-      "altura": 6
-    },
-    {
-      "id": "piramide2",
-      "tipo": "piramide",
-      "pos": [
-        -0.8,
-        0,
-        -14
-      ],
-      "altura": 4
-    },
-    {
-      "id": "templo",
-      "tipo": "templo",
-      "pos": [
-        2.6,
-        0,
-        -5
-      ],
-      "rot": -20,
-      "escala": 0.9
-    },
-    {
-      "id": "castelo",
-      "tipo": "castelo",
-      "pos": [
-        1.0,
-        0,
-        -14
-      ],
-      "escala": 1.4,
-      "cor": "#E9D8C4",
-      "telhado": "#7A93C9"
-    },
-    {
-      "id": "torre",
-      "tipo": "torre",
-      "pos": [
-        -4.6,
-        0,
-        -18
-      ],
-      "altura": 26
-    },
-    {
-      "id": "navio",
-      "tipo": "navio",
-      "pos": [
-        0,
-        0,
-        0
-      ],
-      "escala": 0.42,
-      "cor": "#8B4A2B"
-    },
-    {
-      "id": "coroa",
-      "tipo": "coroa",
-      "pos": [
-        0,
-        0,
-        0
-      ],
-      "escala": 0.85
-    },
-    {
-      "id": "moeda",
-      "tipo": "moeda",
-      "pos": [
-        0,
-        0,
-        0
-      ],
-      "escala": 0.65,
-      "simbolo": "★"
+      "tam": 1.6,
+      "cor": "#F4C430"
     }
   ],
-  "desafio": {
-    "moveis": [
-      "navio",
-      "coroa",
-      "moeda"
+  "jogo": {
+    "tipo": "encaixe",
+    "item": "lingote",
+    "texto": "OURO 999,9",
+    "pos": [
+      0,
+      0.12
     ],
-    "quadro": {
-      "pos": [
-        0,
-        0.22
-      ],
-      "larg": 0.56,
-      "alt": 0.2
+    "inicio": {
+      "fala": 1,
+      "t": 0.8
     },
     "momento": {
       "fala": 3,
-      "t": 2.2
+      "t": 1.2
     }
   },
   "falas": [
     {
-      "texto": "Quase ninguém consegue pausar o vídeo com os três dentro do quadro vermelho.",
-      "acoes": [
-        {
-          "t": 0.1,
-          "acao": "tremer",
-          "forca": 0.15,
-          "som": "whoosh"
-        }
-      ]
+      "texto": "Pause o vídeo quando a barra de ouro encaixar certinho no cofre."
     },
     {
-      "texto": "Uma coroa, uma moeda de ouro e um navio, cada um no seu ritmo.",
-      "acoes": []
+      "texto": "Ela passa rápido, e às vezes raspa na beirada só pra te enganar."
     },
     {
-      "texto": "Eles só se encontram ali dentro uma única vez. Fica de olho.",
-      "acoes": []
+      "texto": "Dizem que só quem tem olho de tesoureiro de rei acerta isso."
     },
     {
-      "texto": "E aí, conseguiu? Se pausou com os três, comenta IMPÉRIO.",
-      "acoes": []
+      "texto": "Errou? Volta e tenta de novo. Quase ninguém consegue de primeira."
+    },
+    {
+      "texto": "Conseguiu? Comenta ouro e diz em quantas tentativas."
     }
   ]
 }
