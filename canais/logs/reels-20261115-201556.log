@@ -1,0 +1,17 @@
+20:16:06 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+20:16:06 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+20:16:07 INFO Processing audio with duration 00:22.721
+[0;93m2026-11-15 20:16:07.563060542 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+20:16:07 INFO VAD filter removed 00:00.000 of audio
+20:16:11 INFO Processing audio with duration 00:22.721
+20:16:11 INFO VAD filter removed 00:00.000 of audio
+20:16:15 WARNING instrução lida em bloco_01.wav (0.4–13.3s): 'o vídeo no português do Brasil com sotaque brasileiro neutro, como um professor jovem, animado e mui' — cortando
+20:16:15 WARNING instrução lida em bloco_01.wav (14.7–21.3s): 'para redes sociais. Fale com energia, ritmo rápido, sem pausas longas, como quem conta uma curiosida' — cortando
+20:16:16 INFO Processing audio with duration 00:22.721
+20:16:16 INFO VAD filter removed 00:00.016 of audio
+20:16:20 WARNING transcrição muito diferente do roteiro (13%) — usando proporção de texto
+20:16:20 INFO bloco 1: 22.7s, 60 palavras reconhecidas
+20:18:12 INFO render 3D: pronto: 724 quadros em 106s
+20:18:28 INFO reel pronto: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-11-desafio/saida/reel.mp4 (24.1s)
+20:18:29 INFO versão anterior tirada da agenda: d7fmSv7zmks
+20:18:32 INFO Short agendado: https://youtube.com/shorts/oytTDIKPCuk (2026-11-16T22:00:00Z)
