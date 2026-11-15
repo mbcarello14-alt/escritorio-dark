@@ -1,0 +1,12 @@
+15:37:38 INFO Processing audio with duration 00:40.000
+[0;93m2026-11-15 15:37:38.583852364 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+15:37:38 INFO VAD filter removed 00:00.000 of audio
+15:37:51 INFO narrada b15_p03 (107s) — 62 de 64
+15:38:39 INFO Processing audio with duration 00:40.000
+15:38:39 INFO VAD filter removed 00:00.000 of audio
+15:38:50 INFO narrada b15_p04 (109s) — 63 de 64
+15:39:26 INFO Processing audio with duration 00:40.000
+15:39:26 INFO VAD filter removed 00:00.000 of audio
+15:39:37 INFO narrada b15_p05 (57s) — 64 de 64
+15:39:37 INFO um vídeo da rotina está usando a cota de imagens — o longo espera a próxima rodada
+imagens
