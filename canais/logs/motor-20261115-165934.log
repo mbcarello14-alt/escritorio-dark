@@ -1,0 +1,56 @@
+16:59:34 INFO ilustrações: higgsfield desligado (sem chave)
+16:59:34 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+16:59:34 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+16:59:35 INFO Processing audio with duration 00:45.080
+[0;93m2026-11-15 16:59:35.881093470 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+16:59:35 INFO VAD filter removed 00:00.016 of audio
+16:59:47 INFO Processing audio with duration 00:45.080
+16:59:47 INFO VAD filter removed 00:00.016 of audio
+16:59:58 INFO Processing audio with duration 01:08.480
+16:59:58 INFO VAD filter removed 00:00.000 of audio
+17:00:16 INFO Processing audio with duration 01:08.480
+17:00:16 INFO VAD filter removed 00:00.000 of audio
+17:00:34 INFO Processing audio with duration 01:08.520
+17:00:35 INFO VAD filter removed 00:00.000 of audio
+17:00:52 INFO Processing audio with duration 01:08.520
+17:00:52 INFO VAD filter removed 00:00.000 of audio
+17:01:10 INFO Processing audio with duration 01:20.800
+17:01:10 INFO VAD filter removed 00:00.000 of audio
+17:01:29 INFO Processing audio with duration 01:20.800
+17:01:29 INFO VAD filter removed 00:00.000 of audio
+17:01:48 INFO Processing audio with duration 01:06.840
+17:01:49 INFO VAD filter removed 00:00.048 of audio
+17:02:06 INFO Processing audio with duration 01:06.840
+17:02:06 INFO VAD filter removed 00:00.048 of audio
+17:02:24 INFO Processing audio with duration 01:14.160
+17:02:24 INFO VAD filter removed 00:00.000 of audio
+17:02:43 INFO Processing audio with duration 01:14.160
+17:02:43 INFO VAD filter removed 00:00.000 of audio
+17:03:02 INFO Processing audio with duration 01:04.371
+17:03:02 INFO VAD filter removed 00:00.000 of audio
+17:03:19 INFO Processing audio with duration 01:04.371
+17:03:19 INFO VAD filter removed 00:00.000 of audio
+17:03:37 INFO Processing audio with duration 01:24.731
+17:03:37 INFO VAD filter removed 00:00.112 of audio
+17:04:00 WARNING voz falou fora do roteiro em bloco_08.wav — aparando ('Segundo…')
+17:04:00 INFO Processing audio with duration 01:24.001
+17:04:00 INFO VAD filter removed 00:00.000 of audio
+17:04:24 INFO Processing audio with duration 01:04.251
+17:04:24 INFO VAD filter removed 00:00.000 of audio
+17:04:42 INFO Processing audio with duration 01:04.251
+17:04:42 INFO VAD filter removed 00:00.000 of audio
+17:05:01 INFO Processing audio with duration 01:38.971
+17:05:01 INFO VAD filter removed 00:00.000 of audio
+17:05:29 INFO Processing audio with duration 01:38.971
+17:05:30 INFO VAD filter removed 00:00.000 of audio
+17:05:58 INFO Processing audio with duration 00:52.401
+17:05:58 INFO VAD filter removed 00:00.000 of audio
+17:06:11 INFO Processing audio with duration 00:52.401
+17:06:11 INFO VAD filter removed 00:00.000 of audio
+17:06:23 INFO gerando 17 ilustrações…
+17:06:23 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+17:06:23 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+17:06:24 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+17:06:24 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+17:06:24 INFO ilustrações prontas: 0 geradas (17 pedidas)
+17:06:25 WARNING cota de imagens: -1 de 16 desenhos prontos — montagem adiada
