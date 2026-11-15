@@ -1,0 +1,57 @@
+comando: /pautas canais/vestibular/videos/2026-11-19
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-19 && ls && cat estado.json"}
+🔧 Agent {"subagent_type": "pesquisador-vestibular", "description": "Pautas Mapeado 19/11", "prompt": "Etapa 1 (pauta). Canal: vestibular (Mapeado). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/can
+💬 O pesquisador do Mapeado está gerando as pautas de 19/11. Aguardo o aviso de conclusão para conferir o `pautas.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos'
+🔧 WebFetch {"url": "https://github.com/", "prompt": "skip"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/estado.json"}
+🔧 WebSearch {"query": "Enem 2026 datas provas novembro redação tema", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-05/estado.json"}
+🔧 WebSearch {"query": "Enem 2026 segundo dia Natureza Matemática questões que mais caíram polêmica", "mode": "standard"}
+🔧 WebSearch {"query": "Enem 2026 prova Ciências Humanas primeiro dia questões Sociologia Filosofia temas cobrados", "mode": "standard"}
+🔧 WebSearch {"query": "proposta de intervenção Enem competência 5 detalhamento nota 200 erros", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/01-pauta.md", "content": "# Pauta — Mapeado — quinta 19/11/2026, 17h00\n\n## Contexto da semana\n- 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/pautas.json", "content": "[\n  {\n    \"titulo\": \"Sua proposta de intervenção vale 200 ou 40?\",\
+💬 Entreguei as 3 pautas da quinta 19/11, de 3 matérias diferentes e todas dentro do nicho. Nenhuma tem outlier de canal pequeno confirmado: a busca não traz views nem inscritos do YouTube, e anotei isso na pauta como pendência para o dossiê.
+
+**Rodízio.** A terça 17/11 já está agendada como Biologia, então a quinta não repete. Não consegui listar a pasta `videos`. Conferi o rodízio pelos `estado.json` e pelo `historico.md`. Redação, Filosofia e Química nunca apareceram no canal. Deixei História de fora.
+
+**Ranking:**
+1. **"Sua proposta de intervenção vale 200 ou 40?" (Redação, Competência 5).**
+
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('pautas.json'));print(len(d));[print(len(i['titulo']),i['titulo'],'|',sorted(i)) for i in d]\""}
+💬 O `pautas.json` de `canais/vestibular/videos/2026-11-19` está válido: tem 3 itens, com título de até 60 caracteres, `angulo` e `porque`. Conferi só o formato do JSON. Li os títulos para checar o nicho, mas não li o `01-pauta.md`. As 3 ideias são do nicho Mapeado, cada uma de uma matéria diferente:
+
+1. **Redação:** "Sua proposta de intervenção vale 200 ou 40?"
+2. **Filosofia:** "Sócrates, Platão ou Aristóteles? Como o ENEM cobra"
+3. **Química:** "pH 3 é quantas vezes mais ácido que pH 5?"
+
+Nenhuma é de História, e a terça 17/11 já está agendada como Biologia, então a quinta não repete a matéria
+
+=== resultado: success | turnos 3 | 6s | erro=False
+O pesquisador do Mapeado está gerando as pautas de 19/11. Aguardo o aviso de conclusão para conferir o `pautas.json`.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O `pautas.json` de `canais/vestibular/videos/2026-11-19` está válido: tem 3 itens, com título de até 60 caracteres, `angulo` e `porque`. Conferi só o formato do JSON. Li os títulos para checar o nicho, mas não li o `01-pauta.md`. As 3 ideias são do nicho Mapeado, cada uma de uma matéria diferente:
+
+1. **Redação:** "Sua proposta de intervenção vale 200 ou 40?"
+2. **Filosofia:** "Sócrates, Platão ou Aristóteles? Como o ENEM cobra"
+3. **Química:** "pH 3 é quantas vezes mais ácido que pH 5?"
+
+Nenhuma é de História, e a terça 17/11 já está agendada como Biologia, então a quinta não repete a matéria.
+
+O pesquisador deixou pendências para o dossiê:
+- Não há outlier de canal pequeno confirmado, porque a busca não traz views nem inscritos do YouTube.
+- O tema da redação do ENEM 2026 (SUS) apareceu em uma única fonte. Confirme no site do Inep antes de citar.
+- A "filosofia antiga em destaque" no ENEM 2026 é opinião de uma professora na imprensa, não do Inep.
+- Nenhuma das 3 ideias tem contagem de questões por prova.
+- O relato de "40 pontos por elemento faltante" na Competência 5 vem da imprensa. Confirme no manual do Inep.
+
+Não editei mais nada.
+codigo de saida: 0
