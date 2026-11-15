@@ -1,11 +1,18 @@
 {
-  "atualizado_em": "2026-11-15T12:48:22Z",
+  "atualizado_em": "2026-11-15T12:56:33Z",
   "ativos": {
-    "miguel": [
-      "Ouro & Império: Os Aliados queriam fuzilar sem julgamento. Por que desistiram?"
-    ],
     "narrador": [
+      "Ouro & Império: Nuremberg: por que os Aliados desistiram de fuzilar?",
       "Longo Marca-Página: Machado de Assis"
+    ],
+    "ilustrador": [
+      "Ouro & Império: Nuremberg: por que os Aliados desistiram de fuzilar?"
+    ],
+    "editor": [
+      "Ouro & Império: Nuremberg: por que os Aliados desistiram de fuzilar?"
+    ],
+    "clipador": [
+      "Ouro & Império: Nuremberg: por que os Aliados desistiram de fuzilar?"
     ]
   },
   "proximos": [
@@ -44,9 +51,9 @@
       "dia": "2026-11-20",
       "rotulo": "sexta 20/11 18h00",
       "publicar_em_utc": "2026-11-20T21:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "Os Aliados queriam fuzilar sem julgamento. Por que desistiram?",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "Nuremberg: por que os Aliados desistiram de fuzilar?",
       "url": ""
     }
   ],

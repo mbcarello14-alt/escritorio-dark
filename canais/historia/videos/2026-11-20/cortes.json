@@ -1,0 +1,31 @@
+{
+  "cortes": [
+    {
+      "de": [2, 3],
+      "ate": [2, 9],
+      "gancho": "Churchill saiu da mesa. Por quê?",
+      "titulo": "O jantar em que Churchill se levantou e saiu da mesa",
+      "descricao": "Stalin propôs liquidar dezenas de milhares de oficiais alemães e Roosevelt respondeu com uma piada. A história completa de Nuremberg está no canal.",
+      "hashtags": ["#historia", "#segundaguerra", "#nuremberg"],
+      "legenda_reels": "Churchill queria fuzilar a cúpula nazista, mas saiu da mesa quando Stalin falou em dezenas de milhares. Segue o perfil para mais história. #historia #segundaguerra #nuremberg #curiosidades"
+    },
+    {
+      "de": [4, 4],
+      "ate": [4, 10],
+      "gancho": "O semáforo que salvou Nuremberg",
+      "titulo": "O semáforo de tribunal que acelerou Nuremberg quatro vezes",
+      "descricao": "Quatro idiomas, um julgamento e luzes nos microfones. Veja como a tradução simultânea nasceu em Nuremberg, e a história completa no canal.",
+      "hashtags": ["#historia", "#curiosidades", "#nuremberg"],
+      "legenda_reels": "Em Nuremberg ninguém falava a mesma língua. A solução foi uma luz amarela e uma vermelha nos microfones. Segue o perfil para mais história. #historia #curiosidades #nuremberg #segundaguerra"
+    },
+    {
+      "de": [7, 6],
+      "ate": [7, 17],
+      "gancho": "O réu que quase roubou o julgamento",
+      "titulo": "Göring x Jackson: o duelo que quase virou o julgamento",
+      "descricao": "Göring respondia toda pergunta com um discurso e o promotor americano estava perdendo a rodada. Como isso terminou está no vídeo completo no canal.",
+      "hashtags": ["#historia", "#goring", "#nuremberg"],
+      "legenda_reels": "O promotor da Suprema Corte americana estava perdendo para o réu mais poderoso de Nuremberg. Segue o perfil para mais história. #historia #nuremberg #goring #segundaguerra"
+    }
+  ]
+}
