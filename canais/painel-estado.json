@@ -1,21 +1,11 @@
 {
-  "atualizado_em": "2026-11-15T13:42:26Z",
+  "atualizado_em": "2026-11-15T14:04:09Z",
   "ativos": {
     "miguel": [
       "Mapeado: quinta 19/11 17h00"
     ],
     "narrador": [
-      "Ouro & Império: Nuremberg: por que os Aliados desistiram de fuzilar?",
       "Longo Marca-Página: Machado de Assis"
-    ],
-    "ilustrador": [
-      "Ouro & Império: Nuremberg: por que os Aliados desistiram de fuzilar?"
-    ],
-    "editor": [
-      "Ouro & Império: Nuremberg: por que os Aliados desistiram de fuzilar?"
-    ],
-    "clipador": [
-      "Ouro & Império: Nuremberg: por que os Aliados desistiram de fuzilar?"
     ]
   },
   "proximos": [
@@ -64,10 +54,10 @@
       "dia": "2026-11-20",
       "rotulo": "sexta 20/11 18h00",
       "publicar_em_utc": "2026-11-20T21:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Nuremberg: por que os Aliados desistiram de fuzilar?",
-      "url": ""
+      "url": "https://youtu.be/QYAggz7958g"
     }
   ],
   "publicados": [
@@ -156,8 +146,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 151,
+    "neurons": 8305,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

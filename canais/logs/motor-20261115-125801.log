@@ -1,0 +1,483 @@
+12:58:02 INFO ilustrações: higgsfield desligado (sem chave)
+12:58:35 INFO narrador Gemini (gemini-3.8-flash-tts, Charon): bloco 1/11
+12:58:36 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+12:58:36 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+12:58:37 INFO Processing audio with duration 00:41.881
+[0;93m2026-11-15 12:58:37.346489389 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+12:58:37 INFO VAD filter removed 00:00.000 of audio
+12:58:47 INFO Processing audio with duration 00:41.881
+12:58:47 INFO VAD filter removed 00:00.000 of audio
+12:58:58 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+12:59:30 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+13:00:06 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+13:01:01 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 2/11
+13:01:01 INFO Processing audio with duration 01:26.491
+13:01:01 INFO VAD filter removed 00:00.000 of audio
+13:01:26 INFO Processing audio with duration 01:26.491
+13:01:26 INFO VAD filter removed 00:00.000 of audio
+13:02:41 INFO narrador Gemini (gemini-2.5-flash-preview-tts, Charon): bloco 3/11
+13:02:41 INFO Processing audio with duration 01:29.491
+13:02:41 INFO VAD filter removed 00:00.000 of audio
+13:03:05 INFO Processing audio with duration 01:29.491
+13:03:05 INFO VAD filter removed 00:00.000 of audio
+13:03:30 WARNING Gemini TTS: cota do modelo gemini-2.5-flash-preview-tts acabou — trocando de modelo
+13:03:32 WARNING Gemini TTS instável (503) — tentando de novo
+13:04:22 INFO narrador Gemini (gemini-3.8-flash-lite-tts, Charon): bloco 4/11
+13:04:22 INFO Processing audio with duration 01:38.721
+13:04:22 INFO VAD filter removed 00:00.000 of audio
+13:04:50 WARNING voz falou fora do roteiro em bloco_04.wav — aparando ('Na área em português do Brasil, consulta aqui brasileiro neutro, como um youtube…')
+13:04:50 INFO Processing audio with duration 01:23.621
+13:04:50 INFO VAD filter removed 00:00.000 of audio
+13:05:43 INFO narrador Gemini (gemini-3.8-flash-lite-tts, Charon): bloco 5/11
+13:05:43 INFO Processing audio with duration 01:16.561
+13:05:43 INFO VAD filter removed 00:00.000 of audio
+13:06:03 INFO Processing audio with duration 01:16.561
+13:06:04 INFO VAD filter removed 00:00.000 of audio
+13:06:24 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-lite-tts acabou — trocando de modelo
+13:06:24 WARNING Gemini TTS: cota do modelo gemini-2.5-pro-preview-tts acabou — trocando de modelo
+13:06:24 WARNING narrador Gemini indisponível (Gemini TTS: todos os modelos de voz bateram a cota grátis do dia) — usando o próximo da lista
+13:06:24 WARNING voz [google] falhou: segredo GOOGLE_TTS_API_KEY não configurado
+13:06:24 WARNING motor google indisponível: Nenhum motor de voz funcionou: google: segredo GOOGLE_TTS_API_KEY não configurado
+13:06:25 INFO voz [edge] teste_edge.wav
+13:06:25 INFO narrador do vídeo: edge
+13:06:25 INFO gerando 151 ilustrações…
+13:12:24 INFO ilustrações prontas: 151 geradas (151 pedidas)
+13:12:28 INFO voz [edge] voz_001.wav
+13:13:14 INFO cena 1 pronta (6.3s, total 6s)
+13:13:18 INFO voz [edge] voz_002.wav
+13:13:36 INFO cena 2 pronta (6.6s, total 13s)
+13:13:37 INFO voz [edge] voz_003.wav
+13:13:48 INFO cena 3 pronta (3.5s, total 16s)
+13:13:51 INFO voz [edge] voz_004.wav
+13:13:55 INFO cena 4 pronta (4.9s, total 21s)
+13:13:58 INFO voz [edge] voz_005.wav
+13:14:08 INFO cena 5 pronta (6.0s, total 27s)
+13:14:11 INFO voz [edge] voz_006.wav
+13:14:23 INFO cena 6 pronta (3.7s, total 31s)
+13:14:26 INFO voz [edge] voz_007.wav
+13:14:48 INFO cena 7 pronta (8.6s, total 40s)
+13:14:51 INFO voz [edge] voz_008.wav
+13:15:06 INFO cena 8 pronta (7.8s, total 47s)
+13:15:08 INFO voz [edge] voz_009.wav
+13:15:23 INFO cena 9 pronta (5.2s, total 53s)
+13:15:24 INFO voz [edge] voz_010.wav
+13:15:28 INFO cena 10 pronta (3.6s, total 56s)
+13:15:32 INFO voz [edge] voz_011.wav
+13:16:11 INFO cena 11 pronta (12.4s, total 69s)
+13:16:15 INFO voz [edge] voz_012.wav
+13:16:23 INFO cena 12 pronta (7.5s, total 76s)
+13:16:25 INFO voz [edge] voz_013.wav
+13:16:37 INFO cena 13 pronta (4.1s, total 80s)
+13:16:40 INFO voz [edge] voz_014.wav
+13:17:20 INFO cena 14 pronta (9.2s, total 90s)
+13:17:25 INFO voz [edge] voz_015.wav
+13:17:50 INFO cena 15 pronta (6.9s, total 96s)
+13:17:52 INFO voz [edge] voz_016.wav
+13:18:05 INFO cena 16 pronta (4.8s, total 101s)
+13:18:10 INFO voz [edge] voz_017.wav
+13:18:42 INFO cena 17 pronta (7.5s, total 109s)
+13:18:48 INFO voz [edge] voz_018.wav
+13:18:51 INFO cena 18 pronta (9.1s, total 118s)
+13:18:57 INFO voz [edge] voz_019.wav
+13:19:01 INFO cena 19 pronta (3.9s, total 122s)
+13:19:04 INFO voz [edge] voz_020.wav
+13:19:19 INFO cena 20 pronta (5.3s, total 127s)
+13:19:24 INFO voz [edge] voz_021.wav
+13:19:45 INFO cena 21 pronta (8.7s, total 136s)
+13:19:52 INFO voz [edge] voz_022.wav
+13:20:16 INFO cena 22 pronta (9.6s, total 145s)
+13:20:19 INFO voz [edge] voz_023.wav
+13:20:36 INFO cena 23 pronta (7.0s, total 152s)
+13:20:39 INFO voz [edge] voz_024.wav
+13:20:46 INFO cena 24 pronta (3.9s, total 156s)
+13:20:50 INFO voz [edge] voz_025.wav
+13:21:47 INFO cena 25 pronta (6.9s, total 163s)
+13:21:50 INFO voz [edge] voz_026.wav
+13:22:08 INFO cena 26 pronta (7.3s, total 170s)
+13:22:11 INFO voz [edge] voz_027.wav
+13:22:16 INFO cena 27 pronta (6.0s, total 176s)
+13:22:18 INFO voz [edge] voz_028.wav
+13:22:21 INFO cena 28 pronta (3.2s, total 179s)
+13:22:23 INFO voz [edge] voz_029.wav
+13:22:33 INFO cena 29 pronta (2.8s, total 182s)
+13:22:35 INFO voz [edge] voz_030.wav
+13:22:45 INFO cena 30 pronta (3.2s, total 186s)
+13:22:47 INFO voz [edge] voz_031.wav
+13:22:50 INFO cena 31 pronta (3.1s, total 189s)
+13:22:54 INFO voz [edge] voz_032.wav
+13:22:59 INFO cena 32 pronta (6.5s, total 195s)
+13:23:01 INFO voz [edge] voz_033.wav
+13:23:03 INFO cena 33 pronta (2.8s, total 198s)
+13:23:08 INFO voz [edge] voz_034.wav
+13:23:26 INFO cena 34 pronta (7.6s, total 205s)
+13:23:29 INFO voz [edge] voz_035.wav
+13:23:30 INFO cena 35 pronta (3.7s, total 209s)
+13:23:32 INFO voz [edge] voz_036.wav
+13:23:37 INFO cena 36 pronta (5.1s, total 214s)
+13:23:39 INFO voz [edge] voz_037.wav
+13:23:44 INFO cena 37 pronta (5.4s, total 220s)
+13:23:45 INFO voz [edge] voz_038.wav
+13:23:55 INFO cena 38 pronta (2.8s, total 222s)
+13:23:59 INFO voz [edge] voz_039.wav
+13:24:04 INFO cena 39 pronta (7.4s, total 230s)
+13:24:09 INFO voz [edge] voz_040.wav
+13:24:34 INFO cena 40 pronta (10.1s, total 240s)
+13:24:37 INFO voz [edge] voz_041.wav
+13:24:48 INFO cena 41 pronta (4.0s, total 244s)
+13:24:51 INFO voz [edge] voz_042.wav
+13:25:06 INFO cena 42 pronta (6.0s, total 250s)
+13:25:09 INFO voz [edge] voz_043.wav
+13:25:13 INFO cena 43 pronta (5.2s, total 255s)
+13:25:17 INFO voz [edge] voz_044.wav
+13:25:23 INFO cena 44 pronta (7.4s, total 262s)
+13:25:25 INFO voz [edge] voz_045.wav
+13:25:30 INFO cena 45 pronta (5.3s, total 268s)
+13:25:32 INFO voz [edge] voz_046.wav
+13:25:43 INFO cena 46 pronta (3.6s, total 271s)
+13:25:47 INFO voz [edge] voz_047.wav
+13:26:10 INFO cena 47 pronta (9.8s, total 281s)
+13:26:14 INFO voz [edge] voz_048.wav
+13:26:37 INFO cena 48 pronta (9.6s, total 291s)
+13:26:41 INFO voz [edge] voz_049.wav
+13:27:01 INFO cena 49 pronta (8.3s, total 299s)
+13:27:08 INFO voz [edge] voz_050.wav
+13:27:08 WARNING nenhuma imagem livre para 'Nuremberg trial interpreters headphones booth photograph' — usando cartão
+13:27:11 INFO imagem 'Nuremberg trial interpreters headphones' ← wikimedia
+13:27:11 INFO imagem para 'Nuremberg trial interpreters headphones booth photograph' achada buscando 'Nuremberg trial interpreters headphones'
+13:27:33 INFO cena 50 pronta (9.4s, total 308s)
+13:27:35 INFO voz [edge] voz_051.wav
+13:27:46 INFO cena 51 pronta (3.7s, total 312s)
+13:27:49 INFO voz [edge] voz_052.wav
+13:28:02 INFO cena 52 pronta (4.7s, total 317s)
+13:28:05 INFO voz [edge] voz_053.wav
+13:28:18 INFO cena 53 pronta (4.9s, total 322s)
+13:28:23 INFO voz [edge] voz_054.wav
+13:28:37 INFO cena 54 pronta (8.9s, total 331s)
+13:28:39 INFO voz [edge] voz_055.wav
+13:28:41 INFO cena 55 pronta (2.4s, total 333s)
+13:28:44 INFO voz [edge] voz_056.wav
+13:28:49 INFO cena 56 pronta (6.5s, total 340s)
+13:28:52 INFO voz [edge] voz_057.wav
+13:29:08 INFO cena 57 pronta (5.9s, total 346s)
+13:29:10 INFO voz [edge] voz_058.wav
+13:29:14 INFO cena 58 pronta (4.5s, total 350s)
+13:29:16 INFO voz [edge] voz_059.wav
+13:29:31 INFO cena 59 pronta (5.4s, total 355s)
+13:29:33 INFO voz [edge] voz_060.wav
+13:29:41 INFO cena 60 pronta (3.4s, total 359s)
+13:29:42 INFO voz [edge] voz_061.wav
+13:29:55 INFO cena 61 pronta (4.2s, total 363s)
+13:29:57 INFO voz [edge] voz_062.wav
+13:30:14 INFO cena 62 pronta (6.7s, total 370s)
+13:30:17 INFO voz [edge] voz_063.wav
+13:30:18 WARNING nenhuma imagem livre para 'Robert H. Jackson Nuremberg opening statement 1945 photograph' — usando cartão
+13:30:19 INFO imagem 'Robert H. Jackson Nuremberg' ← wikimedia
+13:30:19 INFO imagem para 'Robert H. Jackson Nuremberg opening statement 1945 photograph' achada buscando 'Robert H. Jackson Nuremberg'
+13:30:40 INFO cena 63 pronta (7.8s, total 377s)
+13:30:44 INFO voz [edge] voz_064.wav
+13:30:48 INFO cena 64 pronta (5.0s, total 383s)
+13:30:51 INFO voz [edge] voz_065.wav
+13:31:06 INFO cena 65 pronta (5.8s, total 388s)
+13:31:11 INFO voz [edge] voz_066.wav
+13:31:41 INFO cena 66 pronta (9.0s, total 397s)
+13:31:42 INFO voz [edge] voz_067.wav
+13:31:45 INFO cena 67 pronta (2.5s, total 400s)
+13:31:48 INFO voz [edge] voz_068.wav
+13:32:03 INFO cena 68 pronta (6.0s, total 406s)
+13:32:07 INFO voz [edge] voz_069.wav
+13:32:23 INFO cena 69 pronta (6.6s, total 412s)
+13:32:25 INFO voz [edge] voz_070.wav
+13:32:42 INFO cena 70 pronta (3.9s, total 416s)
+13:32:44 INFO voz [edge] voz_071.wav
+13:32:55 INFO cena 71 pronta (3.3s, total 420s)
+13:32:59 INFO voz [edge] voz_072.wav
+13:33:24 INFO cena 72 pronta (9.7s, total 429s)
+13:33:26 INFO voz [edge] voz_073.wav
+13:33:29 INFO cena 73 pronta (3.6s, total 433s)
+13:33:33 INFO voz [edge] voz_074.wav
+13:33:50 INFO cena 74 pronta (6.7s, total 440s)
+13:33:53 INFO voz [edge] voz_075.wav
+13:34:03 INFO cena 75 pronta (6.8s, total 446s)
+13:34:06 INFO voz [edge] voz_076.wav
+13:34:08 INFO imagem 'Nuremberg Palace of Justice courtroom 1945 photograph' ← wikimedia
+13:34:22 INFO cena 76 pronta (4.3s, total 451s)
+13:34:26 INFO voz [edge] voz_077.wav
+13:34:47 INFO cena 77 pronta (8.8s, total 459s)
+13:34:49 INFO voz [edge] voz_078.wav
+13:34:59 INFO cena 78 pronta (3.1s, total 463s)
+13:35:01 INFO voz [edge] voz_079.wav
+13:35:04 INFO cena 79 pronta (3.3s, total 466s)
+13:35:06 INFO voz [edge] voz_080.wav
+13:35:10 INFO cena 80 pronta (4.3s, total 470s)
+13:35:12 INFO voz [edge] voz_081.wav
+13:35:24 INFO cena 81 pronta (3.7s, total 474s)
+13:35:26 INFO voz [edge] voz_082.wav
+13:35:44 INFO cena 82 pronta (6.5s, total 480s)
+13:35:46 INFO voz [edge] voz_083.wav
+13:36:00 INFO cena 83 pronta (5.3s, total 486s)
+13:36:03 INFO voz [edge] voz_084.wav
+13:36:15 INFO cena 84 pronta (4.3s, total 490s)
+13:36:17 INFO voz [edge] voz_085.wav
+13:36:31 INFO cena 85 pronta (4.8s, total 495s)
+13:36:33 INFO voz [edge] voz_086.wav
+13:36:36 INFO cena 86 pronta (4.5s, total 499s)
+13:36:39 INFO voz [edge] voz_087.wav
+13:36:49 INFO cena 87 pronta (3.1s, total 502s)
+13:36:50 INFO voz [edge] voz_088.wav
+13:36:53 INFO cena 88 pronta (5.2s, total 507s)
+13:36:56 INFO voz [edge] voz_089.wav
+13:37:09 INFO cena 89 pronta (4.5s, total 512s)
+13:37:11 INFO voz [edge] voz_090.wav
+13:37:25 INFO cena 90 pronta (4.7s, total 517s)
+13:37:30 INFO voz [edge] voz_091.wav
+13:37:34 INFO cena 91 pronta (4.9s, total 522s)
+13:37:35 INFO voz [edge] voz_092.wav
+13:37:36 INFO imagem 'Hermann Göring Nuremberg trial 1946 photograph' ← wikimedia
+13:37:45 INFO cena 92 pronta (2.1s, total 524s)
+13:37:48 INFO voz [edge] voz_093.wav
+13:37:52 INFO cena 93 pronta (8.7s, total 532s)
+13:37:55 INFO voz [edge] voz_094.wav
+13:38:00 INFO cena 94 pronta (5.1s, total 538s)
+13:38:02 INFO voz [edge] voz_095.wav
+13:38:11 INFO cena 95 pronta (4.9s, total 542s)
+13:38:16 INFO voz [edge] voz_096.wav
+13:38:41 INFO cena 96 pronta (8.0s, total 550s)
+13:38:42 INFO voz [edge] voz_097.wav
+13:38:56 INFO cena 97 pronta (4.8s, total 555s)
+13:38:58 INFO voz [edge] voz_098.wav
+13:39:00 INFO cena 98 pronta (2.5s, total 558s)
+13:39:03 INFO voz [edge] voz_099.wav
+13:39:19 INFO cena 99 pronta (6.2s, total 564s)
+13:39:21 INFO voz [edge] voz_100.wav
+13:39:35 INFO cena 100 pronta (4.9s, total 569s)
+13:39:37 INFO voz [edge] voz_101.wav
+13:39:42 INFO cena 101 pronta (6.3s, total 575s)
+13:39:45 INFO voz [edge] voz_102.wav
+13:39:51 INFO cena 102 pronta (6.6s, total 582s)
+13:39:54 INFO voz [edge] voz_103.wav
+13:39:59 INFO cena 103 pronta (7.1s, total 589s)
+13:40:02 INFO voz [edge] voz_104.wav
+13:40:18 INFO cena 104 pronta (5.6s, total 594s)
+13:40:21 INFO voz [edge] voz_105.wav
+13:40:37 INFO cena 105 pronta (6.3s, total 601s)
+13:40:39 INFO voz [edge] voz_106.wav
+13:40:56 INFO cena 106 pronta (6.4s, total 607s)
+13:40:57 INFO voz [edge] voz_107.wav
+13:41:00 INFO cena 107 pronta (2.8s, total 610s)
+13:41:01 INFO voz [edge] voz_108.wav
+13:41:05 INFO cena 108 pronta (3.9s, total 614s)
+13:41:08 INFO voz [edge] voz_109.wav
+13:41:20 INFO cena 109 pronta (7.3s, total 621s)
+13:41:22 INFO voz [edge] voz_110.wav
+13:41:27 INFO cena 110 pronta (5.8s, total 627s)
+13:41:30 INFO voz [edge] voz_111.wav
+13:41:45 INFO cena 111 pronta (5.7s, total 632s)
+13:41:48 INFO voz [edge] voz_112.wav
+13:41:56 INFO cena 112 pronta (4.2s, total 637s)
+13:41:57 INFO voz [edge] voz_113.wav
+13:41:59 INFO cena 113 pronta (2.2s, total 639s)
+13:42:00 INFO voz [edge] voz_114.wav
+13:42:11 INFO cena 114 pronta (3.4s, total 642s)
+13:42:13 INFO voz [edge] voz_115.wav
+13:42:23 INFO cena 115 pronta (2.7s, total 645s)
+13:42:26 INFO voz [edge] voz_116.wav
+13:42:41 INFO cena 116 pronta (5.3s, total 650s)
+13:42:42 INFO voz [edge] voz_117.wav
+13:42:44 INFO cena 117 pronta (2.8s, total 653s)
+13:42:47 INFO voz [edge] voz_118.wav
+13:43:01 INFO cena 118 pronta (8.9s, total 662s)
+13:43:02 INFO voz [edge] voz_119.wav
+13:43:06 INFO cena 119 pronta (4.5s, total 666s)
+13:43:07 INFO voz [edge] voz_120.wav
+13:43:10 INFO cena 120 pronta (2.8s, total 669s)
+13:43:13 INFO voz [edge] voz_121.wav
+13:43:18 INFO cena 121 pronta (6.7s, total 676s)
+13:43:20 INFO voz [edge] voz_122.wav
+13:43:23 INFO cena 122 pronta (3.9s, total 680s)
+13:43:25 INFO voz [edge] voz_123.wav
+13:43:38 INFO cena 123 pronta (4.2s, total 684s)
+13:43:39 INFO voz [edge] voz_124.wav
+13:43:43 INFO cena 124 pronta (4.9s, total 689s)
+13:43:45 INFO voz [edge] voz_125.wav
+13:43:50 INFO cena 125 pronta (5.2s, total 694s)
+13:43:53 INFO voz [edge] voz_126.wav
+13:44:18 INFO cena 126 pronta (10.9s, total 705s)
+13:44:19 INFO voz [edge] voz_127.wav
+13:44:24 INFO cena 127 pronta (4.8s, total 710s)
+13:44:24 INFO voz [edge] voz_128.wav
+13:44:27 INFO cena 128 pronta (2.4s, total 712s)
+13:44:30 INFO voz [edge] voz_129.wav
+13:44:37 INFO cena 129 pronta (8.2s, total 721s)
+13:44:38 INFO voz [edge] voz_130.wav
+13:44:41 INFO cena 130 pronta (3.0s, total 724s)
+13:44:44 INFO voz [edge] voz_131.wav
+13:44:56 INFO cena 131 pronta (10.4s, total 734s)
+13:44:59 INFO voz [edge] voz_132.wav
+13:45:13 INFO cena 132 pronta (8.8s, total 743s)
+13:45:15 INFO voz [edge] voz_133.wav
+13:45:17 INFO cena 133 pronta (4.2s, total 747s)
+13:45:18 INFO voz [edge] voz_134.wav
+13:45:26 INFO cena 134 pronta (2.1s, total 749s)
+13:45:28 INFO voz [edge] voz_135.wav
+13:45:39 INFO cena 135 pronta (4.1s, total 753s)
+13:45:41 INFO voz [edge] voz_136.wav
+13:45:46 INFO cena 136 pronta (5.5s, total 759s)
+13:45:50 INFO voz [edge] voz_137.wav
+13:45:57 INFO cena 137 pronta (8.2s, total 767s)
+13:45:58 INFO voz [edge] voz_138.wav
+13:46:00 INFO cena 138 pronta (2.5s, total 769s)
+13:46:01 INFO voz [edge] voz_139.wav
+13:46:04 INFO cena 139 pronta (3.5s, total 773s)
+13:46:08 INFO voz [edge] voz_140.wav
+13:46:10 INFO cena 140 pronta (5.9s, total 779s)
+13:46:13 INFO voz [edge] voz_141.wav
+13:46:16 INFO cena 141 pronta (4.1s, total 783s)
+13:46:18 INFO voz [edge] voz_142.wav
+13:46:21 INFO cena 142 pronta (4.0s, total 787s)
+13:46:23 INFO voz [edge] voz_143.wav
+13:46:28 INFO cena 143 pronta (5.4s, total 792s)
+13:46:33 INFO voz [edge] voz_144.wav
+13:46:36 INFO cena 144 pronta (9.0s, total 801s)
+13:46:39 INFO voz [edge] voz_145.wav
+13:46:54 INFO cena 145 pronta (5.6s, total 807s)
+13:46:56 INFO voz [edge] voz_146.wav
+13:47:00 INFO cena 146 pronta (3.9s, total 811s)
+13:47:02 INFO voz [edge] voz_147.wav
+13:47:05 INFO cena 147 pronta (3.8s, total 815s)
+13:47:07 INFO voz [edge] voz_148.wav
+13:47:13 INFO cena 148 pronta (7.1s, total 822s)
+13:47:14 INFO voz [edge] voz_149.wav
+13:47:24 INFO cena 149 pronta (3.0s, total 825s)
+13:47:26 INFO voz [edge] voz_150.wav
+13:47:40 INFO cena 150 pronta (4.4s, total 829s)
+13:47:43 INFO voz [edge] voz_151.wav
+13:47:54 INFO cena 151 pronta (5.8s, total 835s)
+13:47:56 INFO voz [edge] voz_152.wav
+13:48:08 INFO cena 152 pronta (4.2s, total 839s)
+13:48:12 INFO voz [edge] voz_153.wav
+13:48:32 INFO cena 153 pronta (7.7s, total 847s)
+13:48:37 INFO voz [edge] voz_154.wav
+13:48:53 INFO cena 154 pronta (6.2s, total 853s)
+13:48:55 INFO voz [edge] voz_155.wav
+13:48:59 INFO cena 155 pronta (4.9s, total 858s)
+13:49:01 INFO voz [edge] voz_156.wav
+13:49:07 INFO cena 156 pronta (6.4s, total 864s)
+13:49:11 INFO voz [edge] voz_157.wav
+13:49:53 INFO cena 157 pronta (12.3s, total 877s)
+13:49:56 INFO voz [edge] voz_158.wav
+13:50:17 INFO cena 158 pronta (9.9s, total 887s)
+13:50:19 INFO voz [edge] voz_159.wav
+13:50:22 INFO cena 159 pronta (4.0s, total 891s)
+13:50:26 INFO voz [edge] voz_160.wav
+13:50:47 INFO cena 160 pronta (8.3s, total 899s)
+13:50:50 INFO voz [edge] voz_161.wav
+13:51:06 INFO cena 161 pronta (6.2s, total 905s)
+13:51:07 INFO voz [edge] voz_162.wav
+13:51:24 INFO cena 162 pronta (6.3s, total 911s)
+13:51:25 INFO voz [edge] voz_163.wav
+13:51:30 INFO cena 163 pronta (4.9s, total 916s)
+13:51:33 INFO voz [edge] voz_164.wav
+13:51:52 INFO cena 164 pronta (7.4s, total 924s)
+13:51:55 INFO voz [edge] voz_165.wav
+13:52:07 INFO cena 165 pronta (6.1s, total 930s)
+13:52:09 INFO voz [edge] voz_166.wav
+13:52:23 INFO cena 166 pronta (4.9s, total 935s)
+13:52:24 INFO voz [edge] voz_167.wav
+13:52:36 INFO cena 167 pronta (3.8s, total 938s)
+13:52:38 INFO voz [edge] voz_168.wav
+13:52:54 INFO cena 168 pronta (5.6s, total 944s)
+13:52:57 INFO voz [edge] voz_169.wav
+13:53:02 INFO cena 169 pronta (6.3s, total 950s)
+13:53:04 INFO voz [edge] voz_170.wav
+13:53:14 INFO cena 170 pronta (3.1s, total 954s)
+13:53:19 INFO voz [edge] voz_171.wav
+13:53:24 INFO cena 171 pronta (13.1s, total 967s)
+13:53:28 INFO voz [edge] voz_172.wav
+13:53:47 INFO cena 172 pronta (7.3s, total 974s)
+13:53:49 INFO voz [edge] voz_173.wav
+13:53:52 INFO cena 173 pronta (3.6s, total 978s)
+13:53:54 INFO voz [edge] voz_174.wav
+13:53:57 INFO cena 174 pronta (3.4s, total 981s)
+13:53:59 INFO voz [edge] voz_175.wav
+13:54:01 INFO cena 175 pronta (2.8s, total 984s)
+13:54:05 INFO voz [edge] voz_176.wav
+13:54:15 INFO cena 176 pronta (7.2s, total 991s)
+13:54:17 INFO voz [edge] voz_177.wav
+13:54:26 INFO cena 177 pronta (4.4s, total 995s)
+13:54:30 INFO voz [edge] voz_178.wav
+13:54:31 WARNING nenhuma imagem livre para 'Raphael Lemkin portrait photograph' — usando cartão
+13:54:33 INFO imagem 'Raphael Lemkin' ← wikimedia
+13:54:33 INFO imagem para 'Raphael Lemkin portrait photograph' achada buscando 'Raphael Lemkin'
+13:55:03 INFO cena 178 pronta (10.5s, total 1006s)
+13:55:04 INFO voz [edge] voz_179.wav
+13:55:06 INFO cena 179 pronta (1.9s, total 1008s)
+13:55:08 INFO voz [edge] voz_180.wav
+13:55:11 INFO cena 180 pronta (4.1s, total 1012s)
+13:55:14 INFO voz [edge] voz_181.wav
+13:55:18 INFO cena 181 pronta (5.1s, total 1017s)
+13:55:20 INFO voz [edge] voz_182.wav
+13:55:45 INFO cena 182 pronta (11.0s, total 1028s)
+13:55:48 INFO voz [edge] voz_183.wav
+13:56:01 INFO cena 183 pronta (4.4s, total 1032s)
+13:56:02 INFO voz [edge] voz_184.wav
+13:56:12 INFO cena 184 pronta (3.0s, total 1035s)
+13:56:16 INFO voz [edge] voz_185.wav
+13:56:32 INFO cena 185 pronta (9.6s, total 1045s)
+13:56:37 INFO voz [edge] voz_186.wav
+13:57:10 INFO cena 186 pronta (10.5s, total 1055s)
+13:57:14 INFO sem trilha em musica/misterio — vídeo sai só com narração
+13:57:15 INFO imagem 'Nuremberg trials courtroom Palace of Justice 1946' ← wikimedia
+13:57:16 WARNING nenhuma imagem livre para 'scales of justice documents Nuremberg trials' — usando cartão
+13:57:17 WARNING nenhuma imagem livre para 'scales justice documents Nuremberg' — usando cartão
+13:57:19 WARNING imagem inválida https://upload.wikimedia.org/wikipedia/commons/d/d6/The_Historic_Philadelphia_Civic_Flag.jpg: 404 Client Error: Not Found for url: https://upload.wikimedia.org/wikipedia/commons/d/d6/The_Historic_Philadelphia_Civic_Flag.jpg
+13:57:20 INFO imagem 'scales justice documents' ← openverse
+13:57:20 INFO imagem para 'scales of justice documents Nuremberg trials' achada buscando 'scales justice documents'
+13:57:22 INFO upload 2%
+13:57:22 INFO upload 5%
+13:57:22 INFO upload 7%
+13:57:23 INFO upload 10%
+13:57:23 INFO upload 13%
+13:57:23 INFO upload 15%
+13:57:24 INFO upload 18%
+13:57:24 INFO upload 21%
+13:57:24 INFO upload 23%
+13:57:24 INFO upload 26%
+13:57:25 INFO upload 29%
+13:57:25 INFO upload 31%
+13:57:26 INFO upload 34%
+13:57:26 INFO upload 37%
+13:57:26 INFO upload 39%
+13:57:26 INFO upload 42%
+13:57:27 INFO upload 45%
+13:57:27 INFO upload 47%
+13:57:28 INFO upload 50%
+13:57:28 INFO upload 53%
+13:57:28 INFO upload 55%
+13:57:29 INFO upload 58%
+13:57:29 INFO upload 61%
+13:57:29 INFO upload 63%
+13:57:30 INFO upload 66%
+13:57:30 INFO upload 69%
+13:57:30 INFO upload 71%
+13:57:31 INFO upload 74%
+13:57:31 INFO upload 77%
+13:57:31 INFO upload 79%
+13:57:32 INFO upload 82%
+13:57:32 INFO upload 85%
+13:57:32 INFO upload 87%
+13:57:33 INFO upload 90%
+13:57:33 INFO upload 93%
+13:57:33 INFO upload 95%
+13:57:34 INFO upload 98%
+13:57:34 INFO vídeo enviado: https://youtu.be/QYAggz7958g (agendado para 2026-11-20T21:00:00Z)
+13:57:37 INFO na playlist 'Idade Contemporânea'
+13:57:37 WARNING Encountered 403 Forbidden with reason "forbidden"
+13:57:37 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+13:59:36 INFO corte 1 pronto (52s)
+14:01:17 INFO corte 2 pronto (50s)
+14:03:29 INFO corte 3 pronto (57s)
+14:03:31 INFO Short agendado: https://youtube.com/shorts/HiRiRC13JJk (2026-11-21T15:00:00Z)
+14:03:37 INFO Short agendado: https://youtube.com/shorts/JsY6GjiyyS8 (2026-11-22T15:00:00Z)
+14:03:41 INFO upload 94%
+14:03:42 INFO Short agendado: https://youtube.com/shorts/AsGXp-fj1Co (2026-11-23T15:00:00Z)
+14:03:45 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-20/saida/video.mp4 (17.6 min) → https://youtu.be/QYAggz7958g
