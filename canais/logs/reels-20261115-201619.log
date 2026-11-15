@@ -1,0 +1,29 @@
+20:16:19 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+20:16:29 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+20:16:29 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+20:16:30 INFO Processing audio with duration 00:23.400
+[0;93m2026-11-15 20:16:30.660565646 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+20:16:30 INFO VAD filter removed 00:00.000 of audio
+20:16:36 INFO Processing audio with duration 00:23.400
+20:16:36 INFO VAD filter removed 00:00.000 of audio
+20:16:42 INFO Processing audio with duration 00:23.162
+20:16:42 INFO VAD filter removed 00:00.000 of audio
+20:16:48 INFO bloco 1: 23.2s, 67 palavras reconhecidas
+20:19:42 INFO render 3D: pronto: 737 quadros em 162s
+20:20:05 INFO reel pronto: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-11-desafio/saida/reel.mp4 (24.6s)
+20:20:06 INFO versão anterior tirada da agenda: ZTL--2pjRc0
+20:20:10 INFO Short agendado: https://youtube.com/shorts/ymiR5P8rYDI (2026-11-16T23:00:00Z)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/reel.py", line 401, in <module>
+    produzir(p, enviar="--sem-envio" not in sys.argv, motor="teste" if "teste" in sys.argv else None)
+  File "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/reel.py", line 253, in produzir
+    mid = T.enviar_video(saida, legenda[:1000])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/telegram.py", line 87, in enviar_video
+    return _api("sendVideo", data={"chat_id": chat_id(), "caption": legenda[:1000], "parse_mode": "HTML",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/telegram.py", line 32, in _api
+    raise RuntimeError(f"Telegram {metodo}: {j.get('description')}")
+RuntimeError: Telegram sendVideo: Bad Gateway
