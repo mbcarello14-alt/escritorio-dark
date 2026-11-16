@@ -38,3 +38,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-14
 - Short "o que todo mundo acha que sabe" sobre Quarto de Despejo (nome, edição cortada, autoria) apontando para o longo recém-publicado; confirmar os fatos no dossiê antes.
+
+### 2026-11-16
+- Short "o que todo mundo acha que sabe" sobre outro clássico muito conhecido (ideias que o livro não diz), repetindo o molde do Frankenstein (462 views), com a descrição apontando para o longo do mesmo livro; checar fontes antes.

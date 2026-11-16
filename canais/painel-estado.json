@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-15T23:31:16Z",
+  "atualizado_em": "2026-11-16T00:04:58Z",
   "ativos": {
     "ilustrador": [
       "Longo Marca-Página: Machado de Assis"
@@ -143,8 +143,8 @@
     }
   ],
   "imagens": {
-    "hoje": 151,
-    "neurons": 8305,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
