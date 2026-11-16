@@ -1,0 +1,42 @@
+{
+  "titulo": "Os vikings para dormir",
+  "titulo_youtube": "Os Vikings: 2h30 de História para Dormir sobre os Nórdicos, do Cotidiano às Grandes Viagens",
+  "descricao": "Uma história calma, contada devagar, sobre os vikings: como viviam as famílias nas fazendas da Escandinávia, como eram os navios, as aldeias, os deuses, as assembleias e as longas viagens que levaram os nórdicos até a Inglaterra, a Rússia, a Islândia, a Groenlândia e a costa da América do Norte.\n\nSão duas horas e meia de narração contínua, sem pressa e sem sustos, para você relaxar e adormecer ouvindo sobre cotidiano, personagens, lugares e costumes da Era Viking, aproximadamente dos séculos oito ao onze.\n\nQuando os historiadores divergem, a narração avisa. As ilustrações do vídeo são feitas por inteligência artificial, em estilo de pintura, e não mostram pessoas ou eventos reais de forma fotográfica.\n\nSe quiser mais histórias para dormir, se inscreve no canal. Boa noite.",
+  "capitulos": [
+    {"n": 1, "titulo": "O norte frio e o fiorde", "resumo": "A paisagem da Escandinávia no início da Era Viking: fiordes, florestas, ilhas e o mar como estrada.", "pontos": ["Escandinávia: atuais Noruega, Suécia e Dinamarca", "Fiordes e costas recortadas favorecem a navegação", "Era Viking convencionalmente entre cerca de 793 e 1066", "A palavra viking e seus possíveis significados, com debate entre estudiosos"]},
+    {"n": 2, "titulo": "A fazenda nórdica", "resumo": "Como era a vida numa fazenda: a casa comprida, o fogo central, os animais e as estações.", "pontos": ["Casas compridas com fogo central", "Criação de gado, ovelhas e porcos; cultivo de cevada e aveia", "Verão curto e inverno longo de pouca luz", "Pesca, caça e armazenamento de alimentos"]},
+    {"n": 3, "titulo": "A família e o dia a dia", "resumo": "Papéis de homens, mulheres, crianças e servos na casa; roupas, comida e tarefas.", "pontos": ["Mulheres administravam a casa e guardavam as chaves", "Fiação e tecelagem como trabalho central", "Crianças criadas em outras famílias (fosterage), segundo as fontes escritas", "Roupas de lã e linho, broches e alfinetes", "Escravizados (thralls) existiam na sociedade nórdica"]},
+    {"n": 4, "titulo": "Pão, cerveja e mesa posta", "resumo": "O que se comia e bebia: peixe seco, carne, laticínios, hidromel e os banquetes.", "pontos": ["Peixe seco e salgado, carne defumada, skyr e queijos", "Cerveja e hidromel", "Pães planos e mingaus", "Banquetes e hospitalidade"]},
+    {"n": 5, "titulo": "A construção dos navios", "resumo": "A arte de fazer o drakkar e o knarr: madeira, casco de tábuas sobrepostas e o ofício dos estaleiros.", "pontos": ["Casco trincado (clinker) de carvalho", "Navios de Gokstad, Oseberg e Skuldelev como evidências arqueológicas", "Navios de guerra e navios de carga (knarr)", "Vela quadrada e remos; calado raso para subir rios"]},
+    {"n": 6, "titulo": "Navegar sem mapas", "resumo": "Como os nórdicos se orientavam no mar: sol, estrelas, aves, ondas e a experiência dos pilotos.", "pontos": ["Orientação por sol, estrelas e sinais naturais", "A hipótese da 'pedra do sol' e o debate sobre ela", "Rotas pelo Atlântico Norte", "Divisão da tripulação e vida a bordo"]},
+    {"n": 7, "titulo": "Deuses, mitos e o fim do mundo", "resumo": "Odin, Thor, Freya, a árvore Yggdrasil e as histórias contadas ao redor do fogo.", "pontos": ["Fontes: Edda Poética e Edda em Prosa, de Snorri Sturluson, séculos doze e treze", "Odin, Thor, Frey e Freya", "Yggdrasil e os nove mundos", "Ragnarök como fim e renovação", "Fontes escritas posteriores e cristãs exigem cautela"]},
+    {"n": 8, "titulo": "O Thing: leis e assembleias", "resumo": "Como as comunidades decidiam disputas e faziam leis em assembleias livres.", "pontos": ["O Thing local e regional", "Lögberg e o Althing da Islândia, fundado por volta de 930", "Orador da lei que recitava as leis de memória", "Compensações em prata em vez de vingança, quando possível"]},
+    {"n": 9, "titulo": "Runas e histórias contadas", "resumo": "A escrita rúnica, as pedras com inscrições e a tradição dos poetas e das sagas.", "pontos": ["Alfabeto rúnico futhark", "Pedras rúnicas, como as de Jelling", "Poesia escáldica e as sagas islandesas", "Tradição oral registrada séculos depois"]},
+    {"n": 10, "titulo": "Mercadores do Báltico e de Hedeby", "resumo": "Cidades comerciais como Birka e Hedeby e as trocas de âmbar, peles, ferro e prata.", "pontos": ["Hedeby e Birka como centros comerciais", "Comércio de peles, âmbar, ferro, escravizados e prata", "Moedas árabes (dirhams) encontradas na Escandinávia", "Artesãos: ourives, ferreiros, pentes de osso"]},
+    {"n": 11, "titulo": "Os rios da Rus", "resumo": "Os nórdicos que seguiram pelos rios do leste e as cidades que se formaram na região da atual Rússia e Ucrânia.", "pontos": ["Rotas fluviais do Volkhov ao Dniepre", "Staraya Ladoga e Novgorod", "Relatos de Ibn Fadlan sobre a Rus, século dez", "Contato com Constantinopla e a Guarda Varegue", "Debate sobre a origem da Rus"]},
+    {"n": 12, "titulo": "As ilhas britânicas e a Normandia", "resumo": "A chegada às ilhas, os assentamentos, o Danelaw e o ducado da Normandia, contados com calma.", "pontos": ["Ataque a Lindisfarne em 793", "Danelaw e cidade de Jorvik (York)", "Dublin fundada como assentamento nórdico", "Rollo e o tratado de Saint-Clair-sur-Epte, por volta de 911", "Sem detalhes gráficos de violência"]},
+    {"n": 13, "titulo": "A Islândia: uma nova terra", "resumo": "A colonização da Islândia, a vida dos primeiros colonos e as fazendas em terra vulcânica.", "pontos": ["Colonização a partir de cerca de 870", "Landnámabók, o livro dos assentamentos", "Paisagem de vulcões, géiseres e campos de lava", "Casas de turfa e criação de ovelhas"]},
+    {"n": 14, "titulo": "Groenlândia e Vinland", "resumo": "Erik, o Vermelho, Leif Eriksson e o assentamento de L'Anse aux Meadows, no Canadá.", "pontos": ["Erik, o Vermelho, e a colonização da Groenlândia por volta de 985", "Sagas da Groenlândia e de Erik, o Vermelho", "L'Anse aux Meadows, Terra Nova, datado por volta do ano mil", "Datação por anéis de árvores, ano 1021", "Vinland: localização exata ainda debatida"]},
+    {"n": 15, "titulo": "O fim da Era Viking e a noite", "resumo": "A cristianização, a formação dos reinos e o que ficou, em ritmo cada vez mais lento até o silêncio.", "pontos": ["Conversão gradual ao cristianismo, com reis como Harald Dente Azul", "Pedra de Jelling", "Formação dos reinos da Dinamarca, Noruega e Suécia", "Batalha de Stamford Bridge, 1066, marco convencional do fim", "Legado em palavras, nomes de lugares e histórias"]}
+  ],
+  "thumbnail": {
+    "texto": "OS VIKINGS",
+    "cena": "A calm painted night scene of a Viking longship resting on a still fjord under a starry sky and soft northern lights, warm light glowing from a wooden longhouse on the shore, dark blue and amber tones, peaceful, illustration style",
+    "layout": "direita"
+  },
+  "tags": ["vikings", "história dos vikings", "história para dormir", "era viking", "nórdicos", "mitologia nórdica", "drakkar", "Escandinávia", "Odin", "Thor", "Leif Eriksson", "Islândia", "narração para dormir", "documentário relaxante", "história antiga e medieval"],
+  "hashtags": ["#vikings", "#historiaparadormir", "#historia"],
+  "fontes": [
+    "https://www.britannica.com/topic/Viking-people",
+    "https://pt.wikipedia.org/wiki/Vikings",
+    "https://www.vikingskipshuset.no/en",
+    "https://www.britannica.com/place/Althing",
+    "https://whc.unesco.org/en/list/4",
+    "https://whc.unesco.org/en/list/59",
+    "https://www.britannica.com/topic/Norse-mythology",
+    "https://www.britannica.com/place/Iceland/History",
+    "https://www.britannica.com/biography/Leif-Eriksson",
+    "https://www.nature.com/articles/s41586-021-03972-8",
+    "https://www.britannica.com/biography/Rollo-Norman-leader"
+  ]
+}
