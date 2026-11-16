@@ -2,9 +2,11 @@
   "canal": "livros",
   "tema": "Machado de Assis",
   "formato": "dormir",
-  "etapa": "imagens",
+  "etapa": "aguardando_aprovacao_longo",
   "ajustes": [],
   "blocos_total": 15,
   "criado_em": "2026-11-10",
-  "atualizado_em": "2026-11-15T15:39:37+00:00"
+  "atualizado_em": "2026-11-16T16:12:54+00:00",
+  "duracao_s": 7557.0,
+  "url": "https://youtu.be/UxGNjNjiuCk"
 }
