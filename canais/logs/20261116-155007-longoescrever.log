@@ -1,0 +1,234 @@
+comando: /longo-escrever canais/historia/longos/2026-11-16-os-vikings 3
+🔧 Bash {"command": "cd canais/historia/longos/2026-11-16-os-vikings && cat estado.json && ls blocos 2>/dev/null; head -c 3000 plano.json; python -c \"import json;p=json.load(open('plano.json'));print(p.keys(
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark; ls canais/historia/longos/2026-11-16-os-vikings; grep -n \"bloco\" -i .claude/agents/roteirista-longo-historia.md | head -30"}
+🔧 Agent {"subagent_type": "roteirista-longo-historia", "description": "Escrever blocos 1-3 vikings", "prompt": "Etapa 2 (/longo-escrever). Pasta: canais/historia/longos/2026-11-16-os-vikings. Leia estado.json
+💬 Aguardando o roteirista terminar os três blocos.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/plano.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "content": "{\n  \"n\": 1,\n  \"capitulo\": \"O norte frio e o fior
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "content": "{\n  \"n\": 2,\n  \"capitulo\": \"A fazenda nórdica\",\
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "content": "{\n  \"n\": 3,\n  \"capitulo\": \"A família e o dia a d
+💬 Escrevi os blocos 1, 2 e 3 do plano, todos com `"checado": false`. Não rodei o `checador`, não contei as palavras e não abri nenhum dos links de fonte. Escrevi de memória, sem pesquisar na web.
+
+Cada bloco tem 4 imagens em inglês e uma lista de fontes. Passei os números e as datas por extenso no `texto`.
+
+- **Bloco 1, "O norte frio e o fiorde":** cobre fiordes, Escandinávia, as datas convencionais da Era Viking e o debate sobre a origem da palavra viking. O convite para se inscrever e curtir está só no começo desse bloco.
+- **Bloco 2, "A fazenda nórdica":** cobre a casa comprida, o fogo centra
+💬 Agora o checador nos três blocos, em paralelo.
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 1", "prompt": "Cheque os fatos do `texto` de canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json contra as `fontes` e outras fo
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 2", "prompt": "Cheque os fatos do `texto` de canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json contra as `fontes` e outras fo
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json"}
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 3", "prompt": "Cheque os fatos do `texto` de canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json contra as `fontes` e outras fo
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json"}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Viking-people", "prompt": "Does the page exist? Summarize: Viking Age dates (793, 1066), etymology of viking, who were vikings, Scandinavia definition."}
+💬 Os três checadores estão rodando. Aguardo os resultados.
+🔧 WebFetch {"url": "https://www.britannica.com/place/Scandinavia", "prompt": "Does the page exist? How is Scandinavia defined (which countries)? Is Iceland included?"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json"}
+🔧 WebFetch {"url": "https://www.britannica.com/science/fjord", "prompt": "Does the page exist? How are fjords formed? Mention of glaciers, sea entering valleys."}
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Vikings", "prompt": "Does the page exist? Summarize etymology of viking, dates of Viking Age, Lindisfarne 793, Stamford Bridge 1066."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Longhouse", "prompt": "Viking/Norse longhouse: shape (boat), walls (wattle, turf, timber), roof materials, central hearth, aisles, benches, byre/animals under sa
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Viking_Age", "prompt": "Does the page exist? Viking Age dates, 793 Lindisfarne, 1066 Harald Hardrada Stamford Bridge, etymology of viking (vík, Viken, rowing), I
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Viking_Age_clothing", "prompt": "Does this page exist? Summarize: women's dress (apron dress, tortoise brooches, beads hanging, keys), men's clothing, pins, fibu
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Stockfish", "prompt": "How is stockfish made (cod, drying racks, wind), how long it keeps, Viking Age trade, northern Norway/Lofoten. Exact statements."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Women_in_the_Viking_Age", "prompt": "Does this page exist? Summarize: women's rights (inheritance, divorce, property), keys, running household, sources' reliabil
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Shieling", "prompt": "What is a shieling; Norwegian name (seter/støl); Iceland; summer pastures, dairy; duration. Exact statements."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Fosterage", "prompt": "Does this page exist? Summarize fosterage in Norse society/sagas, who did it, how common, ties."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Viking_Age", "prompt": "Does it exist? Anything on Viking farming, crops, livestock, diet, houses?"}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Viking-people", "prompt": "Does it exist? Anything on farming, crops (barley, oats, rye, flax), livestock, houses, diet?"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Thrall", "prompt": "Does this page exist? Summarize: how thralls were obtained (capture, purchase, birth, debt), rights, manumission, freedmen, work."}
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Vikings", "prompt": "Does it exist? Anything on fazenda, casa comprida, agricultura, alimentação?"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Hnefatafl", "prompt": "Does this page exist? Summarize: rules (king in center, defenders/attackers), where pieces found (graves, trading towns)."}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Viking-people", "prompt": "Does this page exist? What does it say about Viking society, farms, women, slaves?"}
+🔧 WebSearch {"query": "Viking sail wool making time months weaving Viking ship sail experimental archaeology", "mode": "standard"}
+🔧 WebSearch {"query": "laugardagr Old Norse \"laugardagr\" washing day etymology Saturday bathing", "mode": "standard"}
+🔧 WebSearch {"query": "britannica Viking people Scandinavian raiders Viking Age 793 1066 etymology", "mode": "standard"}
+🔧 WebSearch {"query": "britannica fjord glacial valley submerged sea Norway", "mode": "standard"}
+🔧 WebSearch {"query": "britannica Scandinavia region northern Europe Norway Sweden Denmark Iceland", "mode": "standard"}
+🔧 WebSearch {"query": "Viking Age farm longhouse byre under same roof Scandinavia Iceland Greenland archaeology cattle stalls", "mode": "standard"}
+🔧 WebSearch {"query": "Viking women keys graves oval brooches apron dress wikipedia \"Women in the Viking Age\" OR \"Viking-age women\" inheritance divorce Grágás", "mode": "standard"}
+🔧 WebSearch {"query": "Viking clothing Wikipedia Norse clothing apron dress tortoise brooches beads", "mode": "standard"}
+🔧 WebSearch {"query": "Viking Age agriculture crops barley oats rye flax peas beans livestock Scandinavia hay winter fodder", "mode": "standard"}
+🔧 WebSearch {"query": "britannica Viking people society farms women slaves thralls", "mode": "standard", "allowed_domains": ["britannica.com"]}
+🔧 WebSearch {"query": "Viking longhouse upturned boat shape roof; Iceland turf walls; soapstone cooking vessels; wattle and daub", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_01.md", "content": "REPROVADO\n\nBloco 1 (\"O norte frio e o fiorde\"). O 
+💬 REPROVADO. Salvei a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_01.md`. Não editei o bloco.
+
+O conteúdo factual está em boa parte correto. A reprovação vem de três correções obrigatórias.
+
+**Correções obrigatórias**
+1. **Chamada de engajamento incompleta.** O trecho "se inscreve no canal e deixa o seu like" não pede comentário, e a regra do escritório exige inscrição, like e comentário. Sugeri acrescentar o pedido de comentário.
+2. **Nomes dados pelos cronistas.** O trecho "Os cronistas de outros países, na Inglate
+💬 Bloco 1 foi reprovado. Espero os blocos 2 e 3 antes de devolver as correções ao roteirista, para fazer uma volta só.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_03.md", "content": "REPROVADO\n\nBloco 3 (\"A família e o dia a dia\"). Du
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_02.md", "content": "REPROVADO\n\n# Checagem do bloco 02 — \"A fazenda nórd
+💬 O veredito é REPROVADO. Salvei a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_03.md`. Não editei o bloco.
+
+**Links**
+- `Viking_Age_clothing` e `Women_in_the_Viking_Age` dão 404. Os dois precisam ser trocados.
+- `Hnefatafl` redireciona para "Tafl games". Funciona, mas vale apontar direto para `Tafl_games`.
+- A Britannica deu 403 e não consegui abrir a página. Os dados dela no relatório vêm de resumos de busca.
+- As páginas `Fosterage` e `Thrall` existem.
+
+**Os quatro pontos que você pediu**
+- **Vela:** "muitos meses 
+💬 Bloco 3 também foi reprovado. Falta só o bloco 2.
+💬 **REPROVADO.** Salvei a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_02.md`. Não editei o bloco.
+
+**Links**
+- Cinco dos seis abrem.
+- A Britannica deu erro 403, provavelmente bloqueio a robôs. Não consegui verificar.
+- A página Longhouse da Wikipedia quase não sustenta o texto, porque é genérica e não trata da casa nórdica.
+- As páginas Viking Age e pt.wikipedia só cobrem partes do texto.
+- Só a página Stockfish sustenta bem o trecho do bacalhau.
+- Shieling sustenta os pastos de verão, mas não o termo "séter".
+
+**Co
+🔧 Agent {"subagent_type": "roteirista-longo-historia", "description": "Corrigir blocos 1-3 (volta 1)", "prompt": "Pasta: canais/historia/longos/2026-11-16-os-vikings. O checador reprovou os blocos 1, 2 e 3. L
+💬 Mandei as correções dos três blocos ao roteirista (primeira volta). Quando ele terminar, o checador confere de novo.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_01.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_02.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_03.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json"}
+🔧 WebFetch {"url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/women/", "prompt": "Confirme que a página abre e resuma o que diz sobre chaves, di
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Tafl_games", "prompt": "Confirme que abre e resuma brevemente."}
+🔧 WebFetch {"url": "https://www.hurstwic.org/history/articles/daily_living/text/Homes.htm", "prompt": "Confirme que abre. O que diz sobre casa comprida (formato, paredes de turfa, fogo central, bancos, animais s
+🔧 WebFetch {"url": "https://www.britannica.com/place/Norway", "prompt": "Confirme se abre e o que diz sobre clima, North Atlantic Drift/Gulf Stream, sol da meia-noite."}
+🔧 WebSearch {"query": "Viking Ship Museum Roskilde sail wool sheep years of work reconstruction Havhingsten sail", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.vikingeskibsmuseet.dk/fagligt/baadevaerft/eksperimentalarkaeologi/maritime-haandvaerk/maritim-teknologi/wool-sailcloth", "prompt": "Confirme que abre. O que diz sobre tempo de tra
+🔧 WebSearch {"query": "hurstwic Viking longhouse Homes turf walls central hearth benches animals under same roof", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/North_Atlantic_Current", "prompt": "Confirme que abre e se diz que aquece o clima do noroeste da Europa/Noruega e que é extensão da Corrente do Golfo."}
+🔧 WebFetch {"url": "https://hurstwic.org/history/articles/daily_living/text/longhouse.htm", "prompt": "Confirme que abre. O que diz sobre formato, paredes, telhado, fogo central, bancos, camas, animais?"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "old_string": "se inscreve no canal e deixa o
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "old_string": "quando um grande rei nórdico m
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "old_string": "Isso acontece por causa de uma
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "old_string": "Em pleno inverno, em algumas r
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "old_string": "Os cronistas de outros países,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "old_string": "    \"https://www.britannica.c
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "É uma construção baixa e compr
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "usava-se uma trama de varas fi
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "O telhado era coberto de palha
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "Ao longo das paredes, dos dois
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "Um estábulo para os animais. U
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "Em algumas regiões, a casa com
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "um tipo de coalhada que ainda 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "Em algumas partes da Noruega, 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "ficava duro como uma tábua, ma
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "Colhiam-se frutas silvestres, 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "Os animais se acomodavam. A ca
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "    \"https://en.wikipedia.org
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "Em muitas sepulturas de mulher
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "Pelas leis e pelas sagas, as m
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "em quase todo sítio da Era Vik
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "Os estudiosos que tentaram ref
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "Chama-se, em inglês, fosterage
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "Os homens usavam túnicas até o
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "Esses broches são das peças ma
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "Em nórdico antigo, o sábado se
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "    \"https://en.wikipedia.org
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "limit": 4, "offset": 3, "allow_large": true}
+💬 Apliquei as correções obrigatórias nos três blocos. Todos continuam com `"checado": false` e o tamanho ficou praticamente igual ao de antes. Não reli os blocos 1 e 2 depois das edições, então a validade do JSON só foi conferida no bloco 3.
+
+**Bloco 1**
+- A chamada agora pede inscrição, like e comentário.
+- Reescrevi o trecho dos nomes dados pelos cronistas por região: dinamarqueses e pagãos na Inglaterra, normandos na França, majus e rus no mundo árabe. Também deixei claro que "viking" para o povo inteiro é uso moderno.
+- A corrente passou a ser a Deriva do Atlântico Norte, prolongamento da Co
+🔧 Bash {"command": "cd canais/historia/longos/2026-11-16-os-vikings/blocos && for f in bloco_0*.json; do python -c \"import json,sys;d=json.load(open('$f'));print('$f',len(d['texto'].split()),d['checado'])\"
+❌ A variable in this command can't be checked before it runs
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos && python3 -c \"\nimport json,glob\nfor f in sorted(glob.glob('bloco_0*.json')):\n
+💬 Os JSONs são válidos e o tamanho está dentro da faixa (1.447, 1.458 e 1.519 palavras; o limite é 1.625). Agora a segunda checagem.
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 1", "prompt": "Segunda checagem (volta final) de canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json. Veja checagem_01.md ant
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 2", "prompt": "Segunda checagem (volta final) de canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json. Veja checagem_02.md ant
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_01.md"}
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 3", "prompt": "Segunda checagem (volta final) de canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json. Veja checagem_03.md ant
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_02.md"}
+💬 Os três checadores da segunda volta estão rodando. Aguardo os veredictos.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_03.md"}
+🔧 WebFetch {"url": "https://hurstwic.org/history/articles/daily_living/text/longhouse.htm", "prompt": "Does it say: longhouse walls slightly curved/boat-like; wall materials (wattle and daub, planks, logs); roof
+🔧 WebFetch {"url": "https://www.vikingeskibsmuseet.dk/fagligt/baadevaerft/eksperimentalarkaeologi/maritime-haandvaerk/maritim-teknologi/wool-sailcloth", "prompt": "How much time/labor did making a Viking wool sa
+🔧 WebFetch {"url": "https://hurstwic.org/history/articles/daily_living/text/Turf_Houses.htm", "prompt": "Does it say Iceland houses made of turf blocks due to lack of wood? Anything about livestock under same ro
+🔧 WebSearch {"query": "Viking Age longhouse byre cattle under same roof Norway Denmark archaeology how common", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/women/", "prompt": "What does it say on keys in graves, divorce, inheritance, prop
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Fosterage", "prompt": "Fosterage in Norse/Icelandic sagas: status of fosterer vs biological father, honor, inheritance, whether adoption, duration."}
+🔧 WebFetch {"url": "https://www.vikingeskibsmuseet.dk/fagligt/baadevaerft/eksperimentalarkaeologi/maritime-haandvaerk/maritim-teknologi/wool-sailcloth", "prompt": "Find text about time needed to produce a Viking
+🔧 WebSearch {"query": "Viking Ship Museum Roskilde woollen sail Gaia Sea Stallion sail how long to make spinning weaving years", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_01.md", "content": "APROVADO\n\nBloco 1 (\"O norte frio e o fiorde\"), seg
+💬 APROVADO. Sobrescrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_01.md` e não editei o bloco.
+
+- **Correções da volta anterior:** todas foram aplicadas.
+  - A chamada de engajamento agora inclui o comentário.
+  - O trecho sobre os nomes dados pelos cronistas foi reescrito: dinamarqueses ou pagãos na Inglaterra, normandos na França, majus e rus no mundo árabe.
+  - O texto cita a Deriva do Atlântico Norte, e a fonte North_Atlantic_Current foi adicionada a `fontes`.
+  - Os ajustes sugeridos (lamparinas, círculo polar, Hardrada e
+🔧 Bash {"command": "grep -o \".\\{120\\}algumas horas, você chega.\\{80\\}\" bloco_01.json"}
+❌ This command requires approval
+🔧 Grep {"pattern": ".{100}algumas horas.{100}", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "output_mode": "content", "-o": 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "old_string": "Em quase qualquer ponto, andan
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_01.json", "old_string": "\"checado\": false", "new_stri
+💬 Bloco 1 está aprovado e marcado como `checado: true`. Também troquei a frase que exagerava a distância até o mar. Aguardo os blocos 2 e 3.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_02.md", "content": "APROVADO\n\n# Checagem do bloco 02 (segunda volta) - \
+💬 APROVADO. Sobrescrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_02.md`. Não editei o bloco.
+
+- **Correções anteriores:** as 13 foram aplicadas.
+- **Frase da ala do gado:** confere, mas não tem link nas `fontes`. Ela diz "sobretudo na Noruega e na Dinamarca", ressalva que nem todas as fazendas faziam isso e diz que os arqueólogos discutem a frequência. Essa redação é coerente com o que li:
+  - A página Turf_Houses do hurstwic diz que no início da Era Viking os animais ficavam na casa comprida e que depois foram para anexos.
+ 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_02.json", "old_string": "\"checado\": false", "new_stri
+💬 Bloco 2 está aprovado e marcado como `checado: true`. Falta o bloco 3.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_03.md", "content": "APROVADO\n\nBloco 3 (\"A família e o dia a dia\"), seg
+💬 **APROVADO.** Sobrescrevi `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_03.md`. Não editei o bloco.
+
+- **Correções da 1ª checagem:** todas foram aplicadas. Os links 404 e a Britannica saíram de `fontes`. Chaves, direitos das mulheres, fosterage, laugardagr, fusos e broches estão com a redação sugerida.
+- **Vela de Roskilde:** confere. A página do museu diz que cinco pessoas fiariam e teceriam o pano da vela do Ottar em um ano. "Mais de um ano de trabalho de muita gente, e talvez bem mais" fica dentro disso. A página não traz a q
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_03.json", "old_string": "\"checado\": false", "new_stri
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python -m pipeline.longo validar canais/historia/longos/2026-11-16-os-vikings"}
+💬 Os blocos 1, 2 e 3 de "Os vikings" estão escritos, checados e marcados `checado: true`. `python -m pipeline.longo validar` retornou OK.
+
+- **Correções:** o `checador` reprovou os três blocos na primeira checagem. Foi uma volta de correção com o roteirista, e os três passaram na segunda checagem.
+- **Tamanho:** os blocos têm entre 1.447 e 1.519 palavras, dentro do limite do roteirista. O bloco 1 teve ainda um ajuste de redação depois da aprovação.
+- **Observações do checador:** estão em `blocos/checagem_01.md`, `checagem_02.md` e `checagem_03.md`.
+- **Pendências não bloqueantes:**
+  - Algumas f
+
+=== resultado: success | turnos 4 | 7s | erro=False
+Aguardando o roteirista terminar os três blocos.
+
+=== resultado: success | turnos 4 | 6s | erro=False
+Os três checadores estão rodando. Aguardo os resultados.
+
+=== resultado: success | turnos 1 | 1s | erro=False
+Bloco 1 foi reprovado. Espero os blocos 2 e 3 antes de devolver as correções ao roteirista, para fazer uma volta só.
+
+=== resultado: success | turnos 1 | 1s | erro=False
+Bloco 3 também foi reprovado. Falta só o bloco 2.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+Mandei as correções dos três blocos ao roteirista (primeira volta). Quando ele terminar, o checador confere de novo.
+
+=== resultado: success | turnos 6 | 8s | erro=False
+Os três checadores da segunda volta estão rodando. Aguardo os veredictos.
+
+=== resultado: success | turnos 5 | 6s | erro=False
+Bloco 1 está aprovado e marcado como `checado: true`. Também troquei a frase que exagerava a distância até o mar. Aguardo os blocos 2 e 3.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+Bloco 2 está aprovado e marcado como `checado: true`. Falta o bloco 3.
+
+=== resultado: success | turnos 3 | 5s | erro=False
+Os blocos 1, 2 e 3 de "Os vikings" estão escritos, checados e marcados `checado: true`. `python -m pipeline.longo validar` retornou OK.
+
+- **Correções:** o `checador` reprovou os três blocos na primeira checagem. Foi uma volta de correção com o roteirista, e os três passaram na segunda checagem.
+- **Tamanho:** os blocos têm entre 1.447 e 1.519 palavras, dentro do limite do roteirista. O bloco 1 teve ainda um ajuste de redação depois da aprovação.
+- **Observações do checador:** estão em `blocos/checagem_01.md`, `checagem_02.md` e `checagem_03.md`.
+- **Pendências não bloqueantes:**
+  - Algumas frases dos blocos 2 e 3 estão sem link em `fontes`: a ala do gado sob o mesmo teto, laugardagr, roupas e broches, e "alguns eram livres e recebiam pagamento".
+  - Não consegui abrir as páginas da Britannica (erro 403), então os dados dela só foram conferidos por resumos de busca.
+- **Engajamento:** só o bloco 1 tem a chamada de inscrição, like e comentário. Esse é o desenho do canal para vídeos longos, só no começo, e o checador lembrou da regra geral do escritório.
+- **Progresso:** o plano tem 15 blocos, então restam 12.
+
+Não fiz commit. Os arquivos novos de `blocos/` estão sem commit.
+codigo de saida: 0
