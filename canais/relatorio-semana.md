@@ -1,15 +1,15 @@
-# Relatório da semana — 09/11/2026
+# Relatório da semana — 16/11/2026
 
 **Meta Parcerias: 500 inscritos e 3.000 horas (365 dias)**
-- Ouro & Império: 5 inscritos (1%), 17,5 h (0,6%)
-- Mapeado: 12 inscritos (2,4%), 16,2 h (0,5%)
-- Marca-Página: 7 inscritos (1,4%), 12,8 h (0,4%)
+- Ouro & Império: 7 inscritos (1,4%), 24,0 h (0,8%)
+- Mapeado: 13 inscritos (2,6%), 23,7 h (0,8%)
+- Marca-Página: 9 inscritos (1,8%), 15,5 h (0,5%)
 
-**Melhor vídeo:** Mapeado, Era Vargas. As pessoas assistiram 43% do vídeo (5m25). Quem passou dos primeiros 23 s ficou até a metade.
-**Pior vídeo:** Ouro & Império, Templários. Média de 5 segundos assistidos (7 views). O título é descritivo e não usa o "Pix medieval" que fez o Short chegar a 1.257 views.
-Atenção: as amostras são minúsculas (6 a 19 views), então são pistas, não conclusões. Ainda não temos CTR.
+**Melhor vídeo:** Marca-Página, A Revolução dos Bichos. 21 views e 24% assistido, o melhor longo do canal. 14 das 21 views vieram de "relacionados": os Shorts estão levando gente ao longo.
+**Pior vídeo:** Ouro & Império, Muro de Berlim. Só 1 view em 7 dias, mesmo com tema de data. Ainda não sabemos o CTR.
+Atenção: amostras minúsculas (1 a 21 views), então são pistas. Quem chega ao longo costuma ficar (50% a 100% em vários); o problema é chegar gente.
 
 **3 ações para a semana**
-1. Terminar cada Short com a chamada para o vídeo longo do mesmo tema. Os Shorts têm 20 a 180 vezes mais views que os longos.
-2. Usar nos longos o título e o gancho que funcionaram nos Shorts (pergunta com número, comparação com hoje como o "Pix medieval").
-3. Olhar as imagens de acervo antes de publicar: apareceram arquivos sem relação com o tema na lista de créditos.
+1. Conferir no YouTube Studio impressões e CTR do Muro de Berlim, Wall Street e Brás Cubas (os dois últimos sem dados).
+2. Fechar cada Short com a chamada para o longo do mesmo tema: "relacionados" é a maior fonte de views dos longos.
+3. Levar para o título dos longos o molde dos Shorts campeões (comparação com hoje ou pegadinha).

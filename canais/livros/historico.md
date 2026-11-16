@@ -5,6 +5,8 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 | Data | Pasta | Tema | Gancho (1ª frase) | Estrutura | Thumb (conceito) | CTR 7d | Retenção média | Lição |
 |------|-------|------|-------------------|-----------|------------------|--------|----------------|-------|
 | 2026-10-28 | 2026-10-28 | Frankenstein (Mary Shelley) | "Frankenstein não é o monstro: é o criador que fugiu da própria obra." (veredito no começo) | Veredito, ficha, boneca russa de narradores, crítica, para quem serve | ver 09-thumbnail.md | n/d | 19,7% (19 views, 2m10) | Short irmão fez ~462 views e o longo 19: ligar Short ao longo (9 de 19 views vieram de relacionados) e abrir o longo pela pegadinha |
+| 2026-11-04 | 2026-11-04 | A Revolução dos Bichos (Orwell) | Título: livro que 4 editoras recusaram | Tese de alegoria, 9 blocos, sem falar de Enem | ver 09-thumbnail.md | n/d | 23,8% (21 views, 3m09) | Melhor longo do canal; 14 de 21 views por relacionados: ponte Short → longo funciona |
+| 2026-11-07 | 2026-11-07 | Dom Casmurro: Capitu traiu? | Gancho do julgamento | Livro como tribunal, cinco "provas" | ver 09-thumbnail.md | n/d | 51,7% (6 views, 7m02) | Pergunta + veredito segura quem chega; só 1 view veio de busca |
 
 ## Ideias vindas da audiência
 
