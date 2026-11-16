@@ -1,0 +1,75 @@
+{
+  "canal": "livros",
+  "formato": "construcao",
+  "titulo": "Em Vidas Secas, a cachorra tem nome e os filhos não",
+  "descricao": "Construímos o sertão de Vidas Secas, de Graciliano Ramos, peça por peça. Um detalhe do livro: os dois meninos nunca ganham nome, mas a cachorra é Baleia.",
+  "hashtags": ["#vidassecas", "#livros", "#gracilianoramos"],
+  "legenda_reels": "Vidas Secas, de Graciliano Ramos, montado do zero. Os meninos não têm nome, a cachorra tem. Você já leu? Comenta BALEIA #vidassecas #livros #gracilianoramos",
+  "isca": "Comenta BALEIA",
+  "cenario": {"ceu": "#f2c48d", "chao": "#d9a066", "cidade": false, "arvores": 0, "nuvens": false, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 2.2, 0]},
+  "objetos": [
+    {"id": "titulo", "tipo": "texto", "texto": "VIDAS SECAS\nGraciliano Ramos", "cor": "#ffffff", "fundo": "#5a2e1a", "tam": 1.0, "pos": [0, 0.75], "oculto": true},
+    {"id": "terra", "tipo": "terreno", "tam": [9, 8], "cor": "#c98f55", "pos": [0, 0.02, 0], "oculto": true},
+    {"id": "casa", "tipo": "casa", "cor": "#e8d3b0", "telhado": "#8a4b2a", "pos": [0, 0, -1.8], "escala": 1.6, "oculto": true},
+    {"id": "fabiano", "tipo": "boneco", "cor": "#3f6fb5", "pele": "#b57a50", "cabelo": "#2a1a10", "calca": "#6b4a2b", "chapeu": "cartola", "pos": [-1.9, 0, 1.2], "oculto": true},
+    {"id": "vitoria", "tipo": "boneco", "cor": "#b5453f", "pele": "#b57a50", "cabelo": "#1c1008", "calca": "#7a3b2a", "pos": [-0.7, 0, 1.6], "oculto": true},
+    {"id": "menino1", "tipo": "boneco", "cor": "#6fae5b", "pele": "#b57a50", "cabelo": "#2a1a10", "calca": "#6b4a2b", "pos": [0.7, 0, 1.8], "escala": 0.55, "oculto": true},
+    {"id": "menino2", "tipo": "boneco", "cor": "#e0b84a", "pele": "#b57a50", "cabelo": "#2a1a10", "calca": "#6b4a2b", "pos": [1.5, 0, 1.4], "escala": 0.45, "oculto": true},
+    {"id": "sem_nome", "tipo": "texto", "texto": "SEM NOME", "cor": "#ffffff", "fundo": "#b5453f", "tam": 1.1, "pos": [0, 0.55], "oculto": true},
+    {"id": "baleia", "tipo": "cubo", "tam": [0.9, 0.5, 0.4], "cor": "#8a5a3a", "pos": [2.3, 0.25, 1.5], "oculto": true},
+    {"id": "nome_baleia", "tipo": "texto", "texto": "BALEIA", "cor": "#ffffff", "fundo": "#3f6fb5", "tam": 1.3, "pos": [0, 0.55], "oculto": true},
+    {"id": "livro", "tipo": "livro", "cor": "#7a3b1a", "titulo": "Vidas Secas", "pos": [0, 0.2, 3.0], "escala": 1.3, "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Vamos construir o sertão de Vidas Secas, de Graciliano Ramos. Primeiro, espalhe a terra rachada. Pronto, agora você tem um sertão em seca.",
+     "pronto": "um sertão em seca",
+     "acoes": [
+       {"t": 0.0, "alvo": "titulo", "acao": "aparecer", "som": "pop"},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 1.5, 0], "raio": 15, "altura": 5, "de": -15, "ate": 10, "dur": 6},
+       {"t": 2.4, "alvo": "terra", "acao": "construir", "modo": "cresce", "som": "pop"}
+     ]},
+    {"texto": "Agora levante uma fazenda abandonada, onde a família de Fabiano se abriga da seca. Pronto, agora você tem um abrigo.",
+     "pronto": "um abrigo",
+     "acoes": [
+       {"t": 0.3, "alvo": "titulo", "acao": "sumir"},
+       {"t": 0.6, "alvo": "casa", "acao": "construir", "modo": "cai", "som": "boom"},
+       {"t": 0.6, "acao": "tremer", "forca": 0.3},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 1.5, 0], "raio": 15, "altura": 5, "de": 10, "ate": 35, "dur": 6}
+     ]},
+    {"texto": "Ponha Fabiano e Sinhá Vitória na porta, cansados de fugir.",
+     "acoes": [
+       {"t": 0.3, "alvo": "fabiano", "acao": "construir", "modo": "sobe", "som": "pop"},
+       {"t": 1.5, "alvo": "vitoria", "acao": "construir", "modo": "sobe", "som": "pop"},
+       {"t": 2.5, "alvo": "fabiano", "acao": "acenar"},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 1.5, 0], "raio": 13, "altura": 4, "de": 35, "ate": 50, "dur": 4}
+     ]},
+    {"texto": "Agora os filhos. Repare: o livro nunca dá nome a eles. Pronto, agora você tem dois meninos sem nome.",
+     "pronto": "dois meninos sem nome",
+     "acoes": [
+       {"t": 0.2, "alvo": "menino1", "acao": "construir", "modo": "cresce", "som": "pop"},
+       {"t": 0.8, "alvo": "menino2", "acao": "construir", "modo": "cresce", "som": "pop"},
+       {"t": 2.6, "alvo": "sem_nome", "acao": "aparecer", "som": "ding"},
+       {"t": 2.6, "alvo": "menino1", "acao": "pular", "altura": 0.6},
+       {"t": 3.1, "alvo": "menino2", "acao": "pular", "altura": 0.6},
+       {"t": 0.0, "acao": "camera", "pos": [1, 3, 10], "olha": [0.5, 1.2, 1.5]}
+     ]},
+    {"texto": "Por último, a cachorra, que tem nome: Baleia. Pronto, agora você tem a família inteira.",
+     "pronto": "a família inteira",
+     "acoes": [
+       {"t": 0.0, "alvo": "sem_nome", "acao": "sumir"},
+       {"t": 0.4, "alvo": "baleia", "acao": "construir", "modo": "cai", "som": "boom"},
+       {"t": 0.4, "acao": "tremer", "forca": 0.4},
+       {"t": 1.6, "alvo": "nome_baleia", "acao": "aparecer", "som": "ding"},
+       {"t": 2.0, "acao": "camera", "pos": [0, 5, 15], "olha": [0, 2.2, 0]}
+     ]},
+    {"texto": "No fim, eles fogem de novo, como se tudo recomeçasse. Você já leu Vidas Secas? Comenta BALEIA.",
+     "acoes": [
+       {"t": 0.0, "alvo": "nome_baleia", "acao": "sumir"},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 1.5, 0], "raio": 15, "altura": 5, "de": 50, "ate": 110, "dur": 6},
+       {"t": 0.6, "alvo": "livro", "acao": "construir", "modo": "cai", "som": "boom"},
+       {"t": 1.0, "alvo": "baleia", "acao": "pular", "altura": 0.8},
+       {"t": 2.5, "alvo": "titulo", "acao": "aparecer", "som": "pop"}
+     ]}
+  ]
+}

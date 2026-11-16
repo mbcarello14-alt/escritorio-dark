@@ -1,0 +1,12 @@
+15:58:04 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+15:58:05 INFO Processing audio with duration 00:40.121
+[0;93m2026-11-16 15:58:05.514211444 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+15:58:05 INFO VAD filter removed 00:00.016 of audio
+15:58:11 INFO Processing audio with duration 00:40.121
+15:58:11 INFO VAD filter removed 00:00.016 of audio
+15:58:19 INFO Processing audio with duration 00:40.121
+15:58:19 INFO VAD filter removed 00:00.048 of audio
+15:58:25 INFO bloco 1: 40.1s, 105 palavras reconhecidas
+16:01:42 INFO render 3D: pronto: 1246 quadros em 196s
+16:02:03 INFO reel pronto: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-16/saida/reel.mp4 (41.5s)
+16:02:06 INFO Short agendado: https://youtube.com/shorts/Ko-Wn5AQiCA (2026-11-22T23:00:00Z)

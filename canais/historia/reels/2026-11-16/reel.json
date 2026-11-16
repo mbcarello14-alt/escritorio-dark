@@ -1,0 +1,86 @@
+{
+  "canal": "historia",
+  "formato": "construcao",
+  "titulo": "Construa o Coliseu de Roma em 30 segundos",
+  "descricao": "Passo a passo de como os romanos ergueram o Coliseu: lago de Nero secado, concreto, travertino com grampos de ferro, três andares de arcos e um toldo gigante.",
+  "hashtags": ["#historia", "#coliseu", "#roma"],
+  "legenda_reels": "Construa o Coliseu do zero, do jeito dos romanos: seca o lago, concreto, pedra com grampos de ferro e toldo gigante. Comenta COLISEU! #historia #coliseu #roma #curiosidades",
+  "isca": "Comenta COLISEU",
+  "cenario": {"ceu": "#f3b873", "chao": "#d9b97a", "cidade": false, "arvores": 0, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 6, 16], "olha": [0, 2.6, -1]},
+  "objetos": [
+    {"id": "grama", "tipo": "terreno", "tam": [9, 9], "cor": "#a9b26a", "pos": [0, 0, -1], "oculto": true},
+    {"id": "lago", "tipo": "agua", "tam": [6.2, 6.2], "cor": "#4aa3c7", "pos": [0, 0.05, -1], "oculto": true},
+    {"id": "fund", "tipo": "cilindro", "tam": [5.9, 0.5], "cor": "#8f8a80", "pos": [0, 0.25, -1], "oculto": true},
+    {"id": "andar1", "tipo": "cilindro", "tam": [5.6, 1.3], "cor": "#e6d3a8", "pos": [0, 1.15, -1], "oculto": true},
+    {"id": "andar2", "tipo": "cilindro", "tam": [5.2, 1.3], "cor": "#ecdbb2", "pos": [0, 2.45, -1], "oculto": true},
+    {"id": "andar3", "tipo": "cilindro", "tam": [4.8, 1.3], "cor": "#f1e2bd", "pos": [0, 3.75, -1], "oculto": true},
+    {"id": "arco1", "tipo": "arco", "tam": [1.3, 1.0, 0.3], "pos": [0, 0.5, 1.95], "oculto": true},
+    {"id": "arco2", "tipo": "arco", "tam": [1.3, 1.0, 0.3], "pos": [0, 1.8, 1.7], "oculto": true},
+    {"id": "arco3", "tipo": "arco", "tam": [1.3, 1.0, 0.3], "pos": [0, 3.1, 1.5], "oculto": true},
+    {"id": "arena", "tipo": "cilindro", "tam": [3.2, 0.1], "cor": "#c9a064", "pos": [0, 4.45, -1], "oculto": true},
+    {"id": "toldo", "tipo": "cone", "tam": [5.4, 0.9], "lados": 16, "cor": "#b5352b", "pos": [0, 4.9, -1], "oculto": true},
+    {"id": "op1", "tipo": "boneco", "cor": "#b5452f", "calca": "#6b4a2b", "pos": [-3.2, 0, 1.5], "escala": 0.6, "oculto": true},
+    {"id": "op2", "tipo": "boneco", "cor": "#2f6fa8", "calca": "#6b4a2b", "pos": [3.2, 0, 1.5], "escala": 0.6, "oculto": true},
+    {"id": "etapa", "tipo": "texto", "texto": "COLISEU DO ZERO", "cor": "#ffffff", "fundo": "#7a3b12", "tam": 1.0, "pos": [0, 0.8], "oculto": true},
+    {"id": "n_ferro", "tipo": "numero", "valor": 0, "sufixo": " t de ferro", "casas": 0, "cor": "#ffffff", "tam": 1.1, "pos": [0, 0.64], "oculto": true},
+    {"id": "n_portas", "tipo": "numero", "valor": 0, "sufixo": " entradas", "casas": 0, "cor": "#ffe27a", "tam": 1.1, "pos": [0, 0.64], "oculto": true},
+    {"id": "n_gente", "tipo": "numero", "valor": 0, "sufixo": " pessoas", "casas": 0, "cor": "#ffe27a", "tam": 1.1, "pos": [0, 0.64], "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Vamos construir o Coliseu de Roma do zero, do jeito dos romanos.", "acoes": [
+      {"t": 0.0, "alvo": "etapa", "acao": "aparecer", "som": "pop"},
+      {"t": 0.0, "acao": "orbitar", "centro": [0, 2.6, -1], "raio": 16, "altura": 6, "de": 0, "ate": 75, "dur": 40},
+      {"t": 0.3, "alvo": "grama", "acao": "construir", "modo": "cresce"},
+      {"t": 0.8, "alvo": "lago", "acao": "construir", "modo": "cresce", "som": "pop"},
+      {"t": 1.8, "alvo": "op1", "acao": "aparecer", "som": "pop"},
+      {"t": 2.2, "alvo": "op2", "acao": "aparecer", "som": "pop"},
+      {"t": 3.0, "alvo": "op1", "acao": "acenar"}
+    ]},
+    {"texto": "Primeiro, seque o lago artificial que Nero deixou ali. Pronto, agora você tem um terreno livre.", "pronto": "um terreno livre", "acoes": [
+      {"t": 0.0, "alvo": "etapa", "acao": "texto", "texto": "1. SECAR O LAGO"},
+      {"t": 0.5, "alvo": "op1", "acao": "mover", "para": [-2.2, 0, 1.5], "som": "whoosh"},
+      {"t": 2.0, "alvo": "lago", "acao": "sumir", "som": "whoosh"},
+      {"t": 2.3, "alvo": "op2", "acao": "pular", "altura": 0.8}
+    ]},
+    {"texto": "Agora despeje concreto romano para a fundação. Pronto, agora você tem uma base firme.", "pronto": "uma base firme", "acoes": [
+      {"t": 0.0, "alvo": "etapa", "acao": "texto", "texto": "2. CONCRETO"},
+      {"t": 0.8, "alvo": "fund", "acao": "construir", "modo": "sobe", "som": "pop"},
+      {"t": 2.6, "alvo": "op2", "acao": "mover", "para": [2.2, 0, 1.5], "som": "whoosh"}
+    ]},
+    {"texto": "Em cima, empilhe mais de cem mil metros cúbicos de travertino, sem argamassa. Quem segura tudo? Trezentas toneladas de grampos de ferro. Pronto, agora você tem uma parede de pedra.", "pronto": "uma parede de pedra", "acoes": [
+      {"t": 0.0, "alvo": "etapa", "acao": "texto", "texto": "3. PEDRA SEM COLA"},
+      {"t": 0.6, "alvo": "andar1", "acao": "construir", "modo": "cresce", "som": "pop"},
+      {"t": 3.0, "alvo": "n_ferro", "acao": "aparecer", "som": "ding"},
+      {"t": 3.2, "alvo": "n_ferro", "acao": "contar", "para": 300, "dur": 2.0, "som": "tic"},
+      {"t": 5.6, "alvo": "n_ferro", "acao": "sumir"}
+    ]},
+    {"texto": "Agora levante três andares de arcos, com oitenta entradas para a multidão. Pronto, agora você tem um estádio de verdade.", "pronto": "um estádio de verdade", "acoes": [
+      {"t": 0.0, "alvo": "etapa", "acao": "texto", "texto": "4. TRÊS ANDARES"},
+      {"t": 0.4, "alvo": "andar2", "acao": "construir", "modo": "cai", "som": "boom"},
+      {"t": 0.4, "acao": "tremer", "forca": 0.3},
+      {"t": 1.4, "alvo": "andar3", "acao": "construir", "modo": "cai", "som": "boom"},
+      {"t": 2.0, "alvo": "arco1", "acao": "construir", "modo": "cresce", "som": "pop"},
+      {"t": 2.3, "alvo": "arco2", "acao": "construir", "modo": "cresce", "som": "pop"},
+      {"t": 2.6, "alvo": "arco3", "acao": "construir", "modo": "cresce", "som": "pop"},
+      {"t": 3.0, "alvo": "n_portas", "acao": "aparecer", "som": "ding"},
+      {"t": 3.2, "alvo": "n_portas", "acao": "contar", "para": 80, "dur": 1.8, "som": "tic"},
+      {"t": 5.2, "alvo": "n_portas", "acao": "sumir"}
+    ]},
+    {"texto": "Por fim, estique um toldo gigante, preso em duzentos e quarenta mastros, para dar sombra ao público.", "acoes": [
+      {"t": 0.0, "alvo": "etapa", "acao": "texto", "texto": "5. TOLDO GIGANTE"},
+      {"t": 0.4, "alvo": "arena", "acao": "construir", "modo": "cresce", "som": "pop"},
+      {"t": 1.6, "alvo": "toldo", "acao": "construir", "modo": "cai", "som": "boom"},
+      {"t": 1.6, "acao": "tremer", "forca": 0.4},
+      {"t": 3.5, "alvo": "op1", "acao": "pular", "altura": 0.8},
+      {"t": 3.8, "alvo": "op2", "acao": "pular", "altura": 0.8}
+    ]},
+    {"texto": "Pronto, o Coliseu está de pé, com lugar para cerca de cinquenta mil pessoas. Qual obra você quer ver em seguida? Comenta COLISEU.", "pronto": "o Coliseu de pé", "acoes": [
+      {"t": 0.0, "alvo": "etapa", "acao": "texto", "texto": "COMENTA COLISEU"},
+      {"t": 0.5, "alvo": "n_gente", "acao": "aparecer", "som": "ding"},
+      {"t": 0.7, "alvo": "n_gente", "acao": "contar", "para": 50000, "dur": 2.5, "som": "tic"},
+      {"t": 3.5, "alvo": "op1", "acao": "acenar"},
+      {"t": 4.0, "alvo": "op2", "acao": "girar", "voltas": 1, "som": "pop"}
+    ]}
+  ]
+}
