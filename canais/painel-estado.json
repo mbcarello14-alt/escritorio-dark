@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-16T15:50:21Z",
+  "atualizado_em": "2026-11-16T15:52:42Z",
   "ativos": {
     "roteirista_historia": [
       "Longo Ouro & Império: Os vikings"
@@ -44,10 +44,10 @@
       "dia": "2026-11-19",
       "rotulo": "quinta 19/11 17h00",
       "publicar_em_utc": "2026-11-19T20:00:00Z",
-      "etapa": "aguardando_cota",
-      "etapa_txt": "🎨 esperando a cota de imagens para desenhar",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Filosofia no ENEM: Sócrates, Platão ou Aristóteles?",
-      "url": ""
+      "url": "https://youtu.be/BT3HCOIgAdc"
     },
     {
       "canal": "historia",
@@ -146,8 +146,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 18,
+    "neurons": 990,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

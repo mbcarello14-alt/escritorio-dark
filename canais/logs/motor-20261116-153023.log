@@ -1,0 +1,163 @@
+15:30:24 INFO ilustrações: higgsfield desligado (sem chave)
+15:30:24 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+15:30:24 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+15:30:25 INFO Processing audio with duration 00:45.080
+[0;93m2026-11-16 15:30:25.750889886 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+15:30:25 INFO VAD filter removed 00:00.016 of audio
+15:30:36 INFO Processing audio with duration 01:08.480
+15:30:36 INFO VAD filter removed 00:00.000 of audio
+15:30:54 INFO Processing audio with duration 01:08.520
+15:30:54 INFO VAD filter removed 00:00.000 of audio
+15:31:12 INFO Processing audio with duration 01:20.800
+15:31:12 INFO VAD filter removed 00:00.000 of audio
+15:31:30 INFO Processing audio with duration 01:06.840
+15:31:30 INFO VAD filter removed 00:00.048 of audio
+15:31:47 INFO Processing audio with duration 01:14.160
+15:31:48 INFO VAD filter removed 00:00.000 of audio
+15:32:06 INFO Processing audio with duration 01:04.371
+15:32:06 INFO VAD filter removed 00:00.000 of audio
+15:32:23 INFO Processing audio with duration 01:24.001
+15:32:23 INFO VAD filter removed 00:00.000 of audio
+15:32:46 INFO Processing audio with duration 01:04.251
+15:32:47 INFO VAD filter removed 00:00.000 of audio
+15:33:05 INFO Processing audio with duration 01:38.971
+15:33:05 INFO VAD filter removed 00:00.000 of audio
+15:33:33 INFO Processing audio with duration 00:52.401
+15:33:33 INFO VAD filter removed 00:00.000 of audio
+15:33:45 INFO gerando 17 ilustrações…
+15:34:16 INFO ilustrações prontas: 17 geradas (17 pedidas)
+15:34:17 INFO Processing audio with duration 00:44.915
+15:34:17 INFO VAD filter removed 00:00.000 of audio
+15:34:29 INFO bloco 1: 44.9s, 119 palavras reconhecidas
+15:34:31 INFO imagem 'Raphael School of Athens fresco Plato Aristotle' ← wikimedia
+15:34:43 INFO cena 1 pronta (5.6s, total 6s)
+15:34:49 INFO cena 2 pronta (6.9s, total 12s)
+15:34:56 INFO cena 3 pronta (9.2s, total 22s)
+15:35:02 INFO cena 4 pronta (6.9s, total 29s)
+15:35:07 INFO cena 5 pronta (4.3s, total 33s)
+15:35:22 INFO cena 6 pronta (12.0s, total 45s)
+15:35:24 INFO Processing audio with duration 01:08.480
+15:35:24 INFO VAD filter removed 00:00.000 of audio
+15:35:42 INFO bloco 2: 68.5s, 146 palavras reconhecidas
+15:35:51 INFO cena 7 pronta (9.2s, total 54s)
+15:35:53 INFO imagem 'Death of Socrates Jacques-Louis David painting' ← wikimedia
+15:36:11 INFO cena 8 pronta (9.7s, total 64s)
+15:36:18 INFO cena 9 pronta (9.6s, total 73s)
+15:36:25 INFO cena 10 pronta (9.0s, total 82s)
+15:36:32 INFO cena 11 pronta (8.4s, total 91s)
+15:36:37 INFO cena 12 pronta (5.4s, total 96s)
+15:36:45 INFO cena 13 pronta (12.4s, total 109s)
+15:36:50 INFO cena 14 pronta (4.8s, total 113s)
+15:36:52 INFO Processing audio with duration 01:08.416
+15:36:52 INFO VAD filter removed 00:00.000 of audio
+15:37:10 INFO bloco 3: 68.4s, 154 palavras reconhecidas
+15:37:17 INFO cena 15 pronta (7.8s, total 121s)
+15:37:26 INFO cena 16 pronta (10.7s, total 132s)
+15:37:34 INFO cena 17 pronta (13.8s, total 146s)
+15:37:43 INFO cena 18 pronta (14.7s, total 160s)
+15:37:48 INFO cena 19 pronta (4.5s, total 165s)
+15:37:55 INFO cena 20 pronta (8.1s, total 173s)
+15:38:01 INFO cena 21 pronta (8.7s, total 182s)
+15:38:04 INFO Processing audio with duration 01:20.559
+15:38:04 INFO VAD filter removed 00:00.000 of audio
+15:38:25 INFO bloco 4: 80.6s, 169 palavras reconhecidas
+15:38:33 INFO cena 22 pronta (17.3s, total 199s)
+15:38:42 INFO cena 23 pronta (12.0s, total 211s)
+15:38:50 INFO cena 24 pronta (17.4s, total 229s)
+15:38:57 INFO cena 25 pronta (10.9s, total 239s)
+15:39:04 INFO cena 26 pronta (9.8s, total 249s)
+15:39:10 INFO cena 27 pronta (5.7s, total 255s)
+15:39:11 INFO imagem 'Plato bust Roman copy marble' ← wikimedia
+15:39:21 INFO cena 28 pronta (7.3s, total 262s)
+15:39:23 INFO Processing audio with duration 01:06.600
+15:39:23 INFO VAD filter removed 00:00.000 of audio
+15:39:40 INFO bloco 5: 66.6s, 166 palavras reconhecidas
+15:39:47 INFO cena 29 pronta (5.0s, total 267s)
+15:39:56 INFO cena 30 pronta (12.0s, total 279s)
+15:40:01 INFO cena 31 pronta (4.3s, total 284s)
+15:40:07 INFO cena 32 pronta (5.6s, total 289s)
+15:40:14 INFO cena 33 pronta (12.5s, total 302s)
+15:40:16 INFO imagem 'Plato allegory of the cave engraving Saenredam' ← wikimedia
+15:40:31 INFO cena 34 pronta (10.1s, total 312s)
+15:40:40 INFO cena 35 pronta (8.8s, total 321s)
+15:40:46 INFO cena 36 pronta (8.3s, total 329s)
+15:40:48 INFO Processing audio with duration 01:13.968
+15:40:48 INFO VAD filter removed 00:00.000 of audio
+15:41:08 INFO bloco 6: 74.0s, 182 palavras reconhecidas
+15:41:16 INFO cena 37 pronta (10.1s, total 339s)
+15:41:22 INFO cena 38 pronta (7.1s, total 346s)
+15:41:30 INFO cena 39 pronta (14.1s, total 360s)
+15:41:37 INFO cena 40 pronta (13.3s, total 374s)
+15:41:45 INFO cena 41 pronta (12.3s, total 386s)
+15:41:58 INFO cena 42 pronta (10.8s, total 397s)
+15:42:05 INFO cena 43 pronta (6.1s, total 403s)
+15:42:06 INFO Processing audio with duration 01:04.234
+15:42:06 INFO VAD filter removed 00:00.000 of audio
+15:42:23 INFO bloco 7: 64.2s, 155 palavras reconhecidas
+15:42:34 INFO cena 44 pronta (17.3s, total 420s)
+15:42:42 INFO cena 45 pronta (13.5s, total 434s)
+15:42:48 INFO cena 46 pronta (9.3s, total 443s)
+15:42:55 INFO cena 47 pronta (7.7s, total 451s)
+15:43:02 INFO cena 48 pronta (6.5s, total 457s)
+15:43:08 INFO cena 49 pronta (9.9s, total 467s)
+15:43:11 INFO Processing audio with duration 01:23.973
+15:43:11 INFO VAD filter removed 00:00.000 of audio
+15:43:32 INFO bloco 8: 84.0s, 203 palavras reconhecidas
+15:43:39 INFO cena 50 pronta (10.0s, total 477s)
+15:43:46 INFO cena 51 pronta (8.7s, total 486s)
+15:43:53 INFO cena 52 pronta (10.8s, total 497s)
+15:44:01 INFO cena 53 pronta (9.5s, total 506s)
+15:44:07 INFO cena 54 pronta (5.8s, total 512s)
+15:44:14 INFO cena 55 pronta (11.7s, total 523s)
+15:44:20 INFO cena 56 pronta (6.6s, total 530s)
+15:44:28 INFO cena 57 pronta (15.2s, total 545s)
+15:44:34 INFO cena 58 pronta (5.7s, total 551s)
+15:44:36 INFO Processing audio with duration 01:04.201
+15:44:36 INFO VAD filter removed 00:00.000 of audio
+15:44:55 INFO bloco 9: 64.2s, 165 palavras reconhecidas
+15:45:04 INFO cena 59 pronta (11.1s, total 562s)
+15:45:11 INFO cena 60 pronta (7.9s, total 570s)
+15:45:18 INFO cena 61 pronta (6.8s, total 577s)
+15:45:27 INFO cena 62 pronta (10.6s, total 587s)
+15:45:34 INFO cena 63 pronta (8.2s, total 596s)
+15:45:42 INFO cena 64 pronta (12.8s, total 608s)
+15:45:48 INFO cena 65 pronta (6.8s, total 615s)
+15:45:50 INFO Processing audio with duration 01:38.832
+15:45:50 INFO VAD filter removed 00:00.000 of audio
+15:46:19 INFO bloco 10: 98.8s, 248 palavras reconhecidas
+15:46:25 INFO cena 66 pronta (8.5s, total 624s)
+15:46:26 INFO imagem 'Aristotle bust Roman copy marble Louvre' ← wikimedia
+15:46:37 INFO cena 67 pronta (12.0s, total 636s)
+15:46:43 INFO cena 68 pronta (6.4s, total 642s)
+15:46:50 INFO cena 69 pronta (4.5s, total 647s)
+15:46:56 INFO cena 70 pronta (7.0s, total 654s)
+15:47:03 INFO cena 71 pronta (10.6s, total 664s)
+15:47:11 INFO cena 72 pronta (14.7s, total 679s)
+15:47:17 INFO cena 73 pronta (9.5s, total 688s)
+15:47:25 INFO cena 74 pronta (12.5s, total 701s)
+15:47:31 INFO cena 75 pronta (8.2s, total 709s)
+15:47:36 INFO cena 76 pronta (5.0s, total 714s)
+15:47:38 INFO Processing audio with duration 00:52.401
+15:47:38 INFO VAD filter removed 00:00.000 of audio
+15:47:50 INFO bloco 11: 52.4s, 135 palavras reconhecidas
+15:47:57 INFO cena 77 pronta (10.4s, total 724s)
+15:48:07 INFO cena 78 pronta (14.9s, total 739s)
+15:48:10 INFO cena 79 pronta (2.9s, total 742s)
+15:48:21 INFO cena 80 pronta (8.9s, total 751s)
+15:48:32 INFO cena 81 pronta (7.8s, total 759s)
+15:48:39 INFO cena 82 pronta (7.6s, total 766s)
+15:48:40 INFO sem trilha em musica/foco — vídeo sai só com narração
+15:48:50 INFO upload 43%
+15:48:51 INFO upload 86%
+15:48:52 INFO vídeo enviado: https://youtu.be/BT3HCOIgAdc (agendado para 2026-11-19T20:00:00Z)
+15:48:57 INFO playlist criada: Filosofia
+15:49:08 INFO na playlist 'Filosofia'
+15:49:08 WARNING Encountered 403 Forbidden with reason "forbidden"
+15:49:08 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+15:50:11 INFO corte 1 pronto (33s)
+15:51:27 INFO corte 2 pronto (40s)
+15:52:25 INFO corte 3 pronto (30s)
+15:52:27 INFO Short agendado: https://youtube.com/shorts/fqsVFVGrdAs (2026-11-20T15:00:00Z)
+15:52:31 INFO Short agendado: https://youtube.com/shorts/OV_1pPHnKrQ (2026-11-21T15:00:00Z)
+15:52:35 INFO Short agendado: https://youtube.com/shorts/RITC9o45fb8 (2026-11-22T15:00:00Z)
+15:52:36 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/saida/video.mp4 (12.8 min) → https://youtu.be/BT3HCOIgAdc
