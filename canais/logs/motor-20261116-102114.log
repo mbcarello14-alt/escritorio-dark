@@ -1,0 +1,33 @@
+10:21:15 INFO ilustrações: higgsfield desligado (sem chave)
+10:21:15 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+10:21:15 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+10:21:16 INFO Processing audio with duration 00:45.080
+[0;93m2026-11-16 10:21:16.339776801 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+10:21:16 INFO VAD filter removed 00:00.016 of audio
+10:21:24 INFO Processing audio with duration 01:08.480
+10:21:24 INFO VAD filter removed 00:00.000 of audio
+10:21:37 INFO Processing audio with duration 01:08.520
+10:21:37 INFO VAD filter removed 00:00.000 of audio
+10:21:49 INFO Processing audio with duration 01:20.800
+10:21:49 INFO VAD filter removed 00:00.000 of audio
+10:22:02 INFO Processing audio with duration 01:06.840
+10:22:02 INFO VAD filter removed 00:00.048 of audio
+10:22:14 INFO Processing audio with duration 01:14.160
+10:22:14 INFO VAD filter removed 00:00.000 of audio
+10:22:28 INFO Processing audio with duration 01:04.371
+10:22:28 INFO VAD filter removed 00:00.000 of audio
+10:22:40 INFO Processing audio with duration 01:24.001
+10:22:40 INFO VAD filter removed 00:00.000 of audio
+10:22:56 INFO Processing audio with duration 01:04.251
+10:22:56 INFO VAD filter removed 00:00.000 of audio
+10:23:09 INFO Processing audio with duration 01:38.971
+10:23:09 INFO VAD filter removed 00:00.000 of audio
+10:23:28 INFO Processing audio with duration 00:52.401
+10:23:28 INFO VAD filter removed 00:00.000 of audio
+10:23:36 INFO gerando 17 ilustrações…
+10:23:37 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+10:23:37 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+10:23:37 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+10:23:37 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+10:23:37 INFO ilustrações prontas: 0 geradas (17 pedidas)
+10:23:37 WARNING cota de imagens: -1 de 16 desenhos prontos — montagem adiada
