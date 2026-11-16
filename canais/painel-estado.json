@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-16T16:48:40Z",
+  "atualizado_em": "2026-11-16T21:43:06Z",
   "ativos": {
     "roteirista_historia": [
       "Longo Ouro & Império: Os vikings"
@@ -9,16 +9,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-16",
-      "rotulo": "segunda 16/11 18h00",
-      "publicar_em_utc": "2026-11-16T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "A Conquista do Império Inca: Pizarro, Atahualpa e o dia em Cajamarca",
-      "url": "https://youtu.be/zLWcpr5qxOU"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-17",
@@ -61,16 +51,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-09",
-      "rotulo": "segunda 09/11 18h00",
-      "publicar_em_utc": "2026-11-09T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "O Muro de Berlim caiu por falta de dinheiro?",
-      "url": "https://youtu.be/0GCVHi81phU"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-10",
@@ -120,6 +100,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Quarto de Despejo, de Carolina Maria de Jesus: resumo e análise",
       "url": "https://youtu.be/9cIgCjdnEio"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-11-16",
+      "rotulo": "segunda 16/11 18h00",
+      "publicar_em_utc": "2026-11-16T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "A Conquista do Império Inca: Pizarro, Atahualpa e o dia em Cajamarca",
+      "url": "https://youtu.be/zLWcpr5qxOU"
     }
   ],
   "canais": [
@@ -128,7 +118,7 @@
       "nome": "Ouro & Império",
       "inscritos": 7,
       "horas": 24.0,
-      "publicados": 6
+      "publicados": 7
     },
     {
       "id": "vestibular",
