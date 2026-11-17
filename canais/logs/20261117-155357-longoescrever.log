@@ -1,0 +1,164 @@
+comando: /longo-escrever canais/historia/longos/2026-11-16-os-vikings 3
+🔧 Bash {"command": "cd canais/historia/longos/2026-11-16-os-vikings && cat estado.json && ls blocos 2>/dev/null; head -c 3000 plano.json; python -c \"import json;d=json.load(open('plano.json'));print(d.keys(
+🔧 Bash {"command": "grep -H '\"checado\"' blocos/*.json; python -c \"\nimport json;d=json.load(open('plano.json'))\nfor c in d['capitulos'][11:]:print(json.dumps(c,ensure_ascii=False))\"; head -c 1500 blocos
+💬 Blocos 13–15 faltam (3 pedidos). Chamo o roteirista.
+🔧 Agent {"subagent_type": "roteirista-longo-historia", "description": "Escrever blocos 13 a 15", "prompt": "Etapa 2 do /longo-escrever. Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/plano.json"}
+💬 Aguardando o roteirista terminar os blocos 13–15.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/estado.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "content": "{\n  \"n\": 13,\n  \"capitulo\": \"A Islândia: uma nova
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "que as vezes encalhavam", "new
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "que muitos ainda se usam", "ne
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "ruínas dela coberta de cinza",
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "content": "{\n  \"n\": 14,\n  \"capitulo\": \"Groenlândia e Vinlan
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "old_string": "com capim verde e baixos de sa
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "old_string": "um dos tripulantes, um homem m
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "old_string": "sementes de uma árvore chamada
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "old_string": "É a primeira data exata", "new
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_15.json", "content": "{\n  \"n\": 15,\n  \"capitulo\": \"O fim da Era Viking 
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos'
+💬 Escrevi os blocos 13, 14 e 15 em `blocos/`, todos com `"checado": false`. Não rodei nenhum validador nem contei as palavras, então as faixas abaixo são só estimativa minha. Não mexi em `estado.json`.
+
+- **Bloco 13, "A Islândia: uma nova terra":** conta Naddodd, Garðar e Flóki, depois Ingólfr Arnarson e Reykjavík. Segue com Aud, a tomada de terra (landnám) e o Landnámabók, com ressalvas sobre ser fonte tardia. Cobre ainda o estudo genético dos colonos, a camada de cinza de cerca de 877, as casas de turfa (a fazenda de Stöng), as ovelhas e o tecido vaðmál usado como moeda. Estimo cerca de 1300 p
+💬 Agora o checador nos três blocos, em paralelo.
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 13", "prompt": "Confira os fatos do campo \"texto\" de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json"}
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 14", "prompt": "Confira os fatos do campo \"texto\" de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_12.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_12.md"}
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 15", "prompt": "Confira os fatos do campo \"texto\" de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os
+💬 Aguardando os três checadores terminarem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_15.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_12.md"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Christianization_of_Iceland", "prompt": "Year of Althing decision (999 or 1000), Thorgeir under cloak, private pagan worship allowed, summer?"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Jelling_stones", "prompt": "Exact inscription of the larger Jelling stone; height of the large stone; location (churchyard); Christ figure; Unesco; dating"}
+🔧 WebFetch {"url": "https://whc.unesco.org/en/list/697", "prompt": "What site is this and what does it say about the Jelling stone ('birth certificate')?"}
+🔧 WebSearch {"query": "Erik the Red 25 ships 14 arrived Greenland 985 Landnámabók Saga of Erik the Red", "mode": "standard"}
+🔧 WebSearch {"query": "Hvalsey church wedding 1408 last written record Norse Greenland Sigrid Björnsdóttir", "mode": "standard"}
+🔧 WebSearch {"query": "Nature 2021 Kuitems Evidence for European presence in the Americas in AD 1021 L'Anse aux Meadows 993 cosmic ray event", "mode": "standard"}
+🔧 WebSearch {"query": "L'Anse aux Meadows occupation duration years eight buildings Parks Canada butternut spindle whorl", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Settlement_layer", "prompt": "Date of the layer, colors (light/dark), how it dates the earliest settlement sites (below/above the layer), Reykjavik hall."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Stöng_(Iceland)", "prompt": "Which Hekla eruption buried it and when; the layout of buildings (outbuildings, byre, barn, wool); reconstruction Þjóðveldisbærinn."
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Settlement_of_Iceland", "prompt": "Naddodd, Garðar, Flóki ravens details; Ingólfr pillars; landnám rules (fire, heifer); genetics proportions men/women; Aud free
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_15.md", "content": "# Checagem do bloco 15 (O fim da Era Viking e a noite)
+🔧 WebSearch {"query": "Landnám tephra layer 877 Iceland light dark colored Vatnaöldur earliest settlement sites Reykjavik hall", "mode": "standard"}
+💬 **Veredito: APROVADO.** Não encontrei nenhum erro factual no bloco 15, então não há correções obrigatórias. Salvei as observações em `blocos/checagem_15.md`.
+
+Os quatro pontos que você pediu:
+- **Althing, 999/1000:** confere. O texto diz "novecentos e noventa e nove ou mil, segundo as fontes". A data tradicional é 1000, e alguns historiadores propõem 999. O dia e a noite de Thorgeir sob a capa e o culto privado permitido estão atribuídos às sagas, como deve ser.
+- **Inscrição da pedra de Jelling:** confere. Harald mandou fazer o monumento em memória de Gorm e Thyra, ganhou "toda a Dinamarca e 
+🔧 WebSearch {"query": "Stöng Þjórsárdalur farm excavation 1939 Hekla 1104 eruption buildings layout Þjóðveldisbærinn reconstruction", "mode": "standard"}
+💬 Bloco 15 aprovado. Aplico os dois ajustes opcionais e espero os outros dois.
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos && grep -o '.\\{60\\}uma grande pedra.\\{40\\}' bloco_15.json; grep -o '.\\{60\\}t
+🔧 Bash {"command": "sed -i 's/É uma grande pedra de granito/É a pedra maior, de granito/; s/venceu e tornou-se rei da Inglaterra/venceu e, pouco depois, foi coroado rei da Inglaterra/' bloco_15.json && pytho
+❌ sed command requires approval (contains potentially dangerous operations)
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_15.json", "old_string": "É uma grande pedra de granito"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_15.json", "old_string": "venceu e tornou-se rei da Ingl
+🔧 Grep {"pattern": "\"checado\"", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_15.json", "output_mode": "content"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_15.json", "old_string": "\"checado\": false", "new_stri
+💬 Bloco 15 está checado. Aguardo os checadores dos blocos 13 e 14.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings'
+🔧 WebFetch {"url": "https://github.com/search?q=Althing", "prompt": "skip"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_14.md", "content": "# Checagem do bloco 14 (Groenlândia e Vinland)\n\n**Ve
+💬 **Veredito: APROVADO.** Não achei nenhum erro factual que bloqueie o bloco 14. Salvei as observações em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_14.md`. Não abri o texto da Nature nem as sagas originais. Me apoiei em buscas na web: Britannica, Canadian Encyclopedia, Nunatsiaq e a imprensa sobre o estudo.
+
+**Pontos que você pediu**
+- **Navios de Erik (25 partiram, 14 chegaram):** confere. O texto já avisa que o número exato é difícil de confirmar. Algumas fontes dão contagens diferentes, e a Canadian Encyclopedia cita 35 par
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "limit": 6}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "limit": 6}
+🔧 Bash {"command": "python3 -I - <<'E'\nimport json\nt=json.load(open('bloco_14.json'))['texto']\nfor k in ['A saga diz que só catorze','uma ou duas décadas','1021','Dezenas de fazendas','dezenas de fazendas
+🔧 Bash {"command": "python3 -I - <<'E'\nimport json\nt=json.load(open('bloco_14.json'))['texto']\nfor k in ['mil e vinte e um','vinte e um']:\n    i=t.find(k);print(k,i,t[max(0,i-150):i+200].replace('\\n',' 
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_09.json", "limit": 4}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_08.json", "limit": 4}
+🔧 Bash {"command": "python3 -I - <<'E'\nimport json\nt=json.load(open('bloco_14.json'))['texto']\ni=t.find('Eles usaram um sinal');print(t[i:i+700])\nE"}
+💬 Aplico as correções recomendadas no bloco 14.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "old_string": "A saga diz que só catorze cheg
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "old_string": "antes de Colombo, quase quinhe
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "old_string": "talvez uma ou duas décadas, no
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_14.json", "old_string": "\"checado\": false", "new_stri
+💬 Bloco 14 checado. Falta só o checador do bloco 13.
+🔧 WebSearch {"query": "Landnámabók landnám claim land fire carried around in a day woman two-year-old heifer sunrise sunset", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_13.md", "content": "# Checagem do bloco 13 (A Islândia: uma nova terra)\n\
+💬 **Veredito: DEVOLVER.** Não achei erro grave, mas três trechos afirmam mais do que as fontes sustentam. Salvei a checagem em `blocos/checagem_13.md`.
+
+**Não consegui abrir as URLs da Britannica** (costumam dar 403 para acesso automático). Duas URLs da Wikipédia da lista, `Settlement_layer` e `Stöng_(Iceland)`, deram 404; pode ser só problema de acento, mas vale o fluxo validar.
+
+**Correções obrigatórias**
+1. **Regras do landnám.**
+   - Trecho: "Um homem podia reivindicar a área que conseguisse percorrer, com um fogo aceso, num único dia. Uma mulher podia reivindicar... novilha de dois anos."
+ 
+💬 Devolvo ao roteirista com a lista (volta 1 de 2).
+🔧 SendMessage {"to": "a14819b3821c94688", "summary": "Correções do checador no bloco 13", "message": "O checador devolveu o bloco_13.json. Aplique no texto (mantendo \"checado\": false; não marque você):\nOBRIGATÓR
+💬 Aguardando o roteirista aplicar as correções do bloco 13.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "Um homem podia reivindicar a á
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "Perto dela ficavam o estábulo,
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "uma camada fina de cinza clara
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "e isso confirma que as primeir
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "uma boa parte das mulheres tin
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "as árvores eram cortadas para 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "cobertas de cinza de uma erupç
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "uma terra que ninguém conhece"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "    \"https://en.wikipedia.org
+💬 Apliquei no `bloco_13.json` as três correções obrigatórias e as quatro recomendadas, e o bloco continua com `"checado": false`. Não abri `checagem_13.md`, então trabalhei só com a lista da sua mensagem. Também não rodei validador nem abri nenhuma URL.
+
+- **Landnám:** o trecho foi reescrito com o texto que você mandou, incluindo "talvez mais ideais do que praticadas".
+- **Stöng:** a lista de construções virou "o estábulo, uma forja e a despensa onde se guardava o leite". Acrescentei "cobertas pela cinza do Hekla, em mil cento e quatro" e que a casa reconstruída fica em outro ponto do vale.
+- **
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 13", "prompt": "Recheque /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.jso
+💬 Aguardando a rechecagem do bloco 13.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_13.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_13.md", "content": "# Checagem do bloco 13 (A Islândia: uma nova terra)\n\
+💬 **APROVADO**
+
+As 3 correções obrigatórias e as 5 recomendadas foram aplicadas, e não encontrei erro novo no bloco 13.
+
+- **Obrigatória 1:** a regra de posse da terra (fogo para o homem, novilha para a mulher) agora aparece como "limites" contados séculos depois, "talvez mais ideais do que praticadas".
+- **Obrigatória 2:** a lista de construções de Stöng ficou só com o que as escavações documentam: estábulo, forja e despensa do leite.
+- **Obrigatória 3:** a camada de cinza agora "ajuda a mostrar" a época das primeiras casas, em vez de "confirmar", e é descrita como "clara e escura".
+- **Recomen
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_13.json", "old_string": "\"checado\": false", "new_stri
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python -m pipeline.longo validar canais/historia/longos/2026-11-16-os-vikings 2>&1 | tail -30"}
+💬 Escrevi os blocos 13, 14 e 15 do vídeo "Os vikings", e os três passaram na checagem. `python -m pipeline.longo validar` retornou OK. Com isso, os 15 blocos do plano estão escritos e checados.
+
+- **Bloco 13 (Islândia):** o checador devolveu uma vez. Corrigi as regras de posse da terra, as construções de Stöng e a frase sobre a camada de cinza de 877, mais quatro ajustes recomendados. Na segunda checagem foi aprovado.
+- **Bloco 14 (Groenlândia e Vinland):** aprovado de primeira. Apliquei as três correções recomendadas: a fonte dos "catorze navios", a ressalva de que a data de 1021 não prova a vi
+
+=== resultado: success | turnos 4 | 8s | erro=False
+Aguardando o roteirista terminar os blocos 13–15.
+
+=== resultado: success | turnos 4 | 6s | erro=False
+Aguardando os três checadores terminarem.
+
+=== resultado: success | turnos 7 | 8s | erro=False
+Bloco 15 está checado. Aguardo os checadores dos blocos 13 e 14.
+
+=== resultado: success | turnos 8 | 9s | erro=False
+Bloco 14 checado. Falta só o checador do bloco 13.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+Aguardando o roteirista aplicar as correções do bloco 13.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+Aguardando a rechecagem do bloco 13.
+
+=== resultado: success | turnos 3 | 6s | erro=False
+Escrevi os blocos 13, 14 e 15 do vídeo "Os vikings", e os três passaram na checagem. `python -m pipeline.longo validar` retornou OK. Com isso, os 15 blocos do plano estão escritos e checados.
+
+- **Bloco 13 (Islândia):** o checador devolveu uma vez. Corrigi as regras de posse da terra, as construções de Stöng e a frase sobre a camada de cinza de 877, mais quatro ajustes recomendados. Na segunda checagem foi aprovado.
+- **Bloco 14 (Groenlândia e Vinland):** aprovado de primeira. Apliquei as três correções recomendadas: a fonte dos "catorze navios", a ressalva de que a data de 1021 não prova a viagem de Leif e a duração do sítio de L'Anse aux Meadows.
+- **Bloco 15 (fim da Era Viking):** aprovado de primeira. Apliquei os dois ajustes opcionais: "a pedra maior" de Jelling e Guilherme "coroado rei" pouco depois de Hastings.
+
+As observações do checador estão em `blocos/checagem_13.md`, `checagem_14.md` e `checagem_15.md`.
+
+- **Chamadas de engajamento:** o roteirista de longos só põe as chamadas de inscrição, like e comentário no primeiro bloco. O `CLAUDE.md` pede no começo, no meio e no final. Segui a regra do roteirista e não mexi nisso.
+- **Fontes não abertas:** o checador não conseguiu abrir as URLs da Britannica nem da Unesco (erro 403) e se apoiou em Wikipédia e outras buscas. Se quiser conferir as fontes à mão, são essas.
+- **Fontes do bloco 13:** a lista tem `Settlement_of_Iceland` duas vezes, o que é inofensivo.
+- **`estado.json`:** não mexi, como o comando pede.
+
+Nada foi commitado.
+codigo de saida: 0
