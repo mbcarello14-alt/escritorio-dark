@@ -1,0 +1,2472 @@
+{
+  "canal": "historia",
+  "titulo": "Napoleão na Rússia: Não Foi Só o Inverno",
+  "descricao": "Em 1812, Napoleão entrou na Rússia com cerca de 450 mil homens. Quando a primeira nevasca forte caiu, o exército principal já tinha encolhido para perto de um quarto disso.\nEntão quem destruiu a Grande Armée: o general Inverno ou algo que começou bem antes? Neste vídeo a gente abre o inquérito, suspeito por suspeito.\n\nA marcha de verão com tifo, disenteria e deserção, os cavalos que morriam pelo caminho, Borodino, o mês perdido em Moscou, a retirada e a travessia do rio Berezina, onde o general Eblé desobedeceu ordens para construir as pontes que salvaram o imperador. Os números da campanha são estimativas e os historiadores divergem; o vídeo mostra onde eles discordam.\n\nSe você curte história contada como caso de polícia, se inscreva no canal, deixe o like e conte nos comentários: o erro decisivo foi marchar fundo demais ou esperar um mês em Moscou?\n\nFontes:\n- French invasion of Russia (Wikipedia, com Riehn, Chandler, Clausewitz, Zamoyski): https://en.wikipedia.org/wiki/French_invasion_of_Russia\n- Battle of Berezina (Wikipedia): https://en.wikipedia.org/wiki/Battle_of_Berezina\n- Jean Baptiste Eblé (Wikipedia): https://en.wikipedia.org/wiki/Jean_Baptiste_Ebl%C3%A9\n- HistoryNet, 1812: The Bitter End (Zamoyski, Lieven): https://historynet.com/1812-bitter-end/\n- HistoryNet, retirada de Moscou: https://www.historynet.com/?p=13726511\n- History of War, Battle of the Berezina: https://www.historyofwar.org/articles/battles_berezina.html\n- WTJ, The Berezina: https://www.wtj.com/articles/berezina/\n- Ministério francês, o general Eblé e os pontoneiros do Berezina: https://voyages.ideoz.fr/le-general-eble-et-les-pontonniers-heros-de-la-berezina/\n- HistoryHit, Berezina: https://historyhit.com/?p=1608\n- Charles Joseph Minard (Wikipedia): https://en.wikipedia.org/wiki/Charles_Joseph_Minard\n\nCréditos de imagem: gráfico de Minard (1869) e aquarelas de Christian Wilhelm von Faber du Faur, em domínio público, via Wikimedia Commons. As demais ilustrações deste vídeo são geradas por inteligência artificial, em estilo de ilustração, e não são fotografias de pessoas ou eventos reais. A narração usa voz sintética.\nMúsica: trilha instrumental de ambientação (humor: mistério).\n\nOuro & Império, histórias que mudaram o mundo. Novo vídeo toda segunda e sexta, às 18h.",
+  "tags": [
+    "napoleão",
+    "napoleão na rússia",
+    "campanha da rússia",
+    "invasão da rússia",
+    "1812",
+    "grande armée",
+    "retirada de moscou",
+    "batalha de berezina",
+    "general inverno",
+    "guerras napoleônicas",
+    "napoleão bonaparte",
+    "história",
+    "história geral",
+    "documentário animado"
+  ],
+  "hashtags": [
+    "#napoleão",
+    "#história",
+    "#guerrasnapoleônicas"
+  ],
+  "playlist": "Idade Contemporânea",
+  "comentario_inicial": "Até aqui o inquérito tem quatro suspeitos: o calor de julho, os cavalos mortos, o mês parado em Moscou e o inverno. Em quem você põe a culpa principal?",
+  "musica_humor": "misterio",
+  "sintetico_realista": false,
+  "thumbnail": {
+    "texto": "NAPOLEÃO NA RÚSSIA",
+    "cena": "The French Grande Armée in retreat across a vast Russian plain, a long ragged column of small tired soldiers in dark blue greatcoats, a few horses pulling abandoned cannons and wagons through mud and patches of first snow, a lone small figure in a bicorne hat on a white horse at the head of the column, a burning Moscow skyline with onion domes and smoke far on the horizon, birch trees and a pale path, calm open pale sky in the top third",
+    "imagem_busca": "Napoleon retreat from Moscow 1812 painting Adolf Northen",
+    "layout": "topo",
+    "alternativa": {
+      "texto": "BEREZINA",
+      "cena": "A makeshift wooden pontoon bridge over a wide icy grey river at dawn, crowds of small soldiers and wagons crossing in a dense line, engineers standing waist-deep in the water holding timber, a burnt bridge and smoke on the far bank, distant Russian cannons on the hill, mist over the water, bare winter forest, calm open pale sky in the top third",
+      "imagem_busca": "Passage of the Berezina 1812 painting pontoon bridge",
+      "layout": "topo"
+    }
+  },
+  "blocos": [
+    {
+      "capitulo": "O furo da história",
+      "cenas": [
+        {
+          "narracao": "Vinte e quatro de junho de mil oitocentos e doze. Napoleão atravessa o rio Niemen e entra na Rússia com uns quatrocentos e cinquenta mil homens, cento e cinquenta mil cavalos e mil e quatrocentos canhões.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              18,
+              50,
+              36,
+              58
+            ],
+            "camera_em": 0.5,
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    23,
+                    56
+                  ],
+                  [
+                    28,
+                    60
+                  ],
+                  [
+                    40,
+                    60
+                  ],
+                  [
+                    45,
+                    55
+                  ],
+                  [
+                    42,
+                    48
+                  ],
+                  [
+                    30,
+                    48
+                  ],
+                  [
+                    24,
+                    51
+                  ]
+                ],
+                "cor": "cinza",
+                "rotulo": "Império Russo",
+                "em": 0.2
+              }
+            ],
+            "cidades": [
+              {
+                "nome": "Rio Niemen",
+                "lon": 24.0,
+                "lat": 54.9,
+                "destaque": true,
+                "em": 0.25
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    16,
+                    51.5
+                  ],
+                  [
+                    21,
+                    52.2
+                  ],
+                  [
+                    24,
+                    54.9
+                  ],
+                  [
+                    30,
+                    55
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.4,
+                "duracao": 0.5
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "450 mil homens",
+                "lon": 15.5,
+                "lat": 55,
+                "tipo": "destaque",
+                "em": 0.6
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "24 de junho de 1812",
+              "subtitulo": "Napoleão cruza o Niemen"
+            }
+          }
+        },
+        {
+          "narracao": "O fim todo mundo conhece: o inverno russo congela tudo. Só que, pelas contas mais usadas, quando a primeira nevasca forte caiu, o exército principal já tinha encolhido para algo perto de um quarto do tamanho.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a long column of tiny French soldiers of 1812 marching into a white snowstorm, only a small group left, a huge cartoon snowman general with a fur hat looming in the clouds behind them",
+            "busca_reserva": "Napoleon retreat from Moscow snow painting",
+            "movimento": "zoom_out",
+            "particulas": "neve"
+          }
+        },
+        {
+          "narracao": "Então quem acabou com o exército de Napoleão? Hoje a gente abre o inquérito, suspeito por suspeito.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a dim police detective office with a corkboard of suspect photos and red strings, a desk lamp, no people",
+            "busca_reserva": "detective office corkboard",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "x": 0.4,
+                "olha": "direita",
+                "fala": true,
+                "prop": "livro",
+                "acoes": [
+                  {
+                    "acao": "entra",
+                    "de": "esquerda",
+                    "em": 0,
+                    "ate": 0.25
+                  },
+                  {
+                    "acao": "aponta",
+                    "em": 0.5,
+                    "ate": 0.8
+                  }
+                ]
+              },
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "assusta",
+                    "em": 0.5,
+                    "ate": 0.8
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Se você curte história contada como caso de polícia, se inscreve, deixa o like e diz nos comentários quem é o seu suspeito antes de a gente começar.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly cartoon detective in a trench coat with a magnifying glass pointing at the viewer with a big grin and a thumbs up, behind him a police lineup wall with a snowman, a sun and a horse as suspects",
+            "busca_reserva": "detective magnifying glass cartoon",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O plano e o álibi",
+      "cenas": [
+        {
+          "narracao": "Primeiro, o plano. Simples, daquele jeito que só plano de imperador consegue ser.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a candle-lit military tent with a big table covered with maps and toy soldiers, no people",
+            "busca_reserva": "Napoleon war tent maps",
+            "movimento": "zoom_in",
+            "luzes": [
+              {
+                "x": 0.2,
+                "y": 0.4,
+                "raio": 0.15
+              }
+            ],
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.5,
+                "olha": "direita",
+                "fala": true,
+                "prop": "pergaminho",
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.3,
+                    "ate": 0.7
+                  },
+                  {
+                    "acao": "feliz",
+                    "em": 0.3
+                  }
+                ]
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Napoleão Bonaparte",
+              "subtitulo": "Imperador dos franceses"
+            }
+          }
+        },
+        {
+          "narracao": "Entrar na Rússia, achar o exército russo, vencer uma batalha grande e esperar o czar pedir paz. Uma partida, um placar, todo mundo de volta pra casa. Spoiler: o czar não pediu paz.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    23,
+                    56
+                  ],
+                  [
+                    28,
+                    60
+                  ],
+                  [
+                    40,
+                    60
+                  ],
+                  [
+                    45,
+                    55
+                  ],
+                  [
+                    42,
+                    48
+                  ],
+                  [
+                    30,
+                    48
+                  ],
+                  [
+                    24,
+                    51
+                  ]
+                ],
+                "cor": "cinza",
+                "rotulo": "Rússia",
+                "em": 0.05
+              }
+            ],
+            "cidades": [
+              {
+                "nome": "Moscou",
+                "lon": 37.6,
+                "lat": 55.75,
+                "destaque": true,
+                "lado": "esquerda",
+                "em": 0.3
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    24,
+                    54.9
+                  ],
+                  [
+                    30.5,
+                    54.5
+                  ],
+                  [
+                    37.6,
+                    55.75
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.2,
+                "duracao": 0.5
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "uma batalha, um placar",
+                "lon": 25,
+                "lat": 58,
+                "tipo": "destaque",
+                "em": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Antes de chamar os suspeitos, uma regra da casa. Os números dessa campanha são uma bagunça. Os registros franceses se perderam na própria retirada, e cada historiador fez a sua conta.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "an old library study with a messy desk piled with papers and ledgers, a globe and a candle, no people",
+            "busca_reserva": "old library desk papers",
+            "movimento": "pan_direita",
+            "personagens": [
+              {
+                "figurino": "cavalheiro_1900",
+                "pele": "clara",
+                "x": 0.35,
+                "olha": "direita",
+                "fala": true,
+                "prop": "pergaminho",
+                "acoes": [
+                  {
+                    "acao": "nega",
+                    "em": 0.3,
+                    "ate": 0.6
+                  }
+                ]
+              },
+              {
+                "figurino": "estudante",
+                "pele": "morena",
+                "x": 0.7,
+                "olha": "esquerda",
+                "prop": "livro",
+                "acoes": [
+                  {
+                    "acao": "nega",
+                    "em": 0.5,
+                    "ate": 0.8
+                  },
+                  {
+                    "acao": "bravo",
+                    "em": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Tem quem conte uns quatrocentos e cinquenta mil na primeira leva. Tem quem some as outras forças e chegue a seiscentos e oitenta e cinco mil. Então fica combinado: todo número que você ouvir hoje é ordem de grandeza, não extrato de banco.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a table with two stacks of tiny toy soldiers of different heights and a bank statement being crossed out with a big red pencil, a cartoon question mark floating above",
+            "busca_reserva": "toy soldiers table ledger",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Agora sim. O suspeito número um você já conhece. É o favorito da delegacia há duzentos anos. O general Inverno, aquele que aparece em toda piada e todo meme sobre invadir a Rússia.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a wanted poster on a police station wall showing a big snowman general with icicle mustache and a Russian fur hat, drawn in a funny serious style",
+            "busca_reserva": "snowman general winter Russia cartoon",
+            "movimento": "zoom_in",
+            "particulas": "neve",
+            "titulo_inferior": {
+              "titulo": "General Inverno",
+              "subtitulo": "O suspeito número um",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Mas detetive bom não prende o suspeito famoso só porque ele tem cara de culpado. Primeiro confere o álibi. E o álibi do Inverno é bem chato: em junho, julho e agosto, ele simplesmente não estava lá.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a sunny golden Russian wheat field in summer with a lonely empty chair and a fur coat hanging on a hook, bright blue sky, a tiny detective with a notebook looking puzzled",
+            "busca_reserva": "Russian summer wheat field",
+            "movimento": "pan_esquerda",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "Quem estava lá era outra coisa. E ela começou a trabalhar na primeira semana.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "French soldiers of 1812 sweating under a scorching sun on a muddy dirt road, one soldier fanning himself with his hat, a dark ominous shadow looming over the road",
+            "busca_reserva": "Napoleon army march Russia summer heat",
+            "movimento": "zoom_in",
+            "particulas": "poeira"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Suspeito dois: o verão",
+      "cenas": [
+        {
+          "narracao": "Suspeito número dois: o verão russo. Sim, o verão. Os soldados marcharam sob calor forte e chuva, por estradas que viravam lama.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "tired French soldiers of 1812 dragging their boots through deep mud under heavy rain and a hot sun peeking through clouds, a cartoon sun with a smug face as the suspect",
+            "busca_reserva": "muddy road soldiers rain 1812",
+            "movimento": "zoom_in",
+            "particulas": "chuva"
+          }
+        },
+        {
+          "narracao": "Perto de Vilna, ainda no fim de junho, o historiador Riehn calcula umas vinte e cinco mil perdas por todas as causas, em poucos dias.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              20,
+              52,
+              32,
+              57
+            ],
+            "camera_em": 0.3,
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    23,
+                    56
+                  ],
+                  [
+                    28,
+                    60
+                  ],
+                  [
+                    40,
+                    60
+                  ],
+                  [
+                    45,
+                    55
+                  ],
+                  [
+                    42,
+                    48
+                  ],
+                  [
+                    30,
+                    48
+                  ],
+                  [
+                    24,
+                    51
+                  ]
+                ],
+                "cor": "cinza",
+                "rotulo": "Rússia",
+                "em": 0.05
+              }
+            ],
+            "cidades": [
+              {
+                "nome": "Vilna",
+                "lon": 25.28,
+                "lat": 54.69,
+                "destaque": true,
+                "em": 0.5
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    21,
+                    52.2
+                  ],
+                  [
+                    24,
+                    54.9
+                  ],
+                  [
+                    25.28,
+                    54.69
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.1,
+                "duracao": 0.4
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Sem nenhuma batalha grande. Um estádio inteiro de gente, perdido antes do primeiro combate sério.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 25000,
+            "sufixo": " perdas",
+            "rotulo": "Perto de Vilna, em poucos dias",
+            "comparacao": "um estádio inteiro, sem nenhuma batalha grande"
+          }
+        },
+        {
+          "narracao": "E a coisa só acelerou. Os relatos mais citados falam em um terço do exército perdido nas primeiras oito semanas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "three rows of tiny toy soldiers on a table, a giant cartoon hand picking up one whole third of them, the remaining rows looking worried",
+            "busca_reserva": "toy soldiers table hand",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Clausewitz, um dos autores mais citados sobre essa campanha, vai além: depois de cinco semanas de marcha, a força efetiva era cerca de metade da que tinha entrado. Os números não batem certinho, porque cada um mede uma coisa diferente, mas todos apontam para o mesmo lado.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Carl von Clausewitz portrait Karl Wach 1830",
+            "movimento": "zoom_in",
+            "titulo_inferior": {
+              "titulo": "Carl von Clausewitz",
+              "subtitulo": "Oficial e autor sobre a campanha de 1812",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Aqui o tom muda, porque estamos falando de gente morrendo. Tifo, disenteria, difteria. Por uma das estimativas, perto de metade de todas as perdas francesas na campanha veio de doença, e não de bala.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a dim field hospital tent with sick soldiers lying on straw and a single candle, a worried surgeon in the corner, somber and quiet mood",
+            "busca_reserva": "Napoleonic field hospital typhus 1812",
+            "movimento": "zoom_in",
+            "neblina": true,
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.55,
+                "raio": 0.12
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "E nem todo mundo que sumiu das fileiras morreu: muitos desertaram, outros ficaram para trás, doentes demais para andar. Mas o exército encolhia a cada dia.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a muddy road through a dark pine forest in Russia, abandoned crates and a broken cart, no people",
+            "busca_reserva": "muddy forest road Russia 1812",
+            "movimento": "pan_direita",
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.3,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "senta",
+                    "em": 0.2,
+                    "ate": 1
+                  },
+                  {
+                    "acao": "triste",
+                    "em": 0.2
+                  }
+                ]
+              },
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "morena",
+                "x": 0.65,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "anda",
+                    "em": 0.1,
+                    "ate": 0.7
+                  },
+                  {
+                    "acao": "sai",
+                    "para": "direita",
+                    "em": 0.7,
+                    "ate": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Só que esses soldados não marchavam sozinhos. Cada canhão e cada carroça de comida dependia de um animal. E os animais também estavam caindo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a heavy cannon and a food wagon stuck in deep mud, an exhausted horse collapsed beside them, a soldier looking at it in despair, gloomy sky",
+            "busca_reserva": "horse cannon mud Napoleonic",
+            "movimento": "zoom_in",
+            "neblina": true
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Suspeito três: cavalos e estrada",
+      "cenas": [
+        {
+          "narracao": "Suspeito número três: a logística. Que é um nome chique para a pergunta mais importante de qualquer guerra: como a comida chega até o soldado?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a hungry cartoon soldier of 1812 staring sadly into an empty cooking pot over a campfire, empty supply crates piled behind him",
+            "busca_reserva": "soldier empty pot campfire",
+            "movimento": "zoom_in",
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.7,
+                "raio": 0.12
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Em mil oitocentos e doze, a resposta era cavalo. Cavalo puxava canhão, puxava carroça, levava oficial, levava recado. O cavalo era o caminhão, o motoboy e o aplicativo de entrega, tudo junto.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a proud brown horse pulling a cannon while wearing a delivery courier backpack and carrying a messenger scroll in its mouth, funny and busy",
+            "busca_reserva": "horse pulling cannon Napoleonic",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "E os cavalos começaram a morrer cedo. Napoleão chegou a Vilna deixando mais de cinco mil cavalos mortos pelo caminho. Na Lituânia, lamaçais, disenteria e gripe levaram mais uns dez mil.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              18,
+              51,
+              32,
+              57
+            ],
+            "camera_em": 0.1,
+            "cidades": [
+              {
+                "nome": "Vilna",
+                "lon": 25.28,
+                "lat": 54.69,
+                "destaque": true,
+                "em": 0.3
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    21,
+                    52.2
+                  ],
+                  [
+                    24,
+                    54.9
+                  ],
+                  [
+                    25.28,
+                    54.69
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.05,
+                "duracao": 0.4
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "mais de 5 mil cavalos mortos",
+                "lon": 20.5,
+                "lat": 53.5,
+                "tipo": "destaque",
+                "em": 0.3
+              },
+              {
+                "texto": "mais 10 mil na Lituânia",
+                "lon": 23.5,
+                "lat": 56,
+                "tipo": "destaque",
+                "em": 0.7
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Somando a campanha inteira, algumas fontes falam em cerca de cento e cinquenta mil cavalos perdidos, o mesmo tanto que tinha cruzado a fronteira. Esse total é menos firme, mas a tendência é clara.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 150000,
+            "sufixo": " cavalos",
+            "rotulo": "Perdidos na campanha inteira",
+            "comparacao": "o mesmo tanto que cruzou a fronteira (total menos firme)"
+          }
+        },
+        {
+          "narracao": "Pensa numa mudança de São Paulo para o Nordeste em que o caminhão vai quebrando no caminho. Primeiro você larga o sofá.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a dusty Brazilian highway with a broken-down moving truck smoking on the shoulder, cactus and dry hills, no people",
+            "busca_reserva": "Brazil highway broken truck",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "operario",
+                "pele": "morena",
+                "x": 0.35,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "surpreso",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "nega",
+                    "em": 0.5,
+                    "ate": 0.9
+                  }
+                ]
+              },
+              {
+                "figurino": "campones",
+                "pele": "escura",
+                "x": 0.7,
+                "olha": "esquerda",
+                "prop": "saco_moedas",
+                "acoes": [
+                  {
+                    "acao": "triste",
+                    "em": 0.5,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Depois a geladeira. Depois as caixas de comida. Agora troca o sofá por canhões e as caixas pelo jantar de centenas de milhares de pessoas.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an overloaded old wooden cart piled high with cannons and crates of food tilting dangerously on a country road, a sofa and a refrigerator lying abandoned in the ditch",
+            "busca_reserva": "overloaded wagon cannons road",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Em agosto, depois de dois dias de batalha, os franceses tomaram Smolensk. Mas o exército russo não ficou esperando.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Battle of Smolensk 1812 painting Peter von Hess",
+            "movimento": "pan_direita",
+            "titulo_inferior": {
+              "titulo": "Smolensk, agosto de 1812",
+              "subtitulo": "Dois dias de batalha",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Recuou de novo. E de novo. Napoleão ia cada vez mais para dentro da Rússia, atrás da tal batalha decisiva.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              24,
+              52,
+              40,
+              58
+            ],
+            "camera_em": 0.1,
+            "cidades": [
+              {
+                "nome": "Smolensk",
+                "lon": 32.04,
+                "lat": 54.78,
+                "em": 0.05
+              },
+              {
+                "nome": "Moscou",
+                "lon": 37.6,
+                "lat": 55.75,
+                "lado": "esquerda",
+                "em": 0.7
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    32.04,
+                    54.78
+                  ],
+                  [
+                    35,
+                    55.2
+                  ],
+                  [
+                    37.6,
+                    55.75
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.2,
+                "duracao": 0.6
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "o exército russo recua",
+                "lon": 33.5,
+                "lat": 56.6,
+                "tipo": "destaque",
+                "em": 0.4
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Em setembro, finalmente, ela veio. E custou caro dos dois lados.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two huge armies of 1812 clashing at dawn on a hilly field, cannon smoke covering the sky, orange sunrise through the smoke",
+            "busca_reserva": "Battle of Borodino painting",
+            "movimento": "zoom_in",
+            "particulas": "brasas"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Suspeito quatro: Borodino e Moscou",
+      "cenas": [
+        {
+          "narracao": "Suspeito número quatro: Borodino. Sete de setembro de mil oitocentos e doze. Mais de duzentos e cinquenta mil homens se enfrentaram.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              28,
+              52,
+              42,
+              58
+            ],
+            "camera_em": 0.1,
+            "cidades": [
+              {
+                "nome": "Borodino",
+                "lon": 35.82,
+                "lat": 55.52,
+                "destaque": true,
+                "em": 0.3
+              },
+              {
+                "nome": "Moscou",
+                "lon": 37.6,
+                "lat": 55.75,
+                "lado": "esquerda",
+                "em": 0.5
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "mais de 250 mil homens",
+                "lon": 33,
+                "lat": 57,
+                "tipo": "destaque",
+                "em": 0.7
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Borodino",
+              "subtitulo": "7 de setembro de 1812"
+            }
+          }
+        },
+        {
+          "narracao": "No fim, pelo menos setenta mil estavam fora de combate, mortos, feridos ou capturados, somando os dois lados. É um número que não cabe em piada. São setenta mil histórias interrompidas num único dia.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 70000,
+            "prefixo": "pelo menos ",
+            "rotulo": "Fora de combate em Borodino, somando os dois lados",
+            "comparacao": "mortos, feridos ou capturados, num único dia"
+          }
+        },
+        {
+          "narracao": "Agora, olha o detalhe que importa para o nosso inquérito. Borodino foi brutal, mas não explica o encolhimento do exército. Mesmo somando franceses e russos, esses setenta mil são uma fração pequena do que o exército de Napoleão perdeu na campanha inteira.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a detective's whiteboard with a tiny pile of toy soldiers labeled by a small red pin next to a gigantic mountain of toy soldiers, a magnifying glass comparing them",
+            "busca_reserva": "detective board comparison pile",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Os russos recuaram. Uma semana depois, em catorze de setembro, Napoleão entrou em Moscou.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              28,
+              52,
+              42,
+              58
+            ],
+            "cidades": [
+              {
+                "nome": "Borodino",
+                "lon": 35.82,
+                "lat": 55.52,
+                "em": 0.0
+              },
+              {
+                "nome": "Moscou",
+                "lon": 37.6,
+                "lat": 55.75,
+                "destaque": true,
+                "lado": "esquerda",
+                "em": 0.6
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    35.82,
+                    55.52
+                  ],
+                  [
+                    37.6,
+                    55.75
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.2,
+                "duracao": 0.5
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "14 de setembro",
+                "lon": 36.2,
+                "lat": 56.7,
+                "tipo": "destaque",
+                "em": 0.7
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Ganhou, né? Fim do filme? Não.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "the Kremlin square in Moscow at golden dusk with onion domes and red walls, no people",
+            "busca_reserva": "Kremlin Moscow 1812",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.5,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "comemora",
+                    "em": 0.05,
+                    "ate": 0.45
+                  },
+                  {
+                    "acao": "feliz",
+                    "em": 0.05,
+                    "ate": 0.45
+                  },
+                  {
+                    "acao": "assusta",
+                    "em": 0.7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "A cidade pegou fogo. E o czar não se rendeu. Nenhum acordo, nenhuma assinatura.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Fire of Moscow 1812 painting Napoleon watching",
+            "movimento": "zoom_in",
+            "particulas": "brasas",
+            "titulo_inferior": {
+              "titulo": "Moscou em chamas",
+              "subtitulo": "Setembro de 1812",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Napoleão ficou mais de um mês em Moscou esperando uma resposta que não veio, tipo aquela mensagem que fica com os dois risquinhos azuis e mais nada.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "an ornate palace room in the Kremlin with a big window showing a smoky city, an empty desk with a candle, no people",
+            "busca_reserva": "Kremlin palace room window",
+            "movimento": "zoom_in",
+            "luzes": [
+              {
+                "x": 0.3,
+                "y": 0.6,
+                "raio": 0.1
+              }
+            ],
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.5,
+                "olha": "esquerda",
+                "prop": "pergaminho",
+                "acoes": [
+                  {
+                    "acao": "senta",
+                    "em": 0.1,
+                    "ate": 1
+                  },
+                  {
+                    "acao": "pensa",
+                    "em": 0.3,
+                    "ate": 0.7
+                  },
+                  {
+                    "acao": "triste",
+                    "em": 0.7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Entre dezoito e dezenove de outubro, ele desistiu e mandou todo mundo sair. E é aí que dá para fazer a conta mais importante deste vídeo.",
+          "visual": {
+            "tipo": "linha_tempo",
+            "foco": 2,
+            "eventos": [
+              {
+                "ano": "7 set 1812",
+                "texto": "Batalha de Borodino"
+              },
+              {
+                "ano": "14 set 1812",
+                "texto": "Napoleão entra em Moscou"
+              },
+              {
+                "ano": "18–19 out 1812",
+                "texto": "A ordem de sair"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A conta antes da neve",
+      "cenas": [
+        {
+          "narracao": "O exército principal que saiu de Moscou tinha cerca de cento e oito mil homens. Na fronteira, a primeira leva tinha uns quatrocentos e cinquenta mil.",
+          "visual": {
+            "tipo": "contador",
+            "de": 450000,
+            "ate": 108000,
+            "sufixo": " homens",
+            "rotulo": "O exército principal ao sair de Moscou",
+            "comparacao": "contra uns 450 mil na primeira leva, na fronteira"
+          }
+        },
+        {
+          "narracao": "Antes de subtrair, um aviso sério: essa conta é nossa, feita com números de historiadores, e ela mistura bases diferentes. Os cento e oito mil incluem reforços que chegaram no meio do caminho.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a detective's office with a big chalkboard covered with sums and arrows, a desk lamp, no people",
+            "busca_reserva": "chalkboard arithmetic detective",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "x": 0.5,
+                "olha": "direita",
+                "fala": true,
+                "prop": "pena",
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "concorda",
+                    "em": 0.6,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "E muita gente que não estava em Moscou não morreu. Parte foi destacada para proteger os flancos, parte ficou em guarnições ao longo da estrada, parte desertou.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "small wooden watchtowers and soldiers stationed along a long dirt road across a flat Russian landscape, a few tiny figures walking away over the horizon, autumn colors",
+            "busca_reserva": "military outpost road autumn Russia",
+            "movimento": "pan_esquerda",
+            "particulas": "folhas"
+          }
+        },
+        {
+          "narracao": "Então isto não é a contagem dos mortos. É a medida do encolhimento. E o encolhimento é brutal: o exército principal tinha ficado com algo perto de um quarto do tamanho da primeira leva.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a huge faded shadow of a giant army on the ground, with only a small group of soldiers about a quarter of its size standing inside it, golden autumn leaves around",
+            "busca_reserva": "small army long shadow",
+            "movimento": "zoom_out",
+            "particulas": "folhas"
+          }
+        },
+        {
+          "narracao": "Sem nenhuma nevasca. E a volta piorou tudo. Em vinte e quatro de outubro, o exército russo de Kutuzov bloqueou o caminho pelo sul.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              26,
+              51,
+              42,
+              58
+            ],
+            "camera_em": 0.1,
+            "cidades": [
+              {
+                "nome": "Moscou",
+                "lon": 37.6,
+                "lat": 55.75,
+                "lado": "esquerda",
+                "em": 0.0
+              },
+              {
+                "nome": "Smolensk",
+                "lon": 32.04,
+                "lat": 54.78,
+                "em": 0.0
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    37.6,
+                    55.75
+                  ],
+                  [
+                    36.5,
+                    54.6
+                  ],
+                  [
+                    34.5,
+                    53.5
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.15,
+                "duracao": 0.4
+              }
+            ],
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    35,
+                    53
+                  ],
+                  [
+                    38,
+                    53
+                  ],
+                  [
+                    38.5,
+                    54.4
+                  ],
+                  [
+                    35.5,
+                    54.4
+                  ]
+                ],
+                "cor": "azul",
+                "rotulo": "Kutuzov bloqueia o sul",
+                "em": 0.6
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "24 de outubro de 1812",
+              "subtitulo": "Kutuzov fecha o caminho do sul",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Napoleão teve que voltar pela mesma estrada da ida, já devastada, arrastando uma coluna de milhares de veículos.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an endless column of wagons, carts and carriages creeping along a ruined, empty, ash-gray road through a stripped countryside, exhausted horses",
+            "busca_reserva": "Napoleon retreat Moscow wagons",
+            "movimento": "pan_direita",
+            "neblina": true
+          }
+        },
+        {
+          "narracao": "Pausa para o júri. Me conta nos comentários: até aqui, em quem você põe a culpa principal? No calor de julho, na demora de um mês em Moscou, ou você ainda fica com o inverno?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cartoon jury box with twelve funny jurors, a sun, a clock, a snowman and others, all turning to look at the viewer, one juror raising a hand to vote",
+            "busca_reserva": "cartoon jury box",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Se essa conta te pegou de surpresa, deixa o like e se inscreve, que esse inquérito ainda tem reviravolta. Porque agora, sim, o suspeito famoso entra em cena.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly cartoon detective in a trench coat giving a big thumbs up to the viewer with a wink, behind him a door ajar with a snowman's silhouette and a snowy light spilling out",
+            "busca_reserva": "detective thumbs up cartoon",
+            "movimento": "zoom_in",
+            "particulas": "neve"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O suspeito famoso: o inverno",
+      "cenas": [
+        {
+          "narracao": "De volta ao suspeito número um: o general Inverno. Ele chega atrasado, mas chega.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a big snowman general in a fur hat strolling in late through a fresh snowfall, checking a pocket watch, tired soldiers looking at him from a distance",
+            "busca_reserva": "snowman general winter cartoon",
+            "movimento": "zoom_in",
+            "particulas": "neve"
+          }
+        },
+        {
+          "narracao": "No começo de novembro, numa data que uma revista de história crava em seis de novembro, cai a primeira nevasca forte. Quando o exército chega a Smolensk, os relatos falam em temperaturas entre vinte e trinta graus abaixo de zero, dependendo da fonte.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              26,
+              51,
+              42,
+              58
+            ],
+            "camera_em": 0.1,
+            "cidades": [
+              {
+                "nome": "Moscou",
+                "lon": 37.6,
+                "lat": 55.75,
+                "lado": "esquerda",
+                "em": 0.0
+              },
+              {
+                "nome": "Smolensk",
+                "lon": 32.04,
+                "lat": 54.78,
+                "destaque": true,
+                "em": 0.5
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    37.6,
+                    55.75
+                  ],
+                  [
+                    35,
+                    55.1
+                  ],
+                  [
+                    32.04,
+                    54.78
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.1,
+                "duracao": 0.5
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "de -20 a -30 °C",
+                "lon": 30.5,
+                "lat": 56.3,
+                "tipo": "destaque",
+                "em": 0.7
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "6 de novembro",
+              "subtitulo": "A primeira nevasca forte",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Para um exército faminto, doente e sem cavalos, o frio foi devastador. Zamoyski, autor de um livro inteiro sobre a marcha para Moscou, estima que, entre a saída da cidade e meados de novembro, cerca de sessenta mil soldados se perderam, além de uns vinte mil civis que acompanhavam o exército.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Napoleon retreat from Moscow Adolf Northen painting",
+            "movimento": "pan_direita",
+            "titulo_inferior": {
+              "titulo": "A retirada de Moscou",
+              "subtitulo": "Pintura de Adolf Northen",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Um general chamado Loison contou que a divisão dele perdeu doze mil de quinze mil homens. Em três dias. Perto de Krasny, em cinco dias, foram umas dez mil baixas e mais de duzentos canhões perdidos.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a frozen snowy field near Krasny with abandoned cannons half buried in snow under a gray sky, no people",
+            "busca_reserva": "abandoned cannons snow 1812",
+            "movimento": "zoom_in",
+            "particulas": "neve",
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.4,
+                "olha": "direita",
+                "bigode": true,
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "triste",
+                    "em": 0.2,
+                    "ate": 0.6
+                  }
+                ]
+              },
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "morena",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "cruza_bracos",
+                    "em": 0.3,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "General Loison",
+              "subtitulo": "Perdeu 12 mil de 15 mil homens em três dias",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Então o Inverno é inocente? Não. Ele matou muita gente.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a snowman general with a fur hat sitting in a courtroom witness stand sweating and looking guilty, melting slightly, a stern judge's gavel above",
+            "busca_reserva": "courtroom witness stand cartoon",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Mas repara: ele não encontrou o exército de junho. Encontrou um exército que já tinha encolhido para uma fração do que era. O verão abriu a ferida, a fome e a estrada aprofundaram, e o frio deu o golpe final.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a wobbly Jenga tower made of tiny soldiers, horses and bread loaves, with a single snowflake gently touching the top to topple it, a sun and a muddy boot standing guiltily nearby",
+            "busca_reserva": "jenga tower falling snowflake",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E aí, no fim de novembro, o que restava chegou a um rio. Um rio que, naquela época do ano, devia estar congelado. Devia.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a handful of ragged French soldiers standing on the bank of a wide dark river with chunks of cracked ice floating, thick fog over the water, tense silence",
+            "busca_reserva": "Berezina river bank winter",
+            "movimento": "zoom_in",
+            "neblina": true,
+            "particulas": "neve"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Berezina: o rio e a finta",
+      "cenas": [
+        {
+          "narracao": "O rio se chama Berezina. No fim de novembro, o normal era ele estar congelado, duro feito avenida.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              26,
+              53,
+              31,
+              55.5
+            ],
+            "camera_em": 0.2,
+            "cidades": [
+              {
+                "nome": "Borisov",
+                "lon": 28.5,
+                "lat": 54.23,
+                "em": 0.5
+              },
+              {
+                "nome": "Studianka",
+                "lon": 28.35,
+                "lat": 54.47,
+                "lado": "esquerda",
+                "em": 0.6
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Rio Berezina",
+                "lon": 29.2,
+                "lat": 54.0,
+                "tipo": "mar",
+                "em": 0.3
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Rio Berezina",
+              "subtitulo": "Fim de novembro de 1812"
+            }
+          }
+        },
+        {
+          "narracao": "Mas em vinte de novembro veio um degelo inesperado. O gelo rachou, o rio encheu, e as margens viraram lamaçal.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a river with cracked, breaking ice and swollen dark water, muddy banks covered with slush, a pale thawing sun",
+            "busca_reserva": "river ice thaw cracking",
+            "movimento": "zoom_in",
+            "neblina": true
+          }
+        },
+        {
+          "narracao": "Segura essa ironia. O general Inverno, o vilão da história toda, faltou justamente no dia em que podia ter ajudado.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a sad melting snowman general in a fur hat standing by a river with a puddle forming around his feet, an empty chair for a missed appointment, looking embarrassed",
+            "busca_reserva": "melting snowman cartoon",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Com o rio congelado, talvez o exército atravessasse a pé. Talvez, é só hipótese. E tinha mais.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a frozen river in daydream style with tiny soldiers walking across the solid ice, a dotted thought-cloud outline and a big cartoon question mark above",
+            "busca_reserva": "frozen river crossing soldiers",
+            "movimento": "pan_direita",
+            "particulas": "neve"
+          }
+        },
+        {
+          "narracao": "Os russos queimaram a ponte da cidade de Borisov. Do outro lado esperava o almirante Chichagov, com uns trinta mil homens, e Wittgenstein vinha chegando com outros trinta mil.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              26,
+              53,
+              31,
+              55.5
+            ],
+            "cidades": [
+              {
+                "nome": "Borisov",
+                "lon": 28.5,
+                "lat": 54.23,
+                "destaque": true,
+                "em": 0.1
+              },
+              {
+                "nome": "Studianka",
+                "lon": 28.35,
+                "lat": 54.47,
+                "lado": "esquerda",
+                "em": 0.0
+              }
+            ],
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    27.8,
+                    53.6
+                  ],
+                  [
+                    29.3,
+                    53.6
+                  ],
+                  [
+                    29.3,
+                    54.0
+                  ],
+                  [
+                    27.8,
+                    54.0
+                  ]
+                ],
+                "cor": "azul",
+                "rotulo": "Chichagov · 30 mil",
+                "em": 0.4
+              },
+              {
+                "pontos": [
+                  [
+                    28.6,
+                    54.9
+                  ],
+                  [
+                    30.0,
+                    54.9
+                  ],
+                  [
+                    30.0,
+                    55.3
+                  ],
+                  [
+                    28.6,
+                    55.3
+                  ]
+                ],
+                "cor": "azul",
+                "rotulo": "Wittgenstein · 30 mil",
+                "em": 0.7
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "ponte queimada",
+                "lon": 28.9,
+                "lat": 54.05,
+                "tipo": "destaque",
+                "em": 0.2
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Do lado francês, as fontes brigam: umas falam em menos de trinta mil homens em armas, outras em quase cinquenta mil, com dezenas de milhares de retardatários atrás. Rio cheio, ponte queimada, inimigo dos dois lados.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a foggy riverbank with the charred remains of a burned bridge, swollen dark river, gray dawn, no people",
+            "busca_reserva": "burned bridge river fog",
+            "movimento": "zoom_in",
+            "neblina": true,
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.4,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "cruza_bracos",
+                    "em": 0.1,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "assusta",
+                    "em": 0.6,
+                    "ate": 0.9
+                  }
+                ]
+              },
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "morena",
+                "x": 0.7,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "triste",
+                    "em": 0.3,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "E poucos dias antes, na cidade de Orsha, Napoleão tinha mandado destruir o equipamento de fazer pontes. É aqui que entra o general Jean-Baptiste Eblé, chefe dos pontoneiros.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a muddy town yard in Orsha with wagons full of timber, pontoon boats and tools stacked, gray winter sky, no people",
+            "busca_reserva": "pontoon wagons Napoleonic",
+            "movimento": "pan_direita",
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.3,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "bravo",
+                    "em": 0.2,
+                    "ate": 0.5
+                  }
+                ]
+              },
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "media",
+                "x": 0.7,
+                "olha": "esquerda",
+                "bigode": true,
+                "cabelo": "grisalho",
+                "acoes": [
+                  {
+                    "acao": "entra",
+                    "de": "direita",
+                    "em": 0.5,
+                    "ate": 0.8
+                  }
+                ]
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Jean-Baptiste Eblé",
+              "subtitulo": "General, chefe dos pontoneiros"
+            }
+          }
+        },
+        {
+          "narracao": "Ele não cumpriu a ordem inteira. Guardou carvão, ferramentas e forjas móveis. Primeira desobediência.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a dim storage wagon at night lit by a lantern with sacks of coal, hammers and a small portable forge, no people",
+            "busca_reserva": "coal forge tools wagon night",
+            "movimento": "zoom_in",
+            "luzes": [
+              {
+                "x": 0.5,
+                "y": 0.5,
+                "raio": 0.14
+              }
+            ],
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "media",
+                "x": 0.5,
+                "olha": "direita",
+                "bigode": true,
+                "cabelo": "grisalho",
+                "prop": "tocha",
+                "acoes": [
+                  {
+                    "acao": "segura",
+                    "em": 0.2,
+                    "ate": 0.7
+                  },
+                  {
+                    "acao": "concorda",
+                    "em": 0.7,
+                    "ate": 0.95
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "O ponto escolhido para atravessar ficava perto do vilarejo de Studianka. E aí veio uma jogada esperta e baratíssima.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              27,
+              53.5,
+              30,
+              55
+            ],
+            "camera_em": 0.1,
+            "cidades": [
+              {
+                "nome": "Borisov",
+                "lon": 28.5,
+                "lat": 54.23,
+                "em": 0.0
+              },
+              {
+                "nome": "Studianka",
+                "lon": 28.35,
+                "lat": 54.47,
+                "destaque": true,
+                "lado": "esquerda",
+                "em": 0.4
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "o ponto da travessia",
+                "lon": 27.4,
+                "lat": 54.75,
+                "tipo": "destaque",
+                "em": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Napoleão mandou engenheiros fazer barulho em outro trecho do rio, em Ukholoda, como se a travessia fosse ali, e soltou guias locais que conheciam o plano falso para eles contarem tudo aos russos. Fake news de mil oitocentos e doze, no boca a boca.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a noisy riverbank at dusk with piles of timber, a half-built fake bridge and torches along the shore, no people",
+            "busca_reserva": "riverbank timber torches dusk",
+            "movimento": "pan_esquerda",
+            "luzes": [
+              {
+                "x": 0.75,
+                "y": 0.5,
+                "raio": 0.1
+              }
+            ],
+            "personagens": [
+              {
+                "figurino": "operario",
+                "pele": "clara",
+                "x": 0.25,
+                "olha": "direita",
+                "prop": "tocha",
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.2,
+                    "ate": 0.5
+                  }
+                ]
+              },
+              {
+                "figurino": "campones",
+                "pele": "media",
+                "x": 0.55,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "acena",
+                    "em": 0.5,
+                    "ate": 0.8
+                  },
+                  {
+                    "acao": "ri",
+                    "em": 0.7,
+                    "ate": 0.95
+                  }
+                ]
+              },
+              {
+                "figurino": "campones",
+                "pele": "clara",
+                "x": 0.85,
+                "olha": "esquerda",
+                "barba": true,
+                "acoes": [
+                  {
+                    "acao": "entra",
+                    "de": "direita",
+                    "em": 0.2,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "concorda",
+                    "em": 0.6,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Funcionou. Chichagov mandou tropas para o sul, e a margem em frente a Studianka ficou livre.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              26.5,
+              53,
+              30.5,
+              55.2
+            ],
+            "cidades": [
+              {
+                "nome": "Borisov",
+                "lon": 28.5,
+                "lat": 54.23,
+                "em": 0.0
+              },
+              {
+                "nome": "Studianka",
+                "lon": 28.35,
+                "lat": 54.47,
+                "destaque": true,
+                "lado": "esquerda",
+                "em": 0.0
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    28.6,
+                    54.0
+                  ],
+                  [
+                    28.9,
+                    53.6
+                  ],
+                  [
+                    29.2,
+                    53.2
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.1,
+                "duracao": 0.6
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Chichagov vai para o sul",
+                "lon": 28.9,
+                "lat": 53.0,
+                "tipo": "destaque",
+                "em": 0.4
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Agora alguém tinha que construir as pontes. Dentro da água gelada.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "the unfinished wooden frame of a narrow bridge being built over an icy dark river at dawn, planks and beams stacked on the bank, steam rising from the cold water",
+            "busca_reserva": "wooden bridge construction winter river",
+            "movimento": "zoom_in",
+            "neblina": true
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "As pontes de Eblé",
+      "cenas": [
+        {
+          "narracao": "Quem entrou na água foram os pontoneiros de Eblé, uns quatrocentos homens. Eblé comandava pontoneiros holandeses desde mil oitocentos e onze, e uma das companhias que levantou as pontes do Berezina era holandesa, sob o capitão Benthien. É uma contribuição pouco citada nos relatos em inglês.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a freezing river at dawn with floating ice and a half-built wooden bridge, mist over the water, no people",
+            "busca_reserva": "pontoneers icy river bridge 1812",
+            "movimento": "zoom_in",
+            "neblina": true,
+            "personagens": [
+              {
+                "figurino": "operario",
+                "pele": "clara",
+                "x": 0.3,
+                "olha": "direita",
+                "prop": "lanca",
+                "acoes": [
+                  {
+                    "acao": "segura",
+                    "em": 0.2,
+                    "ate": 0.8
+                  }
+                ]
+              },
+              {
+                "figurino": "operario",
+                "pele": "media",
+                "x": 0.55,
+                "olha": "direita",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.3,
+                    "ate": 0.6
+                  }
+                ]
+              },
+              {
+                "figurino": "operario",
+                "pele": "clara",
+                "x": 0.8,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "triste",
+                    "em": 0.4,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Os pontoneiros de Eblé",
+              "subtitulo": "Cerca de 400 homens, com holandeses sob o capitão Benthien",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Madeira? Desmontaram as casas do vilarejo. Só deu para duas pontes, montadas sem estacas porque não havia tempo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "wooden Russian village cottages being taken apart plank by plank, beams and boards flying through the air and stacked into a pile, a bare winter village",
+            "busca_reserva": "wooden village house dismantled",
+            "movimento": "zoom_in",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "A segunda, para canhões e carroças, quebrou várias vezes. A cada quebra, os pontoneiros voltavam para a água para consertar.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a creaking narrow wooden bridge with a broken plank over icy dark water at dawn, a cannon waiting on the bank, no people",
+            "busca_reserva": "wooden pontoon bridge broken plank",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "operario",
+                "pele": "clara",
+                "x": 0.4,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "assusta",
+                    "em": 0.1,
+                    "ate": 0.4
+                  },
+                  {
+                    "acao": "segura",
+                    "em": 0.5,
+                    "ate": 0.9
+                  }
+                ]
+              },
+              {
+                "figurino": "operario",
+                "pele": "morena",
+                "x": 0.7,
+                "olha": "esquerda",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "aponta",
+                    "em": 0.3,
+                    "ate": 0.6
+                  },
+                  {
+                    "acao": "concorda",
+                    "em": 0.7,
+                    "ate": 0.95
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Quantos sobreviveram? As fontes divergem muito: um relato francês fala em oito, outra fonte em uns quarenta. Em qualquer versão, poucos.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a lonely wet pontoneer's hat floating on dark icy river water in thick mist, a cartoon question mark rising from the fog",
+            "busca_reserva": "hat floating river mist",
+            "movimento": "zoom_in",
+            "neblina": true
+          }
+        },
+        {
+          "narracao": "Napoleão e a Guarda atravessaram entre vinte e sete e vinte e oito de novembro. Na margem leste, o marechal Victor segurava os russos, enquanto uma multidão de soldados desgarrados e civis esperava a vez.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": [
+              10,
+              46,
+              46,
+              62
+            ],
+            "camera_para": [
+              26.5,
+              53.5,
+              30.5,
+              55.2
+            ],
+            "cidades": [
+              {
+                "nome": "Studianka",
+                "lon": 28.35,
+                "lat": 54.47,
+                "destaque": true,
+                "lado": "esquerda",
+                "em": 0.0
+              }
+            ],
+            "rotas": [
+              {
+                "pontos": [
+                  [
+                    28.9,
+                    54.45
+                  ],
+                  [
+                    28.35,
+                    54.47
+                  ],
+                  [
+                    27.7,
+                    54.5
+                  ]
+                ],
+                "carga": "caravana",
+                "em": 0.1,
+                "duracao": 0.5
+              }
+            ],
+            "areas": [
+              {
+                "pontos": [
+                  [
+                    29.0,
+                    54.2
+                  ],
+                  [
+                    29.8,
+                    54.2
+                  ],
+                  [
+                    29.8,
+                    54.8
+                  ],
+                  [
+                    29.0,
+                    54.8
+                  ]
+                ],
+                "cor": "azul",
+                "rotulo": "russos",
+                "em": 0.5
+              }
+            ],
+            "rotulos": [
+              {
+                "texto": "Napoleão e a Guarda · 27–28 nov",
+                "lon": 26.6,
+                "lat": 54.2,
+                "tipo": "destaque",
+                "em": 0.2
+              },
+              {
+                "texto": "marechal Victor",
+                "lon": 29.0,
+                "lat": 54.95,
+                "tipo": "destaque",
+                "em": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "A artilharia russa atingiu essa multidão. Na manhã do dia vinte e nove, Napoleão mandou queimar as pontes.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "Russian cannons firing from a hill at dawn over a river, thick smoke and flames, silhouettes of a crowd on the far bank and a bridge catching fire",
+            "busca_reserva": "Berezina crossing artillery 1812",
+            "movimento": "zoom_in",
+            "particulas": "brasas"
+          }
+        },
+        {
+          "narracao": "Eblé segurou o incêndio por mais de uma hora, para deixar passar mais gente. Segunda desobediência.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a wooden bridge at dawn with flames and orange smoke starting at one end, a crowd silhouetted on the bank, no people in the foreground",
+            "busca_reserva": "burning bridge dawn",
+            "movimento": "zoom_in",
+            "particulas": "brasas",
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "media",
+                "x": 0.4,
+                "olha": "direita",
+                "bigode": true,
+                "cabelo": "grisalho",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "bravo",
+                    "em": 0.1,
+                    "ate": 0.6
+                  },
+                  {
+                    "acao": "nega",
+                    "em": 0.3,
+                    "ate": 0.7
+                  }
+                ]
+              },
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.75,
+                "olha": "esquerda",
+                "acoes": [
+                  {
+                    "acao": "assusta",
+                    "em": 0.2,
+                    "ate": 0.6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Não deu para todos. Milhares ficaram do lado errado do rio, e muitos foram capturados.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Passage of the Berezina painting Januarius Suchodolski 1866",
+            "movimento": "pan_direita",
+            "titulo_inferior": {
+              "titulo": "A passagem do Berezina",
+              "subtitulo": "Pintura de January Suchodolski",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Quanto custou? As estimativas variam muito, de dezenas de milhares a mais de cinquenta mil pessoas entre mortos e capturados, combatentes e civis.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 50000,
+            "prefixo": "mais de ",
+            "sufixo": " pessoas",
+            "rotulo": "Mortos e capturados no Berezina, combatentes e civis",
+            "comparacao": "as estimativas vão de dezenas de milhares a mais de 50 mil"
+          }
+        },
+        {
+          "narracao": "Em francês, berezina virou sinônimo de desastre. Mesmo assim, o historiador Jean Tulard chama o episódio de vitória francesa, ilustrada pela ação de Eblé: o imperador escapou da captura, mesmo com o exército destruído.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a small smug emperor in a bicorne hat riding away in a sleigh through the snow, a faded ruined army dissolving into mist behind him, a single lantern glowing",
+            "busca_reserva": "Napoleon sleigh escape 1812",
+            "movimento": "pan_direita",
+            "particulas": "neve"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O veredito",
+      "cenas": [
+        {
+          "narracao": "Em cinco de dezembro, Napoleão deixou o que restava do exército e seguiu na frente. A campanha acabou no fim de dezembro.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a snowy Russian road at dusk with a horse sleigh waiting, bare birch trees and a cold pink sky, no people",
+            "busca_reserva": "Napoleon sleigh winter road",
+            "movimento": "pan_direita",
+            "particulas": "neve",
+            "personagens": [
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "clara",
+                "x": 0.35,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "anda",
+                    "em": 0.1,
+                    "ate": 0.5
+                  },
+                  {
+                    "acao": "sai",
+                    "para": "direita",
+                    "em": 0.5,
+                    "ate": 0.95
+                  }
+                ]
+              },
+              {
+                "figurino": "soldado_napoleao",
+                "pele": "morena",
+                "x": 0.75,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "triste",
+                    "em": 0.3,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Eblé, o homem que desobedeceu duas vezes, morreu em trinta e um de dezembro, provavelmente de exaustão.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a lone general's hat resting on a snowy tree stump with a single candle burning beside it at dusk, silent and solemn",
+            "busca_reserva": "candle hat snow solemn",
+            "movimento": "zoom_in",
+            "particulas": "neve",
+            "luzes": [
+              {
+                "x": 0.55,
+                "y": 0.6,
+                "raio": 0.1
+              }
+            ],
+            "titulo_inferior": {
+              "titulo": "Jean-Baptiste Eblé",
+              "subtitulo": "Morreu em 31 de dezembro de 1812",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Do lado russo, a conta também foi pesada: estimativas falam em uns duzentos e dez mil mortos. E o total francês depende de quem você lê.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a vast snowy Russian field at dusk with rows of simple wooden crosses and a lone orthodox church with golden domes in the distance, quiet and sad",
+            "busca_reserva": "snowy field wooden crosses church Russia",
+            "movimento": "zoom_out",
+            "neblina": true
+          }
+        },
+        {
+          "narracao": "Para Riehn, de seiscentos e oitenta e cinco mil que entraram, menos de setenta mil sobreviventes são conhecidos. O famoso gráfico de Minard, de mil oitocentos e sessenta e nove, mostra quatrocentos e vinte e dois mil entrando e dez mil voltando.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Minard Carte figurative des pertes successives en hommes de l'Armée Française 1869",
+            "movimento": "pan_direita",
+            "titulo_inferior": {
+              "titulo": "O gráfico de Minard",
+              "subtitulo": "1869 · 422 mil entrando, 10 mil voltando",
+              "pequeno": true
+            }
+          }
+        },
+        {
+          "narracao": "Seja qual for o total, a conta não fecha só com o inverno. Então, o veredito deste inquérito. O inverno é culpado, mas é cúmplice.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a grand courtroom with a wooden judge's bench, a gavel and a witness stand, dramatic light through tall windows, no people",
+            "busca_reserva": "courtroom gavel bench",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "terno",
+                "pele": "media",
+                "x": 0.5,
+                "olha": "direita",
+                "fala": true,
+                "prop": "pergaminho",
+                "acoes": [
+                  {
+                    "acao": "cruza_bracos",
+                    "em": 0.1,
+                    "ate": 0.4
+                  },
+                  {
+                    "acao": "aponta",
+                    "em": 0.6,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Quando a neve chegou, o exército principal já tinha encolhido para uma fração do que era, levado pelo calor, pela doença, pela deserção, pelos cavalos mortos e por uma aposta: marchar cada vez mais fundo atrás de uma batalha decisiva e de uma rendição que nunca vieram.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a police lineup of five funny cartoon suspects in a row against a height chart: a smiling sun, a sick soldier, a horse skull, a muddy boot and a tiny snowflake at the end, the snowflake looking nervous",
+            "busca_reserva": "police lineup cartoon suspects",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "O frio encontrou o que sobrou. E o pouco que escapou passou por duas pontes feitas com o carvão e as ferramentas que um general guardou contra ordens, e com o trabalho de centenas de pontoneiros dentro da água gelada.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two narrow wooden bridges across an icy river at dawn with tiny figures crossing, a bucket of coal and a hammer in the foreground glowing warmly by a lantern",
+            "busca_reserva": "Berezina bridges Eblé",
+            "movimento": "zoom_in",
+            "neblina": true,
+            "luzes": [
+              {
+                "x": 0.2,
+                "y": 0.75,
+                "raio": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "narracao": "Fica uma pergunta em aberto, e ela é sua: o erro decisivo foi marchar fundo demais ou esperar um mês em Moscou? Deixa sua resposta nos comentários, se inscreve e solta o like se esse inquérito valeu a pena.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly cartoon detective in a trench coat pointing at the viewer with a big smile, a giant question mark and a fork-in-the-road sign with a boot on one side and a clock on the other behind him",
+            "busca_reserva": "detective pointing viewer cartoon",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E fica de olho no próximo episódio do canal, que tem mais uma virada da história esperando para ser investigada.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a closed mysterious case folder on a dark desk with a magnifying glass and a golden crown silhouette on the cover, a desk lamp casting a warm glow",
+            "busca_reserva": "case file magnifying glass desk lamp",
+            "movimento": "zoom_in",
+            "particulas": "poeira",
+            "luzes": [
+              {
+                "x": 0.7,
+                "y": 0.3,
+                "raio": 0.15
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1],
+      "ate": [1, 3],
+      "gancho": "Não foi o inverno que venceu Napoleão?",
+      "titulo": "Napoleão na Rússia: o inverno não foi o culpado?",
+      "descricao": "Em 1812 Napoleão entrou na Rússia com cerca de 450 mil homens, e a primeira nevasca forte pegou um exército já muito menor. O inquérito completo, suspeito por suspeito, está no canal.",
+      "hashtags": ["#napoleão", "#história", "#curiosidades"],
+      "legenda_reels": "Todo mundo culpa o inverno pela derrota de Napoleão na Rússia. Mas quando a neve chegou, o exército já era um quarto do que foi. Segue o perfil para mais história. #napoleão #história #curiosidades #rússia"
+    },
+    {
+      "de": [5, 5],
+      "ate": [6, 1],
+      "gancho": "Napoleão tomou Moscou e já tinha perdido",
+      "titulo": "Napoleão entrou em Moscou e já tinha perdido",
+      "descricao": "Napoleão tomou Moscou, esperou um mês por uma rendição que não veio e saiu com cerca de 108 mil homens, de 450 mil. A conta completa está no vídeo do canal.",
+      "hashtags": ["#napoleão", "#história", "#moscou"],
+      "legenda_reels": "Napoleão conquistou Moscou, esperou um mês por uma resposta do czar e nada. A conta do que sobrou do exército é de assustar. Segue o perfil para mais história. #napoleão #história #moscou #curiosidades"
+    },
+    {
+      "de": [8, 10],
+      "ate": [8, 12],
+      "gancho": "A fake news de 1812 que salvou Napoleão",
+      "titulo": "A fake news de 1812 que salvou Napoleão na Rússia",
+      "descricao": "No rio Berezina, Napoleão enganou os russos com um plano falso espalhado de boca em boca. O que aconteceu depois, e a história de Eblé, estão no vídeo completo no canal.",
+      "hashtags": ["#napoleão", "#história", "#berezina"],
+      "legenda_reels": "Em 1812, Napoleão espalhou um plano falso para enganar os russos no rio Berezina, uma fake news no boca a boca. Segue o perfil para mais história. #napoleão #história #berezina #curiosidades"
+    }
+  ]
+}
