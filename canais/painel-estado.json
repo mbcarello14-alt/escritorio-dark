@@ -1,12 +1,23 @@
 {
-  "atualizado_em": "2026-11-17T16:27:45Z",
+  "atualizado_em": "2026-11-17T16:33:14Z",
   "ativos": {
-    "miguel": [
-      "Marca-Página: Vidas Secas: por que a morte da Baleia dói tanto",
-      "Longo Marca-Página: Machado de Assis"
+    "narrador": [
+      "Marca-Página: Vidas Secas: por que a morte da Baleia dói tanto"
+    ],
+    "ilustrador": [
+      "Marca-Página: Vidas Secas: por que a morte da Baleia dói tanto"
+    ],
+    "editor": [
+      "Marca-Página: Vidas Secas: por que a morte da Baleia dói tanto"
+    ],
+    "clipador": [
+      "Marca-Página: Vidas Secas: por que a morte da Baleia dói tanto"
     ],
     "roteirista_historia": [
       "Longo Ouro & Império: Os vikings"
+    ],
+    "miguel": [
+      "Longo Marca-Página: Machado de Assis"
     ]
   },
   "proximos": [
@@ -55,8 +66,8 @@
       "dia": "2026-11-21",
       "rotulo": "sábado 21/11 11h00",
       "publicar_em_utc": "2026-11-21T14:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
       "titulo": "Vidas Secas: por que a morte da Baleia dói tanto",
       "url": ""
     },
