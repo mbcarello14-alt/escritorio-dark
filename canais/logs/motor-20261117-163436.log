@@ -1,0 +1,194 @@
+16:34:37 INFO ilustrações: higgsfield desligado (sem chave)
+16:34:47 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+16:34:47 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+16:34:48 INFO Processing audio with duration 00:36.481
+[0;93m2026-11-17 16:34:49.001429377 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+16:34:49 INFO VAD filter removed 00:00.000 of audio
+16:34:58 INFO Processing audio with duration 00:36.481
+16:34:58 INFO VAD filter removed 00:00.000 of audio
+16:35:30 INFO narrador gemini (Leda): bloco 1/9
+16:35:51 INFO Processing audio with duration 01:17.201
+16:35:51 INFO VAD filter removed 00:00.000 of audio
+16:36:13 INFO Processing audio with duration 01:17.201
+16:36:14 INFO VAD filter removed 00:00.000 of audio
+16:36:59 INFO narrador gemini (Leda): bloco 2/9
+16:37:15 INFO Processing audio with duration 01:05.841
+16:37:15 INFO VAD filter removed 00:00.000 of audio
+16:37:34 INFO Processing audio with duration 01:05.841
+16:37:34 INFO VAD filter removed 00:00.000 of audio
+16:38:14 INFO narrador gemini (Leda): bloco 3/9
+16:38:14 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+16:38:36 INFO Processing audio with duration 01:06.200
+16:38:36 INFO VAD filter removed 00:00.000 of audio
+16:38:54 INFO Processing audio with duration 01:06.200
+16:38:54 INFO VAD filter removed 00:00.000 of audio
+16:39:32 INFO narrador gemini (Leda): bloco 4/9
+16:40:03 INFO Processing audio with duration 01:20.600
+16:40:03 INFO VAD filter removed 00:00.000 of audio
+16:40:25 INFO Processing audio with duration 01:20.600
+16:40:25 INFO VAD filter removed 00:00.000 of audio
+16:41:09 INFO narrador gemini (Leda): bloco 5/9
+16:41:39 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+16:42:21 INFO Processing audio with duration 01:32.120
+16:42:22 INFO VAD filter removed 00:00.000 of audio
+16:42:44 INFO Processing audio with duration 01:32.120
+16:42:45 INFO VAD filter removed 00:00.000 of audio
+16:43:29 INFO narrador gemini (Leda): bloco 6/9
+16:43:59 INFO Processing audio with duration 01:31.920
+16:43:59 INFO VAD filter removed 00:00.000 of audio
+16:44:23 INFO Processing audio with duration 01:31.920
+16:44:23 INFO VAD filter removed 00:00.000 of audio
+16:45:09 INFO narrador gemini (Leda): bloco 7/9
+16:45:37 INFO Processing audio with duration 01:19.920
+16:45:37 INFO VAD filter removed 00:00.048 of audio
+16:45:58 INFO Processing audio with duration 01:19.920
+16:45:58 INFO VAD filter removed 00:00.048 of audio
+16:46:40 INFO narrador gemini (Leda): bloco 8/9
+16:46:41 WARNING Gemini TTS: cota do modelo gemini-3.1-flash-tts-preview acabou — trocando de modelo
+16:47:16 INFO Processing audio with duration 01:36.611
+16:47:16 INFO VAD filter removed 00:00.000 of audio
+16:47:43 INFO Processing audio with duration 01:36.611
+16:47:43 INFO VAD filter removed 00:00.000 of audio
+16:48:32 INFO narrador gemini (Leda): bloco 9/9
+16:48:32 INFO gerando 57 ilustrações…
+16:50:28 INFO ilustrações prontas: 57 geradas (57 pedidas)
+16:50:29 INFO Processing audio with duration 00:36.481
+16:50:29 INFO VAD filter removed 00:00.000 of audio
+16:50:39 INFO bloco 1: 36.5s, 111 palavras reconhecidas
+16:51:03 INFO cena 1 pronta (7.9s, total 8s)
+16:51:14 INFO cena 2 pronta (3.2s, total 11s)
+16:51:31 INFO cena 3 pronta (5.8s, total 17s)
+16:51:32 INFO imagem 'Graciliano Ramos portrait photograph' ← wikimedia
+16:51:56 INFO cena 4 pronta (9.9s, total 27s)
+16:52:14 INFO cena 5 pronta (9.6s, total 36s)
+16:52:16 INFO Processing audio with duration 01:17.201
+16:52:16 INFO VAD filter removed 00:00.080 of audio
+16:52:37 INFO bloco 2: 77.2s, 220 palavras reconhecidas
+16:52:40 INFO cena 6 pronta (6.3s, total 43s)
+16:52:48 INFO cena 7 pronta (9.2s, total 52s)
+16:53:21 INFO cena 8 pronta (13.8s, total 66s)
+16:53:40 INFO cena 9 pronta (7.1s, total 73s)
+16:54:03 INFO cena 10 pronta (9.3s, total 82s)
+16:54:25 INFO cena 11 pronta (8.9s, total 91s)
+16:54:36 INFO cena 12 pronta (3.4s, total 94s)
+16:55:18 INFO cena 13 pronta (12.8s, total 107s)
+16:55:23 INFO cena 14 pronta (6.3s, total 114s)
+16:55:24 INFO Processing audio with duration 01:05.841
+16:55:25 INFO VAD filter removed 00:00.000 of audio
+16:55:42 INFO bloco 3: 65.8s, 167 palavras reconhecidas
+16:56:03 INFO cena 15 pronta (8.6s, total 122s)
+16:56:51 INFO cena 16 pronta (14.3s, total 136s)
+16:57:13 INFO cena 17 pronta (9.0s, total 145s)
+16:57:23 INFO cena 18 pronta (6.1s, total 152s)
+16:57:28 INFO cena 19 pronta (14.1s, total 166s)
+16:57:32 INFO cena 20 pronta (5.0s, total 171s)
+16:57:54 INFO cena 21 pronta (8.8s, total 179s)
+16:57:56 INFO Processing audio with duration 01:05.932
+16:57:56 INFO VAD filter removed 00:00.000 of audio
+16:58:13 INFO bloco 4: 65.9s, 169 palavras reconhecidas
+16:58:18 WARNING nenhuma imagem livre para 'Rubem Braga cronista photograph' — usando cartão
+16:58:19 INFO imagem 'Rubem Braga cronista' ← wikimedia
+16:58:19 INFO imagem para 'Rubem Braga cronista photograph' achada buscando 'Rubem Braga cronista'
+16:58:59 INFO cena 22 pronta (12.8s, total 192s)
+16:59:39 INFO cena 23 pronta (11.9s, total 204s)
+17:00:01 INFO cena 24 pronta (8.8s, total 213s)
+17:00:40 INFO cena 25 pronta (12.1s, total 225s)
+17:00:48 INFO cena 26 pronta (10.3s, total 235s)
+17:01:12 INFO cena 27 pronta (10.1s, total 245s)
+17:01:14 INFO Processing audio with duration 01:20.437
+17:01:14 INFO VAD filter removed 00:00.000 of audio
+17:01:35 INFO bloco 5: 80.4s, 211 palavras reconhecidas
+17:02:01 INFO cena 28 pronta (10.3s, total 256s)
+17:02:46 INFO cena 29 pronta (14.0s, total 270s)
+17:03:09 INFO cena 30 pronta (8.8s, total 279s)
+17:03:29 INFO cena 31 pronta (8.2s, total 287s)
+17:03:50 INFO cena 32 pronta (7.1s, total 294s)
+17:03:56 INFO cena 33 pronta (7.6s, total 301s)
+17:04:08 INFO cena 34 pronta (7.3s, total 309s)
+17:04:23 INFO cena 35 pronta (9.3s, total 318s)
+17:04:43 INFO cena 36 pronta (7.8s, total 326s)
+17:04:45 INFO Processing audio with duration 01:31.848
+17:04:46 INFO VAD filter removed 00:00.000 of audio
+17:05:10 INFO bloco 6: 91.8s, 209 palavras reconhecidas
+17:05:56 INFO cena 37 pronta (14.7s, total 340s)
+17:06:23 INFO cena 38 pronta (10.8s, total 351s)
+17:07:13 INFO cena 39 pronta (15.5s, total 367s)
+17:07:32 INFO cena 40 pronta (7.3s, total 374s)
+17:08:24 INFO cena 41 pronta (14.8s, total 389s)
+17:09:23 INFO cena 42 pronta (18.1s, total 407s)
+17:09:49 INFO cena 43 pronta (10.7s, total 418s)
+17:09:51 INFO Processing audio with duration 01:31.366
+17:09:51 INFO VAD filter removed 00:00.000 of audio
+17:10:17 INFO bloco 7: 91.4s, 230 palavras reconhecidas
+17:11:12 INFO cena 44 pronta (17.4s, total 435s)
+17:11:14 INFO cena 45 pronta (6.1s, total 441s)
+17:11:26 INFO cena 46 pronta (16.0s, total 457s)
+17:11:47 INFO cena 47 pronta (8.0s, total 465s)
+17:12:05 INFO cena 48 pronta (14.7s, total 480s)
+17:12:28 INFO cena 49 pronta (9.9s, total 490s)
+17:13:04 INFO cena 50 pronta (11.2s, total 501s)
+17:13:24 INFO cena 51 pronta (8.0s, total 509s)
+17:13:26 INFO Processing audio with duration 01:19.779
+17:13:26 INFO VAD filter removed 00:00.000 of audio
+17:13:47 INFO bloco 8: 79.8s, 196 palavras reconhecidas
+17:13:53 INFO cena 52 pronta (7.9s, total 517s)
+17:14:35 INFO cena 53 pronta (13.9s, total 531s)
+17:14:36 INFO imagem 'Aurélio Buarque de Holanda portrait' ← wikimedia
+17:15:16 INFO cena 54 pronta (14.3s, total 545s)
+17:15:40 INFO cena 55 pronta (8.9s, total 554s)
+17:16:00 INFO cena 56 pronta (7.4s, total 562s)
+17:16:26 INFO cena 57 pronta (11.0s, total 573s)
+17:17:14 INFO cena 58 pronta (16.3s, total 589s)
+17:17:17 INFO Processing audio with duration 01:36.514
+17:17:17 INFO VAD filter removed 00:00.000 of audio
+17:17:45 INFO bloco 9: 96.5s, 269 palavras reconhecidas
+17:18:05 INFO cena 59 pronta (6.9s, total 596s)
+17:18:23 INFO cena 60 pronta (7.4s, total 603s)
+17:18:41 INFO cena 61 pronta (6.9s, total 610s)
+17:18:47 INFO cena 62 pronta (6.9s, total 617s)
+17:19:00 INFO cena 63 pronta (7.7s, total 625s)
+17:19:07 WARNING nenhuma imagem livre para 'Ministry of Education Brasília Esplanada building' — usando cartão
+17:19:14 WARNING nenhuma imagem livre para 'Ministry Education Brasília Esplanada' — usando cartão
+17:19:17 INFO imagem 'Ministry Education Brasília' ← wikimedia
+17:19:17 INFO imagem para 'Ministry of Education Brasília Esplanada building' achada buscando 'Ministry Education Brasília'
+17:20:04 INFO cena 64 pronta (14.3s, total 639s)
+17:20:23 INFO cena 65 pronta (7.1s, total 646s)
+17:20:40 INFO cena 66 pronta (10.4s, total 656s)
+17:21:20 INFO cena 67 pronta (13.7s, total 670s)
+17:21:31 INFO cena 68 pronta (7.3s, total 677s)
+17:21:52 INFO cena 69 pronta (8.0s, total 685s)
+17:21:54 INFO sem trilha em musica/calmo — vídeo sai só com narração
+17:21:54 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+17:21:59 WARNING nenhuma imagem livre para 'sertao nordeste seca criancas descalcas caatinga' — usando cartão
+17:22:06 WARNING nenhuma imagem livre para 'sertao nordeste seca criancas' — usando cartão
+17:22:07 INFO imagem 'sertao nordeste seca' ← wikimedia
+17:22:07 INFO imagem para 'sertao nordeste seca criancas descalcas caatinga' achada buscando 'sertao nordeste seca'
+17:22:09 INFO upload 5%
+17:22:10 INFO upload 10%
+17:22:10 INFO upload 15%
+17:22:10 INFO upload 21%
+17:22:11 INFO upload 26%
+17:22:11 INFO upload 31%
+17:22:12 INFO upload 36%
+17:22:12 INFO upload 42%
+17:22:12 INFO upload 47%
+17:22:13 INFO upload 52%
+17:22:13 INFO upload 58%
+17:22:13 INFO upload 63%
+17:22:14 INFO upload 68%
+17:22:14 INFO upload 73%
+17:22:14 INFO upload 79%
+17:22:15 INFO upload 84%
+17:22:15 INFO upload 89%
+17:22:15 INFO upload 94%
+17:22:16 INFO vídeo enviado: https://youtu.be/CNrOdcwwu-w (agendado para 2026-11-21T14:00:00Z)
+17:22:23 INFO na playlist 'Clássicos e vestibular'
+17:22:24 WARNING Encountered 403 Forbidden with reason "forbidden"
+17:22:24 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+17:23:21 INFO corte 1 pronto (27s)
+17:24:24 INFO corte 2 pronto (29s)
+17:25:49 INFO corte 3 pronto (41s)
+17:25:52 INFO Short agendado: https://youtube.com/shorts/MRfnAujA-S4 (2026-11-22T15:00:00Z)
+17:25:58 INFO Short agendado: https://youtube.com/shorts/EPqxgbQOOjI (2026-11-23T15:00:00Z)
+17:26:03 INFO Short agendado: https://youtube.com/shorts/GdmSzQFPy_0 (2026-11-24T15:00:00Z)
+17:26:06 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-21/saida/video.mp4 (11.4 min) → https://youtu.be/CNrOdcwwu-w

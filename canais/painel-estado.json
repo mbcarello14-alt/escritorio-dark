@@ -1,7 +1,7 @@
 {
-  "atualizado_em": "2026-11-17T17:00:19Z",
+  "atualizado_em": "2026-11-17T17:26:23Z",
   "ativos": {
-    "narrador": [
+    "roteirista_historia": [
       "Longo Ouro & Império: Os vikings"
     ],
     "miguel": [
@@ -54,10 +54,10 @@
       "dia": "2026-11-21",
       "rotulo": "sábado 21/11 11h00",
       "publicar_em_utc": "2026-11-21T14:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Vidas Secas: por que a morte da Baleia dói tanto",
-      "url": ""
+      "url": "https://youtu.be/CNrOdcwwu-w"
     },
     {
       "canal": "historia",
@@ -156,8 +156,8 @@
     }
   ],
   "imagens": {
-    "hoje": 51,
-    "neurons": 2805,
+    "hoje": 108,
+    "neurons": 5940,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
