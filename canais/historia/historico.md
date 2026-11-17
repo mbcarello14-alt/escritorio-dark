@@ -58,3 +58,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-16
 - Short sobre o grito de Deodoro em três versões ("viva a República", "viva o Imperador" ou só contra o gabinete), no molde de contradição que passou de 600 views, apontando para o longo da Proclamação; fatos já checados no roteiro de 13/11.
+
+### 2026-11-17
+- Short comparando o resgate de Atahualpa (a sala cheia de ouro e prata) com um "cheque caução" de hoje, no molde do Pix medieval (1.257 views), apontando para o longo da Conquista Inca; checar fontes antes.
