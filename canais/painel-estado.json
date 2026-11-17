@@ -1,8 +1,8 @@
 {
-  "atualizado_em": "2026-11-17T00:03:05Z",
+  "atualizado_em": "2026-11-17T02:58:38Z",
   "ativos": {
     "miguel": [
-      "Ouro & Império: segunda 23/11 18h00",
+      "Ouro & Império: Napoleão na Rússia: o Exército que Morreu no Caminho",
       "Longo Marca-Página: Machado de Assis"
     ],
     "roteirista_historia": [
@@ -55,9 +55,9 @@
       "dia": "2026-11-23",
       "rotulo": "segunda 23/11 18h00",
       "publicar_em_utc": "2026-11-23T21:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
-      "titulo": "",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "titulo": "Napoleão na Rússia: o Exército que Morreu no Caminho",
       "url": ""
     }
   ],
