@@ -1,11 +1,12 @@
 {
-  "atualizado_em": "2026-11-17T14:34:38Z",
+  "atualizado_em": "2026-11-17T16:01:45Z",
   "ativos": {
+    "miguel": [
+      "Marca-Página: sábado 21/11 11h00",
+      "Longo Marca-Página: Machado de Assis"
+    ],
     "roteirista_historia": [
       "Longo Ouro & Império: Os vikings"
-    ],
-    "miguel": [
-      "Longo Marca-Página: Machado de Assis"
     ]
   },
   "proximos": [
@@ -48,6 +49,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Nuremberg: por que os Aliados desistiram de fuzilar?",
       "url": "https://youtu.be/QYAggz7958g"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-21",
+      "rotulo": "sábado 21/11 11h00",
+      "publicar_em_utc": "2026-11-21T14:00:00Z",
+      "etapa": "aguardando_escolha",
+      "etapa_txt": "👉 esperando você escolher a pauta",
+      "titulo": "",
+      "url": ""
     },
     {
       "canal": "historia",

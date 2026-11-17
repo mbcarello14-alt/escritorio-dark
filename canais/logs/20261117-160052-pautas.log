@@ -1,0 +1,35 @@
+comando: /pautas canais/livros/videos/2026-11-21
+🔧 Bash {"command": "cd canais/livros/videos/2026-11-21 && cat estado.json && ls"}
+🔧 Agent {"subagent_type": "pesquisador-livros", "description": "Pautas Marca-Página sábado 21/11", "prompt": "Etapa 1 (pauta). Canal: livros (Marca-Página). Pasta: /home/runner/work/escritorio-dark/escritorio
+💬 Aguardando o pesquisador-livros terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 WebSearch {"query": "Vidas Secas resumo e análise Graciliano Ramos youtube", "mode": "standard"}
+🔧 WebSearch {"query": "Hábitos Atômicos James Clear resumo crítica youtube", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-21/01-pauta.md", "content": "# Pauta — Marca-Página — sábado 21/11/2026, 11h\n\nContexto: últimos longos f
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-21/pautas.json", "content": "[\n  {\"titulo\": \"Hábitos Atômicos: o 1% por dia é verdade ou ilusão?\", \"
+💬 Escrevi `01-pauta.md` e `pautas.json` com as 3 ideias ranqueadas, mas sem nenhum outlier de canal pequeno confirmado. A busca web não devolve views nem inscritos. Isso está dito no arquivo e não inventei números. Antes do dossiê, é preciso conferir no YouTube canais com menos de 100 mil inscritos e vídeos com 5 vezes mais views que inscritos.
+
+Ranking:
+1. **Hábitos Atômicos: o 1% por dia é verdade ou ilusão?** (nota 8,5) Volta à não ficção, depois de três ficções seguidas no histórico. Cai na largada das metas de ano novo. Os resumos que achei não trazem crítica; a nossa pergunta é sobre a con
+🔧 Bash {"command": "python3 -c \"import json;d=json.load(open('pautas.json'));print(len(d));[print(x) for x in d]\""}
+💬 As 3 pautas do Marca-Página para sábado 21/11 11h estão prontas. O `pautas.json` é válido, com 3 itens, e todas as ideias são livros, dentro do nicho.
+
+1. **Hábitos Atômicos: o 1% por dia é verdade ou ilusão?** Resumo das quatro leis com crítica à conta do 1% ao dia.
+2. **Vidas Secas: por que a morte da Baleia dói tanto.** O livro lido em quadros, com a interioridade da cachorra, sem virar aula de vestibular.
+3. **O Cortiço: o protagonista não é uma pessoa.** O cortiço como personagem coletivo e o determinismo naturalista que envelheceu mal.
+
+A busca web não devolveu views nem inscritos, então
+
+=== resultado: success | turnos 3 | 4s | erro=False
+Aguardando o pesquisador-livros terminar.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+As 3 pautas do Marca-Página para sábado 21/11 11h estão prontas. O `pautas.json` é válido, com 3 itens, e todas as ideias são livros, dentro do nicho.
+
+1. **Hábitos Atômicos: o 1% por dia é verdade ou ilusão?** Resumo das quatro leis com crítica à conta do 1% ao dia.
+2. **Vidas Secas: por que a morte da Baleia dói tanto.** O livro lido em quadros, com a interioridade da cachorra, sem virar aula de vestibular.
+3. **O Cortiço: o protagonista não é uma pessoa.** O cortiço como personagem coletivo e o determinismo naturalista que envelheceu mal.
+
+A busca web não devolveu views nem inscritos, então não há outlier de canal pequeno confirmado como prova de demanda. O `01-pauta.md` registra isso. Antes do dossiê vale conferir no YouTube canais com menos de 100 mil inscritos e vídeos com 5 vezes mais views que inscritos. Páginas, editoras e qual vestibular cobra cada obra também ficaram para confirmar no dossiê.
+codigo de saida: 0
