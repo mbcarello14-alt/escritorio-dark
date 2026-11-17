@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-16T23:29:38Z",
+  "atualizado_em": "2026-11-17T00:03:05Z",
   "ativos": {
     "miguel": [
       "Ouro & Império: segunda 23/11 18h00",
@@ -147,8 +147,8 @@
     }
   ],
   "imagens": {
-    "hoje": 77,
-    "neurons": 4235,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
