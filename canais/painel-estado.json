@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-17T09:54:56Z",
+  "atualizado_em": "2026-11-17T11:45:40Z",
   "ativos": {
     "roteirista_historia": [
       "Longo Ouro & Império: Os vikings"
@@ -134,14 +134,14 @@
       "id": "vestibular",
       "nome": "Mapeado",
       "inscritos": 13,
-      "horas": 23.7,
+      "horas": 24.1,
       "publicados": 5
     },
     {
       "id": "livros",
       "nome": "Marca-Página",
       "inscritos": 9,
-      "horas": 15.5,
+      "horas": 15.9,
       "publicados": 6
     }
   ],
