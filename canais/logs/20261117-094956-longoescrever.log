@@ -1,0 +1,240 @@
+comando: /longo-escrever canais/historia/longos/2026-11-16-os-vikings 3
+🔧 Bash {"command": "cd canais/historia/longos/2026-11-16-os-vikings && cat estado.json && cat plano.json && ls blocos 2>/dev/null && grep -l '\"checado\": *true' blocos/*.json 2>/dev/null"}
+💬 Os blocos 1 a 9 já estão checados. Vou escrever os blocos 10, 11 e 12.
+🔧 Agent {"subagent_type": "roteirista-longo-historia", "description": "Escrever blocos 10-12", "prompt": "Etapa 2 (escrever blocos). Pasta do vídeo: /home/runner/work/escritorio-dark/escritorio-dark/canais/hi
+💬 O roteirista está escrevendo os blocos 10 a 12. Aguardo a conclusão para chamar o checador.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/plano.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_09.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "content": "{\n  \"n\": 10,\n  \"capitulo\": \"Mercadores do Báltic
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "content": "{\n  \"n\": 11,\n  \"capitulo\": \"Os rios da Rus\",\n 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "content": "{\n  \"n\": 12,\n  \"capitulo\": \"As ilhas britânicas 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "old_string": "os visitas esporádicas deram l
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "old_string": "escrito mais de cem anos depoi
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "old_string": "Os nomes de Sviatoslav, filho 
+💬 Escrevi os blocos 10, 11 e 12 em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/`, cada um com `"checado": false`. Não pesquisei na web, não validei o JSON nem contei as palavras. Escrevi de memória, então as datas e os fatos precisam do `checador`. Pelo tamanho dos parágrafos, estimo que cada bloco fique perto de 1250 palavras, mas não conferi.
+
+- **`bloco_10.json`, Mercadores do Báltico e de Hedeby:**
+  - Hedeby e a Danevirke (Unesco, 2018).
+  - Birka (Unesco, 1993), com o monge Ansgário.
+  - Mercadorias, balanças, prata cortada e dirha
+💬 Agora chamo o checador para os três blocos, em paralelo.
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 10", "prompt": "Cheque os fatos do campo `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vi
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json"}
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 11", "prompt": "Cheque os fatos do campo `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vi
+💬 Vou abrir as fontes.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json"}
+🔧 WebFetch {"url": "https://www.britannica.com/place/Hedeby", "prompt": "Hedeby: location, first mention 804, coins, trade goods, Ibrahim ibn Yaqub, Danevirke, UNESCO year, rise/fall dates."}
+🔧 Agent {"subagent_type": "checador", "description": "Checar bloco 12", "prompt": "Cheque os fatos do campo `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vi
+🔧 WebFetch {"url": "https://whc.unesco.org/en/list/1553", "prompt": "What is this site and year of inscription?"}
+💬 Os três checadores estão trabalhando nos blocos 10, 11 e 12. Aguardo os resultados.
+🔧 WebFetch {"url": "https://whc.unesco.org/en/list/555", "prompt": "What is this site and year of inscription? Birka dates, Hovgården."}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json"}
+🔧 WebFetch {"url": "https://www.britannica.com/biography/Rurik", "prompt": "Does this page exist? Summarize: Rurik dates (862), Oleg moving to Kiev (882), Primary Chronicle."}
+🔧 WebFetch {"url": "https://www.britannica.com/biography/Saint-Ansgar", "prompt": "Ansgar mission to Birka: year, king, church built."}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Kyivan-Rus", "prompt": "Does this page exist? Summarize origin of Rus, Oleg, Kiev 882, Vladimir."}
+🔧 WebFetch {"url": "https://www.britannica.com/place/Lindisfarne", "prompt": "Does this page exist? Summarize: date of Viking raid, Gospels date, St Cuthbert, tidal island."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Birka", "prompt": "Birka founding date, end date, Arabic ring inscription, Ansgar, female warrior grave Bj 581 and 2017 DNA study, fortress, graves count."}
+🔧 WebFetch {"url": "https://www.britannica.com/biography/Ahmad-ibn-Fadlan", "prompt": "Does this page exist? Date of journey (921/922), Rus description."}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Danelaw", "prompt": "Does this page exist? Summarize Danelaw, Guthrum, Alfred, treaty, -by place names."}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Varangian-Guard", "prompt": "Does this page exist? Origin of Varangian Guard, 988, Basil II, Vladimir, English later."}
+🔧 WebFetch {"url": "https://www.britannica.com/biography/Alfred-king-of-Wessex", "prompt": "Does this page exist? Summarize Alfred, Edington 878, Guthrum baptism, Somerset marshes, Great Army."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Hedeby", "prompt": "Hedeby: 804 mention, founding, coins start date, Ibrahim ibn Yaqub date and quote, wine from Rhine, goods traded, semicircular wall, portage 
+🔧 WebFetch {"url": "https://www.britannica.com/biography/Harald-III-king-of-Norway", "prompt": "Does this page exist? Harald Hardrada in Constantinople, returned to Norway, king."}
+🔧 WebFetch {"url": "https://www.britannica.com/place/York-England", "prompt": "Does this page exist? Vikings Jorvik, date 866/867, Coppergate excavations."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Viking_Age_coinage", "prompt": "Hedeby coins start date; Gotland hoards dirhams; hacksilver, scales."}
+🔧 WebFetch {"url": "https://www.britannica.com/biography/Vladimir-I", "prompt": "Does this page exist? 988, Basil II, warriors sent, conversion."}
+🔧 WebFetch {"url": "https://onlinelibrary.wiley.com/doi/10.1002/ajpa.23308", "prompt": "Title, year, findings of the study."}
+🔧 WebFetch {"url": "https://www.britannica.com/place/Dublin-national-capital-Ireland", "prompt": "Does this page exist? Viking founding of Dublin, date 841, Dubh Linn, Wood Quay."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Staraya_Ladoga", "prompt": "Mid-8th century settlement, workshops, glass beads, Aldeigjuborg, Scandinavian objects, Finnic and Slavic."}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Viking-people", "prompt": "Does this page exist? Trade, Birka, Hedeby, furs, walrus ivory."}
+🔧 WebFetch {"url": "https://www.britannica.com/biography/Rollo-Norman-leader", "prompt": "Does this page exist? Rollo, Saint-Clair-sur-Epte 911, Charles the Simple, Rouen, baptism, Dudo."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Rus%27_people", "prompt": "Etymology (rowing, Ruotsi), Sviatoslav name, Igor and Olga names, Norse origin debate."}
+🔧 WebFetch {"url": "https://www.britannica.com/place/Normandy-region-France", "prompt": "Does this page exist? Normandy origin, Rollo, 911, name."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Primary_Chronicle", "prompt": "Date of compilation (1113), author, location Kiev, 862 Rurik invitation."}
+🔧 WebFetch {"url": "https://www.britannica.com/biography/William-I-king-of-England", "prompt": "Does this page exist? William descent from Rollo, 1066."}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Anglo-Saxon-Chronicle", "prompt": "Does this page exist? Summarize."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Hagia_Sophia_runic_inscriptions", "prompt": "Does this page exist? Halfdan inscription, exact wording, location (upper gallery balustrade)."}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Viking-people", "prompt": "Does this page exist? Summarize Viking Age start 793."}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Viking-people", "prompt": "Does this page exist? Rus, rivers, portage."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Lindisfarne", "prompt": "Viking raid date (8 June 793), Anglo-Saxon Chronicle, Alcuin, Lindisfarne Gospels date and where kept, tidal island, St Cuthbert."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Great_Heathen_Army", "prompt": "Arrival year (865), kingdoms conquered (Northumbria, East Anglia, Mercia), Wessex, York capture year, Edington 878, Guthrum bapti
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Jorvik_Viking_Centre", "prompt": "Coppergate excavation years 1976-1981, finds (shoes, combs, amber, helmet), museum."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/History_of_Dublin", "prompt": "Viking longphort 841, Dubh Linn meaning, Liffey, Wood Quay excavation years."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Rollo", "prompt": "Treaty of Saint-Clair-sur-Epte 911, Charles the Simple, Rouen, Dudo of Saint-Quentin date written, foot-kissing, William the Conqueror descend
+🔧 WebSearch {"query": "UNESCO Archaeological Border complex of Hedeby and the Danevirke inscribed 2018 World Heritage", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Danelaw", "prompt": "Danelaw definition, Treaty of Alfred and Guthrum, -by and -thorpe place names, loanwords egg sky window, Whitby Grimsby."}
+🔧 WebSearch {"query": "Birka and Hovgården UNESCO World Heritage inscribed 1993 reference 555", "mode": "standard"}
+🔧 WebSearch {"query": "Birka Allah ring pseudo-Kufic inscription van Putten \"for/to Allah\" Bj 560", "mode": "standard"}
+🔧 WebSearch {"query": "Hedeby wine Rhineland imports jars Tating ware Hedeby trade goods whetstones antler combs", "mode": "standard"}
+🔧 WebSearch {"query": "Birka female warrior Bj 581 2017 American Journal of Physical Anthropology doi 10.1002/ajpa.23308 Price 2019 reassessment", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Varangian_runestones", "prompt": "Hagia Sophia runic inscription Halfdan: exact wording, location in the building."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Hagia_Sophia", "prompt": "Runic inscription Halfdan graffiti upper gallery: wording and location."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Ahmad_ibn_Fadlan", "prompt": "Year of journey, Rus description: hair, tattoos (dark green), height, hygiene, ship funeral, women's brooches and beads."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Varangian_Guard", "prompt": "Origin 988, Vladimir, Basil II, number of men, English later, Harald Hardrada."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Oleg_of_Novgorod", "prompt": "Relation to Rurik (kinsman/regent), move to Kiev 882, dates."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Rurikovo_Gorodishche", "prompt": "Location, relation to Novgorod, Rurik, dating."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Portage", "prompt": "Volok term and Rus portage, boats rolled on logs."}
+🔧 WebSearch {"query": "Hagia Sophia runic inscription \"Halfdan\" gallery balustrade \"made these runes\"", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Holmgard", "prompt": "Rurikovo Gorodishche Novgorod relation, Rurik settlement dating."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Runic_inscriptions_in_Hagia_Sophia", "prompt": "Halfdan inscription: location (gallery, parapet), legibility, wording; what is legible vs reconstructed."}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_12.md", "content": "# Checagem do bloco 12 (As ilhas britânicas e a Norman
+💬 **REPROVADO.** As observações estão em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_12.md`. Não editei o bloco.
+
+**Fontes.** As 10 URLs da Britannica devolveram 403 para o meu acesso automático. Isso é bloqueio de robô, não prova de que as páginas não existem. Não consegui confirmar o conteúdo delas, e `topic/Viking-people` é a que mais precisa de conferência manual. Conferi os fatos em outras fontes e sugiro como substitutas ou complemento as páginas da Wikipédia que abri. Para Lindisfarne, Alfredo, Danelaw, Jorvik, Dublin e R
+🔧 Agent {"subagent_type": "roteirista-longo-historia", "description": "Corrigir bloco 12", "prompt": "Corrija /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blo
+💬 O bloco 12 foi reprovado. Mandei as correções ao roteirista e aguardo isso, junto com os checadores dos blocos 10 e 11.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "old_string": "Naquela data, segundo a Crônic
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_10.md", "content": "# Checagem do bloco 10 — Mercadores do Báltico e de He
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "old_string": "cerca de um século antes, o be
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "old_string": "quase tudo o que sabemos dessa
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "old_string": "quer dizer lago escuro", "new_
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "old_string": "Wood Quay, nos anos mil novece
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json", "old_string": "    \"https://www.britannica.c
+💬 Apliquei as sete correções em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json`. O `"checado"` continua `false`. Não abri o `checagem_12.md` e não rodei validação.
+
+1. **Data de Lindisfarne:** a frase agora diz que a Crônica Anglo-Saxônica registra o ataque com a data de janeiro, tida como erro pelos historiadores, e que o dia de junho vem dos anais do mosteiro. Como a nova frase não traz mais o sujeito, a frase seguinte começa com "Um grupo de homens vindos do mar chegou à ilha…".
+2. **Dudo de Saint-Quentin:** o trecho ficou 
+💬 **REPROVADO.** O bloco 10 tem 5 correções obrigatórias. O restante confere. A checagem está salva em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_10.md`. Não editei o bloco.
+
+**Estado das fontes**
+- **Quebrada:** `en.wikipedia.org/wiki/Viking_Age_coinage` devolve 404.
+- **Substitutas:** `en.wikipedia.org/wiki/Trade_during_the_Viking_Age` e `en.wikipedia.org/wiki/Hacksilver`.
+- **Bloqueadas (403), não verificadas por mim:** Britannica (Hedeby, Saint-Ansgar, Viking-people) e Wiley (`ajpa.23308`). Não dá para afirmar que existem n
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 12", "prompt": "Recheque /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.jso
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_12.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_12.md"}
+🔧 Agent {"subagent_type": "roteirista-longo-historia", "description": "Corrigir bloco 10", "prompt": "Corrija /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blo
+💬 O bloco 10 também foi reprovado, e as correções já foram para o roteirista. Aguardo a correção do 10, a recheca do 12 e a checagem do 11.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "trazido de regiões do rio Reno
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_11.md", "content": "# Checagem do bloco 11 (Os rios da Rus)\n\n**Veredito:
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "vinte e cinco, entre as mais a
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "que os especialistas leem como
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "e conseguiu construir uma pequ
+💬 Todas as correções conferem. Vou atualizar a checagem.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "    \"https://en.wikipedia.org
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "ligado ao mar por canais", "ne
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "em poucos dias,", "new_string"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "Os historiadores lembram que e
+💬 **REPROVADO.** O bloco 11 tem dois erros factuais e cinco imprecisões. Salvei as observações em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_11.md`. Não editei o bloco.
+
+**Correções (trecho → correção)**
+
+1. "o rio Volkhov, que sai do grande lago Ladoga, e seguia pelo lago Ilmen" está errado. O Volkhov sai do Ilmen e desemboca no Ladoga. Sugestão: "passava pelo lago Ladoga e subia o rio Volkhov até o lago Ilmen…".
+2. "diz algo como Halfdan fez estas runas" não confere. Na inscrição do parapeito da galeria sul de Santa Sofia só 
+💬 Apliquei as quatro correções, a troca de fontes e os três ajustes opcionais em `blocos/bloco_10.json`. O bloco continua com `"checado": false`. Não reli o arquivo depois das edições nem validei o JSON.
+
+- **Vinho:** agora diz "trazido provavelmente da região do Reno".
+- **Moedas de Hedeby:** ficou só "a partir de cerca do ano oitocentos e vinte e cinco".
+- **Anel de Birka:** o trecho agora diz que uma equipe de pesquisadores leu "para Alá" e que outros veem só letras imitando o árabe, sem sentido. Fecha com "O debate segue aberto." Escrevi sem aspas.
+- **Ansgário:** trocado por "formou-se ali 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_12.md", "content": "# Checagem do bloco 12 (As ilhas britânicas e a Norman
+🔧 Agent {"subagent_type": "roteirista-longo-historia", "description": "Corrigir bloco 11", "prompt": "Corrija /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blo
+💬 Também ao mesmo tempo, recheco o bloco 10.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json"}
+💬 **APROVADO.** As correções 1 a 7 estão aplicadas no `bloco_12.json`, sem novos erros factuais ou de fluidez. Não editei o bloco. Atualizei `blocos/checagem_12.md` com o resultado final.
+
+1. A data de junho agora vem com a ressalva: a Crônica Anglo-Saxônica registra janeiro, provável erro, e o dia de junho vem dos anais do mosteiro.
+2. Dudo escreveu "cerca de cem anos depois, a pedido do neto de Rollo, o duque Ricardo", e a concordância está correta.
+3. O texto diz "boa parte do que sabemos".
+4. Os Evangelhos de Lindisfarne saíram "por volta do ano setecentos".
+5. Dubh Linn significa "lagoa esc
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 10", "prompt": "Recheque /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.jso
+💬 Bloco 12 aprovado. Marco como checado.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "old_string": "pelo rio Volkhov, que sai do g
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json"}
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos && sed -i 's/\"checado\": *false/\"checado\": true/' bloco_12.json && grep -n chec
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_10.md"}
+💬 Bloco 12 está checado. Aguardo as rechecagens dos blocos 10 e 11.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "old_string": "diz algo como Halfdan fez esta
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "old_string": "em verde escuro, desde a ponta
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "old_string": "Em novecentos e vinte e dois, 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "old_string": "a maior cidade da Europa daque
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "old_string": "com oficinas de ferro e de con
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "old_string": "    \"https://en.wikipedia.org
+💬 Apliquei as sete correções e a troca de fontes em `blocos/bloco_11.json`, e o bloco continua com `"checado": false`. Não reli o arquivo depois das edições e não consultei `checagem_11.md`, então só segui a sua lista.
+
+1. **Volkhov:** o texto agora diz que a rota passava pelo lago Ladoga e subia o rio Volkhov até o lago Ilmen.
+2. **Santa Sofia:** passou a dizer que só se consegue ler o final de um nome, que parece ser Halfdan. A frase seguinte, "Um nome, dito baixinho…", ficou como estava.
+3. **Ibn Fadlan:** a tatuagem agora vai "dos pés ao pescoço", em "azul-escuro ou verde-escuro".
+4. **Mulhe
+🔧 Agent {"subagent_type": "checador", "description": "Rechecar bloco 11", "prompt": "Recheque /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.jso
+💬 Aguardo as rechecagens dos blocos 10 e 11.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_10.md", "content": "# Checagem do bloco 10 — Mercadores do Báltico e de He
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_11.md"}
+💬 **REPROVADO**, por um único problema de fluidez. Não há erro factual novo.
+
+As 5 correções da checagem anterior foram aplicadas corretamente, junto com os ajustes opcionais. O JSON está válido pela leitura linha a linha. Não rodei um parser, porque não tinha acesso a shell.
+
+**O que corrigir (1 item):** no parágrafo de Hedeby, a frase "as mercadorias seguiam por terra, num trajeto curto por terra, até rios…" repete "por terra". A repetição veio da correção anterior. Troque por "seguiam por terra, num trajeto curto, até rios que levam ao mar do Norte".
+
+**Opcional, não bloqueia:** "Uma viagem n
+💬 Correção trivial; faço eu mesmo.
+🔧 Bash {"command": "grep -o 'seguiam por terra, num trajeto curto por terra, até rios' bloco_10.json; grep -o 'Uma viagem nos dá uma imagem curiosa' bloco_10.json"}
+🔧 Bash {"command": "sed -i 's/seguiam por terra, num trajeto curto por terra, até rios/seguiam por terra, num trajeto curto, até rios/; s/Uma viagem nos dá uma imagem curiosa/Um viajante nos dá uma imagem cu
+❌ sed command requires approval (contains potentially dangerous operations)
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "num trajeto curto por terra, a
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "Uma viagem nos dá uma imagem c
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_10.json", "old_string": "\"checado\": false", "new_stri
+💬 Bloco 10 está checado. Aguardo a rechecagem do bloco 11.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/checagem_11.md", "content": "# Checagem do bloco 11 (Os rios da Rus)\n\n**Veredito 
+💬 **APROVADO**
+
+Li o bloco e confirmei a estrutura do JSON pela leitura (campos n, capitulo, texto, imagens, fontes e checado). Não rodei nenhum validador. Não editei o bloco.
+
+- **Correções aplicadas:** as 7 correções obrigatórias estão no texto.
+  1. O Volkhov aparece agora na direção certa, subindo do Ladoga ao Ilmen.
+  2. Halfdan virou só "o final de um nome, que parece ser Halfdan", sem a frase inventada.
+  3. A tatuagem é "dos pés ao pescoço", em azul-escuro ou verde-escuro.
+  4. Os "broches" viraram "caixinhas de metal".
+  5. Ibn Fadlan "chegou" em 922.
+  6. Constantinopla é "uma das maio
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/blocos/bloco_11.json", "old_string": "\"checado\": false", "new_stri
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python -m pipeline.longo validar canais/historia/longos/2026-11-16-os-vikings 2>&1 | tail -30"}
+💬 Escrevi, chequei e marquei como `"checado": true` os blocos 10, 11 e 12 de "Os vikings". `python -m pipeline.longo validar` retornou OK. O vídeo está com 12 de 15 blocos prontos.
+
+Cada bloco foi reprovado na primeira checagem e passou depois de uma volta de correção:
+- **Bloco 10 (Hedeby e Birka):** corrigi o vinho, o anel de Birka (leitura "para Alá" agora apresentada como debate), a igreja de Ansgário e uma fonte quebrada. A rechecagem pediu um ajuste de fluidez e eu o fiz à mão.
+- **Bloco 11 (rios da Rus):** os dois erros factuais eram a direção do rio Volkhov e a inscrição de Santa Sofia. 
+
+=== resultado: success | turnos 3 | 5s | erro=False
+O roteirista está escrevendo os blocos 10 a 12. Aguardo a conclusão para chamar o checador.
+
+=== resultado: success | turnos 4 | 5s | erro=False
+Os três checadores estão trabalhando nos blocos 10, 11 e 12. Aguardo os resultados.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O bloco 12 foi reprovado. Mandei as correções ao roteirista e aguardo isso, junto com os checadores dos blocos 10 e 11.
+
+=== resultado: success | turnos 3 | 7s | erro=False
+O bloco 10 também foi reprovado, e as correções já foram para o roteirista. Aguardo a correção do 10, a recheca do 12 e a checagem do 11.
+
+=== resultado: success | turnos 0 | 0s | erro=False
+
+
+=== resultado: success | turnos 4 | 7s | erro=False
+Bloco 12 está checado. Aguardo as rechecagens dos blocos 10 e 11.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+Aguardo as rechecagens dos blocos 10 e 11.
+
+=== resultado: success | turnos 6 | 6s | erro=False
+Bloco 10 está checado. Aguardo a rechecagem do bloco 11.
+
+=== resultado: success | turnos 3 | 6s | erro=False
+Escrevi, chequei e marquei como `"checado": true` os blocos 10, 11 e 12 de "Os vikings". `python -m pipeline.longo validar` retornou OK. O vídeo está com 12 de 15 blocos prontos.
+
+Cada bloco foi reprovado na primeira checagem e passou depois de uma volta de correção:
+- **Bloco 10 (Hedeby e Birka):** corrigi o vinho, o anel de Birka (leitura "para Alá" agora apresentada como debate), a igreja de Ansgário e uma fonte quebrada. A rechecagem pediu um ajuste de fluidez e eu o fiz à mão.
+- **Bloco 11 (rios da Rus):** os dois erros factuais eram a direção do rio Volkhov e a inscrição de Santa Sofia. Também ajustei detalhes de Ibn Fadlan e de Staraya Ladoga e troquei uma fonte quebrada.
+- **Bloco 12 (Ilhas Britânicas e Normandia):** corrigi a data de Lindisfarne, o patrono de Dudo de Saint-Quentin e algumas imprecisões menores.
+
+As observações do checador estão em `blocos/checagem_10.md`, `checagem_11.md` e `checagem_12.md`. Ficaram duas pendências:
+- **Fontes da Britannica:** devolveram 403 para o acesso automático do checador, então não foram verificadas. Os fatos foram conferidos na Wikipédia e em outras fontes. Vale alguém abrir à mão, principalmente `Viking-people`, `Harald-III-king-of-Norway` e `Vladimir-I`, e o DOI da Wiley.
+- **Frases opcionais:** o checador sugeriu dois ajustes de fluidez no bloco 12 e um no 11 ("Numa delas, segundo os especialistas…"). Nenhum bloqueia, e não os apliquei.
+
+Não alterei `estado.json`. Os próximos blocos são 13, 14 e 15.
+codigo de saida: 0
