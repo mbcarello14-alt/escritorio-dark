@@ -1,0 +1,262 @@
+03:05:30 INFO ilustrações: higgsfield desligado (sem chave)
+03:05:41 INFO HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+03:05:41 INFO HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-small/revision/main "HTTP/1.1 200 OK"
+03:05:42 INFO Processing audio with duration 00:38.801
+[0;93m2026-11-17 03:05:42.253976943 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+03:05:42 INFO VAD filter removed 00:00.080 of audio
+03:05:53 INFO Processing audio with duration 00:38.801
+03:05:53 INFO VAD filter removed 00:00.080 of audio
+03:06:03 WARNING narração REPROVADA (tentativa 1): 9 de 108 palavras ouvidas não estão no roteiro — refazendo
+03:06:14 INFO Processing audio with duration 00:39.041
+03:06:14 INFO VAD filter removed 00:00.000 of audio
+03:06:25 INFO Processing audio with duration 00:39.041
+03:06:25 INFO VAD filter removed 00:00.000 of audio
+03:06:36 WARNING narração REPROVADA (tentativa 2): 9 de 109 palavras ouvidas não estão no roteiro — refazendo
+03:06:46 INFO Processing audio with duration 00:38.401
+03:06:46 INFO VAD filter removed 00:00.000 of audio
+03:06:56 INFO Processing audio with duration 00:38.401
+03:06:56 INFO VAD filter removed 00:00.000 of audio
+03:07:07 INFO narração aprovada na tentativa 3
+03:07:29 INFO narrador gemini (Charon): bloco 1/10
+03:07:47 INFO Processing audio with duration 01:15.081
+03:07:47 INFO VAD filter removed 00:00.000 of audio
+03:08:07 INFO Processing audio with duration 01:15.081
+03:08:07 INFO VAD filter removed 00:00.000 of audio
+03:08:49 INFO narrador gemini (Charon): bloco 2/10
+03:09:07 INFO Processing audio with duration 01:16.801
+03:09:07 INFO VAD filter removed 00:00.000 of audio
+03:09:29 INFO Processing audio with duration 01:16.801
+03:09:30 INFO VAD filter removed 00:00.000 of audio
+03:10:13 INFO narrador gemini (Charon): bloco 3/10
+03:10:32 INFO Processing audio with duration 01:20.201
+03:10:32 INFO VAD filter removed 00:00.000 of audio
+03:10:55 INFO Processing audio with duration 01:20.201
+03:10:55 INFO VAD filter removed 00:00.000 of audio
+03:11:40 INFO narrador gemini (Charon): bloco 4/10
+03:11:56 INFO Processing audio with duration 01:06.321
+03:11:57 INFO VAD filter removed 00:00.000 of audio
+03:12:15 INFO Processing audio with duration 01:06.321
+03:12:15 INFO VAD filter removed 00:00.000 of audio
+03:12:56 INFO narrador gemini (Charon): bloco 5/10
+03:13:14 INFO Processing audio with duration 01:17.041
+03:13:14 INFO VAD filter removed 00:00.000 of audio
+03:13:37 INFO Processing audio with duration 01:17.041
+03:13:37 INFO VAD filter removed 00:00.000 of audio
+03:14:22 INFO narrador gemini (Charon): bloco 6/10
+03:14:40 INFO Processing audio with duration 01:16.521
+03:14:40 INFO VAD filter removed 00:00.000 of audio
+03:15:03 INFO Processing audio with duration 01:16.521
+03:15:03 INFO VAD filter removed 00:00.000 of audio
+03:15:48 INFO narrador gemini (Charon): bloco 7/10
+03:16:11 INFO Processing audio with duration 01:37.401
+03:16:11 INFO VAD filter removed 00:00.000 of audio
+03:16:44 INFO Processing audio with duration 01:37.401
+03:16:44 INFO VAD filter removed 00:00.000 of audio
+03:17:39 INFO narrador gemini (Charon): bloco 8/10
+03:17:40 WARNING Gemini TTS instável (503) — tentando de novo
+03:17:55 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+03:18:27 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+03:19:07 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+03:19:40 INFO Processing audio with duration 01:35.291
+03:19:40 INFO VAD filter removed 00:00.000 of audio
+03:20:09 INFO Processing audio with duration 01:35.291
+03:20:09 INFO VAD filter removed 00:00.000 of audio
+03:21:01 INFO narrador gemini (Charon): bloco 9/10
+03:21:35 INFO Processing audio with duration 01:27.411
+03:21:35 INFO VAD filter removed 00:00.000 of audio
+03:22:03 INFO Processing audio with duration 01:27.411
+03:22:03 INFO VAD filter removed 00:00.000 of audio
+03:22:52 INFO narrador gemini (Charon): bloco 10/10
+03:22:52 INFO gerando 57 ilustrações…
+03:23:01 WARNING flux falhou: ("Connection broken: BrokenPipeError(32, 'Broken pipe')", BrokenPipeError(32, 'Broken pipe'))
+03:23:07 WARNING flux falhou: ("Connection broken: BrokenPipeError(32, 'Broken pipe')", BrokenPipeError(32, 'Broken pipe'))
+03:23:11 WARNING flux falhou: ("Connection broken: BrokenPipeError(32, 'Broken pipe')", BrokenPipeError(32, 'Broken pipe'))
+03:23:16 WARNING flux falhou: ("Connection broken: BrokenPipeError(32, 'Broken pipe')", BrokenPipeError(32, 'Broken pipe'))
+03:23:22 WARNING flux falhou: ("Connection broken: BrokenPipeError(32, 'Broken pipe')", BrokenPipeError(32, 'Broken pipe'))
+03:24:33 WARNING flux falhou: ("Connection broken: BrokenPipeError(32, 'Broken pipe')", BrokenPipeError(32, 'Broken pipe'))
+03:24:37 WARNING flux falhou: ("Connection broken: BrokenPipeError(32, 'Broken pipe')", BrokenPipeError(32, 'Broken pipe'))
+03:25:00 WARNING flux falhou: ("Connection broken: BrokenPipeError(32, 'Broken pipe')", BrokenPipeError(32, 'Broken pipe'))
+03:25:13 INFO ilustrações prontas: 49 geradas (57 pedidas)
+03:25:14 INFO Processing audio with duration 00:38.401
+03:25:14 INFO VAD filter removed 00:00.000 of audio
+03:25:25 INFO bloco 1: 38.4s, 108 palavras reconhecidas
+03:26:15 INFO cena 1 pronta (11.8s, total 12s)
+03:26:50 INFO cena 2 pronta (12.0s, total 24s)
+03:27:17 INFO cena 3 pronta (6.6s, total 30s)
+03:27:39 INFO cena 4 pronta (8.0s, total 38s)
+03:27:41 INFO Processing audio with duration 01:15.081
+03:27:41 INFO VAD filter removed 00:00.080 of audio
+03:28:01 INFO bloco 2: 75.1s, 202 palavras reconhecidas
+03:28:16 INFO cena 5 pronta (5.6s, total 44s)
+03:29:21 INFO cena 6 pronta (14.4s, total 58s)
+03:29:57 INFO cena 7 pronta (11.9s, total 70s)
+03:30:08 INFO cena 8 pronta (14.1s, total 84s)
+03:30:40 INFO cena 9 pronta (11.7s, total 96s)
+03:30:40 WARNING Flux: cota grátis do dia acabou (4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if)
+03:30:41 INFO imagem 'Russian summer wheat field' ← wikimedia
+03:31:20 INFO cena 10 pronta (12.1s, total 108s)
+03:31:21 WARNING nenhuma imagem livre para 'Napoleon army march Russia summer heat' — usando cartão
+03:31:22 INFO imagem 'Napoleon army march Russia' ← wikimedia
+03:31:22 INFO imagem para 'Napoleon army march Russia summer heat' achada buscando 'Napoleon army march Russia'
+03:31:35 INFO cena 11 pronta (5.3s, total 114s)
+03:31:37 INFO Processing audio with duration 01:16.801
+03:31:37 INFO VAD filter removed 00:00.000 of audio
+03:31:59 INFO bloco 3: 76.8s, 213 palavras reconhecidas
+03:32:20 INFO cena 12 pronta (8.9s, total 122s)
+03:32:42 INFO cena 13 pronta (8.1s, total 131s)
+03:32:51 INFO cena 14 pronta (5.3s, total 136s)
+03:32:57 INFO cena 15 pronta (7.8s, total 144s)
+03:32:58 WARNING nenhuma imagem livre para 'Carl von Clausewitz portrait Karl Wach 1830' — usando cartão
+03:32:59 INFO imagem 'Carl von Clausewitz Karl' ← wikimedia
+03:32:59 INFO imagem para 'Carl von Clausewitz portrait Karl Wach 1830' achada buscando 'Carl von Clausewitz Karl'
+03:33:43 INFO cena 16 pronta (14.2s, total 158s)
+03:34:24 INFO cena 17 pronta (13.6s, total 172s)
+03:34:46 INFO cena 18 pronta (9.9s, total 181s)
+03:35:07 INFO cena 19 pronta (8.9s, total 190s)
+03:35:08 INFO Processing audio with duration 01:20.201
+03:35:09 INFO VAD filter removed 00:00.000 of audio
+03:35:32 INFO bloco 4: 80.2s, 213 palavras reconhecidas
+03:35:33 WARNING nenhuma imagem livre para 'soldier empty pot campfire' — usando cartão
+03:35:34 INFO imagem 'soldier empty pot' ← wikimedia
+03:35:34 INFO imagem para 'soldier empty pot campfire' achada buscando 'soldier empty pot'
+03:35:56 INFO cena 20 pronta (9.3s, total 200s)
+03:36:05 INFO cena 21 pronta (12.3s, total 212s)
+03:36:35 INFO cena 22 pronta (12.1s, total 224s)
+03:36:53 INFO cena 23 pronta (11.3s, total 235s)
+03:37:08 INFO cena 24 pronta (6.0s, total 241s)
+03:37:15 INFO cena 25 pronta (9.4s, total 251s)
+03:37:16 INFO imagem 'Battle of Smolensk 1812 painting Peter von Hess' ← wikimedia
+03:37:35 INFO cena 26 pronta (7.6s, total 258s)
+03:37:54 INFO cena 27 pronta (7.4s, total 266s)
+03:37:55 INFO imagem 'Battle of Borodino painting' ← wikimedia
+03:38:07 INFO cena 28 pronta (4.9s, total 271s)
+03:38:08 INFO Processing audio with duration 01:06.321
+03:38:08 INFO VAD filter removed 00:00.000 of audio
+03:38:27 INFO bloco 5: 66.3s, 179 palavras reconhecidas
+03:38:46 INFO cena 29 pronta (8.1s, total 279s)
+03:39:05 INFO cena 30 pronta (13.0s, total 292s)
+03:39:15 INFO cena 31 pronta (14.7s, total 306s)
+03:39:33 INFO cena 32 pronta (5.7s, total 312s)
+03:39:42 INFO cena 33 pronta (2.9s, total 315s)
+03:39:43 WARNING nenhuma imagem livre para 'Fire of Moscow 1812 painting Napoleon watching' — usando cartão
+03:39:45 INFO imagem 'Fire Moscow 1812 Napoleon' ← wikimedia
+03:39:45 INFO imagem para 'Fire of Moscow 1812 painting Napoleon watching' achada buscando 'Fire Moscow 1812 Napoleon'
+03:39:59 INFO cena 34 pronta (5.5s, total 320s)
+03:40:18 INFO cena 35 pronta (8.2s, total 329s)
+03:40:29 INFO cena 36 pronta (8.2s, total 337s)
+03:40:31 INFO Processing audio with duration 01:17.041
+03:40:31 INFO VAD filter removed 00:00.000 of audio
+03:40:54 INFO bloco 6: 77.0s, 220 palavras reconhecidas
+03:41:06 INFO cena 37 pronta (8.2s, total 345s)
+03:41:39 INFO cena 38 pronta (11.1s, total 356s)
+03:41:58 INFO cena 39 pronta (8.5s, total 365s)
+03:42:33 INFO cena 40 pronta (12.7s, total 377s)
+03:42:54 INFO cena 41 pronta (8.8s, total 386s)
+03:43:11 INFO cena 42 pronta (7.1s, total 393s)
+03:43:28 INFO cena 43 pronta (12.0s, total 405s)
+03:43:50 INFO cena 44 pronta (8.8s, total 414s)
+03:43:52 INFO Processing audio with duration 01:16.521
+03:43:52 INFO VAD filter removed 00:00.000 of audio
+03:44:15 INFO bloco 7: 76.5s, 218 palavras reconhecidas
+03:44:29 INFO cena 45 pronta (5.5s, total 419s)
+03:45:02 INFO cena 46 pronta (14.7s, total 434s)
+03:45:04 INFO imagem 'Napoleon retreat from Moscow Adolf Northen painting' ← wikimedia
+03:45:54 INFO cena 47 pronta (17.5s, total 452s)
+03:46:35 INFO cena 48 pronta (13.7s, total 465s)
+03:46:39 INFO cena 49 pronta (4.6s, total 470s)
+03:46:48 INFO cena 50 pronta (12.2s, total 482s)
+03:47:08 INFO cena 51 pronta (8.4s, total 490s)
+03:47:10 INFO Processing audio with duration 01:37.401
+03:47:10 INFO VAD filter removed 00:00.000 of audio
+03:47:42 INFO bloco 8: 97.4s, 271 palavras reconhecidas
+03:48:00 INFO cena 52 pronta (6.4s, total 497s)
+03:48:18 INFO cena 53 pronta (7.3s, total 504s)
+03:48:24 INFO cena 54 pronta (7.0s, total 511s)
+03:48:38 INFO cena 55 pronta (5.8s, total 517s)
+03:49:01 INFO cena 56 pronta (9.9s, total 527s)
+03:49:43 INFO cena 57 pronta (13.4s, total 540s)
+03:50:07 INFO cena 58 pronta (10.2s, total 550s)
+03:50:23 INFO cena 59 pronta (6.7s, total 557s)
+03:50:40 INFO cena 60 pronta (7.0s, total 564s)
+03:51:22 INFO cena 61 pronta (13.4s, total 577s)
+03:51:39 INFO cena 62 pronta (5.6s, total 583s)
+03:51:40 INFO imagem 'wooden bridge construction winter river' ← wikimedia
+03:51:54 INFO cena 63 pronta (4.9s, total 588s)
+03:51:57 INFO Processing audio with duration 01:35.225
+03:51:57 INFO VAD filter removed 00:00.000 of audio
+03:52:26 INFO bloco 9: 95.2s, 236 palavras reconhecidas
+03:52:28 WARNING nenhuma imagem livre para 'pontoneers icy river bridge 1812' — usando cartão
+03:52:30 WARNING nenhuma imagem livre para 'pontoneers icy river bridge' — usando cartão
+03:52:33 WARNING nenhuma imagem livre para 'pontoneers icy river' — usando cartão
+03:52:38 INFO imagem 'pontoneers icy' ← openverse
+03:52:38 INFO imagem para 'pontoneers icy river bridge 1812' achada buscando 'pontoneers icy'
+03:53:33 INFO cena 64 pronta (17.2s, total 605s)
+03:53:50 INFO cena 65 pronta (7.4s, total 612s)
+03:54:17 INFO cena 66 pronta (8.4s, total 621s)
+03:54:36 INFO cena 67 pronta (8.7s, total 630s)
+03:55:07 INFO cena 68 pronta (11.7s, total 641s)
+03:55:22 INFO cena 69 pronta (6.9s, total 648s)
+03:55:44 INFO cena 70 pronta (5.7s, total 654s)
+03:55:46 WARNING nenhuma imagem livre para 'Passage of the Berezina painting Januarius Suchodolski 1866' — usando cartão
+03:55:49 WARNING nenhuma imagem livre para 'Passage Berezina Januarius Suchodolski' — usando cartão
+03:55:51 WARNING nenhuma imagem livre para 'Passage Berezina Januarius' — usando cartão
+03:55:52 INFO imagem 'Passage Berezina' ← wikimedia
+03:55:52 INFO imagem para 'Passage of the Berezina painting Januarius Suchodolski 1866' achada buscando 'Passage Berezina'
+03:56:09 INFO cena 71 pronta (5.5s, total 659s)
+03:56:23 INFO cena 72 pronta (9.5s, total 669s)
+03:57:04 INFO cena 73 pronta (14.2s, total 683s)
+03:57:06 INFO Processing audio with duration 01:27.360
+03:57:06 INFO VAD filter removed 00:00.000 of audio
+03:57:34 INFO bloco 10: 87.4s, 261 palavras reconhecidas
+03:57:51 INFO cena 74 pronta (6.8s, total 690s)
+03:58:06 INFO cena 75 pronta (6.2s, total 696s)
+03:58:26 INFO cena 76 pronta (8.3s, total 704s)
+03:58:27 INFO imagem 'Minard Carte figurative des pertes successives en hommes de l'Armée Française 1869' ← wikimedia
+03:59:06 INFO cena 77 pronta (13.5s, total 718s)
+03:59:25 INFO cena 78 pronta (8.5s, total 726s)
+03:59:36 INFO cena 79 pronta (15.1s, total 741s)
+04:00:14 INFO cena 80 pronta (11.8s, total 753s)
+04:00:31 INFO cena 81 pronta (11.5s, total 765s)
+04:00:45 INFO cena 82 pronta (5.7s, total 770s)
+04:00:47 INFO sem trilha em musica/misterio — vídeo sai só com narração
+04:00:49 WARNING nenhuma imagem livre para 'Napoleon retreat from Moscow 1812 painting Adolf Northen' — usando cartão
+04:00:50 INFO imagem 'Napoleon retreat from Moscow' ← wikimedia
+04:00:50 INFO imagem para 'Napoleon retreat from Moscow 1812 painting Adolf Northen' achada buscando 'Napoleon retreat from Moscow'
+04:00:52 WARNING nenhuma imagem livre para 'Passage of the Berezina 1812 painting pontoon bridge' — usando cartão
+04:00:54 WARNING nenhuma imagem livre para 'Passage Berezina 1812 pontoon' — usando cartão
+04:00:55 INFO imagem 'Passage Berezina 1812' ← wikimedia
+04:00:55 INFO imagem para 'Passage of the Berezina 1812 painting pontoon bridge' achada buscando 'Passage Berezina 1812'
+04:00:57 INFO upload 4%
+04:00:57 INFO upload 8%
+04:00:57 INFO upload 13%
+04:00:58 INFO upload 17%
+04:00:58 INFO upload 21%
+04:00:58 INFO upload 26%
+04:00:58 INFO upload 30%
+04:00:58 INFO upload 34%
+04:00:59 INFO upload 39%
+04:00:59 INFO upload 43%
+04:00:59 INFO upload 47%
+04:00:59 INFO upload 52%
+04:00:59 INFO upload 56%
+04:01:00 INFO upload 60%
+04:01:00 INFO upload 65%
+04:01:00 INFO upload 69%
+04:01:00 INFO upload 73%
+04:01:00 INFO upload 78%
+04:01:01 INFO upload 82%
+04:01:01 INFO upload 86%
+04:01:01 INFO upload 91%
+04:01:01 INFO upload 95%
+04:01:01 INFO upload 99%
+04:01:02 INFO vídeo enviado: https://youtu.be/3Sczg07-enY (agendado para 2026-11-23T21:00:00Z)
+04:01:08 INFO na playlist 'Idade Contemporânea'
+04:01:08 WARNING Encountered 403 Forbidden with reason "forbidden"
+04:01:08 WARNING comentário inicial não publicado (403) — sai quando o vídeo estiver público
+04:02:02 INFO corte 1 pronto (30s)
+04:03:00 INFO corte 2 pronto (33s)
+04:03:44 INFO corte 3 pronto (24s)
+04:03:47 INFO Short agendado: https://youtube.com/shorts/Cg-a_Kr3hJM (2026-11-24T15:00:00Z)
+04:03:52 INFO Short agendado: https://youtube.com/shorts/aeuczrqJZxY (2026-11-25T15:00:00Z)
+04:03:55 INFO Short agendado: https://youtube.com/shorts/Sqdg15YE1U4 (2026-11-26T15:00:00Z)
+04:03:57 INFO PRONTO: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-23/saida/video.mp4 (12.8 min) → https://youtu.be/3Sczg07-enY
