@@ -61,3 +61,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-17
 - Short comparando o resgate de Atahualpa (a sala cheia de ouro e prata) com um "cheque caução" de hoje, no molde do Pix medieval (1.257 views), apontando para o longo da Conquista Inca; checar fontes antes.
+
+### 2026-11-18
+- Short com citação forte do personagem como gancho, no molde de "O imperador recusou fugir: é fogo de palha" (100 views em 47 h, contra 4 a 9 dos outros Shorts da série de Dom Pedro II); aplicar à série da Conquista Inca, checando a fala nas fontes antes.
