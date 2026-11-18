@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-18T21:41:35Z",
+  "atualizado_em": "2026-11-18T22:45:13Z",
   "ativos": {
     "miguel": [
       "Longo Ouro & Império: Os vikings",
@@ -7,16 +7,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-18",
-      "rotulo": "quarta 18/11 19h00",
-      "publicar_em_utc": "2026-11-18T22:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Pai Rico Pai Pobre: o que ensina e o que não prova",
-      "url": "https://youtu.be/5tcNksX013A"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-19",
@@ -59,16 +49,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-11",
-      "rotulo": "quarta 11/11 19h00",
-      "publicar_em_utc": "2026-11-11T22:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Kahneman errou? O que ainda vale de Rápido e Devagar",
-      "url": "https://youtu.be/Abj5ZXjjpn8"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-12",
@@ -118,6 +98,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Soro ou vacina? A pegadinha de Biologia no ENEM",
       "url": "https://youtu.be/Cq3S8BsBscI"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-18",
+      "rotulo": "quarta 18/11 19h00",
+      "publicar_em_utc": "2026-11-18T22:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Pai Rico Pai Pobre: o que ensina e o que não prova",
+      "url": "https://youtu.be/5tcNksX013A"
     }
   ],
   "canais": [
@@ -140,7 +130,7 @@
       "nome": "Marca-Página",
       "inscritos": 9,
       "horas": 16.4,
-      "publicados": 6
+      "publicados": 7
     }
   ],
   "imagens": {
