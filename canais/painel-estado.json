@@ -1,10 +1,8 @@
 {
-  "atualizado_em": "2026-11-18T14:30:08Z",
+  "atualizado_em": "2026-11-18T16:16:52Z",
   "ativos": {
-    "narrador": [
-      "Longo Ouro & Império: Os vikings"
-    ],
     "miguel": [
+      "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
     ]
   },
@@ -146,8 +144,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 60,
+    "neurons": 3300,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

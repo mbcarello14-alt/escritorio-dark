@@ -1,0 +1,143 @@
+15:58:29 INFO Processing audio with duration 00:40.000
+[0;93m2026-11-18 15:58:29.161079809 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+15:58:29 INFO VAD filter removed 00:00.000 of audio
+15:58:36 INFO Processing audio with duration 02:05.601
+15:58:36 INFO VAD filter removed 00:00.000 of audio
+15:59:00 INFO narrada b15_p02 (126s) — 66 de 68
+15:59:50 INFO Processing audio with duration 00:40.000
+15:59:50 INFO VAD filter removed 00:00.000 of audio
+15:59:58 INFO Processing audio with duration 02:10.441
+15:59:58 INFO VAD filter removed 00:00.000 of audio
+16:00:24 INFO narrada b15_p03 (130s) — 67 de 68
+16:01:18 INFO Processing audio with duration 00:40.000
+16:01:18 INFO VAD filter removed 00:00.000 of audio
+16:01:24 INFO Processing audio with duration 02:22.241
+16:01:24 INFO VAD filter removed 00:00.000 of audio
+16:01:50 INFO narrada b15_p04 (142s) — 68 de 68
+16:01:50 INFO ilustrações: higgsfield desligado (sem chave)
+16:01:50 INFO gerando 61 ilustrações…
+16:02:29 WARNING flux falhou: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+16:03:54 INFO ilustrações prontas: 60 geradas (61 pedidas)
+16:03:54 INFO imagens: 59 de 60 prontas
+16:03:54 INFO ilustrações: higgsfield desligado (sem chave)
+16:05:49 INFO clipe 1 pronto (153 s)
+16:05:58 INFO clipe 2 pronto (153 s)
+16:06:06 INFO clipe 3 pronto (153 s)
+16:06:15 INFO clipe 4 pronto (153 s)
+16:06:25 INFO clipe 5 pronto (172 s)
+16:06:34 INFO clipe 6 pronto (172 s)
+16:06:44 INFO clipe 7 pronto (172 s)
+16:06:54 INFO clipe 8 pronto (172 s)
+16:07:05 INFO clipe 9 pronto (194 s)
+16:07:15 INFO clipe 10 pronto (194 s)
+16:07:26 INFO clipe 11 pronto (194 s)
+16:07:37 INFO clipe 12 pronto (194 s)
+16:07:47 INFO clipe 13 pronto (166 s)
+16:07:56 INFO clipe 14 pronto (166 s)
+16:08:06 INFO clipe 15 pronto (166 s)
+16:08:15 INFO clipe 16 pronto (166 s)
+16:08:23 INFO clipe 17 pronto (140 s)
+16:08:31 INFO clipe 18 pronto (140 s)
+16:08:39 INFO clipe 19 pronto (140 s)
+16:08:47 INFO clipe 20 pronto (140 s)
+16:08:56 INFO clipe 21 pronto (160 s)
+16:09:05 INFO clipe 22 pronto (160 s)
+16:09:13 INFO clipe 23 pronto (160 s)
+16:09:22 INFO clipe 24 pronto (160 s)
+16:09:30 INFO clipe 25 pronto (127 s)
+16:09:37 INFO clipe 26 pronto (127 s)
+16:09:44 INFO clipe 27 pronto (127 s)
+16:09:51 INFO clipe 28 pronto (127 s)
+16:09:58 INFO clipe 29 pronto (134 s)
+16:10:06 INFO clipe 30 pronto (134 s)
+16:10:14 INFO clipe 31 pronto (134 s)
+16:10:21 INFO clipe 32 pronto (134 s)
+16:10:29 INFO clipe 33 pronto (131 s)
+16:10:36 INFO clipe 34 pronto (131 s)
+16:10:43 INFO clipe 35 pronto (131 s)
+16:10:50 INFO clipe 36 pronto (131 s)
+16:10:58 INFO clipe 37 pronto (136 s)
+16:11:05 INFO clipe 38 pronto (136 s)
+16:11:12 INFO clipe 39 pronto (136 s)
+16:11:20 INFO clipe 40 pronto (136 s)
+16:11:28 INFO clipe 41 pronto (151 s)
+16:11:37 INFO clipe 42 pronto (151 s)
+16:11:45 INFO clipe 43 pronto (151 s)
+16:11:53 INFO clipe 44 pronto (151 s)
+16:12:02 INFO clipe 45 pronto (155 s)
+16:12:10 INFO clipe 46 pronto (155 s)
+16:12:19 INFO clipe 47 pronto (155 s)
+16:12:27 INFO clipe 48 pronto (155 s)
+16:12:37 INFO clipe 49 pronto (168 s)
+16:12:46 INFO clipe 50 pronto (168 s)
+16:12:55 INFO clipe 51 pronto (168 s)
+16:13:04 INFO clipe 52 pronto (168 s)
+16:13:13 INFO clipe 53 pronto (153 s)
+16:13:21 INFO clipe 54 pronto (153 s)
+16:13:30 INFO clipe 55 pronto (153 s)
+16:13:38 INFO clipe 56 pronto (153 s)
+16:13:45 INFO clipe 57 pronto (132 s)
+16:13:53 INFO clipe 58 pronto (132 s)
+16:14:00 INFO clipe 59 pronto (132 s)
+16:14:07 INFO clipe 60 pronto (132 s)
+16:15:49 INFO vídeo longo montado: /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-16-os-vikings/midia/video.mp4 (2:31:29)
+16:15:51 INFO upload 1%
+16:15:52 INFO upload 3%
+16:15:53 INFO upload 5%
+16:15:53 INFO upload 6%
+16:15:54 INFO upload 8%
+16:15:55 INFO upload 10%
+16:15:56 INFO upload 11%
+16:15:56 INFO upload 13%
+16:15:57 INFO upload 15%
+16:15:58 INFO upload 16%
+16:15:58 INFO upload 18%
+16:15:59 INFO upload 20%
+16:15:59 INFO upload 21%
+16:16:00 INFO upload 23%
+16:16:01 INFO upload 25%
+16:16:02 INFO upload 26%
+16:16:02 INFO upload 28%
+16:16:04 INFO upload 30%
+16:16:04 INFO upload 31%
+16:16:05 INFO upload 33%
+16:16:06 INFO upload 35%
+16:16:06 INFO upload 36%
+16:16:07 INFO upload 38%
+16:16:08 INFO upload 40%
+16:16:10 INFO upload 41%
+16:16:11 INFO upload 43%
+16:16:12 INFO upload 45%
+16:16:13 INFO upload 46%
+16:16:14 INFO upload 48%
+16:16:15 INFO upload 50%
+16:16:16 INFO upload 51%
+16:16:17 INFO upload 53%
+16:16:18 INFO upload 55%
+16:16:19 INFO upload 56%
+16:16:19 INFO upload 58%
+16:16:20 INFO upload 60%
+16:16:21 INFO upload 61%
+16:16:23 INFO upload 63%
+16:16:24 INFO upload 65%
+16:16:24 INFO upload 66%
+16:16:25 INFO upload 68%
+16:16:26 INFO upload 70%
+16:16:27 INFO upload 71%
+16:16:28 INFO upload 73%
+16:16:28 INFO upload 75%
+16:16:29 INFO upload 77%
+16:16:30 INFO upload 78%
+16:16:31 INFO upload 80%
+16:16:32 INFO upload 82%
+16:16:33 INFO upload 83%
+16:16:34 INFO upload 85%
+16:16:35 INFO upload 87%
+16:16:36 INFO upload 88%
+16:16:37 INFO upload 90%
+16:16:38 INFO upload 92%
+16:16:39 INFO upload 93%
+16:16:40 INFO upload 95%
+16:16:41 INFO upload 97%
+16:16:42 INFO upload 98%
+aguardando_aprovacao_longo
