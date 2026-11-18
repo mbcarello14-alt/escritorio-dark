@@ -1,0 +1,177 @@
+09:49:31 INFO Processing audio with duration 00:40.000
+[0;93m2026-11-18 09:49:31.597624934 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+09:49:31 INFO VAD filter removed 00:00.016 of audio
+09:49:43 INFO Processing audio with duration 02:18.641
+09:49:43 INFO VAD filter removed 00:00.016 of audio
+09:50:19 INFO narrada b08_p01 (139s) — 35 de 68
+09:51:08 INFO Processing audio with duration 00:40.000
+09:51:08 INFO VAD filter removed 00:00.000 of audio
+09:51:17 INFO Processing audio with duration 02:11.561
+09:51:18 INFO VAD filter removed 00:00.000 of audio
+09:51:50 INFO narrada b08_p02 (132s) — 36 de 68
+09:52:40 INFO Processing audio with duration 00:40.000
+09:52:40 INFO VAD filter removed 00:00.000 of audio
+09:52:50 INFO Processing audio with duration 02:07.481
+09:52:50 INFO VAD filter removed 00:00.000 of audio
+09:53:23 INFO narrada b08_p03 (127s) — 37 de 68
+09:54:11 INFO Processing audio with duration 00:40.000
+09:54:11 INFO VAD filter removed 00:00.000 of audio
+09:54:21 INFO Processing audio with duration 02:15.241
+09:54:21 INFO VAD filter removed 00:00.000 of audio
+09:54:56 INFO narrada b08_p04 (135s) — 38 de 68
+09:56:08 INFO Processing audio with duration 00:40.000
+09:56:08 INFO VAD filter removed 00:00.000 of audio
+09:56:18 INFO Processing audio with duration 03:43.321
+09:56:18 INFO VAD filter removed 00:00.000 of audio
+09:57:13 WARNING parte b09_p01 REPROVADA (tentativa 1): falou 157% do tamanho do roteiro (sobrou fala) — narrando de novo
+09:58:03 INFO Processing audio with duration 00:40.000
+09:58:03 INFO VAD filter removed 00:00.000 of audio
+09:58:13 INFO Processing audio with duration 02:18.081
+09:58:13 INFO VAD filter removed 00:00.000 of audio
+09:58:47 INFO narrada b09_p01 (138s) — 39 de 68
+09:59:38 INFO Processing audio with duration 00:40.000
+09:59:38 INFO VAD filter removed 00:00.000 of audio
+09:59:47 INFO Processing audio with duration 02:08.801
+09:59:47 INFO VAD filter removed 00:00.000 of audio
+10:00:19 INFO narrada b09_p02 (129s) — 40 de 68
+10:01:11 INFO Processing audio with duration 00:40.000
+10:01:11 INFO VAD filter removed 00:00.016 of audio
+10:01:21 INFO Processing audio with duration 02:16.881
+10:01:21 INFO VAD filter removed 00:00.016 of audio
+10:01:54 INFO narrada b09_p03 (137s) — 41 de 68
+10:02:23 WARNING Gemini TTS instável (503) — tentando de novo
+10:03:15 INFO Processing audio with duration 00:40.000
+10:03:15 INFO VAD filter removed 00:00.000 of audio
+10:03:25 INFO Processing audio with duration 01:55.961
+10:03:25 INFO VAD filter removed 00:00.000 of audio
+10:03:52 INFO narrada b09_p04 (116s) — 42 de 68
+10:04:43 INFO Processing audio with duration 00:40.000
+10:04:43 INFO VAD filter removed 00:00.000 of audio
+10:04:53 INFO Processing audio with duration 02:04.881
+10:04:53 INFO VAD filter removed 00:00.000 of audio
+10:05:25 INFO narrada b10_p01 (125s) — 43 de 68
+10:06:18 INFO Processing audio with duration 00:40.000
+10:06:19 INFO VAD filter removed 00:00.000 of audio
+10:06:28 INFO Processing audio with duration 02:14.481
+10:06:28 INFO VAD filter removed 00:00.000 of audio
+10:07:03 INFO narrada b10_p02 (134s) — 44 de 68
+10:07:53 INFO Processing audio with duration 00:40.000
+10:07:53 INFO VAD filter removed 00:00.000 of audio
+10:08:03 INFO Processing audio with duration 02:09.601
+10:08:03 INFO VAD filter removed 00:00.000 of audio
+10:08:34 INFO narrada b10_p03 (130s) — 45 de 68
+10:09:25 INFO Processing audio with duration 00:40.000
+10:09:25 INFO VAD filter removed 00:00.000 of audio
+10:09:37 INFO Processing audio with duration 02:28.561
+10:09:37 INFO VAD filter removed 00:00.000 of audio
+10:10:14 INFO narrada b10_p04 (149s) — 46 de 68
+10:10:36 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+10:11:16 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+10:11:47 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+10:12:35 INFO Processing audio with duration 00:40.000
+10:12:35 INFO VAD filter removed 00:01.328 of audio
+10:12:44 INFO Processing audio with duration 02:28.011
+10:12:44 INFO VAD filter removed 00:01.328 of audio
+10:13:19 INFO narrada b11_p01 (148s) — 47 de 68
+10:14:29 INFO Processing audio with duration 00:40.000
+10:14:29 INFO VAD filter removed 00:00.000 of audio
+10:14:37 INFO Processing audio with duration 02:18.971
+10:14:38 INFO VAD filter removed 00:00.000 of audio
+10:15:12 INFO narrada b11_p02 (139s) — 48 de 68
+10:16:39 INFO Processing audio with duration 00:40.000
+10:16:39 INFO VAD filter removed 00:00.000 of audio
+10:16:48 INFO Processing audio with duration 02:53.691
+10:16:48 INFO VAD filter removed 00:00.000 of audio
+10:17:27 INFO narrada b11_p03 (174s) — 49 de 68
+10:18:30 INFO Processing audio with duration 00:40.000
+10:18:30 INFO VAD filter removed 00:00.000 of audio
+10:18:39 INFO Processing audio with duration 02:18.411
+10:18:39 INFO VAD filter removed 00:01.472 of audio
+10:19:11 INFO narrada b11_p04 (138s) — 50 de 68
+10:20:28 INFO Processing audio with duration 00:40.000
+10:20:28 INFO VAD filter removed 00:02.752 of audio
+10:20:36 INFO Processing audio with duration 02:34.931
+10:20:36 INFO VAD filter removed 00:04.064 of audio
+10:21:12 INFO narrada b12_p01 (155s) — 51 de 68
+10:22:27 INFO Processing audio with duration 00:40.000
+10:22:27 INFO VAD filter removed 00:00.000 of audio
+10:22:36 INFO Processing audio with duration 02:30.691
+10:22:37 INFO VAD filter removed 00:00.000 of audio
+10:23:12 INFO narrada b12_p02 (151s) — 52 de 68
+10:24:20 INFO Processing audio with duration 00:40.000
+10:24:20 INFO VAD filter removed 00:00.000 of audio
+10:24:28 INFO Processing audio with duration 02:42.651
+10:24:28 INFO VAD filter removed 00:01.344 of audio
+10:25:04 INFO narrada b12_p03 (163s) — 53 de 68
+10:26:14 INFO Processing audio with duration 00:40.000
+10:26:14 INFO VAD filter removed 00:00.016 of audio
+10:26:23 INFO Processing audio with duration 02:26.211
+10:26:23 INFO VAD filter removed 00:00.016 of audio
+10:26:55 INFO narrada b12_p04 (146s) — 54 de 68
+10:28:01 INFO Processing audio with duration 00:40.000
+10:28:01 INFO VAD filter removed 00:00.000 of audio
+10:28:10 INFO Processing audio with duration 02:34.531
+10:28:10 INFO VAD filter removed 00:03.296 of audio
+10:28:45 INFO narrada b13_p01 (155s) — 55 de 68
+10:29:46 INFO Processing audio with duration 00:40.000
+10:29:46 INFO VAD filter removed 00:05.600 of audio
+10:29:55 INFO Processing audio with duration 02:26.291
+10:29:55 INFO VAD filter removed 00:21.856 of audio
+10:30:26 INFO narrada b13_p02 (146s) — 56 de 68
+10:31:40 INFO Processing audio with duration 00:40.000
+10:31:40 INFO VAD filter removed 00:00.000 of audio
+10:31:50 INFO Processing audio with duration 02:17.091
+10:31:50 INFO VAD filter removed 00:00.000 of audio
+10:32:25 INFO narrada b13_p03 (137s) — 57 de 68
+10:32:47 WARNING Gemini TTS: cota do modelo gemini-2.5-flash-preview-tts acabou — trocando de modelo
+10:33:01 INFO Processing audio with duration 00:40.000
+10:33:01 INFO VAD filter removed 00:00.000 of audio
+10:33:11 INFO Processing audio with duration 01:58.441
+10:33:11 INFO VAD filter removed 00:00.000 of audio
+10:33:42 INFO narrada b13_p04 (118s) — 58 de 68
+10:34:16 INFO Processing audio with duration 00:40.000
+10:34:17 INFO VAD filter removed 00:00.000 of audio
+10:34:26 INFO Processing audio with duration 01:51.081
+10:34:26 INFO VAD filter removed 00:00.000 of audio
+10:34:54 INFO narrada b13_p05 (111s) — 59 de 68
+10:35:30 INFO Processing audio with duration 00:40.000
+10:35:30 INFO VAD filter removed 00:00.000 of audio
+10:35:40 INFO Processing audio with duration 02:00.841
+10:35:40 INFO VAD filter removed 00:00.000 of audio
+10:36:12 INFO narrada b14_p01 (121s) — 60 de 68
+10:36:50 INFO Processing audio with duration 00:40.000
+10:36:50 INFO VAD filter removed 00:00.000 of audio
+10:37:00 WARNING instrução lida em b14_p02.wav (0.0–3.4s): 'Na rei em português do Brasil, com sotaque brasileiro neutro,' — cortando
+10:37:00 WARNING instrução lida em b14_p02.wav (13.2–16.0s): 'sem empolgação, sem ironia e sem' — cortando
+10:37:00 INFO Processing audio with duration 02:17.521
+10:37:00 INFO VAD filter removed 00:00.000 of audio
+10:37:37 WARNING parte b14_p02 REPROVADA (tentativa 1): instrução lida: 'Na rei em português do Brasil, com sotaque brasileiro neutro, como um contador d'; palavras da instrução: portugues brasil sotaque brasileiro neutro voz ritmo pausas sem sem ironia sem; 53 de 354 palavras ouvidas não estão no roteiro; falou 116% do tamanho do roteiro (sobrou fala) — narrando de novo
+10:38:12 INFO Processing audio with duration 00:40.000
+10:38:12 INFO VAD filter removed 00:00.000 of audio
+10:38:22 INFO Processing audio with duration 01:55.121
+10:38:22 INFO VAD filter removed 00:00.000 of audio
+10:38:55 INFO narrada b14_p02 (115s) — 61 de 68
+10:39:30 INFO Processing audio with duration 00:40.000
+10:39:30 INFO VAD filter removed 00:00.048 of audio
+10:39:40 INFO Processing audio with duration 02:06.321
+10:39:41 INFO VAD filter removed 00:00.048 of audio
+10:40:14 INFO narrada b14_p03 (126s) — 62 de 68
+10:40:49 INFO Processing audio with duration 00:40.000
+10:40:49 INFO VAD filter removed 00:00.000 of audio
+10:40:59 INFO Processing audio with duration 01:59.441
+10:40:59 INFO VAD filter removed 00:00.000 of audio
+10:41:32 INFO narrada b14_p04 (119s) — 63 de 68
+10:42:07 INFO Processing audio with duration 00:40.000
+10:42:08 INFO VAD filter removed 00:00.080 of audio
+10:42:17 INFO Processing audio with duration 02:04.721
+10:42:17 INFO VAD filter removed 00:00.080 of audio
+10:42:46 INFO narrada b14_p05 (125s) — 64 de 68
+10:43:22 INFO Processing audio with duration 00:40.000
+10:43:22 INFO VAD filter removed 00:00.000 of audio
+10:43:31 INFO Processing audio with duration 02:06.361
+10:43:32 INFO VAD filter removed 00:00.000 of audio
+10:44:03 INFO narrada b15_p01 (126s) — 65 de 68
+10:44:25 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-lite-tts acabou — trocando de modelo
+10:44:25 WARNING Gemini TTS: cota do modelo gemini-2.5-pro-preview-tts acabou — trocando de modelo
+10:44:25 WARNING narração parou (Gemini TTS: todos os modelos de voz bateram a cota grátis do dia) — continua na próxima rodada; faltam 3 partes
+narrando
