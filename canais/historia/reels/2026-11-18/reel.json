@@ -1,0 +1,109 @@
+{
+  "canal": "historia",
+  "formato": "construcao",
+  "titulo": "Construa a Muralha da China em 30 segundos",
+  "descricao": "Passo a passo de como a Muralha da China foi erguida: muros ligados pelo primeiro imperador, miolo de terra, tijolos colados com sopa de arroz pegajoso e torres de fumaça.",
+  "hashtags": ["#historia", "#muralhadachina", "#curiosidades"],
+  "legenda_reels": "Construímos a Muralha da China do zero: muros ligados, miolo de terra, tijolos com cal e arroz pegajoso e torres de fumaça. Comenta MURALHA! #historia #muralhadachina #china #curiosidades",
+  "isca": "Comenta MURALHA",
+  "cenario": {"ceu": "#f2b86f", "chao": "#d8b46e", "cidade": false, "arvores": 0, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 6, 16], "olha": [0, 1.8, 0]},
+  "objetos": [
+    {"id": "terreno", "tipo": "terreno", "tam": [9, 9], "cor": "#9bb86a", "pos": [0, 0, 0], "oculto": true},
+    {"id": "monte1", "tipo": "cone", "tam": [3.2, 2.8], "lados": 4, "cor": "#7f9a5c", "pos": [-2.2, 0, -3.2], "oculto": true},
+    {"id": "monte2", "tipo": "cone", "tam": [3.6, 3.4], "lados": 4, "cor": "#6f8a52", "pos": [2.1, 0, -3.4], "oculto": true},
+    {"id": "muro_a", "tipo": "parede", "tam": [1.8, 0.6, 0.9], "cor": "#c9b28a", "pos": [-2.2, 0.3, 0], "oculto": true},
+    {"id": "muro_b", "tipo": "parede", "tam": [1.8, 0.6, 0.9], "cor": "#c9b28a", "pos": [2.2, 0.3, 0], "oculto": true},
+    {"id": "elo", "tipo": "parede", "tam": [2.6, 0.6, 0.9], "cor": "#d6c096", "pos": [0, 0.3, 0], "oculto": true},
+    {"id": "camada1", "tipo": "cubo", "tam": [6.2, 0.35, 0.9], "cor": "#a07848", "pos": [0, 0.775, 0], "oculto": true},
+    {"id": "camada2", "tipo": "cubo", "tam": [6.2, 0.35, 0.9], "cor": "#b08850", "pos": [0, 1.125, 0], "oculto": true},
+    {"id": "camada3", "tipo": "cubo", "tam": [6.2, 0.35, 0.9], "cor": "#a07848", "pos": [0, 1.475, 0], "oculto": true},
+    {"id": "tijolos", "tipo": "parede", "tam": [6.2, 1.65, 0.2], "cor": "#9a948a", "pos": [0, 0.825, 0.55], "oculto": true},
+    {"id": "topo", "tipo": "cubo", "tam": [6.2, 0.15, 1.2], "cor": "#807b72", "pos": [0, 1.72, 0.05], "oculto": true},
+    {"id": "torre1", "tipo": "cubo", "tam": [1.1, 2.7, 1.3], "cor": "#8d877d", "pos": [-2.4, 1.35, 0], "oculto": true},
+    {"id": "torre2", "tipo": "cubo", "tam": [1.1, 2.7, 1.3], "cor": "#8d877d", "pos": [2.4, 1.35, 0], "oculto": true},
+    {"id": "fumaca1", "tipo": "esfera", "tam": 0.8, "cor": "#f0f0f0", "pos": [-2.4, 3.3, 0], "oculto": true},
+    {"id": "fumaca2", "tipo": "esfera", "tam": 0.8, "cor": "#f0f0f0", "pos": [2.4, 3.3, 0], "oculto": true},
+    {"id": "km", "tipo": "numero", "valor": 0, "sufixo": " km", "cor": "#8b2e1f", "tam": 1.3, "pos": [0, 0.78], "oculto": true},
+    {"id": "operario1", "tipo": "boneco", "cor": "#c0392b", "escala": 0.5, "pos": [-1.2, 0, 1.8], "oculto": true},
+    {"id": "operario2", "tipo": "boneco", "cor": "#2e86c1", "escala": 0.5, "pos": [1.2, 0, 1.8], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Vamos construir a Muralha da China do zero, do jeito que eles fizeram.",
+      "acoes": [
+        {"t": 0.0, "alvo": "terreno", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 0.3, "alvo": "monte1", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 0.6, "alvo": "monte2", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 1.2, "alvo": "operario1", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 1.6, "alvo": "operario2", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 1.5, 0], "raio": 16, "altura": 6, "de": -12, "ate": 8, "dur": 14},
+        {"t": 2.8, "alvo": "operario1", "acao": "acenar"}
+      ]
+    },
+    {
+      "texto": "Primeiro, una os muros dos reinos vizinhos. Em duzentos e vinte e um antes de Cristo, o primeiro imperador ligou tudo. Pronto, agora você tem uma fronteira.",
+      "pronto": "uma fronteira",
+      "acoes": [
+        {"t": 0.3, "alvo": "muro_a", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 0.9, "alvo": "muro_b", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 3.6, "alvo": "elo", "acao": "construir", "modo": "cai", "som": "boom"},
+        {"t": 3.6, "acao": "tremer", "forca": 0.25},
+        {"t": 5.0, "alvo": "operario2", "acao": "pular", "altura": 0.8}
+      ]
+    },
+    {
+      "texto": "Agora soque terra e entulho em camadas, no miolo do muro. Pronto, agora você tem um miolo firme.",
+      "pronto": "um miolo firme",
+      "acoes": [
+        {"t": 0.2, "acao": "camera", "pos": [0, 3.2, 10], "olha": [0, 1.2, 0]},
+        {"t": 0.6, "alvo": "camada1", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 1.8, "alvo": "camada2", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 3.0, "alvo": "camada3", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 3.4, "alvo": "operario1", "acao": "pular", "altura": 0.7}
+      ]
+    },
+    {
+      "texto": "Cubra com tijolos e cole com cal misturada a sopa de arroz pegajoso. Pronto, agora você tem um muro que dura.",
+      "pronto": "um muro que dura",
+      "acoes": [
+        {"t": 0.4, "alvo": "tijolos", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 2.2, "alvo": "topo", "acao": "construir", "modo": "cai", "som": "boom"},
+        {"t": 2.2, "acao": "tremer", "forca": 0.3},
+        {"t": 3.8, "alvo": "operario2", "acao": "acenar"}
+      ]
+    },
+    {
+      "texto": "Depois, erga torres de vigia. Uma fogueira com fumaça avisava a torre seguinte. Pronto, agora você tem um alarme de fumaça.",
+      "pronto": "um alarme de fumaça",
+      "acoes": [
+        {"t": 0.2, "acao": "camera", "pos": [0, 6, 16], "olha": [0, 1.8, 0]},
+        {"t": 0.5, "alvo": "torre1", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 1.1, "alvo": "torre2", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 2.6, "alvo": "fumaca1", "acao": "aparecer", "som": "pop"},
+        {"t": 3.4, "alvo": "fumaca2", "acao": "aparecer", "som": "pop"},
+        {"t": 4.2, "alvo": "fumaca1", "acao": "escalar", "para": 1.6}
+      ]
+    },
+    {
+      "texto": "Agora repita por oito mil oitocentos e cinquenta quilômetros, a conta oficial chinesa de dois mil e nove.",
+      "acoes": [
+        {"t": 0.2, "alvo": "fumaca1", "acao": "sumir"},
+        {"t": 0.3, "alvo": "fumaca2", "acao": "sumir"},
+        {"t": 0.5, "alvo": "km", "acao": "aparecer", "som": "pop"},
+        {"t": 0.8, "alvo": "km", "acao": "contar", "para": 8850, "dur": 3.5},
+        {"t": 0.8, "acao": "camera", "pos": [0, 10, 24], "olha": [0, 1.8, 0]},
+        {"t": 4.0, "acao": "tremer", "forca": 0.35, "som": "boom"}
+      ]
+    },
+    {
+      "texto": "Pronto: a Muralha da China! Qual obra construímos agora? Comenta MURALHA.",
+      "acoes": [
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 1.5, 0], "raio": 22, "altura": 8, "de": 8, "ate": 55, "dur": 8},
+        {"t": 0.3, "alvo": "operario1", "acao": "pular", "altura": 1.0},
+        {"t": 0.6, "alvo": "operario2", "acao": "pular", "altura": 1.0},
+        {"t": 2.0, "alvo": "torre1", "acao": "girar", "voltas": 1}
+      ]
+    }
+  ]
+}

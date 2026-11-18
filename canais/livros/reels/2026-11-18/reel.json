@@ -1,0 +1,79 @@
+{
+  "canal": "livros",
+  "formato": "construcao",
+  "titulo": "O Pequeno Príncipe saiu primeiro nos EUA, não na França",
+  "descricao": "Montamos o planeta de O Pequeno Príncipe, de Saint-Exupéry, peça por peça. Curiosidade: o livro foi escrito e desenhado em Nova York e saiu antes nos Estados Unidos.",
+  "hashtags": ["#opequenoprincipe", "#livros", "#saintexupery"],
+  "legenda_reels": "O planeta de O Pequeno Príncipe, de Saint-Exupéry, montado do zero. O livro saiu primeiro nos EUA, em 1943. Você já leu? Comenta PRÍNCIPE #opequenoprincipe #livros #booktok",
+  "isca": "Comenta PRÍNCIPE",
+  "cenario": {"ceu": "#1f2a5c", "chao": "#e8c98a", "cidade": false, "arvores": 0, "nuvens": false, "sol": false},
+  "camera": {"pos": [0, 3, 14], "olha": [0, 2.2, 0]},
+  "objetos": [
+    {"id": "titulo", "tipo": "texto", "texto": "O PEQUENO PRÍNCIPE\nSaint-Exupéry", "cor": "#ffffff", "fundo": "#2b3a8c", "tam": 1.0, "pos": [0, 0.78], "oculto": true},
+    {"id": "planeta", "tipo": "esfera", "tam": 3.2, "cor": "#8ccf7a", "pos": [0, 1.6, 0], "oculto": true},
+    {"id": "tronco1", "tipo": "cilindro", "tam": [0.4, 1.1], "cor": "#8a5a3a", "pos": [-1.0, 3.4, 0], "oculto": true},
+    {"id": "copa1", "tipo": "esfera", "tam": 0.9, "cor": "#3f8f4a", "pos": [-1.0, 4.1, 0], "oculto": true},
+    {"id": "tronco2", "tipo": "cilindro", "tam": [0.4, 1.1], "cor": "#8a5a3a", "pos": [1.0, 3.4, 0], "oculto": true},
+    {"id": "copa2", "tipo": "esfera", "tam": 0.9, "cor": "#3f8f4a", "pos": [1.0, 4.1, 0], "oculto": true},
+    {"id": "rosa", "tipo": "esfera", "tam": 0.5, "cor": "#e0303f", "pos": [-0.4, 3.35, 0.6], "oculto": true},
+    {"id": "principe", "tipo": "boneco", "cor": "#3fae7a", "pele": "#f1c27d", "cabelo": "#f2d04a", "calca": "#2b6a4a", "pos": [0.3, 3.2, 0.3], "escala": 0.5, "oculto": true},
+    {"id": "raposa", "tipo": "cubo", "tam": [0.9, 0.5, 0.4], "cor": "#e0802a", "pos": [2.2, 0.25, 1.5], "oculto": true},
+    {"id": "ano1", "tipo": "texto", "texto": "1943 · EUA", "cor": "#ffffff", "fundo": "#3f6fb5", "tam": 1.2, "pos": [0, 0.58], "oculto": true},
+    {"id": "ano2", "tipo": "texto", "texto": "1945 · FRANÇA", "cor": "#ffffff", "fundo": "#b5453f", "tam": 1.2, "pos": [0, 0.58], "oculto": true},
+    {"id": "livro", "tipo": "livro", "cor": "#2b3a8c", "titulo": "O Pequeno Príncipe", "pos": [0, 0.2, 3.0], "escala": 1.3, "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Vamos construir o planeta de O Pequeno Príncipe, de Saint-Exupéry, do zero. Primeiro, redonde um asteroide minúsculo. Pronto, agora você tem o asteroide B seiscentos e doze.",
+     "pronto": "o asteroide B-612",
+     "acoes": [
+       {"t": 0.0, "alvo": "titulo", "acao": "aparecer", "som": "pop"},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 14, "altura": 3, "de": -20, "ate": 5, "dur": 7},
+       {"t": 3.2, "alvo": "planeta", "acao": "construir", "modo": "sobe", "som": "boom"},
+       {"t": 3.2, "acao": "tremer", "forca": 0.3}
+     ]},
+    {"texto": "Agora plante os baobás. O príncipe arranca os brotos antes que eles tomem o planeta. Pronto, agora você tem um perigo crescendo.",
+     "pronto": "um perigo crescendo",
+     "acoes": [
+       {"t": 0.0, "alvo": "titulo", "acao": "sumir"},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 14, "altura": 3, "de": 5, "ate": 30, "dur": 7},
+       {"t": 0.8, "alvo": "tronco1", "acao": "construir", "modo": "cresce", "som": "pop"},
+       {"t": 1.1, "alvo": "copa1", "acao": "construir", "modo": "cai", "som": "pop"},
+       {"t": 1.8, "alvo": "tronco2", "acao": "construir", "modo": "cresce", "som": "pop"},
+       {"t": 2.1, "alvo": "copa2", "acao": "construir", "modo": "cai", "som": "pop"}
+     ]},
+    {"texto": "Ponha a rosa, a flor que ele protege com todo cuidado. Pronto, agora você tem uma rosa vaidosa.",
+     "pronto": "uma rosa vaidosa",
+     "acoes": [
+       {"t": 0.0, "acao": "camera", "pos": [0, 4, 9], "olha": [0, 3, 0]},
+       {"t": 0.6, "alvo": "rosa", "acao": "construir", "modo": "sobe", "som": "pop"},
+       {"t": 1.8, "alvo": "rosa", "acao": "pular", "altura": 0.3}
+     ]},
+    {"texto": "Agora coloque o príncipe, sozinho lá em cima. Pronto, agora você tem o dono do planeta.",
+     "pronto": "o dono do planeta",
+     "acoes": [
+       {"t": 0.4, "alvo": "principe", "acao": "construir", "modo": "cai", "som": "boom"},
+       {"t": 1.4, "alvo": "principe", "acao": "acenar"},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 2.5, 0], "raio": 9, "altura": 4, "de": 30, "ate": 55, "dur": 5}
+     ]},
+    {"texto": "Do lado de fora, chame a raposa, que pede para ser cativada.",
+     "acoes": [
+       {"t": 0.0, "acao": "camera", "pos": [0, 4, 14], "olha": [0, 2, 0]},
+       {"t": 0.8, "alvo": "raposa", "acao": "construir", "modo": "sobe", "som": "pop"},
+       {"t": 2.2, "alvo": "raposa", "acao": "pular", "altura": 0.5}
+     ]},
+    {"texto": "E o detalhe curioso: Saint-Exupéry escreveu e desenhou tudo em Nova York, e o livro saiu primeiro nos Estados Unidos, em mil novecentos e quarenta e três.",
+     "acoes": [
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 14, "altura": 3, "de": 55, "ate": 85, "dur": 8},
+       {"t": 3.5, "alvo": "ano1", "acao": "aparecer", "som": "ding"}
+     ]},
+    {"texto": "Na França, só em mil novecentos e quarenta e cinco. Você já leu? Comenta PRÍNCIPE.",
+     "acoes": [
+       {"t": 0.0, "alvo": "ano1", "acao": "sumir"},
+       {"t": 0.2, "alvo": "ano2", "acao": "aparecer", "som": "boom"},
+       {"t": 0.2, "acao": "tremer", "forca": 0.4},
+       {"t": 1.8, "alvo": "ano2", "acao": "sumir"},
+       {"t": 2.0, "alvo": "livro", "acao": "construir", "modo": "cai", "som": "boom"},
+       {"t": 2.0, "alvo": "titulo", "acao": "aparecer", "som": "pop"}
+     ]}
+  ]
+}

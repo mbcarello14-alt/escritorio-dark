@@ -1,0 +1,88 @@
+{
+  "canal": "vestibular",
+  "formato": "construcao",
+  "titulo": "Monte uma célula eucarionte do zero (cai no ENEM)",
+  "descricao": "Biologia celular em 35 segundos: membrana, núcleo, nucléolo, ribossomos e mitocôndrias, peça por peça, do jeito que cai na prova.",
+  "hashtags": ["#enem", "#biologia", "#vestibular"],
+  "legenda_reels": "Monte uma célula eucarionte do zero em 35 segundos: membrana, núcleo, ribossomos e mitocôndrias. Isso cai muito no ENEM! Comenta CÉLULA que a gente faz o mapa mental completo. #enem #biologia #vestibular",
+  "isca": "Comenta CÉLULA",
+  "cenario": {"ceu": "#bfe3f7", "chao": "#86c06c", "cidade": false, "arvores": 0, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 7, 12], "olha": [0, 0.8, 0]},
+  "objetos": [
+    {"id": "lousa", "tipo": "lousa", "pos": [0, 0, -5], "oculto": true},
+    {"id": "rotulo", "tipo": "texto", "texto": "CÉLULA\nEUCARIONTE", "cor": "#ffffff", "fundo": "#2b6cb0", "tam": 1.1, "pos": [0, 0.72], "oculto": true},
+    {"id": "membrana", "tipo": "cilindro", "tam": [5.8, 0.4], "cor": "#f2a1b3", "pos": [0, 0.2, 0], "oculto": true},
+    {"id": "citoplasma", "tipo": "cilindro", "tam": [5.3, 0.5], "cor": "#c9ecf7", "pos": [0, 0.45, 0], "oculto": true},
+    {"id": "nucleo", "tipo": "esfera", "tam": 2.0, "cor": "#8a6fd1", "pos": [0, 1.3, 0], "oculto": true},
+    {"id": "nucleolo", "tipo": "esfera", "tam": 0.7, "cor": "#4b2e83", "pos": [0.3, 1.9, 0.8], "oculto": true},
+    {"id": "ribo1", "tipo": "esfera", "tam": 0.3, "cor": "#2d3748", "pos": [-0.9, 0.85, 1.9], "oculto": true},
+    {"id": "ribo2", "tipo": "esfera", "tam": 0.3, "cor": "#2d3748", "pos": [0.2, 0.85, 2.1], "oculto": true},
+    {"id": "ribo3", "tipo": "esfera", "tam": 0.3, "cor": "#2d3748", "pos": [1.1, 0.85, 1.7], "oculto": true},
+    {"id": "mito1", "tipo": "cubo", "tam": [1.3, 0.6, 0.7], "cor": "#f6993f", "pos": [-1.8, 1.0, 0.9], "oculto": true},
+    {"id": "mito2", "tipo": "cubo", "tam": [1.3, 0.6, 0.7], "cor": "#f6993f", "pos": [1.8, 1.0, 0.7], "rot": 40, "oculto": true},
+    {"id": "mito3", "tipo": "cubo", "tam": [1.3, 0.6, 0.7], "cor": "#f6993f", "pos": [-1.4, 1.0, -1.4], "rot": -30, "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Vamos montar uma célula inteira do zero, do jeito que cai no ENEM.",
+      "acoes": [
+        {"t": 0.0, "alvo": "rotulo", "acao": "aparecer", "som": "pop"},
+        {"t": 0.4, "alvo": "lousa", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 0.8, 0], "raio": 12, "altura": 6, "de": 0, "ate": 40, "dur": 3.5}
+      ]
+    },
+    {
+      "texto": "Primeiro, desenhe a membrana plasmática. Ela controla o que entra e o que sai. Pronto, agora você tem a fronteira da célula.",
+      "pronto": "a fronteira da célula",
+      "acoes": [
+        {"t": 0.3, "alvo": "rotulo", "acao": "texto", "texto": "MEMBRANA\nPLASMÁTICA"},
+        {"t": 0.6, "alvo": "membrana", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 1.8, "alvo": "citoplasma", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 0.8, 0], "raio": 12, "altura": 6, "de": 40, "ate": 90, "dur": 7}
+      ]
+    },
+    {
+      "texto": "Agora coloque o núcleo no meio. É ele que guarda o DNA. A pegadinha: bactéria não tem núcleo definido. Pronto, agora você tem o centro de comando.",
+      "pronto": "o centro de comando",
+      "acoes": [
+        {"t": 0.2, "alvo": "rotulo", "acao": "texto", "texto": "NÚCLEO\n= DNA"},
+        {"t": 0.6, "alvo": "nucleo", "acao": "construir", "modo": "cai", "som": "boom"},
+        {"t": 0.6, "acao": "tremer", "forca": 0.3},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 0.8, 0], "raio": 12, "altura": 6, "de": 90, "ate": 150, "dur": 8}
+      ]
+    },
+    {
+      "texto": "Dentro do núcleo, ponha o nucléolo. Ele fabrica os ribossomos, que montam as proteínas. Pronto, agora você tem a fábrica de proteínas.",
+      "pronto": "a fábrica de proteínas",
+      "acoes": [
+        {"t": 0.2, "alvo": "rotulo", "acao": "texto", "texto": "NUCLÉOLO\nRIBOSSOMOS"},
+        {"t": 0.6, "alvo": "nucleolo", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 2.2, "alvo": "ribo1", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 2.7, "alvo": "ribo2", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 3.2, "alvo": "ribo3", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 0.0, "acao": "camera", "pos": [0, 5, 9], "olha": [0, 1.2, 0]},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 1, 0], "raio": 9, "altura": 5, "de": 150, "ate": 200, "dur": 8}
+      ]
+    },
+    {
+      "texto": "Agora espalhe as mitocôndrias. Elas produzem ATP na respiração celular. Pronto, agora você tem a usina de energia.",
+      "pronto": "a usina de energia",
+      "acoes": [
+        {"t": 0.2, "alvo": "rotulo", "acao": "texto", "texto": "MITOCÔNDRIA\n= ATP"},
+        {"t": 0.8, "alvo": "mito1", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 1.6, "alvo": "mito2", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 2.4, "alvo": "mito3", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 1, 0], "raio": 10, "altura": 6, "de": 200, "ate": 260, "dur": 7}
+      ]
+    },
+    {
+      "texto": "Pronto: uma célula eucarionte completa. Qual organela você mais erra na prova? Comenta CÉLULA.",
+      "acoes": [
+        {"t": 0.0, "alvo": "rotulo", "acao": "texto", "texto": "CÉLULA\nCOMPLETA"},
+        {"t": 0.0, "acao": "camera", "pos": [0, 8, 13], "olha": [0, 0.8, 0]},
+        {"t": 0.3, "alvo": "nucleo", "acao": "pular", "altura": 0.5, "som": "ding"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 0.8, 0], "raio": 13, "altura": 7, "de": 260, "ate": 360, "dur": 6}
+      ]
+    }
+  ]
+}
