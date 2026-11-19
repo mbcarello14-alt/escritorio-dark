@@ -1,0 +1,46 @@
+comando: /pautas canais/vestibular/videos/2026-11-24
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-24 && cat estado.json && ls"}
+🔧 Agent {"subagent_type": "pesquisador-vestibular", "description": "Pautas Mapeado 24/11", "prompt": "Etapa 1 (pauta). Canal: vestibular (Mapeado). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/can
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+💬 O pesquisador do Mapeado está trabalhando nas pautas. Aguardo a conclusão para validar o `pautas.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 WebSearch {"query": "ENEM 2026 datas provas novembro vestibulares segunda fase Fuvest Unicamp", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest 2027 primeira fase data prova dezembro Unicamp Comvest 2027 data", "mode": "standard"}
+🔧 WebSearch {"query": "Enem 2026 gabarito oficial polêmica questão redação tema 2026 Inep", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/estado.json"}
+🔧 WebSearch {"query": "youtube pegadinha química Enem pH concentração mol questão cai muito resolução mapa mental", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest 2027 segunda fase redação gênero proposta livros obrigatórios literatura 2ª fase 6 e 7 de dezembro", "mode": "standard"}
+🔧 WebSearch {"query": "Enem 2026 Ciências Humanas questões mais comentadas geografia sociologia tema prova 8 de novembro", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/pautas.json", "content": "[\n  {\n    \"titulo\": \"pH 3 para pH 5: a diluição que derruba no ENEM\
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/01-pauta.md", "content": "# Pauta — Mapeado — terça 24/11/2026, 17h\n\n## Contexto da semana\n- ENE
+💬 Escrevi a pauta de terça 24/11 com 3 ideias ranqueadas, de três matérias diferentes. Não consegui confirmar nenhum outlier de canal pequeno: a busca não devolve views nem inscritos. No `01-pauta.md` ficaram só termos de busca "a verificar", sem números inventados.
+
+1. **Química: "pH 3 para pH 5: a diluição que derruba no ENEM".**
+   - O mapa trata o pH como régua invertida e logarítmica, em 3 ramos (escala, mol/L, diluição).
+   - Usa o molde de pegadinha numérica que mais rende no canal (845 e 251 views).
+   - A audiência pediu Química cinco vezes no histórico (04/11 a 13/11).
+2. **Redação: "R
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('pautas.json'));print(len(d));[print(len(i['titulo']),i['titulo'],'|',i['angulo'],'|',i['porque']) for i in d]\""}
+💬 `pautas.json` está válido, com 3 ideias ranqueadas de matérias diferentes (Química, Redação, Geografia). Todas são do nicho do Mapeado e todos os títulos têm até 60 caracteres. Não editei mais nada.
+
+1. **pH 3 para pH 5: a diluição que derruba no ENEM** (Química). É o molde de pegadinha numérica que mais rendeu no canal.
+2. **Redação da Fuvest: o gênero que pode zerar sua nota** (Redação). A 2ª fase é em 6 e 7/12, então há urgência.
+3. **Terras raras e Ormuz: Geografia que o ENEM 2026 cobrou** (Geografia). É a sazonalidade mais fraca, porque o ENEM já passou. Exige neutralidade ao tratar o con
+
+=== resultado: success | turnos 3 | 5s | erro=False
+O pesquisador do Mapeado está trabalhando nas pautas. Aguardo a conclusão para validar o `pautas.json`.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+`pautas.json` está válido, com 3 ideias ranqueadas de matérias diferentes (Química, Redação, Geografia). Todas são do nicho do Mapeado e todos os títulos têm até 60 caracteres. Não editei mais nada.
+
+1. **pH 3 para pH 5: a diluição que derruba no ENEM** (Química). É o molde de pegadinha numérica que mais rendeu no canal.
+2. **Redação da Fuvest: o gênero que pode zerar sua nota** (Redação). A 2ª fase é em 6 e 7/12, então há urgência.
+3. **Terras raras e Ormuz: Geografia que o ENEM 2026 cobrou** (Geografia). É a sazonalidade mais fraca, porque o ENEM já passou. Exige neutralidade ao tratar o conflito.
+
+O pesquisador não conseguiu confirmar views nem inscritos de canais pequenos. As ocorrências em provas anteriores também ficaram sem contagem, e o dossiê deve conferir isso no INEP.
+codigo de saida: 0
