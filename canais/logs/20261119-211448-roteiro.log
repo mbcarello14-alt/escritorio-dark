@@ -1,0 +1,223 @@
+comando: /roteiro canais/vestibular/videos/2026-11-24
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-24 && ls && cat estado.json && cat pautas.json && ls ../../../logs | tail -3"}
+❌ This Bash command contains multiple operations. The following part requires approval: cd canais/vestibular/videos/2026-11-24 && ls && cat estado.json && cat pautas.json && ls ../../../logs
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/pautas.json"}
+🔧 Agent {"description": "Dossiê Mapeado", "subagent_type": "pesquisador-vestibular", "prompt": "Etapa 2 (dossiê). Pasta: canais/vestibular/videos/2026-11-24. Leia estado.json e pautas.json; a pauta escolhida 
+💬 O dossiê está sendo montado pelo `pesquisador-vestibular`. Aguardo o aviso de conclusão para seguir com o roteiro.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 WebSearch {"query": "ENEM 2026 primeiro dia terras raras Ormuz questão", "mode": "extended"}
+🔧 WebSearch {"query": "Enem 2026 datas provas 8 e 15 de novembro Inep", "mode": "standard"}
+💬 Vou abrir as reportagens para detalhes das questões.
+🔧 WebFetch {"url": "https://www.cnnbrasil.com.br/educacao/enem-2026-terras-raras-e-minorias-aparecem-em-prova-de-ciencias-humanas/", "prompt": "Descreva exatamente o que a questão sobre terras raras (e Ormuz/Irã
+🔧 WebFetch {"url": "https://portaln10.com.br/educacao/enem/terras-raras-guerra-no-ira-e-lei-rouanet-aparecem-nas-questoes-do-enem-2026-357262/", "prompt": "Descreva exatamente o que as questões sobre terras rara
+🔧 WebFetch {"url": "https://www.blogdovestibular.com/enem/enem-2026-primeiro-dia-assuntos-tema-redacao.html", "prompt": "Descreva o que as questões sobre terras raras e Ormuz/Irã cobraram, com detalhes (países, 
+🔧 WebFetch {"url": "https://folhams.com.br/2026/11/08/guerra-ira-terras-raras-questoes-enem-2026/", "prompt": "Descreva o que as questões sobre terras raras e Ormuz/Irã cobraram, com detalhes."}
+🔧 WebFetch {"url": "https://www.terra.com.br/noticias/educacao/enem/1-dia-do-enem-2026-tem-questoes-sobre-mst-terras-raras-voto-feminino-lei-rouanet-e-eca-digital-veja-o-que-caiu,a11f00db998a40d606a3439099b54f34
+🔧 WebFetch {"url": "https://www.metro1.com.br/noticias/educacao/191139,enem-2026-cobrou-ia-lei-rouanet-terras-raras-e-guerra-no-ira-no-1o-dia-de-provas", "prompt": "O que as questões sobre terras raras e Ormuz/I
+🔧 WebSearch {"query": "USGS Mineral Commodity Summaries 2026 rare earths world reserves China Brazil Vietnam India million tons", "mode": "standard"}
+🔧 WebSearch {"query": "EIA Strait of Hormuz oil flows 20 million barrels per day 20% petroleum liquids consumption bypass pipelines", "mode": "standard"}
+🔧 WebSearch {"query": "IEA China share rare earth refining magnets production percent Critical Minerals Outlook 2025", "mode": "standard"}
+💬 Vou confirmar a tabela do USGS e os dados da IEA diretamente.
+🔧 WebFetch {"url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf", "prompt": "Extraia a tabela de mine production e reserves por país (China, Brazil, India, Vietnam, Australia, Russia, USA, 
+🔧 WebFetch {"url": "https://www.iea.org/about/strait-of-hormuz", "prompt": "Extraia números: volume 2025, share do comércio marítimo, para onde vai (Ásia), alternativas por oleoduto, GNL do Qatar, data da página
+🔧 WebFetch {"url": "https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality", "prompt": "Extraia números de China em mineração, refino e ímãs de t
+🔧 WebFetch {"url": "https://www.eia.gov/todayinenergy/detail.php?id=65504", "prompt": "Extraia números: fluxo 2024/1T2025, share do comércio marítimo, consumo global, destino Ásia (China, Índia, Japão, Coreia), 
+🔧 WebFetch {"url": "https://gulfnews.com/business/energy/worlds-rare-earth-giants-top-10-countries-with-the-biggest-reserves-1.500467937", "prompt": "Liste a tabela de reservas por país com unidades e ano, e tot
+🔧 WebSearch {"query": "terras raras Brasil reservas segunda maior mundo Serra Verde Goiás USGS 2026 China controles exportação", "mode": "standard"}
+🔧 WebSearch {"query": "Estreito de Ormuz guerra Estados Unidos Irã 2026 petroleiro paquistanês rota alternativa mapa", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.cnnbrasil.com.br/internacional/estreito-de-ormuz-opera-sob-condicoes-especiais-diz-ira/", "prompt": "Data da reportagem, o que diz sobre petroleiros paquistaneses, rota, condições
+🔧 WebSearch {"query": "China export controls rare earths April 2025 seven elements October 2025 suspended one year Trump Xi agreement", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.gov.br/anm/pt-br/assuntos/economia-mineral/publicacoes/sumario-mineral/sumario-mineral-brasileiro-2026/terras-raras-versao-final.pdf", "prompt": "Extraia: reservas mundiais por pa
+❌ maxContentLength size of 10485760 exceeded
+🔧 WebSearch {"query": "Enem 2026 caderno de prova dia 1 PDF Inep gabarito oficial divulgado Ciências Humanas questão terras raras", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/02-dossie.md", "content": "# Dossiê — Terras raras e Ormuz: Geografia que caiu no ENEM 2026\n\nCana
+💬 O dossiê está pronto, mas o enunciado e o gabarito das duas questões do ENEM 2026 não foram confirmados. Eles precisam ser conferidos antes de o roteiro resolver a questão final.
+
+**O que caiu no ENEM 2026**
+- No 1º dia (8/11), Ciências Humanas, caíram uma questão sobre terras raras e outra sobre o Estreito de Ormuz.
+- A de terras raras destacava os países emergentes entre os detentores das reservas, e a resposta esperada era o ganho de poder de negociação deles.
+- A de Ormuz trazia um mapa com a rota padrão e uma rota alternativa seguida por um petroleiro paquistanês, no contexto da guerra EU
+🔧 Agent {"description": "Roteiro Mapeado", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: canais/vestibular/videos/2026-11-24. Leia estado.json, pautas.json (pauta nº 2), 02-dossie.md. nota_migue
+💬 O dossiê ficou pronto e o `roteirista-vestibular` já está escrevendo `03-roteiro.md` e `roteiro.json`. Aviso quando ele terminar, para seguir com o `checador`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "content": "# Roteiro: Ter o recurso não é ter o poder: terras raras e Ormuz no Ene
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Ter o recurso não é ter o poder: terras ra
+💬 Escrevi o roteiro e o `roteiro.json` da pauta nº 2 (terras raras e Ormuz). Ainda não passou pelo checador nem pelo guardião de originalidade. Não toquei no `estado.json`, então o campo `titulo` ainda precisa receber o título provisório. Também não rodei nenhuma verificação no JSON e contei as palavras na mão: dá por volta de 1.820, uns 12 minutos, no teto do alvo de 8 a 12.
+
+**A questão final é inventada, não real.** O briefing pede uma questão real de prova, com ano e instituição. Como o dossiê não confirmou nenhuma, usei uma questão-modelo, como você autorizou, e o narrador avisa em voz alta
+🔧 Agent {"description": "Checagem do roteiro", "subagent_type": "checador", "prompt": "Pasta: canais/vestibular/videos/2026-11-24. Confira cada afirmação de 03-roteiro.md/roteiro.json contra 02-dossie.md e fo
+💬 O roteiro está escrito e o `checador` já está conferindo as afirmações em `04-checagem.md`. Aviso quando ele terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/02-dossie.md"}
+💬 Vou conferir as fontes externas dos pontos pedidos.
+🔧 WebFetch {"url": "https://www.eia.gov/todayinenergy/detail.php?id=65504", "prompt": "Extract: barrels per day through Hormuz in 2024, share of seaborne oil trade, share of global petroleum consumption, share g
+🔧 WebFetch {"url": "https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality", "prompt": "Extract China's share of rare earth refining (85% in 2025
+🔧 WebSearch {"query": "terras raras 17 elementos 15 lantanídeos escândio ítrio IUPAC definição", "mode": "standard"}
+🔧 WebSearch {"query": "USGS Mineral Commodity Summaries definition resource reserve reserve base economically extractable", "mode": "standard"}
+🔧 WebSearch {"query": "IEA China share rare earth refining 85% 2025 magnet production 94% 2024 refining 19 of 20 strategic minerals", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json"}
+🔧 WebFetch {"url": "https://www.folhape.com.br/economia/serra-verde-unica-que-produz-terras-raras-no-pais-pode-ter-eua-de/465867/", "prompt": "Extract: Serra Verde production in 2024 (tonnes, % change), whether 
+🔧 WebSearch {"query": "Serra Verde USA Rare Earth compra fechamento governo federal novembro 2026", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.cnnbrasil.com.br/educacao/enem-2026-terras-raras-e-minorias-aparecem-em-prova-de-ciencias-humanas/", "prompt": "Extract what the article says about the rare earths question and th
+🔧 WebFetch {"url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf", "prompt": "Extract the world reserves table for rare earths (Brazil, China, India, Australia, etc.) in thousand/million ton
+🔧 WebFetch {"url": "https://investidor10.com.br/noticias/empresa-dos-eua-conclui-compra-da-maior-mineradora-de-terras-raras-do-brasil-122458/", "prompt": "Date of article and whether the acquisition of Serra Ver
+🔧 WebSearch {"query": "Serra Verde produção terras raras 2024 toneladas ANM Sumário Mineral 2026 queda 46,8%", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.gov.br/anm/pt-br/assuntos/economia-mineral/publicacoes/sumario-mineral/sumario-mineral-brasileiro-2026/terras-raras-versao-final.pdf", "prompt": "Find Serra Verde / Brazil rare ea
+❌ maxContentLength size of 10485760 exceeded
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/04-checagem.md", "content": "# Checagem: Ter o recurso não é ter o poder: terras raras e Ormuz no E
+💬 **Veredito: CORRIGIR.** O relatório está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/04-checagem.md`, com 40 afirmações checadas e 13 correções numeradas.
+
+Os pontos que você pediu para olhar:
+
+- **[PRECISA FONTE] no bloco 3:** a definição de recurso, reserva e produção agora tem fonte (USGS Circular 831 e o apêndice do Mineral Commodity Summaries). Mas a marcação está dentro do texto de narração e precisa sair do `.md` e do `.json`. Também pedi um ajuste de "recurso", que o USGS define como o que existe ou se supõe existir e pode vir a valer a pen
+🔧 Agent {"description": "Correções do roteiro", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: canais/vestibular/videos/2026-11-24. Volta 1 de 2. Leia 04-checagem.md (veredito CORRIGIR, 13 correç
+💬 O `checador` devolveu o roteiro com 13 correções (veredito CORRIGIR). A primeira volta de ajuste está com o `roteirista-vestibular`. Quando ele terminar, o texto volta para checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/estado.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "content": "# Roteiro: Ter o recurso não é ter o poder: terras raras e Ormuz no Ene
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Ter o recurso não é ter o poder: terras ra
+💬 Apliquei as 13 correções do checador. `03-roteiro.md` e `roteiro.json` estão com o mesmo texto bloco a bloco. Não consegui rodar `wc -w` nem um validador de JSON, porque eu não tinha como executar comandos aqui. Contei as palavras à mão, bloco por bloco, e conferi o JSON lendo: não há aspas duplas dentro dos textos nem vírgula sobrando.
+
+**Contagem:** cerca de 1.700 palavras, umas 11 minutos e 20 segundos (a versão anterior tinha perto de 2.000). Por bloco: 107, 153, 179, 201, 189, 199, 161, 173, 186 e 152. Como foi contado à mão, pode variar umas poucas palavras. Na rechecagem vale passar `wc
+🔧 Agent {"description": "Rechecagem do roteiro", "subagent_type": "checador", "prompt": "Pasta: canais/vestibular/videos/2026-11-24. Rechecagem após correções do roteirista (ver 04-checagem.md anterior). Conf
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('canais/vestibular/videos/2026-11-24/roteiro.json'));print(d['titulo_provisorio']);print(len(d['blocos']),sum(len(b['texto'].split()) for b in 
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/02-dossie.md"}
+🔧 Grep {"pattern": "PRECISA", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "output_mode": "content"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json"}
+💬 Só aparece no `resumo_checagem`, que não é narrado, e vou reescrever esse campo no fim. O JSON é válido: 10 blocos e 1.727 palavras. Aguardo a rechecagem.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/04-checagem.md", "content": "# Checagem: Ter o recurso não é ter o poder: terras raras e Ormuz no E
+💬 **Veredito: CORRIGIR.** São duas trocas de frase, e depois delas basta conferir o diff, sem nova checagem completa. Atualizei `04-checagem.md`.
+
+**As 13 correções anteriores:** todas foram aplicadas, e os dez textos de bloco são idênticos no `03-roteiro.md` e no `roteiro.json`.
+- **Contagem:** a soma por bloco fecha em 1.700 palavras, cerca de 11min20. Não rodei `wc`; recontei o bloco 1 à mão e a soma por bloco bate.
+- **Marcador removido:** o texto "[PRECISA FONTE]" sumiu da narração. Ele só aparece no campo `resumo_checagem` do json, que não é narrado.
+
+**Afirmações novas que você citou:**
+-
+🔧 Agent {"description": "Volta 2 de correção", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: canais/vestibular/videos/2026-11-24. Volta 2 (última). Aplique as 3 correções finais de 04-checagem.m
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md"}
+💬 A rechecagem ainda deu CORRIGIR, com três ajustes pequenos. O `roteirista-vestibular` está aplicando agora, na segunda e última volta. Depois disso, o `guardiao-originalidade` avalia o roteiro.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/04-checagem.md"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "Combinação honesta: o gabarito oficial ainda n
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "foi comprada por uma empresa americana, e o go
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "Como o gabarito oficial do Enem dois mil e vin
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "Sem nome, valor ou opinião política; \"o gover
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "13. roteiro.json com o mesmo texto dos blocos 
+💬 Agora o roteiro.json.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "Combinação honesta: o gabarito oficial ainda nã
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "foi comprada por uma empresa americana, e o gov
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "\"texto\": \"Como o gabarito oficial do Enem do
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "  \"resumo_checagem\": \"Volta 1 de correção: a
+💬 Fiz as três correções finais da volta 2 nos dois arquivos, e o texto dos blocos 2, 8 e 9 ficou igual no `03-roteiro.md` e no `roteiro.json`. Não rodei verificação depois das edições: nem `wc -w` para a contagem, nem um teste de leitura do JSON. As trocas não puseram aspas novas dentro dos textos, então o JSON deve continuar válido.
+
+1. **Bloco 8, texto e nota para o checador:** a frase ficou "...foi comprada por uma empresa americana, e o governo federal passou a estudar alternativas, segundo reportagens." Na nota, coloquei as fontes do item 15 do dossiê: Folha PE, Jornal Opção e IstoÉ.
+2. **B
+🔧 Agent {"description": "Originalidade", "subagent_type": "guardiao-originalidade", "prompt": "Pasta: canais/vestibular/videos/2026-11-24. Avalie 03-roteiro.md/roteiro.json (canal Mapeado, pauta Terras raras 
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('canais/vestibular/videos/2026-11-24/roteiro.json'));print(len(d['blocos']),sum(len(b['texto'].split()) for b in d['blocos']));print([k for k i
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json"}
+💬 As duas correções finais entraram e o `roteiro.json` continua válido: 10 blocos e 1.738 palavras. O `guardiao-originalidade` está avaliando o roteiro agora.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/05-originalidade.md", "content": "# Originalidade: Ter o recurso não é ter o poder (terras raras e 
+💬 Escrevi o `05-originalidade.md`. O semáforo é 🟡 ajustar: o roteiro não é conteúdo em massa nem reaproveitado, mas ainda não tem a voz do Miguel.
+
+**Notas**
+- **Variação (7):** o quadro dividido em terra e mar e o ramo pontilhado que fecha no fim são diferentes dos vídeos anteriores. O esqueleto "ramos, recapitulação, questão e próximo mapa" se repete. O histórico só tem 3 longos, então a comparação é parcial.
+- **Valor próprio (7):** ligar refino e estreito pela ideia de gargalo é útil, e o "moinho e pão" é autoral. Os blocos 4 a 7 são sobretudo dados da AIE e da EIA e cronologia de notícia.
+-
+🔧 Agent {"description": "Ajustes de originalidade", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: canais/vestibular/videos/2026-11-24. Leia 05-originalidade.md (🟡). Aplique em 03-roteiro.md e ro
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/05-originalidade.md"}
+💬 O `guardiao-originalidade` deu 🟡. Mandei o `roteirista-vestibular` fazer a volta única de ajuste: trocar as frases com cara de IA, enxugar a parte de notícia e tirar "no Enem" do título. Não vou inventar a opinião do Miguel. Ela continua como a pergunta dele. Quando o roteirista terminar, confiro as chamadas de engajamento e o nicho, e atualizo o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "\"titulo_provisorio\": \"Ter o recurso não é te
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "      \"capitulo\": \"O que caiu, e a combinaçã
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "moeda de troca. Isso tem nome: poder", "new_str
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "ficou praticamente interrompido. O governo iran
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "ter o recurso não é ter o poder. Será que essa 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "Gabarito: letra B. Viu como a frase em vermelho
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json", "old_string": "\"resumo_originalidade\": \"Provisório: aguarda
+💬 Agora o mesmo no 03-roteiro.md.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "# Roteiro: Ter o recurso não é ter o poder: te
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "**Contagem:** cerca de 1.700 palavras (soma po
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "## Bloco 2: O que caiu, e a combinação honesta
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "## Bloco 5: A torneira chinesa (cerca de 189 p
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "moeda de troca. Isso tem nome: poder", "new_st
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "## Bloco 7: A Ásia e a linha no mapa (cerca de
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "ficou praticamente interrompido. O governo ira
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "## Bloco 8: Quarto ramo e o mapa completo (cer
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "ter o recurso não é ter o poder. Será que essa
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "Gabarito: letra B. Viu como a frase em vermelh
+💬 Agora as notas (lugar da opinião do Miguel) e a lista de mudanças.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "- Bloco 7: 84% para a Ásia e 69% para os quatr
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/03-roteiro.md", "old_string": "4. Efeito na contagem: mais 11 palavras (bloco
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/roteiro.json"}
+💬 Apliquei as correções do 05-originalidade.md (🟡) em 03-roteiro.md e roteiro.json, com o mesmo texto nos dois arquivos. O semáforo continua 🟡 porque a opinião do Miguel ainda falta.
+
+**Não consegui rodar o `python3 -c json.load`:** nesta sessão eu não tinha como executar comandos. Reli o roteiro.json inteiro e a estrutura parece válida: não achei aspas soltas nem vírgulas faltando nos textos. Mesmo assim, é bom rodar a validação antes do próximo passo.
+
+**(a) Frases com cara de IA, em tom de aula falada:**
+- **Bloco 2:** "Combinação honesta:" virou "Vou ser direto:", e o capítulo agora se chama
+🔧 Bash {"command": "python3 - <<'E'\nimport json,re\np='canais/vestibular/videos/2026-11-24/'\nd=json.load(open(p+'roteiro.json'))\nprint(d['titulo_provisorio'],d['semaforo'],len(d['blocos']),sum(len(b['text
+💬 O roteiro de `canais/vestibular/videos/2026-11-24` está pronto, mas só com semáforo 🟡: falta a opinião do Miguel. O `roteiro.json` é válido e o `estado.json` já tem `titulo` atualizado.
+
+- **Pauta:** a nº 2, terras raras e Ormuz, com o título provisório "Ter o recurso não é ter o poder: terras raras e Ormuz".
+- **Tamanho:** 10 blocos, cerca de 1.736 palavras, uns 11 a 12 minutos.
+- **Checagem:** o `checador` pediu correções duas vezes e as duas voltas foram aplicadas. O veredito final de `04-checagem.md` ainda diz CORRIGIR, porque a última volta foi aplicada depois dele e não passou por uma te
+
+=== resultado: success | turnos 5 | 5s | erro=False
+O dossiê está sendo montado pelo `pesquisador-vestibular`. Aguardo o aviso de conclusão para seguir com o roteiro.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+O dossiê ficou pronto e o `roteirista-vestibular` já está escrevendo `03-roteiro.md` e `roteiro.json`. Aviso quando ele terminar, para seguir com o `checador`.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+O roteiro está escrito e o `checador` já está conferindo as afirmações em `04-checagem.md`. Aviso quando ele terminar.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O `checador` devolveu o roteiro com 13 correções (veredito CORRIGIR). A primeira volta de ajuste está com o `roteirista-vestibular`. Quando ele terminar, o texto volta para checagem.
+
+=== resultado: success | turnos 4 | 5s | erro=False
+Só aparece no `resumo_checagem`, que não é narrado, e vou reescrever esse campo no fim. O JSON é válido: 10 blocos e 1.727 palavras. Aguardo a rechecagem.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+A rechecagem ainda deu CORRIGIR, com três ajustes pequenos. O `roteirista-vestibular` está aplicando agora, na segunda e última volta. Depois disso, o `guardiao-originalidade` avalia o roteiro.
+
+=== resultado: success | turnos 3 | 3s | erro=False
+As duas correções finais entraram e o `roteiro.json` continua válido: 10 blocos e 1.738 palavras. O `guardiao-originalidade` está avaliando o roteiro agora.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+O `guardiao-originalidade` deu 🟡. Mandei o `roteirista-vestibular` fazer a volta única de ajuste: trocar as frases com cara de IA, enxugar a parte de notícia e tirar "no Enem" do título. Não vou inventar a opinião do Miguel. Ela continua como a pergunta dele. Quando o roteirista terminar, confiro as chamadas de engajamento e o nicho, e atualizo o `estado.json`.
+
+=== resultado: success | turnos 2 | 8s | erro=False
+O roteiro de `canais/vestibular/videos/2026-11-24` está pronto, mas só com semáforo 🟡: falta a opinião do Miguel. O `roteiro.json` é válido e o `estado.json` já tem `titulo` atualizado.
+
+- **Pauta:** a nº 2, terras raras e Ormuz, com o título provisório "Ter o recurso não é ter o poder: terras raras e Ormuz".
+- **Tamanho:** 10 blocos, cerca de 1.736 palavras, uns 11 a 12 minutos.
+- **Checagem:** o `checador` pediu correções duas vezes e as duas voltas foram aplicadas. O veredito final de `04-checagem.md` ainda diz CORRIGIR, porque a última volta foi aplicada depois dele e não passou por uma terceira checagem. Aquela volta trocava a frase sobre o governo no bloco 8 e a do gabarito nos blocos 2 e 9.
+- **Originalidade:** 🟡. O `guardiao-originalidade` pediu a opinião do Miguel, e eu apliquei a única volta de ajuste permitida. Troquei as frases com cara de IA e enxuguei a notícia. Também tirei "no Enem" do título, que o vídeo não cumpre.
+- **Engajamento:** as três chamadas estão nos blocos 1, 5 e 10, cada uma com inscrição, like e comentário. Não saiu do nicho do Mapeado.
+- **Duas mudanças que fiz:** tirei a opinião inventada do texto narrado e deixei o espaço dela só nas Notas do bloco 8. Também troquei o título provisório.
+
+**Pendências para o Miguel**
+- **Pergunta:** o Brasil é um "gigante adormecido" ou um alerta de que reserva sem refino não vale nada? A resposta entra no bloco 8.
+- **Gabarito:** conferir o site do Inep no dia da gravação. O gabarito oficial sai até 30/11 e o vídeo vai ao ar em 24/11. Se já tiver saído, os blocos 2 e 9 mudam.
+- **Questão do bloco 9:** é uma questão-modelo inventada, avisada em voz alta no vídeo, porque o dossiê não confirmou nenhuma questão real. Ele decide se fica ou se entra uma real.
+- **Limite das fontes:** os sites do Inep, USGS e AIE devolveram 403, então o ranking de reservas do USGS não foi aberto. O roteiro não usa números de reserva por causa disso.
+
+Os arquivos estão em `canais/vestibular/videos/2026-11-24/`: `02-dossie.md`, `03-roteiro.md`, `roteiro.json`, `04-checagem.md` e `05-originalidade.md`. Não criei `producao.json`, como pedido.
+codigo de saida: 0
