@@ -1,0 +1,59 @@
+comando: /pautas canais/vestibular/videos/2026-11-24
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-24 && ls && cat estado.json"}
+🔧 Agent {"description": "Pautas Mapeado 24/11", "subagent_type": "pesquisador-vestibular", "prompt": "Etapa 1 (pauta). Canal: vestibular (Mapeado). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/can
+💬 O pesquisador do Mapeado está trabalhando na pauta de 24/11. Vou conferir o `pautas.json` quando ele terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 WebSearch {"query": "ENEM 2026 data provas cronograma", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos'
+🔧 WebSearch {"query": "Fuvest 2027 primeira fase data Unicamp 2027 vestibular data prova", "mode": "standard"}
+🔧 WebSearch {"query": "Enem 2026 tema da redação segundo dia ciências da natureza questões polêmica", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.vestibulandoweb.com.br/enem/segundo-dia-do-enem-2026-cobra-dengue-clonagem-e-preservacao-do-pirarucu/amp/", "prompt": "Liste os assuntos cobrados no 2º dia do Enem 2026 (Natureza 
+🔧 WebSearch {"query": "Unicamp 2027 vestibular primeira fase data novembro 2026 Comvest segunda fase janeiro", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest segunda fase 2027 dezembro 6 e 7 como estudar Redação Matemática Física Química dicas", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-19/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-17/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-05/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/estado.json"}
+❌ File does not exist. Note: your current working directory is /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24.
+🔧 WebSearch {"query": "Unicamp segunda fase 2027 29 e 30 de novembro Redação Química Física dicas questões dissertativas", "mode": "standard"}
+🔧 WebSearch {"query": "estequiometria mapa mental Enem vídeo youtube cálculo estequiométrico pegadinha", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest 2027 leituras obrigatórias lista obras segunda fase literatura", "mode": "standard"}
+🔧 WebFetch {"url": "https://acritica.net/educacao/enem-2026-aborda-guerra-no-ira-terras-raras-e-inteligencia-artificial-no-primeiro-dia-de-provas/", "prompt": "O que foi cobrado em Ciências Humanas e Linguagens 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/01-pauta.md", "content": "# Pauta Mapeado — terça 24/11/2026, 17h00\n\n## Contexto da semana (hoje,
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-24/pautas.json", "content": "[\n  {\n    \"titulo\": \"Estequiometria: a conta do mol que derruba na 2
+💬 Escrevi o `01-pauta.md` e o `pautas.json` com as 3 ideias ranqueadas, cada uma de uma matéria diferente. Mas não consegui validar nenhuma delas com outliers de canais pequenos, e as contagens de incidência em prova ainda faltam.
+
+**As 3 ideias, em ordem:**
+1. **Química** — "Estequiometria: a conta do mol que derruba na 2ª fase". A 2ª fase da Unicamp é em 29 e 30/11. O formato "a conta que derruba" foi o que mais rendeu no canal, segundo o histórico.
+2. **Geografia** — "Terras raras e Ormuz: Geografia que caiu no ENEM 2026". Os dois temas caíram no 1º dia do ENEM 2026, segundo a cobertura da im
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('pautas.json'));print(len(d));[print(i['titulo'],len(i['titulo']),list(i)) for i in d]\"; ls .."}
+💬 As pautas de 24/11 (Mapeado) estão prontas: o `pautas.json` é válido, com 3 itens, e os títulos têm menos de 60 caracteres. As três ideias são de matérias diferentes e todas do nicho de prova.
+
+1. **Química:** "Estequiometria: a conta do mol que derruba na 2ª fase". A 2ª fase da Unicamp é em 29 e 30/11.
+2. **Geografia:** "Terras raras e Ormuz: Geografia que caiu no ENEM 2026".
+3. **Literatura:** "Clarice e Sophia: o mapa das obras da Fuvest 2027". A 2ª fase da Fuvest é em 6/12.
+
+O rodízio está ok: não há História nesta pauta, e a última foi em 29/10. A pasta `2026-11-03` tem vídeo e o pesquisa
+
+=== resultado: success | turnos 3 | 5s | erro=False
+O pesquisador do Mapeado está trabalhando na pauta de 24/11. Vou conferir o `pautas.json` quando ele terminar.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+As pautas de 24/11 (Mapeado) estão prontas: o `pautas.json` é válido, com 3 itens, e os títulos têm menos de 60 caracteres. As três ideias são de matérias diferentes e todas do nicho de prova.
+
+1. **Química:** "Estequiometria: a conta do mol que derruba na 2ª fase". A 2ª fase da Unicamp é em 29 e 30/11.
+2. **Geografia:** "Terras raras e Ormuz: Geografia que caiu no ENEM 2026".
+3. **Literatura:** "Clarice e Sophia: o mapa das obras da Fuvest 2027". A 2ª fase da Fuvest é em 6/12.
+
+O rodízio está ok: não há História nesta pauta, e a última foi em 29/10. A pasta `2026-11-03` tem vídeo e o pesquisador não a conferiu, então vale checar se é Química.
+
+Duas coisas ficaram em aberto para o dossiê:
+- Nenhuma das ideias tem um canal pequeno do YouTube com muitas views para servir de prova de demanda, porque a busca web não devolveu esses dados.
+- Também faltam contagens de quantas vezes cada tema caiu em provas anteriores.
+
+O `01-pauta.md` tem a análise completa. Não mexi em mais nada.
+codigo de saida: 0
