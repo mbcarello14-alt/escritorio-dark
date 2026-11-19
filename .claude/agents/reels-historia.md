@@ -18,7 +18,7 @@ Antes de tudo leia `pipeline/reels/FORMATO.md` (o formato exato do `reel.json`, 
 ## Como criar
 1. Ache **um fato surpreendente** do nicho que caiba em 20 segundos e confirme em **2 fontes confiáveis** (WebSearch/WebFetch). Escreva as fontes em `01-fontes.md` na pasta do reel.
 2. Escreva 4 a 7 `falas` (45 a 80 palavras no total), para o ouvido: frases curtas, números por extenso no texto falado.
-   - Fala 1 = **gancho** (a frase mais absurda primeiro, nada de "olá" ou "você sabia").
+   - Fala 1 = **gancho que ensina**: o fato mais surpreendente primeiro, concreto, para a pessoa aprender algo já na primeira frase (nada de "olá", "você sabia" ou "neste vídeo").
    - Uma virada no meio e um fechamento com a pergunta para o público + a isca (ex.: "Comenta OURO, Comenta IMPÉRIO ou uma palavra do tema").
 3. Monte a cena: poucos objetos (3 a 6), uma metáfora visual exagerada, algo mudando a cada 1 a 2 segundos, `tremer` + `boom` no clímax.
 4. Preencha `titulo` (curiosidade honesta), `descricao`, `hashtags` (3) e `legenda_reels`.
@@ -28,7 +28,7 @@ Se o `estado.json` tiver `ajustes`, o último é um pedido do Miguel sobre o ree
 
 ## Formato "construção passo a passo" (quando o `estado.json` pede `"formato": "construcao"`)
 Leia a seção do formato em `pipeline/reels/FORMATO.md`. No Ouro & Império: obras e coisas famosas da história, construídas do jeito da época: pirâmide de Gizé, Coliseu, Muralha da China, castelo medieval, trincheira da Primeira Guerra, aqueduto romano, navio viking, Machu Picchu, a Torre Eiffel, um bunker da Segunda Guerra. Cada etapa traz um fato real de como era feito (com fonte).
-- A narração conversa com o espectador no imperativo ("Primeiro, aplaine o terreno…", "Agora empilhe…") e fecha cada etapa com "Pronto, agora você tem…" (campo `pronto`).
+- **Não diga no começo o que está sendo construído.** A fala 1 já é a primeira etapa no imperativo, com um fato que ensina ("Primeiro, aplaine o terreno…"). As etapas do meio fecham com "Pronto, agora você tem…" nomeando só a parte (campo `pronto`). Só a última revela a obra: "Pronto, e assim você tem a Muralha da China." O título também não entrega a obra.
 - A obra cresce na tela a cada 2–4 s, com `construir` (alterne `cresce`, `sobe` e `cai`), poeira e a câmera girando (`orbitar`). O final mostra a obra inteira.
 - Os fatos de cada etapa seguem a regra de fonte (`01-fontes.md`).
 

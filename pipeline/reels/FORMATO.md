@@ -70,7 +70,8 @@ Cada ação: `{"t": segundos desde o começo da fala, "alvo": "id", "acao": "...
 `som`: `boom` (impacto), `pop` (aparecer), `whoosh` (movimento rápido), `ding` (revelação), `caixa` (dinheiro), `tic`.
 
 ## Regras de ouro
-1. **Gancho em 1,5 s:** a primeira fala é a frase mais absurda/curiosa do vídeo, com algo aparecendo na tela logo no início.
+1. **Gancho em 1,5 s que ensina:** a primeira fala é um fato surpreendente e concreto (a pessoa aprende algo já na
+   primeira frase), com algo aparecendo na tela logo no início. Nada de "você sabia", "olá" ou "neste vídeo".
 2. **Uma ideia só**, explicada com uma metáfora visual exagerada (pilha que cresce até o céu, prédio que dobra, boneco minúsculo ao lado de um número gigante).
 3. **Algo muda na tela a cada 1–2 s** (ação, câmera, texto). Use `tremer` + `boom` no clímax, no máximo 2 vezes.
 4. **4 a 7 falas**, 45 a 80 palavras no total (15–30 s). Números por extenso no `texto` falado; o `numero` na tela mostra em algarismos.
@@ -86,8 +87,12 @@ O espectador fica até o fim para ver a obra pronta.
   "Agora levante…", "Em cima disso, coloque…") + um fato curto que explica por que era feito assim.
 - Fala com **`"pronto": "uma base sólida"`** → no fim dela o motor mostra o selo verde "✓ UMA BASE SÓLIDA" com "ding"
   (a frase falada deve terminar com "Pronto, agora você tem uma base sólida."). Pelo menos 3 etapas com `pronto`.
-- Fala 1 = gancho que promete a obra inteira ("Vamos construir uma pirâmide do Egito do zero, do jeito que eles fizeram.").
-  Última fala = obra pronta + pergunta + isca.
+- **Nunca anuncie o que está sendo construído** (regra do Miguel): nada de "vamos construir…". A fala 1 já é a
+  1ª etapa, com um fato que ensina algo e prende ("Primeiro, cave uma vala de dois metros e encha de terra socada
+  com arroz grudento: era assim que a argamassa aguentava séculos."). O espectador vai descobrindo o que é.
+- Os `pronto` do meio nomeiam só a PARTE, sem entregar a obra ("um muro", "uma torre de vigia").
+  A **última etapa revela**: "Pronto, e assim você tem a Muralha da China." (câmera abre e mostra tudo) + pergunta + isca.
+- O título também não entrega ("Ninguém adivinha o que isso vai virar 🧱"); a obra pode aparecer na descrição.
 - Todas as peças começam com `"oculto": true` e entram com **`construir`**. A câmera **gira devagar** em volta da obra
   com `orbitar` (uma ação longa cobrindo o vídeo, ou várias), e se aproxima nos detalhes com `camera`.
 
