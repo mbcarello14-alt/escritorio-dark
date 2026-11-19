@@ -1,18 +1,6 @@
 {
-  "atualizado_em": "2026-11-19T21:39:35Z",
+  "atualizado_em": "2026-11-19T22:10:06Z",
   "ativos": {
-    "narrador": [
-      "Mapeado: Terras raras e Ormuz no Enem: quem manda no recurso?"
-    ],
-    "ilustrador": [
-      "Mapeado: Terras raras e Ormuz no Enem: quem manda no recurso?"
-    ],
-    "editor": [
-      "Mapeado: Terras raras e Ormuz no Enem: quem manda no recurso?"
-    ],
-    "clipador": [
-      "Mapeado: Terras raras e Ormuz no Enem: quem manda no recurso?"
-    ],
     "miguel": [
       "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
@@ -54,10 +42,10 @@
       "dia": "2026-11-24",
       "rotulo": "terça 24/11 17h00",
       "publicar_em_utc": "2026-11-24T20:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Terras raras e Ormuz no Enem: quem manda no recurso?",
-      "url": ""
+      "url": "https://youtu.be/auhUfT_qpWA"
     }
   ],
   "publicados": [
@@ -146,8 +134,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 28,
+    "neurons": 1540,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
