@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [3, 5], "ate": [3, 10],
+      "gancho": "Reserva grande não é produção grande",
+      "titulo": "O Brasil tem terras raras de sobra. Então por que tira tão pouco?",
+      "descricao": "Reserva, produção e uma única mina em Goiás: a confusão clássica que derruba aluno no Enem. O mapa completo está no canal Mapeado.",
+      "hashtags": ["#enem", "#geografia", "#terrasraras"],
+      "legenda_reels": "Reserva grande não quer dizer produção grande. Essa confusão derruba muita gente no Enem. Segue o perfil para mais mapas mentais. #enem #geografia #terrasraras #vestibular"
+    },
+    {
+      "de": [4, 3], "ate": [4, 8],
+      "gancho": "Quem manda no preço do pão?",
+      "titulo": "Por que a China manda nas terras raras (explicado com pão)",
+      "descricao": "Trigo, moinho e padaria explicam por que quem controla uma etapa da cadeia controla o mercado. O mapa completo está no canal Mapeado.",
+      "hashtags": ["#enem", "#geopolitica", "#china"],
+      "legenda_reels": "Se só existe um moinho no bairro, quem manda no preço do pão? A China é o moinho das terras raras. Segue o perfil para mais mapas mentais. #enem #geopolitica #china #vestibular"
+    },
+    {
+      "de": [6, 11], "ate": [7, 4],
+      "gancho": "Não é EUA nem Europa",
+      "titulo": "Para onde vai o petróleo do Estreito de Ormuz? A pegadinha do Enem",
+      "descricao": "Para onde vai o petróleo que passa por Ormuz? Muita gente erra essa. A resposta e o mapa completo estão no canal Mapeado.",
+      "hashtags": ["#enem", "#geografia", "#ormuz"],
+      "legenda_reels": "Para onde vai o petróleo que passa pelo Estreito de Ormuz? Se você chutou EUA ou Europa, caiu na pegadinha. Segue o perfil para mais mapas. #enem #geografia #ormuz #vestibular"
+    }
+  ]
+}
