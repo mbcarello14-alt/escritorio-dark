@@ -64,3 +64,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-18
 - Short com citação forte do personagem como gancho, no molde de "O imperador recusou fugir: é fogo de palha" (100 views em 47 h, contra 4 a 9 dos outros Shorts da série de Dom Pedro II); aplicar à série da Conquista Inca, checando a fala nas fontes antes.
+
+### 2026-11-19
+- Short sobre o resgate de Atahualpa (sala cheia de ouro e prata) com comparação ao presente, apontando para o longo da Conquista Inca; o Short "8 mil ou 80 mil?" já fez 216 views em 9 h. Checar fontes antes.

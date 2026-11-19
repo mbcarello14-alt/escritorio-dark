@@ -43,3 +43,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-16
 - Short "o que todo mundo acha que sabe" sobre outro clássico muito conhecido (ideias que o livro não diz), repetindo o molde do Frankenstein (462 views), com a descrição apontando para o longo do mesmo livro; checar fontes antes.
+
+### 2026-11-19
+- Shorts com fato curioso sobre o nome ou a autoria de um clássico (Frankenstein não é o nome do monstro, 462 views) em outros livros muito conhecidos; checar fontes antes.

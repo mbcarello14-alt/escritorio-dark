@@ -52,3 +52,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-18
 - Short de pegadinha de conta com o erro numérico no título, como "A conta da Unicamp que derruba por causa dos zeros" (251 views em 119 h, o melhor Short recente do canal); repetir com notação científica, potências de 10 ou unidades em Física e Química.
+
+### 2026-11-19
+- Mais Shorts no molde "a pegadinha de X que derruba no Enem" e de contradição numérica (regra de três, 845 views; Vargas e café, 712), cada um apontando para o longo do mesmo tema.

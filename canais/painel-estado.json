@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-18T23:37:47Z",
+  "atualizado_em": "2026-11-19T00:12:27Z",
   "ativos": {
     "miguel": [
       "Longo Ouro & Império: Os vikings",
@@ -134,8 +134,8 @@
     }
   ],
   "imagens": {
-    "hoje": 60,
-    "neurons": 3300,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
