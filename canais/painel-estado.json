@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-20T19:00:21Z",
+  "atualizado_em": "2026-11-20T21:28:30Z",
   "ativos": {
     "miguel": [
       "Longo Ouro & Império: Os vikings",
@@ -7,16 +7,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-20",
-      "rotulo": "sexta 20/11 18h00",
-      "publicar_em_utc": "2026-11-20T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Nuremberg: por que os Aliados desistiram de fuzilar?",
-      "url": "https://youtu.be/QYAggz7958g"
-    },
     {
       "canal": "livros",
       "dia": "2026-11-21",
@@ -49,16 +39,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-13",
-      "rotulo": "sexta 13/11 18h00",
-      "publicar_em_utc": "2026-11-13T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Proclamação da República: o dia em que o Brasil virou república sem perceber",
-      "url": "https://youtu.be/mUhLSP6ex3g"
-    },
     {
       "canal": "livros",
       "dia": "2026-11-14",
@@ -108,6 +88,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Filosofia no ENEM: Sócrates, Platão ou Aristóteles?",
       "url": "https://youtu.be/BT3HCOIgAdc"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-11-20",
+      "rotulo": "sexta 20/11 18h00",
+      "publicar_em_utc": "2026-11-20T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Nuremberg: por que os Aliados desistiram de fuzilar?",
+      "url": "https://youtu.be/QYAggz7958g"
     }
   ],
   "canais": [
@@ -116,7 +106,7 @@
       "nome": "Ouro & Império",
       "inscritos": 10,
       "horas": 29.3,
-      "publicados": 7
+      "publicados": 8
     },
     {
       "id": "vestibular",
