@@ -46,3 +46,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-19
 - Shorts com fato curioso sobre o nome ou a autoria de um clássico (Frankenstein não é o nome do monstro, 462 views) em outros livros muito conhecidos; checar fontes antes.
+
+### 2026-11-20
+- Short de curiosidade sobre nome, autoria ou paratexto de clássicos muito conhecidos, no molde de Frankenstein (462 views); checar fontes antes.

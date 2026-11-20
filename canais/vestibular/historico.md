@@ -55,3 +55,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-19
 - Mais Shorts no molde "a pegadinha de X que derruba no Enem" e de contradição numérica (regra de três, 845 views; Vargas e café, 712), cada um apontando para o longo do mesmo tema.
+
+### 2026-11-20
+- Shorts de pegadinha com erro numérico no título (notação científica, potências de 10, unidades) em Física e Química, no molde da conta da Unicamp (251 views) e da regra de três (845).

@@ -67,3 +67,7 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-19
 - Short sobre o resgate de Atahualpa (sala cheia de ouro e prata) com comparação ao presente, apontando para o longo da Conquista Inca; o Short "8 mil ou 80 mil?" já fez 216 views em 9 h. Checar fontes antes.
+
+### 2026-11-20
+- Short e longo sobre o "Pix medieval" em outros sistemas de crédito antigos (letras de câmbio, banqueiros italianos), no molde do Short dos Templários que fez 1.259 views; checar fontes antes.
+- Short de contradição numérica sobre exércitos ou contagens históricas, no molde "8 mil ou 80 mil?" (529 views em 33 h); checar fontes antes.
