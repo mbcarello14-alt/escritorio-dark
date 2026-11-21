@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-21T16:30:27Z",
+  "atualizado_em": "2026-11-21T17:55:13Z",
   "ativos": {
     "miguel": [
       "Longo Ouro & Império: Os vikings",
@@ -95,13 +95,13 @@
       "id": "historia",
       "nome": "Ouro & Império",
       "inscritos": 10,
-      "horas": 29.3,
+      "horas": 39.0,
       "publicados": 8
     },
     {
       "id": "vestibular",
       "nome": "Mapeado",
-      "inscritos": 13,
+      "inscritos": 14,
       "horas": 25.7,
       "publicados": 7
     },
@@ -109,7 +109,7 @@
       "id": "livros",
       "nome": "Marca-Página",
       "inscritos": 9,
-      "horas": 17.6,
+      "horas": 17.7,
       "publicados": 8
     }
   ],
