@@ -71,3 +71,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 ### 2026-11-20
 - Short e longo sobre o "Pix medieval" em outros sistemas de crédito antigos (letras de câmbio, banqueiros italianos), no molde do Short dos Templários que fez 1.259 views; checar fontes antes.
 - Short de contradição numérica sobre exércitos ou contagens históricas, no molde "8 mil ou 80 mil?" (529 views em 33 h); checar fontes antes.
+
+### 2026-11-21
+- Short de contradição numérica sobre o tamanho do exército de Napoleão na Rússia, no molde de "8 mil ou 80 mil?" (920 views), apontando para o longo de 23/11; checar fontes antes.

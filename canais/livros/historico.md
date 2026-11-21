@@ -49,3 +49,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-20
 - Short de curiosidade sobre nome, autoria ou paratexto de clássicos muito conhecidos, no molde de Frankenstein (462 views); checar fontes antes.
+
+### 2026-11-21
+- Série de Shorts sobre o que best-sellers famosos afirmam e o que não provam (no molde de Pai Rico Pai Pobre), com a pergunta no título e apontando para o longo; sem dar conselho de finanças ou de vida.

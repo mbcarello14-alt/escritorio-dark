@@ -58,3 +58,6 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-20
 - Shorts de pegadinha com erro numérico no título (notação científica, potências de 10, unidades) em Física e Química, no molde da conta da Unicamp (251 views) e da regra de três (845).
+
+### 2026-11-21
+- Short de pegadinha com pergunta no título em Geografia (petróleo do Estreito de Ormuz ou terras raras), no molde da regra de três (845 views), apontando para o longo da semana.
