@@ -1,0 +1,62 @@
+{
+  "canal": "vestibular",
+  "formato": "jogo",
+  "titulo": "Tire print: qual é a sua nota na redação do ENEM?",
+  "descricao": "Redação do ENEM: são cinco competências de até 200 pontos cada, somando 1000. Tire print da nota que sair e comente.",
+  "hashtags": ["#enem", "#redacao", "#vestibular"],
+  "legenda_reels": "Nota mil na redação do ENEM = cinco competências de 200 pontos. Tire print da nota que saiu pra você! Comenta a sua nota. #enem #redacao #vestibular",
+  "isca": "Comenta a sua nota",
+  "cenario": {"ceu": "#bfe3f7", "chao": "#86c06c", "cidade": false, "arvores": 0, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 3.2, 0]},
+  "objetos": [
+    {"id": "lousa", "tipo": "lousa", "pos": [0, 0, -4]},
+    {"id": "prof", "tipo": "boneco", "pos": [-2.6, 0, 1], "rot": 25, "escala": 0.8, "cor": "#3b6fd4", "fala": true},
+    {"id": "aviso", "tipo": "texto", "texto": "5 × 200 = 1000", "cor": "#ffffff", "fundo": "#2b6cb0", "tam": 1.0, "pos": [0, 0.72], "oculto": true}
+  ],
+  "jogo": {
+    "tipo": "print",
+    "item": "carta",
+    "pos": [0, 0.1],
+    "inicio": {"fala": 1, "t": 0.0},
+    "itens": [
+      {"emoji": "✍️", "texto": "400", "sub": "pontos", "cor": "#c0392b"},
+      {"emoji": "📝", "texto": "480", "sub": "pontos", "cor": "#d35400"},
+      {"emoji": "📖", "texto": "560", "sub": "pontos", "cor": "#e67e22"},
+      {"emoji": "✍️", "texto": "600", "sub": "pontos", "cor": "#f1c40f"},
+      {"emoji": "📝", "texto": "640", "sub": "pontos", "cor": "#a3b92a"},
+      {"emoji": "📖", "texto": "720", "sub": "pontos", "cor": "#27ae60"},
+      {"emoji": "✍️", "texto": "760", "sub": "pontos", "cor": "#16a085"},
+      {"emoji": "📝", "texto": "800", "sub": "pontos", "cor": "#2980b9"},
+      {"emoji": "📖", "texto": "840", "sub": "pontos", "cor": "#2c3e50"},
+      {"emoji": "✍️", "texto": "880", "sub": "pontos", "cor": "#8e44ad"},
+      {"emoji": "📝", "texto": "920", "sub": "pontos", "cor": "#c0392b"},
+      {"emoji": "🏆", "texto": "960", "sub": "pontos", "cor": "#d4a017"},
+      {"emoji": "🏆", "texto": "1000", "sub": "NOTA MIL", "cor": "#d4a017"},
+      {"emoji": "📖", "texto": "520", "sub": "pontos", "cor": "#e67e22"},
+      {"emoji": "📝", "texto": "680", "sub": "pontos", "cor": "#27ae60"},
+      {"emoji": "✍️", "texto": "940", "sub": "pontos", "cor": "#8e44ad"}
+    ]
+  },
+  "falas": [
+    {"texto": "Nota mil na redação são cinco competências de duzentos pontos.", "acoes": [
+      {"t": 0.0, "alvo": "aviso", "acao": "aparecer", "som": "pop"},
+      {"t": 0.4, "alvo": "prof", "acao": "acenar"}
+    ]},
+    {"texto": "Tire print agora: essa é a sua nota!", "acoes": [
+      {"t": 0.0, "alvo": "aviso", "acao": "texto", "texto": "TIRE PRINT AGORA!"},
+      {"t": 0.3, "alvo": "prof", "acao": "pular", "altura": 0.6, "som": "whoosh"}
+    ]},
+    {"texto": "A pegadinha: fugir do tema zera tudo, mesmo escrevendo bonito.", "acoes": [
+      {"t": 0.0, "alvo": "aviso", "acao": "texto", "texto": "FUGIU DO TEMA?\nZERO!"},
+      {"t": 1.5, "alvo": "prof", "acao": "acenar"}
+    ]},
+    {"texto": "Pouquíssima gente tira mil. Será que é você?", "acoes": [
+      {"t": 0.0, "alvo": "aviso", "acao": "texto", "texto": "SERÁ QUE É VOCÊ?"},
+      {"t": 1.0, "alvo": "prof", "acao": "girar", "voltas": 1, "som": "whoosh"}
+    ]},
+    {"texto": "Qual nota saiu pra você? Comenta a sua nota!", "acoes": [
+      {"t": 0.0, "alvo": "aviso", "acao": "texto", "texto": "Comenta\nA SUA NOTA"},
+      {"t": 0.3, "alvo": "prof", "acao": "pular", "altura": 0.8, "som": "ding"}
+    ]}
+  ]
+}

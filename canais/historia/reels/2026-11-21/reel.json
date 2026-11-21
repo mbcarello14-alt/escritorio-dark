@@ -1,0 +1,237 @@
+{
+  "canal": "historia",
+  "titulo": "Tire print: qual império você comandaria? 👑",
+  "descricao": "Jogo de print: a esteira de impérios passa voando e o que cair na moldura é o seu. Áreas no auge segundo listas de historiadores; os números variam.",
+  "hashtags": [
+    "#historia",
+    "#imperios",
+    "#jogo"
+  ],
+  "legenda_reels": "Tire print e veja qual império caiu pra você! 👑 Comenta qual foi. #historia #imperios #jogo",
+  "isca": "Comenta o império que saiu no seu print",
+  "cenario": {
+    "ceu": "#f2b564",
+    "chao": "#c98b4a",
+    "cidade": true,
+    "arvores": 0,
+    "nuvens": true,
+    "sol": true
+  },
+  "camera": {
+    "pos": [
+      0,
+      5,
+      15
+    ],
+    "olha": [
+      0,
+      3.2,
+      0
+    ]
+  },
+  "objetos": [
+    {
+      "id": "coroa",
+      "tipo": "esfera",
+      "tam": 1.0,
+      "cor": "#ffd23f",
+      "pos": [
+        -2.6,
+        5.2,
+        -3
+      ],
+      "oculto": true
+    },
+    {
+      "id": "titulo",
+      "tipo": "texto",
+      "texto": "QUAL IMPÉRIO\nVOCÊ COMANDARIA?",
+      "cor": "#ffffff",
+      "fundo": "#7a1f2b",
+      "tam": 1.1,
+      "pos": [
+        0,
+        0.72
+      ],
+      "oculto": true
+    },
+    {
+      "id": "aviso",
+      "tipo": "texto",
+      "texto": "TIRE PRINT AGORA!",
+      "cor": "#ffd23f",
+      "fundo": "#222222",
+      "tam": 1.0,
+      "pos": [
+        0,
+        0.72
+      ],
+      "oculto": true
+    }
+  ],
+  "jogo": {
+    "tipo": "print",
+    "item": "carta",
+    "pos": [
+      0,
+      0.1
+    ],
+    "inicio": {
+      "fala": 2,
+      "t": 0
+    },
+    "itens": [
+      {
+        "emoji": "🇬🇧",
+        "texto": "Império Britânico",
+        "sub": "35,5 mi km² em 1920",
+        "cor": "#1f3a7a"
+      },
+      {
+        "emoji": "🐎",
+        "texto": "Império Mongol",
+        "sub": "24 mi km² de estepe a mar",
+        "cor": "#2e6f8e"
+      },
+      {
+        "emoji": "❄️",
+        "texto": "Império Russo",
+        "sub": "22,8 mi km² em 1895",
+        "cor": "#5a3a8a"
+      },
+      {
+        "emoji": "⚓",
+        "texto": "Império Espanhol",
+        "sub": "13,7 mi km² em 1810",
+        "cor": "#b8472a"
+      },
+      {
+        "emoji": "🦁",
+        "texto": "Império Persa",
+        "sub": "5,5 mi km² em 500 a.C.",
+        "cor": "#8a6a1f"
+      },
+      {
+        "emoji": "⚔️",
+        "texto": "Alexandre, o Grande",
+        "sub": "5,2 mi km² em 323 a.C.",
+        "cor": "#2f7d5b"
+      },
+      {
+        "emoji": "🌙",
+        "texto": "Império Otomano",
+        "sub": "5,2 mi km² em 1683",
+        "cor": "#a02a2a"
+      },
+      {
+        "emoji": "🏛️",
+        "texto": "Império Romano",
+        "sub": "5 mi km² em 117 d.C.",
+        "cor": "#7a1f2b"
+      },
+      {
+        "emoji": "🏔️",
+        "texto": "Império Inca",
+        "sub": "2 mi km² em 1527",
+        "cor": "#3e7a3a"
+      },
+      {
+        "emoji": "🔺",
+        "texto": "Egito dos Faraós",
+        "sub": "3 mil anos de história",
+        "cor": "#c9962a"
+      }
+    ]
+  },
+  "falas": [
+    {
+      "texto": "Tire print agora e descubra qual império você comandaria!",
+      "acoes": [
+        {
+          "t": 0,
+          "alvo": "titulo",
+          "acao": "aparecer",
+          "som": "pop"
+        },
+        {
+          "t": 0.3,
+          "alvo": "coroa",
+          "acao": "aparecer"
+        }
+      ]
+    },
+    {
+      "texto": "Os maiores impérios da história passam voando nesta esteira, do Britânico ao Mongol.",
+      "acoes": [
+        {
+          "t": 0,
+          "alvo": "titulo",
+          "acao": "sumir"
+        },
+        {
+          "t": 0.1,
+          "alvo": "aviso",
+          "acao": "aparecer",
+          "som": "ding"
+        },
+        {
+          "t": 0.3,
+          "alvo": "coroa",
+          "acao": "pular",
+          "altura": 1
+        }
+      ]
+    },
+    {
+      "texto": "Olha só o que caiu na moldura: esse é o império que o seu print sorteou.",
+      "acoes": [
+        {
+          "t": 0,
+          "alvo": "coroa",
+          "acao": "girar",
+          "voltas": 1
+        },
+        {
+          "t": 0.8,
+          "alvo": "aviso",
+          "acao": "escalar",
+          "para": 1.2
+        }
+      ]
+    },
+    {
+      "texto": "Cada um deles dominou milhões de quilômetros quadrados no auge, e você agora é o imperador.",
+      "acoes": [
+        {
+          "t": 0,
+          "alvo": "coroa",
+          "acao": "pular",
+          "altura": 1.5
+        },
+        {
+          "t": 0.6,
+          "acao": "tremer",
+          "forca": 0.3,
+          "som": "boom"
+        }
+      ]
+    },
+    {
+      "texto": "Comenta o império que saiu no seu print.",
+      "acoes": [
+        {
+          "t": 0,
+          "alvo": "aviso",
+          "acao": "texto",
+          "texto": "COMENTA O IMPÉRIO!"
+        },
+        {
+          "t": 0.3,
+          "alvo": "coroa",
+          "acao": "girar",
+          "voltas": 2
+        }
+      ]
+    }
+  ]
+}
