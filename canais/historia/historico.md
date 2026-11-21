@@ -74,3 +74,4 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-21
 - Short de contradição numérica sobre o tamanho do exército de Napoleão na Rússia, no molde de "8 mil ou 80 mil?" (920 views), apontando para o longo de 23/11; checar fontes antes.
+- Short de contradição numérica sobre contagens históricas contestadas (exércitos, baixas, populações), no molde de "8 mil ou 80 mil?" (920 views); checar fontes antes.

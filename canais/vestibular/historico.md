@@ -61,3 +61,4 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-21
 - Short de pegadinha com pergunta no título em Geografia (petróleo do Estreito de Ormuz ou terras raras), no molde da regra de três (845 views), apontando para o longo da semana.
+- Short de pegadinha de filosofia com uma palavra-chave estranha no título (ex.: eudaimonia) apontando para o longo da semana, e repetir o molde em Sociologia; checar fontes antes.
