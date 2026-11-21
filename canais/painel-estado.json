@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-21T04:07:34Z",
+  "atualizado_em": "2026-11-21T16:30:27Z",
   "ativos": {
     "miguel": [
       "Longo Ouro & Império: Os vikings",
@@ -7,16 +7,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-21",
-      "rotulo": "sábado 21/11 11h00",
-      "publicar_em_utc": "2026-11-21T14:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Vidas Secas: por que a morte da Baleia dói tanto",
-      "url": "https://youtu.be/CNrOdcwwu-w"
-    },
     {
       "canal": "historia",
       "dia": "2026-11-23",
@@ -39,16 +29,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-14",
-      "rotulo": "sábado 14/11 11h00",
-      "publicar_em_utc": "2026-11-14T14:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Quarto de Despejo, de Carolina Maria de Jesus: resumo e análise",
-      "url": "https://youtu.be/9cIgCjdnEio"
-    },
     {
       "canal": "historia",
       "dia": "2026-11-16",
@@ -98,6 +78,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Nuremberg: por que os Aliados desistiram de fuzilar?",
       "url": "https://youtu.be/QYAggz7958g"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-21",
+      "rotulo": "sábado 21/11 11h00",
+      "publicar_em_utc": "2026-11-21T14:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Vidas Secas: por que a morte da Baleia dói tanto",
+      "url": "https://youtu.be/CNrOdcwwu-w"
     }
   ],
   "canais": [
@@ -120,7 +110,7 @@
       "nome": "Marca-Página",
       "inscritos": 9,
       "horas": 17.6,
-      "publicados": 7
+      "publicados": 8
     }
   ],
   "imagens": {
