@@ -161,8 +161,8 @@ async function oauthRetorno(url, env) {
     { headers: { authorization: `Bearer ${tok.access_token}` } })).json();
   const titulo = ch.items?.[0]?.snippet?.title || "(canal sem nome)";
   const idCanal = ch.items?.[0]?.id || "";
-  // guarda o acesso criptografado no repositório (a chave sai do GH_PAT, que só o GitHub e o worker conhecem)
-  const chave = await crypto.subtle.importKey("raw", await sha256(`${env.GH_PAT}:youtube`), "AES-GCM", false, ["encrypt"]);
+  // guarda o acesso criptografado no repositório (a chave sai do YT_CLIENT_SECRET, que só o GitHub e o worker conhecem)
+  const chave = await crypto.subtle.importKey("raw", await sha256(`${env.YT_CLIENT_SECRET}:youtube`), "AES-GCM", false, ["encrypt"]);
   const iv = crypto.getRandomValues(new Uint8Array(12));
   const dado = new Uint8Array(await crypto.subtle.encrypt({ name: "AES-GCM", iv }, chave, new TextEncoder().encode(tok.refresh_token)));
   const conteudo = JSON.stringify({ canal, titulo_youtube: titulo, id_canal: idCanal, iv: b64(iv), dado: b64(dado),

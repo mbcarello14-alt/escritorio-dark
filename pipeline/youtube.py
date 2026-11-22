@@ -21,13 +21,45 @@ def _do_repositorio(nome_segredo: str) -> str:
     from pathlib import Path
     canal = nome_segredo.replace("YT_REFRESH_", "").lower()
     arq = Path(__file__).resolve().parent.parent / "canais" / "credenciais" / f"{canal}.json"
-    pat = os.environ.get("GH_PAT", "")
-    if not (arq.exists() and pat):
+    if not arq.exists():
         return ""
     from cryptography.hazmat.primitives.ciphers.aead import AESGCM
     d = json.loads(arq.read_text(encoding="utf-8"))
-    chave = hashlib.sha256(f"{pat}:youtube".encode()).digest()
-    return AESGCM(chave).decrypt(base64.b64decode(d["iv"]), base64.b64decode(d["dado"]), None).decode()
+    for chave in _chaves():
+        try:
+            return AESGCM(chave).decrypt(base64.b64decode(d["iv"]), base64.b64decode(d["dado"]), None).decode()
+        except Exception:
+            continue
+    return ""
+
+
+def _chaves() -> list[bytes]:
+    """Chave atual: do YT_CLIENT_SECRET (não muda quando o token do GitHub é renovado). Antiga: do GH_PAT."""
+    import hashlib
+    out = []
+    for nome in ("YT_CLIENT_SECRET", "GH_PAT"):
+        v = os.environ.get(nome, "").strip()
+        if v:
+            out.append(hashlib.sha256(f"{v}:youtube".encode()).digest())
+    return out
+
+
+def migrar_credenciais() -> None:
+    """Recriptografa canais/credenciais/*.json com a chave do YT_CLIENT_SECRET (rode ANTES de trocar o GH_PAT)."""
+    import base64
+    from pathlib import Path
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    nova = _chaves()[0]
+    for arq in sorted((Path(__file__).resolve().parent.parent / "canais" / "credenciais").glob("*.json")):
+        tok = _do_repositorio("YT_REFRESH_" + arq.stem.upper())
+        if not tok:
+            print(f"❌ {arq.stem}: não consegui abrir"); continue
+        d = json.loads(arq.read_text(encoding="utf-8"))
+        iv = os.urandom(12)
+        d.update(iv=base64.b64encode(iv).decode(), dado=base64.b64encode(AESGCM(nova).encrypt(iv, tok.encode(), None)).decode(),
+                 chave="yt_client_secret")
+        arq.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"✅ {arq.stem}: recriptografado")
 
 
 def credenciais(nome_segredo: str):
