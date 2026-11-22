@@ -1,12 +1,21 @@
 {
   "video_id": "BT3HCOIgAdc",
   "janelas": {},
-  "parcial": {},
+  "parcial": {
+    "views": 2,
+    "estimatedMinutesWatched": 1,
+    "averageViewDuration": 31,
+    "averageViewPercentage": 4.09,
+    "subscribersGained": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0
+  },
   "canal": {
-    "viewCount": "9798",
+    "viewCount": "9816",
     "subscriberCount": "14",
     "hiddenSubscriberCount": false,
-    "videoCount": "37"
+    "videoCount": "38"
   },
-  "atualizado_em": "2026-11-21T17:55:10+00:00"
+  "atualizado_em": "2026-11-22T18:21:13+00:00"
 }
