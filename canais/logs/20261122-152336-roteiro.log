@@ -1,0 +1,175 @@
+comando: /roteiro canais/vestibular/videos/2026-11-26
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-26 && ls && cat estado.json && cat pautas.json && ls ../../ && tail -5 /dev/null"}
+❌ This Bash command contains multiple operations. The following parts require approval: ls ../../, tail -5 /dev/null
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-11-26 && ls && cat estado.json pautas.json"}
+🔧 Agent {"description": "Dossiê Fuvest redação", "subagent_type": "pesquisador-vestibular", "prompt": "Etapa 2 (dossiê). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-
+💬 Dossiê em andamento com o pesquisador do Mapeado; aguardo o retorno para seguir ao roteiro.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 WebSearch {"query": "Fuvest redação segunda fase critérios de correção manual do candidato", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.fuvest.br/wp-content/uploads/simulado2027-2edicao-redacao-criterio_pesos.pdf", "prompt": "Extraia todos os critérios de correção da redação, pesos, escala de notas, níveis/descrit
+🔧 WebFetch {"url": "https://www.fuvest.br/wp-content/uploads/fuvest2027-guia-provas.pdf", "prompt": "Extraia tudo sobre a redação da 2ª fase: pontuação, critérios, gêneros, número de linhas, tempo, datas da 2ª f
+🔧 WebFetch {"url": "https://jornal.usp.br/?p=979719", "prompt": "Resuma os critérios de correção da redação da Fuvest, a escala, quantos corretores, e o que diferencia nota máxima. Dados e datas."}
+🔧 WebFetch {"url": "https://www.fuvest.br/?p=60787", "prompt": "Extraia os critérios de correção do Simulado de Redação 2025 (quatro quesitos), pesos e escala."}
+🔧 WebFetch {"url": "https://www.band.com.br/educacao/fuvest-divulga-cronograma-do-vestibular-2027-veja-datas-e-mudancas", "prompt": "Datas da 2ª fase da Fuvest 2027, divulgação de convocados, resultado, mudanças
+🔧 Read {"file_path": "/home/runner/.claude/projects/-home-runner-work-escritorio-dark-escritorio-dark/a9884209-1c19-498b-a01b-4e7d634422b4/tool-results/webfetch-1795361033018-h344zu.pdf", "pages": "1-3"}
+❌ pdftoppm is not installed. Install poppler-utils (e.g. `brew install poppler` or `apt-get install poppler-utils`) to enable PDF page rendering.
+🔧 Read {"file_path": "/home/runner/.claude/projects/-home-runner-work-escritorio-dark-escritorio-dark/a9884209-1c19-498b-a01b-4e7d634422b4/tool-results/webfetch-1795361034290-oty2hw.pdf", "pages": "1"}
+❌ pdftoppm is not installed. Install poppler-utils (e.g. `brew install poppler` or `apt-get install poppler-utils`) to enable PDF page rendering.
+🔧 WebSearch {"query": "Fuvest 2027 segunda fase 6 e 7 de dezembro redação datas calendário", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.fuvest.br/?p=70859", "prompt": "Datas completas do cronograma Fuvest 2027: 1ª fase, convocados, 2ª fase (dias e provas), resultado, matrícula."}
+🔧 WebFetch {"url": "https://www.cnnbrasil.com.br/educacao/redacao-da-fuvest-2025-saiba-como-e-feita-a-correcao/", "prompt": "Critérios de correção, escala, pesos, número de corretores, nota zero, tempo e linhas.
+🔧 WebFetch {"url": "https://querobolsa.com.br/revista/o-que-esperar-do-tema-de-redacao-da-fuvest-2027", "prompt": "Que gêneros/propostas, critérios da Fuvest 2027, simulado, pesos, nota zero, linhas, tempo. Data
+🔧 WebFetch {"url": "https://www.fuvest.br/simulado-fuvest-2027-fuvest-divulga-prova-e-criterios-para-correcao-das-redacoes-do-simulado/", "prompt": "Critérios de correção das redações do simulado: quesitos, peso
+🔧 WebSearch {"query": "Fuvest 2027 redação critérios \"tema, coletânea e autoria\" peso 3 gênero estrutura coesão norma-padrão", "mode": "standard"}
+🔧 WebFetch {"url": "https://querobolsa.com.br/revista/redacao-fuvest-2026-novidades", "prompt": "Novidades da redação Fuvest 2026: critérios, pesos, escala, gêneros, linhas, nota zero, número de corretores, data
+🔧 WebFetch {"url": "https://www.cnnbrasil.com.br/educacao/fuvest-2026-saiba-como-obter-a-pontuacao-maxima-na-redacao/", "prompt": "Critérios, pesos, escala, o que dá pontuação máxima, linhas, gênero, data."}
+🔧 WebFetch {"url": "https://www.fuvest.br/simulado-fuvest-2027-fuvest-divulga-hoje-as-notas-da-redacao-do-simulado/", "prompt": "Datas, número de redações, distribuição de notas, critérios, zeros, qualquer dado 
+🔧 WebFetch {"url": "https://www.spesedu.com.br/redacao-fuvest-2027", "prompt": "Critérios de correção da redação Fuvest 2027 com pesos e escala, níveis, descritores, linhas, tempo, nota zero."}
+🔧 WebFetch {"url": "https://querobolsa.com.br/revista/motivos-zeram-redacao-fuvest", "prompt": "Motivos que zeram a redação da Fuvest, dados de quantas redações zeradas, anos, fontes."}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/02-dossie.md", "content": "# Dossiê — Mapeado — \"Redação da Fuvest: o mapa do que o corretor avali
+💬 Escrevi o dossiê em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/02-dossie.md`, mas não consegui ler os dois PDFs oficiais da Fuvest. Os critérios, os pesos e a escala vêm de páginas do site da Fuvest sobre o simulado, do Jornal da USP e da imprensa.
+
+**O que o dossiê traz**
+- **Estrutura:** linha do tempo, 10 fatos numerados com fonte e confiança, números, personagens, controvérsias, ganchos, material visual e pendências para o checador.
+- **Datas:** a 2ª fase é em 6 e 7/12/2026, com a redação no dia 6 às 13h. A fonte é o cronograma no site da Fuvest.
+🔧 Agent {"description": "Roteiro Fuvest redação", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26. Leia estado
+💬 O roteirista do Mapeado está escrevendo o roteiro. Quando ele terminar, sigo para a checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Redação da Fuvest: o mapa do que o correto
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md", "content": "# Roteiro — Mapeado — quinta 26/11/2026 17h00\n**Título provisório:** R
+💬 Escrevi o roteiro e ele está pronto para ir ao checador. São 9 blocos, com cerca de 1.780 palavras, o que dá uns 11 min 50 s a 150 palavras por minuto. Fica dentro do alvo de 8 a 12 minutos, mas perto do limite. Contei as palavras à mão, então os números são aproximados. Não mexi no `estado.json`.
+
+**Como o roteiro está montado**
+- **Abertura:** começa direto pela pegadinha: quem não marca na folha o gênero escolhido tira zero. A linha do tempo do bloco 1 ao 9 é: caixinha que zera, o aluno Caio e a folha, correção cega e pesos, ramo vermelho (tema, coletânea e autoria), ramo azul (modalidade),
+🔧 Agent {"description": "Checagem do roteiro", "subagent_type": "checador", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26. Confira cada afirmação de 0
+💬 O checador está conferindo as afirmações do roteiro. Aguardo o veredito.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/02-dossie.md"}
+🔧 WebFetch {"url": "https://www.fuvest.br/wp-content/uploads/simulado2027-2edicao-redacao-criterio_pesos.pdf", "prompt": "Liste os quesitos de correção da redação, escala de notas, pesos e conversão para pontos.
+🔧 WebFetch {"url": "https://www.fuvest.br/wp-content/uploads/fuvest2027-guia-provas.pdf", "prompt": "Datas da 2ª fase, redação: quesitos, pesos, escala, pontuação, regra do gênero não marcado, intervenção, nota 
+🔧 WebFetch {"url": "https://jornal.usp.br/?p=979719", "prompt": "Quesitos, escala 1 a 4, pesos, descrição do nível máximo, nota zero, correção por dois corretores e terceiro, 50 pontos."}
+🔧 WebFetch {"url": "https://www.fuvest.br/simulado-fuvest-2027-fuvest-divulga-hoje-as-notas-da-redacao-do-simulado/", "prompt": "Quesitos, pesos, enunciado das duas opções da redação do simulado, datas, regra de
+🔧 WebFetch {"url": "https://querobolsa.com.br/revista/redacao-fuvest-2026-novidades", "prompt": "Quais as modalidades da redação Fuvest 2026, gêneros narrativos citados, marcação do gênero na folha e nota zero, 
+🔧 WebFetch {"url": "https://www.cnnbrasil.com.br/educacao/fuvest-2026-saiba-como-obter-a-pontuacao-maxima-na-redacao/", "prompt": "Pontuação da redação (50 de 200?), modalidades, gêneros narrativos, marcar gêner
+🔧 WebFetch {"url": "https://querobolsa.com.br/revista/o-que-esperar-do-tema-de-redacao-da-fuvest-2027", "prompt": "Data da prova de redação Fuvest 2027, critérios, pesos, modalidades, marcar gênero, pontos."}
+🔧 WebFetch {"url": "https://www.cnnbrasil.com.br/educacao/redacao-da-fuvest-2025-saiba-como-e-feita-a-correcao/", "prompt": "Quantos pontos vale a redação e qual o total da 2ª fase? Correção por dois corretores,
+🔧 WebSearch {"query": "Fuvest segunda fase pontuação total 200 pontos redação 50 pontos Português dia 1", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.fuvest.br/fuvest2026-fase2-dia1-prova.pdf", "prompt": "Enunciado da redação: quais as duas propostas (dissertação e qual gênero narrativo/carta), instrução sobre marcar a proposta
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/04-checagem.md", "content": "# Checagem — Mapeado — \"Redação da Fuvest: o mapa do que o corretor a
+💬 Veredito: **CORRIGIR**. Escrevi a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/04-checagem.md`.
+
+**PDFs oficiais da Fuvest:** não consegui ler nenhum. O critério/pesos do simulado, o Guia de Provas 2027 e a prova de 2026 são PDFs de imagem, e a extração só devolveu metadados. Os pesos de 2027 continuam sem confirmação na fonte primária, e o Miguel precisa abrir os PDFs antes de publicar.
+
+**O que confirmei por outras fontes**
+- **Gênero não marcado:** a regra do zero está confirmada. O Quero Bolsa cita o Guia de Provas 2027 literalmente: "S
+🔧 SendMessage {"to": "a2c002afb74150a13", "summary": "Aplicar correções do checador (volta 1)", "message": "Volta 1 do checador: leia 04-checagem.md na pasta e aplique as 6 correções em 03-roteiro.md e roteiro.json
+💬 Pedi ao roteirista as seis correções do checador. Aguardo.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/04-checagem.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Redação da Fuvest: o mapa do que o correto
+💬 Agora o 03-roteiro.md, com os mesmos textos e a lista de mudanças.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md", "content": "# Roteiro — Mapeado — quinta 26/11/2026 17h00\n**Título provisório:** R
+💬 Apliquei as 6 correções da volta 1 do checador no `03-roteiro.md` e no `roteiro.json`. O roteiro ficou com cerca de 1.800 palavras, uns 12 minutos. Contei à mão, por bloco, então o número é aproximado. Também não validei o JSON com nenhuma ferramenta; ele foi escrito sem aspas duplas dentro dos textos dos blocos.
+
+1. **Pesos:** o bloco 3 agora avisa que, no modelo de 2026 descrito pelo Jornal da USP, o segundo quesito se chamava "estrutura dissertativa". Avisa também que no simulado de 2027 a Fuvest fala em "atendimento à modalidade" e que o guia de 2027 pode ter mudado os pesos.
+   - O ramo a
+💬 Segunda checagem (última volta permitida) e validação do JSON em paralelo.
+🔧 Agent {"description": "Rechecagem do roteiro", "subagent_type": "checador", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26. Volta 1 já aplicada pelo 
+🔧 Bash {"command": "python3 -c \"import json;d=json.load(open('roteiro.json'));print(d['titulo_provisorio']);print(len(d['blocos']),sum(len(b['texto'].split()) for b in d['blocos']))\""}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/04-checagem.md"}
+💬 O JSON é válido: 9 blocos e 1.708 palavras. Aguardo a segunda checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/roteiro.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/04-checagem.md", "content": "# Checagem — Mapeado — \"Redação da Fuvest: o mapa do que o corretor a
+💬 **Veredito: APROVADO**, com a pendência dos PDFs da Fuvest registrada. Atualizei `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/04-checagem.md`.
+
+- **As 6 correções foram feitas.** `03-roteiro.md` e `roteiro.json` têm o mesmo texto.
+  - Pesos: o aviso do bloco 3 diz que 3/2/3/2 vêm do Jornal da USP e valem para o modelo 2026. Também diz que o 2º quesito mudou de nome e que o guia de 2027 pode ter mudado os pesos. O ramo azul não tem mais "peso dois" cravado, e a tese e o bloco 9 dizem "uns pesando mais que outros".
+  - Gêneros narrativos: o bloco 2 os at
+🔧 Agent {"description": "Originalidade do roteiro", "subagent_type": "guardiao-originalidade", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26 (canal Ma
+💬 O guardião de originalidade está avaliando o roteiro. Aguardo o semáforo.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/roteiro.json", "limit": 40}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/05-originalidade.md", "content": "# Originalidade — Mapeado — \"Redação da Fuvest: o mapa do que o 
+💬 Semáforo 🟡: o roteiro pode seguir, mas a opinião real do Miguel precisa entrar antes de gravar. O arquivo está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/05-originalidade.md`.
+
+**Notas (0–10)**
+- **Variação, 8:** a estrutura é própria: abre pela pegadinha, corrige um aluno fictício (o Caio) com quatro canetas, usa uma balança de pesos e testa o mapa numa proposta real do simulado. Os vídeos do histórico seguem outro molde. O risco é o "pegadinha + ramos coloridos" virar template fixo em todo vídeo do canal.
+- **Valor próprio, 7:** o vídeo reúne fo
+🔧 SendMessage {"to": "a2c002afb74150a13", "summary": "Volta única de originalidade", "message": "Leia 05-originalidade.md (🟡). Aplique só o que não depende do Miguel, sem mexer em fatos já checados nem nas chamadas
+💬 Pedi a última volta ao roteirista; depois confiro engajamento e nicho e atualizo o `estado.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/05-originalidade.md"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/roteiro.json", "old_string": "Antes, um aviso honesto sobre os pesos.", "new_
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/roteiro.json", "old_string": "Aqui mora o zero mais bobo da prova.", "new_str
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/roteiro.json", "old_string": "É aqui que mora a norma-padrão:", "new_string":
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/roteiro.json", "old_string": "Minha opinião: decide antes da prova qual camin
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/roteiro.json", "old_string": "  \"resumo_checagem\": \"Provisório: volta 1 do
+💬 Agora o 03-roteiro.md.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md", "old_string": "Antes, um aviso honesto sobre os pesos.", "new
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md", "old_string": "Aqui mora o zero mais bobo da prova.", "new_st
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md", "old_string": "É aqui que mora a norma-padrão:", "new_string"
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md", "old_string": "Minha opinião: decide antes da prova qual cami
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md", "old_string": "**nota_miguel:** vazia. A opinião autoral entr
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md", "old_string": "7. **Cortes para caber em ~1.800 palavras:**",
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-26/03-roteiro.md", "old_string": "e \"Mas mapa bom é mapa testado\" (bloco 7).",
+💬 Apliquei os ajustes do `05-originalidade.md` que não dependem do Miguel, nos dois arquivos. Não alterei fatos checados nem as chamadas de engajamento. Não rodei nenhum validador no `roteiro.json`. Os textos novos não têm aspas duplas, então o JSON deve continuar válido.
+
+**Mudanças no texto**
+- **Bloco 3:** "um aviso honesto sobre os pesos" virou "um aviso sobre os pesos: não consegui confirmar isso no PDF oficial."
+- **Bloco 5:** "Aqui mora o zero mais bobo da prova" virou "O zero mais bobo da prova está aqui."
+- **Bloco 7:** "É aqui que mora a norma-padrão" virou "A norma-padrão entra aqui."
+🔧 Bash {"command": "python3 - <<'E'\nimport json,re\nd=json.load(open('roteiro.json'))\nfor i,b in enumerate(d['blocos'],1):\n    t=b['texto'].lower()\n    print(i,b['capitulo'],len(t.split()),'inscr' in t o
+💬 O roteiro da pauta 3, "Redação da Fuvest: o mapa do que o corretor avalia", está pronto, mas ainda não dá para gravar. Pesos e escala não foram confirmados nos PDFs oficiais, e a opinião do Miguel ainda não está no texto.
+
+O `estado.json` está com o título atualizado, e o `roteiro.json` foi validado: 9 blocos, cerca de 1.700 palavras (uns 12 min). Não criei `producao.json`.
+
+- **Checagem:** aprovada na segunda volta, depois de 6 correções na primeira. Os PDFs oficiais da Fuvest estavam ilegíveis para o checador e para o pesquisador.
+- **Originalidade:** semáforo 🟡. A estrutura e os exemplos sã
+
+=== resultado: success | turnos 4 | 6s | erro=False
+Dossiê em andamento com o pesquisador do Mapeado; aguardo o retorno para seguir ao roteiro.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O roteirista do Mapeado está escrevendo o roteiro. Quando ele terminar, sigo para a checagem.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+O checador está conferindo as afirmações do roteiro. Aguardo o veredito.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+Pedi ao roteirista as seis correções do checador. Aguardo.
+
+=== resultado: success | turnos 3 | 3s | erro=False
+O JSON é válido: 9 blocos e 1.708 palavras. Aguardo a segunda checagem.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+O guardião de originalidade está avaliando o roteiro. Aguardo o semáforo.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+Pedi a última volta ao roteirista; depois confiro engajamento e nicho e atualizo o `estado.json`.
+
+=== resultado: success | turnos 2 | 7s | erro=False
+O roteiro da pauta 3, "Redação da Fuvest: o mapa do que o corretor avalia", está pronto, mas ainda não dá para gravar. Pesos e escala não foram confirmados nos PDFs oficiais, e a opinião do Miguel ainda não está no texto.
+
+O `estado.json` está com o título atualizado, e o `roteiro.json` foi validado: 9 blocos, cerca de 1.700 palavras (uns 12 min). Não criei `producao.json`.
+
+- **Checagem:** aprovada na segunda volta, depois de 6 correções na primeira. Os PDFs oficiais da Fuvest estavam ilegíveis para o checador e para o pesquisador.
+- **Originalidade:** semáforo 🟡. A estrutura e os exemplos são próprios, mas a única opinião do vídeo é uma frase provisória que o roteirista escreveu no bloco 5.
+- **Engajamento:** inscrição, like e comentário nos blocos 1, 5 e 9, conferidos.
+- **Nicho:** é aula para prova, dentro do Mapeado.
+
+Pendências para o Miguel antes de gravar:
+1. **Opinião para o bloco 5:** a `nota_miguel` veio vazia. A pergunta está no `roteiro.json`: qual modalidade (dissertação ou narrativa) ele treinaria nas últimas semanas, e por quê. A resposta substitui a frase provisória e vira o gancho de comentário do bloco 9.
+2. **Pesos e escala:** os pesos 3/2/3/2 e a escala de 1 a 4 só têm o Jornal da USP como fonte. O roteiro já avisa isso em voz. Se o Guia de Provas 2027 trouxer outros pesos, é preciso ajustar os blocos 3 a 7.
+
+Os arquivos ficaram em `canais/vestibular/videos/2026-11-26/` (`02-dossie.md`, `03-roteiro.md`, `04-checagem.md`, `05-originalidade.md`, `roteiro.json`). Não fiz commit.
+codigo de saida: 0
