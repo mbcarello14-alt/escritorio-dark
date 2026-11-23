@@ -1,0 +1,104 @@
+{
+  "canal": "historia",
+  "formato": "construcao",
+  "titulo": "Ninguém adivinha o que esse casco de carvalho vira ⚓",
+  "descricao": "Passo a passo de como os vikings construíam seus navios, usando o navio de Gokstad como modelo: quilha de carvalho, tábuas sobrepostas, rebites de ferro, calafetagem com lã e piche e vela de lã.",
+  "hashtags": ["#historia", "#vikings", "#curiosidades"],
+  "legenda_reels": "Construímos um navio viking do zero: carvalho rachado, tábuas sobrepostas, rebites de ferro e vela de lã. Comenta VIKING! #historia #vikings #curiosidades #navio",
+  "isca": "Comenta VIKING",
+  "cenario": {"ceu": "#f0b070", "chao": "#d9b97a", "cidade": false, "arvores": 0, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 14], "olha": [0, 2.2, 0]},
+  "objetos": [
+    {"id": "terreno", "tipo": "terreno", "pos": [0, 0, 0], "tam": [9, 9], "cor": "#e0c98a", "oculto": true},
+    {"id": "quilha", "tipo": "cubo", "pos": [0, 0.7, 0], "tam": [5.8, 0.25, 0.35], "cor": "#6b4a2b", "oculto": true},
+    {"id": "casco1", "tipo": "cubo", "pos": [0, 1.0, 0], "tam": [5.0, 0.35, 1.2], "cor": "#8a5a33", "oculto": true},
+    {"id": "casco2", "tipo": "cubo", "pos": [0, 1.3, 0], "tam": [5.6, 0.35, 1.7], "cor": "#9a6a3c", "oculto": true},
+    {"id": "casco3", "tipo": "cubo", "pos": [0, 1.6, 0], "tam": [6.0, 0.35, 2.0], "cor": "#aa7a45", "oculto": true},
+    {"id": "rebites", "tipo": "cubo", "pos": [0, 1.3, 0.87], "tam": [5.4, 0.08, 0.05], "cor": "#4a4a50", "oculto": true},
+    {"id": "mastro", "tipo": "cilindro", "pos": [0, 1.8, 0], "tam": [0.25, 4.2], "cor": "#6b4a2b", "oculto": true},
+    {"id": "vela", "tipo": "cubo", "pos": [0, 4.0, 0], "tam": [3.4, 2.8, 0.1], "cor": "#eee3c4", "oculto": true},
+    {"id": "tira1", "tipo": "cubo", "pos": [-0.8, 4.0, 0.08], "tam": [0.14, 2.8, 0.05], "cor": "#6b3a1f", "oculto": true},
+    {"id": "tira2", "tipo": "cubo", "pos": [0.8, 4.0, 0.08], "tam": [0.14, 2.8, 0.05], "cor": "#6b3a1f", "oculto": true},
+    {"id": "remo1", "tipo": "cubo", "pos": [-1.6, 1.5, 1.7], "tam": [0.12, 0.1, 1.8], "cor": "#c9a064", "oculto": true},
+    {"id": "remo2", "tipo": "cubo", "pos": [0, 1.5, 1.7], "tam": [0.12, 0.1, 1.8], "cor": "#c9a064", "oculto": true},
+    {"id": "remo3", "tipo": "cubo", "pos": [1.6, 1.5, 1.7], "tam": [0.12, 0.1, 1.8], "cor": "#c9a064", "oculto": true},
+    {"id": "op", "tipo": "boneco", "cor": "#b5452f", "calca": "#6b4a2b", "pos": [-2.6, 0, 2.4], "escala": 0.6, "oculto": true},
+    {"id": "n_vela", "tipo": "numero", "valor": 0, "sufixo": " m² de vela", "casas": 0, "cor": "#ffffff", "fundo": "#7a3b12", "tam": 1, "pos": [0, 0.72], "oculto": true},
+    {"id": "n_remos", "tipo": "numero", "valor": 0, "sufixo": " remos", "casas": 0, "cor": "#ffffff", "fundo": "#7a3b12", "tam": 1, "pos": [0, 0.72], "oculto": true},
+    {"id": "final", "tipo": "texto", "texto": "NAVIO VIKING\nGOKSTAD, ANO 890", "cor": "#ffd54a", "fundo": "#7a3b12", "tam": 1.2, "pos": [0, 0.72], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Deite uma quilha de carvalho. Depois, rache os troncos em tábuas.",
+      "acoes": [
+        {"t": 0.0, "alvo": "terreno", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 14, "altura": 5, "de": -15, "ate": 45, "dur": 30},
+        {"t": 0.5, "alvo": "op", "acao": "aparecer", "som": "pop"},
+        {"t": 1.0, "alvo": "quilha", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 3.2, "alvo": "op", "acao": "acenar"}
+      ]
+    },
+    {
+      "texto": "Prenda as tábuas sobrepostas, cada uma cobrindo três centímetros da de baixo. Pronto, agora você tem um casco leve.",
+      "pronto": "um casco leve",
+      "acoes": [
+        {"t": 0.2, "alvo": "casco1", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 1.2, "alvo": "casco2", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 2.2, "alvo": "casco3", "acao": "construir", "modo": "cai", "som": "boom"},
+        {"t": 2.3, "acao": "tremer", "forca": 0.3}
+      ]
+    },
+    {
+      "texto": "Una tudo com rebites de ferro, um a cada dezoito centímetros. Pronto, agora você tem uma costura de ferro.",
+      "pronto": "uma costura de ferro",
+      "acoes": [
+        {"t": 0.4, "alvo": "rebites", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 2.0, "alvo": "op", "acao": "pular", "altura": 0.7}
+      ]
+    },
+    {
+      "texto": "Tape as frestas com lã e pelo de animal misturados com piche. Pronto, agora você tem um casco vedado.",
+      "pronto": "um casco vedado",
+      "acoes": [
+        {"t": 0.5, "alvo": "casco1", "acao": "cor", "cor": "#4a3320"},
+        {"t": 0.9, "alvo": "casco2", "acao": "cor", "cor": "#52391f"},
+        {"t": 1.3, "alvo": "casco3", "acao": "cor", "cor": "#5c4025"}
+      ]
+    },
+    {
+      "texto": "Levante o mastro e estique uma vela de lã, de cerca de cento e dez metros quadrados. Pronto, agora você tem uma vela gigante.",
+      "pronto": "uma vela gigante",
+      "acoes": [
+        {"t": 0.2, "alvo": "mastro", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 1.4, "alvo": "vela", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 2.6, "alvo": "tira1", "acao": "aparecer", "som": "pop"},
+        {"t": 2.9, "alvo": "tira2", "acao": "aparecer", "som": "pop"},
+        {"t": 3.6, "alvo": "n_vela", "acao": "aparecer"},
+        {"t": 3.7, "alvo": "n_vela", "acao": "contar", "para": 110, "dur": 1.5},
+        {"t": 6.0, "alvo": "n_vela", "acao": "sumir"}
+      ]
+    },
+    {
+      "texto": "Por fim, abra furos para trinta e dois remos. Pronto, agora você tem trinta e dois remos.",
+      "pronto": "trinta e dois remos",
+      "acoes": [
+        {"t": 0.3, "alvo": "remo1", "acao": "aparecer", "som": "pop"},
+        {"t": 0.6, "alvo": "remo2", "acao": "aparecer", "som": "pop"},
+        {"t": 0.9, "alvo": "remo3", "acao": "aparecer", "som": "pop"},
+        {"t": 1.4, "alvo": "n_remos", "acao": "aparecer"},
+        {"t": 1.5, "alvo": "n_remos", "acao": "contar", "para": 32, "dur": 1.2}
+      ]
+    },
+    {
+      "texto": "Pronto, e assim você tem o navio viking de Gokstad. Qual obra você quer ver agora? Comenta VIKING.",
+      "pronto": "o navio viking de Gokstad",
+      "acoes": [
+        {"t": 0.0, "alvo": "n_remos", "acao": "sumir"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2.5, 0], "raio": 18, "altura": 8, "de": 45, "ate": 100, "dur": 6},
+        {"t": 0.8, "alvo": "final", "acao": "aparecer", "som": "ding"},
+        {"t": 1.0, "acao": "tremer", "forca": 0.3},
+        {"t": 1.2, "alvo": "op", "acao": "pular", "altura": 0.8}
+      ]
+    }
+  ]
+}

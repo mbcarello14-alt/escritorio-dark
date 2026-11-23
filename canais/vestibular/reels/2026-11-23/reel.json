@@ -1,0 +1,95 @@
+{
+  "canal": "vestibular",
+  "formato": "construcao",
+  "titulo": "Ninguém adivinha o que essa construção vira (cai no ENEM)",
+  "descricao": "Física que cai no ENEM: uma usina hidrelétrica montada peça por peça, mostrando a cadeia de energia potencial, cinética, mecânica e elétrica.",
+  "hashtags": ["#enem", "#fisica", "#vestibular"],
+  "legenda_reels": "Peça por peça, a energia vira outra: potencial, cinética, mecânica, elétrica. Isso cai muito no ENEM! Comenta USINA que a gente faz o mapa mental completo. #enem #fisica #vestibular",
+  "isca": "Comenta USINA",
+  "cenario": {"ceu": "#bfe3f7", "chao": "#86c06c", "cidade": false, "arvores": 0, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 2.2, 0]},
+  "objetos": [
+    {"id": "rotulo", "tipo": "texto", "texto": "ENERGIA\nPOTENCIAL", "cor": "#ffffff", "fundo": "#2b6cb0", "tam": 1.1, "pos": [0, 0.72], "oculto": true},
+    {"id": "represa", "tipo": "cubo", "tam": [1.8, 3.6, 2.4], "cor": "#4aa3df", "pos": [-2.1, 1.8, 0], "oculto": true},
+    {"id": "muro", "tipo": "cubo", "tam": [0.5, 4.2, 2.6], "cor": "#9aa0a6", "pos": [-1.1, 2.1, 0], "oculto": true},
+    {"id": "duto", "tipo": "cilindro", "tam": [0.5, 3.0], "cor": "#2f7fc0", "pos": [-0.5, 1.7, 0], "oculto": true},
+    {"id": "turbina", "tipo": "cilindro", "tam": [1.3, 0.4], "cor": "#f6993f", "pos": [-0.1, 0.3, 0], "oculto": true},
+    {"id": "eixo", "tipo": "cilindro", "tam": [0.3, 1.6], "cor": "#4a5568", "pos": [-0.1, 1.2, 0], "oculto": true},
+    {"id": "gerador", "tipo": "cilindro", "tam": [1.3, 1.0], "cor": "#e0453a", "pos": [-0.1, 2.3, 0], "oculto": true},
+    {"id": "torre", "tipo": "cubo", "tam": [0.3, 4.0, 0.3], "cor": "#4a5568", "pos": [2.3, 2.0, 0], "oculto": true},
+    {"id": "braco", "tipo": "cubo", "tam": [1.6, 0.2, 0.2], "cor": "#4a5568", "pos": [2.3, 3.9, 0], "oculto": true},
+    {"id": "transf", "tipo": "cubo", "tam": [0.8, 0.8, 0.8], "cor": "#2d3748", "pos": [1.0, 0.4, 0], "oculto": true},
+    {"id": "fio", "tipo": "cubo", "tam": [2.4, 0.08, 0.08], "cor": "#1a202c", "pos": [1.1, 3.9, 0], "oculto": true},
+    {"id": "luz", "tipo": "esfera", "tam": 0.8, "cor": "#ffe14d", "pos": [2.3, 4.6, 0], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Primeiro, feche o rio com uma parede de concreto: a água parada no alto guarda energia potencial. Pronto, agora você tem uma represa.",
+      "pronto": "uma represa",
+      "acoes": [
+        {"t": 0.0, "alvo": "rotulo", "acao": "aparecer", "som": "pop"},
+        {"t": 0.6, "alvo": "represa", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 2.0, "alvo": "muro", "acao": "construir", "modo": "cai", "som": "boom"},
+        {"t": 2.0, "acao": "tremer", "forca": 0.3},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 15, "altura": 5, "de": -25, "ate": -15, "dur": 8}
+      ]
+    },
+    {
+      "texto": "Agora abra um duto e deixe a água despencar. Na queda, a energia potencial vira cinética. Pronto, agora você tem água veloz.",
+      "pronto": "água veloz",
+      "acoes": [
+        {"t": 0.2, "alvo": "rotulo", "acao": "texto", "texto": "POTENCIAL\n→ CINÉTICA"},
+        {"t": 0.8, "alvo": "duto", "acao": "construir", "modo": "sobe", "som": "whoosh"},
+        {"t": 2.6, "alvo": "duto", "acao": "cor", "cor": "#7fd0ff"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 15, "altura": 5, "de": -15, "ate": -5, "dur": 8}
+      ]
+    },
+    {
+      "texto": "Embaixo, ponha a turbina. A água bate nas pás e faz o eixo girar. Pronto, agora você tem movimento.",
+      "pronto": "movimento",
+      "acoes": [
+        {"t": 0.2, "alvo": "rotulo", "acao": "texto", "texto": "TURBINA\n= ENERGIA MECÂNICA"},
+        {"t": 0.7, "alvo": "turbina", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 1.8, "alvo": "eixo", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 3.0, "alvo": "eixo", "acao": "girar", "voltas": 2, "som": "whoosh"},
+        {"t": 0.0, "acao": "camera", "pos": [0, 4.5, 11], "olha": [0, 1.8, 0]},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 11, "altura": 4.5, "de": -5, "ate": 5, "dur": 7}
+      ]
+    },
+    {
+      "texto": "Instale o gerador no eixo. Ímãs girando produzem corrente. A pegadinha: a turbina não gera eletricidade, o gerador gera. Pronto, agora você tem energia elétrica.",
+      "pronto": "energia elétrica",
+      "acoes": [
+        {"t": 0.2, "alvo": "rotulo", "acao": "texto", "texto": "GERADOR\n= ENERGIA ELÉTRICA"},
+        {"t": 0.7, "alvo": "gerador", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 3.0, "alvo": "rotulo", "acao": "texto", "texto": "PEGADINHA:\nTURBINA ≠ GERADOR"},
+        {"t": 3.1, "alvo": "gerador", "acao": "cor", "cor": "#ffb400"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 11, "altura": 4.5, "de": 5, "ate": 20, "dur": 9}
+      ]
+    },
+    {
+      "texto": "Por fim, ligue o transformador, erga a torre e estique os fios. Pronto, e assim você tem uma usina hidrelétrica.",
+      "acoes": [
+        {"t": 0.2, "alvo": "rotulo", "acao": "texto", "texto": "TRANSFORMADOR\nSOBE A TENSÃO"},
+        {"t": 0.6, "alvo": "transf", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 1.4, "alvo": "torre", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 2.2, "alvo": "braco", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 2.8, "alvo": "fio", "acao": "construir", "modo": "cresce", "som": "whoosh"},
+        {"t": 4.2, "alvo": "luz", "acao": "aparecer", "som": "ding"},
+        {"t": 4.2, "acao": "tremer", "forca": 0.4},
+        {"t": 4.2, "alvo": "rotulo", "acao": "texto", "texto": "USINA\nHIDRELÉTRICA"},
+        {"t": 3.6, "acao": "camera", "pos": [0, 7, 19], "olha": [0, 2.2, 0]},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 17, "altura": 6, "de": 20, "ate": 5, "dur": 8}
+      ]
+    },
+    {
+      "texto": "Grava assim: potencial, cinética, mecânica, elétrica. Qual você errava? Comenta USINA, que a gente faz o mapa mental completo.",
+      "acoes": [
+        {"t": 0.2, "alvo": "rotulo", "acao": "texto", "texto": "POTENCIAL · CINÉTICA\nMECÂNICA · ELÉTRICA"},
+        {"t": 0.5, "alvo": "luz", "acao": "pular", "altura": 0.6, "som": "ding"},
+        {"t": 4.5, "alvo": "rotulo", "acao": "texto", "texto": "Comenta\nUSINA"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 17, "altura": 6, "de": 5, "ate": -15, "dur": 8}
+      ]
+    }
+  ]
+}

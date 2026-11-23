@@ -1,0 +1,80 @@
+{
+  "canal": "livros",
+  "formato": "construcao",
+  "titulo": "Esse prédio de Londres existiu de verdade (e virou um livro)",
+  "descricao": "Montamos o Ministério da Verdade de 1984, de George Orwell, peça por peça. Curiosidade: o prédio da ficção foi modelado na Senate House, em Londres, que abrigou o Ministério da Informação na Segunda Guerra.",
+  "hashtags": ["#1984", "#livros", "#georgeorwell"],
+  "legenda_reels": "O Ministério da Verdade de 1984, de George Orwell, montado do zero. O modelo foi um prédio real de Londres. Você já leu? Comenta ORWELL #1984 #livros #booktok",
+  "isca": "Comenta ORWELL",
+  "cenario": {"ceu": "#9aa5b1", "chao": "#6f7680", "cidade": false, "arvores": 0, "nuvens": true, "sol": false},
+  "camera": {"pos": [0, 6, 18], "olha": [0, 3.6, 0]},
+  "objetos": [
+    {"id": "titulo", "tipo": "texto", "texto": "1984\nGeorge Orwell", "cor": "#ffffff", "fundo": "#8c1f1f", "tam": 1.0, "pos": [0, 0.78], "oculto": true},
+    {"id": "chao_londres", "tipo": "terreno", "tam": [9, 8], "cor": "#7b8088", "pos": [0, 0.02, 0], "oculto": true},
+    {"id": "base", "tipo": "cubo", "tam": [5.4, 0.8, 4.2], "cor": "#f2f2ee", "pos": [0, 0.4, 0], "oculto": true},
+    {"id": "piramide", "tipo": "escada", "tam": [4.6, 7, 3.6], "degraus": 6, "cor": "#fafaf5", "pos": [0, 0.8, 0], "oculto": true},
+    {"id": "lema", "tipo": "texto", "texto": "GUERRA É PAZ", "cor": "#ffffff", "fundo": "#8c1f1f", "tam": 1.0, "pos": [0, 0.62], "oculto": true},
+    {"id": "salas", "tipo": "numero", "valor": 0, "sufixo": " SALAS", "casas": 0, "cor": "#ffffff", "tam": 1.2, "pos": [0, 0.62], "oculto": true},
+    {"id": "buraco1", "tipo": "cubo", "tam": [0.7, 0.7, 0.2], "cor": "#1c1c1f", "pos": [-1.9, 0.6, 2.2], "oculto": true},
+    {"id": "buraco2", "tipo": "cubo", "tam": [0.7, 0.7, 0.2], "cor": "#1c1c1f", "pos": [1.9, 0.6, 2.2], "oculto": true},
+    {"id": "winston", "tipo": "boneco", "cor": "#4a6fa5", "pele": "#f1c27d", "cabelo": "#3a2a1a", "calca": "#2b3a55", "pos": [-1.2, 0, 3.0], "escala": 0.5, "oculto": true},
+    {"id": "livro", "tipo": "livro", "cor": "#8c1f1f", "titulo": "1984", "pos": [1.4, 0.2, 3.4], "escala": 1.1, "oculto": true}
+  ],
+  "falas": [
+    {"texto": "Primeiro, assente uma base de concreto branco. O modelo é um prédio real de Londres, que abrigou o Ministério da Informação na guerra. Pronto, agora você tem uma fundação.",
+     "pronto": "uma fundação",
+     "acoes": [
+       {"t": 0.0, "alvo": "titulo", "acao": "aparecer", "som": "pop"},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 3, 0], "raio": 18, "altura": 6, "de": -20, "ate": 5, "dur": 8},
+       {"t": 0.5, "alvo": "chao_londres", "acao": "construir", "modo": "cresce", "som": "pop"},
+       {"t": 1.6, "alvo": "base", "acao": "construir", "modo": "cai", "som": "boom"},
+       {"t": 1.6, "acao": "tremer", "forca": 0.3}
+     ]},
+    {"texto": "Agora empilhe terraços até trezentos metros de altura. Pronto, agora você tem uma pirâmide gigante.",
+     "pronto": "uma pirâmide gigante",
+     "acoes": [
+       {"t": 0.0, "alvo": "titulo", "acao": "sumir"},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 3, 0], "raio": 18, "altura": 6, "de": 5, "ate": 30, "dur": 6},
+       {"t": 0.6, "alvo": "piramide", "acao": "construir", "modo": "sobe", "som": "boom"},
+       {"t": 0.6, "acao": "tremer", "forca": 0.4}
+     ]},
+    {"texto": "Na fachada, escreva: guerra é paz, liberdade é escravidão, ignorância é força.",
+     "acoes": [
+       {"t": 0.0, "acao": "camera", "pos": [0, 4, 12], "olha": [0, 3.5, 0]},
+       {"t": 0.4, "alvo": "lema", "acao": "aparecer", "som": "pop"},
+       {"t": 1.8, "alvo": "lema", "acao": "texto", "texto": "LIBERDADE É ESCRAVIDÃO", "som": "tic"},
+       {"t": 3.2, "alvo": "lema", "acao": "texto", "texto": "IGNORÂNCIA É FORÇA", "som": "tic"}
+     ]},
+    {"texto": "Por dentro, abra três mil salas onde se reescreve o passado. Pronto, agora você tem uma fábrica de versões.",
+     "pronto": "uma fábrica de versões",
+     "acoes": [
+       {"t": 0.0, "alvo": "lema", "acao": "sumir"},
+       {"t": 0.0, "acao": "camera", "pos": [0, 6, 18], "olha": [0, 3.6, 0]},
+       {"t": 0.3, "alvo": "salas", "acao": "aparecer", "som": "pop"},
+       {"t": 0.4, "alvo": "salas", "acao": "contar", "para": 3000, "dur": 2.0},
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 3, 0], "raio": 18, "altura": 6, "de": 30, "ate": 55, "dur": 6}
+     ]},
+    {"texto": "Faça buracos na parede: papel jogado lá nunca mais volta. Pronto, agora você tem um buraco da memória.",
+     "pronto": "um buraco da memória",
+     "acoes": [
+       {"t": 0.0, "alvo": "salas", "acao": "sumir"},
+       {"t": 0.0, "acao": "camera", "pos": [0, 3, 10], "olha": [0, 1.5, 1]},
+       {"t": 0.6, "alvo": "buraco1", "acao": "construir", "modo": "sobe", "som": "pop"},
+       {"t": 1.4, "alvo": "buraco2", "acao": "construir", "modo": "sobe", "som": "pop"}
+     ]},
+    {"texto": "Na porta, ponha um funcionário minúsculo: Winston, que corrige notícias velhas.",
+     "acoes": [
+       {"t": 0.3, "alvo": "winston", "acao": "construir", "modo": "cai", "som": "boom"},
+       {"t": 1.6, "alvo": "winston", "acao": "acenar"},
+       {"t": 2.2, "acao": "camera", "pos": [0, 6, 18], "olha": [0, 3.6, 0]}
+     ]},
+    {"texto": "Pronto, e assim você tem o Ministério da Verdade, de mil novecentos e oitenta e quatro, de George Orwell. Você já leu? Comenta ORWELL.",
+     "acoes": [
+       {"t": 0.0, "acao": "orbitar", "centro": [0, 3, 0], "raio": 20, "altura": 7, "de": 55, "ate": 120, "dur": 8},
+       {"t": 0.6, "alvo": "livro", "acao": "construir", "modo": "cai", "som": "boom"},
+       {"t": 0.6, "acao": "tremer", "forca": 0.4},
+       {"t": 1.0, "alvo": "titulo", "acao": "aparecer", "som": "ding"},
+       {"t": 1.8, "alvo": "winston", "acao": "pular", "altura": 0.5}
+     ]}
+  ]
+}
