@@ -5,9 +5,11 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 | Data | Pasta | Tema | Gancho (1ª frase) | Estrutura | Thumb (conceito) | CTR 7d | Retenção média | Lição |
 |------|-------|------|-------------------|-----------|------------------|--------|----------------|-------|
 | 2026-10-30 | 2026-10-30 | Templários: rei sem dinheiro e o banco quebrado | "Em 13 de outubro de 1307, o rei da França mandou prender o gerente do banco." | Gancho de data, 12 capítulos cronológicos | ver 09-thumbnail.md | n/d | 0,57% (7 views, 5 s) | Título descritivo e 1 ilustração de IA: levar o "Pix medieval" (Short de 1.257 views) para título e gancho |
-| 2026-11-02 | 2026-11-02 | Preço de uma alma no purgatório (Finados) | "Hoje é Finados." | Pergunta com preço, Cluny até Fugger e Lutero, 13 capítulos | ver 09-thumbnail.md | n/d | 5,8% (12 views, 55 s) | Tema sazonal rendeu busca (5 de 12 views); entregar o primeiro preço até 0:30 |
+| 2026-11-02 | 2026-11-02 | Preço de uma alma no purgatório (Finados) | "Hoje é Finados." | Pergunta com preço, Cluny até Fugger e Lutero, 13 capítulos | ver 09-thumbnail.md | n/d | 5,8% (12 views, 55 s) na 1ª semana; 40,9% com 116 views em 23/11 | Tema sazonal e de busca rende na cauda (12 views na semana 1, 116 até 23/11, 2 inscritos); entregar o primeiro preço até 0:30 |
 | 2026-11-06 | 2026-11-06 | Eduardo III, os bancos de Florença e o calote | Título afirma a tese e a fonte clássica se denuncia no meio | Título como se fosse verdade, virada no meio, documentos (Russell, Hunt) | ver 09-thumbnail.md | n/d | 67,4% (4 views, 8m58) | Retenção alta com 4 views, quase só inscritos: o problema é chegar gente; levar o molde dos Shorts ao título |
 | 2026-11-09 | 2026-11-09 | Muro de Berlim e o dinheiro do rival | Pergunta no título ("caiu por falta de dinheiro?") | Tese em 1 frase, presos como moeda de troca | ver 09-thumbnail.md | n/d | 0% (1 view) | Dados insuficientes; verificar impressões no Studio e usar Shorts como ponte |
+| 2026-11-13 | 2026-11-13 | Proclamação da República: virou república sem perceber? | Fofoca/boato na Rua do Ouvidor que antecipou o golpe | Boato de rua, Rio e Petrópolis alternados, debate historiográfico no fim, 13 blocos | ver 09-thumbnail.md | n/d | 83,8% (8 views, 11m21) | Data + termo de busca no título trouxe 7 de 8 views por busca e o gancho de boato reteve 84%; falta chegar mais gente |
+| 2026-11-16 | 2026-11-16 | Conquista do Império Inca: Pizarro, Atahualpa e Cajamarca | Pergunta "quem escreveu essa história?" | Dúvida sobre as fontes ao longo de 11 blocos | ver 09-thumbnail.md | n/d | n/d (6 views; tempo assistido 0 na coleta, provável atraso) | Título descritivo, sem contradição nem comparação com hoje; reler em 28 dias e testar o molde "8 mil ou 80 mil?" no título |
 
 ## Ideias vindas da audiência
 
@@ -78,3 +80,14 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-23
 - Short sobre a pergunta "justiça dos vencedores?" em Nuremberg, no molde de contradição dos Shorts que passaram de 600 views, apontando para o longo; checar fontes antes.
+
+## Padrões (após 6 longos com dados, 23/11)
+
+**Funcionando**
+- Tema com data ou termo de busca no título (Finados, Proclamação): 5 a 7 views por busca e retenção de 40% a 84% em quem chega.
+- Gancho de cena estranha ou boato (Proclamação, 84%) segura mais que gancho de data seca (Templários, 0,6%).
+- Cauda longa: o Finados foi de 12 para 116 views em três semanas.
+
+**Parar de fazer**
+- Título só descritivo ("Pizarro, Atahualpa e Cajamarca") sem contradição nem comparação com hoje, enquanto os Shorts desse molde passam de 600 views.
+- Tirar tendência com 1 a 8 views por vídeo: faltam impressões e CTR para separar embalagem de distribuição.

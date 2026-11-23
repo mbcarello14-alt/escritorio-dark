@@ -18,3 +18,9 @@ Janela de 7 dias até 09/11. Amostra minúscula: 12 views. Sem curva de retenç�
 1. **Datas sazonais ajudam na busca (5 de 12 views).** Planejar com antecedência temas ligados a datas (Finados, Natal, Black Friday) e publicar alguns dias antes.
 2. **Ir ao dinheiro mais cedo.** Depois do gancho da pergunta, o vídeo vai a Cluny (0:41). Testar entregar o primeiro preço/número até 0:30.
 3. **Esperar a curva de retenção** (mais de ~30 views) antes de mexer na estrutura longa.
+
+## Atualização de 23/11 (dados acumulados desde a publicação)
+- Views totais: **116** (eram 12 na primeira semana) · minutos assistidos: 481 (cerca de 8 h) · duração média 6m35 · **% assistido: 40,9%** · inscritos ganhos: 2 · likes: 3 · compartilhamentos: 2.
+- Leitura: a retenção real é muito melhor que os 5,8% da primeira semana (que tinha 12 views). Mais de 100 views chegaram depois do 7º dia, então o tema teve cauda de busca. É o longo do canal que mais trouxe gente e o primeiro a render inscritos.
+- A janela de 28 dias fecha em 30/11: reavaliar com ela (traz fontes de tráfego e, se houver, curva).
+- Lição revista: tema sazonal e de busca rende na cauda, não só na semana. Lição 2 (preço até 0:30) segue sem teste.

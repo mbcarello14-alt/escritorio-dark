@@ -6,14 +6,20 @@
       "metricas": {},
       "retencao": [],
       "trafego": []
+    },
+    "28": {
+      "ate": "2026-11-23",
+      "metricas": {},
+      "retencao": [],
+      "trafego": []
     }
   },
   "parcial": {},
   "canal": {
-    "viewCount": "8818",
+    "viewCount": "8890",
     "subscriberCount": "10",
     "hiddenSubscriberCount": false,
-    "videoCount": "43"
+    "videoCount": "46"
   },
-  "atualizado_em": "2026-11-22T18:21:14+00:00"
+  "atualizado_em": "2026-11-23T22:29:42+00:00"
 }

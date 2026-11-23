@@ -7,6 +7,8 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 | 2026-10-27 | 2026-10-27 | Regra de três e porcentagem (Matemática) | "Uma loja dá 10% de desconto duas vezes e depois aumenta 10% duas vezes. O preço volta para R$ 100?" | Gancho de loja, 4 ramos (balança, gangorra, engrenagens, etiqueta), questão Enem 2019 | ver 09-thumbnail.md | n/d | 1,9% (6 views, 11 s) | Gancho não segurou; Short do mesmo tema fez ~845 views: título do longo em pergunta e ponte Short para longo |
 | 2026-10-29 | 2026-10-29 | Era Vargas, 3 governos (História) | "Faz 81 anos que Vargas foi deposto..." | 3 ramos com 4 galhos, recapitulação, questão Enem 2010 | ver 09-thumbnail.md | n/d | 43,1% (17 views, 5m25) | Ramos com mesmo molde seguraram 50% de 20% a 48% do vídeo; encurtar a recapitulação e abrir pela pegadinha |
 | 2026-11-03 | 2026-11-03 | Ecologia no ENEM (Biologia) | Direção: energia desce, veneno sobe | Cadeias, ciclos e pegadinha | ver 09-thumbnail.md | n/d | 104% (2 views, 12m04; ruído) | Quem chega fica; gargalo é entrada de público: títulos com o erro da banca |
+| 2026-11-10 | 2026-11-10 | Conta de luz no ENEM (Física) | Gancho do banho | 6 ramos (potência a conferência), questão ENEM 2021 resolvida | ver 09-thumbnail.md | n/d | 47,0% (6 views, 4m55) | Título com "o erro que a banca deixa pronto" trouxe busca e relacionados e o gancho segurou; evitar 6 ramos no mesmo molde |
+| 2026-11-12 | 2026-11-12 | Escala no mapa (Geografia) | Questão em aberto, depois história do bairro | 5 ramos, questão Unicamp 2013 | ver 09-thumbnail.md | n/d | 8,8% (6 views, 1m00) | Título com número chegou, mas o público saiu em 1 min: dar a conta/primeiro passo até 0:30, historinha depois |
 
 ## Ideias vindas da audiência
 
@@ -62,3 +64,14 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 ### 2026-11-21
 - Short de pegadinha com pergunta no título em Geografia (petróleo do Estreito de Ormuz ou terras raras), no molde da regra de três (845 views), apontando para o longo da semana.
 - Short de pegadinha de filosofia com uma palavra-chave estranha no título (ex.: eudaimonia) apontando para o longo da semana, e repetir o molde em Sociologia; checar fontes antes.
+
+## Padrões (após 5 longos com dados, 23/11)
+
+**Funcionando**
+- Título com o erro da banca ou número (conta de luz, escala): chega gente por busca e por relacionados dos Shorts (3 e 3 de 6 views).
+- Abertura direta no problema do aluno (Conta de luz 47%, Era Vargas 43%).
+
+**Parar de fazer**
+- Abrir com a questão e depois contar a historinha antes da conta (Escala 8,8% em 1 min; regra de três 1,9% em 11 s).
+- Ramos repetidos no mesmo molde por muitos minutos, que perdem gente no meio (Era Vargas).
+- Julgar por vídeo de 2 a 6 views: só tirar conclusão perto de 30 views.

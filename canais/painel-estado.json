@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-23T20:44:09Z",
+  "atualizado_em": "2026-11-23T22:32:35Z",
   "ativos": {
     "miguel": [
       "Marca-Página: quarta 25/11 19h00",
@@ -9,16 +9,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-23",
-      "rotulo": "segunda 23/11 18h00",
-      "publicar_em_utc": "2026-11-23T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Napoleão na Rússia: Não Foi Só o Inverno",
-      "url": "https://youtu.be/3Sczg07-enY"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-24",
@@ -51,16 +41,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-16",
-      "rotulo": "segunda 16/11 18h00",
-      "publicar_em_utc": "2026-11-16T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "A Conquista do Império Inca: Pizarro, Atahualpa e o dia em Cajamarca",
-      "url": "https://youtu.be/zLWcpr5qxOU"
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-17",
@@ -110,6 +90,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Vidas Secas: por que a morte da Baleia dói tanto",
       "url": "https://youtu.be/CNrOdcwwu-w"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-11-23",
+      "rotulo": "segunda 23/11 18h00",
+      "publicar_em_utc": "2026-11-23T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "Napoleão na Rússia: Não Foi Só o Inverno",
+      "url": "https://youtu.be/3Sczg07-enY"
     }
   ],
   "canais": [
@@ -117,8 +107,8 @@
       "id": "historia",
       "nome": "Ouro & Império",
       "inscritos": 10,
-      "horas": 45.8,
-      "publicados": 8
+      "horas": 46.4,
+      "publicados": 9
     },
     {
       "id": "vestibular",
@@ -131,7 +121,7 @@
       "id": "livros",
       "nome": "Marca-Página",
       "inscritos": 9,
-      "horas": 18.2,
+      "horas": 18.6,
       "publicados": 8
     }
   ],

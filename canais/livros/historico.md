@@ -7,6 +7,8 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 | 2026-10-28 | 2026-10-28 | Frankenstein (Mary Shelley) | "Frankenstein não é o monstro: é o criador que fugiu da própria obra." (veredito no começo) | Veredito, ficha, boneca russa de narradores, crítica, para quem serve | ver 09-thumbnail.md | n/d | 19,7% (19 views, 2m10) | Short irmão fez ~462 views e o longo 19: ligar Short ao longo (9 de 19 views vieram de relacionados) e abrir o longo pela pegadinha |
 | 2026-11-04 | 2026-11-04 | A Revolução dos Bichos (Orwell) | Título: livro que 4 editoras recusaram | Tese de alegoria, 9 blocos, sem falar de Enem | ver 09-thumbnail.md | n/d | 23,8% (21 views, 3m09) | Melhor longo do canal; 14 de 21 views por relacionados: ponte Short → longo funciona |
 | 2026-11-07 | 2026-11-07 | Dom Casmurro: Capitu traiu? | Gancho do julgamento | Livro como tribunal, cinco "provas" | ver 09-thumbnail.md | n/d | 51,7% (6 views, 7m02) | Pergunta + veredito segura quem chega; só 1 view veio de busca |
+| 2026-11-11 | 2026-11-11 | Rápido e Devagar (Kahneman) | Confissão do autor | Não ficção: partes do livro, virada de 2012, placar do que ficou de pé | ver 09-thumbnail.md | n/d | 58,0% (4 views, 6m17) | Retenção alta, mas sem relacionados: ligar o Short ao longo no mesmo dia |
+| 2026-11-14 | 2026-11-14 | Quarto de Despejo (Carolina Maria de Jesus) | Primeira entrada do diário | Veredito só nos blocos 7 e 8; virada no bastidor da edição | ver 09-thumbnail.md | n/d | 24,3% (5 views, 2m47) | Título "resumo e análise" pegou busca (4 de 5) mas sem ângulo; pôr o ângulo no título e o veredito cedo |
 
 ## Ideias vindas da audiência
 
@@ -52,3 +54,13 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-21
 - Série de Shorts sobre o que best-sellers famosos afirmam e o que não provam (no molde de Pai Rico Pai Pobre), com a pergunta no título e apontando para o longo; sem dar conselho de finanças ou de vida.
+
+## Padrões (após 5 longos com dados, 23/11)
+
+**Funcionando**
+- Short irmão de clássico famoso levando ao longo: relacionados deram 9 e 14 views nos dois primeiros longos.
+- Veredito ou pergunta cedo: quem chega fica (Dom Casmurro 52%, Kahneman 58%).
+
+**Parar de fazer**
+- Longo sem Short ligado: Kahneman (4 views) e Quarto de Despejo (5) ficaram sem relacionados e as views caíram de 19-21 para 4-5.
+- Título "resumo e análise" sem ângulo, mesmo com o ângulo forte no roteiro.
