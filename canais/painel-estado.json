@@ -1,11 +1,22 @@
 {
-  "atualizado_em": "2026-11-24T17:41:18Z",
+  "atualizado_em": "2026-11-24T17:58:26Z",
   "ativos": {
     "miguel": [
       "Marca-Página: quarta 25/11 19h00",
-      "Mapeado: terça 01/12 17h00",
       "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
+    ],
+    "pesquisador_vestibular": [
+      "Mapeado: terça 01/12 17h00"
+    ],
+    "roteirista_vestibular": [
+      "Mapeado: terça 01/12 17h00"
+    ],
+    "checador": [
+      "Mapeado: terça 01/12 17h00"
+    ],
+    "guardiao": [
+      "Mapeado: terça 01/12 17h00"
     ]
   },
   "proximos": [
@@ -44,8 +55,8 @@
       "dia": "2026-12-01",
       "rotulo": "terça 01/12 17h00",
       "publicar_em_utc": "2026-12-01T20:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
+      "etapa": "roteiro",
+      "etapa_txt": "✍️ escrevendo e checando o roteiro",
       "titulo": "",
       "url": ""
     }

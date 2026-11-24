@@ -1,0 +1,91 @@
+comando: /roteiro canais/vestibular/videos/2026-12-01
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-12-01 && ls && cat estado.json && cat pautas.json && cat 01-pauta.md | head -50"}
+🔧 Agent {"description": "Dossiê função da linguagem", "subagent_type": "pesquisador-vestibular", "prompt": "Etapa 2 (dossiê). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/
+💬 O pesquisador está montando o dossiê. Aguardo a conclusão para seguir com o roteirista.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/pautas.json"}
+🔧 WebFetch {"url": "https://www.fuvest.br/fuvest-2027-fuvest-divulga-datas-da-1a-e-da-2a-fase-do-vestibular-2027/", "prompt": "Datas da 1ª e 2ª fase da Fuvest 2027, qualquer alteração, data de publicação da notí
+🔧 WebSearch {"query": "Fuvest 2027 segunda fase 6 e 7 de dezembro datas provas", "mode": "standard"}
+🔧 WebFetch {"url": "https://aprovatotal.com.br/funcoes-linguagem/", "prompt": "Resuma as seis funções da linguagem, nomes alternativos de cada uma, marcas linguísticas, e dicas de como a prova cobra (ENEM, Fuves
+🔧 WebSearch {"query": "questão ENEM função da linguagem predominante gabarito resolução emotiva conativa poética metalinguística", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest questão funções da linguagem predominante texto gabarito resolvida", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.todamateria.com.br/funcoes-da-linguagem/", "prompt": "Funções da linguagem: nomes alternativos, foco de cada função, elementos da comunicação (Jakobson), exemplos."}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2022/primeiro-dia/nesse-texto-predomina-funcao-poetica-da-linguagem-entretanto-funcao-emotiva-pode-ser/", "prompt": "Transcreva o enunciado c
+🔧 WebFetch {"url": "https://www.preparaenem.com/enem/funcoes-da-linguagem-no-enem.htm", "prompt": "Resuma como o ENEM cobra funções da linguagem, quais questões (ano) são citadas com gabarito, e dicas."}
+🔧 WebFetch {"url": "https://projetoagathaedu.com.br/questoes-vestibular/resolucao-portugues/estilistica/funcoes-da-linguagem.php", "prompt": "Liste cada questão com instituição e ano, o texto-base, as alternativ
+🔧 WebFetch {"url": "https://www.qconcursos.com/questoes-do-enem/disciplinas/letras-portugues/funcoes-da-linguagem-emotiva-apelativa-referencial-metalinguistica-fatica-e-poetica/questoes", "prompt": "Quantas ques
+🔧 WebSearch {"query": "Enem 2023 OR 2024 OR 2025 questão \"função da linguagem\" predominante texto gabarito comentado", "mode": "standard"}
+🔧 WebSearch {"query": "Enem funções da linguagem metalinguística \"Enem 2019\" OR \"Enem 2017\" OR \"Enem 2016\" questão gabarito função predominante", "mode": "standard"}
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2020/primeiro-dia/os-processos-de-interacao-comunicativa-preveem-presenca-ativa-de-multiplos/", "prompt": "Resuma enunciado (sem transcrever 
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2020-digital/primeiro-dia/nessa-simulacao-de-verbete-de-dicionario-nao-ha-predominancia-da-funcao-metalinguistica-da-lingua/", "prompt": "Res
+🔧 WebFetch {"url": "https://plataformaassaad.com.br/questao-15-caderno-azul-do-enem-2021-ppl/", "prompt": "Resuma enunciado, alternativas, gabarito e resolução; identifique o texto-base (autor, obra)."}
+🔧 WebFetch {"url": "https://projetoagathaedu.com.br/questoes-vestibular/portugues/estilistica/funcoes-da-linguagem.php", "prompt": "Liste as questões da Fuvest com ano, resumo do texto-base e alternativas, e as 
+🔧 WebSearch {"query": "Fuvest função da linguagem predominante questão \"Fuvest\" 2019 OR 2020 OR 2021 OR 2022 OR 2023 OR 2024 função referencial poética conativa prova primeira fase", "mode": "standard"}
+🔧 WebSearch {"query": "Enem 2020 questão 6 caderno azul Itinerário de Pasárgada função metalinguística gabarito INEP", "mode": "standard"}
+🔧 WebFetch {"url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf", "prompt": "Encontre a questão sobre \"Itinerário de Pasárgada\" de Manuel Bandeira (função da linguagem pred
+🔧 WebFetch {"url": "https://www.preparaenem.com/enem/questao-6-prova-amarela-enem-2020.htm", "prompt": "Gabarito, função, resolução e explicação das alternativas distratoras, em resumo."}
+❌ read ECONNRESET
+🔧 WebFetch {"url": "https://download.inep.gov.br/enem/provas_e_gabaritos/2020_PV_impresso_D1_CD1.pdf", "prompt": "Localize \"Itinerário de Pasárgada\" e a pergunta sobre função da linguagem predominante; diga o 
+❌ unable to verify the first certificate
+🔧 WebFetch {"url": "https://www.todamateria.com.br/exercicios-sobre-funcoes-da-linguagem/", "prompt": "Liste as questões de vestibular/ENEM com ano e instituição, e gabarito. Foque em quais são Fuvest, ENEM, Uni
+🔧 WebSearch {"query": "Jakobson \"Linguística e Comunicação\" seis funções da linguagem emissor destinatário contexto mensagem contato código fatores constitutivos", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Jakobson%27s_functions_of_language", "prompt": "Six factors and six functions with names (referential, emotive/expressive, conative, phatic, metalinguistic, poet
+🔧 WebFetch {"url": "https://core.ac.uk/download/230542736.pdf", "prompt": "Encontre a passagem de Jakobson sobre a diversidade das mensagens estar na ordem hierárquica das funções (não monopólio de uma função). 
+🔧 WebSearch {"query": "Jakobson \"ordem hierárquica diferente\" funções \"monopólio\" mensagem verbal estrutura verbal depende da função predominante", "mode": "standard"}
+🔧 WebSearch {"query": "Matriz de Referência ENEM Linguagens competência área 6 habilidade H18 H19 H20 funções da linguagem texto \"função\" INEP", "mode": "standard"}
+🔧 WebFetch {"url": "https://sistemas.institutoverbena.ufg.br/2026/vestibular-ufg/sistema/arquivos/editais/VESTIBULAR_UFG_2027_ANEXO_VI_MATRIZ_DE_REFERENCIA_ENEM.pdf", "prompt": "Na área de Linguagens, Códigos e 
+🔧 WebFetch {"url": "https://periodicos2.uesb.br/index.php/estudosdalinguagem/article/download/1196/1031/2026", "prompt": "Encontre a passagem que cita Jakobson sobre mensagens com uma única função e ordem hierár
+💬 Vou ler o PDF da matriz que foi salvo, a partir da página relevante.
+🔧 Read {"file_path": "/home/runner/.claude/projects/-home-runner-work-escritorio-dark-escritorio-dark/4104d064-edbc-4389-9e6d-a5b86881380d/tool-results/webfetch-1795542563221-wba1qm.pdf", "pages": "1-3"}
+❌ pdftoppm is not installed. Install poppler-utils (e.g. `brew install poppler` or `apt-get install poppler-utils`) to enable PDF page rendering.
+🔧 WebSearch {"query": "\"Competência de área 6\" \"Compreender e usar a língua portuguesa como língua materna\" H19 \"função da linguagem predominante\" Matriz de Referência Enem", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest 1ª fase prova português questão \"função\" \"metalinguística\" OR \"conativa\" OR \"fática\" resolução comentada Fuvest 2022 OR 2023 OR 2024 OR 2025 OR 2026", "mode": "extended"}
+🔧 WebFetch {"url": "https://www.qconcursos.com/questoes-de-vestibular/provas/fuvest-2022-usp-vestibular-1-fase", "prompt": "Encontre questão de Língua Portuguesa sobre funções da linguagem; resuma o texto-base, 
+🔧 WebFetch {"url": "https://www.fuvest.br/wp-content/uploads/fuvest2026_programa-vestibular.pdf", "prompt": "Na parte de Língua Portuguesa/Linguagem, encontre o item \"funções da linguagem\" e cite o texto exato
+🔧 WebFetch {"url": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2027_1fase/fuvest2027_1fase.pdf", "prompt": "Procure qualquer questão sobre função da linguagem (emotiva, referencial, cona
+🔧 WebSearch {"query": "\"Fuvest\" questão \"função da linguagem\" predominante no texto \"(Fuvest\" gabarito comentado referencial emotiva poética", "mode": "standard", "allowed_domains": ["brasilescola.uol.com.b
+🔧 WebFetch {"url": "https://brasilescola.uol.com.br/redacao/funcoes-linguagem.htm", "prompt": "Nomes alternativos de cada função, marcas linguísticas e exemplos. Texto curto."}
+❌ Claude Code is unable to fetch from brasilescola.uol.com.br
+🔧 WebFetch {"url": "https://www.todamateria.com.br/exercicios-sobre-funcoes-da-linguagem/", "prompt": "Para a questão 7 (Fuvest 2004): resuma o texto-base, o que a pergunta pede, as alternativas em paráfrase e o
+🔧 WebFetch {"url": "https://querobolsa.com.br/enem/portugues/funcoes-da-linguagem", "prompt": "Nomes alternativos, marcas de cada função, dicas de como o ENEM cobra, quantidade/frequência de questões se citada, 
+🔧 WebSearch {"query": "Enem 2026 questão função da linguagem Linguagens prova resolvida predominante", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.todamateria.com.br/linguagens-enem-2026-as-questoes-resolvidas-comentadas/", "prompt": "Alguma questão trata de funções da linguagem (função predominante, poética, referencial, co
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2026/primeiro-dia/esse-artigo-do-estatuto-digital-da-crianca-e-do-adolescente-cumpre-a-funcao-referencial-da-linguagem-ao/", "prompt": "Enunc
+🔧 WebFetch {"url": "https://www.correio24horas.com.br/educacao/enem-2026-prova-de-linguagens-cobra-racismo-machismo-e-inteligencia-artificial-1126", "prompt": "Trecho que cita funções da linguagem na prova de Li
+🔧 WebFetch {"url": "https://commons.wikimedia.org/wiki/Category:Roman_Jakobson", "prompt": "Liste os arquivos de imagem de Roman Jakobson disponíveis, com nome do arquivo, e se possível a licença/autor de cada u
+🔧 WebFetch {"url": "https://descomplica.com.br/gabarito-enem/questoes/2022/primeiro-dia/nesse-texto-predomina-funcao-poetica-da-linguagem-entretanto-funcao-emotiva-pode-ser/", "prompt": "Em paráfrase, diga como 
+🔧 WebFetch {"url": "https://commons.wikimedia.org/wiki/File:Roman_Jakobson.jpg", "prompt": "Autor, data, licença e restrições de uso do arquivo."}
+🔧 WebSearch {"query": "Fuvest 2027 2ª fase 6 de dezembro Língua Portuguesa redação 7 de dezembro prova segundo dia ordem das provas", "mode": "standard", "allowed_domains": ["fuvest.br", "jornal.usp.br"]}
+🔧 WebFetch {"url": "https://jornal.usp.br/universidade/fuvest-divulga-convocados-para-a-2a-fase-do-vestibular-e-locais-de-prova/", "prompt": "Datas e horários da 2ª fase (dia 6 e 7 de dezembro), o que cai em cad
+🔧 WebFetch {"url": "https://www.fuvest.br/fuvest-2027-gabaritos-e-cadernos-de-provas-da-1a-fase-da-fuvest-ja-estao-disponiveis-para-consulta/", "prompt": "Data da publicação e o que informa (gabarito, caderno de
+🔧 WebFetch {"url": "https://www.fuvest.br/arquivos/vestibular/fuvest2027-guia-provas.pdf", "prompt": "Descreva a 2ª fase: o que cai no dia 6/12 e no dia 7/12, número de questões de português, redação, duração e 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/02-dossie.md", "content": "# Dossiê — Mapeado — terça 01/12/2026, 17h\n**Tema:** Função da linguage
+💬 Escrevi o dossiê em `/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/02-dossie.md`. Ele tem linha do tempo, fatos-chave com fonte e grau de confiança, questões reais, nomes alternativos, teste de decisão, erros típicos, estrutura variada, controvérsias, material visual e pendências para o checador.
+
+**Pontos que o checador precisa saber**
+- **Gabaritos não conferidos no INEP.** Os cadernos oficiais não abriram aqui. Todas as letras vêm de sites de resolução (Descomplica, Plataforma Assaad, Toda Matéria). O checador deve abrir o caderno da questão final ant
+🔧 Agent {"description": "Roteiro função da linguagem", "subagent_type": "roteirista-vestibular", "prompt": "Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01. Leia e
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/estado.json"}
+💬 O dossiê está pronto. O roteirista está escrevendo o roteiro agora. Aguardo ele terminar para chamar o checador.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Função da linguagem: por que você erra a p
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/03-roteiro.md", "content": "# Roteiro — Mapeado — terça 01/12/2026, 17h\n**Título provisório:** Fun
+💬 You've hit your 5-hour limit · resets 6:20pm (UTC)
+💬 You've hit your 5-hour limit · resets 6:20pm (UTC)
+
+=== resultado: success | turnos 3 | 6s | erro=False
+O pesquisador está montando o dossiê. Aguardo a conclusão para seguir com o roteirista.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+O dossiê está pronto. O roteirista está escrevendo o roteiro agora. Aguardo ele terminar para chamar o checador.
+
+=== resultado: success | turnos 1 | 0s | erro=True
+You've hit your 5-hour limit · resets 6:20pm (UTC)
+codigo de saida: 1
