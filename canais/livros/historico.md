@@ -57,6 +57,7 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-24
 - Short "qual o nome dos meninos de Vidas Secas?" (teste de memória) apontando para o longo do livro, ligado à troca de título e thumb B do longo; checar no roteiro antes.
+- Short de curiosidade de bastidor de edição (autora sem nome na capa, 4 editores recusaram), molde dos mais vistos do canal, apontando para o longo do livro da semana; checar fontes antes.
 
 ## Padrões (após 5 longos com dados, 23/11)
 

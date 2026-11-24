@@ -67,6 +67,7 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-24
 - Short de pegadinha de juros compostos ou de aumento seguido de desconto com pergunta e número no título, no molde da regra de três (845 views) e do 10% + 10% (377), apontando para o longo da matéria.
+- Mapa mental das organelas da célula (complexo golgiense, retículo endoplasmático, mitocôndria etc.), pedido por comentário, com Short de pegadinha de Biologia sobre a função de cada organela.
 
 ## Padrões (após 5 longos com dados, 23/11)
 

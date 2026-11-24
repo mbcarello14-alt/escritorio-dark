@@ -83,6 +83,7 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 
 ### 2026-11-24
 - Série "o mesmo número, três fontes": longo e Shorts sobre contagens históricas contestadas (exércitos, baixas, populações), no molde de "8 mil ou 80 mil?" (904 views), com o título do longo repetindo a contradição; checar fontes antes.
+- Short com número e contradição sobre exército ou conta que ninguém sabe fechar (molde de "8 mil ou 80 mil?", 904 views), em outra batalha ou era, apontando para o longo; checar fontes antes.
 
 ## Padrões (após 6 longos com dados, 23/11)
 
