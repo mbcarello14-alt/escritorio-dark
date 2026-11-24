@@ -15,6 +15,14 @@ A referência do Miguel é o canal Bays Talks: **uma imagem em tela cheia o temp
 - Corte o texto do bloco em cenas de **1 frase (3 a 7 segundos)**. Junte duas frases só quando forem muito curtas. Não reescreva nada: a soma das `narracao` tem que ser idêntica ao texto do bloco.
 - Uma ideia visual por cena, e o visual troca em toda cena. Nunca repita a mesma imagem.
 
+## Os primeiros 15 segundos (abertura de trailer, todos os canais)
+- No bloco 1, corte **a cada 1,5 a 3 segundos**: pode dividir a frase em pedaços (a soma das `narracao` continua idêntica ao texto). Pelo menos **6 visuais diferentes** nos primeiros 15 s.
+- A **1ª cena é o visual mais impressionante do vídeo**, sempre animado: `mapa_animado` com câmera viajando, `cena_animada` com ação (bonecos correndo, exército entrando, alguém assustando) ou `contador` com o número-choque. Nunca abra com imagem parada, cartão de texto ou paisagem calma.
+- O número ou fato-choque da 1ª frase aparece **grande na tela** (`contador`, ou `titulo_inferior` sem `pequeno`) no instante em que é falado.
+- O flash-forward (3–8 s) usa a cena mais dramática do vídeo (pode repetir depois, no lugar certo da história, com outro enquadramento).
+- Movimento sempre: `movimento` em toda cena do bloco 1 (`zoom_in` rápido, `pan`), `particulas` (brasas, poeira) nas cenas de tensão.
+- Nada de `titulo_inferior` de apresentação nos primeiros 3 segundos (ele entra a partir da 2ª ou 3ª cena).
+
 ## Visual por canal
 **Ouro & Império (modo animado — referência: documentários animados com mapas)**
 Leia também `pipeline/animacao/FORMATO.md`. O vídeo tem que parecer animado, não um slideshow:

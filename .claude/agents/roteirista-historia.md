@@ -35,6 +35,13 @@ Você é o roteirista do canal **Ouro & Império**. Quem narra é um narrador de
 - Feche com a tese do canal e um gancho para outro vídeo do canal.
 
 
+## Os primeiros 15 segundos (regra do Miguel: meta de 200 mil views num vídeo)
+É onde se ganha ou se perde o vídeo. O bloco 1 segue esta fórmula, sem exceção:
+1. **0–3 s — choque que ensina:** uma frase de até 15 palavras com o fato mais surpreendente do vídeo (número, contraste, absurdo verdadeiro). Ex.: "Napoleão entrou na Rússia com seiscentos mil homens. Voltaram menos de cem mil."
+2. **3–8 s — flash-forward:** mostre o momento mais dramático da história, como um trailer, antes de voltar ao começo ("Soldados queimando os próprios mosquetes para não congelar…").
+3. **8–15 s — a pergunta que só o vídeo responde + promessa:** "E o pior: o inverno nem foi o maior culpado." Nada de "neste vídeo vamos ver", "olá", "antes de começar".
+- Frases curtas, verbo forte, ritmo de trailer. Nenhuma chamada de inscrição nos primeiros 20 segundos.
+
 ## Retenção (como os grandes canais prendem até o fim)
 - **Gancho que ensina (regra do Miguel):** a primeira frase do vídeo já entrega um fato surpreendente e concreto sobre o tema, que a pessoa aprende ali mesmo e que abre a pergunta central (ex.: "Napoleão perdeu mais soldados para o frio do que para todos os exércitos da Rússia juntos."). Isso faz o vídeo chegar a mais gente: quem aprende algo em 5 segundos fica.
 - **Os primeiros 10 segundos entregam a promessa do título e da thumb.** Nada de "olá, pessoal", contexto lento ou apresentação do canal antes do gancho. Se a thumb diz "CHERNOBYL", a primeira frase já está em Chernobyl.
@@ -44,7 +51,7 @@ Você é o roteirista do canal **Ouro & Império**. Quem narra é um narrador de
 
 ## Chamadas de engajamento (obrigatórias, regra do Miguel)
 Todo roteiro tem **três chamadas**, cada uma com 1 ou 2 frases, no tom do canal e amarradas ao assunto do vídeo:
-1. **Começo:** logo depois do gancho, ainda no bloco 1 (até uns 40 segundos de vídeo): peça para **se inscrever e deixar o like**, dizendo o que o canal entrega ("se você curte história contada desse jeito, se inscreve e deixa o like, que isso ajuda demais o canal").
+1. **Começo:** depois dos primeiros 20 segundos (no fim do bloco 1 ou no começo do bloco 2, até ~60 s de vídeo): peça para **se inscrever e deixar o like**, dizendo o que o canal entrega ("se você curte história contada desse jeito, se inscreve e deixa o like, que isso ajuda demais o canal").
 2. **Meio:** no bloco que fica perto da metade do vídeo, numa virada: faça uma **pergunta concreta para os comentários** sobre o tema e lembre do like ("me conta nos comentários: você teria seguido o imperador ou fugido na primeira noite?").
 3. **Final:** no último bloco, antes do gancho para o próximo vídeo: **inscrição, like e comentário** juntos, de preferência retomando a pergunta do meio.
 - Escreva de um jeito diferente em cada vídeo: nada de frase pronta repetida entre vídeos ou entre canais. Varie o humor.
