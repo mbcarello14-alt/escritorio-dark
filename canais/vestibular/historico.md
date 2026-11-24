@@ -65,6 +65,9 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 - Short de pegadinha com pergunta no título em Geografia (petróleo do Estreito de Ormuz ou terras raras), no molde da regra de três (845 views), apontando para o longo da semana.
 - Short de pegadinha de filosofia com uma palavra-chave estranha no título (ex.: eudaimonia) apontando para o longo da semana, e repetir o molde em Sociologia; checar fontes antes.
 
+### 2026-11-24
+- Short de pegadinha de juros compostos ou de aumento seguido de desconto com pergunta e número no título, no molde da regra de três (845 views) e do 10% + 10% (377), apontando para o longo da matéria.
+
 ## Padrões (após 5 longos com dados, 23/11)
 
 **Funcionando**

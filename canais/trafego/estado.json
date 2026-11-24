@@ -178,6 +178,15 @@
       "motivo": "Com 3 views em 54 horas o título atual está fraco; trocar por uma pergunta polêmica, a mesma da thumbnail B (JUSTIÇA DOS VENCEDORES?) e da discussão final do vídeo, muda o gatilho e continua honesto com o conteúdo.",
       "thumb_b": true,
       "em": "2026-11-23T03:51:22+00:00"
+    },
+    {
+      "canal": "livros",
+      "video_id": "CNrOdcwwu-w",
+      "antes": "Vidas Secas: por que a morte da Baleia dói tanto",
+      "depois": "Vidas Secas: qual o nome dos meninos? O livro não diz",
+      "motivo": "Com 6 views em 59 horas o título emocional não está puxando clique; trocar para uma pergunta-contradição (os meninos não têm nome, a cachorra tem), fiel ao bloco 5 do vídeo, combina com a thumbnail B 'QUAL O NOME DELE?' e começa pelo nome do livro.",
+      "thumb_b": true,
+      "em": "2026-11-24T01:11:26+00:00"
     }
   ]
 }

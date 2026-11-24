@@ -81,6 +81,9 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 ### 2026-11-23
 - Short sobre a pergunta "justiça dos vencedores?" em Nuremberg, no molde de contradição dos Shorts que passaram de 600 views, apontando para o longo; checar fontes antes.
 
+### 2026-11-24
+- Série "o mesmo número, três fontes": longo e Shorts sobre contagens históricas contestadas (exércitos, baixas, populações), no molde de "8 mil ou 80 mil?" (904 views), com o título do longo repetindo a contradição; checar fontes antes.
+
 ## Padrões (após 6 longos com dados, 23/11)
 
 **Funcionando**

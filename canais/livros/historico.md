@@ -55,6 +55,9 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 ### 2026-11-21
 - Série de Shorts sobre o que best-sellers famosos afirmam e o que não provam (no molde de Pai Rico Pai Pobre), com a pergunta no título e apontando para o longo; sem dar conselho de finanças ou de vida.
 
+### 2026-11-24
+- Short "qual o nome dos meninos de Vidas Secas?" (teste de memória) apontando para o longo do livro, ligado à troca de título e thumb B do longo; checar no roteiro antes.
+
 ## Padrões (após 5 longos com dados, 23/11)
 
 **Funcionando**
