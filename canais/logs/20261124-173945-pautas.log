@@ -1,0 +1,48 @@
+comando: /pautas canais/vestibular/videos/2026-12-01
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-12-01 && ls && cat estado.json"}
+🔧 Agent {"subagent_type": "pesquisador-vestibular", "description": "Pautas Mapeado 01/12", "prompt": "Etapa 1 (pauta). Canal: vestibular (Mapeado). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/can
+💬 Pesquisador do Mapeado está trabalhando na pauta de 01/12; aguardo o retorno para validar o `pautas.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 WebSearch {"query": "ENEM 2026 datas provas novembro vestibular Fuvest Unicamp dezembro", "mode": "standard"}
+🔧 WebSearch {"query": "Fuvest 2027 segunda fase datas Unicamp 2027 primeira fase data vestibular", "mode": "standard"}
+🔧 WebSearch {"query": "Enem 2026 redação tema 2026 proposta de redação polêmica", "mode": "standard"}
+🔧 WebFetch {"url": "https://agenciagov.ebc.com.br/noticias/202611/resultados-do-enem-serao-divulgados-em-18-de-janeiro", "prompt": "Datas e fatos principais: gabarito, resultado, reaplicação, tema de redação, pa
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos'
+🔧 WebSearch {"query": "site:canais/vestibular/videos", "mode": "standard", "allowed_domains": ["example.invalid"]}
+🔧 WebFetch {"url": "https://www.fuvest.br/fuvest-2027-fuvest-divulga-datas-da-1a-e-da-2a-fase-do-vestibular-2027/", "prompt": "Datas da 1ª e 2ª fase, quais provas na 2ª fase (redação, dia 1 e 2), lista de convoc
+🔧 WebSearch {"query": "youtube redação Enem 2026 SUS como fazer repertório proposta de intervenção aula", "mode": "standard"}
+🔧 WebSearch {"query": "youtube pH e pOH pegadinha Enem Química mapa mental soluções concentração", "mode": "standard"}
+🔧 WebSearch {"query": "funções da linguagem Enem pegadinha mapa mental youtube Fuvest Unicamp questões", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/pautas.json", "content": "[\n  {\n    \"titulo\": \"Proposta de intervenção: o erro que zera a C5 (
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/01-pauta.md", "content": "# Pauta — Mapeado — terça 01/12/2026, 17h\n\n## Contexto da semana\n- ENE
+💬 Escrevi os dois arquivos da pauta de 01/12, mas as três ideias não têm nenhum outlier verificado. As buscas só trouxeram artigos, sem vídeos do YouTube com inscritos e views. Não inventei nenhum e deixei o aviso no `01-pauta.md`. Vale uma busca manual antes de aprovar.
+
+**Ranking**
+1. **Redação: "Proposta de intervenção: o erro que zera a C5 (Fuvest)".** É o melhor encaixe com a data: a 2ª fase da Fuvest é em 6 e 7/12, cinco dias depois do vídeo. O tema do ENEM 2026 (SUS) ainda está em alta. O mapa teria cinco galhos (agente, ação, meio, finalidade e detalhamento), montados ao vivo com o tema 
+🔧 Bash {"command": "python3 -c \"\nimport json;d=json.load(open('pautas.json'));print(len(d));[print(x) for x in d]\""}
+💬 `canais/vestibular/videos/2026-12-01/pautas.json` está válido, com 3 itens ranqueados. Cada ideia é uma aula para prova e as três são de matérias diferentes: Redação, Química e Língua Portuguesa. Nenhuma é de história nem de entretenimento.
+
+1. **Proposta de intervenção: o erro que zera a C5 (Fuvest).** Fica na frente porque a 2ª fase da Fuvest é em 6 e 7/12, e o tema do ENEM 2026 (SUS) ainda está em alta.
+2. **mol/L, g/L ou ppm? A conta de Química que derruba.** Abre direto na conta e na troca de unidades, no molde de pegadinha numérica que já rendeu no canal.
+3. **Função da linguagem: por qu
+
+=== resultado: success | turnos 3 | 6s | erro=False
+Pesquisador do Mapeado está trabalhando na pauta de 01/12; aguardo o retorno para validar o `pautas.json`.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+`canais/vestibular/videos/2026-12-01/pautas.json` está válido, com 3 itens ranqueados. Cada ideia é uma aula para prova e as três são de matérias diferentes: Redação, Química e Língua Portuguesa. Nenhuma é de história nem de entretenimento.
+
+1. **Proposta de intervenção: o erro que zera a C5 (Fuvest).** Fica na frente porque a 2ª fase da Fuvest é em 6 e 7/12, e o tema do ENEM 2026 (SUS) ainda está em alta.
+2. **mol/L, g/L ou ppm? A conta de Química que derruba.** Abre direto na conta e na troca de unidades, no molde de pegadinha numérica que já rendeu no canal.
+3. **Função da linguagem: por que você erra a predominante.** É a opção mais segura, mas o tema está saturado.
+
+Antes de aprovar, confira estes pontos que o pesquisador deixou em aberto:
+- **Sem vídeo de referência:** nenhuma das ideias tem vídeo do YouTube que tenha ido muito acima da média. As buscas só trouxeram artigos, e o aviso está no `01-pauta.md`. Vale uma busca manual.
+- **Rodízio de matérias:** o pesquisador não conseguiu listar as pastas de 17/11 a 26/11. Se o vídeo de 26/11 for de Redação, Química ou Português, a ideia correspondente deve ser trocada pela seguinte do ranking.
+- **Datas da Fuvest:** a data da 2ª fase já mudou uma vez, então reconfira no site oficial. Os dias exatos da redação também precisam de confirmação.
+- **Redação e política:** o tema do SUS gerou um pedido de anulação. O vídeo deve ficar só na técnica de redação.
+
+Não editei mais nada.
+codigo de saida: 0
