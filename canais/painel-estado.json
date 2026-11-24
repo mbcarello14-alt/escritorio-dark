@@ -1,22 +1,10 @@
 {
-  "atualizado_em": "2026-11-24T02:20:14Z",
+  "atualizado_em": "2026-11-24T02:41:47Z",
   "ativos": {
     "miguel": [
       "Marca-Página: quarta 25/11 19h00",
       "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
-    ],
-    "narrador": [
-      "Mapeado: Redação Fuvest 2027: a caixinha que zera seu texto"
-    ],
-    "ilustrador": [
-      "Mapeado: Redação Fuvest 2027: a caixinha que zera seu texto"
-    ],
-    "editor": [
-      "Mapeado: Redação Fuvest 2027: a caixinha que zera seu texto"
-    ],
-    "clipador": [
-      "Mapeado: Redação Fuvest 2027: a caixinha que zera seu texto"
     ]
   },
   "proximos": [
@@ -45,10 +33,10 @@
       "dia": "2026-11-26",
       "rotulo": "quinta 26/11 17h00",
       "publicar_em_utc": "2026-11-26T20:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Redação Fuvest 2027: a caixinha que zera seu texto",
-      "url": ""
+      "url": "https://youtu.be/cBYS0qq2k5A"
     }
   ],
   "publicados": [
@@ -137,8 +125,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 35,
+    "neurons": 1925,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
