@@ -24,6 +24,30 @@
           3
         ]
       ]
+    },
+    "28": {
+      "ate": "2026-11-24",
+      "metricas": {
+        "views": 6,
+        "estimatedMinutesWatched": 0,
+        "averageViewDuration": 11,
+        "averageViewPercentage": 1.8799999999999997,
+        "subscribersGained": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "retencao": [],
+      "trafego": [
+        [
+          "YT_SEARCH",
+          3
+        ],
+        [
+          "RELATED_VIDEO",
+          3
+        ]
+      ]
     }
   },
   "parcial": {
@@ -37,10 +61,10 @@
     "shares": 0
   },
   "canal": {
-    "viewCount": "9843",
+    "viewCount": "10733",
     "subscriberCount": "14",
     "hiddenSubscriberCount": false,
-    "videoCount": "40"
+    "videoCount": "41"
   },
-  "atualizado_em": "2026-11-23T22:29:39+00:00"
+  "atualizado_em": "2026-11-24T21:02:07+00:00"
 }
