@@ -1,11 +1,22 @@
 {
-  "atualizado_em": "2026-11-24T02:07:01Z",
+  "atualizado_em": "2026-11-24T02:20:14Z",
   "ativos": {
     "miguel": [
       "Marca-Página: quarta 25/11 19h00",
-      "Mapeado: Redação da Fuvest: o mapa do que o corretor avalia",
       "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
+    ],
+    "narrador": [
+      "Mapeado: Redação Fuvest 2027: a caixinha que zera seu texto"
+    ],
+    "ilustrador": [
+      "Mapeado: Redação Fuvest 2027: a caixinha que zera seu texto"
+    ],
+    "editor": [
+      "Mapeado: Redação Fuvest 2027: a caixinha que zera seu texto"
+    ],
+    "clipador": [
+      "Mapeado: Redação Fuvest 2027: a caixinha que zera seu texto"
     ]
   },
   "proximos": [
@@ -34,9 +45,9 @@
       "dia": "2026-11-26",
       "rotulo": "quinta 26/11 17h00",
       "publicar_em_utc": "2026-11-26T20:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "Redação da Fuvest: o mapa do que o corretor avalia",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "Redação Fuvest 2027: a caixinha que zera seu texto",
       "url": ""
     }
   ],

@@ -1,0 +1,1377 @@
+{
+  "canal": "vestibular",
+  "titulo": "Redação Fuvest 2027: a caixinha que zera seu texto",
+  "descricao": "Esquecer uma caixinha na folha pode zerar a redação da Fuvest, mesmo com um texto excelente. Neste vídeo você monta o mapa dos quatro quesitos que o corretor avalia, a tempo da prova de 6 de dezembro.\nTema, modalidade, coesão e gramática: onde está cada ponto, quais são os zeros bobos e o que a banca não pede.\n\nRamo a ramo, o mapa mental se constrói na tela: a caixinha do gênero e as duas modalidades (dissertação argumentativa ou texto narrativo, em vigor desde a edição 2026), a correção cega com dois corretores e um terceiro se houver divergência, o uso da coletânea com autoria, o atendimento à modalidade, a coesão e a progressão do texto (sem proposta de intervenção estilo Enem) e a correção gramatical. No fim, aplicamos o mapa à proposta do Simulado Fuvest 2027, aplicado em agosto de 2026 (é simulado, não é vestibular oficial). O mapa completo fica na tela para você pausar e printar.\n\nAviso importante: os pesos e a escala citados (1 a 4, pesos 3, 2, 3 e 2) são do modelo de 2026, segundo o Jornal da USP, e podem mudar de uma edição para outra. Confira o guia oficial da Fuvest antes da prova. Redação não tem gabarito e este vídeo não promete nota: ele mostra onde estão os pontos, quem dá a nota são os corretores.\n\nO Caio é um personagem fictício, e todos os textos de exemplo dele (como o do celular na escola) foram escritos por nós, só para o vídeo. Não usamos redação de aluno real.\n\nSe o mapa te ajudou, inscreva-se no Mapeado, deixe o like e conte nos comentários: dissertação ou narrativa? Tem mapa novo toda terça e quinta.\n\nIlustrações geradas por inteligência artificial (estilo quadro branco). A narração é de voz sintética.\n\nFontes:\n- Fuvest, Simulado Fuvest 2027, notas da redação e critérios: https://www.fuvest.br/simulado-fuvest-2027-fuvest-divulga-hoje-as-notas-da-redacao-do-simulado/\n- Fuvest, Guia de Provas e calendário 2027: https://www.fuvest.br/?p=70859\n- Jornal da USP, O que faz um candidato tirar nota máxima na redação da Fuvest: https://jornal.usp.br/?p=979719\n- CNN Brasil, Fuvest 2026: saiba como obter a pontuação máxima na redação: https://www.cnnbrasil.com.br/educacao/fuvest-2026-saiba-como-obter-a-pontuacao-maxima-na-redacao/\n- CNN Brasil, Redação da Fuvest 2025: saiba como é feita a correção: https://www.cnnbrasil.com.br/educacao/redacao-da-fuvest-2025-saiba-como-e-feita-a-correcao/\n- Quero Bolsa, Redação Fuvest 2026: novidades: https://querobolsa.com.br/revista/redacao-fuvest-2026-novidades\n- Quero Bolsa, O que esperar do tema de redação da Fuvest 2027: https://querobolsa.com.br/revista/o-que-esperar-do-tema-de-redacao-da-fuvest-2027\n- SPES, Redação Fuvest 2027: https://www.spesedu.com.br/redacao-fuvest-2027\n\nMúsica: trilha de fundo da biblioteca do canal.",
+  "tags": [
+    "redação fuvest",
+    "fuvest 2027",
+    "redação fuvest 2027",
+    "como é corrigida a redação da fuvest",
+    "critérios de correção fuvest",
+    "dissertação ou narrativa",
+    "nota zero redação",
+    "fuvest segunda fase",
+    "redação vestibular",
+    "como fazer redação",
+    "mapa mental redação",
+    "dicas de redação",
+    "mapeado"
+  ],
+  "hashtags": [
+    "#fuvest",
+    "#redação",
+    "#vestibular"
+  ],
+  "playlist": "Redação",
+  "comentario_inicial": "Se a prova fosse amanhã, você iria de dissertação ou de narrativa na Fuvest? Conta o porquê aqui embaixo, que eu leio todas.",
+  "musica_humor": "foco",
+  "sintetico_realista": false,
+  "thumbnail": {
+    "texto": "A CAIXINHA ZERA",
+    "cena": "huge hand-drawn black marker doodle of an essay answer sheet with a small empty square checkbox in the corner circled in thick red-orange marker, a giant orange zero bursting out of the sheet, a small stick-figure student with a backpack looking shocked, dark blue touches, thick outlines, plain white background, Draw My Life whiteboard style, main subject large and fully on the left side, empty space on the right, no text, no letters",
+    "imagem_busca": "exam answer sheet checkbox pencil",
+    "layout": "direita",
+    "alternativa": {
+      "texto": "GRAMÁTICA PESA MENOS",
+      "cena": "huge hand-drawn black marker doodle of a two-pan balance scale, the left pan heavy with a big book and a magnifying glass, the right pan light and high up holding a tiny pencil with a red correction mark, dark blue and orange touches, thick outlines, plain white background, Draw My Life whiteboard style, main subject large and centered in the lower two thirds, empty space at the top, no text, no letters",
+      "imagem_busca": "balance scale drawing essay writing",
+      "layout": "centro"
+    }
+  },
+  "blocos": [
+    {
+      "capitulo": "A caixinha que zera",
+      "cenas": [
+        {
+          "narracao": "Na redação da Fuvest, um texto excelente pode valer zero",
+          "visual": {
+            "tipo": "contador",
+            "de": 50,
+            "ate": 0,
+            "sufixo": " pontos",
+            "rotulo": "texto excelente, caixinha vazia"
+          }
+        },
+        {
+          "narracao": "por causa de uma caixinha vazia.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a big empty square checkbox on a sheet of paper, a red marker circling it",
+            "busca_reserva": "empty checkbox form",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Quando a proposta oferece mais de um gênero,",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two road signs pointing in different directions, one says essay, the other story, drawn as simple symbols",
+            "busca_reserva": "crossroads signpost",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "você precisa marcar na folha qual escolheu.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a hand with a pen ticking a checkbox on an exam sheet",
+            "busca_reserva": "hand ticking checkbox exam",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Esqueceu?",
+          "visual": {
+            "tipo": "cena_animada",
+            "movimento": "zoom_in",
+            "personagens": [
+              {
+                "figurino": "estudante",
+                "x": 0.5,
+                "acoes": [
+                  {
+                    "acao": "assusta",
+                    "em": 0.1,
+                    "ate": 0.9
+                  },
+                  {
+                    "acao": "surpreso",
+                    "em": 0.1
+                  }
+                ]
+              }
+            ],
+            "cenario": "empty exam classroom with wooden desks and a window, no people"
+          }
+        },
+        {
+          "narracao": "Zero, por melhor que seja o texto.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "0",
+            "rotulo": "nota, por melhor que seja o texto"
+          }
+        },
+        {
+          "narracao": "E essa é só a primeira pegadinha.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a wooden mousetrap with a small piece of cheese shaped like a pencil",
+            "busca_reserva": "mousetrap cheese",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Hoje a gente desenha, ramo por ramo, o mapa do que o corretor da Fuvest avalia,",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        },
+        {
+          "narracao": "para você chegar no dia seis de dezembro sabendo onde está cada ponto.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "6 de dezembro"
+          }
+        },
+        {
+          "narracao": "Se você gosta de ver o mapa se montando na sua frente, se inscreve no Mapeado, deixa o like e me conta nos comentários o que mais te assusta na redação.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly teacher drawing a mind map on a whiteboard and pointing at the viewer with a big smile, thumbs up",
+            "busca_reserva": "teacher whiteboard mind map",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O Caio e a folha",
+      "cenas": [
+        {
+          "narracao": "Imagina o Caio. Desenha ele no quadro: mochila, caneta na mão, sentado na segunda fase da Fuvest.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a teenage boy with a backpack sitting at a school desk holding a pen, exam sheet in front of him",
+            "busca_reserva": "student sitting exam desk",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "O Caio é inventado. Tudo o que ele escrever neste vídeo fui eu que escrevi, como exemplo.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "O Caio é inventado",
+            "subtitulo": "tudo o que ele escreve aqui é exemplo meu"
+          }
+        },
+        {
+          "narracao": "Primeiro, o tamanho do problema. Na segunda fase, a redação vale cinquenta pontos de um total de duzentos.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "50 de 200",
+            "rotulo": "pontos da redação na segunda fase"
+          }
+        },
+        {
+          "narracao": "Um quarto da nota. Pensa numa pizza cortada em quatro: uma fatia inteira é só o texto do Caio.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a pizza cut in four slices with one slice highlighted in orange and a tiny sheet of paper on it",
+            "busca_reserva": "pizza four slices",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Segundo, a regra mudou. Desde o vestibular de dois mil e vinte e seis, a Fuvest oferece duas modalidades.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "2026",
+            "rotulo": "a Fuvest passa a oferecer duas modalidades"
+          }
+        },
+        {
+          "narracao": "Uma é a dissertação argumentativa, que você já conhece. A outra é um texto narrativo, e o gênero só aparece na hora da prova.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Dissertação argumentativa",
+              "itens": [
+                "A que você já conhece"
+              ]
+            },
+            "direita": {
+              "titulo": "Texto narrativo",
+              "itens": [
+                "Gênero só aparece na hora da prova"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Um professor ouvido pela imprensa apontou como possíveis crônica, conto, diário, relato e notícia, mas isso é palpite, não regra da banca.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Palpite, não regra da banca",
+            "itens": [
+              "Crônica",
+              "Conto",
+              "Diário",
+              "Relato",
+              "Notícia"
+            ]
+          }
+        },
+        {
+          "narracao": "O candidato escolhe uma modalidade só. E aí volta a caixinha da abertura.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a student at a fork in the road choosing one path, a checkbox floating above his head",
+            "busca_reserva": "fork in the road",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "Desenha ela pequena, no canto da folha. Esse quadradinho vale a redação inteira.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a sheet of paper with a tiny checkbox in the corner and a huge glowing arrow pointing at it",
+            "busca_reserva": "paper corner checkbox",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Agora a pergunta que interessa: quando o Caio entrega a folha, quem lê aquele texto? E com que régua?",
+          "visual": {
+            "tipo": "cena_animada",
+            "personagens": [
+              {
+                "figurino": "estudante",
+                "x": 0.35,
+                "olha": "direita",
+                "prop": "pergaminho",
+                "acoes": [
+                  {
+                    "acao": "entra",
+                    "de": "esquerda",
+                    "em": 0,
+                    "ate": 0.3
+                  },
+                  {
+                    "acao": "segura",
+                    "em": 0.3
+                  }
+                ]
+              },
+              {
+                "figurino": "terno",
+                "x": 0.7,
+                "olha": "esquerda",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "pensa",
+                    "em": 0.5,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ],
+            "cenario": "empty exam classroom with wooden desks and a window, no people"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Três óculos e uma balança",
+      "cenas": [
+        {
+          "narracao": "Quem lê são duas pessoas, e uma não sabe a nota da outra. É a correção cega.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two graders at separate desks with a wall between them, each covering a grade with a hand",
+            "busca_reserva": "two teachers grading papers",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Dois corretores avaliam o texto do Caio de forma independente. Se as notas divergem bastante, um terceiro corretor decide.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Correção cega",
+            "itens": [
+              "Corretor 1",
+              "Corretor 2",
+              "Se divergir bastante: terceiro corretor"
+            ]
+          }
+        },
+        {
+          "narracao": "Desenha três pares de óculos em fila. A régua desses óculos é o nosso mapa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "three pairs of round glasses in a row, the middle one slightly bigger",
+            "busca_reserva": "three pairs of glasses",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "No centro do quadro, escreve grande: o que o corretor avalia. Dele saem quatro ramos, cada um com uma cor de caneta. E a gente vai corrigir o Caio com as quatro.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        },
+        {
+          "narracao": "Antes, um aviso sobre os pesos: não consegui confirmar isso no PDF oficial.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Aviso sobre os pesos",
+            "subtitulo": "não consegui confirmar no PDF oficial"
+          }
+        },
+        {
+          "narracao": "Segundo o Jornal da Usp, no modelo de dois mil e vinte e seis, cada quesito recebe nota de um a quatro, e os pesos são três, dois, três e dois.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Modelo 2026 (Jornal da USP)",
+            "itens": [
+              "Nota de 1 a 4 por quesito",
+              "Pesos: 3, 2, 3 e 2"
+            ]
+          }
+        },
+        {
+          "narracao": "Só que, nesse modelo, o segundo quesito se chamava estrutura dissertativa. Nos critérios do simulado de dois mil e vinte e sete, a Fuvest fala em atendimento à modalidade.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Modelo 2026",
+              "itens": [
+                "Estrutura dissertativa"
+              ]
+            },
+            "direita": {
+              "titulo": "Simulado 2027",
+              "itens": [
+                "Atendimento à modalidade"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E o guia de dois mil e vinte e sete pode ter mudado os pesos. Então confere no guia oficial antes da prova.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Confira o guia oficial",
+            "subtitulo": "os pesos podem ter mudado"
+          }
+        },
+        {
+          "narracao": "Desenha uma balança. No modelo de dois mil e vinte e seis, a gramática fica num prato leve. O peso maior está em outro lugar, e é por ele que a gente começa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a balance scale, one plate high and light with a tiny feather, the other low and heavy",
+            "busca_reserva": "balance scale",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Ramo vermelho: tema, coletânea e autoria",
+      "cenas": [
+        {
+          "narracao": "Primeiro ramo, caneta vermelha: compreensão e desenvolvimento do tema, uso da coletânea e autoria. Peso três nesse modelo.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        },
+        {
+          "narracao": "Coletânea é o conjunto de textos de apoio que vem com a proposta. E pode ter imagem: no simulado de agosto, uma das propostas partia de um quadro. Ler imagem também cai.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stack of papers next to a small framed painting on an easel, a magnifying glass over both",
+            "busca_reserva": "papers and painting magnifying glass",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "A pegadinha deste ramo tem duas pontas. Ponta um: copiar a coletânea zera a redação. Ponta dois: usar a coletânea sem voz própria derruba o quesito.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Duas pontas da pegadinha",
+            "itens": [
+              "Copiar a coletânea: zera",
+              "Usar sem voz própria: derruba o quesito"
+            ]
+          }
+        },
+        {
+          "narracao": "A banca quer diálogo com os textos, não repetição. Vamos ao Caio. Imagina uma proposta inventada por mim, sobre celular na escola, com um texto de apoio dizendo que o celular distrai os alunos.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a bored student in a classroom looking at a smartphone under the desk while a teacher writes on a board",
+            "busca_reserva": "student phone classroom",
+            "movimento": "pan_esquerda"
+          }
+        },
+        {
+          "narracao": "O Caio escreve: conforme o texto de apoio, o celular distrai os alunos. E para aí. Repetiu e não acrescentou nada. Caneta vermelha.",
+          "visual": {
+            "tipo": "cena_animada",
+            "personagens": [
+              {
+                "figurino": "estudante",
+                "x": 0.3,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "senta",
+                    "em": 0
+                  },
+                  {
+                    "acao": "triste",
+                    "em": 0.6
+                  }
+                ]
+              },
+              {
+                "figurino": "narrador",
+                "x": 0.7,
+                "olha": "esquerda",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "nega",
+                    "em": 0.5,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ],
+            "cenario": "empty exam classroom with wooden desks and a window, no people"
+          }
+        },
+        {
+          "narracao": "A versão melhorada, também escrita por mim: o texto de apoio culpa o celular pela distração, mas a distração é antiga. O que mudou foi a velocidade com que ela chega.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a student with a glowing light bulb above his head writing happily on paper",
+            "busca_reserva": "student idea light bulb",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Viu? Ele parte do texto e puxa para uma ideia dele. Isso é autoria.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Autoria",
+            "subtitulo": "partir do texto e puxar para uma ideia sua"
+          }
+        },
+        {
+          "narracao": "Na descrição do nível máximo, o Jornal da Usp fala em tratamento avançado do tema, uso consistente da coletânea e fortes indícios de autoria.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Nível máximo (Jornal da USP)",
+            "itens": [
+              "Tratamento avançado do tema",
+              "Uso consistente da coletânea",
+              "Fortes indícios de autoria"
+            ]
+          }
+        },
+        {
+          "narracao": "Só que dá para perder tudo isso antes da primeira frase. E o culpado está no segundo ramo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a big blue marker hovering menacingly over a tiny checkbox on a sheet of paper",
+            "busca_reserva": "blue pen checkbox",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Ramo azul: a modalidade",
+      "cenas": [
+        {
+          "narracao": "Segundo ramo, caneta azul: atendimento à modalidade, ou seja, ao gênero proposto. Peso menor nesse modelo, a confirmar no guia.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "O zero mais bobo da prova está aqui. Já vimos a caixinha: proposta com mais de um gênero e nada marcado, nota zero.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a big empty checkbox next to a giant zero in orange marker",
+            "busca_reserva": "zero grade exam",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Mas tem outro jeito de zerar, que é a fuga da proposta. E fugir não é só sair do tema. Fugir da modalidade também zera.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stick figure running away from a sheet of paper that has a question mark on it",
+            "busca_reserva": "running away from paper",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Se o Caio marca narrativa e entrega uma dissertação, está fora.",
+          "visual": {
+            "tipo": "cena_animada",
+            "personagens": [
+              {
+                "figurino": "estudante",
+                "x": 0.35,
+                "olha": "direita",
+                "prop": "pergaminho",
+                "acoes": [
+                  {
+                    "acao": "segura",
+                    "em": 0.1,
+                    "ate": 0.7
+                  },
+                  {
+                    "acao": "surpreso",
+                    "em": 0.5
+                  }
+                ]
+              },
+              {
+                "figurino": "terno",
+                "x": 0.7,
+                "olha": "esquerda",
+                "fala": true,
+                "acoes": [
+                  {
+                    "acao": "nega",
+                    "em": 0.4,
+                    "ate": 0.9
+                  },
+                  {
+                    "acao": "bravo",
+                    "em": 0.4
+                  }
+                ]
+              }
+            ],
+            "cenario": "empty exam classroom with wooden desks and a window, no people"
+          }
+        },
+        {
+          "narracao": "Desenha uma bifurcação. Placa da esquerda: dissertação argumentativa. Placa da direita: narrativa.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Placa da esquerda",
+              "itens": [
+                "Dissertação argumentativa"
+              ]
+            },
+            "direita": {
+              "titulo": "Placa da direita",
+              "itens": [
+                "Narrativa"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "O Caio escolhe uma placa, marca a caixinha e vai até o fim pelo mesmo caminho.",
+          "visual": {
+            "tipo": "cena_animada",
+            "personagens": [
+              {
+                "figurino": "estudante",
+                "x": 0.2,
+                "olha": "direita",
+                "acoes": [
+                  {
+                    "acao": "anda",
+                    "em": 0.2,
+                    "ate": 0.9
+                  }
+                ]
+              }
+            ],
+            "cenario": "empty exam classroom with wooden desks and a window, no people"
+          }
+        },
+        {
+          "narracao": "Pegadinha de quem estuda por material velho: tem texto na internet, de antes de dois mil e vinte e seis, dizendo que narrativa zera na Fuvest. Isso mudou. Hoje a narrativa é opção oficial.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Material velho (antes de 2026)",
+              "itens": [
+                "Narrativa zera"
+              ]
+            },
+            "direita": {
+              "titulo": "Hoje",
+              "itens": [
+                "Narrativa é opção oficial"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E a lista de zeros, para printar: fugir da proposta, copiar a coletânea, entregar em branco, declarar que não quer ser avaliado e não marcar o gênero quando há escolha.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Lista de zeros",
+            "itens": [
+              "Fugir da proposta",
+              "Copiar a coletânea",
+              "Entregar em branco",
+              "Declarar que não quer ser avaliado",
+              "Não marcar o gênero quando há escolha"
+            ]
+          }
+        },
+        {
+          "narracao": "Minha opinião: escolhe o caminho antes da prova, não no susto.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Escolhe o caminho antes da prova",
+            "subtitulo": "não no susto"
+          }
+        },
+        {
+          "narracao": "E agora eu quero saber de você. Se a prova fosse amanhã, você iria de dissertação ou arriscaria a narrativa? Me conta nos comentários o porquê, deixa o like e, se ainda não é inscrito, se inscreve, que tem mapa novo toda terça e quinta.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cheerful teacher holding two signs, one in each hand, tilting his head with a curious smile and a thumbs up",
+            "busca_reserva": "teacher holding two signs",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Escolher o caminho é só o começo. O texto ainda precisa andar sem tropeçar, e é isso que o terceiro ramo mede.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stick figure walking on a straight line and about to trip over a small rock",
+            "busca_reserva": "person tripping on stone",
+            "movimento": "pan_direita"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Ramo verde: o trem que anda",
+      "cenas": [
+        {
+          "narracao": "Terceiro ramo, caneta verde: recursos linguísticos, coesão, coerência e progressão textual. Peso três nesse modelo. É o outro prato pesado da balança.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "Pensa no texto como um trem. Cada parágrafo é um vagão.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a little steam train with four wagons, each wagon has a small page drawn on it",
+            "busca_reserva": "steam train wagons",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Coesão são os engates, as palavras que prendem um vagão no outro. Coerência é o trilho: as ideias não podem se contradizer. E progressão é o trem sair do lugar, com cada vagão levando uma carga nova.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "O texto é um trem",
+            "itens": [
+              "Coesão: os engates",
+              "Coerência: o trilho",
+              "Progressão: o trem anda, carga nova"
+            ]
+          }
+        },
+        {
+          "narracao": "De volta ao exemplo do Caio. Segundo parágrafo: além disso, o celular distrai. Terceiro parágrafo: além disso, o celular atrapalha a concentração.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two train wagons coupled together, both carrying the same orange box, same hook",
+            "busca_reserva": "two train wagons coupled",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Dois vagões com a mesma carga e o mesmo engate. O trem andou? Não. Caneta verde.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stopped train with a confused conductor scratching his head, a green marker X over it",
+            "busca_reserva": "stopped train",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "A correção: o terceiro parágrafo traz uma ideia nova, presa à anterior. Por exemplo: se a distração é antiga, proibir a tela não resolve sozinho. Agora o engate é uma conclusão, e o trem avançou.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a happy train moving fast with puffs of smoke, the second wagon carrying a new blue box",
+            "busca_reserva": "moving steam train",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "E um aviso para quem vem do Enem. A Fuvest não pede proposta de intervenção.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Fuvest não pede proposta de intervenção",
+            "subtitulo": "aviso para quem vem do Enem"
+          }
+        },
+        {
+          "narracao": "Nenhum dos quatro quesitos fala em agente, ação, meio e finalidade. Então aquele parágrafo de intervenção decorado não é o que esta banca está medindo. Ela mede o raciocínio andando.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a memorized paragraph on a sheet of paper crumpled and tossed into a bin, a train passing in the background",
+            "busca_reserva": "crumpled paper bin",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Falta um ramo. O da gramática. E ele pesa menos do que muita gente imagina.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a small light feather on one plate of a scale, with a black pen beside it",
+            "busca_reserva": "feather scale",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Ramo preto e o mapa completo",
+      "cenas": [
+        {
+          "narracao": "Quarto ramo, caneta preta: correção gramatical, convenções da escrita e adequação vocabular. Peso dois nesse modelo.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "A norma-padrão entra aqui: concordância, regência, crase, pontuação, ortografia.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Norma-padrão",
+            "itens": [
+              "Concordância",
+              "Regência",
+              "Crase",
+              "Pontuação",
+              "Ortografia"
+            ]
+          }
+        },
+        {
+          "narracao": "Adequação vocabular é a palavra do tamanho certo. Nem gíria, nem palavra difícil só para enfeitar.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a student holding a word card that fits perfectly in a frame, a slang cap on the left and a fancy top hat on the right both crossed out",
+            "busca_reserva": "right size word vocabulary",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Último erro do Caio no exemplo: os alunos fica distraído. Sujeito no plural, verbo e adjetivo no singular. Caneta preta.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Caio escreveu",
+              "itens": [
+                "os alunos fica distraído"
+              ]
+            },
+            "direita": {
+              "titulo": "Caneta preta",
+              "itens": [
+                "Sujeito no plural, verbo e adjetivo no singular"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Agora a boa notícia. Na descrição do nível máximo, segundo o Jornal da Usp, cabem quebras mínimas e eventuais da norma. A banca não espera perfeição. Espera controle.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "A banca não espera perfeição",
+            "subtitulo": "espera controle"
+          }
+        },
+        {
+          "narracao": "Pronto. Dá um passo para trás e olha o quadro inteiro. No centro, o que o corretor avalia. Os pesos são os do modelo de dois mil e vinte e seis.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Ramo vermelho, peso três: tema, coletânea e autoria, com a pegadinha da cópia. Ramo azul: modalidade, com a caixinha e a fuga, peso a confirmar no guia.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Ramo verde, peso três: coesão, coerência e progressão, com o trem andando e sem intervenção estilo Enem. Ramo preto, peso dois: gramática e vocabulário, controle em vez de perfeição.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Em volta, os três óculos da correção cega. E no canto, em vermelho, a lista de zeros. Pausa e tira print. Esse é o mapa. Agora vamos testar ele numa proposta feita pela própria banca.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A proposta do simulado",
+      "cenas": [
+        {
+          "narracao": "A proposta é do Simulado Fuvest dois mil e vinte e sete, aplicado pela Fuvest em agosto de dois mil e vinte e seis. Atenção: é simulado, não é vestibular oficial.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Simulado Fuvest 2027",
+            "subtitulo": "aplicado em agosto de 2026 · não é o vestibular oficial"
+          }
+        },
+        {
+          "narracao": "Eram duas opções. Opção um: um texto narrativo introspectivo, baseado num quadro cujo título, em francês, quer dizer interior de cozinha. Opção dois: um texto dissertativo-argumentativo sobre cultura e culinária.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Opção 1",
+              "itens": [
+                "Narrativo introspectivo",
+                "Baseado num quadro: interior de cozinha"
+              ]
+            },
+            "direita": {
+              "titulo": "Opção 2",
+              "itens": [
+                "Dissertativo-argumentativo",
+                "Cultura e culinária"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Redação não tem gabarito. A resolução aqui é passar a proposta pelo mapa. Ramo azul primeiro, porque ele vem antes da primeira linha. Escolhe o caminho e marca a caixinha.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Se for narrativa, introspectiva quer dizer voltada para dentro: pensamentos e sensações de quem narra. Se for dissertação, a tese sobre cultura e culinária tem que aparecer clara.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a person with a thought bubble showing a steaming pot and a cooking spoon, a small heart inside the head",
+            "busca_reserva": "kitchen thoughts person",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Ramo vermelho: na narrativa, o quadro é o ponto de partida. Parte dele, sem ficar só descrevendo a imagem, e cria uma voz própria. Na dissertação, vale o mesmo para qualquer texto de apoio: conversar, nunca copiar.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a framed painting of a kitchen with an arrow leaving the frame toward a speech bubble",
+            "busca_reserva": "kitchen interior painting",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Ramo verde: cada parágrafo, ou cada momento da narrativa, leva algo novo. O trem anda. Ramo preto: no fim, uma revisão de concordância, crase e pontuação.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a happy steam train carrying new colored boxes in each wagon, a black pen checking the last wagon",
+            "busca_reserva": "steam train cargo",
+            "movimento": "pan_direita"
+          }
+        },
+        {
+          "narracao": "Repara que o mapa não diz o que escrever. Ele diz onde estão os pontos. E eu não prometo nota, porque quem dá a nota são aqueles corretores. Mas o mapa te tira do zero bobo e te faz gastar energia onde pesa mais.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Fechamento",
+      "cenas": [
+        {
+          "narracao": "Então fica a tese do Mapeado de hoje: na redação da Fuvest, a nota não sai de dica solta. Sai de quatro quesitos, uns pesando mais que outros, e o primeiro ponto se ganha ou se perde numa caixinha.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "O que o corretor avalia",
+              "ramos": [
+                {
+                  "rotulo": "Tema, coletânea e autoria",
+                  "filhos": [
+                    "Peso 3",
+                    "Não copiar a coletânea"
+                  ]
+                },
+                {
+                  "rotulo": "Modalidade",
+                  "filhos": [
+                    "Marcar a caixinha",
+                    "Peso a confirmar"
+                  ]
+                },
+                {
+                  "rotulo": "Coesão, coerência e progressão",
+                  "filhos": [
+                    "Peso 3",
+                    "Sem intervenção estilo Enem"
+                  ]
+                },
+                {
+                  "rotulo": "Gramática",
+                  "filhos": [
+                    "Peso 2",
+                    "Controle, não perfeição"
+                  ]
+                }
+              ]
+            },
+            "revelar": 4
+          }
+        },
+        {
+          "narracao": "Se esse mapa te livrou de um zero bobo, se inscreve, deixa o like e volta na pergunta do meio: dissertação ou narrativa? Quero ver nos comentários qual lado ganha entre quem vai prestar Fuvest.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smiling teacher pointing at the viewer with one hand and holding a thumbs up with the other, two small signs floating beside him",
+            "busca_reserva": "smiling teacher thumbs up",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Na terça tem mapa novo no quadro, de outra matéria do rodízio. Até lá, deixa este aqui printado do lado da sua folha de treino.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a phone taking a screenshot of a mind map placed beside a practice sheet and a pencil on a desk",
+            "busca_reserva": "phone screenshot notes desk",
+            "movimento": "zoom_out"
+          }
+        }
+      ]
+    }
+  ]
+}

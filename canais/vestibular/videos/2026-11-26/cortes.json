@@ -1,0 +1,31 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1],
+      "ate": [1, 9],
+      "gancho": "Uma caixinha vazia zera sua redação?",
+      "titulo": "A caixinha que zera a redação da Fuvest",
+      "descricao": "Na Fuvest, um texto excelente pode valer zero por causa de uma caixinha esquecida. O mapa completo do que o corretor avalia está no vídeo completo no canal.",
+      "hashtags": ["#fuvest", "#redacao", "#vestibular"],
+      "legenda_reels": "Um texto excelente pode valer zero na Fuvest por causa de uma caixinha vazia. Você sabe qual? Segue o perfil para mais mapas de estudo. #fuvest #redacao #vestibular #fuvest2027"
+    },
+    {
+      "de": [4, 3],
+      "ate": [4, 7],
+      "gancho": "Copiar a coletânea zera. E usar mal?",
+      "titulo": "O erro de redação que derruba sua nota na Fuvest",
+      "descricao": "Copiar a coletânea zera, mas usar sem voz própria também custa caro. Veja o exemplo de autoria e o mapa completo no vídeo do canal.",
+      "hashtags": ["#fuvest", "#redacao", "#dicasdeestudo"],
+      "legenda_reels": "Copiar a coletânea zera a redação. Usar sem voz própria derruba a nota. Veja a diferença na prática. Segue o perfil para mais dicas de redação. #fuvest #redacao #vestibular #autoria"
+    },
+    {
+      "de": [5, 2],
+      "ate": [5, 7],
+      "gancho": "Narrativa zera na Fuvest? Não mais.",
+      "titulo": "Narrativa zera na Fuvest? O que mudou desde 2026",
+      "descricao": "Muito material antigo diz que narrativa zera, mas isso mudou. Veja os zeros bobos da redação e o mapa completo no vídeo do canal.",
+      "hashtags": ["#fuvest", "#redacao", "#vestibular"],
+      "legenda_reels": "Tem material velho dizendo que narrativa zera na Fuvest. Isso mudou. Veja os zeros que ainda existem. Segue o perfil para mais mapas. #fuvest #redacao #vestibular #narrativa"
+    }
+  ]
+}
