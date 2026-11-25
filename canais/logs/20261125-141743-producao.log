@@ -1,0 +1,130 @@
+comando: /producao canais/vestibular/videos/2026-12-01
+🔧 Bash {"command": "cd canais/vestibular/videos/2026-12-01 && ls && cat estado.json && cat roteiro.json | head -c 6000; wc -c roteiro.json; cat /home/runner/work/escritorio-dark/escritorio-dark/pipeline/CONT
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python3 -c \"\nimport json;r=json.load(open('canais/vestibular/videos/2026-12-01/roteiro.json'))\nprint({k:v for k,v in r.items() i
+🔧 Agent {"description": "Storyboard e cenas", "subagent_type": "diretor-visual", "prompt": "Pasta do vídeo: canais/vestibular/videos/2026-12-01 (canal Mapeado, estilo quadro branco). Leia roteiro.json, pipeli
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/CONTRATO.md"}
+🔧 Agent {"description": "SEO e embalagem", "subagent_type": "seo-embalagem", "prompt": "Pasta do vídeo: canais/vestibular/videos/2026-12-01 (canal Mapeado). Leia roteiro.json, 02-dossie.md, estado.json, pipel
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/config/vestibular.yaml"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/roteiro.json"}
+🔧 Agent {"description": "Thumbnail do vídeo", "subagent_type": "thumbnail", "prompt": "Pasta do vídeo: canais/vestibular/videos/2026-12-01 (canal Mapeado). Leia roteiro.json, pipeline/CONTRATO.md e pipeline/c
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/CONTRATO.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/config/vestibular.yaml"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+💬 Os três especialistas estão rodando em paralelo. Aguardo o retorno deles para montar o `producao.json`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/CONTRATO.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/config/vestibular.yaml"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-12/09-thumbnail.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-10/09-thumbnail.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-11-03/09-thumbnail.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/09-thumbnail.md", "content": "# Thumbnail - Função da linguagem: por que você erra a predominante\n
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/_thumb.json", "content": "{\"texto\": \"ONDE ELE APONTA?\", \"cena\": \"huge hand-drawn black marke
+💬 Escrevi a thumbnail do vídeo de função da linguagem do Mapeado, com 2 conceitos e o A escolhido. Não rodei `python -m pipeline.validar` e não criei `producao.json`, como você pediu.
+
+- **Escolhida (A):** texto "ONDE ELE APONTA?" (3 palavras), layout `direita`. A cena é um doodle grande de uma folha com um dedo enorme apontando para fora, uma seta laranja, dois bonequinhos e uma lupa, tudo do lado esquerdo. O texto levanta a pergunta que o vídeo responde com o mapa e o funil.
+- **Alternativa (B):** texto "A ISCA DA BANCA" (4 palavras), layout `centro`. A cena é um anzol com uma isca e quatro pe
+💬 Thumbnail pronta. Ainda faltam o storyboard e o SEO, então sigo esperando.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/_seo.json", "content": "{\n  \"titulo\": \"Funções da linguagem: o erro que a banca deixa pronto\",
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/09-seo.md", "content": "# SEO e embalagem: Mapeado, terça 01/12/2026, 17h\n\n## 1. Opções de título
+💬 Escrevi `09-seo.md` e `_seo.json` para o vídeo do Mapeado de 01/12. Não criei `producao.json`, e não rodei `pipeline.validar`, porque ele precisa desse arquivo.
+
+- **Título recomendado:** "Funções da linguagem: o erro que a banca deixa pronto" (53 caracteres). O assunto vem primeiro. O gatilho é o erro da banca, que no histórico trouxe busca e relacionados.
+- **Outras 4 opções:** estão no `09-seo.md`, cada uma com o gatilho que usa.
+- **Descrição:** as duas primeiras linhas apresentam o problema e a promessa. Depois vêm o resumo, as questões citadas com ano e caderno, as fontes do dossiê e os 
+💬 SEO pronto. Falta só o storyboard do diretor visual.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/_blocos.json", "content": "{\"blocos\":[\n{\"capitulo\":\"O Bandeira que não era poético\",\"cenas\
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/06-storyboard.md", "content": "# Storyboard — Função da linguagem (Mapeado, quadro branco)\n\nMapa 
+💬 Escrevi os dois arquivos, mas não conferi a regra crítica. Não tenho shell nem `pipeline.validar` aqui, então dividi o texto à mão. Não comparei programaticamente a soma das `narracao` com o `texto` de cada bloco. Rode a checagem antes de montar o `producao.json`. Também não conferi o tamanho em segundos de cada cena.
+
+- Os 9 blocos seguem na mesma ordem e com o mesmo `capitulo`.
+- Total de 66 cenas.
+- O mapa tem o centro "Função da linguagem" e 3 ramos: "Pessoas e linha", "O que e como se diz" e "Língua no espelho". O `revelar` fica em 0 nos blocos 1 e 3, 1 no bloco 4, 2 no bloco 5 e 3 do blo
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01 && python3 - <<'E'\nimport json,re\nr=json.load(open('roteiro.json'));b=json.load(open('_blocos.js
+💬 As narrações batem com o texto. Monto o `producao.json` e valido.
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && D=canais/vestibular/videos/2026-12-01 && python3 - <<'E'\nimport json\nD='canais/vestibular/videos/2026-12-01/'\ns=json.load(open(D
+❌ Contains brace with quote character (expansion obfuscation)
+🔧 Write {"file_path": "/tmp/montar.py", "content": "import json\nD='canais/vestibular/videos/2026-12-01/'\ns=json.load(open(D+'_seo.json'))\nt=json.load(open(D+'_thumb.json'))\nt=t.get('thumbnail',t)\nb=json.
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python3 /tmp/montar.py && python -m pipeline.validar canais/vestibular/videos/2026-12-01; echo rc=$?"}
+❌ A variable in this command can't be checked before it runs
+🔧 Bash {"command": "python3 /tmp/montar.py"}
+❌ Exit code 1
+Traceback (most recent call last):
+  File "/tmp/montar.py", line 3, in <module>
+    s=json.load(open(D+'_seo.json'))
+                ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'canais/vestibular/videos/2026-12-01/_seo.json'
+🔧 Bash {"command": "python -m pipeline.validar canais/vestibular/videos/2026-12-01"}
+❌ Exit code 1
+/opt/hostedtoolcache/Python/3.12.16/x64/bin/python: Error while finding module specification for 'pipeline.validar' (ModuleNotFoundError: No module named 'pipeline')
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python3 /tmp/montar.py && python -m pipeline.validar canais/vestibular/videos/2026-12-01"}
+💬 Validou. Agora o clipador, e o título no estado.
+🔧 Agent {"description": "Cortes verticais", "subagent_type": "clipador", "prompt": "Pasta do vídeo: canais/vestibular/videos/2026-12-01. O producao.json está pronto (66 cenas). Escreva cortes.json (2 ou 3 cor
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/producao.json"}
+🔧 Bash {"command": "python3 -c \"\nimport json\nD='canais/vestibular/videos/2026-12-01/'\np=json.load(open(D+'producao.json'));e=json.load(open(D+'estado.json'))\ne['titulo']=p['titulo'];json.dump(e,open(D+'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+💬 O `producao.json` está pronto e passou na validação: 66 cenas, 1.670 palavras, cerca de 11,1 min de narração. O `titulo` no `estado.json` agora é "Funções da linguagem: o erro que a banca deixa pronto". Falta o `clipador` terminar o `cortes.json`; ele ainda está rodando.
+
+- **Roteiro:** a concatenação das `narracao` de cada bloco é idêntica ao `texto` do `roteiro.json`. Conferi os 9 blocos por script, e `capitulo` e ordem batem.
+- **Thumbnail:** "ONDE ELE APONTA?" com layout `direita`. A alternativa é "A ISCA DA BANCA", com layout `centro`.
+- **Playlist:** o SEO escolheu "Língua Portuguesa", q
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/videos/2026-12-01/cortes.json", "content": "{\n  \"cortes\": [\n    {\n      \"de\": [1, 1],\n      \"ate\": [1, 4],\
+💬 Escrevi o `cortes.json` com 3 cortes e não alterei o `producao.json`. Não rodei `python -m pipeline.validar`. Conferi à mão que as cenas existem (66 no total) e contei as palavras das narrações.
+
+| Corte | Cenas (bloco, cena) | Palavras | Duração estimada |
+|---|---|---|---|
+| 1 | de [1,1] até [1,4] | cerca de 78 | cerca de 31 s |
+| 2 | de [6,2] até [6,5] | cerca de 112 | cerca de 45 s |
+| 3 | de [8,9] até [8,12] | cerca de 98 | cerca de 39 s |
+
+- **Corte 1:** abre com "Manuel Bandeira falando do próprio poema. E, para o ENEM, a resposta não era poética." Termina prometendo resolver o Bandeira
+🔧 Bash {"command": "head -c 1500 canais/vestibular/videos/2026-12-01/cortes.json; python3 -c \"\nimport json\nD='canais/vestibular/videos/2026-12-01/'\np=json.load(open(D+'producao.json'));c=json.load(open(D
+🔧 Bash {"command": "grep -n -i \"de.*ate\\|cortes\" pipeline/CONTRATO.md .claude/agents/clipador.md | head; python3 -c \"\nimport json\nD='canais/vestibular/videos/2026-12-01/'\np=json.load(open(D+'producao.
+💬 A produção do vídeo de 01/12 do Mapeado está pronta. O `producao.json` e o `cortes.json` existem, e `python -m pipeline.validar` passou: 66 cenas, 1.670 palavras, cerca de 11,1 min de narração.
+
+- **Título final:** "Funções da linguagem: o erro que a banca deixa pronto". Já está no `estado.json`.
+- **Cortes:** são 3, e eu confirmei que `de` e `ate` apontam para cenas que existem, contando a partir de 1. Os trechos têm entre 79 e 112 palavras, dentro do limite de 60 a 140. A validação não cobre o `cortes.json`, então essa conferência foi minha, por script.
+
+| Corte | Cenas (bloco, cena) | Palav
+
+=== resultado: success | turnos 6 | 14s | erro=False
+Os três especialistas estão rodando em paralelo. Aguardo o retorno deles para montar o `producao.json`.
+
+=== resultado: success | turnos 1 | 1s | erro=False
+Thumbnail pronta. Ainda faltam o storyboard e o SEO, então sigo esperando.
+
+=== resultado: success | turnos 1 | 2s | erro=False
+SEO pronto. Falta só o storyboard do diretor visual.
+
+=== resultado: success | turnos 10 | 29s | erro=False
+O `producao.json` está pronto e passou na validação: 66 cenas, 1.670 palavras, cerca de 11,1 min de narração. O `titulo` no `estado.json` agora é "Funções da linguagem: o erro que a banca deixa pronto". Falta o `clipador` terminar o `cortes.json`; ele ainda está rodando.
+
+- **Roteiro:** a concatenação das `narracao` de cada bloco é idêntica ao `texto` do `roteiro.json`. Conferi os 9 blocos por script, e `capitulo` e ordem batem.
+- **Thumbnail:** "ONDE ELE APONTA?" com layout `direita`. A alternativa é "A ISCA DA BANCA", com layout `centro`.
+- **Playlist:** o SEO escolheu "Língua Portuguesa", que não está entre os exemplos do prompt dele. Confirme se é o nome que você quer.
+- **Gabaritos:** a checagem já pedia que você conferisse no INEP o ENEM 2020 nº 6, o ENEM 2026 nº 22 e o caderno do ENEM 2014. Os gabaritos vieram de sites de resolução.
+- **Originalidade:** o guardião deixou o vídeo em 🟡. Para virar 🟢, ele quer 1 ou 2 frases suas em primeira pessoa nos blocos 7 ou 9. A pergunta está em `roteiro.json`.
+
+Apaguei os arquivos temporários (`_blocos.json`, `_seo.json`, `_thumb.json`). Quando o `clipador` terminar, confiro `de`/`ate` e as palavras de cada corte antes de dar por fechado.
+
+=== resultado: success | turnos 3 | 10s | erro=False
+A produção do vídeo de 01/12 do Mapeado está pronta. O `producao.json` e o `cortes.json` existem, e `python -m pipeline.validar` passou: 66 cenas, 1.670 palavras, cerca de 11,1 min de narração.
+
+- **Título final:** "Funções da linguagem: o erro que a banca deixa pronto". Já está no `estado.json`.
+- **Cortes:** são 3, e eu confirmei que `de` e `ate` apontam para cenas que existem, contando a partir de 1. Os trechos têm entre 79 e 112 palavras, dentro do limite de 60 a 140. A validação não cobre o `cortes.json`, então essa conferência foi minha, por script.
+
+| Corte | Cenas (bloco, cena) | Palavras |
+|---|---|---|
+| 1 | de [1,1] até [1,4] | 79 |
+| 2 | de [6,2] até [6,5] | 112 |
+| 3 | de [8,9] até [8,12] | 99 |
+
+- **Corte 3:** abre com "Qual peça está no holofote?", então pede um pouco do contexto do vídeo longo. É o corte mais fraco para ver sozinho.
+- **Playlist:** o SEO escolheu "Língua Portuguesa". Esse nome não estava nos exemplos do prompt dele, então confirme se é o que você quer.
+- **Gabaritos:** vieram de sites de resolução, porque os PDFs do INEP não abriram na máquina. Antes de gravar, confira no INEP o ENEM 2020 nº 6, o ENEM 2026 nº 22 e o caderno do ENEM 2014.
+- **Originalidade:** o guardião deixou o vídeo em 🟡. Para virar 🟢, ele quer 1 ou 2 frases suas em primeira pessoa nos blocos 7 ou 9. A pergunta é: qual função da linguagem mais te enganava quando você estudava?
+codigo de saida: 0

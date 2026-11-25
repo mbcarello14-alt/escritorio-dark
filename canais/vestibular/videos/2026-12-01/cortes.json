@@ -1,0 +1,31 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1],
+      "ate": [1, 4],
+      "gancho": "O ENEM errou o Bandeira?",
+      "titulo": "A pergunta que salva sua nota em Funções da Linguagem",
+      "descricao": "Por que tanta gente erra função da linguagem sabendo a tabela de cor? A resposta está numa pergunta só. O mapa completo e o Bandeira resolvido estão no vídeo do canal.",
+      "hashtags": ["#enem", "#portugues", "#vestibular"],
+      "legenda_reels": "Você sabe as seis funções de cor e ainda erra? Falta uma pergunta: para onde o texto aponta? Segue o perfil para mais mapas mentais. #enem #portugues #vestibular #estudos"
+    },
+    {
+      "de": [6, 2],
+      "ate": [6, 5],
+      "gancho": "Verbete de dicionário não é metalinguagem?",
+      "titulo": "ENEM 2020: o verbete que não era metalinguístico",
+      "descricao": "Caiu um texto com cara de verbete e o enunciado avisou que a resposta não era a óbvia. O gênero engana, o propósito decide. O mapa inteiro está no vídeo completo no canal.",
+      "hashtags": ["#enem", "#funcoesdalinguagem", "#portugues"],
+      "legenda_reels": "Verbete de dicionário, logo metalinguística? O ENEM 2020 Digital provou que não. O gênero engana, o propósito decide. Segue o perfil para mais revisão. #enem #portugues #linguagens #vestibular"
+    },
+    {
+      "de": [8, 9],
+      "ate": [8, 12],
+      "gancho": "Como derrubar 4 iscas do ENEM",
+      "titulo": "Como derrubar as 4 iscas da questão do Bandeira no ENEM",
+      "descricao": "A letra D engana mais porque lembra poética. Veja como uma única pergunta desmonta as quatro iscas. A resolução completa está no vídeo do canal.",
+      "hashtags": ["#enem", "#manuelbandeira", "#vestibular"],
+      "legenda_reels": "Quatro iscas, uma resposta: a letra C. Bastou perguntar para onde o texto aponta. Segue o perfil para mais questões resolvidas. #enem #portugues #vestibular #linguagens"
+    }
+  ]
+}

@@ -1,11 +1,22 @@
 {
-  "atualizado_em": "2026-11-25T05:33:06Z",
+  "atualizado_em": "2026-11-25T14:20:50Z",
   "ativos": {
     "miguel": [
       "Marca-Página: quarta 25/11 19h00",
-      "Mapeado: Função da linguagem: por que você erra a predominante",
       "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
+    ],
+    "narrador": [
+      "Mapeado: Funções da linguagem: o erro que a banca deixa pronto"
+    ],
+    "ilustrador": [
+      "Mapeado: Funções da linguagem: o erro que a banca deixa pronto"
+    ],
+    "editor": [
+      "Mapeado: Funções da linguagem: o erro que a banca deixa pronto"
+    ],
+    "clipador": [
+      "Mapeado: Funções da linguagem: o erro que a banca deixa pronto"
     ]
   },
   "proximos": [
@@ -34,9 +45,9 @@
       "dia": "2026-12-01",
       "rotulo": "terça 01/12 17h00",
       "publicar_em_utc": "2026-12-01T20:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "Função da linguagem: por que você erra a predominante",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "Funções da linguagem: o erro que a banca deixa pronto",
       "url": ""
     }
   ],

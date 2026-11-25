@@ -1,0 +1,981 @@
+{
+  "titulo": "Funções da linguagem: o erro que a banca deixa pronto",
+  "descricao": "Você sabe as seis funções da linguagem de cor e ainda erra a predominante? O problema não é a tabela: é a pergunta que você não faz.\nNeste mapa mental, você monta o funil que pergunta para onde o texto aponta e resolve com ele a questão do Manuel Bandeira do ENEM 2020.\n\nO que você vê no vídeo: as seis funções (emotiva, conativa, fática, referencial, poética e metalinguística) ligadas aos seis fatores da comunicação de Roman Jakobson; os nomes alternativos que a banca troca (expressiva, apelativa, denotativa, informativa); as três formas de a prova perguntar; as iscas das alternativas; e o funil de cinco passos para escolher a função predominante sem chutar. Predominância é interpretação: o funil é um roteiro de raciocínio, não um macete infalível.\n\nPause no mapa final, printe e teste o funil na próxima questão de Linguagens que aparecer. Se ele te livrou de uma isca, deixa o like, se inscreve no Mapeado e conta nos comentários: qual função manda numa mensagem que diz só \"oi, sumido\"?\n\nQuestões citadas: ENEM 2020 (1º dia, caderno azul, nº 6), ENEM 2022 (1º dia, caderno azul, nº 26), ENEM 2020 Digital (caderno azul, nº 23), ENEM 2014, ENEM 2026 (1º dia, caderno azul, nº 22) e Fuvest 2004. Os gabaritos conferidos vêm de sites de resolução; confira sempre no caderno oficial do INEP.\n\nFontes:\n- Jakobson's functions of language (Wikipedia): https://en.wikipedia.org/wiki/Jakobson%27s_functions_of_language\n- Jakobson, Linguística e comunicação (Cultrix), citado em periódico da UESB: https://periodicos2.uesb.br/index.php/estudosdalinguagem/article/download/1196/1031/2026\n- Matriz de Referência do ENEM, habilidade H19 (reproduzida no Anexo VI do vestibular UFG 2027): https://sistemas.institutoverbena.ufg.br/2026/vestibular-ufg/sistema/arquivos/editais/VESTIBULAR_UFG_2027_ANEXO_VI_MATRIZ_DE_REFERENCIA_ENEM.pdf\n- INEP, provas e gabaritos do ENEM: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos\n- ENEM 2020, questão 6 (Bandeira), Descomplica: https://descomplica.com.br/gabarito-enem/questoes/2020/primeiro-dia/os-processos-de-interacao-comunicativa-preveem-presenca-ativa-de-multiplos/\n- ENEM 2022, questão 26 (Chico Buarque), Descomplica: https://descomplica.com.br/gabarito-enem/questoes/2022/primeiro-dia/nesse-texto-predomina-funcao-poetica-da-linguagem-entretanto-funcao-emotiva-pode-ser/\n- ENEM 2020 Digital, questão 23 (verbete), Descomplica: https://descomplica.com.br/gabarito-enem/questoes/2020-digital/primeiro-dia/nessa-simulacao-de-verbete-de-dicionario-nao-ha-predominancia-da-funcao-metalinguistica-da-lingua/\n- ENEM 2026, questão 22 (Estatuto Digital da Criança e do Adolescente), Descomplica: https://descomplica.com.br/gabarito-enem/questoes/2026/primeiro-dia/esse-artigo-do-estatuto-digital-da-crianca-e-do-adolescente-cumpre-a-funcao-referencial-da-linguagem-ao/\n- ENEM 2026, Linguagens resolvidas, Toda Matéria: https://www.todamateria.com.br/linguagens-enem-2026-as-questoes-resolvidas-comentadas/\n- Exercícios sobre funções da linguagem (ENEM 2014 e Fuvest 2004), Toda Matéria: https://www.todamateria.com.br/exercicios-sobre-funcoes-da-linguagem/\n- Funções da linguagem, Toda Matéria: https://www.todamateria.com.br/funcoes-da-linguagem/\n- Funções da linguagem, Quero Bolsa: https://querobolsa.com.br/enem/portugues/funcoes-da-linguagem\n- Funções da linguagem no ENEM, Prepara ENEM: https://www.preparaenem.com/enem/funcoes-da-linguagem-no-enem.htm\n\nCréditos: as ilustrações e doodles do quadro branco foram geradas por inteligência artificial (Flux) e os mapas mentais foram desenhados pelo motor do canal. Narração gerada por voz sintética. Trilha instrumental de fundo da biblioteca do canal.\n\nO Mapeado não promete aprovação nem nota: o mapa organiza o conteúdo, o estudo é seu.",
+  "tags": [
+    "funções da linguagem",
+    "função da linguagem predominante",
+    "funções da linguagem enem",
+    "função metalinguística",
+    "função poética",
+    "função fática",
+    "função conativa",
+    "função emotiva",
+    "função referencial",
+    "Jakobson",
+    "português enem",
+    "linguagens enem",
+    "mapa mental",
+    "questão enem resolvida",
+    "vestibular"
+  ],
+  "hashtags": [
+    "#funçõesdalinguagem",
+    "#enem",
+    "#vestibular"
+  ],
+  "playlist": "Língua Portuguesa",
+  "sintetico_realista": false,
+  "musica_humor": "foco",
+  "comentario_inicial": "Qual função manda numa mensagem que diz só \"oi, sumido\"? Fática, emotiva ou conativa? Defende a sua nos comentários, que discutir já é revisão.",
+  "canal": "vestibular",
+  "thumbnail": {
+    "texto": "ONDE ELE APONTA?",
+    "cena": "huge hand-drawn black marker doodle of a sheet of paper with a giant pointing index finger coming out of it and a bold orange arrow, two tiny stick figures and a magnifying glass in dark blue around it, thick outlines, plain white background, Draw My Life whiteboard style, main subject large and fully on the left side, empty white space on the right, no text, no letters",
+    "imagem_busca": "hand pointing finger drawing paper",
+    "layout": "direita",
+    "alternativa": {
+      "texto": "A ISCA DA BANCA",
+      "cena": "big hand-drawn black marker doodle of a fishing hook with a bait bubble, four small cartoon fish circling around the bait, orange and dark blue marker touches, thick outlines, plain white background, Draw My Life whiteboard style, main subject large in the lower center, empty space at the top for text, no text, no letters",
+      "imagem_busca": "fishing hook bait drawing",
+      "layout": "centro"
+    }
+  },
+  "blocos": [
+    {
+      "capitulo": "O Bandeira que não era poético",
+      "cenas": [
+        {
+          "narracao": "Manuel Bandeira falando do próprio poema. E, para o ENEM, a resposta não era poética.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Manuel Bandeira",
+            "subtitulo": "Resposta do ENEM: não era poética"
+          }
+        },
+        {
+          "narracao": "Prova de dois mil e vinte. Cinco alternativas, todas com justificativa que soa plausível. Angústia do poeta. Origem do nome. Elementos estéticos.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "ENEM 2020 · isca por isca",
+            "itens": [
+              "Angústia do poeta",
+              "Origem do nome",
+              "Elementos estéticos",
+              "Cinco alternativas plausíveis"
+            ]
+          }
+        },
+        {
+          "narracao": "Por que tanta gente erra, sabendo as seis funções de cor? Porque decorar a tabela não salva. Uma pergunta salva: para onde esse texto aponta?",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Para onde esse texto aponta?",
+            "subtitulo": "Decorar a tabela não salva"
+          }
+        },
+        {
+          "narracao": "Até o fim, você monta o mapa que pergunta isso por você e resolve o Bandeira comigo.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Função da linguagem",
+              "ramos": [
+                {
+                  "rotulo": "Pessoas e linha",
+                  "filhos": [
+                    "Emotiva: eu",
+                    "Conativa: você",
+                    "Fática: canal"
+                  ]
+                },
+                {
+                  "rotulo": "O que e como se diz",
+                  "filhos": [
+                    "Referencial: assunto",
+                    "Poética: forma"
+                  ]
+                },
+                {
+                  "rotulo": "Língua no espelho",
+                  "filhos": [
+                    "Metalinguística: código"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        },
+        {
+          "narracao": "Se ver o mapa nascer no quadro te ajuda a revisar, se inscreve e deixa o like, que isso leva o Mapeado a mais gente. E comenta qual função você mais confunde.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly cartoon student pointing at the viewer with a big smile, giving a thumbs up, a small bell and a heart next to him",
+            "busca_reserva": "thumbs up subscribe bell icon drawing"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Duas panelas, duas funções",
+      "cenas": [
+        {
+          "narracao": "Primeiro, um teste rápido. Desenha comigo duas panelas. Na primeira, a frase: a água ferve a cem graus ao nível do mar. Na segunda: ferva a água por dez minutos.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Panela 1",
+              "itens": [
+                "A água ferve a cem graus ao nível do mar"
+              ]
+            },
+            "direita": {
+              "titulo": "Panela 2",
+              "itens": [
+                "Ferva a água por dez minutos"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Mesmo assunto, quase as mesmas palavras, funções diferentes. A primeira informa. Ela aponta para o assunto, e isso é função referencial.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a simple cooking pot with steam and a small thermometer showing boiling water, one object only",
+            "busca_reserva": "boiling water pot illustration"
+          }
+        },
+        {
+          "narracao": "A segunda manda fazer alguma coisa. Ela aponta para quem lê, e isso é função conativa. Fica com essa frase: o propósito muda a função, não as palavras.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "O propósito muda a função",
+            "subtitulo": "Não as palavras"
+          }
+        },
+        {
+          "narracao": "Quem sistematizou essa ideia foi o linguista Roman Jakobson, num texto de mil novecentos e sessenta. Para ele, toda comunicação tem seis peças: quem fala, quem ouve, o assunto, o canal, o código, que é a própria língua, e a mensagem em si.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Jakobson, 1960 · as seis peças",
+            "itens": [
+              "Quem fala",
+              "Quem ouve",
+              "O assunto",
+              "O canal",
+              "O código (a língua)"
+            ]
+          }
+        },
+        {
+          "narracao": "Cada função é o texto jogando o holofote numa dessas peças. Seis peças, seis funções. Até aqui, tabela. O problema está numa palavra do enunciado que a banca adora usar contra você.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a big spotlight beam pointing at a small stick figure on a stage, hand-drawn",
+            "busca_reserva": "spotlight stage stick figure drawing"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "A palavra predominante",
+      "cenas": [
+        {
+          "narracao": "A palavra é predominante. Quase nenhum texto tem uma função só. O próprio Jakobson defendia, em outras palavras, que as mensagens se diferenciam pela hierarquia entre as funções, e não por uma delas aparecer sozinha.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Predominante",
+            "subtitulo": "Quase nenhum texto tem uma função só"
+          }
+        },
+        {
+          "narracao": "Várias aparecem. Uma manda. E a prova sabe disso. A Matriz de Referência do ENEM tem uma habilidade só para esse ponto, a habilidade dezenove: analisar a função da linguagem predominante nos textos em situações específicas de interlocução.",
+          "visual": {
+            "tipo": "numero",
+            "valor": "H19",
+            "rotulo": "habilidade da Matriz do ENEM: função da linguagem predominante"
+          }
+        },
+        {
+          "narracao": "Nas correções de prova que a gente consultou, o tema aparece em várias edições recentes, inclusive no ENEM de dois mil e vinte e seis. E a banca já perguntou de pelo menos três jeitos.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Várias edições recentes",
+            "subtitulo": "Inclusive o ENEM 2026 · pelo menos 3 jeitos de perguntar"
+          }
+        },
+        {
+          "narracao": "Qual função predomina? Predomina tal função, mas onde aparece também outra? Ou ela já entrega o nome da função e quer saber o que o texto faz para cumpri-la.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Três jeitos de perguntar",
+            "itens": [
+              "Qual função predomina?",
+              "Predomina X, onde aparece também outra?",
+              "O nome já vem: o que o texto faz para cumpri-la?"
+            ]
+          }
+        },
+        {
+          "narracao": "Nos três, quem só decorou a tabela tropeça. Por isso o mapa de hoje não tem seis ramos iguais. Tem três, e cada um cabe num desenho só.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Função da linguagem",
+              "ramos": [
+                {
+                  "rotulo": "Pessoas e linha",
+                  "filhos": [
+                    "Emotiva: eu",
+                    "Conativa: você",
+                    "Fática: canal"
+                  ]
+                },
+                {
+                  "rotulo": "O que e como se diz",
+                  "filhos": [
+                    "Referencial: assunto",
+                    "Poética: forma"
+                  ]
+                },
+                {
+                  "rotulo": "Língua no espelho",
+                  "filhos": [
+                    "Metalinguística: código"
+                  ]
+                }
+              ]
+            },
+            "revelar": 0
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Primeiro ramo: as pessoas e a linha",
+      "cenas": [
+        {
+          "narracao": "Primeiro ramo: as pessoas e a linha. O boneco da esquerda é o eu, quem fala. Quando o texto aponta para ele, é a função emotiva, que também aparece com o nome de expressiva.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Função da linguagem",
+              "ramos": [
+                {
+                  "rotulo": "Pessoas e linha",
+                  "filhos": [
+                    "Emotiva: eu",
+                    "Conativa: você",
+                    "Fática: canal"
+                  ]
+                },
+                {
+                  "rotulo": "O que e como se diz",
+                  "filhos": [
+                    "Referencial: assunto",
+                    "Poética: forma"
+                  ]
+                },
+                {
+                  "rotulo": "Língua no espelho",
+                  "filhos": [
+                    "Metalinguística: código"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        },
+        {
+          "narracao": "Primeira pessoa, exclamação, interjeição, adjetivo que avalia. É o texto dizendo: olha o que eu sinto.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stick figure with a hand on its chest and a big heart, exclamation marks around, expressing feelings",
+            "busca_reserva": "stick figure heart emotion drawing"
+          }
+        },
+        {
+          "narracao": "O boneco da direita é o você, quem recebe. Aí é a função conativa, também chamada de apelativa. Imperativo, vocativo, segunda pessoa.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stick figure pointing a finger straight at the viewer, speech lines coming toward the viewer",
+            "busca_reserva": "stick figure pointing finger at viewer"
+          }
+        },
+        {
+          "narracao": "Propaganda vive disso: compre, venha, experimente. E o fio no meio é o canal.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a megaphone shouting a price tag and a shopping bag, simple advertising doodle",
+            "busca_reserva": "megaphone advertising vintage illustration"
+          }
+        },
+        {
+          "narracao": "Quando o texto só quer testar se a linha funciona, é a função fática. Alô? Tá me ouvindo?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two tin cans connected by a taut string, a small question mark above, string telephone",
+            "busca_reserva": "tin can string telephone"
+          }
+        },
+        {
+          "narracao": "Numa aplicação do ENEM de dois mil e catorze, caiu um diálogo ao telefone em que uma pessoa insiste em ser reconhecida, e a resposta era fática.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "ENEM 2014 · diálogo ao telefone",
+            "subtitulo": "Resposta: função fática"
+          }
+        },
+        {
+          "narracao": "A pegadinha é achar que fática é qualquer conversa. Não é. Fática é abrir, manter ou fechar o contato.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Não é",
+              "itens": [
+                "Qualquer conversa"
+              ]
+            },
+            "direita": {
+              "titulo": "É",
+              "itens": [
+                "Abrir o contato",
+                "Manter o contato",
+                "Fechar o contato"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "E repara: a banca troca os nomes. Numa questão aparece apelativa, na outra, conativa. Saber os dois evita travar. E por que notícia e poesia dividem o próximo ramo?",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Função da linguagem",
+              "ramos": [
+                {
+                  "rotulo": "Pessoas e linha",
+                  "filhos": [
+                    "Emotiva: eu",
+                    "Conativa: você",
+                    "Fática: canal"
+                  ]
+                },
+                {
+                  "rotulo": "O que e como se diz",
+                  "filhos": [
+                    "Referencial: assunto",
+                    "Poética: forma"
+                  ]
+                },
+                {
+                  "rotulo": "Língua no espelho",
+                  "filhos": [
+                    "Metalinguística: código"
+                  ]
+                }
+              ]
+            },
+            "revelar": 1
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Segundo ramo: o que se diz e como se diz",
+      "cenas": [
+        {
+          "narracao": "Segundo ramo: o que se diz e como se diz. Duas lupas no quadro. A primeira está em cima do assunto.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Função da linguagem",
+              "ramos": [
+                {
+                  "rotulo": "Pessoas e linha",
+                  "filhos": [
+                    "Emotiva: eu",
+                    "Conativa: você",
+                    "Fática: canal"
+                  ]
+                },
+                {
+                  "rotulo": "O que e como se diz",
+                  "filhos": [
+                    "Referencial: assunto",
+                    "Poética: forma"
+                  ]
+                },
+                {
+                  "rotulo": "Língua no espelho",
+                  "filhos": [
+                    "Metalinguística: código"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        },
+        {
+          "narracao": "Quando o texto quer informar com objetividade, é a função referencial, também chamada de denotativa ou informativa. Terceira pessoa, dados, tom neutro. Notícia, texto científico, lei.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Função referencial",
+            "itens": [
+              "Também: denotativa ou informativa",
+              "Terceira pessoa, dados, tom neutro",
+              "Notícia, texto científico, lei"
+            ]
+          }
+        },
+        {
+          "narracao": "E olha como o ENEM de dois mil e vinte e seis cobrou isso. A prova trouxe um artigo do Estatuto Digital da Criança e do Adolescente, já disse que ele cumpria a função referencial e perguntou: ao fazer o quê?",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "ENEM 2026 · Estatuto Digital da Criança e do Adolescente",
+            "subtitulo": "Já disse: função referencial. Ao fazer o quê?"
+          }
+        },
+        {
+          "narracao": "Pelas correções publicadas, a resposta era determinar princípios legais. O nome veio de presente. O que a banca cobrou foi saber o que ele significa.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "De presente",
+              "itens": [
+                "O nome: referencial"
+              ]
+            },
+            "direita": {
+              "titulo": "O que se cobrou",
+              "itens": [
+                "O que ele faz: determinar princípios legais"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "A segunda lupa está em cima das próprias letras. Quando o jeito de dizer pesa tanto quanto o que se diz, é a função poética.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a big magnifying glass over a few hand-drawn letters, making them look important",
+            "busca_reserva": "magnifying glass over letters drawing"
+          }
+        },
+        {
+          "narracao": "Som, ritmo, rima, figura de linguagem, jogo de sentidos. Poema, letra de música, slogan.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Função poética",
+            "itens": [
+              "Som e ritmo",
+              "Rima",
+              "Figura de linguagem",
+              "Jogo de sentidos",
+              "Poema, música, slogan"
+            ]
+          }
+        },
+        {
+          "narracao": "E aqui mora um erro clássico: achar que poesia é função emotiva. Num poema, o que costuma mandar é a poética.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Erro clássico",
+              "itens": [
+                "Poesia = emotiva"
+              ]
+            },
+            "direita": {
+              "titulo": "No poema",
+              "itens": [
+                "Costuma mandar: poética"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "A emotiva até aparece, mas como coadjuvante. O terceiro ramo parece o mais fácil do quadro. É o que mais derruba.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Função da linguagem",
+              "ramos": [
+                {
+                  "rotulo": "Pessoas e linha",
+                  "filhos": [
+                    "Emotiva: eu",
+                    "Conativa: você",
+                    "Fática: canal"
+                  ]
+                },
+                {
+                  "rotulo": "O que e como se diz",
+                  "filhos": [
+                    "Referencial: assunto",
+                    "Poética: forma"
+                  ]
+                },
+                {
+                  "rotulo": "Língua no espelho",
+                  "filhos": [
+                    "Metalinguística: código"
+                  ]
+                }
+              ]
+            },
+            "revelar": 2
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Terceiro ramo: a língua no espelho",
+      "cenas": [
+        {
+          "narracao": "Terceiro ramo: a língua no espelho. Quando a língua fala da própria língua, ou a obra fala da própria obra, é a função metalinguística.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Função da linguagem",
+              "ramos": [
+                {
+                  "rotulo": "Pessoas e linha",
+                  "filhos": [
+                    "Emotiva: eu",
+                    "Conativa: você",
+                    "Fática: canal"
+                  ]
+                },
+                {
+                  "rotulo": "O que e como se diz",
+                  "filhos": [
+                    "Referencial: assunto",
+                    "Poética: forma"
+                  ]
+                },
+                {
+                  "rotulo": "Língua no espelho",
+                  "filhos": [
+                    "Metalinguística: código"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "O exemplo óbvio é o dicionário e a gramática. O exemplo que a banca adora é outro: o escritor contando como escreveu um poema.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "O óbvio",
+              "itens": [
+                "Dicionário",
+                "Gramática"
+              ]
+            },
+            "direita": {
+              "titulo": "O que a banca adora",
+              "itens": [
+                "Escritor contando como escreveu um poema"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Segundo os bancos de exercícios, até a Fuvest já explorou essa ideia numa prova antiga, de dois mil e quatro, a partir de uma gravura de duas mãos que se desenham.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two hands drawing each other with pencils, each hand sketching the other, simple line drawing",
+            "busca_reserva": "Drawing Hands Escher lithograph"
+          }
+        },
+        {
+          "narracao": "No ENEM de dois mil e vinte, na versão digital, caiu um texto com cara de verbete de dicionário. Verbete, logo metalinguística, certo? O próprio enunciado avisou que não.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Verbete, logo metalinguística?",
+            "subtitulo": "ENEM 2020 digital · o enunciado avisou que não"
+          }
+        },
+        {
+          "narracao": "A definição era construída de um jeito figurado, e a resposta foi a função poética. O gênero engana. A cara do texto não decide nada. O propósito decide.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "O gênero engana",
+            "itens": [
+              "Definição em jeito figurado",
+              "Resposta: função poética",
+              "A cara do texto não decide",
+              "O propósito decide"
+            ]
+          }
+        },
+        {
+          "narracao": "E já que a gente está no meio do mapa, me conta nos comentários: qual função manda numa mensagem que diz só oi, sumido? Se o espelho já clareou alguma coisa, se inscreve e deixa o like, porque agora vem a ferramenta que junta tudo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a smartphone showing a chat bubble with a waving hand, and a cheerful stick figure pointing at the viewer to comment, like and subscribe",
+            "busca_reserva": "smartphone chat bubble waving hand drawing"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O funil da predominante",
+      "cenas": [
+        {
+          "narracao": "A ferramenta é um funil, desenhado embaixo do mapa, com cinco andares. Passo zero: leia como a pergunta foi feita.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "O funil da predominante",
+            "itens": [
+              "0 · Leia como a pergunta foi feita",
+              "1 · Para que esse texto existe?",
+              "2 · Aponte a peça no holofote",
+              "3 · Teste da retirada",
+              "4 · Leia a alternativa inteira"
+            ]
+          }
+        },
+        {
+          "narracao": "No ENEM de dois mil e vinte e dois, uma questão sobre uma canção do Chico Buarque dizia: predomina a função poética. Onde aparece também a emotiva?",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "ENEM 2022 · canção do Chico Buarque",
+            "subtitulo": "Predomina a poética. Onde aparece também a emotiva?"
+          }
+        },
+        {
+          "narracao": "Quem ficou só na poética respondeu outra pergunta. A emotiva estava no verso em primeira pessoa.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Só poética",
+              "itens": [
+                "Respondeu outra pergunta"
+              ]
+            },
+            "direita": {
+              "titulo": "A emotiva",
+              "itens": [
+                "Estava no verso em primeira pessoa"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Passo um: para que esse texto existe? Informar, desabafar, convencer, abrir conversa, falar da própria língua ou criar efeito com a forma.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Passo 1 · Para que o texto existe?",
+            "itens": [
+              "Informar",
+              "Desabafar",
+              "Convencer",
+              "Abrir conversa",
+              "Falar da língua ou criar efeito"
+            ]
+          }
+        },
+        {
+          "narracao": "Passo dois: aponte a peça no holofote. Eu, você, o assunto, a linha, a língua ou o jeito de dizer.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a spotlight beam moving across six small simple icons: a person, an ear, a book, a wire, a dictionary and a letter",
+            "busca_reserva": "spotlight icons drawing"
+          }
+        },
+        {
+          "narracao": "Passo três, o teste da retirada. Apague na cabeça a marca que te chamou atenção. Um imperativo, um pronome, uma metáfora.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a hand holding a big eraser rubbing out one highlighted word from a sentence on a whiteboard",
+            "busca_reserva": "eraser whiteboard drawing"
+          }
+        },
+        {
+          "narracao": "O propósito do texto mudou? Se não mudou, aquela função é coadjuvante. Se o texto deixa de fazer o que se propõe, achou a predominante.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "Propósito não mudou",
+              "itens": [
+                "Função coadjuvante"
+              ]
+            },
+            "direita": {
+              "titulo": "Texto deixou de fazer o que propõe",
+              "itens": [
+                "Achou a predominante"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "Mas atenção: quando o texto tem várias marcas, tirar uma só não decide. Aí você olha o conjunto.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Várias marcas?",
+            "subtitulo": "Tirar uma só não decide: olhe o conjunto"
+          }
+        },
+        {
+          "narracao": "Passo quatro: leia a alternativa inteira. O nome da função e a justificativa precisam bater com o que o texto faz. Desconfia da que acerta só um detalhe.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Passo 4 · Alternativa inteira",
+            "subtitulo": "Nome e justificativa batem com o texto?"
+          }
+        },
+        {
+          "narracao": "Isso não é macete infalível. Predominância é interpretação, e na dúvida o enunciado te guia.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Não é macete infalível",
+            "subtitulo": "Predominância é interpretação"
+          }
+        },
+        {
+          "narracao": "O funil é um roteiro de raciocínio. Para não chutar. E daqui a pouco ele vai encarar o Bandeira.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a big funnel with a question mark going in at the top and a check mark coming out at the bottom, a small cheerful stick figure next to it",
+            "busca_reserva": "funnel drawing check mark"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O mapa inteiro contra o Bandeira",
+      "cenas": [
+        {
+          "narracao": "Olha o quadro inteiro. Eu, emotiva. Você, conativa. A linha, fática. O assunto, referencial. A forma, poética. O espelho, metalinguística. Embaixo, o funil.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Função da linguagem",
+              "ramos": [
+                {
+                  "rotulo": "Pessoas e linha",
+                  "filhos": [
+                    "Emotiva: eu",
+                    "Conativa: você",
+                    "Fática: canal"
+                  ]
+                },
+                {
+                  "rotulo": "O que e como se diz",
+                  "filhos": [
+                    "Referencial: assunto",
+                    "Poética: forma"
+                  ]
+                },
+                {
+                  "rotulo": "Língua no espelho",
+                  "filhos": [
+                    "Metalinguística: código"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "No canto, três placas: presente não é predominante, poesia não é emotiva por reflexo, o gênero engana.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Três placas",
+            "itens": [
+              "Presente não é predominante",
+              "Poesia não é emotiva por reflexo",
+              "O gênero engana"
+            ]
+          }
+        },
+        {
+          "narracao": "Se você está na reta final da Fuvest ou já monta a revisão para o ENEM de dois mil e vinte e sete, esse é o quadro para printar. Agora o Bandeira.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Quadro para printar",
+            "subtitulo": "Agora, o Bandeira"
+          }
+        },
+        {
+          "narracao": "ENEM de dois mil e vinte, primeiro dia, caderno azul, questão seis. O texto é um trecho de Itinerário de Pasárgada, em que Manuel Bandeira conta como nasceu e foi gestado o poema Vou-me embora pra Pasárgada.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "ENEM 2020 · 1º dia · caderno azul · questão 6",
+            "subtitulo": "Itinerário de Pasárgada, de Manuel Bandeira"
+          }
+        },
+        {
+          "narracao": "A pergunta: qual função predomina no fragmento? As alternativas, resumidas.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Qual função predomina no fragmento?",
+            "subtitulo": "Alternativas resumidas"
+          }
+        },
+        {
+          "narracao": "Letra A, emotiva: o poeta expõe angústias que motivaram a criação. Letra B, referencial: informa a origem do nome usado num poema famoso. Letra C, metalinguística: o poeta comenta a gênese e o processo de escrita de um de seus poemas.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Alternativas A, B e C",
+            "itens": [
+              "A · Emotiva: angústias que motivaram a criação",
+              "B · Referencial: origem do nome do poema",
+              "C · Metalinguística: gênese e processo de escrita"
+            ]
+          }
+        },
+        {
+          "narracao": "Letra D, poética: trata de elementos estéticos de um poema. Letra E, apelativa: tenta convencer o leitor da dificuldade de compor.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Alternativas D e E",
+            "itens": [
+              "D · Poética: elementos estéticos de um poema",
+              "E · Apelativa: convencer o leitor da dificuldade de compor"
+            ]
+          }
+        },
+        {
+          "narracao": "Passa no funil. Pergunta direta: qual predomina. Para que o texto existe? Para contar como um poema nasceu.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Para que o texto existe?",
+            "subtitulo": "Para contar como um poema nasceu"
+          }
+        },
+        {
+          "narracao": "Qual peça está no holofote? A própria obra. O escritor falando do processo de escrever. É o espelho.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a writer stick figure with a pencil looking into a mirror that reflects a poem on paper, simple doodle",
+            "busca_reserva": "writer mirror poem drawing"
+          }
+        },
+        {
+          "narracao": "Agora as iscas. A e E acertam um traço: tem sentimento, tem leitor. Mas nenhum dos dois é a razão do trecho. B pega um detalhe, o nome.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": {
+              "titulo": "A e E",
+              "itens": [
+                "Tem sentimento",
+                "Tem leitor",
+                "Não são a razão do trecho"
+              ]
+            },
+            "direita": {
+              "titulo": "B",
+              "itens": [
+                "Pega um detalhe: o nome"
+              ]
+            }
+          }
+        },
+        {
+          "narracao": "A D é a que mais engana, porque elementos estéticos lembra poética. Só que o texto não está jogando com o som e a imagem das próprias frases. Ele fala sobre um poema.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "D: a isca que mais engana",
+            "subtitulo": "O texto fala sobre um poema, não joga com o som"
+          }
+        },
+        {
+          "narracao": "Resposta: letra C, metalinguística. Sem decorar nada. Bastou perguntar para onde o texto aponta, e as quatro iscas se desmontaram.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Letra C · metalinguística",
+            "subtitulo": "Sem decorar nada: as quatro iscas caíram"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Para onde o texto aponta",
+      "cenas": [
+        {
+          "narracao": "Esse é o ponto do mapa de hoje, e é a opinião do canal sem rodeio: função da linguagem não se acerta decorando a tabela. Se acerta perguntando para onde o texto aponta.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Para onde o texto aponta?",
+            "subtitulo": "Não se acerta decorando a tabela"
+          }
+        },
+        {
+          "narracao": "Quase todo texto mistura funções. A prova quer saber qual manda. Revisar esse quadro leva um minuto.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Função da linguagem",
+              "ramos": [
+                {
+                  "rotulo": "Pessoas e linha",
+                  "filhos": [
+                    "Emotiva: eu",
+                    "Conativa: você",
+                    "Fática: canal"
+                  ]
+                },
+                {
+                  "rotulo": "O que e como se diz",
+                  "filhos": [
+                    "Referencial: assunto",
+                    "Poética: forma"
+                  ]
+                },
+                {
+                  "rotulo": "Língua no espelho",
+                  "filhos": [
+                    "Metalinguística: código"
+                  ]
+                }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "Pausa, printa e testa o funil na próxima questão de Linguagens que aparecer na sua frente.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a stick figure student taking a photo of a whiteboard with a phone, a pause button symbol floating above",
+            "busca_reserva": "student photographing whiteboard"
+          }
+        },
+        {
+          "narracao": "Se ele te livrou de pelo menos uma isca, se inscreve, deixa o like e volta lá na pergunta do oi, sumido.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cheerful stick figure with a thumbs up and a subscribe bell, a small chat bubble saying a waving hand",
+            "busca_reserva": "thumbs up bell subscribe drawing"
+          }
+        },
+        {
+          "narracao": "Quero ver quem defende fática e quem defende emotiva, porque discutir isso nos comentários já é revisão. O Mapeado existe para isso: o que mais cai, num quadro só.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two stick figures arguing playfully with speech bubbles, one holding a phone sign and one holding a heart sign",
+            "busca_reserva": "two people debating speech bubbles drawing"
+          }
+        },
+        {
+          "narracao": "E se você curtiu caçar a isca que a banca deixa pronta, o mapa da conta de luz faz a mesma caçada em Física, com o erro que a prova coloca na sua frente esperando você cair. Te vejo lá.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Próximo mapa: a conta de luz",
+            "subtitulo": "A mesma caçada às iscas, em Física"
+          }
+        }
+      ]
+    }
+  ]
+}
