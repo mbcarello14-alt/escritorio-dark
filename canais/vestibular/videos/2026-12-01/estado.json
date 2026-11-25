@@ -3,9 +3,10 @@
   "dia": "2026-12-01",
   "rotulo": "terça 01/12 17h00",
   "publicar_em_utc": "2026-12-01T20:00:00Z",
-  "etapa": "renderizando",
-  "atualizado_em": "2026-11-25T14:20:50+00:00",
+  "etapa": "agendado",
+  "atualizado_em": "2026-11-25T14:41:38+00:00",
   "ideia": 3,
   "nota_miguel": "",
-  "titulo": "Funções da linguagem: o erro que a banca deixa pronto"
+  "titulo": "Funções da linguagem: o erro que a banca deixa pronto",
+  "url": "https://youtu.be/6qX-QJwY-s0"
 }

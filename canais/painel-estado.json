@@ -1,22 +1,10 @@
 {
-  "atualizado_em": "2026-11-25T14:20:50Z",
+  "atualizado_em": "2026-11-25T14:41:39Z",
   "ativos": {
     "miguel": [
       "Marca-Página: quarta 25/11 19h00",
       "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
-    ],
-    "narrador": [
-      "Mapeado: Funções da linguagem: o erro que a banca deixa pronto"
-    ],
-    "ilustrador": [
-      "Mapeado: Funções da linguagem: o erro que a banca deixa pronto"
-    ],
-    "editor": [
-      "Mapeado: Funções da linguagem: o erro que a banca deixa pronto"
-    ],
-    "clipador": [
-      "Mapeado: Funções da linguagem: o erro que a banca deixa pronto"
     ]
   },
   "proximos": [
@@ -45,10 +33,10 @@
       "dia": "2026-12-01",
       "rotulo": "terça 01/12 17h00",
       "publicar_em_utc": "2026-12-01T20:00:00Z",
-      "etapa": "renderizando",
-      "etapa_txt": "🎬 montando o vídeo",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Funções da linguagem: o erro que a banca deixa pronto",
-      "url": ""
+      "url": "https://youtu.be/6qX-QJwY-s0"
     }
   ],
   "publicados": [
@@ -137,8 +125,8 @@
     }
   ],
   "imagens": {
-    "hoje": 0,
-    "neurons": 0,
+    "hoje": 19,
+    "neurons": 1045,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
