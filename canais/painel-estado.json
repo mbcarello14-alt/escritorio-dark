@@ -1,8 +1,9 @@
 {
-  "atualizado_em": "2026-11-25T14:41:39Z",
+  "atualizado_em": "2026-11-25T16:10:52Z",
   "ativos": {
     "miguel": [
       "Marca-Página: quarta 25/11 19h00",
+      "Marca-Página: sábado 28/11 11h00",
       "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
     ]
@@ -27,6 +28,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Redação Fuvest 2027: a caixinha que zera seu texto",
       "url": "https://youtu.be/cBYS0qq2k5A"
+    },
+    {
+      "canal": "livros",
+      "dia": "2026-11-28",
+      "rotulo": "sábado 28/11 11h00",
+      "publicar_em_utc": "2026-11-28T14:00:00Z",
+      "etapa": "aguardando_escolha",
+      "etapa_txt": "👉 esperando você escolher a pauta",
+      "titulo": "",
+      "url": ""
     },
     {
       "canal": "vestibular",

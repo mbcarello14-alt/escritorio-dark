@@ -1,0 +1,40 @@
+comando: /pautas canais/livros/videos/2026-11-28
+🔧 Bash {"command": "cd canais/livros/videos/2026-11-28 && ls && cat estado.json"}
+🔧 Agent {"description": "Pautas Marca-Página 28/11", "subagent_type": "pesquisador-livros", "prompt": "Etapa 1 (pauta). Canal: livros (Marca-Página). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/c
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+💬 O pesquisador do Marca-Página está trabalhando nas pautas de 28/11. Ainda não tenho resultado. Quando ele terminar, confiro se o `pautas.json` é válido, tem 3 itens e se todos são livros.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/historico.md"}
+🔧 WebSearch {"query": "resumo e crítica livro canal pequeno vídeo viral Vidas Secas Dom Casmurro Hábitos Atômicos", "mode": "standard"}
+🔧 WebSearch {"query": "Hábitos Atômicos James Clear crítica resumo vídeo YouTube", "mode": "standard"}
+🔧 WebSearch {"query": "Black Friday 2026 data Brasil 27 de novembro livros Amazon mais vendidos", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-28/pautas.json", "content": "[\n  {\"titulo\": \"Hábitos Atômicos vale a pena? O que o livro prova\", \"an
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/videos/2026-11-28/01-pauta.md", "content": "# Pauta — Marca-Página — sábado 28/11/2026, 11h\n\nContexto da data: Black Fr
+💬 Escrevi `01-pauta.md` e `pautas.json` na pasta do vídeo de 28/11, mas não consegui validar nenhuma das ideias pela regra do garimpo.
+
+As ferramentas desta rodada não mostram inscritos nem views de canais do YouTube. Por isso a seção de outliers de cada ideia está marcada "a confirmar". Não inventei números. Alguém precisa buscar no YouTube um canal com menos de 100 mil inscritos e views pelo menos 5 vezes maiores que os inscritos, antes de o roteiro seguir. Por isso também as notas de demanda saíram mais baixas.
+
+As três ideias, em ordem:
+1. **Hábitos Atômicos vale a pena? O que o livro prova*
+🔧 Bash {"command": "ls && python3 -c \"\nimport json;d=json.load(open('pautas.json'));print(len(d));[print(x) for x in d]\""}
+💬 As 3 pautas de `canais/livros/videos/2026-11-28` estão prontas. O `pautas.json` é válido, tem 3 itens e os três são livros, dentro do nicho do Marca-Página. Não validei a demanda de nenhuma, porque o pesquisador não conseguiu ver inscritos nem views de canais do YouTube.
+
+1. **Hábitos Atômicos vale a pena? O que o livro prova** (James Clear). É o placar do que o livro sustenta com estudos e do que é só boa história, no fim de semana da Black Friday. O pesquisador recomenda esta.
+2. **Memórias Póstumas: o livro que Machado escreveu morto**. O ângulo é o narrador defunto que debocha do leitor.
+3
+
+=== resultado: success | turnos 3 | 6s | erro=False
+O pesquisador do Marca-Página está trabalhando nas pautas de 28/11. Ainda não tenho resultado. Quando ele terminar, confiro se o `pautas.json` é válido, tem 3 itens e se todos são livros.
+
+=== resultado: success | turnos 2 | 5s | erro=False
+As 3 pautas de `canais/livros/videos/2026-11-28` estão prontas. O `pautas.json` é válido, tem 3 itens e os três são livros, dentro do nicho do Marca-Página. Não validei a demanda de nenhuma, porque o pesquisador não conseguiu ver inscritos nem views de canais do YouTube.
+
+1. **Hábitos Atômicos vale a pena? O que o livro prova** (James Clear). É o placar do que o livro sustenta com estudos e do que é só boa história, no fim de semana da Black Friday. O pesquisador recomenda esta.
+2. **Memórias Póstumas: o livro que Machado escreveu morto**. O ângulo é o narrador defunto que debocha do leitor.
+3. **1984: o que o livro diz e o que atribuem a ele**. Repete o molde de pergunta que mais rendeu no canal. Orwell já saiu há três semanas com A Revolução dos Bichos.
+
+- **Demanda não confirmada:** a seção de outliers de cada ideia no `01-pauta.md` está marcada "a confirmar". Antes do roteiro, alguém precisa achar no YouTube um canal com menos de 100 mil inscritos e views pelo menos 5 vezes maiores que os inscritos.
+- **Histórico incompleto:** o pesquisador só conferiu o `historico.md` e não listou a pasta `videos/`. Pode existir um livro repetido que ele não viu. O `historico.md` lista Frankenstein, A Revolução dos Bichos, Dom Casmurro, Rápido e Devagar, Quarto de Despejo e Vidas Secas.
+- **Dados do dossiê:** páginas e edição brasileira de cada livro estão marcadas "a conferir".
+
+Não editei mais nada.
+codigo de saida: 0
