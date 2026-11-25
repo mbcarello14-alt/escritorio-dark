@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-25T20:24:58Z",
+  "atualizado_em": "2026-11-25T22:41:44Z",
   "ativos": {
     "miguel": [
       "Marca-Página: quarta 25/11 19h00",
@@ -9,16 +9,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-25",
-      "rotulo": "quarta 25/11 19h00",
-      "publicar_em_utc": "2026-11-25T22:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
-      "titulo": "",
-      "url": ""
-    },
     {
       "canal": "vestibular",
       "dia": "2026-11-26",
