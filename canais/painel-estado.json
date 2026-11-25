@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-24T23:51:22Z",
+  "atualizado_em": "2026-11-25T03:53:30Z",
   "ativos": {
     "miguel": [
       "Marca-Página: quarta 25/11 19h00",
@@ -126,8 +126,8 @@
     }
   ],
   "imagens": {
-    "hoje": 35,
-    "neurons": 1925,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20
