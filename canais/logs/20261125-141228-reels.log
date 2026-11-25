@@ -1,0 +1,185 @@
+comando: /reels canais/historia/reels/2026-11-25 canais/vestibular/reels/2026-11-25 canais/livros/reels/2026-11-25
+🔧 Bash {"command": "cd canais; for c in historia vestibular livros; do echo == $c; ls $c/reels/2026-11-25; cat $c/reels/2026-11-25/estado.json; done"}
+❌ A variable in this command can't be checked before it runs
+🔧 Bash {"command": "cat canais/historia/reels/2026-11-25/estado.json canais/vestibular/reels/2026-11-25/estado.json canais/livros/reels/2026-11-25/estado.json; ls canais/*/reels/2026-11-25"}
+💬 All three are "construcao" format.
+🔧 Agent {"description": "Reel História", "subagent_type": "reels-historia", "prompt": "Pasta: canais/historia/reels/2026-11-25 (estado.json tem formato \"construcao\"). Escreva reel.json (com \"formato\": \"c
+🔧 Agent {"description": "Reel Vestibular", "subagent_type": "reels-vestibular", "prompt": "Pasta: canais/vestibular/reels/2026-11-25 (estado.json tem formato \"construcao\"). Escreva reel.json (com \"formato\
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/reels/FORMATO.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/reels/2026-11-25/estado.json"}
+🔧 Agent {"description": "Reel Livros", "subagent_type": "reels-livros", "prompt": "Pasta: canais/livros/reels/2026-11-25 (estado.json tem formato \"construcao\"). Escreva reel.json (com \"formato\": \"constru
+🔧 Bash {"command": "ls /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/reels/; ls /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/reels/2026-11-25"}
+❌ <tool_use_error>Error: No such tool available: Bash. Bash is not among the tools available here. Continue with the tools you have.</tool_use_error>
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/reels/FORMATO.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-25/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/skills/motion-design/SKILL.md"}
+💬 Os três agentes de reel estão rodando em segundo plano, um por canal (História, Vestibular e Livros). Aguardo o aviso de cada um antes de validar e conferir o nicho.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/reels/FORMATO.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-25/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/skills/motion-design/SKILL.md"}
+🔧 bash_placeholder {}
+❌ <tool_use_error>Error: No such tool available: bash_placeholder</tool_use_error>
+💬 Agora os reels anteriores do canal.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels"}
+🔧 WebSearch {"query": "Great Pyramid of Giza 2.3 million blocks Tura limestone casing workers bread beer Merer papyrus Wadi al-Jarf", "mode": "standard"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 WebSearch {"query": "estrutura da célula eucarionte mitocôndria energia ATP membrana plasmática núcleo ribossomos função", "mode": "standard"}
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Vidas_Secas", "prompt": "Fatos concretos sobre Vidas Secas: ano de publicação, estrutura em 13 capítulos, cachorra Baleia, personagens, onde se passa, escrito na
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/logs/20261125-141228-reels.log", "limit": 80}
+🔧 WebFetch {"url": "https://www.smithsonianmag.com/history/ancient-egypt-shipping-mining-farming-economy-pyramids-180956619/", "prompt": "Facts on how the Great Pyramid was built: Merer logbook, Tura limestone c
+🔧 WebSearch {"query": "Great Pyramid Giza 2.3 million blocks 20 years Khufu workers not slaves paid fed workers' town Lehner Hawass", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.preparaenem.com/biologia/celulas-eucariontes.htm", "prompt": "Resuma funções de membrana plasmática, núcleo, mitocôndrias, ribossomos, retículo, complexo de Golgi, lisossomos; cit
+🔧 WebFetch {"url": "https://www.infoescola.com/citologia/celula-eucariotica/", "prompt": "Funções de membrana plasmática, núcleo, mitocôndrias (DNA próprio, ATP), ribossomos, lisossomos. Cite trechos."}
+🔧 WebSearch {"query": "Vidas Secas Graciliano Ramos capítulos contos independentes Baleia publicado antes jornal 1937 ordem", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.kenhub.com/pt/library/anatomia/organelos-celulares", "prompt": "Funções de mitocôndrias (ATP, DNA próprio), ribossomos, núcleo, lisossomos, membrana plasmática. Cite trechos."}
+🔧 WebFetch {"url": "https://revistapesquisa.fapesp.br/intimidade-sertaneja/", "prompt": "O que diz sobre Vidas Secas: Baleia primeiro capítulo publicado, quantos capítulos saíram antes em jornais, a cachorra, e 
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/reels/2026-11-25/reel.json", "content": "{\n  \"canal\": \"historia\",\n  \"formato\": \"construcao\",\n  \"titulo\": \
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/reels/2026-11-25/01-fontes.md", "content": "# Fontes: construção da Grande Pirâmide de Gizé (Khufu)\n\nObra escondida a
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-25/reel.json", "content": "{\n  \"canal\": \"vestibular\",\n  \"formato\": \"construcao\",\n  \"titulo\
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-25/reel.json", "content": "{\n  \"canal\": \"livros\",\n  \"formato\": \"construcao\",\n  \"titulo\": \"Nin
+💬 Escrevi o `reel.json` e o `01-fontes.md`, mas **não consegui rodar a validação**. Não tenho acesso a shell neste ambiente, então `python -m pipeline.reel validar canais/historia/reels/2026-11-25` ainda precisa ser executado. Se ele apontar erros, o mais provável é a contagem de palavras. Também não consegui listar os reels anteriores do canal para checar repetição de tema.
+
+**Obra:** a Grande Pirâmide de Gizé, escondida até a última fala. O título é "Ninguém adivinha o que esses operários estão construindo". A descrição revela a obra.
+
+**Etapas (7 falas, cerca de 110 palavras):**
+1. Porto ao l
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-25/01-fontes.md", "content": "# Fontes: célula eucarionte (Biologia)\n\nObra: célula eucarionte animal,
+🔧 Bash {"command": "python -m pipeline.reel validar canais/historia/reels/2026-11-25"}
+❌ Exit code 1
+Corrija:
+- 175 palavras (use 70 a 130)
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/reels/2026-11-25/reel.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-25/01-fontes.md", "content": "# Fontes — Vidas Secas (Graciliano Ramos)\n\nObra montada: o mundo de Vidas S
+🔧 Bash {"command": "python - <<'E'\nimport json\np='canais/historia/reels/2026-11-25/reel.json'\nd=json.load(open(p))\nt=[\"Primeiro, cave um porto ao lado da obra. Pronto, agora você tem um porto.\",\n\"Ali
+💬 O reel de História passou na validação depois que reduzi as falas de 175 para cerca de 110 palavras. O agente não tinha shell, então a validação foi minha. Ainda aguardo os agentes de Vestibular e Livros.
+
+O reel é sobre a construção da Grande Pirâmide de Gizé. Está no nicho do canal, sem ENEM nem vestibular.
+💬 Escrevi o `reel.json` e o `01-fontes.md`, mas não consegui rodar `python -m pipeline.reel validar`, porque este ambiente não tem Bash. Falta validar.
+
+O reel monta uma célula eucarionte animal por etapas, sem anunciar o que é. O tema é Biologia.
+
+- **Etapas:** membrana plasmática, citoplasma, núcleo, três mitocôndrias, ribossomos e lisossomo. Há 7 falas e cerca de 105 palavras.
+- **Selos "pronto":** cinco falas têm selo (uma fronteira, o recheio, um centro de comando, as usinas de energia, a faxina da célula). A fala 7 revela a obra e termina com "Comenta CÉLULA".
+- **Câmera:** olha de cima, d
+🔧 Bash {"command": "python -m pipeline.reel validar canais/vestibular/reels/2026-11-25; ls canais/vestibular/reels/"}
+💬 Escrevi o `reel.json` e o `01-fontes.md`, mas **não consegui rodar** `python -m pipeline.reel validar`. Nesta sessão só tenho leitura, escrita e web, sem shell. Rode a validação antes de produzir. O mais provável de precisar de ajuste são os ângulos do `orbitar` e a contagem de palavras. Eu não conferi os ângulos de partida e não contei as palavras.
+
+Também não consegui listar `canais/livros/reels/`, então **não comparei com os reels anteriores**. Confira se Vidas Secas ou a isca "Comenta LIVRO" já foram usados.
+
+**O reel**
+- **Obra:** o mundo de Vidas Secas, de Graciliano Ramos (1938).
+- **Tí
+🔧 Bash {"command": "cd canais/vestibular/reels; grep -h '\"materia\"\\|\"tema\"' 2026-11-2[13]/reel.json 2026-11-18/reel.json | head; python - <<'E'\nimport json\nd=json.load(open('2026-11-25/reel.json'))\nf
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python - <<'E'\nimport json\np='canais/vestibular/reels/2026-11-25/reel.json'\nd=json.load(open(p))\nt=[\"Primeiro, cerque tudo com
+❌ A variable in this command can't be checked before it runs
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python - <<'E'\nimport json\np='canais/vestibular/reels/2026-11-25/reel.json'\nd=json.load(open(p))\nt=[\"Primeiro, cerque tudo com
+🔧 Bash {"command": "grep -h '\"titulo\"' canais/vestibular/reels/2026-11-18/reel.json canais/livros/reels/2026-11-16/reel.json canais/livros/reels/2026-11-11-desafio/reel.json; grep -h '\"formato\"' canais/l
+💬 Os reels de Vestibular e Livros repetem temas que o canal já publicou. Vestibular repete a célula eucarionte de 18/11 e Livros repete Vidas Secas de 16/11. Vou pedir novos temas aos dois agentes.
+🔧 Agent {"description": "Reel Vestibular novo tema", "subagent_type": "reels-vestibular", "prompt": "Refaça canais/vestibular/reels/2026-11-25/reel.json e 01-fontes.md (formato \"construcao\", ver pipeline/re
+🔧 Agent {"description": "Reel Livros novo livro", "subagent_type": "reels-livros", "prompt": "Refaça canais/livros/reels/2026-11-25/reel.json e 01-fontes.md (formato \"construcao\", ver pipeline/reels/FORMATO
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/reels/FORMATO.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/skills/motion-design/SKILL.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-25/reel.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/reels/FORMATO.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-25/reel.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/skills/motion-design/SKILL.md"}
+💬 O reel de História está validado. Os de Vestibular e Livros passaram na validação técnica, mas repetem temas já publicados e estão sendo refeitos.
+
+- **História:** a Grande Pirâmide de Gizé (7 falas). Não conferi se o tema repete reels anteriores do canal.
+- **Vestibular:** a primeira versão era a célula eucarionte, que já saiu em 18/11. Pedi outro conceito, de outra matéria.
+- **Livros:** a primeira versão era *Vidas Secas*, que já saiu em 11/11 e 16/11. Pedi outro livro.
+
+Quando os dois agentes terminarem, rodo `python -m pipeline.reel validar` nas duas pastas e confiro o nicho e a repetição
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-18/reel.json", "limit": 15}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels'
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-25/01-fontes.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-23/reel.json", "limit": 8}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-21/reel.json", "limit": 8}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-16/reel.json", "limit": 8}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-11-desafio/reel.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-14/reel.json", "limit": 8}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-16/reel.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-18/reel.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-21/reel.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-23/reel.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-14/reel.json"}
+🔧 WebSearch {"query": "átomo núcleo cerca de 100 mil vezes menor que o átomo, massa concentrada no núcleo, número atômico define elemento", "mode": "standard"}
+🔧 WebSearch {"query": "proton mass 1836 times electron mass nucleus size femtometers atom 10^-10 m", "mode": "standard"}
+🔧 WebSearch {"query": "Dom Casmurro casa do Engenho Novo réplica da casa de Matacavalos Bentinho 1899", "mode": "standard"}
+🔧 WebSearch {"query": "Dom Casmurro 148 capítulos Machado de Assis 1899 Garnier \"olhos de ressaca\" Capitu", "mode": "standard"}
+🔧 WebFetch {"url": "https://pt.wikisource.org/wiki/Dom_Casmurro/II", "prompt": "Quote exactly what the narrator says about rebuilding the Matacavalos house in Engenho Novo, the busts painted (which names), and w
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Dom_Casmurro", "prompt": "Número de capítulos, ano de publicação, editora, e o que diz sobre a casa do Engenho Novo e o título Casmurro."}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-25/reel.json", "content": "{\n  \"canal\": \"livros\",\n  \"formato\": \"construcao\",\n  \"titulo\": \"Nin
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-25/reel.json", "content": "{\n  \"canal\": \"vestibular\",\n  \"formato\": \"construcao\",\n  \"titulo\
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/reels/2026-11-25/01-fontes.md", "content": "# Fontes — Dom Casmurro (Machado de Assis)\n\nObra montada: a casa de Dom Cas
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/vestibular/reels/2026-11-25/01-fontes.md", "content": "# Fontes — Átomo (Química), reel 2026-11-25\n\nConceito: estrutura do áto
+💬 Refiz `reel.json` e `01-fontes.md` para **Dom Casmurro**, de Machado de Assis, no formato construção. Não validei, como você pediu.
+
+**O que mudou**
+- **Livro e isca:** Vidas Secas, Pequeno Príncipe, 1984, Sapiens e Hábitos Atômicos já tinham saído, e conferi isso nos `reel.json` anteriores. As iscas já usadas eram LIVRO, BALEIA, PRÍNCIPE, ORWELL, ATÔMICO e EU CONSEGUI. A isca nova é **Comenta CAPITU**.
+- **Falas:** são 6, com 127 palavras no total, dentro do limite de 70 a 130. Contei palavra por palavra.
+- **Selos "pronto":** 5 das 6 falas têm `pronto`.
+- **Etapas:** a casa copiada da infânc
+🔧 Bash {"command": "python -m pipeline.reel validar canais/livros/reels/2026-11-25; grep -l \"Dom Casmurro\" canais/livros/reels/*/reel.json"}
+🔧 Bash {"command": "grep -o '.\\{60\\}Dom Casmurro.\\{40\\}' canais/livros/reels/2026-11-11-desafio/reel.json | head -3"}
+🔧 Bash {"command": "grep -n \"Dom Casmurro\" canais/livros/reels/2026-11-11-desafio/reel.json | cut -c1-200"}
+💬 Refiz o `reel.json` e o `01-fontes.md` do reel de 2026-11-25. Não validei, como você pediu.
+
+**Tema:** o átomo, de Química, no formato "construcao". Não consegui listar a pasta `reels/`. Conferi só as datas 11-14, 11-16, 11-18, 11-21 e 11-23, e as matérias foram Física (chuveiro), Geografia (camadas da Terra), Biologia (célula), Redação e Física (hidrelétrica). Se houver reel de Química em outra data que eu não abri, o tema pode repetir.
+
+**Falas:** são 6, com cerca de 125 palavras no total, dentro do limite de 70 a 130. Contei à mão e ficou perto do teto, então pode valer conferir na validaçã
+💬 Isso é só uma opção de quiz no reel "desafio", então o tema do Livros é novo. Falta o Vestibular.
+
+=== resultado: success | turnos 6 | 8s | erro=False
+Os três agentes de reel estão rodando em segundo plano, um por canal (História, Vestibular e Livros). Aguardo o aviso de cada um antes de validar e conferir o nicho.
+
+=== resultado: success | turnos 4 | 7s | erro=False
+O reel de História passou na validação depois que reduzi as falas de 175 para cerca de 110 palavras. O agente não tinha shell, então a validação foi minha. Ainda aguardo os agentes de Vestibular e Livros.
+
+O reel é sobre a construção da Grande Pirâmide de Gizé. Está no nicho do canal, sem ENEM nem vestibular.
+
+=== resultado: success | turnos 8 | 22s | erro=False
+O reel de História está validado. Os de Vestibular e Livros passaram na validação técnica, mas repetem temas já publicados e estão sendo refeitos.
+
+- **História:** a Grande Pirâmide de Gizé (7 falas). Não conferi se o tema repete reels anteriores do canal.
+- **Vestibular:** a primeira versão era a célula eucarionte, que já saiu em 18/11. Pedi outro conceito, de outra matéria.
+- **Livros:** a primeira versão era *Vidas Secas*, que já saiu em 11/11 e 16/11. Pedi outro livro.
+
+Quando os dois agentes terminarem, rodo `python -m pipeline.reel validar` nas duas pastas e confiro o nicho e a repetição de tema.
+
+=== resultado: success | turnos 4 | 5s | erro=False
+Isso é só uma opção de quiz no reel "desafio", então o tema do Livros é novo. Falta o Vestibular.
+🔧 Bash {"command": "python -m pipeline.reel validar canais/vestibular/reels/2026-11-25; grep -il \"átomo\" canais/vestibular/reels/*/reel.json; grep -h '\"titulo\"' canais/vestibular/reels/2026-11-25/reel.js
+💬 Os três reels de 25/11 estão prontos e passaram em `python -m pipeline.reel validar`. Todos são do formato construção, e o nicho de cada canal confere.
+
+| Canal | Reel | Observação |
+|---|---|---|
+| Ouro & Império | Construção da Grande Pirâmide de Gizé | Não conferi se repete reels anteriores do canal. Cortei as falas de 175 para cerca de 110 palavras para caber no limite. |
+| Mapeado | O átomo (Química), com a pegadinha do íon | Conceito de prova. Nenhum reel anterior do canal tem átomo. |
+| Marca-Página | *Dom Casmurro*, de Machado de Assis | Tema novo. O livro só aparece como opção de quiz
+
+=== resultado: success | turnos 2 | 5s | erro=False
+Os três reels de 25/11 estão prontos e passaram em `python -m pipeline.reel validar`. Todos são do formato construção, e o nicho de cada canal confere.
+
+| Canal | Reel | Observação |
+|---|---|---|
+| Ouro & Império | Construção da Grande Pirâmide de Gizé | Não conferi se repete reels anteriores do canal. Cortei as falas de 175 para cerca de 110 palavras para caber no limite. |
+| Mapeado | O átomo (Química), com a pegadinha do íon | Conceito de prova. Nenhum reel anterior do canal tem átomo. |
+| Marca-Página | *Dom Casmurro*, de Machado de Assis | Tema novo. O livro só aparece como opção de quiz no reel "desafio" de 11/11. |
+
+Vestibular e Livros foram refeitos, porque as primeiras versões repetiam a célula eucarionte (18/11) e *Vidas Secas* (11/11 e 16/11).
+
+- **Mapeado:** as notas em `01-fontes.md` dizem que a valência e o íon não tiveram fonte literal. Vale conferir no Toda Matéria e no Quero Bolsa antes de publicar.
+- **Marca-Página:** o total de 148 capítulos só foi confirmado em resumos de busca. Se o checador reclamar, troque por "mais de cem capítulos".
+
+Não fiz commit nem push. Os arquivos continuam só no working tree.
+codigo de saida: 0

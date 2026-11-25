@@ -1,0 +1,109 @@
+{
+  "canal": "vestibular",
+  "formato": "construcao",
+  "titulo": "Peça por peça: ninguém adivinha o que isso vira (ENEM)",
+  "descricao": "Química que cai no ENEM: o átomo montado peça por peça. Prótons (número atômico), nêutrons, 99,9% da massa no núcleo, elétrons, camada de valência e a pegadinha do íon.",
+  "hashtags": ["#enem", "#quimica", "#vestibular"],
+  "legenda_reels": "Monte o átomo peça por peça: prótons, nêutrons, elétrons, valência e a pegadinha do íon. Isso cai muito no ENEM! Comenta ÁTOMO que a gente faz o mapa mental completo. #enem #quimica #vestibular",
+  "isca": "Comenta ÁTOMO",
+  "cenario": {"ceu": "#bfe3f7", "chao": "#86c06c", "cidade": false, "arvores": 0, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 12], "olha": [0, 2.5, 0]},
+  "objetos": [
+    {"id": "lousa", "tipo": "lousa", "pos": [0, 0, -5], "oculto": true},
+    {"id": "rotulo", "tipo": "texto", "texto": "PRÓTONS = 79", "cor": "#ffffff", "fundo": "#2b6cb0", "tam": 0.8, "pos": [0, 0.72], "oculto": true},
+    {"id": "p1", "tipo": "esfera", "tam": 0.9, "cor": "#e5383b", "pos": [-0.4, 2.3, 0], "oculto": true},
+    {"id": "p2", "tipo": "esfera", "tam": 0.9, "cor": "#e5383b", "pos": [0.4, 2.3, 0], "oculto": true},
+    {"id": "p3", "tipo": "esfera", "tam": 0.9, "cor": "#e5383b", "pos": [0, 2.95, 0.1], "oculto": true},
+    {"id": "n1", "tipo": "esfera", "tam": 0.9, "cor": "#b8bec6", "pos": [0, 2.4, 0.6], "oculto": true},
+    {"id": "n2", "tipo": "esfera", "tam": 0.9, "cor": "#b8bec6", "pos": [0, 2.7, -0.55], "oculto": true},
+    {"id": "n3", "tipo": "esfera", "tam": 0.9, "cor": "#b8bec6", "pos": [-0.2, 1.85, 0.2], "oculto": true},
+    {"id": "e1", "tipo": "esfera", "tam": 0.4, "cor": "#2f7fd6", "pos": [1.7, 2.5, 0], "oculto": true},
+    {"id": "e2", "tipo": "esfera", "tam": 0.4, "cor": "#2f7fd6", "pos": [-1.7, 2.5, 0], "oculto": true},
+    {"id": "e3", "tipo": "esfera", "tam": 0.4, "cor": "#2f7fd6", "pos": [0, 2.5, 2.6], "oculto": true},
+    {"id": "e4", "tipo": "esfera", "tam": 0.4, "cor": "#2f7fd6", "pos": [-1.5, 2.5, -2.1], "oculto": true},
+    {"id": "anel1", "tipo": "cilindro", "tam": [3.4, 0.04], "cor": "#6b7a8f", "pos": [0, 2.5, 0], "oculto": true},
+    {"id": "anel2", "tipo": "cilindro", "tam": [5.2, 0.04], "cor": "#6b7a8f", "pos": [0, 2.5, 0], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Primeiro, junte prótons: o número deles é o RG do elemento, e todo átomo de ouro tem setenta e nove. Pronto, agora você tem uma identidade.",
+      "pronto": "uma identidade",
+      "acoes": [
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2.5, 0], "raio": 9, "altura": 5, "de": 0, "ate": 50, "dur": 9},
+        {"t": 0.2, "alvo": "lousa", "acao": "construir", "modo": "sobe", "som": "pop"},
+        {"t": 0.5, "alvo": "p1", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 1.2, "alvo": "p2", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 1.9, "alvo": "p3", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 3.8, "alvo": "rotulo", "acao": "aparecer", "som": "pop"},
+        {"t": 5.5, "alvo": "p1", "acao": "pular", "altura": 0.4},
+        {"t": 6.0, "alvo": "p2", "acao": "pular", "altura": 0.4},
+        {"t": 6.5, "alvo": "p3", "acao": "pular", "altura": 0.4}
+      ]
+    },
+    {
+      "texto": "Agora misture nêutrons, sem carga. Com os prótons, eles guardam noventa e nove vírgula nove por cento da massa. Pronto, agora você tem um núcleo.",
+      "pronto": "um núcleo",
+      "acoes": [
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2.5, 0], "raio": 8, "altura": 4.5, "de": 50, "ate": 100, "dur": 9},
+        {"t": 0.3, "alvo": "n1", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 0.9, "alvo": "n2", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 1.5, "alvo": "n3", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 2.2, "alvo": "rotulo", "acao": "texto", "texto": "99,9% DA MASSA"},
+        {"t": 2.4, "acao": "tremer", "forca": 0.3},
+        {"t": 2.4, "alvo": "n1", "acao": "pular", "altura": 0.4, "som": "boom"},
+        {"t": 4.5, "alvo": "n2", "acao": "pular", "altura": 0.4}
+      ]
+    },
+    {
+      "texto": "Agora solte os elétrons: um próton pesa mais de mil e oitocentos deles. Pronto, agora você tem a eletrosfera.",
+      "pronto": "a eletrosfera",
+      "acoes": [
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2.5, 0], "raio": 9, "altura": 5, "de": 100, "ate": 150, "dur": 8},
+        {"t": 0.3, "alvo": "e1", "acao": "construir", "modo": "cai", "som": "whoosh"},
+        {"t": 0.8, "alvo": "e2", "acao": "construir", "modo": "cai", "som": "whoosh"},
+        {"t": 1.3, "alvo": "e3", "acao": "construir", "modo": "cai", "som": "whoosh"},
+        {"t": 1.8, "alvo": "e4", "acao": "construir", "modo": "cai", "som": "whoosh"},
+        {"t": 2.0, "alvo": "rotulo", "acao": "texto", "texto": "1 PRÓTON = 1836 ELÉTRONS"},
+        {"t": 4.5, "alvo": "e1", "acao": "pular", "altura": 0.5}
+      ]
+    },
+    {
+      "texto": "Organize em camadas: os elétrons da última fazem as ligações químicas. Pronto, agora você tem a valência.",
+      "pronto": "a valência",
+      "acoes": [
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2.5, 0], "raio": 9, "altura": 6, "de": 150, "ate": 200, "dur": 7},
+        {"t": 0.3, "alvo": "anel1", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 1.0, "alvo": "anel2", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 1.8, "alvo": "rotulo", "acao": "texto", "texto": "ÚLTIMA CAMADA = LIGAÇÕES"},
+        {"t": 3.4, "alvo": "e3", "acao": "pular", "altura": 0.5},
+        {"t": 3.8, "alvo": "e4", "acao": "pular", "altura": 0.5}
+      ]
+    },
+    {
+      "texto": "Agora tire um elétron: sobrou carga positiva e nasceu um íon. Pronto, agora você tem um cátion.",
+      "pronto": "um cátion",
+      "acoes": [
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2.5, 0], "raio": 9, "altura": 5, "de": 200, "ate": 250, "dur": 7},
+        {"t": 0.4, "alvo": "e4", "acao": "sumir", "som": "whoosh"},
+        {"t": 0.5, "acao": "tremer", "forca": 0.3},
+        {"t": 0.8, "alvo": "rotulo", "acao": "texto", "texto": "PERDEU ELÉTRON = ÍON +"},
+        {"t": 0.8, "alvo": "rotulo", "acao": "cor", "cor": "#d62828"},
+        {"t": 2.5, "alvo": "p3", "acao": "pular", "altura": 0.5}
+      ]
+    },
+    {
+      "texto": "Pronto, e assim você tem um átomo. Qual peça você mais confunde? Comenta ÁTOMO, que a gente faz o mapa mental.",
+      "acoes": [
+        {"t": 0.0, "alvo": "e4", "acao": "aparecer", "som": "ding"},
+        {"t": 0.2, "acao": "camera", "pos": [0, 7, 14], "olha": [0, 2.5, 0]},
+        {"t": 0.3, "alvo": "rotulo", "acao": "texto", "texto": "ÁTOMO"},
+        {"t": 0.3, "alvo": "rotulo", "acao": "cor", "cor": "#2b6cb0"},
+        {"t": 0.4, "acao": "tremer", "forca": 0.25},
+        {"t": 1.2, "alvo": "p1", "acao": "pular", "altura": 0.5},
+        {"t": 1.6, "alvo": "n1", "acao": "pular", "altura": 0.5},
+        {"t": 2.0, "alvo": "e1", "acao": "pular", "altura": 0.6},
+        {"t": 2.4, "alvo": "e3", "acao": "pular", "altura": 0.6}
+      ]
+    }
+  ]
+}

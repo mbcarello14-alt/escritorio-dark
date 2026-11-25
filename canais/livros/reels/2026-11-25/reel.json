@@ -1,0 +1,91 @@
+{
+  "canal": "livros",
+  "formato": "construcao",
+  "titulo": "Ninguém adivinha por que essa casa tem quatro rostos na parede",
+  "descricao": "A obra era a casa de Dom Casmurro, de Machado de Assis (1899): o narrador reconstrói no Engenho Novo a casa da infância, com quatro medalhões na sala (César, Augusto, Nero e Massinissa) que nem ele sabe explicar. O apelido Casmurro veio de um poeta do trem.",
+  "hashtags": ["#domcasmurro", "#livros", "#machadodeassis"],
+  "legenda_reels": "Montamos a casa de Dom Casmurro, de Machado de Assis, peça por peça. O narrador copiou a casa da infância, e nem ele sabe por que há quatro rostos de imperadores na sala. Comenta CAPITU #domcasmurro #livros #booktok",
+  "isca": "Comenta CAPITU",
+  "cenario": {"ceu": "#bcd9ee", "chao": "#8fbf75", "cidade": false, "arvores": 2, "nuvens": true, "sol": true},
+  "camera": {"pos": [0, 5, 15], "olha": [0, 2, 0]},
+  "objetos": [
+    {"id": "chao", "tipo": "terreno", "tam": [9, 8], "cor": "#a9c98a", "pos": [0, 0.02, 0], "oculto": true},
+    {"id": "casa_bento", "tipo": "casa", "cor": "#f0e2c0", "telhado": "#a8452f", "pos": [-1.5, 0, -1], "escala": 1.3, "oculto": true},
+    {"id": "medalhoes", "tipo": "texto", "texto": "CÉSAR", "cor": "#ffffff", "fundo": "#7a3b2a", "tam": 1.2, "pos": [0, 0.62], "oculto": true},
+    {"id": "casa_capitu", "tipo": "casa", "cor": "#d9e4f2", "telhado": "#4a6f9a", "pos": [1.7, 0, -1], "escala": 1.1, "oculto": true},
+    {"id": "capitu", "tipo": "boneco", "cor": "#8a3fa0", "pele": "#c68a5e", "cabelo": "#1c1008", "calca": "#4a2a5a", "pos": [1.7, 0, 1.0], "escala": 0.8, "oculto": true},
+    {"id": "bento", "tipo": "boneco", "cor": "#3a4a6a", "pele": "#f1c27d", "cabelo": "#3a2a1a", "calca": "#22283a", "chapeu": "cartola", "pos": [-1.5, 0, 1.2], "escala": 0.85, "oculto": true},
+    {"id": "apelido", "tipo": "texto", "texto": "CASMURRO", "cor": "#ffffff", "fundo": "#3a4a6a", "tam": 1.3, "pos": [0, 0.62], "oculto": true},
+    {"id": "caps", "tipo": "numero", "valor": 0, "sufixo": " CAPÍTULOS", "casas": 0, "cor": "#ffffff", "tam": 1.1, "pos": [0, 0.62], "oculto": true},
+    {"id": "livro", "tipo": "livro", "cor": "#7a1f2b", "titulo": "Dom Casmurro", "pos": [0, 0.2, 3.0], "escala": 1.3, "oculto": true},
+    {"id": "autor", "tipo": "texto", "texto": "DOM CASMURRO\nMachado de Assis, 1899", "cor": "#ffffff", "fundo": "#7a1f2b", "tam": 1.0, "pos": [0, 0.75], "oculto": true}
+  ],
+  "falas": [
+    {
+      "texto": "Primeiro, ponha uma casinha no Engenho Novo, igualzinha à da rua de Matacavalos. Pronto, agora você tem uma cópia da infância.",
+      "pronto": "uma cópia da infância",
+      "acoes": [
+        {"t": 0.0, "alvo": "chao", "acao": "construir", "modo": "cresce", "som": "pop"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 15, "altura": 5, "de": -20, "ate": 5, "dur": 7},
+        {"t": 1.4, "alvo": "casa_bento", "acao": "construir", "modo": "cai", "som": "boom"},
+        {"t": 1.4, "acao": "tremer", "forca": 0.3}
+      ]
+    },
+    {
+      "texto": "Agora pinte na sala quatro medalhões: César, Augusto, Nero e Massinissa. Nem o dono sabe por quê. Pronto, agora você tem quatro rostos misteriosos.",
+      "pronto": "quatro rostos misteriosos",
+      "acoes": [
+        {"t": 0.0, "acao": "camera", "pos": [-1, 3.5, 9], "olha": [-1.3, 1.8, -1]},
+        {"t": 0.5, "alvo": "medalhoes", "acao": "aparecer", "som": "pop"},
+        {"t": 1.4, "alvo": "medalhoes", "acao": "texto", "texto": "AUGUSTO", "som": "tic"},
+        {"t": 2.2, "alvo": "medalhoes", "acao": "texto", "texto": "NERO", "som": "tic"},
+        {"t": 2.9, "alvo": "medalhoes", "acao": "texto", "texto": "MASSINISSA", "som": "tic"},
+        {"t": 3.8, "alvo": "medalhoes", "acao": "texto", "texto": "POR QUÊ?", "som": "ding"}
+      ]
+    },
+    {
+      "texto": "Ao lado, levante a casa da vizinha, Capitu. Pronto, agora você tem um primeiro amor.",
+      "pronto": "um primeiro amor",
+      "acoes": [
+        {"t": 0.0, "alvo": "medalhoes", "acao": "sumir"},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 14, "altura": 5, "de": 5, "ate": 30, "dur": 5},
+        {"t": 0.6, "alvo": "casa_capitu", "acao": "construir", "modo": "sobe", "som": "boom"},
+        {"t": 1.8, "alvo": "capitu", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 2.8, "alvo": "capitu", "acao": "acenar"}
+      ]
+    },
+    {
+      "texto": "Agora ponha o dono, sozinho. O apelido dele, Casmurro, veio de um poeta do trem, que o viu fechar os olhos. Pronto, agora você tem um homem casmurro.",
+      "pronto": "um homem casmurro",
+      "acoes": [
+        {"t": 0.0, "acao": "camera", "pos": [-1, 3, 9], "olha": [-1.5, 1.5, 1]},
+        {"t": 0.3, "alvo": "bento", "acao": "construir", "modo": "cai", "som": "pop"},
+        {"t": 3.2, "alvo": "apelido", "acao": "aparecer", "som": "ding"},
+        {"t": 4.2, "alvo": "bento", "acao": "olhar", "para": 90}
+      ]
+    },
+    {
+      "texto": "Por fim, empilhe cento e quarenta e oito capítulos, quase todos curtos. Pronto, agora você tem um livro de pedacinhos.",
+      "pronto": "um livro de pedacinhos",
+      "acoes": [
+        {"t": 0.0, "alvo": "apelido", "acao": "sumir"},
+        {"t": 0.0, "acao": "camera", "pos": [0, 5, 15], "olha": [0, 2, 0]},
+        {"t": 1.2, "alvo": "caps", "acao": "aparecer", "som": "pop"},
+        {"t": 1.3, "alvo": "caps", "acao": "contar", "para": 148, "dur": 3.0},
+        {"t": 0.0, "acao": "orbitar", "centro": [0, 2, 0], "raio": 15, "altura": 5, "de": 30, "ate": 55, "dur": 6}
+      ]
+    },
+    {
+      "texto": "Pronto, e assim você tem Dom Casmurro, de Machado de Assis. Qual livro você quer ver montado? Comenta CAPITU.",
+      "acoes": [
+        {"t": 0.0, "alvo": "caps", "acao": "sumir"},
+        {"t": 0.0, "acao": "camera", "pos": [0, 8, 20], "olha": [0, 2, 0]},
+        {"t": 0.3, "alvo": "livro", "acao": "construir", "modo": "cai", "som": "boom"},
+        {"t": 0.3, "acao": "tremer", "forca": 0.5},
+        {"t": 1.0, "alvo": "autor", "acao": "aparecer", "som": "ding"},
+        {"t": 1.8, "alvo": "bento", "acao": "pular", "altura": 0.5},
+        {"t": 2.2, "alvo": "capitu", "acao": "pular", "altura": 0.5}
+      ]
+    }
+  ]
+}
