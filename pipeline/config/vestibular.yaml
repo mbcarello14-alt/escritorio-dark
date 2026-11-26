@@ -68,7 +68,7 @@ canal_youtube:           # aplicado por: python -m pipeline.branding vestibular
   palavras_chave: [enem, vestibular, mapa mental, resumo enem, história enem, geografia enem, revisão enem]
 
 reels:                   # reels chamativos 3D (3 por semana, aprovados no Telegram)
-  ligado: true
+  ligado: false            # pausado: plano de monetização (foco total em Ouro e Marca-Página até 31/01/2027)
   publicar: ["mon 19:00", "wed 19:00", "sun 19:00"]   # 3 reels por semana
 
 longos:                  # vídeos longos (comando /longo mapeado <matéria>)
@@ -91,5 +91,5 @@ youtube:
   categoria_id: "27"
   idioma: pt-BR
   feito_para_criancas: false
-  publicar: ["tue 17:00", "thu 17:00"]   # terça e quinta, depois da aula
+  publicar: ["thu 17:00"]   # só quinta até 31/01/2027 (foco em Ouro e Marca-Página); antes: terça e quinta
   playlist_padrao: ""
