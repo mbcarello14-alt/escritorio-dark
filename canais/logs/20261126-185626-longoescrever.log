@@ -1,0 +1,214 @@
+comando: /longo-escrever canais/historia/longos/2026-11-26-egito-antigo 3
+🔧 Bash {"command": "cd canais/historia/longos/2026-11-26-egito-antigo && cat estado.json && cat plano.json && ls -la blocos 2>/dev/null"}
+❌ Exit code 2
+{
+  "canal": "historia",
+  "tema": "Egito Antigo",
+  "formato": "dormir",
+  "etapa": "escrevendo",
+  "ajustes": [],
+  "blocos_total": 15,
+  "criado_em": "2026-11-26",
+  "atualizado_em": "2026-11-26T18:55:55+00:00"
+}{
+  "titulo": "Egito Antigo para dormir: do Nilo a Cleópatra",
+  "titulo_youtube": "Egito Antigo: 2h30 de História para Dormir, do Nilo a Cleópatra",
+  "descricao": "Duas ho
+🔧 Bash {"command": "cd canais/historia/longos/2026-11-26-egito-antigo && ls -la; cat /home/runner/work/escritorio-dark/escritorio-dark/.claude/agents/roteirista-longo-historia.md | head -80; ls /home/runner/
+🔧 Agent {"description": "Escrever blocos 1-3 Egito", "subagent_type": "roteirista-longo-historia", "prompt": "Etapa 2 (/longo-escrever). Pasta: /home/runner/work/escritorio-dark/escritorio-dark/canais/histori
+💬 O roteirista está escrevendo os blocos 1 a 3. Aguardo o aviso de conclusão para chamar o checador.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/plano.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/estado.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json", "content": "{\n  \"n\": 1,\n  \"capitulo\": \"O rio que fez um pa
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "content": "{\n  \"n\": 2,\n  \"capitulo\": \"As primeiras aldeia
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "content": "{\n  \"n\": 3,\n  \"capitulo\": \"Um dia numa aldeia 
+💬 Escrevi os blocos 1, 2 e 3 em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/`: `bloco_01.json`, `bloco_02.json` e `bloco_03.json`. Todos estão com `"checado": false`.
+
+- **Bloco 1, "O rio que fez um país":** abre com o fato de que Kemet quer dizer "terra negra". A chamada calma para se inscrever e curtir está logo no começo, e só neste bloco. Cobre a cheia do Nilo, as três estações, o nilômetro e o vento do norte.
+- **Bloco 2, "As primeiras aldeias e a união das Duas Terras":** abre com a Paleta de Narmer. Cobre as culturas pré-dinásti
+🔧 Agent {"description": "Checar bloco 1", "subagent_type": "checador", "prompt": "Cheque os fatos do `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json"}
+🔧 Agent {"description": "Checar bloco 2", "subagent_type": "checador", "prompt": "Cheque os fatos do `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json"}
+🔧 Agent {"description": "Checar bloco 3", "subagent_type": "checador", "prompt": "Cheque os fatos do `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo
+💬 Os três checadores estão rodando, um por bloco. Aguardo os resultados.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json"}
+🔧 WebFetch {"url": "https://www.worldhistory.org/Egyptian_Daily_Life/", "prompt": "Does this page open? What does it say about beer, bread, dental wear, houses, Bes, clothing, kohl, toys, Senet, Deir el-Medina?"
+🔧 WebFetch {"url": "https://www.britannica.com/topic/senet", "prompt": "Does this page open? Describe Senet: number of squares, rows, path shape (S/boustrophedon), dice/sticks, Tutankhamun, religious meaning."}
+🔧 WebFetch {"url": "https://www.britannica.com/place/ancient-Egypt", "prompt": "Does this page open? Is there anything on daily life, houses, food, beer?"}
+🔧 WebFetch {"url": "https://www.britishmuseum.org/collection/galleries/ancient-egypt", "prompt": "Does this page open? What does it say?"}
+🔧 WebFetch {"url": "https://www.metmuseum.org/toah/hd/egpt/hd_egpt.htm", "prompt": "Does this page open? What does it say?"}
+🔧 WebSearch {"query": "ancient Egyptian mummies dental wear attrition sand grit bread study", "mode": "standard"}
+🔧 WebSearch {"query": "Deir el-Medina workmen's village ostraca absence records brewing embalm relative illness", "mode": "standard"}
+🔧 WebSearch {"query": "Bes god household protector women children childbirth Deir el-Medina houses", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.britannica.com/place/ancient-Egypt", "prompt": "Does this page open? Does it say: Kemet black land, Deshret red land, Herodotus 'gift of the Nile', Nile flood timing, first catara
+🔧 WebFetch {"url": "https://www.worldhistory.org/Egyptian_Calendar/", "prompt": "Does this page open? Does it describe Akhet, Peret, Shemu, 12 months of 30 days, 5 epagomenal days, Sirius/Sopdet heliacal rising 
+🔧 WebFetch {"url": "https://www.britannica.com/place/Nile-River", "prompt": "Does this page open? Nile length, flows north, source of flood waters (Blue Nile/Ethiopian highlands), timing of flood, nilometer, fir
+🔧 WebFetch {"url": "https://www.metmuseum.org/toah/hd/egpt/hd_egpt.htm", "prompt": "Does this page open? What does it say about the Nile, Kemet, geography, flood, wind/sailing? Quote relevant lines."}
+💬 Os quatro links bloquearam o acesso automatizado. Vou checar o conteúdo por busca.
+🔧 WebSearch {"query": "ancient Egyptian calendar Akhet Peret Shemu 360 days five epagomenal days Sopdet Sirius heliacal rising Nile flood", "mode": "standard"}
+🔧 WebSearch {"query": "Nile River length km Blue Nile Ethiopian highlands source of flood waters Egypt inundation June", "mode": "standard"}
+🔧 WebSearch {"query": "Herodotus Egypt \"gift of the river\" Histories 2.5 Kemet black land Deshret red land", "mode": "standard"}
+🔧 WebSearch {"query": "Senet board game 30 squares three rows of ten S-shaped path Tutankhamun tomb sticks knucklebones", "mode": "standard"}
+🔧 WebSearch {"query": "Deir el-Medina workmen absence reasons \"embalming\" OR \"mummification\" brother ostracon \"brewing beer\" Janssen", "mode": "standard"}
+🔧 WebSearch {"query": "shaduf introduced New Kingdom ancient Egypt; ancient Egyptian beer straw filter children drank beer wages", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.britannica.com/topic/Narmer-Palette", "prompt": "Altura, material, onde foi achada e por quem/quando, onde está guardada, o que mostra cada lado (coroas, nome do rei, criaturas de
+🔧 WebFetch {"url": "https://www.britannica.com/place/ancient-Egypt", "prompt": "O que diz sobre Badari, Naqada, Merimde, Abidos, Menés/Narmer, Maneton e dinastias, data da unificação, capital em Mênfis, escrita 
+🔧 WebFetch {"url": "https://www.worldhistory.org/Narmer/", "prompt": "Datas de Narmer, relação com Menés, unificação como processo, descoberta da paleta, Mênfis, capital. Cite trechos."}
+🔧 WebFetch {"url": "https://www.metmuseum.org/toah/hd/egpt/hd_egpt.htm", "prompt": "O que diz sobre pré-dinástico, Badari, Naqada, unificação, Narmer, Menés, Maneton, datas, escrita. Cite trechos."}
+🔧 WebSearch {"query": "Abydos tomb U-j bone labels ivory Dreyer radiocarbon 3320-3150 BC earliest writing Egypt", "mode": "standard"}
+🔧 WebSearch {"query": "Dee 2013 radiocarbon chronology Early Dynastic Egypt start of First Dynasty Narmer Hor-Aha date", "mode": "standard"}
+🔧 WebFetch {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/", "prompt": "Qual a data estimada para o início da Primeira Dinastia / reinado de Aha, e o que diz sobre Narmer? Cite números."}
+🔧 WebSearch {"query": "Narmer Palette Hierakonpolis Quibell Green 1897-98 Main Deposit height 63 cm greywacke Egyptian Museum Cairo", "mode": "standard"}
+🔧 WebSearch {"query": "Manetho Aegyptiaca dynasties thirty dynasties Ptolemy Sebennytos Greek word dynasteia origin", "mode": "standard"}
+🔧 WebSearch {"query": "Second Dynasty kings burial Saqqara Hotepsekhemwy Raneb Nynetjer Abydos Peribsen Khasekhemwy; Memphis early capital archaeological evidence", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_01.md", "content": "# Checagem do bloco 01 — \"O rio que fez um país\"\n
+💬 Veredito: **CORRIGIR**. Os erros são pequenos e o resto do bloco confere. Salvei a checagem em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_01.md`. Não editei o bloco.
+
+**Links:** os quatro links de `fontes` não abriram para mim. Os dois da Britannica e o da WorldHistory deram HTTP 403, e o do Met deu 429, o que parece bloqueio contra acesso automatizado. Por isso conferi o conteúdo por busca, usando o ensaio do Met sobre calendário, a Britannica sobre o Nilo e o texto de Heródoto 2.5.
+
+**O que mudar:**
+1. **Origem da cheia:*
+💬 Aguardo os checadores dos blocos 2 e 3 para mandar as correções ao roteirista de uma vez.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_03.md", "content": "# Checagem do bloco 3 - \"Um dia numa aldeia egípcia
+💬 Veredito: **CORRIGIR**. São ajustes pequenos, sem erro grave de fundo. O relatório está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_03.md`. Não editei o bloco.
+
+**Links.** Os cinco links de `fontes` devolveram 403 ou 429, então não consegui abrir nenhum. Isso é bloqueio contra robô, não prova de que as páginas não existam. Por isso não posso dizer que dizem o que o texto afirma. Os links são genéricos demais, e a URL do Worldhistory nem tem o formato atual do site. Sugiro trocá-los por fontes específicas.
+
+**Pontos de ate
+💬 Ainda falta o checador do bloco 2.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_02.md", "content": "# Checagem do bloco 02 — \"As primeiras aldeias e a 
+💬 **Veredito: CORRIGIR.** Há um erro factual e vários trechos imprecisos. O bloco não foi editado.
+
+A checagem está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_02.md`.
+
+**Limite da checagem:** não consegui abrir as 4 `fontes`. Britannica e World History devolveram 403 e o Met devolveu 429 ao acesso automático, e a página do PMC (Dee 2013) bateu num captcha. Isso não prova que os links estejam quebrados. Confirmei os fatos por buscas independentes. Alguém precisa abrir as 4 URLs antes de marcar `checado: true`. As 4 também n
+🔧 ToolSearch {"query": "select:SendMessage"}
+🔧 SendMessage {"to": "aa432a1c473d254e9", "summary": "Aplicar correções do checador nos blocos 1-3", "message": "Correções do checador para os blocos 1, 2 e 3 (detalhes completos em blocos/checagem_01.md, checagem_
+💬 Mandei as correções dos três blocos ao roteirista. Quando ele terminar, peço a segunda checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_01.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_02.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_03.md"}
+🔧 WebSearch {"query": "Met Museum ancient Egypt board games senet Tutankhamun tomb game boxes", "mode": "standard"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json", "old_string": "A água vinha das chuvas dist
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json", "old_string": "É por isso que o historiador
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json", "old_string": "Assim, o ano tinha trezentos
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json", "old_string": "Durante algumas semanas do a
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json", "old_string": "    \"https://www.metmuseum.
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json", "old_string": "O governo usava essas medida
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "old_string": "Em todos esses lugares, apar
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "old_string": "Numa tumba de Abidos, os arq
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "old_string": "De um lado, havia o sul, o c
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "old_string": "mais baixa na frente e com u
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "old_string": "A tradição egípcia posterior
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "old_string": "A data geralmente usada para
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "old_string": "Os primeiros reis, que hoje 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "old_string": "A palavra dinastia, aliás, v
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json", "old_string": "    \"https://www.worldhisto
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "Não vai acontecer nada de gr
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "Estudos feitos em múmias mos
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "Também podia haver um nicho 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "Um dos mais famosos é Deir e
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "O pão era feito de trigo ou 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "Um instrumento muito usado p
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "As mulheres usavam vestidos 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "O mais famoso é o Senet, um 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "Em outras épocas, os trabalh
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "Sem o pão de cada manhã, não
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json", "old_string": "    \"https://www.worldhisto
+💬 Apliquei as correções do checador nos três blocos, e os três continuam com `"checado": false`. Só pesquisei o Senet na tumba de Tutancâmon. O resto veio dos arquivos de checagem, e não abri os links de fontes.
+
+**Bloco 1**
+- A cheia agora vem das chuvas de verão no planalto da Etiópia.
+- Heródoto aparece por volta de quatrocentos e cinquenta antes de Cristo, como paráfrase: "dádiva do rio", dita sobre o delta e depois estendida ao país.
+- Acrescentei que o calendário não tinha ano bissexto e foi se afastando das estações.
+- Sirius some por cerca de setenta dias.
+- O uso do nilômetro para o imp
+💬 Segunda checagem (volta 2), em paralelo.
+🔧 Agent {"description": "Rechecar bloco 1", "subagent_type": "checador", "prompt": "Segunda checagem. Releia /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/bl
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json"}
+🔧 Agent {"description": "Rechecar bloco 2", "subagent_type": "checador", "prompt": "Segunda checagem. Releia /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/bl
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_01.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_02.json"}
+🔧 Agent {"description": "Rechecar bloco 3", "subagent_type": "checador", "prompt": "Segunda checagem. Releia /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/bl
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_02.md"}
+💬 As rechecagens dos três blocos estão rodando. Aguardo os vereditos.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_03.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_03.md"}
+🔧 WebSearch {"query": "Tutankhamun tomb senet game boxes how many four or five", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_01.md", "content": "# Checagem do bloco 01 — \"O rio que fez um país\" (
+💬 **Veredito final: CORRIGIR.** Resta um ajuste, e ele não é factual. Atualizei `blocos/checagem_01.md` com esse veredito e não editei o bloco.
+
+- **Aplicadas:** as correções 1 a 5 da primeira rodada estão no bloco.
+  - **Chuvas:** a cheia vem das chuvas de verão no planalto da Etiópia.
+  - **Heródoto:** o texto traz a data (cerca de 450 a.C.), a ressalva do Delta e a frase estendida ao país todo.
+  - **Calendário:** agora menciona a falta de ano bissexto e o desalinhamento com as estações.
+  - **Sirius:** "cerca de setenta dias".
+  - **Fontes:** o Met `telling-time-in-ancient-egypt` e o Perseus
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_03.md", "content": "# Checagem do bloco 3 - \"Um dia numa aldeia egípcia
+🔧 Grep {"pattern": "se inscrev[^.]*\\.", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json", "output_mode": "content", "-o": true}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_02.md", "content": "# Checagem do bloco 02 — \"As primeiras aldeias e a 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_01.json", "old_string": "se inscrever no canal e deix
+💬 **Veredito final: APROVADO.** Atualizei `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_03.md`.
+
+- **Correções aplicadas:** as 8 foram aplicadas no `bloco_03.json`. Isso inclui "trigo-emer", a remoção da frase sobre a cerveja ser mais segura que a água, os motivos de falta de Deir el-Medina, o aviso de "retrato composto" com o Reino Novo situado, e a última frase com "tumba nem templo". Também ficaram o Bés sem "nicho" e as fontes trocadas por links específicos.
+- **Tutancâmon e Senet:** o Met diz que ele foi enterrado com "no f
+💬 Bloco 1 está resolvido: a única pendência era o "comente", e eu já o acrescentei. Aguardo os blocos 2 e 3.
+💬 Bloco 3 aprovado. Aguardo o bloco 2.
+💬 **Veredito final: APROVADO.** Atualizei `blocos/checagem_02.md` com o veredito e uma tabela de verificação das correções.
+
+- **Correções aplicadas:** todas as pedidas na primeira checagem estão no `bloco_02.json`. Isso inclui o erro factual das tumbas, em que só a 1ª dinastia foi enterrada em Abidos e depois alguns reis foram para Sacará. As etiquetas da tumba U-j, Mênfis como tradição, Maneton e a faixa de datas também foram corrigidas.
+- **Erro novo:** não encontrei nenhum. Fiz só uma ressalva menor, que não reprova. A frase sobre sinais firmes de Mênfis só a partir da 3ª dinastia simplifica
+💬 Marco os três como checados e valido.
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && for n in 01 02 03; do sed -i 's/\"checado\": false/\"checado\": true/' canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_
+❌ A variable in this command can't be checked before it runs
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos && sed -i 's/\"checado\": false/\"checado\": true/' bloco_01.json bloco_02.json 
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python -m pipeline.longo validar canais/historia/longos/2026-11-26-egito-antigo"}
+💬 Os blocos 1 a 3 de "Egito Antigo" estão escritos, checados e marcados com `"checado": true`. `python -m pipeline.longo validar` respondeu OK.
+
+- **Checagem:** cada bloco teve duas voltas do checador, o limite. As observações estão em `blocos/checagem_01.md`, `checagem_02.md` e `checagem_03.md`.
+- **Correções feitas:**
+  - **Bloco 1:** origem da cheia, data de Heródoto, calendário sem ano bissexto, Sirius sumindo por cerca de setenta dias.
+  - **Bloco 2:** tumbas de Abidos e Sacará, etiquetas da tumba U-j, Mênfis "segundo a tradição", Maneton e a faixa de datas da unificação.
+  - **Bloco 3:** "
+
+=== resultado: success | turnos 4 | 6s | erro=False
+O roteirista está escrevendo os blocos 1 a 3. Aguardo o aviso de conclusão para chamar o checador.
+
+=== resultado: success | turnos 4 | 6s | erro=False
+Os três checadores estão rodando, um por bloco. Aguardo os resultados.
+
+=== resultado: success | turnos 1 | 2s | erro=False
+Aguardo os checadores dos blocos 2 e 3 para mandar as correções ao roteirista de uma vez.
+
+=== resultado: success | turnos 1 | 0s | erro=False
+Ainda falta o checador do bloco 2.
+
+=== resultado: success | turnos 3 | 8s | erro=False
+Mandei as correções dos três blocos ao roteirista. Quando ele terminar, peço a segunda checagem.
+
+=== resultado: success | turnos 4 | 5s | erro=False
+As rechecagens dos três blocos estão rodando. Aguardo os vereditos.
+
+=== resultado: success | turnos 3 | 4s | erro=False
+Bloco 1 está resolvido: a única pendência era o "comente", e eu já o acrescentei. Aguardo os blocos 2 e 3.
+
+=== resultado: success | turnos 1 | 0s | erro=False
+Bloco 3 aprovado. Aguardo o bloco 2.
+
+=== resultado: success | turnos 4 | 8s | erro=False
+Os blocos 1 a 3 de "Egito Antigo" estão escritos, checados e marcados com `"checado": true`. `python -m pipeline.longo validar` respondeu OK.
+
+- **Checagem:** cada bloco teve duas voltas do checador, o limite. As observações estão em `blocos/checagem_01.md`, `checagem_02.md` e `checagem_03.md`.
+- **Correções feitas:**
+  - **Bloco 1:** origem da cheia, data de Heródoto, calendário sem ano bissexto, Sirius sumindo por cerca de setenta dias.
+  - **Bloco 2:** tumbas de Abidos e Sacará, etiquetas da tumba U-j, Mênfis "segundo a tradição", Maneton e a faixa de datas da unificação.
+  - **Bloco 3:** "escanda" virou trigo-emer, saiu a frase sobre a cerveja ser mais segura que a água, e ajustei Deir el-Medina, Bés e Senet.
+- **"Comente" no bloco 1:** na segunda checagem o checador pediu que a chamada do começo incluísse "comente". Eu mesmo acrescentei, depois da checagem, na frase do convite ("contar nos comentários de onde você está ouvindo"). Os blocos 2 e 3 não têm chamadas, porque a regra dos longos é chamar só no começo.
+- **Links das fontes:** não foram abertos. Britannica, World History e Met deram 403 ou 429 para acesso automático, e o conteúdo foi conferido por busca. Vale abrir as URLs na mão antes de publicar.
+- **Bloco 2:** o checador deixou uma ressalva menor, sem reprovar: a frase de que os sinais firmes de Mênfis só aparecem a partir da terceira dinastia simplifica um pouco.
+- **Bloco 1:** o checador sugeriu opcionalmente ajustar o tempo verbal na frase do Sirius.
+- **Contagem de palavras:** o roteirista só estimou o tamanho dos blocos, e eu não conferi.
+
+Escrevi só os 3 blocos pedidos. Faltam 12, do 4 ao 15. Não fiz commit nem push.
+codigo de saida: 0
