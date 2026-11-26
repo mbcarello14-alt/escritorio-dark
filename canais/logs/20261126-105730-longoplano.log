@@ -1,0 +1,28 @@
+comando: /longo-plano canais/historia/longos/2026-11-26-segunda-guerra
+🔧 Bash {"command": "cd canais/historia/longos/2026-11-26-segunda-guerra && cat estado.json; ls; grep -n -A8 \"longos\" /home/runner/work/escritorio-dark/escritorio-dark/pipeline/config/historia.yaml | head -
+🔧 Agent {"description": "Planejar vídeo longo", "subagent_type": "roteirista-longo-historia", "prompt": "Faça a etapa 1 (plano) do vídeo longo em /home/runner/work/escritorio-dark/escritorio-dark/canais/histo
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-segunda-guerra/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/longo-plano.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-segunda-guerra/plano.json", "content": "{\n  \"titulo\": \"Segunda Guerra Mundial para dormir: a guer
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && python -m pipeline.longo validar canais/historia/longos/2026-11-26-segunda-guerra; python -c \"\nimport json;p=json.load(open('cana
+💬 O plano de "Segunda Guerra para dormir" está pronto e passou na validação (`python -m pipeline.longo validar` retornou OK). O roteirista escreveu o `plano.json` em `canais/historia/longos/2026-11-26-segunda-guerra/`.
+
+- **Capítulos:** são 15, o mesmo número de `longos.blocos` no config.
+- **Título:** `titulo_youtube` tem 70 caracteres, abaixo do limite de 100.
+- **Nicho:** o ângulo é o dia a dia da guerra, não o campo de batalha. Ele cobre racionamento, crianças evacuadas, abrigos no metrô, Bletchley Park, ocupação de Paris, o cerco a Leningrado, fábricas, mulheres, cultura, invenções, Dia D e
+
+=== resultado: success | turnos 4 | 63s | erro=False
+O plano de "Segunda Guerra para dormir" está pronto e passou na validação (`python -m pipeline.longo validar` retornou OK). O roteirista escreveu o `plano.json` em `canais/historia/longos/2026-11-26-segunda-guerra/`.
+
+- **Capítulos:** são 15, o mesmo número de `longos.blocos` no config.
+- **Título:** `titulo_youtube` tem 70 caracteres, abaixo do limite de 100.
+- **Nicho:** o ângulo é o dia a dia da guerra, não o campo de batalha. Ele cobre racionamento, crianças evacuadas, abrigos no metrô, Bletchley Park, ocupação de Paris, o cerco a Leningrado, fábricas, mulheres, cultura, invenções, Dia D e o fim da guerra. É narrativa para curiosos, sem ENEM e sem violência gráfica.
+- **Brasil:** o capítulo 10 trata dos pracinhas.
+
+O roteirista não pesquisou na web. Fatos e fontes do plano vieram da memória dele, então o `checador` precisa conferi-los quando os blocos forem escritos. Eu só validei o formato e a contagem; não verifiquei os fatos.
+
+O Holocausto não tem capítulo próprio. Aparece só como um ponto de memória respeitosa no capítulo 7. Se você quiser mais espaço para o tema, é uma decisão sua.
+
+Não alterei o `estado.json`. Os arquivos de log em `canais/logs/` continuam sem commit.
+codigo de saida: 0
