@@ -24,6 +24,11 @@ A referência do Miguel é o canal Bays Talks: **uma imagem em tela cheia o temp
 - Nada de `titulo_inferior` de apresentação nos primeiros 3 segundos (ele entra a partir da 2ª ou 3ª cena).
 
 ## Visual por canal
+**Regra do Miguel (26/11): a tela nunca fica parada** (referência: canais de desenho animado de história que viralizam). Em TODOS os canais animados:
+- Toda `ilustracao`/`imagem` leva `movimento` **e** pelo menos um elemento vivo (`particulas`, `neblina` ou `luzes`), ou vira `cena_animada`. Nenhuma cena com imagem estática.
+- No Ouro, suba `cena_animada` para **~45% das cenas** (toda vez que houver gente na narração) e mantenha `mapa_animado` em ~25%; `ilustracao` sem personagens fica com o resto.
+- Dentro de cada `cena_animada`, cada boneco tem ação a cada 2–3 s (gesto, emoção, andar, virar); nada de boneco só respirando a cena inteira.
+
 **Ouro & Império (modo animado — referência: documentários animados com mapas)**
 Leia também `pipeline/animacao/FORMATO.md`. O vídeo tem que parecer animado, não um slideshow:
 - **~25% `mapa_animado`:** sempre que a narração cita lugar, rota, comércio, guerra, expansão ou viagem ou batalha. Monte o mapa em sequência (mesma `regiao` em 2 a 4 cenas seguidas, acrescentando cidade → rota → área → rótulo), com `camera_para` para aproximar quando a história entra num lugar. Impérios antigos = `areas` (polígono aproximado), nunca país de hoje fingindo ser império. Cidade citada = `destaque: true`. Use `em` para o item aparecer junto com a palavra.
