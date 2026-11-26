@@ -475,6 +475,25 @@ def avancar(pasta: Path) -> str:
     return etapa
 
 
+def reenviar_aprovacoes() -> int:
+    """Manda de novo no Telegram os longos prontos que esperam o "aprovar" (responder à nova mensagem funciona)."""
+    from . import estado as E
+    from . import telegram as T
+    n = 0
+    for pasta in todas():
+        est = ler(pasta)
+        if est.get("etapa") != "aguardando_aprovacao_longo" or not est.get("url"):
+            continue
+        cfg = carregar_config(est["canal"])
+        p = plano(pasta)
+        ids = T.enviar(f"🌙 <b>Vídeo longo pronto — {T.esc(cfg['nome'])}</b> (lembrete)\n<b>{T.esc(p['titulo_youtube'])}</b>\n"
+                       f"⏱️ {_hms(est.get('duracao_s', 0))}\n🔗 {est['url']} (não listado: só quem tem o link vê)\n\n"
+                       "Assista um pouco e <b>responda aprovar</b> a ESTA mensagem para agendar, ou <b>cancelar</b>.")
+        E.registrar_msgs(ids[:1], pasta, "longo_video")
+        n += 1
+    return n
+
+
 def status() -> str:
     linhas = ["🌙 <b>Vídeos longos</b>\n"]
     for p in todas():
@@ -573,6 +592,9 @@ def main():
         ps = [rel(p) for p in todas() if ler(p).get("etapa") in ("escrevendo", "narrando", "imagens", "montando")]
         _saida(andamento=" ".join(ps))
         print(" ".join(ps))
+        return
+    if acao == "reenviar-aprovacoes":
+        print(reenviar_aprovacoes(), "reenviados")
         return
     if acao == "sugerir-quem":
         c = sugerir_quem()

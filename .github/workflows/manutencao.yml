@@ -5,7 +5,7 @@ on:
       tarefa:
         description: "Tarefa"
         type: choice
-        options: [migrar-credenciais, renomear, reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao, comparar-voz, recuperar-thumb, extrair-cenas, verificar-narracao]
+        options: [reenviar-longos, migrar-credenciais, renomear, reparar-publicacao, testar-visual, testar-voz, branding, links-autorizacao, comparar-voz, recuperar-thumb, extrair-cenas, verificar-narracao]
       pasta:
         description: "Pasta do vídeo (reparar-publicacao) ou canais separados por espaço (branding)"
         required: false
@@ -35,6 +35,9 @@ jobs:
       - uses: ./.github/actions/preparar
         with:
           requisitos: pipeline/requirements-producao.txt
+      - name: Reenviar longos esperando aprovação
+        if: inputs.tarefa == 'reenviar-longos'
+        run: python -m pipeline.longo reenviar-aprovacoes
       - name: Recriptografar credenciais do YouTube
         if: inputs.tarefa == 'migrar-credenciais'
         run: python -c "from pipeline.youtube import migrar_credenciais; migrar_credenciais()"
