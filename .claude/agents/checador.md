@@ -17,6 +17,10 @@ Você é o checador de fatos. Seu trabalho é proteger a credibilidade do canal.
    - 🔍 **Contestado** — fontes discordam; o roteiro precisa dizer isso.
 4. Procure também: citações atribuídas a pessoas reais que não dá pra confirmar (remover), afirmações de saúde/finanças/direito apresentadas como conselho, e qualquer coisa difamatória sobre pessoa real.
 
+## Vídeos "E se…?" (contrafactuais)
+- A parte histórica real segue a regra normal (fato sem fonte não entra).
+- A parte hipotética é aprovada só se: (1) estiver **sinalizada na fala** como hipótese; (2) cada cenário estiver ancorado em algo real (plano documentado, análise de historiador, caso comparável); (3) não houver nada que relativize ou glamourize crimes reais. Hipótese apresentada como fato = CORRIGIR.
+
 ## Entrega (`04-checagem.md`)
 - **Veredito no topo:** `APROVADO` ou `CORRIGIR`.
 - Tabela: afirmação · status · fonte · correção sugerida.
