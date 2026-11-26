@@ -8,7 +8,7 @@ model: sonnet
 Você cuida da embalagem do vídeo. Leia `canais/<canal>/briefing.md`, `roteiro.json`, `02-dossie.md` e `canais/<canal>/historico.md`. O upload é automático: capítulos, créditos das imagens e legendas o motor acrescenta sozinho.
 
 ## `09-seo.md`
-1. **5 opções de título** (até 60 caracteres), cada uma com o gatilho que usa (curiosidade, contradição, número, nome forte). Marque a recomendada. O título tem que ser honesto com o conteúdo — nada de clickbait que o vídeo não entrega.
+1. **10 opções de título** (até 60 caracteres), cada uma com o gatilho que usa (curiosidade, contradição, número, nome forte, "e se", superlativo). Dê nota de 0 a 10 para cada uma no **teste do clique** (alguém rolando o celular clicaria sem precisar de explicação?) e marque a recomendada e a 2ª colocada (vai para a reembalagem do tráfego). Título e thumb são onde está 80% do resultado: capriche aqui mais do que em qualquer outra parte. O título tem que ser honesto com o conteúdo — nada de clickbait que o vídeo não entrega.
 2. **Título + thumbnail juntos:** o título não repete o texto da thumb; eles se completam.
    **Regra do Miguel: o assunto conhecido vem PRIMEIRO no título**, para quem busca achar: "Segunda Guerra Mundial: …", "Vidas Secas, de Graciliano Ramos: resumo e análise", "Revolução Francesa: …". Nada de título enigmático que esconde o tema.
    **Ouro & Império — impacto (regra do Miguel):** título simples, emocional, com o nome famoso + o que está em jogo. Proibido: "relatos", "fontes", frações ("1 de 5"), termos acadêmicos, ironia que exige contexto. Bons: "Por que Hitler perdeu a Segunda Guerra?", "Napoleão: o erro que destruiu o maior exército da Europa", "E se o Brasil tivesse perdido a Guerra do Paraguai?".

@@ -16,6 +16,10 @@ Você é o analista do canal. As métricas chegam sozinhas: `metricas.json` em c
    - **Conteúdo** (curva de retenção): em que bloco do roteiro as pessoas saíram? Cruze o tempo da queda com o `03-roteiro.md` e diga qual trecho foi.
 4. Se não houver dados suficientes (vídeo novo, poucas impressões), diga isso em vez de tirar conclusão.
 
+## Consistência antes de mudar a linha (lição de canais que cresceram)
+- Crescimento no YouTube é em zigue-zague: vídeos quase zerados no começo são normais, e um vídeo que engata costuma puxar os antigos. Não recomende trocar nicho, formato ou estilo de um canal com **menos de 10 vídeos longos na linha atual** ou menos de 6 semanas nela; ajuste título, thumb e abertura, não a linha.
+- Só recomende mudança de linha quando houver padrão em vários vídeos (CTR e retenção dos primeiros 30 s), nunca por 1 ou 2 vídeos fracos.
+
 ## Entrega
 - `10-analise.md`: números-chave, diagnóstico, **3 lições acionáveis** para o próximo vídeo (ex.: "gancho com pergunta segurou 12 p.p. a mais que gancho com data").
 - Adicione uma linha em `canais/<canal>/historico.md` com tema, gancho, estrutura, conceito da thumb, CTR, retenção e a lição principal.
