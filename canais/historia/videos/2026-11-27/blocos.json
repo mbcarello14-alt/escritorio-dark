@@ -1,0 +1,1216 @@
+{
+  "blocos": [
+    {
+      "capitulo": "A frase sem cópia",
+      "cenas": [
+        {
+          "narracao": "A frase mais famosa da Primeira Cruzada",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "mediterraneo",
+            "camera_para": "oriente_medio",
+            "camera_em": 0.2,
+            "areas": [
+              { "pontos": [[27, 40], [27, 37], [34, 36.5], [44, 37.5], [44, 40], [36, 41]], "cor": "cinza", "rotulo": "Turcos seljúcidas", "em": 0.1 }
+            ],
+            "cidades": [
+              { "nome": "Clermont", "lon": 3.08, "lat": 45.78, "em": 0.1 },
+              { "nome": "Jerusalém", "lon": 35.22, "lat": 31.77, "destaque": true, "lado": "esquerda", "em": 0.6 }
+            ],
+            "rotas": [
+              { "pontos": [[3.08, 45.78], [12.5, 41.9], [22, 40], [28.98, 41.01], [36.16, 36.2], [35.22, 31.77]], "carga": "caravana", "duracao": 0.7 }
+            ]
+          }
+        },
+        {
+          "narracao": "aparece em um só dos cinco relatos clássicos.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 5,
+            "sufixo": " relatos",
+            "rotulo": "Só um deles registra o grito",
+            "comparacao": "1 em 5"
+          }
+        },
+        {
+          "narracao": "Deus o quer.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a huge medieval crowd of peasants and knights with raised fists and banners, shouting together on a hillside under a stormy golden sky",
+            "busca_reserva": "medieval crowd crusade preaching miniature",
+            "movimento": "zoom_in",
+            "particulas": "brasas"
+          }
+        },
+        {
+          "narracao": "Mil e noventa e oito.",
+          "visual": {
+            "tipo": "linha_tempo",
+            "foco": 1,
+            "eventos": [
+              { "ano": "1095", "texto": "O discurso em Clermont" },
+              { "ano": "1098", "texto": "Cruzados tomam Antioquia" },
+              { "ano": "1099", "texto": "Jerusalém" }
+            ]
+          }
+        },
+        {
+          "narracao": "Cruzados tomam Antioquia, e o brado é esse: Deus o quer.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "the tall stone walls of the besieged city of Antioch at dawn, smoke rising, 1098",
+            "busca_reserva": "Siege of Antioch medieval city walls",
+            "movimento": "zoom_in",
+            "particulas": "brasas",
+            "personagens": [
+              { "figurino": "cavaleiro", "pele": "clara", "x": 0.3, "olha": "direita", "prop": "espada",
+                "acoes": [ { "acao": "comemora", "em": 0.3, "ate": 0.8 } ] },
+              { "figurino": "cavaleiro", "pele": "media", "x": 0.55, "olha": "direita", "fala": true,
+                "acoes": [ { "acao": "entra", "de": "esquerda", "em": 0, "ate": 0.3 }, { "acao": "bravo", "em": 0.4 } ] },
+              { "figurino": "campones", "pele": "clara", "x": 0.8, "olha": "esquerda",
+                "acoes": [ { "acao": "comemora", "em": 0.5 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Pouco mais de um ano depois, um exército cristão está dentro de Jerusalém.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "oriente_medio",
+            "camera_para": "egito",
+            "camera_em": 0.5,
+            "cidades": [
+              { "nome": "Antioquia", "lon": 36.16, "lat": 36.2, "em": 0.1 },
+              { "nome": "Jerusalém", "lon": 35.22, "lat": 31.77, "destaque": true, "lado": "esquerda", "em": 0.7 }
+            ],
+            "rotas": [
+              { "pontos": [[36.16, 36.2], [35.8, 34], [35.22, 31.77]], "carga": "caravana", "em": 0.2, "duracao": 0.5 }
+            ],
+            "rotulos": [ { "texto": "Julho de 1099", "lon": 38, "lat": 33, "tipo": "destaque", "em": 0.8 } ]
+          }
+        },
+        {
+          "narracao": "Tudo começou com um papa, no centro da França, há novecentos e trinta e um anos.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a medieval pope in white and gold robes standing on a wooden platform in an open field in central France, addressing a vast crowd of clergy and knights under a wide sky",
+            "busca_reserva": "Pope Urban II Council of Clermont miniature",
+            "movimento": "zoom_out",
+            "particulas": "poeira",
+            "titulo_inferior": { "titulo": "Urbano II", "subtitulo": "Clermont, França · 1095" }
+          }
+        },
+        {
+          "narracao": "Só que ninguém guardou uma cópia desse discurso. Nenhuma.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an empty wooden desk in a dim medieval scriptorium with a single blank sheet of parchment and an empty inkwell, dust floating in a shaft of light",
+            "busca_reserva": "medieval scriptorium empty desk parchment",
+            "movimento": "zoom_in",
+            "particulas": "poeira",
+            "luzes": [ { "x": 0.5, "y": 0.45, "raio": 0.18 } ]
+          }
+        },
+        {
+          "narracao": "Então a multidão gritou mesmo Deus o quer naquele dia?",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "an open grassy field outside a medieval French town, late autumn, cloudy sky",
+            "busca_reserva": "medieval field crowd autumn France",
+            "movimento": "pan_direita",
+            "personagens": [
+              { "figurino": "campones", "pele": "clara", "x": 0.25, "olha": "direita", "fala": true,
+                "acoes": [ { "acao": "comemora", "em": 0.2, "ate": 0.8 } ] },
+              { "figurino": "cavaleiro", "pele": "media", "x": 0.5, "olha": "direita",
+                "acoes": [ { "acao": "surpreso", "em": 0.3 } ] },
+              { "figurino": "monge", "pele": "clara", "x": 0.75, "olha": "esquerda",
+                "acoes": [ { "acao": "pensa", "em": 0.3 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Ou o grito foi parar lá depois?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a monk bent over a desk writing quickly with a quill by candlelight, a mischievous smile on his face, a long scroll unrolling to the floor",
+            "busca_reserva": "medieval monk writing manuscript candlelight",
+            "movimento": "zoom_in",
+            "luzes": [ { "x": 0.4, "y": 0.55, "raio": 0.14 } ]
+          }
+        },
+        {
+          "narracao": "Hoje a gente segue essa frase até a origem.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "europa",
+            "cidades": [
+              { "nome": "Clermont", "lon": 3.08, "lat": 45.78, "destaque": true, "em": 0.6 },
+              { "nome": "Jerusalém", "lon": 35.22, "lat": 31.77, "lado": "esquerda", "em": 0.1 }
+            ],
+            "rotas": [
+              { "pontos": [[35.22, 31.77], [28.98, 41.01], [12.5, 43], [3.08, 45.78]], "carga": "caravana", "duracao": 0.6 }
+            ]
+          }
+        },
+        {
+          "narracao": "E antes de pegar a estrada, se inscreve, deixa o like e comenta o que você já sabia dessa história, que é isso que leva o canal a mais gente.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cheerful medieval pilgrim with a walking staff and a cloth cross on his shoulder pointing at the viewer with a big friendly grin, on a dirt road at sunrise",
+            "busca_reserva": "medieval pilgrim walking road illustration",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O único relato com o grito",
+      "cenas": [
+        {
+          "narracao": "O relato do grito é de Roberto, o Monge. E ele conta assim.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a stone monastery cloister with a wooden writing desk and candles, early twelfth century",
+            "busca_reserva": "medieval monastery cloister scriptorium",
+            "movimento": "zoom_in",
+            "luzes": [ { "x": 0.7, "y": 0.5, "raio": 0.12 } ],
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.5, "olha": "esquerda", "prop": "pena", "fala": true,
+                "acoes": [ { "acao": "entra", "de": "direita", "em": 0, "ate": 0.3 }, { "acao": "aponta", "em": 0.6, "ate": 0.9 } ] }
+            ],
+            "titulo_inferior": { "titulo": "Roberto, o Monge", "subtitulo": "Cronista · por volta de 1107 a 1120" }
+          }
+        },
+        {
+          "narracao": "O papa termina de falar e a multidão responde numa voz só: Deus o quer! Urbano aprova. Diz que aquele grito vem de Deus e manda que vire o brado de guerra.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "an open field in medieval France with a wooden platform and a cloudy sky, no people",
+            "busca_reserva": "Council of Clermont Urban II crowd miniature",
+            "movimento": "zoom_in",
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.2, "olha": "direita", "fala": true,
+                "acoes": [ { "acao": "aponta", "em": 0.5, "ate": 0.9 } ] },
+              { "figurino": "campones", "pele": "clara", "x": 0.5, "olha": "esquerda",
+                "acoes": [ { "acao": "comemora", "em": 0.2, "ate": 0.7 } ] },
+              { "figurino": "cavaleiro", "pele": "media", "x": 0.75, "olha": "esquerda",
+                "acoes": [ { "acao": "comemora", "em": 0.2, "ate": 0.7 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Antes disso, o Urbano do Roberto chama Jerusalém de centro da terra, invoca Carlos Magno e os antepassados dos francos, e diz que a terra deles é estreita e pobre demais para alimentar todo mundo, e que é por isso que os cristãos vivem guerreando entre si.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "europa",
+            "areas": [
+              { "pontos": [[-1, 43], [-3, 48], [3, 51], [8, 50], [8, 46], [3, 43]], "cor": "ouro", "rotulo": "Terra dos francos", "em": 0.5 }
+            ],
+            "cidades": [
+              { "nome": "Jerusalém", "lon": 35.22, "lat": 31.77, "lado": "esquerda", "destaque": true, "em": 0.1 }
+            ],
+            "rotulos": [ { "texto": "terra estreita e pobre", "lon": 2, "lat": 54, "tipo": "destaque", "em": 0.7 } ]
+          }
+        },
+        {
+          "narracao": "Ainda faz uma lista de quem não deve ir. Velhos, mulheres sem marido ou tutor, clérigos sem licença do bispo, leigos sem a bênção do padre. Cruz na testa ou no peito.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Quem não deve ir",
+            "itens": ["Velhos", "Mulheres sem marido ou tutor", "Clérigos sem licença do bispo", "Leigos sem a bênção do padre"]
+          }
+        },
+        {
+          "narracao": "É o Urbano mais teatral da turma.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a dramatic medieval pope with arms wide open on a stage-like wooden platform, a spotlight of golden sunlight on him, tiny theater curtains painted behind, humorous",
+            "busca_reserva": "medieval preacher dramatic crowd engraving",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Agora, a data. Até o ano em que Roberto escreve é disputado. Uns dizem mil cento e sete. Outros, por volta de mil cento e vinte, e nesse caso seriam uns vinte e cinco anos depois do discurso.",
+          "visual": {
+            "tipo": "linha_tempo",
+            "foco": 2,
+            "eventos": [
+              { "ano": "1095", "texto": "O discurso em Clermont" },
+              { "ano": "1107", "texto": "Roberto escreve? (uns dizem)" },
+              { "ano": "c. 1120", "texto": "Ou 25 anos depois do discurso" }
+            ]
+          }
+        },
+        {
+          "narracao": "Ele pode ter estado em Clermont. Pode. E ele não escreve do zero: reescreve um relato anterior, a Gesta dos Francos.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Gesta Francorum medieval manuscript page",
+            "movimento": "pan_direita",
+            "legenda": "Manuscrito medieval da Gesta dos Francos"
+          }
+        },
+        {
+          "narracao": "Aqui aparece o defeito que os cinco relatos dividem. Todos foram escritos depois de quinze de julho de mil e noventa e nove, o dia em que os cruzados tomaram Jerusalém.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "the golden walled city of Jerusalem on a hill at sunset seen from a distance, five small scrolls floating above it in a row",
+            "busca_reserva": "Jerusalem medieval miniature crusaders 1099",
+            "movimento": "zoom_out",
+            "titulo_inferior": { "titulo": "15 de julho de 1099", "subtitulo": "Os cruzados tomam Jerusalém" }
+          }
+        },
+        {
+          "narracao": "É como pedir para cinco amigos contarem o que o técnico disse no vestiário depois que o time já ganhou a final. Ninguém lembra da escalação. Todo mundo lembra da parte épica.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a simple locker room with wooden benches and a chalkboard, warm light, no people",
+            "busca_reserva": "old football locker room bench",
+            "movimento": "pan_esquerda",
+            "personagens": [
+              { "figurino": "narrador", "pele": "media", "x": 0.25, "olha": "direita", "fala": true,
+                "acoes": [ { "acao": "comemora", "em": 0.6, "ate": 0.95 } ] },
+              { "figurino": "estudante", "pele": "clara", "x": 0.5, "olha": "direita",
+                "acoes": [ { "acao": "pensa", "em": 0.2, "ate": 0.5 }, { "acao": "concorda", "em": 0.6 } ] },
+              { "figurino": "terno", "pele": "escura", "x": 0.75, "olha": "esquerda",
+                "acoes": [ { "acao": "ri", "em": 0.6 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Para saber se o grito é épico demais para ser verdade, é preciso voltar ao começo. E o começo não é na França.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "mediterraneo",
+            "camera_para": "grecia",
+            "camera_em": 0.5,
+            "cidades": [
+              { "nome": "Clermont", "lon": 3.08, "lat": 45.78, "em": 0.1 },
+              { "nome": "Constantinopla", "lon": 28.98, "lat": 41.01, "destaque": true, "lado": "esquerda", "em": 0.7 }
+            ],
+            "rotas": [
+              { "pontos": [[3.08, 45.78], [12.5, 43], [22, 41], [28.98, 41.01]], "carga": "caravana", "em": 0.3, "duracao": 0.5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O imperador que pediu ajuda",
+      "cenas": [
+        {
+          "narracao": "O começo é em Constantinopla, a capital do Império Bizantino.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "the great domed city of Constantinople with a huge church dome and sea walls at golden hour, ships in the harbor",
+            "busca_reserva": "Constantinople Byzantine walls Hagia Sophia",
+            "movimento": "zoom_in",
+            "neblina": true,
+            "titulo_inferior": { "titulo": "Constantinopla", "subtitulo": "Capital do Império Bizantino" }
+          }
+        },
+        {
+          "narracao": "Em mil e setenta e um, os bizantinos perdem a batalha de Manzikert, e os turcos seljúcidas passam a dominar a maior parte da Anatólia, o miolo da Turquia atual.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "oriente_medio",
+            "camera_para": "grecia",
+            "camera_em": 0.1,
+            "areas": [
+              { "pontos": [[20, 40], [22, 44], [28, 44.5], [30, 41.5], [28, 37], [22, 37]], "cor": "roxo", "rotulo": "Bizâncio", "em": 0.1 },
+              { "pontos": [[27, 40], [27, 37], [34, 36.5], [44, 37.5], [44, 40], [36, 41]], "cor": "vermelho", "rotulo": "Turcos seljúcidas", "em": 0.6 }
+            ],
+            "cidades": [
+              { "nome": "Manzikert", "lon": 42.54, "lat": 39.14, "destaque": true, "lado": "esquerda", "em": 0.4 }
+            ],
+            "titulo_inferior": { "titulo": "Manzikert, 1071", "subtitulo": "A derrota que abriu a Anatólia" }
+          }
+        },
+        {
+          "narracao": "Nos anos seguintes, Niceia cai. Antioquia cai.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "oriente_medio",
+            "areas": [
+              { "pontos": [[27, 40], [27, 37], [34, 36.5], [44, 37.5], [44, 40], [36, 41]], "cor": "vermelho", "rotulo": "Turcos seljúcidas" }
+            ],
+            "cidades": [
+              { "nome": "Niceia", "lon": 29.72, "lat": 40.43, "destaque": true, "em": 0.2 },
+              { "nome": "Antioquia", "lon": 36.16, "lat": 36.2, "destaque": true, "lado": "esquerda", "em": 0.6 }
+            ]
+          }
+        },
+        {
+          "narracao": "Em mil e oitenta e um, sobe ao trono Aleixo Primeiro Comneno, que herda incêndio para todo lado: normandos invadindo os Bálcãs, pechenegues pelo norte, turcos pelo leste.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "europa",
+            "camera_para": "grecia",
+            "areas": [
+              { "pontos": [[20, 40], [22, 44], [28, 44.5], [30, 41.5], [28, 37], [22, 37]], "cor": "roxo", "rotulo": "Bizâncio" }
+            ],
+            "rotas": [
+              { "pontos": [[15, 40.5], [20, 40.5], [22, 41]], "em": 0.2, "duracao": 0.3 },
+              { "pontos": [[30, 49], [29, 46], [28, 44]], "em": 0.45, "duracao": 0.3 },
+              { "pontos": [[40, 39], [34, 39.5], [30, 40.5]], "em": 0.7, "duracao": 0.3 }
+            ],
+            "rotulos": [
+              { "texto": "normandos", "lon": 15, "lat": 42, "tipo": "destaque", "em": 0.25 },
+              { "texto": "pechenegues", "lon": 31, "lat": 48, "tipo": "destaque", "em": 0.5 },
+              { "texto": "turcos", "lon": 39, "lat": 41, "tipo": "destaque", "em": 0.75 }
+            ]
+          }
+        },
+        {
+          "narracao": "Ele apaga um por um. Em mil e noventa e um, com aliados cumanos, esmaga os pechenegues.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a Byzantine imperial palace hall with marble columns and a golden mosaic wall, no people",
+            "busca_reserva": "Alexios I Komnenos Byzantine emperor miniature",
+            "movimento": "zoom_in",
+            "personagens": [
+              { "figurino": "rei", "pele": "media", "x": 0.4, "olha": "direita", "barba": true, "fala": true,
+                "acoes": [ { "acao": "aponta", "em": 0.2, "ate": 0.5 }, { "acao": "feliz", "em": 0.6 } ] },
+              { "figurino": "cavaleiro", "pele": "media", "x": 0.7, "olha": "esquerda",
+                "acoes": [ { "acao": "entra", "de": "direita", "em": 0, "ate": 0.3 }, { "acao": "comemora", "em": 0.6 } ] }
+            ],
+            "titulo_inferior": { "titulo": "Aleixo I Comneno", "subtitulo": "Imperador bizantino · 1081–1118" }
+          }
+        },
+        {
+          "narracao": "Em março de mil e noventa e cinco, os embaixadores dele aparecem num concílio da Igreja em Piacenza, no norte da Itália, e pedem socorro contra os turcos. O papa pede aos presentes que ajudem o imperador.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a large medieval church hall in northern Italy with arched windows and wooden benches, no people",
+            "busca_reserva": "Council of Piacenza 1095 Byzantine ambassadors",
+            "movimento": "pan_direita",
+            "personagens": [
+              { "figurino": "nobre", "pele": "media", "x": 0.25, "olha": "direita", "fala": true,
+                "acoes": [ { "acao": "entra", "de": "esquerda", "em": 0, "ate": 0.3 }, { "acao": "aponta", "em": 0.4, "ate": 0.7 } ] },
+              { "figurino": "monge", "pele": "clara", "x": 0.6, "olha": "esquerda",
+                "acoes": [ { "acao": "concorda", "em": 0.5 } ] },
+              { "figurino": "monge", "pele": "clara", "x": 0.85, "olha": "esquerda",
+                "acoes": [ { "acao": "pensa", "em": 0.3 } ] }
+            ],
+            "titulo_inferior": { "titulo": "Piacenza, março de 1095", "subtitulo": "Um pedido de socorro" }
+          }
+        },
+        {
+          "narracao": "E o que Aleixo queria? A leitura mais comum entre os historiadores é que ele queria tropa contratada. Mercenários. Gente que chega, luta, recebe e vai embora.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a wooden tent on a dusty field with a table, medieval camp, no people",
+            "busca_reserva": "medieval mercenaries paid coins miniature",
+            "movimento": "zoom_in",
+            "personagens": [
+              { "figurino": "mercador", "pele": "media", "x": 0.3, "olha": "direita", "prop": "saco_moedas",
+                "acoes": [ { "acao": "segura", "em": 0.3, "ate": 0.7 } ] },
+              { "figurino": "cavaleiro", "pele": "clara", "x": 0.65, "olha": "esquerda",
+                "acoes": [ { "acao": "entra", "de": "direita", "em": 0, "ate": 0.3 }, { "acao": "feliz", "em": 0.5 }, { "acao": "sai", "para": "direita", "em": 0.8 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Há quem conteste, como o historiador Peter Frankopan, que vê o imperador bem mais envolvido no plano.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a Byzantine emperor leaning over a large table covered with maps and plans, moving small pieces, a thoughtful look, candles around",
+            "busca_reserva": "Byzantine emperor council maps medieval",
+            "movimento": "pan_esquerda",
+            "luzes": [ { "x": 0.3, "y": 0.5, "raio": 0.12 } ]
+          }
+        },
+        {
+          "narracao": "Seja como for, o que bateu na porta de Constantinopla meses depois foi outra coisa. E o homem que recebeu o pedido tinha um problema esquisito. Ele era papa, mas não mandava direito em Roma.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a pope in white robes standing in front of a huge closed gate of the city of Rome, with a ring of keys in hand and a puzzled look, evening light",
+            "busca_reserva": "Rome medieval gate Lateran 11th century",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Um papa sem Roma",
+      "cenas": [
+        {
+          "narracao": "Esse homem é Urbano Segundo. Nasceu Odo, na França, por volta de mil e trinta e cinco.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Pope Urban II medieval miniature portrait",
+            "movimento": "zoom_in",
+            "titulo_inferior": { "titulo": "Urbano II", "subtitulo": "Nasceu Odo · c. 1035" }
+          }
+        },
+        {
+          "narracao": "Foi monge e prior de Cluny, virou cardeal-bispo de Óstia e, em mil e oitenta e oito, foi eleito papa. Não em Roma. Em Terracina. Porque Roma estava com outro papa.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "italia",
+            "cidades": [
+              { "nome": "Roma", "lon": 12.5, "lat": 41.9, "em": 0.5 },
+              { "nome": "Terracina", "lon": 13.25, "lat": 41.29, "destaque": true, "lado": "direita", "em": 0.2 }
+            ],
+            "rotulos": [ { "texto": "Eleito papa em 1088", "lon": 12, "lat": 44, "tipo": "destaque", "em": 0.2 } ]
+          }
+        },
+        {
+          "narracao": "O antipapa Clemente Terceiro, apoiado pelo imperador do Sacro Império, Henrique Quarto. Dois papas ao mesmo tempo, tipo dois síndicos no mesmo prédio, cada um com seu carimbo, cada um mandando o outro desocupar a sala.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a small office with a wooden desk and a shared door, two stamps on the desk, comedic, no people",
+            "busca_reserva": "antipope Clement III Henry IV medieval",
+            "movimento": "zoom_in",
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.3, "olha": "direita", "bravo": true, "fala": true,
+                "acoes": [ { "acao": "aponta", "em": 0.2, "ate": 0.6 }, { "acao": "bravo", "em": 0.2 } ] },
+              { "figurino": "monge", "pele": "media", "x": 0.7, "olha": "esquerda",
+                "acoes": [ { "acao": "aponta", "em": 0.4, "ate": 0.8 }, { "acao": "bravo", "em": 0.4 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Urbano passou anos disputando Roma com Clemente, e o antipapa só saiu de lá de vez em mil e noventa e sete. Por isso muitos historiadores leem a cruzada também como uma forma de fortalecer o papado. É leitura moderna, nenhum cronista da época escreveu assim.",
+          "visual": {
+            "tipo": "linha_tempo",
+            "foco": 2,
+            "eventos": [
+              { "ano": "1088", "texto": "Urbano é eleito papa" },
+              { "ano": "1095", "texto": "Concílio de Clermont" },
+              { "ano": "1097", "texto": "O antipapa sai de Roma" }
+            ]
+          }
+        },
+        {
+          "narracao": "Em novembro de mil e noventa e cinco, Urbano está em Clermont, na Auvérnia, presidindo um concílio. E o concílio não era sobre guerra. Era sobre reforma da Igreja.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "europa",
+            "camera_para": "iberia",
+            "camera_em": 0.3,
+            "cidades": [
+              { "nome": "Clermont", "lon": 3.08, "lat": 45.78, "destaque": true, "lado": "direita", "em": 0.4 }
+            ],
+            "titulo_inferior": { "titulo": "Clermont, novembro de 1095", "subtitulo": "Um concílio sobre reforma da Igreja" }
+          }
+        },
+        {
+          "narracao": "Uns trezentos clérigos, segundo as estimativas, porque não sobrou lista oficial. Na pauta, disciplina do clero, a renovação da Trégua de Deus, regras para conter a violência entre cristãos e a excomunhão do rei da França, Filipe Primeiro, que continuou valendo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a crowded medieval church hall full of seated bishops and monks in rows, a long list on a lectern, soft light through tall windows",
+            "busca_reserva": "Council of Clermont 1095 bishops miniature",
+            "movimento": "pan_direita",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "Pelas datas mais aceitas, de dezessete a vinte e sete de novembro. No último dia, segundo a tradição, o papa sai da pauta. As atas se perderam.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a dusty empty archive shelf with a gap where a bundle of scrolls used to be, a single lost page lying on the floor, dim light",
+            "busca_reserva": "medieval archive lost manuscripts",
+            "movimento": "zoom_in",
+            "particulas": "poeira"
+          }
+        },
+        {
+          "narracao": "Do próprio Urbano, sobraram algumas cartas escritas logo depois, como a de dezembro daquele ano para os fiéis de Flandres. Essa fala de uma fúria bárbara que devastou as igrejas de Deus no Oriente e nomeia o bispo Ademar de Le Puy como chefe da expedição. Mas nenhuma reproduz o discurso.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a candlelit medieval study with a wooden desk, a sealed letter and a wax candle, no people",
+            "busca_reserva": "medieval letter wax seal pope",
+            "movimento": "zoom_in",
+            "luzes": [ { "x": 0.6, "y": 0.5, "raio": 0.12 } ],
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.45, "olha": "direita", "prop": "pergaminho", "fala": true,
+                "acoes": [ { "acao": "segura", "em": 0.2, "ate": 0.8 }, { "acao": "nega", "em": 0.85 } ] }
+            ],
+            "titulo_inferior": { "titulo": "Carta aos fiéis de Flandres", "subtitulo": "Dezembro de 1095", "pequeno": true }
+          }
+        },
+        {
+          "narracao": "Então o jeito é procurar o Deus o quer nos outros quatro relatos.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a detective monk with a magnifying glass inspecting four old scrolls laid out on a table, a funny curious expression",
+            "busca_reserva": "medieval manuscripts four chronicles",
+            "movimento": "zoom_in",
+            "luzes": [ { "x": 0.5, "y": 0.5, "raio": 0.14 } ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Nenhum grito, nenhuma Jerusalém",
+      "cenas": [
+        {
+          "narracao": "Primeiro, a Gesta dos Francos, o texto que o Roberto reescreveu. Autor anônimo, um homem ligado a Boemundo, um dos chefes normandos da cruzada, escrevendo por volta de mil e cem.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a faceless anonymous hooded figure writing on parchment in a military tent, a banner of a Norman lord behind him, lantern light",
+            "busca_reserva": "Gesta Francorum Bohemond Norman crusader",
+            "movimento": "zoom_in",
+            "luzes": [ { "x": 0.65, "y": 0.45, "raio": 0.13 } ],
+            "titulo_inferior": { "titulo": "Gesta dos Francos", "subtitulo": "Autor anônimo · por volta de 1100" }
+          }
+        },
+        {
+          "narracao": "O relato dela sobre Clermont é curtíssimo. O papa pregou além dos montes, com arcebispos, bispos e abades, e prometeu salvação a quem tomasse o caminho do Senhor. Os francos começaram a costurar cruzes no ombro direito. Fim. Nenhum grito.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a medieval village square with a stone well and wooden houses, morning light, no people",
+            "busca_reserva": "medieval crusaders cross sewn on shoulder",
+            "movimento": "pan_direita",
+            "personagens": [
+              { "figurino": "campones", "pele": "clara", "x": 0.3, "olha": "direita", "prop": "pergaminho",
+                "acoes": [ { "acao": "segura", "em": 0.2, "ate": 0.8 } ] },
+              { "figurino": "cavaleiro", "pele": "clara", "x": 0.6, "olha": "esquerda",
+                "acoes": [ { "acao": "aponta", "em": 0.4, "ate": 0.7 } ] },
+              { "figurino": "dama_1900", "pele": "clara", "x": 0.85, "olha": "esquerda",
+                "acoes": [ { "acao": "cala", "em": 0.8 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "E esse relato curtinho pesa, porque três dos outros quatro usaram a Gesta como fonte.",
+          "visual": {
+            "tipo": "mapa_mental",
+            "mapa": {
+              "centro": "Gesta dos Francos",
+              "ramos": [
+                { "rotulo": "Roberto, o Monge", "filhos": [] },
+                { "rotulo": "Balderico de Dol", "filhos": [] },
+                { "rotulo": "Guiberto de Nogent", "filhos": [] }
+              ]
+            },
+            "revelar": 3
+          }
+        },
+        {
+          "narracao": "Depois, Fulquério de Chartres, um capelão, escrevendo nos primeiros anos do século doze. O Urbano dele começa falando de disciplina. Clero comportado, nada de comprar e vender cargo na Igreja, dízimo em dia, paz e trégua entre cristãos. Parece ata de reunião de paróquia.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a small parish meeting room with a long wooden table and a hanging lamp, no people",
+            "busca_reserva": "Fulcher of Chartres chronicle manuscript",
+            "movimento": "zoom_in",
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.3, "olha": "direita", "prop": "livro", "fala": true,
+                "acoes": [ { "acao": "aponta", "em": 0.3, "ate": 0.6 } ] },
+              { "figurino": "monge", "pele": "media", "x": 0.55, "olha": "esquerda",
+                "acoes": [ { "acao": "concorda", "em": 0.5 } ] },
+              { "figurino": "campones", "pele": "clara", "x": 0.8, "olha": "esquerda",
+                "acoes": [ { "acao": "pensa", "em": 0.4 } ] }
+            ],
+            "titulo_inferior": { "titulo": "Fulquério de Chartres", "subtitulo": "Capelão · início do século XII" }
+          }
+        },
+        {
+          "narracao": "Só depois vem o Oriente. Turcos e árabes avançando sobre as terras bizantinas até o estreito do Helesponto. Quem morrer no caminho ganha o perdão dos pecados.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "oriente_medio",
+            "camera_para": "grecia",
+            "areas": [
+              { "pontos": [[27, 40], [27, 37], [34, 36.5], [44, 37.5], [44, 40], [36, 41]], "cor": "vermelho", "rotulo": "Turcos", "em": 0.1 }
+            ],
+            "rotas": [
+              { "pontos": [[40, 39], [34, 39.5], [29, 40.2], [26.4, 40.2]], "em": 0.2, "duracao": 0.5 }
+            ],
+            "rotulos": [ { "texto": "Helesponto", "lon": 26.4, "lat": 39.6, "tipo": "destaque", "em": 0.7 } ]
+          }
+        },
+        {
+          "narracao": "E os cavaleiros e salteadores que vivem brigando em casa que usem essa violência contra os inimigos de Cristo lá longe. Partida depois do inverno. Arruma a casa e manda os briguentos para fora. Grito, nenhum.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a stone castle gate in winter with snow on the ground, no people",
+            "busca_reserva": "medieval knights fighting castle gate winter",
+            "movimento": "zoom_in",
+            "particulas": "neve",
+            "personagens": [
+              { "figurino": "cavaleiro", "pele": "clara", "x": 0.3, "olha": "direita", "prop": "espada",
+                "acoes": [ { "acao": "bravo", "em": 0.1, "ate": 0.5 }, { "acao": "sai", "para": "direita", "em": 0.6 } ] },
+              { "figurino": "cavaleiro", "pele": "media", "x": 0.55, "olha": "esquerda", "prop": "lanca",
+                "acoes": [ { "acao": "bravo", "em": 0.1, "ate": 0.5 }, { "acao": "sai", "para": "direita", "em": 0.65 } ] },
+              { "figurino": "monge", "pele": "clara", "x": 0.85, "olha": "esquerda", "fala": true,
+                "acoes": [ { "acao": "aponta", "em": 0.4, "ate": 0.8 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "E tem mais uma ausência. No texto do Fulquério que chegou até nós, Jerusalém não aparece. A cidade que seria o grande prêmio da cruzada. Os dois relatos seguintes vão compensar isso com sobra.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "oriente_medio",
+            "cidades": [
+              { "nome": "Jerusalém", "lon": 35.22, "lat": 31.77, "destaque": true, "lado": "esquerda", "em": 0.4 }
+            ],
+            "rotulos": [ { "texto": "sumiu do texto", "lon": 38, "lat": 33.5, "tipo": "destaque", "em": 0.6 } ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Jerusalém no centro, grito fora",
+      "cenas": [
+        {
+          "narracao": "Balderico de Dol, arcebispo, escreve no começo do século doze com a Gesta aberta do lado. O Urbano dele lamenta os cristãos de Jerusalém e de Antioquia e a profanação do Santo Sepulcro.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a bishop's study in a stone cathedral with an open book on a desk and stained glass window, no people",
+            "busca_reserva": "Baldric of Dol archbishop manuscript",
+            "movimento": "zoom_in",
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.5, "olha": "esquerda", "prop": "pena", "fala": true,
+                "acoes": [ { "acao": "triste", "em": 0.5, "ate": 0.9 } ] }
+            ],
+            "titulo_inferior": { "titulo": "Balderico de Dol", "subtitulo": "Arcebispo e cronista · início do século XII" }
+          }
+        },
+        {
+          "narracao": "Dá bronca nos cavaleiros que lutam entre si. E usa a passagem da Bíblia em que Moisés reza enquanto o povo luta contra Amalec. Tradução: o clero reza, os guerreiros lutam.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a bearded old prophet standing on a rocky hill with arms raised in prayer, held up by two helpers, while a battle rages in the valley below",
+            "busca_reserva": "Moses arms raised Amalek battle painting",
+            "movimento": "zoom_out"
+          }
+        },
+        {
+          "narracao": "Balderico conta que parte do público tremeu, parte discutiu, e que o bispo de Le Puy pediu e recebeu a liderança. Tremeram, discutiram. Grito em coro, Balderico não registra.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "an open field with a wooden platform in medieval France, cloudy sky, no people",
+            "busca_reserva": "Adhemar of Le Puy bishop crusade leader",
+            "movimento": "pan_esquerda",
+            "personagens": [
+              { "figurino": "campones", "pele": "clara", "x": 0.2, "olha": "direita",
+                "acoes": [ { "acao": "assusta", "em": 0.2, "ate": 0.5 } ] },
+              { "figurino": "cavaleiro", "pele": "media", "x": 0.45, "olha": "direita",
+                "acoes": [ { "acao": "nega", "em": 0.3 } ] },
+              { "figurino": "monge", "pele": "clara", "x": 0.75, "olha": "esquerda", "fala": true,
+                "acoes": [ { "acao": "aponta", "em": 0.6, "ate": 0.9 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Guiberto de Nogent, abade, escreve por volta de mil cento e sete, também com a Gesta como base. Segundo uma das principais coletâneas de fontes, ele estava no concílio, mas outras fontes não confirmam.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a stone abbey library with tall shelves of books and a window, no people",
+            "busca_reserva": "Guibert of Nogent abbot manuscript",
+            "movimento": "zoom_in",
+            "particulas": "poeira",
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.5, "olha": "direita", "prop": "livro", "fala": true,
+                "acoes": [ { "acao": "pensa", "em": 0.5, "ate": 0.9 } ] }
+            ],
+            "titulo_inferior": { "titulo": "Guiberto de Nogent", "subtitulo": "Abade · por volta de 1107" }
+          }
+        },
+        {
+          "narracao": "O Urbano dele é o mais apocalíptico. Compara os cruzados aos Macabeus, heróis da Bíblia. Liga Jerusalém às profecias e à derrota do Anticristo. Fala dos maus-tratos aos peregrinos, dá absolvição a quem faz o voto e manda usar a cruz de tecido.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a fiery apocalyptic sky above the walled city of Jerusalem with dark clouds and rays of golden light, a tiny procession of pilgrims on the road below",
+            "busca_reserva": "medieval apocalypse miniature Jerusalem",
+            "movimento": "zoom_in",
+            "particulas": "brasas"
+          }
+        },
+        {
+          "narracao": "E o Deus o quer? Guiberto conhece o brado. Comenta que os peregrinos preferiam esse grito a outros. Só não o coloca em Clermont.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a dusty pilgrim road across rolling hills in southern Europe, afternoon, no people",
+            "busca_reserva": "medieval pilgrims road crusaders",
+            "movimento": "pan_direita",
+            "personagens": [
+              { "figurino": "campones", "pele": "clara", "x": 0.3, "olha": "direita", "fala": true,
+                "acoes": [ { "acao": "comemora", "em": 0.2, "ate": 0.6 } ] },
+              { "figurino": "monge", "pele": "media", "x": 0.55, "olha": "direita",
+                "acoes": [ { "acao": "feliz", "em": 0.3 } ] },
+              { "figurino": "cavaleiro", "pele": "clara", "x": 0.8, "olha": "esquerda",
+                "acoes": [ { "acao": "comemora", "em": 0.4, "ate": 0.8 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "No Fulquério, Jerusalém nem aparece. No Balderico e no Guiberto, ela está no centro.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": { "titulo": "Fulquério", "itens": ["Disciplina e paz", "Jerusalém não aparece"] },
+            "direita": { "titulo": "Balderico e Guiberto", "itens": ["Jerusalém no centro", "Profecias e Santo Sepulcro"] }
+          }
+        },
+        {
+          "narracao": "Muitos historiadores acham que essa ênfase foi acrescentada depois, porque a cruzada deu certo. Outros acham que o papa pregou coisas diferentes para públicos diferentes. Há debate.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "two scholars in robes arguing politely at a table with open books, one pointing up and the other shrugging, warm library light",
+            "busca_reserva": "medieval scholars debate manuscripts",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Mas se o grito não está em Clermont, onde é que ele está?",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a lone dirt road winding over hills toward the horizon at dusk, a giant question mark shape formed by clouds above it",
+            "busca_reserva": "medieval road hills dusk",
+            "movimento": "zoom_in",
+            "neblina": true
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O grito da estrada",
+      "cenas": [
+        {
+          "narracao": "Está na estrada. A Gesta, aquele relato curtinho, usa o Deus o quer duas vezes, longe de Clermont.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "europa",
+            "cidades": [
+              { "nome": "Clermont", "lon": 3.08, "lat": 45.78, "em": 0.1 }
+            ],
+            "rotas": [
+              { "pontos": [[3.08, 45.78], [9, 43.5], [14.6, 40.63], [28.98, 41.01], [36.16, 36.2]], "carga": "caravana", "em": 0.2, "duracao": 0.6 }
+            ]
+          }
+        },
+        {
+          "narracao": "A primeira em mil e noventa e seis, em Amalfi, na Itália, quando Boemundo recruta homens para a cruzada. A segunda na tomada de Antioquia, em mil e noventa e oito.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "mediterraneo",
+            "camera_para": "italia",
+            "camera_em": 0.05,
+            "cidades": [
+              { "nome": "Amalfi", "lon": 14.6, "lat": 40.63, "destaque": true, "em": 0.2 },
+              { "nome": "Antioquia", "lon": 36.16, "lat": 36.2, "destaque": true, "lado": "esquerda", "em": 0.75 }
+            ],
+            "rotulos": [
+              { "texto": "1096", "lon": 14.6, "lat": 43, "tipo": "destaque", "em": 0.2 },
+              { "texto": "1098", "lon": 34, "lat": 38.5, "tipo": "destaque", "em": 0.75 }
+            ]
+          }
+        },
+        {
+          "narracao": "Ou seja, o brado já circulava entre os cruzados. Pelo menos é o que conta o cronista ligado a Boemundo, e Guiberto também conhece a expressão.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a crusader camp with tents in a dry valley at sunset, campfire smoke, no people",
+            "busca_reserva": "crusader camp medieval miniature",
+            "movimento": "zoom_in",
+            "particulas": "poeira",
+            "luzes": [ { "x": 0.5, "y": 0.7, "raio": 0.12 } ],
+            "personagens": [
+              { "figurino": "cavaleiro", "pele": "clara", "x": 0.3, "olha": "direita", "fala": true,
+                "acoes": [ { "acao": "comemora", "em": 0.3, "ate": 0.7 } ] },
+              { "figurino": "campones", "pele": "media", "x": 0.55, "olha": "esquerda",
+                "acoes": [ { "acao": "comemora", "em": 0.4, "ate": 0.8 } ] },
+              { "figurino": "monge", "pele": "clara", "x": 0.8, "olha": "esquerda",
+                "acoes": [ { "acao": "concorda", "em": 0.5 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "O que só um relato faz é colocar o grito no dia do discurso, na boca da multidão, com o papa aprovando. E esse relato é justamente o do Roberto, que reescreveu a Gesta.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a monk placing a glowing golden speech bubble onto a large scene of a crowd and a pope, like pasting a sticker onto a painting",
+            "busca_reserva": "Robert the Monk Historia Hierosolymitana manuscript",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "Se ele trouxe o grito da estrada para Clermont, ninguém consegue provar. Nem o contrário.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a balance scale with a road sign on one plate and a pope's miter on the other, perfectly level, soft golden light",
+            "busca_reserva": "medieval balance scales illustration",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E tem mais uma possibilidade. Em dois mil e seis, o historiador Christopher Tyerman sugeriu que a aclamação, se houve, foi provavelmente puxada por uma claque do papa. Hipótese, não fato. Tipo aquela torcida organizada que alguém combinou antes no grupo.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "an open field in medieval France with a wooden platform and cloudy sky, no people",
+            "busca_reserva": "medieval crowd cheering field",
+            "movimento": "pan_direita",
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.25, "olha": "direita", "fala": true,
+                "acoes": [ { "acao": "aponta", "em": 0.2, "ate": 0.5 } ] },
+              { "figurino": "campones", "pele": "clara", "x": 0.55, "olha": "esquerda",
+                "acoes": [ { "acao": "comemora", "em": 0.5, "ate": 0.9 } ] },
+              { "figurino": "campones", "pele": "media", "x": 0.8, "olha": "esquerda",
+                "acoes": [ { "acao": "comemora", "em": 0.55, "ate": 0.9 } ] }
+            ],
+            "titulo_inferior": { "titulo": "Christopher Tyerman", "subtitulo": "Historiador · 2006", "pequeno": true }
+          }
+        },
+        {
+          "narracao": "Então ficam três caminhos. A multidão gritou sozinha. Alguém puxou o coro. Ou o grito da estrada foi parar no discurso quando alguém escreveu a história.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "Três caminhos",
+            "itens": ["A multidão gritou sozinha", "Alguém puxou o coro", "O grito da estrada foi parar no discurso"]
+          }
+        },
+        {
+          "narracao": "Me conta nos comentários: em qual dos três você aposta, e por quê? E se essa caçada a uma frase de novecentos anos está valendo o seu tempo, deixa o like.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a friendly medieval herald with a trumpet and a scroll pointing at the viewer with a big grin and a thumbs up, on a hill at golden hour",
+            "busca_reserva": "medieval herald trumpet illustration",
+            "movimento": "zoom_in"
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O que sobra de pé",
+      "cenas": [
+        {
+          "narracao": "Tirando o grito, o que sobra de pé? Quando os cinco relatos se cruzam, aparece um núcleo.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "five overlapping circles made of parchment scrolls with a glowing golden shape in the middle where they all meet, on a dark wooden table",
+            "busca_reserva": "medieval manuscripts chronicles table",
+            "movimento": "zoom_in",
+            "luzes": [ { "x": 0.5, "y": 0.5, "raio": 0.15 } ]
+          }
+        },
+        {
+          "narracao": "Os cristãos do Oriente estão sob ameaça. Os cavaleiros devem parar de brigar entre si e levar essa energia para lá. Quem for ganha perdão ou salvação. E quem aceita leva uma cruz na roupa.",
+          "visual": {
+            "tipo": "lista",
+            "titulo": "O núcleo que sobra",
+            "itens": ["Cristãos do Oriente sob ameaça", "Cavaleiros param de brigar entre si", "Quem for ganha perdão ou salvação", "Quem aceita leva uma cruz na roupa"]
+          }
+        },
+        {
+          "narracao": "Isso aparece, de um jeito ou de outro, em várias das versões. Jerusalém como alvo principal, as palavras exatas e o grito ficam no terreno do talvez.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "oriente_medio",
+            "cidades": [
+              { "nome": "Jerusalém", "lon": 35.22, "lat": 31.77, "destaque": true, "lado": "esquerda", "em": 0.3 }
+            ],
+            "rotulos": [ { "texto": "talvez", "lon": 38, "lat": 33.5, "tipo": "destaque", "em": 0.7 } ]
+          }
+        },
+        {
+          "narracao": "E é aqui que cada um pesa as provas. A favor do grito, há um relato e um brado que, segundo as crônicas, os cruzados usaram de verdade. Contra, há quatro relatos em silêncio e a data em que o único relato foi escrito.",
+          "visual": {
+            "tipo": "comparacao",
+            "esquerda": { "titulo": "A favor do grito", "itens": ["Um relato o registra", "Brado usado de verdade, segundo as crônicas"] },
+            "direita": { "titulo": "Contra", "itens": ["Quatro relatos em silêncio", "Escrito anos depois da vitória"] }
+          }
+        },
+        {
+          "narracao": "Só que um discurso não precisa ter sido anotado para funcionar. Ele precisa ser repetido. E nos meses seguintes muita gente saiu repetindo.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a market square in a medieval French town with stone houses and a fountain, no people",
+            "busca_reserva": "medieval preacher market square",
+            "movimento": "pan_esquerda",
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.25, "olha": "direita", "fala": true,
+                "acoes": [ { "acao": "aponta", "em": 0.2, "ate": 0.5 } ] },
+              { "figurino": "campones", "pele": "clara", "x": 0.55, "olha": "esquerda",
+                "acoes": [ { "acao": "concorda", "em": 0.4 } ] },
+              { "figurino": "dama_1900", "pele": "media", "x": 0.8, "olha": "esquerda",
+                "acoes": [ { "acao": "surpreso", "em": 0.5 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Um desses pregadores ficou quase mais famoso que o papa. Pedro, o Eremita, de Amiens. Durante séculos, uma tradição contou que a cruzada foi ideia dele. Os historiadores modernos rejeitam essa versão.",
+          "visual": {
+            "tipo": "imagem",
+            "busca": "Peter the Hermit preaching engraving",
+            "movimento": "zoom_in",
+            "titulo_inferior": { "titulo": "Pedro, o Eremita", "subtitulo": "Pregador de Amiens" }
+          }
+        },
+        {
+          "narracao": "Se ele estava em Clermont, as fontes divergem. Mas pregar ele pregou, no norte da França e em Flandres.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "europa",
+            "camera_para": "gra_bretanha",
+            "camera_em": 0.1,
+            "cidades": [
+              { "nome": "Amiens", "lon": 2.3, "lat": 49.89, "destaque": true, "em": 0.3 },
+              { "nome": "Clermont", "lon": 3.08, "lat": 45.78, "em": 0.2 }
+            ],
+            "areas": [
+              { "pontos": [[2.5, 51], [4, 51.5], [5.5, 50.7], [4, 49.5], [2, 49.5]], "cor": "ouro", "rotulo": "Flandres", "em": 0.6 }
+            ]
+          }
+        },
+        {
+          "narracao": "Em abril de mil e noventa e seis, Pedro reúne seu povo em Colônia e parte. Uns quarenta mil, segundo as estimativas, e número de cronista medieval é sempre estimativa.",
+          "visual": {
+            "tipo": "contador",
+            "de": 0,
+            "ate": 40000,
+            "sufixo": " pessoas",
+            "rotulo": "O povo de Pedro, o Eremita, parte de Colônia",
+            "comparacao": "estimativa de cronista medieval"
+          }
+        },
+        {
+          "narracao": "Gente pobre na maioria, sem treino, sem armas nem comida garantidas, com alguns nobres e soldados no meio. Meses antes dos exércitos dos príncipes.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a muddy dirt road along the Rhine river valley with pale spring light, no people",
+            "busca_reserva": "People's Crusade peasants medieval miniature",
+            "movimento": "pan_direita",
+            "personagens": [
+              { "figurino": "campones", "pele": "clara", "x": 0.25, "olha": "direita",
+                "acoes": [ { "acao": "entra", "de": "esquerda", "em": 0, "ate": 0.4 }, { "acao": "triste", "em": 0.6 } ] },
+              { "figurino": "campones", "pele": "media", "x": 0.5, "olha": "direita",
+                "acoes": [ { "acao": "entra", "de": "esquerda", "em": 0.1, "ate": 0.5 } ] },
+              { "figurino": "dama_1900", "pele": "clara", "x": 0.75, "olha": "direita",
+                "acoes": [ { "acao": "entra", "de": "esquerda", "em": 0.2, "ate": 0.6 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "E antes de qualquer grupo chegar ao Oriente, bandos que ninguém controlava fizeram as primeiras vítimas dentro da própria Europa.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "europa",
+            "camera_para": "gra_bretanha",
+            "camera_em": 0.1,
+            "cidades": [
+              { "nome": "Colônia", "lon": 6.96, "lat": 50.94, "em": 0.2 },
+              { "nome": "Mainz", "lon": 8.27, "lat": 50.0, "em": 0.4 },
+              { "nome": "Worms", "lon": 8.36, "lat": 49.63, "em": 0.55 },
+              { "nome": "Speyer", "lon": 8.44, "lat": 49.32, "em": 0.7 }
+            ],
+            "rotulos": [ { "texto": "Rio Reno", "lon": 7.4, "lat": 52, "tipo": "mar", "em": 0.2 } ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "O Reno e Civetot",
+      "cenas": [
+        {
+          "narracao": "Aqui o tom muda. Entre maio e junho de mil e noventa e seis, bandos de cruzados, o principal deles comandado pelo conde Emicho de Flonheim, atacaram as comunidades judaicas das cidades do rio Reno, na atual Alemanha.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "europa",
+            "camera_para": "gra_bretanha",
+            "camera_em": 0.05,
+            "paises": [ { "nomes": ["Germany"], "cor": "cinza", "rotulo": "Alemanha de hoje", "em": 0.1 } ],
+            "cidades": [
+              { "nome": "Speyer", "lon": 8.44, "lat": 49.32, "em": 0.4 },
+              { "nome": "Worms", "lon": 8.36, "lat": 49.63, "em": 0.5 },
+              { "nome": "Mainz", "lon": 8.27, "lat": 50.0, "em": 0.6 },
+              { "nome": "Colônia", "lon": 6.96, "lat": 50.94, "lado": "esquerda", "em": 0.7 }
+            ],
+            "rotulos": [ { "texto": "Rio Reno", "lon": 7.4, "lat": 52, "tipo": "mar", "em": 0.3 } ],
+            "titulo_inferior": { "titulo": "Vale do Reno, maio e junho de 1096", "subtitulo": "Ataques às comunidades judaicas" }
+          }
+        },
+        {
+          "narracao": "O bando de Emicho não era o grupo de Pedro, embora homens que se diziam seguidores de Pedro também tenham atacado judeus.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Emicho de Flonheim",
+            "subtitulo": "Não era o grupo de Pedro, o Eremita"
+          }
+        },
+        {
+          "narracao": "Em Speyer, no dia três de maio, doze judeus foram mortos, e o bispo João protegeu o restante da comunidade. Em Worms, no dia dezoito, foram ao menos oitocentos.",
+          "visual": {
+            "tipo": "linha_tempo",
+            "foco": 1,
+            "eventos": [
+              { "ano": "3 de maio", "texto": "Speyer: 12 mortos; o bispo João protegeu o restante" },
+              { "ano": "18 de maio", "texto": "Worms: ao menos 800 mortos" },
+              { "ano": "27 de maio", "texto": "Mainz: ao menos 1.100 mortos" }
+            ]
+          }
+        },
+        {
+          "narracao": "Em Mainz, o arcebispo Ruthard tentou proteger os judeus e o bando foi barrado. Dois dias depois, no dia vinte e sete, eles entraram, e ao menos mil e cem pessoas foram mortas.",
+          "visual": {
+            "tipo": "linha_tempo",
+            "foco": 2,
+            "eventos": [
+              { "ano": "3 de maio", "texto": "Speyer: 12 mortos; o bispo João protegeu o restante" },
+              { "ano": "18 de maio", "texto": "Worms: ao menos 800 mortos" },
+              { "ano": "27 de maio", "texto": "Mainz: ao menos 1.100 mortos" }
+            ]
+          }
+        },
+        {
+          "narracao": "Em Colônia, a maior parte da comunidade já tinha fugido ou estava escondida em casas de cristãos. Muitos receberam a escolha entre o batismo e a morte. Alguns preferiram tirar a própria vida e a das famílias, e as crônicas hebraicas descrevem esses atos como santificação do Nome.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a quiet medieval Rhine town street at dusk, shuttered windows and a single candle glowing behind one of them, empty street, somber and still, no people",
+            "busca_reserva": "medieval Rhine town street dusk",
+            "movimento": "zoom_in",
+            "neblina": true,
+            "luzes": [ { "x": 0.55, "y": 0.45, "raio": 0.08 } ]
+          }
+        },
+        {
+          "narracao": "As estimativas mais citadas ficam em torno de dois mil mortos, e algumas contagens são bem maiores. Não há consenso. O que sabemos vem de cronistas cristãos e de três crônicas hebraicas, escritas nas décadas seguintes. Lideranças da Igreja condenaram os ataques, com pouco efeito.",
+          "visual": {
+            "tipo": "cartao",
+            "titulo": "Cerca de dois mil mortos",
+            "subtitulo": "Estimativa mais citada. Não há consenso; algumas contagens são maiores"
+          }
+        },
+        {
+          "narracao": "Enquanto isso, a multidão de Pedro chegava a Constantinopla, em agosto, depois de saques e confrontos pelo caminho. Aleixo, que pelo que se acredita queria profissionais, mandou todos para o outro lado do Bósforo, com um aviso: não enfrentem os turcos.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "mediterraneo",
+            "camera_para": "grecia",
+            "camera_em": 0.1,
+            "cidades": [
+              { "nome": "Constantinopla", "lon": 28.98, "lat": 41.01, "destaque": true, "lado": "esquerda", "em": 0.3 }
+            ],
+            "rotas": [
+              { "pontos": [[7, 50.9], [16, 48], [22, 44.5], [28.98, 41.01], [29.5, 40.7]], "carga": "caravana", "em": 0.1, "duracao": 0.6 }
+            ],
+            "rotulos": [ { "texto": "Bósforo", "lon": 29.4, "lat": 41.6, "tipo": "mar", "em": 0.7 } ]
+          }
+        },
+        {
+          "narracao": "Em outubro, perto de Civetot, o grosso da Cruzada Popular, uns vinte mil segundo as estimativas, caiu numa emboscada turca. Uns três mil sobreviventes foram resgatados pelos bizantinos. E os exércitos dos príncipes ainda estavam a caminho.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "oriente_medio",
+            "camera_para": "grecia",
+            "camera_em": 0.05,
+            "cidades": [
+              { "nome": "Civetot", "lon": 29.5, "lat": 40.75, "destaque": true, "lado": "esquerda", "em": 0.2 },
+              { "nome": "Constantinopla", "lon": 28.98, "lat": 41.01, "em": 0.1 }
+            ],
+            "rotas": [
+              { "pontos": [[29.5, 40.75], [30.5, 40], [32, 39.5]], "em": 0.4, "duracao": 0.4 }
+            ],
+            "rotulos": [ { "texto": "emboscada turca", "lon": 32.5, "lat": 39, "tipo": "destaque", "em": 0.6 } ]
+          }
+        }
+      ]
+    },
+    {
+      "capitulo": "Quem sabia o final",
+      "cenas": [
+        {
+          "narracao": "Quando eles chegam, Aleixo exige de cada chefe um juramento: as terras que eram do império voltam para o império.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a Byzantine throne room with golden mosaics and red carpet, no people",
+            "busca_reserva": "Alexios I Komnenos crusaders oath Constantinople",
+            "movimento": "zoom_in",
+            "personagens": [
+              { "figurino": "rei", "pele": "media", "x": 0.7, "olha": "esquerda", "barba": true, "fala": true,
+                "acoes": [ { "acao": "aponta", "em": 0.3, "ate": 0.7 } ] },
+              { "figurino": "cavaleiro", "pele": "clara", "x": 0.3, "olha": "direita", "prop": "pergaminho",
+                "acoes": [ { "acao": "entra", "de": "esquerda", "em": 0, "ate": 0.3 }, { "acao": "concorda", "em": 0.6 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Com a ajuda deles, Niceia volta para os bizantinos, e os cruzados vencem os turcos em Dorileia, em mil e noventa e sete. Em junho de mil e noventa e oito cai Antioquia, e é ali que a Gesta põe o brado.",
+          "visual": {
+            "tipo": "mapa_animado",
+            "regiao": "oriente_medio",
+            "camera_para": "grecia",
+            "camera_em": 0.05,
+            "cidades": [
+              { "nome": "Niceia", "lon": 29.72, "lat": 40.43, "destaque": true, "em": 0.15 },
+              { "nome": "Dorileia", "lon": 30.5, "lat": 39.78, "em": 0.35 },
+              { "nome": "Antioquia", "lon": 36.16, "lat": 36.2, "destaque": true, "lado": "esquerda", "em": 0.7 }
+            ],
+            "rotas": [
+              { "pontos": [[29.72, 40.43], [30.5, 39.78], [33, 38], [36.16, 36.2]], "carga": "caravana", "em": 0.3, "duracao": 0.5 }
+            ],
+            "rotulos": [ { "texto": "Deus o quer", "lon": 38.5, "lat": 37.3, "tipo": "destaque", "em": 0.8 } ]
+          }
+        },
+        {
+          "narracao": "Em quinze de julho de mil e noventa e nove, os cruzados tomam Jerusalém, numa conquista que termina em massacre. Os números são muito disputados. Um autor muçulmano posterior fala em setenta mil mortos. Estimativas modernas ficam bem abaixo, na casa dos milhares.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "the walled city of Jerusalem seen from a hill at dusk under a dark red sky, still and silent, smoke rising far away, no people and no violence",
+            "busca_reserva": "Jerusalem 1099 medieval miniature",
+            "movimento": "zoom_out",
+            "neblina": true,
+            "titulo_inferior": { "titulo": "Jerusalém, 15 de julho de 1099", "subtitulo": "Os números dos mortos são muito disputados" }
+          }
+        },
+        {
+          "narracao": "Catorze dias depois, em vinte e nove de julho, Urbano Segundo morre. Segundo as biografias, a notícia ainda não tinha chegado à Itália. O homem do discurso nunca soube como a história terminou.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "an elderly pope in white robes sitting alone in a dim chamber in Rome, looking at an unfinished scroll by a single candle, calm and quiet",
+            "busca_reserva": "Pope Urban II death 1099 Rome",
+            "movimento": "zoom_in",
+            "luzes": [ { "x": 0.45, "y": 0.55, "raio": 0.12 } ],
+            "titulo_inferior": { "titulo": "Urbano II", "subtitulo": "Morre em 29 de julho de 1099" }
+          }
+        },
+        {
+          "narracao": "Mas quem escreveu o discurso sabia. O capelão lembrou da paz entre cristãos. O arcebispo lembrou da cavalaria. O abade lembrou das profecias. O anônimo lembrou de quase nada. E só o monge lembrou do grito.",
+          "visual": {
+            "tipo": "cena_animada",
+            "cenario": "a long wooden table in a candlelit medieval hall, five empty chairs, no people",
+            "busca_reserva": "medieval chroniclers monks writing",
+            "movimento": "pan_direita",
+            "luzes": [ { "x": 0.5, "y": 0.4, "raio": 0.12 } ],
+            "personagens": [
+              { "figurino": "monge", "pele": "clara", "x": 0.15, "olha": "direita", "acoes": [ { "acao": "pensa", "em": 0.1, "ate": 0.3 } ] },
+              { "figurino": "monge", "pele": "media", "x": 0.38, "olha": "direita", "acoes": [ { "acao": "pensa", "em": 0.3, "ate": 0.5 } ] },
+              { "figurino": "monge", "pele": "clara", "x": 0.62, "olha": "esquerda", "acoes": [ { "acao": "cala", "em": 0.5, "ate": 0.7 } ] },
+              { "figurino": "monge", "pele": "morena", "x": 0.85, "olha": "esquerda", "fala": true, "acoes": [ { "acao": "comemora", "em": 0.8 } ] }
+            ]
+          }
+        },
+        {
+          "narracao": "Muitos historiadores acham que cada um pôs na boca do papa o que queria ou precisava lembrar. Por isso o discurso mais famoso da Idade Média é, em boa parte, segundo esses historiadores, um discurso moldado depois da vitória. O papa falou, sim. Já o Deus o quer de Clermont fica onde as provas deixam: possível, nunca confirmado.",
+          "visual": {
+            "tipo": "citacao",
+            "texto": "Deus o quer de Clermont: possível, nunca confirmado.",
+            "autor": "O veredito das provas"
+          }
+        },
+        {
+          "narracao": "Agora é o seu voto: a multidão gritou, alguém puxou o coro ou o grito chegou depois? Escreve aí embaixo, deixa o like e se inscreve para a próxima.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a cheerful medieval townsperson holding a wooden voting stone in each hand, pointing at the viewer with a big friendly grin, a hill and crowd behind",
+            "busca_reserva": "medieval crowd voting illustration",
+            "movimento": "zoom_in"
+          }
+        },
+        {
+          "narracao": "E se você quer ver outro exército enorme marchando para o leste sem saber o que o esperava, o vídeo de Napoleão na Rússia está aqui no canal. Te vejo lá.",
+          "visual": {
+            "tipo": "ilustracao",
+            "cena": "a huge army of soldiers in blue coats marching east across a snowy plain toward the horizon, a small friendly wave from a drummer at the back",
+            "busca_reserva": "Napoleon Russia 1812 army march painting",
+            "movimento": "pan_direita",
+            "particulas": "neve"
+          }
+        }
+      ]
+    }
+  ]
+}

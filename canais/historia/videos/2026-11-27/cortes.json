@@ -1,0 +1,28 @@
+{
+  "cortes": [
+    {
+      "de": [1, 1], "ate": [1, 11],
+      "gancho": "A frase da Cruzada tem um problema",
+      "titulo": "Deus o quer: a frase da Primeira Cruzada que ninguém confirma",
+      "descricao": "A frase mais famosa da Primeira Cruzada aparece em só um dos cinco relatos clássicos. Será que a multidão gritou mesmo? A caçada completa está no canal.",
+      "hashtags": ["#historia", "#cruzadas", "#idademedia"],
+      "legenda_reels": "O famoso Deus o quer aparece em só um dos cinco relatos clássicos da Primeira Cruzada. A multidão gritou mesmo? Segue o perfil para mais história. #historia #cruzadas #idademedia #curiosidades"
+    },
+    {
+      "de": [7, 4], "ate": [7, 7],
+      "gancho": "Quem puxou o coro em Clermont?",
+      "titulo": "Quem gritou Deus o quer? Três hipóteses para o mistério",
+      "descricao": "Só um cronista põe o grito no discurso do papa. Um historiador sugere uma claque combinada. Hipótese, não fato. O vídeo completo está no canal.",
+      "hashtags": ["#historia", "#cruzadas", "#curiosidades"],
+      "legenda_reels": "O grito Deus o quer saiu da multidão, de uma claque ou da estrada? Ninguém consegue provar. Segue o perfil para mais história. #historia #cruzadas #idademedia #curiosidades"
+    },
+    {
+      "de": [10, 4], "ate": [10, 6],
+      "gancho": "O papa morreu sem saber o final",
+      "titulo": "O papa da Primeira Cruzada nunca soube como ela terminou",
+      "descricao": "Urbano II morreu duas semanas depois da tomada de Jerusalém, e cada cronista lembrou um discurso diferente. A história completa está no canal.",
+      "hashtags": ["#historia", "#idademedia", "#cruzadas"],
+      "legenda_reels": "Cinco cronistas, cinco discursos diferentes, e um papa que nunca soube o final. O Deus o quer de Clermont: possível, nunca confirmado. Segue o perfil. #historia #idademedia #cruzadas #curiosidades"
+    }
+  ]
+}

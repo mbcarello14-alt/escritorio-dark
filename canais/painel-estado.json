@@ -1,8 +1,19 @@
 {
-  "atualizado_em": "2026-11-26T11:21:23Z",
+  "atualizado_em": "2026-11-26T11:26:31Z",
   "ativos": {
+    "narrador": [
+      "Ouro & Império: Primeira Cruzada: o 'Deus o quer' nunca foi confirmado"
+    ],
+    "ilustrador": [
+      "Ouro & Império: Primeira Cruzada: o 'Deus o quer' nunca foi confirmado"
+    ],
+    "editor": [
+      "Ouro & Império: Primeira Cruzada: o 'Deus o quer' nunca foi confirmado"
+    ],
+    "clipador": [
+      "Ouro & Império: Primeira Cruzada: o 'Deus o quer' nunca foi confirmado"
+    ],
     "miguel": [
-      "Ouro & Império: Deus o quer: o grito da Primeira Cruzada está em só 1 dos 5 relatos do discurso do papa",
       "Marca-Página: sábado 28/11 11h00",
       "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
@@ -27,9 +38,9 @@
       "dia": "2026-11-27",
       "rotulo": "sexta 27/11 18h00",
       "publicar_em_utc": "2026-11-27T21:00:00Z",
-      "etapa": "aguardando_aprovacao",
-      "etapa_txt": "👉 esperando você aprovar o roteiro",
-      "titulo": "Deus o quer: o grito da Primeira Cruzada está em só 1 dos 5 relatos do discurso do papa",
+      "etapa": "renderizando",
+      "etapa_txt": "🎬 montando o vídeo",
+      "titulo": "Primeira Cruzada: o 'Deus o quer' nunca foi confirmado",
       "url": ""
     },
     {
