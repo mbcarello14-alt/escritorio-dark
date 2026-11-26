@@ -1,19 +1,18 @@
 {
-  "semana": "2026-W47",
+  "semana": "2026-W48-2",
   "opcoes": [
     {
-      "tema": "Egito dos faraós",
-      "por_que": "Um dos temas mais buscados da história, com 3 mil anos de dinastias, pirâmides, deuses e vida cotidiana que rendem horas de narração calma, ótima para dormir."
+      "tema": "Egito Antigo",
+      "por_que": "Tema muito buscado, com cotidiano rico (rio Nilo, templos, artesãos, faraós) e ritmo lento do rio que combina com histórias para dormir."
     },
     {
-      "tema": "Os vikings",
-      "por_que": "Muita gente procura o assunto e ele tem sagas, viagens até a América, mercados e rotina em aldeias; o clima nórdico de lareira e mar funciona bem para ouvir à noite."
+      "tema": "Japão Samurai",
+      "por_que": "Grande apelo de curiosidade, com séculos de castelos, chás, jardins e clãs que rendem 2h30 de narração calma e visual."
     },
     {
-      "tema": "Japão dos samurais",
-      "por_que": "Mistura curiosidade e fama (xogunato, castelos, Era Sengoku, vida na corte), com um monte de histórias e personagens e um tom contemplativo que combina com o sono."
+      "tema": "Grécia Antiga",
+      "por_que": "Muitas histórias boas, de Atenas e Esparta a Alexandre, o Grande, com filósofos, mitos e vida cotidiana nas cidades à beira do mar Egeu."
     }
   ],
-  "enviado_em": "2026-11-16T10:30:53.978303+00:00",
-  "escolhido": "Os vikings"
+  "enviado_em": "2026-11-26T18:44:10.492662+00:00"
 }
