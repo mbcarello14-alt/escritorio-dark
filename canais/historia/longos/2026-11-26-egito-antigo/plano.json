@@ -1,0 +1,211 @@
+{
+  "titulo": "Egito Antigo para dormir: do Nilo a Cleópatra",
+  "titulo_youtube": "Egito Antigo: 2h30 de História para Dormir, do Nilo a Cleópatra",
+  "descricao": "Duas horas e meia de Egito Antigo, contadas com calma, do jeito de uma história de fim de noite. Começamos às margens do Nilo, passamos pelas aldeias, pelos escribas, pelas pirâmides e pelos templos, e seguimos até Cleópatra e o fim do Egito dos faraós.\n\nNo caminho, você conhece o cotidiano de quem plantava, construía e escrevia, os deuses que davam sentido ao mundo, e faraós como Djoser, Quéops, Hatshepsut, Akhenaton, Tutancâmon e Ramsés segundo.\n\nPode deixar o vídeo tocando, baixar a luz e ouvir sem pressa. Se gostar, se inscreve no canal para receber mais histórias para dormir.",
+  "capitulos": [
+    {
+      "n": 1,
+      "titulo": "O rio que fez um país",
+      "resumo": "O Nilo, a cheia anual, o limo fértil e a faixa verde cercada de deserto. Como os egípcios chamavam a própria terra e como o rio ditava o calendário.",
+      "pontos": [
+        "O Egito chamava a terra fértil de Kemet, a terra negra, em contraste com o deserto, a terra vermelha",
+        "A cheia anual do Nilo depositava limo fértil nas margens",
+        "O calendário egípcio tinha três estações: Akhet (cheia), Peret (crescimento) e Shemu (colheita)",
+        "O Nilo corre do sul para o norte, e o vento sopra do norte, o que facilitava navegar nos dois sentidos"
+      ]
+    },
+    {
+      "n": 2,
+      "titulo": "As primeiras aldeias e a união das Duas Terras",
+      "resumo": "Das comunidades do vale do Nilo ao reino unificado do Alto e do Baixo Egito por volta de três mil e cem antes de Cristo, com Narmer, e o debate dos historiadores sobre esse processo.",
+      "pontos": [
+        "Comunidades agrícolas ao longo do Nilo antes dos faraós",
+        "A Paleta de Narmer como documento da unificação",
+        "Alto Egito e Baixo Egito, as Duas Terras, e as duas coroas",
+        "Debate: a unificação foi gradual, não um único evento"
+      ]
+    },
+    {
+      "n": 3,
+      "titulo": "Um dia numa aldeia egípcia",
+      "resumo": "O cotidiano comum: casas de tijolo de barro, pão e cerveja, roupas de linho, brincadeiras de crianças e o ritmo do trabalho no campo.",
+      "pontos": [
+        "Casas de tijolo de barro cru secado ao sol",
+        "Pão e cerveja como base da alimentação",
+        "Roupas de linho adequadas ao calor",
+        "Jogos de tabuleiro como o Senet, encontrado em tumbas"
+      ]
+    },
+    {
+      "n": 4,
+      "titulo": "Escribas, papiro e hieróglifos",
+      "resumo": "Como se escrevia no Egito, quem aprendia a ler, o papiro, a tinta e a Pedra de Roseta que permitiu decifrar os hieróglifos.",
+      "pontos": [
+        "Papiro feito a partir de uma planta das margens do Nilo",
+        "Escribas formavam uma classe respeitada e treinada desde jovem",
+        "Escritas hieroglífica, hierática e demótica",
+        "Pedra de Roseta, achada em 1799, e a decifração por Champollion em 1822"
+      ]
+    },
+    {
+      "n": 5,
+      "titulo": "Djoser, Imhotep e a pirâmide de degraus",
+      "resumo": "O nascimento da arquitetura em pedra monumental em Saqqara, com a pirâmide de degraus do rei Djoser e o arquiteto Imhotep, lembrado séculos depois.",
+      "pontos": [
+        "Djoser, da Terceira Dinastia, e a pirâmide de degraus em Saqqara",
+        "Imhotep, o vizir e arquiteto associado à obra",
+        "Antes disso, os túmulos reais eram feitos de tijolo de barro (mastabas)",
+        "Imhotep foi venerado tempos depois como figura de sabedoria e cura"
+      ]
+    },
+    {
+      "n": 6,
+      "titulo": "Gizé e quem construiu as pirâmides",
+      "resumo": "A Grande Pirâmide de Quéops, o que a arqueologia mostra sobre os trabalhadores (vila, comida, equipes) e o diário do inspetor Merer.",
+      "pontos": [
+        "Grande Pirâmide construída para Quéops, na Quarta Dinastia",
+        "Trabalhadores eram egípcios remunerados em alimentos, não escravos, segundo as escavações da vila e dos cemitérios de Gizé",
+        "Papiros do Wadi al-Jarf, o diário de Merer, descrevem o transporte de calcário por barco",
+        "Esfinge e as pirâmides de Quéfren e Miquerinos"
+      ]
+    },
+    {
+      "n": 7,
+      "titulo": "Deuses, templos e o ritmo dos rituais",
+      "resumo": "Rá, Osíris, Ísis, Hórus e Hathor, o que um templo era para os egípcios e como os sacerdotes cuidavam diariamente da estátua do deus.",
+      "pontos": [
+        "O deus Sol Rá cruzando o céu de barco",
+        "O mito de Osíris, Ísis e Hórus",
+        "Rituais diários nos templos, com oferendas e cuidados à estátua divina",
+        "O faraó como intermediário entre deuses e pessoas"
+      ]
+    },
+    {
+      "n": 8,
+      "titulo": "A viagem depois da morte",
+      "resumo": "Mumificação, tumbas, o Livro dos Mortos e a pesagem do coração contra a pena de Maat, contados com serenidade.",
+      "pontos": [
+        "A mumificação durava cerca de setenta dias",
+        "Amuletos e objetos acompanhavam o falecido",
+        "O Livro dos Mortos reúne feitiços para guiar a pessoa no além",
+        "Pesagem do coração contra a pena de Maat"
+      ]
+    },
+    {
+      "n": 9,
+      "titulo": "O Reino Médio e as histórias de Sinuhe",
+      "resumo": "A reunificação sob Mentuhotep segundo, uma época de literatura e de cuidado com a administração, e o conto de Sinuhe, o homem que fugiu e voltou.",
+      "pontos": [
+        "Fim do Primeiro Período Intermediário e reunificação sob Mentuhotep segundo",
+        "Literatura clássica: A História de Sinuhe",
+        "Obras de irrigação no Faium",
+        "Contatos comerciais com a Núbia e o Levante"
+      ]
+    },
+    {
+      "n": 10,
+      "titulo": "Os hicsos e o início do Novo Reino",
+      "resumo": "Povos do Levante que governaram parte do delta, a chegada do cavalo e do carro de guerra, e Ahmés, que reunificou o país por volta de mil quinhentos e cinquenta antes de Cristo.",
+      "pontos": [
+        "Os hicsos dominaram o norte do Egito no Segundo Período Intermediário",
+        "Cavalo e carro de guerra chegam ao Egito nessa época",
+        "Ahmés primeiro expulsa os hicsos e inicia a Décima Oitava Dinastia",
+        "Tebas como capital religiosa e o crescimento do culto a Amon"
+      ]
+    },
+    {
+      "n": 11,
+      "titulo": "Hatshepsut e a viagem a Punt",
+      "resumo": "A mulher que governou como faraó, o templo de Deir el-Bahari e a expedição comercial a Punt, com incenso, ébano e árvores vivas.",
+      "pontos": [
+        "Hatshepsut assumiu o poder como regente e depois como faraó",
+        "O templo funerário em Deir el-Bahari",
+        "A expedição a Punt retratada nas paredes do templo",
+        "Incenso, mirra, ébano e ouro trazidos por barco"
+      ]
+    },
+    {
+      "n": 12,
+      "titulo": "Akhenaton, Nefertiti e a cidade do Sol",
+      "resumo": "O faraó que elevou o disco solar Aton, a nova capital em Amarna, a arte mais íntima da época e o que se sabe e não se sabe sobre Nefertiti.",
+      "pontos": [
+        "Amenhotep quarto muda o nome para Akhenaton",
+        "Fundação de Aketaton, hoje Amarna",
+        "Estilo artístico de Amarna, com cenas familiares",
+        "O busto de Nefertiti, encontrado em 1912, e as dúvidas sobre o fim da vida dela"
+      ]
+    },
+    {
+      "n": 13,
+      "titulo": "Tutancâmon e a tumba intacta",
+      "resumo": "O jovem rei que restaurou os cultos antigos e a descoberta feita por Howard Carter em mil novecentos e vinte e dois no Vale dos Reis.",
+      "pontos": [
+        "Tutancâmon assumiu criança e reinou cerca de dez anos",
+        "Retorno a Tebas e à religião tradicional",
+        "Carter encontrou a entrada da tumba em novembro de 1922",
+        "Máscara de ouro e milhares de objetos catalogados ao longo de anos"
+      ]
+    },
+    {
+      "n": 14,
+      "titulo": "Ramsés segundo, Abu Simbel e a paz com os hititas",
+      "resumo": "O reinado de mais de sessenta anos, os grandes templos, a batalha de Kadesh e o tratado de paz mais antigo de que se tem texto preservado.",
+      "pontos": [
+        "Ramsés segundo reinou por cerca de sessenta e seis anos",
+        "Templos de Abu Simbel, esculpidos na rocha",
+        "A batalha de Kadesh contra os hititas, por volta de mil duzentos e setenta e quatro antes de Cristo",
+        "Tratado de paz entre Egito e Hati, com versões em ambas as línguas"
+      ]
+    },
+    {
+      "n": 15,
+      "titulo": "Cleópatra, Alexandria e o último faraó",
+      "resumo": "Os Ptolomeus, a biblioteca e o farol de Alexandria, Cleópatra sétima e a passagem do Egito para Roma em trinta antes de Cristo; encerramento calmo com o Nilo seguindo seu curso.",
+      "pontos": [
+        "Alexandre chega ao Egito em 332 a.C. e funda Alexandria",
+        "Dinastia ptolomaica, de origem macedônia",
+        "Cleópatra sétima falava egípcio, ao contrário de seus antecessores",
+        "O Egito vira província romana em 30 a.C., e o Nilo continua"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "texto": "EGITO ANTIGO",
+    "cena": "Calm night scene on the Nile, felucca sailboat gliding under a huge starry sky, silhouettes of pyramids and palm trees in the distance, warm golden lantern glow, dark blue and gold painterly illustration, serene mood",
+    "layout": "direita"
+  },
+  "tags": [
+    "egito antigo",
+    "história do egito",
+    "história para dormir",
+    "documentário para dormir",
+    "pirâmides do egito",
+    "faraós",
+    "cleópatra",
+    "tutancâmon",
+    "ramsés ii",
+    "rio nilo",
+    "hieróglifos",
+    "múmias",
+    "história antiga",
+    "narração calma",
+    "ouro e império"
+  ],
+  "hashtags": ["#EgitoAntigo", "#HistóriaParaDormir", "#Faraós", "#Pirâmides", "#HistóriaAntiga"],
+  "fontes": [
+    "https://www.britannica.com/place/ancient-Egypt",
+    "https://www.worldhistory.org/egypt/",
+    "https://www.britishmuseum.org/collection/galleries/ancient-egypt",
+    "https://www.metmuseum.org/toah/hd/egpt/hd_egpt.htm",
+    "https://www.worldhistory.org/Egyptian_Calendar/",
+    "https://www.britannica.com/topic/Rosetta-Stone",
+    "https://www.britannica.com/topic/Narmer-Palette",
+    "https://www.britannica.com/topic/Step-Pyramid-of-Djoser",
+    "https://www.britannica.com/topic/Pyramids-of-Giza",
+    "https://www.britannica.com/biography/Hatshepsut",
+    "https://www.britannica.com/biography/Akhenaton",
+    "https://www.britannica.com/biography/Tutankhamun",
+    "https://www.britannica.com/biography/Ramses-II",
+    "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt"
+  ]
+}
