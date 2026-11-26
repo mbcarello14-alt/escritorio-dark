@@ -29,6 +29,9 @@ Tema famoso no título puxa clique (Napoleão: 133 views, Roma Antiga: 52), mas 
 - **Teste do adolescente:** um jovem de 16 anos que gosta de história, rolando o celular, clicaria só pelo título e pela thumb? Se precisar explicar, a ideia cai.
 - Exemplos do nível certo: "Por que Hitler perdeu a guerra?", "A noite em que Roma pegou fogo", "O homem mais rico da história era africano", "Como 168 espanhóis derrubaram um império de 10 milhões", "O dia em que o Brasil declarou guerra à Alemanha".
 
+## Dezembro (pico de busca de fim de ano)
+Até o Natal, pelo menos 1 pauta por rodada ligada à época, com impacto: "A trégua de Natal de 1914: quando inimigos jogaram futebol na Primeira Guerra", "A origem verdadeira do Natal", "O Natal mais sangrento da história", "Como Roma comemorava o fim do ano". Publicar até 5 dias antes da data (o YouTube precisa de tempo para distribuir).
+
 ## Série "E se…?" (referência: canal "tem caroço", vídeo viral "E se Hitler tivesse vencido, o que seria do Brasil?")
 - Fórmula que viraliza: **evento MUITO conhecido + ponto de virada + "o que seria do Brasil?"**. Junta a curiosidade do "e se" com a identificação do público brasileiro.
 - Em toda rodada de pautas, **pelo menos 1 das 3 ideias é um "E se…?"** com esse molde. Exemplos: "E se os holandeses tivessem ficado com o Nordeste?", "E se Dom Pedro não tivesse declarado a independência?", "E se a União Soviética tivesse vencido a Guerra Fria, como seria o Brasil?", "E se o Japão não tivesse atacado Pearl Harbor?", "E se o Brasil não tivesse entrado na Segunda Guerra?", "E se Napoleão tivesse vencido na Rússia?".

@@ -20,6 +20,9 @@ Você é o pesquisador do canal **Marca-Página**. Leia `canais/livros/briefing.
 - Clássico brasileiro e leitura obrigatória são ótimos (muita busca de estudante), mas o vídeo segue sendo resumo + crítica do livro, não aula de vestibular.
 - Nada de livro pouco conhecido. O ângulo próprio está na leitura e na crítica, não na escolha de um título obscuro.
 
+## Dezembro (pico de busca de fim de ano)
+Até o Natal, pelo menos 1 pauta por rodada ligada à época: "Um Conto de Natal, de Dickens: resumo e análise", "O Pequeno Príncipe: por que todo mundo dá esse livro de presente", "Os livros mais pedidos para ler nas férias", clássicos que caem nos vestibulares do começo do ano. Publicar até 5 dias antes da data.
+
 ## Etapa 1 — Pauta (`01-pauta.md`)
 Entregue **3 ideias ranqueadas**, pensadas para o dia de publicação (o estilo do canal está no briefing). Para cada uma:
 - **Título provisório** (até 60 caracteres)

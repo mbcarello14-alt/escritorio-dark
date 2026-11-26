@@ -101,7 +101,7 @@ def enviar_roteiro(pasta: Path) -> None:
     E.salvar_estado(pasta, etapa="aguardando_aprovacao")
 
 
-def enviar_sugestoes_longo(canal: str) -> None:
+def enviar_sugestoes_longo(canal: str, rodada: str = "") -> None:
     from .comum import carregar_config
     import json as _json
     from datetime import datetime, timezone
@@ -110,6 +110,9 @@ def enviar_sugestoes_longo(canal: str) -> None:
         T.enviar("⚠️ As sugestões de tema do vídeo longo não ficaram prontas. Mande /longo ouro <tema> se quiser escolher você.")
         return
     d = _json.loads(arq.read_text(encoding="utf-8"))
+    if rodada:   # 2 longos por semana: marca a rodada (ex.: 2026-W48-2)
+        d["semana"] = rodada
+        arq.write_text(_json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
     cfg = carregar_config(canal)
     ops = "\n\n".join(f"<b>{i}. {esc(o['tema'])}</b>\n{esc(o.get('por_que', ''))}" for i, o in enumerate(d["opcoes"], 1))
     ids = T.enviar(f"🌙 <b>Vídeo longo da semana — {esc(cfg['nome'])}</b> ({esc(cfg['longos']['nome_formato'])}, ~{cfg['longos']['minutos']} min)\n\n"
@@ -508,7 +511,7 @@ def main():
             json.loads(Path(args[0]).read_text(encoding="utf-8"))
         receber(evento)
     elif cmd == "enviar-sugestoes-longo":
-        enviar_sugestoes_longo(sys.argv[2])
+        enviar_sugestoes_longo(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "")
     elif cmd == "enviar-plano-longo":
         enviar_plano_longo(_pasta(sys.argv[2]))
     elif cmd == "enviar-roteiro":

@@ -506,6 +506,9 @@ def para_escrever() -> Path | None:
     return None
 
 
+RODADA = ""
+
+
 def sugerir_quem() -> str | None:
     """Canal que deve receber 3 sugestões de tema nesta rodada (vídeo longo semanal automático)."""
     from .agenda import BRT, DIAS
@@ -519,15 +522,21 @@ def sugerir_quem() -> str | None:
         auto = (cfg.get("longos") or {}).get("automatico") or {}
         if not auto.get("ligado") or not cfg.get("ativo", True):
             continue
-        if agora.weekday() < DIAS[auto.get("dia_sugestao", "mon")[:3]]:
+        dias = [DIAS[d[:3]] for d in (auto.get("dias_sugestao") or [auto.get("dia_sugestao", "mon")])]
+        passados = [i for i, d in enumerate(sorted(dias)) if agora.weekday() >= d]
+        if not passados:
             continue   # ainda não chegou o dia desta semana
+        rodada = semana if len(dias) == 1 else f"{semana}-{passados[-1] + 1}"   # 2 por semana: W48-1, W48-2
         arq = RAIZ / "canais" / canal / "longos" / "sugestoes.json"
-        if arq.exists() and json.loads(arq.read_text(encoding="utf-8")).get("semana") == semana:
-            continue   # já sugeriu nesta semana
-        ocupado = [p for p in todas() if ler(p).get("canal") == canal
+        if arq.exists() and json.loads(arq.read_text(encoding="utf-8")).get("semana") == rodada:
+            continue   # já sugeriu nesta rodada
+        andando = [p for p in todas() if ler(p).get("canal") == canal
                    and ler(p).get("etapa") not in ("agendado", "cancelado", "publicado")]
-        if ocupado:
-            continue   # ainda tem um longo andando: não empilha
+        if len(andando) >= int(auto.get("max_andando", 1)):
+            continue   # já tem longos andando: não empilha
+        global RODADA
+        RODADA = rodada
+        return canal
         return canal
     return None
 
@@ -567,7 +576,7 @@ def main():
         return
     if acao == "sugerir-quem":
         c = sugerir_quem()
-        _saida(sugerir=c or "")
+        _saida(sugerir=c or "", rodada=RODADA if c else "")
         print(c or "nenhum")
         return
     if acao == "criar":

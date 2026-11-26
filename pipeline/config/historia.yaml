@@ -72,10 +72,11 @@ longos:                  # vídeos longos (comando /longo ouro <tema>)
   blocos: 15             # 15 blocos de ~10 min
   palavras_por_bloco: 1250
   imagens_por_bloco: 4
-  publicar: ["sun 21:00"]
-  automatico:            # toda semana o roteirista sugere 3 temas no Telegram; o Miguel escolhe um número
+  publicar: ["wed 21:00", "sun 21:00"]   # plano de monetização: 2 longos por semana (máquina de horas)
+  automatico:            # 2x por semana o roteirista sugere 3 temas no Telegram; o Miguel escolhe um número
     ligado: true
-    dia_sugestao: mon    # segunda de manhã, para ficar pronto até o domingo
+    dias_sugestao: [mon, thu]
+    max_andando: 2
   tom: >-
     Narre em português do Brasil, com sotaque brasileiro neutro, como um contador de histórias calmo à beira da cama:
     voz grave e baixa, ritmo lento e constante, pausas longas entre as frases, sem empolgação, sem ironia e sem

@@ -58,7 +58,7 @@ jobs:
 
       - name: Mandar as sugestões no Telegram
         if: steps.sug.outputs.sugerir != ''
-        run: python -m pipeline.bot enviar-sugestoes-longo ${{ steps.sug.outputs.sugerir }}
+        run: python -m pipeline.bot enviar-sugestoes-longo ${{ steps.sug.outputs.sugerir }} "${{ steps.sug.outputs.rodada }}"
 
       - name: Qual vídeo ganha blocos nesta rodada
         id: fila
