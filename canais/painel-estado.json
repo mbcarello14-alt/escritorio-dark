@@ -1,20 +1,8 @@
 {
-  "atualizado_em": "2026-11-26T11:08:02Z",
+  "atualizado_em": "2026-11-26T11:14:28Z",
   "ativos": {
-    "pesquisador_historia": [
-      "Ouro & Império: sexta 27/11 18h00"
-    ],
-    "roteirista_historia": [
-      "Ouro & Império: sexta 27/11 18h00",
-      "Longo Ouro & Império: segunda guerra"
-    ],
-    "checador": [
-      "Ouro & Império: sexta 27/11 18h00"
-    ],
-    "guardiao": [
-      "Ouro & Império: sexta 27/11 18h00"
-    ],
     "miguel": [
+      "Ouro & Império: Deus o quer: o grito da Primeira Cruzada está em só 1 dos 5 relatos do discurso do papa",
       "Marca-Página: sábado 28/11 11h00",
       "Longo Ouro & Império: Os vikings",
       "Longo Marca-Página: Machado de Assis"
@@ -36,9 +24,9 @@
       "dia": "2026-11-27",
       "rotulo": "sexta 27/11 18h00",
       "publicar_em_utc": "2026-11-27T21:00:00Z",
-      "etapa": "roteiro",
-      "etapa_txt": "✍️ escrevendo e checando o roteiro",
-      "titulo": "",
+      "etapa": "aguardando_aprovacao",
+      "etapa_txt": "👉 esperando você aprovar o roteiro",
+      "titulo": "Deus o quer: o grito da Primeira Cruzada está em só 1 dos 5 relatos do discurso do papa",
       "url": ""
     },
     {

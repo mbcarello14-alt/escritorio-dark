@@ -1,0 +1,217 @@
+comando: /roteiro canais/historia/videos/2026-11-27
+🔧 Bash {"command": "cd canais/historia/videos/2026-11-27 && ls && cat estado.json && cat 01-pauta.md | head -60 && cat pautas.json | head -60"}
+🔧 Agent {"description": "Dossiê Primeira Cruzada", "subagent_type": "pesquisador-historia", "prompt": "Etapa 2: monte o dossiê em /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-
+💬 Aguardando o pesquisador terminar o dossiê.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/01-pauta.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/pautas.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 WebFetch {"url": "https://sourcebooks.fordham.edu/source/urban2-5vers.asp", "prompt": "Liste, para cada cronista (Fulquério de Chartres, Roberto o Monge, Balderico de Dol, Guiberto de Nogent, Gesta Francorum),
+🔧 WebSearch {"query": "Urban II Clermont 1095 speech accounts Fulcher Robert the Monk Baldric Guibert Gesta Francorum dates written Deus vult", "mode": "standard"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Council_of_Clermont", "prompt": "Extract: dates of council, attendance, canons, what is known, Urban's letters, Piacenza council March 1095 and Alexios envoys, t
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/People%27s_Crusade", "prompt": "Extract: Peter the Hermit's role, departure dates, Walter Sans Avoir, Cologne, route, Hungary, Constantinople arrival, Alexios, C
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Rhineland_massacres", "prompt": "Extract: dates (Speyer 3 May, Worms, Mainz 27 May, Cologne), Emicho, bishops' protection (Johannes of Speyer, Ruthard of Mainz),
+🔧 WebFetch {"url": "https://www.fordham.edu/halsall/source/urban2-fulcher.asp", "prompt": "Does this text contain the cry \"It is the will of God\" / \"Deus vult\" from the audience? Quote (short, in English) th
+🔧 WebFetch {"url": "https://www.fordham.edu/halsall/source/urban2-fulcher.asp", "prompt": "Give the exact title, translator and any source citation line shown on this page."}
+🔧 WebFetch {"url": "https://www.fordham.edu/halsall/source/urban2-5vers.asp", "prompt": "For each of the five versions, say whether the text says \"It is the will of God\"/\"Deus vult\" or similar cry from the a
+🔧 WebFetch {"url": "https://sourcebooks.fordham.edu/source/urban2-fulcher.asp", "prompt": "Does this text contain the cry \"It is the will of God\" / \"Deus vult\" from the audience? Quote (short, in English) th
+🔧 WebFetch {"url": "https://sourcebooks.fordham.edu/source/urban2-5vers.asp", "prompt": "For each of the five versions, say whether the text includes \"It is the will of God\"/\"Deus vult\" or a similar cry from
+🔧 WebSearch {"query": "Fulcher of Chartres Urban II \"Deus vult\" \"God wills it\" Fulcher also records cry Clermont historians", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.bu.edu/mzank/Jerusalem/tx/FulcherofChartres.htm", "prompt": "Find Book I chapters 1-4 (Council of Clermont, Urban's speech). Does Fulcher record the crowd crying \"Deus vult\"/\"G
+🔧 WebFetch {"url": "https://sourcebooks.fordham.edu/source/fulcher-cde.asp", "prompt": "Find in Book I the Council of Clermont and Urban's speech. Is there a cry \"Deus vult\" / \"God wills it\" by the crowd, in
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Deus_vult", "prompt": "Which chroniclers record \"Deus vult\" at Clermont (Robert the Monk, Gesta Francorum? Baldric? Guibert? Fulcher?), what is the historical 
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Council_of_Piacenza_(1095)", "prompt": "Date of Piacenza council (March 1095), Alexios's envoys, what they asked, Urban's response, Anna Komnene or Bernold/Ekkeh
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Pope_Urban_II", "prompt": "Urban II: birth name Odo of Châtillon, Cluny, election 1088, antipope Clement III (Guibert of Ravenna), Henry IV, Rome control, Invest
+🔧 WebSearch {"query": "Council of Piacenza 1095 Alexios envoys Urban II Bernold of Constance Byzantine ambassadors historians debate request mercenaries", "mode": "standard"}
+🔧 WebSearch {"query": "Peter the Hermit historians role Albert of Aachen Gesta Francorum Anna Komnene preached 1095 1096 myth Pierre l'Ermite Britannica", "mode": "standard"}
+🔧 WebSearch {"query": "Alexios I Komnenos 1081 1095 Seljuk Turks Pechenegs Battle of Levounion 1091 Piacenza request help First Crusade Byzantine context", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.worldhistory.org/Alexios_I_Komnenos/", "prompt": "Extract: Alexios's accession 1081, Normans (Robert Guiscard, Dyrrachium 1081), Pechenegs, Seljuk loss of Anatolia after Manzikert
+🔧 WebFetch {"url": "https://sourcebooks.fordham.edu/source/urban2-2.asp", "prompt": "What is this? If it is Urban II's letter / Clermont text, summarize. Give title."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Peter_the_Hermit", "prompt": "Extract: Peter's origin (Amiens), claims of Clermont role and Hagenmeyer's refutation, preaching 1095-96, letter from Christ/Jerusa
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/First_Crusade", "prompt": "Extract: Background (Seljuks, Manzikert 1071, Alexios's appeal at Piacenza), Urban's speech and Clermont, Deus vult, reasons (penance,
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Alexios_I_Komnenos", "prompt": "Extract: accession 1081, Normans, Pechenegs, Levounion 1091, Seljuks in Anatolia, Nicaea, embassy to Piacenza 1095, what he wante
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Rhineland_massacres", "offset": 100000, "prompt": "Extract anything on: Hebrew chronicles dates and authors, Albert of Aachen on Emicho, bishops' protection, Urb
+🔧 WebSearch {"query": "Emicho of Flonheim Hungary defeat Rhineland massacres 1096 Albert of Aachen Hebrew chronicles Solomon bar Simson written date Urban II reaction Jews", "mode": "standard"}
+🔧 WebSearch {"query": "Jerusalem 1099 massacre death toll debate historians Gesta Francorum Raymond of Aguilers Ibn al-Athir 70,000 Jewish community synagogue", "mode": "standard"}
+🔧 WebSearch {"query": "Urban II letter December 1095 Flanders Fordham sourcebook \"Bishop of Le Puy\" 15 August 1096 Clermont decrees", "mode": "standard"}
+🔧 WebFetch {"url": "https://commons.wikimedia.org/wiki/Category:Council_of_Clermont", "prompt": "List notable images (file names, URLs) of Urban II at Clermont, Jean Colombe Passages d'outremer, Peter the Hermit
+🔧 WebSearch {"query": "Chazan Hebrew chronicles 1096 Solomon bar Simson Mainz Anonymous composed date twelfth century historians reliability Kiddush ha-Shem", "mode": "standard"}
+🔧 WebFetch {"url": "https://www.mag.geschichte.uni-muenchen.de/downloads/strack_letters.pdf", "prompt": "Summarize the argument: how Urban's letters (Flanders letter, others) relate to Fulcher, Robert the Monk, 
+🔧 WebFetch {"url": "https://sourcebooks.fordham.edu/source/urban2a.asp", "prompt": "Title/translator; Robert the Monk's version: does it say Jerusalem is the center/navel of the world; mention of Carolingian anc
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Gesta_Francorum", "prompt": "Author (anonymous, Bohemond's follower), date of writing, \"Deus le volt\" at Amalfi and Antioch, use by Robert the Monk, Baldric, G
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/02-dossie.md", "content": "# Dossiê — Primeira Cruzada: o discurso do papa em 27/11/1095 (Ouro & Impé
+💬 Montei o dossiê em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/02-dossie.md`. Falta o garimpo do YouTube, que a busca não permite fazer.
+
+**Achados principais**
+- **O grito "Deus o quer" só aparece em Clermont na versão de Roberto o Monge**, escrita cerca de 25 anos depois. Fulquério, a Gesta, Balderico e Guiberto não o registram.
+  - A Gesta usa o brado mais tarde, em Amalfi e Antioquia.
+  - Tyerman sugere que a aclamação foi conduzida por uma "claque papal".
+  - A pauta dizia que o grito era lembrado de forma diferente em cada cronista. O dado correto
+🔧 Agent {"description": "Roteiro Primeira Cruzada", "subagent_type": "roteirista-historia", "prompt": "Escreva o roteiro da pauta ideia 2 (Primeira Cruzada: o discurso do papa em 27/11/1095) em /home/runner/w
+💬 Aguardando o roteirista.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/pautas.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Primeira Cruzada: o discurso do papa tem 5 v
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/03-roteiro.md", "content": "# Roteiro: Primeira Cruzada, o discurso do papa em 27/11/1095 (Ouro & Imp
+💬 O roteiro está pronto nos dois arquivos. Tem 11 blocos e cerca de 2.540 palavras, o que dá uns 17 minutos, dentro da faixa de 12 a 20 do briefing. Contei as palavras de forma aproximada, sem ferramenta. Ainda não passou pelo checador nem pelo guardião, e a tese de fechamento é minha, porque a `nota_miguel` veio vazia.
+
+**Título provisório:** Primeira Cruzada: o discurso do papa tem 5 versões (e só 1 tem o "Deus o quer")
+
+**Tese:** ninguém sabe o que Urbano II disse em Clermont. Os cinco relatos foram escritos depois da tomada de Jerusalém, e cada cronista pôs na boca do papa o que queria ou pr
+🔧 Agent {"description": "Checagem do roteiro", "subagent_type": "checador", "prompt": "Cheque o roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/ (03-roteiro.md, 
+💬 Aguardando o checador.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/roteiro.json"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Deus_vult", "prompt": "What does it say about Tyerman and a papal claque at Clermont; where Gesta Francorum uses Deus vult (Amalfi, Antioch, dates); Robert the M
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Pope_Urban_II", "prompt": "Death date of Urban II, days after fall of Jerusalem, whether news had reached Italy; when did Urban regain Rome (Lateran) - 1093, 109
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Council_of_Clermont", "prompt": "Exact dates of the council (18-28 November or 17-27?), number of clergy, which day was the sermon, Guibert presence, Robert date
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Rhineland_massacres", "prompt": "Dates and death tolls: Speyer (3 May), Worms (18 and 25 May?), Mainz (25/27 May), Cologne; who attacked; total estimates; Ruthar
+🔧 WebSearch {"query": "Urban II Rome Lateran 1093 Clement III held Rome until 1097 Urban II controlled Rome", "mode": "standard"}
+🔧 WebSearch {"query": "Tyerman \"God Wills It\" Clermont \"papal claque\" Deus vult acclamation", "mode": "standard"}
+🔧 WebSearch {"query": "Alexios I Piacenza 1095 requested mercenaries not crusade army historians Harris Frankopan", "mode": "standard"}
+🔧 WebFetch {"url": "https://sourcebooks.fordham.edu/source/urban2-fulcher.asp", "prompt": "Does the text mention Jerusalem or the Holy Sepulchre? Summarize contents and the mention of departure after winter, Hel
+🔧 WebSearch {"query": "Rhineland massacres 1096 estimated Jewish deaths 2,000 to 12,000 historians estimate", "mode": "standard"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos'
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md", "content": "# Checagem: Primeira Cruzada, o discurso do papa em 27/11/1095 (Ouro & I
+💬 **Veredito: CORRIGIR.** Escrevi o relatório em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md`.
+
+Não achei citação inventada, conselho de especialista, difamação nem menção a ENEM. Mas há quatro pontos de fato a corrigir e vários ajustes de redação.
+
+**Itens que você pediu**
+- **Mercenários de Aleixo (blocos 2 e 10):** a leitura é tradicional, mas contestada por Frankopan. O bloco 10 afirma "Ele pediu profissional" sem ressalva e precisa suavizar.
+- **Tyerman (bloco 7):** só confirmei na Wikipédia, que o cita em 2006 com "probably led by a p
+🔧 Agent {"description": "Corrigir roteiro", "subagent_type": "roteirista-historia", "prompt": "Volta 1 do checador. Aplique TODAS as correções de /home/runner/work/escritorio-dark/escritorio-dark/canais/histo
+💬 Aguardando as correções do roteirista.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/estado.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/03-roteiro.md", "content": "# Roteiro: Primeira Cruzada, o discurso do papa em 27/11/1095 (Ouro & Imp
+💬 Agora o roteiro.json.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Primeira Cruzada: o discurso do papa tem 5 v
+💬 Apliquei todas as correções da volta 1 em `03-roteiro.md` e `roteiro.json`, incluindo as duas opcionais. As três chamadas de engajamento continuam nos blocos 1, 7 e 11. O JSON mantém o mesmo formato, e o `texto` de cada bloco é igual ao do `.md`. Não rodei nenhum validador.
+
+O que mudou:
+- **Bloco 2:** a queda de Niceia e de Antioquia agora vem depois de "Nos anos seguintes". A ideia de que Aleixo queria mercenários aparece como a leitura tradicional, contestada por Peter Frankopan, e a piada do eletricista só vale se essa leitura estiver certa. "Não mandava em Roma" virou "não mandava direito
+🔧 Agent {"description": "Originalidade", "subagent_type": "guardiao-originalidade", "prompt": "Avalie o roteiro em /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/ (03-rote
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md"}
+🔧 Agent {"description": "Rechecagem das correções", "subagent_type": "checador", "prompt": "Segunda checagem (volta 1 já aplicada). Reveja em /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+💬 Aguardando o guardião de originalidade e a segunda checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/02-dossie.md", "limit": 80}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-23/03-roteiro.md", "limit": 25}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/roteiro.json"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Rhineland_massacres", "prompt": "Did followers of Peter the Hermit attack Jews? What are the death toll estimates? What happened at Mainz on 25 and 27 May and wh
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Council_of_Clermont", "prompt": "Is the December 1095 letter to Flanders the only surviving text from Urban II about the crusade? What other letters of Urban II 
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Pope_Urban_II", "prompt": "When did Urban II take control of Rome / Clement III leave Rome (1088, 1093, 1097)? Any statement on letters he wrote about the crusad
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/05-originalidade.md", "content": "# Originalidade: Primeira Cruzada, o discurso do papa em 27/11/1095
+💬 Escrevi o `05-originalidade.md`. O semáforo é amarelo: o conteúdo é bom, mas a moldura do vídeo repete a do vídeo anterior e falta a opinião do Miguel.
+
+**Notas**
+- **Variação: 3/10.** O vídeo de Napoleão (23/11) usou "inquérito policial com suspeitos". O próprio roteiro dele diz para não repetir o formato nos 5 vídeos seguintes. A Cruzada usa "acareação", "testemunhas" e "interrogatório de delegado", e a chamada de engajamento é parecida. Os dois últimos longos têm assim o mesmo esqueleto. O cabeçalho do roteiro diz "diferente dos últimos 5", mas não compara com Napoleão.
+- **Valor próprio: 6
+🔧 Agent {"description": "Aplicar originalidade", "subagent_type": "roteirista-historia", "prompt": "Volta única do guardião de originalidade (🟡). Leia /home/runner/work/escritorio-dark/escritorio-dark/canais/
+💬 Aguardando o roteirista e a segunda checagem (que vou refazer sobre a versão final).
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/05-originalidade.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/roteiro.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/historico.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/estado.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md", "content": "# Checagem: Primeira Cruzada, o discurso do papa em 27/11/1095 (Ouro & I
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/02-dossie.md"}
+💬 **Veredito da segunda checagem: CORRIGIR.** É uma correção obrigatória, de uma frase. Acrescentei a seção "Segunda checagem" ao final de `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md`.
+
+**Primeira volta:** as 12 correções foram aplicadas direito, e o `roteiro.json` está idêntico ao `03-roteiro.md`.
+
+**Frases novas que você pediu para conferir:**
+- **Roma 1097:** confere. A Wikipédia (Urban II) diz que Clemente III saiu de Roma em 1097. O "de vez" cobre as entradas anteriores de Urbano.
+- **Niceia/Antioquia:** o "nos anos seguintes" está cer
+💬 Aguardando o roteirista terminar a volta de originalidade; depois aplico a correção do bloco 4 e rechecko a versão final.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/03-roteiro.md", "content": "# Roteiro: Primeira Cruzada, o discurso do papa em 27/11/1095 (Ouro & Imp
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/roteiro.json", "content": "{\n  \"titulo_provisorio\": \"Deus o quer: o grito da Primeira Cruzada est
+💬 Apliquei as três mudanças do guardião no `03-roteiro.md` e no `roteiro.json`. O texto de cada bloco é o mesmo nos dois arquivos. Não rodei nenhum validador, e a contagem de palavras é estimada: cerca de 2.450 palavras, uns 16 minutos, dentro da faixa de 12 a 20 do briefing. O semáforo ficou em 🟡 até a nova checagem.
+
+**1. Nova moldura: a frase "Deus o quer"**
+- Saíram acareação, testemunha, depoimento, delegado e interrogatório, inclusive na chamada de abertura e no título provisório.
+- O vídeo abre com o brado na tomada de Antioquia, em mil e noventa e oito. Depois vem o único relato que põe 
+🔧 Bash {"command": "grep -n -i \"único texto\\|um texto que saiu\\|próprio Urbano\\|seguidores de Pedro\" 03-roteiro.md | head; python3 -c \"import json;d=json.load(open('roteiro.json'));print(len(d['blocos'
+🔧 Bash {"command": "python3 - <<'E'\nimport json\nsubs=[(\"Do próprio Urbano, sobrou só uma carta de dezembro daquele ano, para os fiéis de Flandres.\",\"Do próprio Urbano, sobraram algumas cartas escritas l
+💬 Rechecagem final dos trechos novos.
+🔧 Agent {"description": "Checagem final", "subagent_type": "checador", "prompt": "Checagem final da versão reestruturada em /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/
+💬 Aguardando a checagem final.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/03-roteiro.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/02-dossie.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/roteiro.json"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Deus_vult", "prompt": "How many times and where does the Gesta Francorum use \"Deus vult / Deus le volt\"? Specifically Amalfi (Bohemond, 1096) and Antioch (1098
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Battle_of_Dorylaeum_(1097)", "prompt": "Who won the Battle of Dorylaeum 1097 and what was the Byzantine role (Tatikios)? Brief."}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md", "content": "# Checagem: Primeira Cruzada, o discurso do papa em 27/11/1095 (Ouro & I
+💬 **Veredito: CORRIGIR.** São 3 trocas pequenas de texto e 1 ajuste de regra do canal. Não precisa de nova volta completa. A seção "Checagem final" está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/videos/2026-11-27/04-checagem.md`. Reescrevi o arquivo inteiro e mantive as seções anteriores sem alteração.
+
+**Contagem:** conferi 86 afirmações. 77 confirmadas sem mudança, 6 confirmadas com hedge já presente e 3 a corrigir (1 errada, 2 imprecisas). Mais 1 ajuste de regra do canal.
+
+`03-roteiro.md` e `roteiro.json` estão idênticos. A frase do bloco 4 ("algumas cartas") está 
+🔧 Bash {"command": "python3 - <<'E'\nimport json\nsubs=[(\"Com a ajuda deles, os bizantinos recuperam Niceia e vencem em Dorileia, em mil e noventa e sete.\",\"Com a ajuda deles, Niceia volta para os bizanti
+💬 O roteiro está pronto: `roteiro.json` e `03-roteiro.md` têm 10 blocos, com texto idêntico nos dois, cerca de 16 minutos. O título provisório é "Deus o quer: o grito da Primeira Cruzada está em só 1 dos 5 relatos do discurso do papa", e já está em `estado.json`.
+
+**O que o roteiro conta:** o vídeo segue a frase "Deus o quer" para mostrar que só Roberto o Monge a põe no discurso de Clermont. Os outros quatro relatos não a registram, e todos foram escritos depois da tomada de Jerusalém. Ele também cobre o Reno, Civetot e a morte de Urbano II, com tom sério.
+
+**Checagem:** o checador conferiu 86 a
+
+=== resultado: success | turnos 3 | 5s | erro=False
+Aguardando o pesquisador terminar o dossiê.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+Aguardando o roteirista.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+Aguardando o checador.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+Aguardando as correções do roteirista.
+
+=== resultado: success | turnos 3 | 5s | erro=False
+Aguardando o guardião de originalidade e a segunda checagem.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+Aguardando o roteirista e a segunda checagem (que vou refazer sobre a versão final).
+
+=== resultado: success | turnos 1 | 0s | erro=False
+Aguardando o roteirista terminar a volta de originalidade; depois aplico a correção do bloco 4 e rechecko a versão final.
+
+=== resultado: success | turnos 4 | 9s | erro=False
+Aguardando a checagem final.
+
+=== resultado: success | turnos 2 | 12s | erro=False
+O roteiro está pronto: `roteiro.json` e `03-roteiro.md` têm 10 blocos, com texto idêntico nos dois, cerca de 16 minutos. O título provisório é "Deus o quer: o grito da Primeira Cruzada está em só 1 dos 5 relatos do discurso do papa", e já está em `estado.json`.
+
+**O que o roteiro conta:** o vídeo segue a frase "Deus o quer" para mostrar que só Roberto o Monge a põe no discurso de Clermont. Os outros quatro relatos não a registram, e todos foram escritos depois da tomada de Jerusalém. Ele também cobre o Reno, Civetot e a morte de Urbano II, com tom sério.
+
+**Checagem:** o checador conferiu 86 afirmações em três rodadas, com 16 correções aplicadas.
+- Na última rodada, ele achou um erro factual no bloco 10: Dorileia foi vitória dos cruzados, não dos bizantinos. Já corrigi.
+- Também suavizei o brado nos blocos 7 e 8 para "segundo as crônicas", e o bloco 1 agora pede comentário.
+- Deixei de fora um ajuste opcional do checador no bloco 7: trocar "duas vezes" por "em dois momentos". É só de redação.
+
+**Originalidade:** o guardião deu 🟡 e apliquei as mudanças. A moldura policial saiu, para não repetir o vídeo de Napoleão, e os blocos 8–10 ficaram mais enxutos. O `semaforo` continua 🟡 porque a `nota_miguel` veio vazia, então não pus nenhuma opinião no roteiro. Deixei dois pontos neutros, nos blocos 8 e 10, para a resposta dele entrar. A `pergunta_para_miguel` é "Você acredita que a multidão gritou 'Deus o quer' em Clermont?".
+
+**Engajamento e nicho:** conferi as três chamadas de engajamento: inscrição e like no bloco 1, comentário perto da metade (bloco 7) e as três no último bloco. O roteiro não sai do nicho: não fala de ENEM nem de vestibular.
+
+**Pendências antes de gravar**
+- Conferir a frase de Tyerman (*God's War*, 2006) no livro. Hoje ela só está confirmada pela Wikipédia.
+- Confirmar que o vídeo de Napoleão na Rússia, citado no gancho final, está publicado.
+- O dossiê ainda diz "único texto do próprio Urbano" (fato 13). Isso não afeta o roteiro, que já está corrigido.
+
+Não rodei nenhum validador no `roteiro.json`. A pasta tem dois logs sem rastreio de rodadas anteriores, e não mexi neles.
+codigo de saida: 0
