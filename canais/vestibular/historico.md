@@ -69,6 +69,10 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 - Short de pegadinha de juros compostos ou de aumento seguido de desconto com pergunta e número no título, no molde da regra de três (845 views) e do 10% + 10% (377), apontando para o longo da matéria.
 - Mapa mental das organelas da célula (complexo golgiense, retículo endoplasmático, mitocôndria etc.), pedido por comentário, com Short de pegadinha de Biologia sobre a função de cada organela.
 
+### 2026-11-26
+- Short de pegadinha com número no título sobre notação científica ou potências de 10, no molde da conta da Unicamp (251 views) e da regra de três (845).
+- Short que convide a mandar a resposta de uma conta nos comentários (os comentários recentes foram números soltos, como "940" e "520 só"), para puxar conversa; confirmar o gabarito antes.
+
 ## Padrões (após 5 longos com dados, 23/11)
 
 **Funcionando**

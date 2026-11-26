@@ -88,6 +88,9 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 ### 2026-11-25
 - Série sobre derrotas atribuídas ao clima ou ao azar (como o inverno de Napoleão), mostrando o que as fontes dizem sobre logística, doença e decisões; o longo de Napoleão, com título de contradição, fez 72 views em 32 h, bem acima dos outros longos recentes. Checar fontes antes.
 
+### 2026-11-26
+- Série de Shorts e longo sobre derrotas atribuídas a um fator só (clima, azar, traição), no molde do título de contradição de Napoleão na Rússia (151 views em 73 h, o melhor longo do canal em semanas); checar fontes antes.
+
 ## Padrões (após 6 longos com dados, 23/11)
 
 **Funcionando**
