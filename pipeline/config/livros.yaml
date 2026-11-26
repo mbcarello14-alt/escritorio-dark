@@ -77,7 +77,7 @@ longos:                  # vídeos longos (comando /longo livros <tema>)
   blocos: 15
   palavras_por_bloco: 1250
   imagens_por_bloco: 4
-  publicar: ["thu 21:30", "sun 21:30"]   # plano de monetização: 2 longos por semana (máquina de horas)
+  publicar: ["thu 19:30", "sun 19:30"]   # 2 longos por semana; 19h30 = já distribuído quando o público vai dormir
   automatico:            # 2x por semana o roteirista sugere 3 livros no Telegram; o Miguel escolhe um número
     ligado: true
     dias_sugestao: [tue, fri]

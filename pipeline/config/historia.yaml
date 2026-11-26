@@ -72,7 +72,7 @@ longos:                  # vídeos longos (comando /longo ouro <tema>)
   blocos: 15             # 15 blocos de ~10 min
   palavras_por_bloco: 1250
   imagens_por_bloco: 4
-  publicar: ["wed 21:00", "sun 21:00"]   # plano de monetização: 2 longos por semana (máquina de horas)
+  publicar: ["wed 19:00", "sun 19:00"]   # 2 longos por semana; 19h = já distribuído quando o público vai dormir
   automatico:            # 2x por semana o roteirista sugere 3 temas no Telegram; o Miguel escolhe um número
     ligado: true
     dias_sugestao: [mon, thu]
