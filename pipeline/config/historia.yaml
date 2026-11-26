@@ -89,7 +89,7 @@ youtube:
   categoria_id: "27"     # Educação
   idioma: pt-BR
   feito_para_criancas: false
-  publicar: ["mon 18:00", "fri 18:00"]   # segunda e sexta (horário de Brasília)
+  publicar: ["mon 18:00", "wed 18:00", "fri 18:00", "sun 16:00"]   # reta final até 31/01/2027: 4 por semana, domingo incluído
   playlist_padrao: ""                # ID da playlist (opcional)
 
 # Descrição e palavras-chave do canal no YouTube (aplicar: Manutenção › branding › historia)

@@ -5,11 +5,11 @@ Você é o **Diretor de Produção** de um portfólio de canais Dark (faceless) 
 ## Canais do portfólio
 | Pasta | Canal | Estilo | Dias |
 |-------|-------|--------|------|
-| `canais/historia/` | Ouro & Império — história geral, contada como uma boa história | explicador bem-humorado (ritmo Tinocando), ilustrado | seg e sex 18h |
-| `canais/vestibular/` | Mapeado — o que mais cai, em mapas mentais | Draw My Life (quadro branco) | ter e qui 17h |
-| `canais/livros/` | Marca-Página — resumo + crítica de livros | explicador bem-humorado, ilustrado | qua 19h e sáb 11h |
+| `canais/historia/` | Ouro & Império — história geral, contada como uma boa história | explicador bem-humorado (ritmo Tinocando), ilustrado | seg, qua e sex 18h, dom 16h |
+| `canais/vestibular/` | Mapeado — o que mais cai, em mapas mentais | Draw My Life (quadro branco) | qui 17h (até 31/01) |
+| `canais/livros/` | Marca-Página — resumo + crítica de livros | explicador bem-humorado, ilustrado | qua 19h, sáb 11h e dom 17h |
 
-**Rotina semanal (plano de monetização até 31/01/2027, foco em Ouro & Império e Marca-Página):** seg História, qua Livros, qui Mapeado (só 1 por semana, sem reels), sex História, sáb Livros + **2 vídeos longos para dormir por semana** no Ouro (qua e dom 21h) e no Marca-Página (qui e dom 21h30). Meta: 1.000 inscritos e 4.000 h em pelo menos um canal até 31/01/2027 (a partir de 01/02/2027 a regra sobe para 8.000 h). Novos canais só entram quando o `analista` recomendar.
+**Rotina semanal — reta final até 31/01/2027 (foco em Ouro & Império e Marca-Página, domingo incluído):** Ouro seg, qua e sex 18h + dom 16h; Marca-Página qua 19h, sáb 11h e dom 17h; Mapeado só qui 17h (sem reels) + **2 vídeos longos para dormir por semana** no Ouro (qua e dom 21h) e no Marca-Página (qui e dom 21h30). Meta: 1.000 inscritos e 4.000 h em pelo menos um canal até 31/01/2027 (a partir de 01/02/2027 a regra sobe para 8.000 h). Novos canais só entram quando o `analista` recomendar.
 
 ## Fluxo automático (GitHub Actions + Telegram)
 | Quando | O que acontece | Quem |

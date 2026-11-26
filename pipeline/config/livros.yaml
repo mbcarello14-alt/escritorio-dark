@@ -93,5 +93,5 @@ youtube:
   categoria_id: "27"
   idioma: pt-BR
   feito_para_criancas: false
-  publicar: ["wed 19:00", "sat 11:00"]   # quarta à noite e sábado de manhã
+  publicar: ["wed 19:00", "sat 11:00", "sun 17:00"]   # reta final até 31/01/2027: 3 por semana, domingo incluído
   playlist_padrao: ""
