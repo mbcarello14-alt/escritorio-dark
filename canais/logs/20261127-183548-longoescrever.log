@@ -1,0 +1,228 @@
+comando: /longo-escrever canais/historia/longos/2026-11-26-egito-antigo 3
+🔧 Bash {"command": "cd canais/historia/longos/2026-11-26-egito-antigo && cat estado.json && cat plano.json | head -c 3500 && ls blocos 2>/dev/null; grep -l '\"checado\": *true' blocos/*.json 2>/dev/null"}
+🔧 Bash {"command": "python3 -c \"\nimport json;p=json.load(open('plano.json'))\nfor c in p['capitulos'][8:13]:print(json.dumps(c,ensure_ascii=False))\nb=json.load(open('blocos/bloco_09.json'));print({k:(v if
+🔧 Agent {"description": "Escrever blocos 10-12 Egito", "subagent_type": "roteirista-longo-historia", "prompt": "Etapa 2 (escrever blocos) do vídeo longo em /home/runner/work/escritorio-dark/escritorio-dark/ca
+💬 Aguardando o roteirista terminar os blocos 10 a 12; depois sigo com a checagem.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/plano.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_09.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/estado.json"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "content": "{\n  \"n\": 10,\n  \"capitulo\": \"Os hicsos e o iníc
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "com os vizinhos.\n\nOs própr
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json", "content": "{\n  \"n\": 11,\n  \"capitulo\": \"Hatshepsut e a via
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "content": "{\n  \"n\": 12,\n  \"capitulo\": \"Akhenaton, Neferti
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "no Museu Neues, e", "new_str
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "e uma esposa é uma companhei
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "como se tratavam como irmãos
+❌ <tool_use_error>String to replace not found in file.
+String: como se tratavam como irmãos
+(note: Edit also tried swapping \uXXXX escapes and their characters; neither form matched, so the mismatch is likely elsewhere in old_string. Re-read the file and copy the exact surrounding text.)</tool_use_error>
+💬 Escrevi os blocos 10, 11 e 12, mas não consegui validar o JSON nem contar as palavras, porque não tenho acesso ao shell. As contagens são só estimativa.
+
+- **Bloco 10, "Os hicsos e o início do Novo Reino":** cobre os hicsos em Avaris, o cavalo e o carro de guerra, Seqenenré, Kamés e Ahmés. Fecha com Tebas e Amon.
+- **Bloco 11, "Hatshepsut e a viagem a Punt":** cobre a regência e a coroação, Senenmut, Deir el-Bahari, os obeliscos e a expedição a Punt com as trinta e uma árvores de mirra. Termina com a múmia identificada em dois mil e sete.
+- **Bloco 12, "Akhenaton, Nefertiti e a cidade do Sol":
+💬 Primeiro valido o JSON e o tamanho dos blocos, depois chamo o checador para os três em paralelo.
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos && python3 -c \"\nimport json\nfor n in (10,11,12):\n    b=json.load(open(f'bloc
+🔧 Agent {"description": "Checar bloco 10", "subagent_type": "checador", "prompt": "Cheque os fatos do `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antig
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json"}
+🔧 Agent {"description": "Checar bloco 11", "subagent_type": "checador", "prompt": "Cheque os fatos do `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antig
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json"}
+🔧 Agent {"description": "Checar bloco 12", "subagent_type": "checador", "prompt": "Cheque os fatos do `texto` de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antig
+💬 Os três checadores estão rodando em paralelo (blocos 10, 11 e 12). Espero o retorno deles para marcar `checado` e rodar a validação.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Amarna_letters", "prompt": "Year and circumstances of discovery of the Amarna letters (who found them, 1887?). Number of tablets. Language."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Bust_of_Nefertiti", "prompt": "Date of discovery, who, where (workshop of Thutmose), museum, left eye missing, whether a workshop model, crown description."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Kamose", "prompt": "Relationship of Kamose to Ahmose I and Seqenenre Tao (brother? debate?). Kamose stela: intercepted messenger of Apophis to ruler of Kush; Kar
+🔧 WebFetch {"url": "https://www.neues-museum.de/", "prompt": "Does this URL load? What is it? Does it mention Nefertiti?"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Seqenenre_Tao", "prompt": "Quarrel of Apophis and Seqenenre (Papyrus Sallier I): details, date of papyrus, historicity, ending lost; mummy discovery date and wou
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Great_Hymn_to_the_Aten", "prompt": "Where was the hymn found (tomb of Ay?), relation to Psalm 104 and scholarly debate."}
+❌ Hostname/IP does not match certificate's altnames: Host: www.neues-museum.de. is not in the cert's altnames: DNS:*.webspaceconfig.de, DNS:webspaceconfig.de
+🔧 WebFetch {"url": "https://www.worldhistory.org/amarna/", "prompt": "Does the page exist? What does it say about Amarna discovery, 1887 letters, Akhenaten burial, abandonment."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Ahmose_I", "prompt": "Age at accession, brother of Kamose?, dates of reign and fall of Avaris, Sharuhen siege years, Abydos pyramid, Ahhotep role."}
+🔧 WebFetch {"url": "https://www.worldhistory.org/Hyksos/", "prompt": "Does this page exist? Hyksos name meaning, dates, horse/chariot/composite bow, Avaris, Kamose."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Hatshepsut", "prompt": "Reign length (years, regnal years), when she assumed kingship (year 7), mummy identification date and details (tooth, KV60, Hawass), curr
+🔧 WebFetch {"url": "https://www.metmuseum.org/toah/hd/hats/hd_hats.htm", "prompt": "Does this page exist? What does it say about Hatshepsut's reign length, year 7, Punt, myrrh trees?"}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Land_of_Punt", "prompt": "Hatshepsut expedition: number of ships, year, 31 myrrh trees, Parehu and Ati, first transplant of trees, location debate, Wadi Gawasis 
+🔧 WebFetch {"url": "https://www.britannica.com/biography/Hatshepsut", "prompt": "Reign length, regency, year 7, mummy identification, obelisk height, Punt expedition, myrrh trees."}
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Akhenaten", "prompt": "Akhenaten's death date, reign length, burial: was he buried in the royal tomb at Amarna, is his body identified? Also: Amenhotep III reign
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Amarna", "prompt": "Early European/modern awareness of the site before 1887 (Wilkinson, Lepsius), location relative to Thebes/Memphis, abandonment, stelae oaths,
+🔧 WebSearch {"query": "Hatshepsut obelisk Karnak height metres 29.5 tallest; Hatshepsut mummy KV60A moved National Museum of Egyptian Civilization 2021", "mode": "standard"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_11.md", "content": "# Checagem do bloco 11 (Hatshepsut e a viagem a Punt
+💬 **Veredito: CORRIGIR.** Salvei o parecer em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_11.md`. Não editei o bloco.
+
+Sobre os três pontos suspeitos:
+- **Duração do reinado (~22 anos):** os 22 anos contam desde a morte do marido, incluindo a regência. Como rei foram cerca de 15 anos (do ano 7 ao 22). O texto diz "por volta do sétimo ano… governar de fato por cerca de vinte e dois anos", o que induz ao erro.
+- **Identificação da múmia:** o ano 2007 está certo, mas a identificação é contestada. Em 2011 notou-se que o dente é da
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_12.md", "content": "# Checagem do bloco 12 (Akhenaton, Nefertiti e a cid
+💬 Bloco 11 voltou com correções. Mando de volta ao roteirista (volta 1 de 2) enquanto os outros checadores terminam.
+🔧 Agent {"description": "Corrigir bloco 11", "subagent_type": "roteirista-longo-historia", "prompt": "Corrija /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/b
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_10.md", "content": "# Checagem do bloco 10 (Os hicsos e o início do Novo
+💬 Mandei o bloco 11 para correção. Ainda aguardo o checador do bloco 10, o do bloco 12 e a correção do bloco 11.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_11.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json"}
+💬 Aplico as edições.
+💬 Veredito: **CORRIGIR**. O parecer está em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_12.md`. Não editei o bloco.
+
+Sobre os pontos suspeitos:
+- **Cartas de Amarna, 1887:** a data confere. Quem achou foram camponeses locais, que cavavam no sítio e venderam as tabuinhas. A "mulher" da abertura não confirmei em fonte séria. O roteiro também exagera ao dizer que o mundo "descobriu a cidade" por elas: viajantes e estudiosos já a conheciam antes (Wilkinson em 1824, Lepsius em 1843–45).
+- **Busto de Nefertiti, 1912:** confere. Foi 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json", "old_string": "O fato é que ela passou a go
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json", "old_string": "cada um com mais de trinta m
+🔧 Agent {"description": "Corrigir bloco 12", "subagent_type": "roteirista-longo-historia", "prompt": "Corrija /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/b
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json", "old_string": "transportar as peças dos bar
+💬 Bloco 12 também foi para correção. Aguardo o checador do bloco 10 e as duas correções (blocos 11 e 12).
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json"}
+💬 Veredito: **CORRIGIR**. Salvei o parecer em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_10.md`. Não editei o bloco.
+
+Confirmei diretamente só as páginas da Wikipedia (Kamose, Seqenenre Tao, Ahmose I). A página worldhistory.org/Hyksos/ devolveu 403. As outras fontes (Britannica, Met, demais páginas do World History Encyclopedia) não foram abertas, então estão registradas como plausíveis, mas não verificadas.
+
+**Os três pontos suspeitos**
+- **Ahmés irmão de Kamés:** confere. A Wikipedia os dá como irmãos, com Kamés provavelmen
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json", "old_string": "Era a primeira vez, até onde
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_12.md"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json", "old_string": "O local exato de Punt é disc
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "Em mil oitocentos e oitenta 
+🔧 Agent {"description": "Corrigir bloco 10", "subagent_type": "roteirista-longo-historia", "prompt": "Corrija /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/b
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "Foi assim que o mundo modern
+💬 Os três blocos (10, 11 e 12) estão em correção com o roteirista. Quando voltarem, rodo o checador de novo em cada um (volta 2 de 2).
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_10.md"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json", "old_string": "Em dois mil e sete, uma equi
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "Alguns anos depois do reinad
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "cartas de reis vizinhos pedi
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "a meio caminho entre o delta
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "Desde o tempo de Sinuhe, e d
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "o rei aparece sentado no col
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": " e é uma das peças mais visi
+💬 Apliquei todas as correções do parecer em `bloco_11.json`. Mantive `"checado": false`, o formato e o tom, e não rodei validação nem reli o arquivo.
+
+- **Duração do reinado:** o texto agora diz que ela governou como rei até o fim da vida. Ao todo foram cerca de vinte e um, vinte e dois anos, desde a regência, dos quais uns quinze como rei.
+- **Múmia de 2007:** a identificação ficou como debatida (muitos aceitam, outros duvidam). Citei o motivo: o dente seria da mandíbula inferior e à múmia faltava um dente superior. O museu virou "um museu do Cairo", sem nome.
+- **Obeliscos:** "cerca de trinta 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "nunca recebeu a pupila, e ni
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "Há um conto egípcio, escrito
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "Ela aparece nas inscrições a
+🔧 Agent {"description": "Rechecar bloco 11", "subagent_type": "checador", "prompt": "Segunda checagem (após correção) de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egi
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "O que vem depois está regist
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "Foi enterrado numa tumba esc
+💬 A segunda checagem do bloco 11 está rodando. Aguardo as correções dos blocos 10 e 12 para checar também.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_11.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_11.md"}
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "que pedia ajuda ao reino de 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json", "old_string": "    \"https://en.wikipedia.o
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "Quem terminou foi o irmão ma
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "Por volta de mil quinhentos 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "É um dos relatos mais antigo
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "que, segundo o relato, resis
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "Ahmés mandou construir sua p
+💬 Apliquei no `bloco_12.json` todas as correções do parecer do checador. Não reabri o arquivo depois das edições nem validei o JSON, e `"checado"` continua `false`.
+
+- **Fonte removida:** tirei `https://www.neues-museum.de/` da lista de fontes.
+- **Abertura:** agora diz "por volta de mil oitocentos e oitenta e sete, camponeses que cavavam" no lugar da "mulher". A frase do fim virou "foi assim que se descobriu o arquivo diplomático de uma cidade…", sem dizer que o mundo descobriu a cidade.
+- **Hatshepsut e Tutmés terceiro:** "alguns anos depois" virou "algumas décadas depois".
+- **Cartas de reis 
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "Os hicsos não deixaram, em A
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "old_string": "    \"https://en.wikipedia.o
+🔧 Agent {"description": "Rechecar bloco 12", "subagent_type": "checador", "prompt": "Segunda checagem (após correção) de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egi
+💬 Segunda checagem do bloco 12 em andamento. Ainda falta a correção do bloco 10 e as rechecagens de 10, 11 e 12.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_12.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_12.md"}
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_11.md", "content": "# Checagem do bloco 11 (Hatshepsut e a viagem a Punt
+💬 Apliquei no `bloco_10.json` as cinco correções obrigatórias e as três recomendadas da checagem. Não validei o JSON depois das edições, e o bloco continua com `"checado": false`.
+
+**Obrigatórias**
+- **Múmia de Seqenenré:** agora diz "encontrada em mil oitocentos e oitenta e um, mais de três mil anos depois".
+- **Causa da morte:** o texto diz que ele morreu de forma violenta e que os estudiosos discutem se foi em batalha ou executado.
+- **Conto dos hipopótamos:** passou a ser um conto escrito uns trezentos anos depois, na Décima Nona Dinastia, "mais literatura do que história". Troquei "canal" p
+💬 **Veredito: APROVADO.** Reescrevi `checagem_11.md` com o parecer final.
+
+- **Correções:** as 7 pedidas na primeira checagem foram aplicadas no `bloco_11.json`.
+- **Erros novos:** não encontrei nenhum.
+- **JSON:** só li o arquivo, não rodei nenhum parser. A estrutura, as aspas e os escapes estão corretos. Não editei o bloco.
+- **Fontes:** a Britannica e o Met continuam sem verificação, porque bloquearam o acesso automático na primeira passada. O que foi checado se apoia na Wikipedia e em conhecimento padrão da área.
+- **Campo `checado`:** continua `false`. Quem preenche é o pipeline, e não mexi
+🔧 Agent {"description": "Rechecar bloco 10", "subagent_type": "checador", "prompt": "Segunda checagem (após correção) de /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egi
+💬 Bloco 11 aprovado. Marco `checado` e espero as rechecagens dos blocos 10 e 12.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_10.md"}
+🔧 Bash {"command": "python3 - <<'E'\nimport json\nf='bloco_11.json';b=json.load(open(f));b['checado']=True\njson.dump(b,open(f,'w'),ensure_ascii=False,indent=2)\nprint(len(b['texto'].split()))\nE"}
+💬 Bloco 11 marcado como checado (1.351 palavras). Aguardo as rechecagens dos blocos 10 e 12.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_12.md", "content": "# Checagem do bloco 12 (Akhenaton, Nefertiti e a cid
+💬 O parecer final é **CORRIGIR**, por uma única pendência nova e pequena. Sobrescrevi `blocos/checagem_12.md` com ele e não editei o bloco.
+
+- **Correções anteriores:** todas as obrigatórias foram aplicadas.
+  - Removi o link `neues-museum.de`.
+  - A abertura agora diz "por volta de 1887", com camponeses, e fala do arquivo e não da cidade.
+  - Nefertiti aparece viva no ano 16.
+  - O texto diz "algumas décadas" depois de Hatshepsut e Tutmés III.
+  - "Mênfis" substituiu "delta".
+  - O destino da múmia de Akhenaton ficou como incerto.
+  - Saíram "colo da esposa" e "mais visitadas".
+  - O busto é "p
+💬 Uma correção pequena e pontual; aplico eu mesmo.
+🔧 Bash {"command": "grep -o \"[^.]*séculos antes, tinha decidido esquecer[^.]*\" bloco_12.json; python3 - <<'E'\nimport json\nf='bloco_12.json';b=json.load(open(f))\na=\"séculos antes, tinha decidido esquece
+💬 Bloco 12 corrigido ("milênios antes") e marcado como checado. Falta só a rechecagem do bloco 10.
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_10.md", "content": "# Checagem do bloco 10 (Os hicsos e o início do Novo
+💬 **Veredito: CORRIGIR.** Sobrou um erro novo e pequeno. As 5 correções obrigatórias e as 3 recomendadas da primeira checagem foram todas aplicadas. Sobrescrevi o parecer em `/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/checagem_10.md`.
+
+- **Erro novo:** o texto diz que Kamés "subiu o rio com seus barcos" até Avaris. Tebas fica ao sul e Avaris no delta, ao norte, então ir para lá é descer o rio. O fim do bloco ainda diz "os barcos descem a corrente", e as duas frases se contradizem. Troque por "Desceu o rio com seus barcos" ou "Navegou p
+🔧 Bash {"command": "grep -o \"[^.]*subiu o rio[^.]*\" bloco_10.json; python3 - <<'E'\nimport json\nf='bloco_10.json';b=json.load(open(f))\na=\"subiu o rio com seus barcos\"\nprint(b['texto'].count(a))\nasser
+❌ Multiple directory changes in one command require approval for clarity
+🔧 Bash {"command": "python3 - <<'E'\nimport json\nf='bloco_10.json';b=json.load(open(f))\na=\"subiu o rio com seus barcos\"\nprint(b['texto'].count(a))\nassert b['texto'].count(a)==1\nb['texto']=b['texto'].r
+❌ Exit code 1
+0
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+AssertionError
+🔧 Bash {"command": "python -m pipeline.longo validar /home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo", "workdir": "/home/runner/work/escritorio-dark/escritori
+❌ <tool_use_error>InputValidationError: Bash failed due to the following issue:
+An unexpected parameter `workdir` was provided</tool_use_error>
+💬 Frase não encontrada literalmente; procuro o trecho real.
+🔧 Grep {"pattern": "[Ss]ubiu o rio|subiu .{0,20}barcos", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "output_mode": "conte
+🔧 Grep {"pattern": ".{80}Subiu o rio.{80}", "path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/historia/longos/2026-11-26-egito-antigo/blocos/bloco_10.json", "output_mode": "content", "-o": tr
+🔧 Bash {"command": "python3 - <<'E'\nimport json\nf='bloco_10.json';b=json.load(open(f))\na=\"Subiu o rio com seus barcos\"\nassert b['texto'].count(a)==1\nb['texto']=b['texto'].replace(a,\"Desceu o rio com 
+💬 Escrevi e chequei os blocos 10, 11 e 12 do Egito Antigo. Todos estão com `"checado": true` e `python -m pipeline.longo validar` deu OK. Os blocos 1 a 9 já estavam prontos, então são 12 de 15.
+
+- **Bloco 10 (hicsos e Ahmés):** o checador devolveu duas vezes. Na segunda sobrou só "subiu o rio" em vez de "desceu" (Avaris fica ao norte, rio abaixo). Corrigi eu mesmo e não rodei uma terceira checagem completa.
+- **Bloco 11 (Hatshepsut e Punt):** aprovado na segunda checagem.
+- **Bloco 12 (Akhenaton e Nefertiti):** na segunda checagem sobrou só "séculos antes" que deveria ser "milênios antes". Corri
+
+=== resultado: success | turnos 4 | 7s | erro=False
+Aguardando o roteirista terminar os blocos 10 a 12; depois sigo com a checagem.
+
+=== resultado: success | turnos 5 | 7s | erro=False
+Os três checadores estão rodando em paralelo (blocos 10, 11 e 12). Espero o retorno deles para marcar `checado` e rodar a validação.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+Mandei o bloco 11 para correção. Ainda aguardo o checador do bloco 10, o do bloco 12 e a correção do bloco 11.
+
+=== resultado: success | turnos 2 | 3s | erro=False
+Bloco 12 também foi para correção. Aguardo o checador do bloco 10 e as duas correções (blocos 11 e 12).
+
+=== resultado: success | turnos 2 | 3s | erro=False
+Os três blocos (10, 11 e 12) estão em correção com o roteirista. Quando voltarem, rodo o checador de novo em cada um (volta 2 de 2).
+
+=== resultado: success | turnos 2 | 2s | erro=False
+A segunda checagem do bloco 11 está rodando. Aguardo as correções dos blocos 10 e 12 para checar também.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+Segunda checagem do bloco 12 em andamento. Ainda falta a correção do bloco 10 e as rechecagens de 10, 11 e 12.
+
+=== resultado: success | turnos 3 | 4s | erro=False
+Bloco 11 marcado como checado (1.351 palavras). Aguardo as rechecagens dos blocos 10 e 12.
+
+=== resultado: success | turnos 2 | 2s | erro=False
+Bloco 12 corrigido ("milênios antes") e marcado como checado. Falta só a rechecagem do bloco 10.
+
+=== resultado: success | turnos 7 | 13s | erro=False
+Escrevi e chequei os blocos 10, 11 e 12 do Egito Antigo. Todos estão com `"checado": true` e `python -m pipeline.longo validar` deu OK. Os blocos 1 a 9 já estavam prontos, então são 12 de 15.
+
+- **Bloco 10 (hicsos e Ahmés):** o checador devolveu duas vezes. Na segunda sobrou só "subiu o rio" em vez de "desceu" (Avaris fica ao norte, rio abaixo). Corrigi eu mesmo e não rodei uma terceira checagem completa.
+- **Bloco 11 (Hatshepsut e Punt):** aprovado na segunda checagem.
+- **Bloco 12 (Akhenaton e Nefertiti):** na segunda checagem sobrou só "séculos antes" que deveria ser "milênios antes". Corrigi eu mesmo e não chequei de novo.
+- **Pareceres:** salvos em `blocos/checagem_10.md`, `checagem_11.md` e `checagem_12.md`.
+
+As fontes dos três blocos foram listadas de memória pelo roteirista. O checador só conseguiu abrir as páginas da Wikipédia. Britannica, Met e World History deram bloqueio 403 ou 429, então abra esses links à mão antes de publicar.
+
+Nada foi commitado nem enviado ao Git. Faltam os blocos 13 a 15 para a próxima rodada.
+codigo de saida: 0
