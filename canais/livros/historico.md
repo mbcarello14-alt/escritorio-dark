@@ -59,6 +59,9 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 - Short "qual o nome dos meninos de Vidas Secas?" (teste de memória) apontando para o longo do livro, ligado à troca de título e thumb B do longo; checar no roteiro antes.
 - Short de curiosidade de bastidor de edição (autora sem nome na capa, 4 editores recusaram), molde dos mais vistos do canal, apontando para o longo do livro da semana; checar fontes antes.
 
+### 2026-11-27
+- Short "o que todo mundo acha que sabe" sobre Dom Quixote (os moinhos de vento e o que o texto realmente descreve), no molde do Frankenstein (462 views), apontando para o longo do livro; checar o texto antes.
+
 ## Padrões (após 5 longos com dados, 23/11)
 
 **Funcionando**

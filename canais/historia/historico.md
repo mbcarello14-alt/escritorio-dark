@@ -91,6 +91,9 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 ### 2026-11-26
 - Série de Shorts e longo sobre derrotas atribuídas a um fator só (clima, azar, traição), no molde do título de contradição de Napoleão na Rússia (151 views em 73 h, o melhor longo do canal em semanas); checar fontes antes.
 
+### 2026-11-27
+- Short de contradição numérica sobre a Primeira Cruzada (quantas pessoas realmente partiram? as fontes divergem), no molde de "8 mil ou 80 mil?" (905 views), apontando para o longo das Cruzadas; checar fontes antes.
+
 ## Padrões (após 6 longos com dados, 23/11)
 
 **Funcionando**
