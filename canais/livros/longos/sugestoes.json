@@ -1,19 +1,18 @@
 {
-  "semana": "2026-W48-1",
+  "semana": "2026-W48-2",
   "opcoes": [
     {
-      "tema": "Odisseia, de Homero",
-      "por_que": "Clássico muito buscado (leitura de escola e vestibular) com uma aventura atrás da outra: ciclopes, sereias, Circe, Calipso. Narrativa episódica e mar calmo, ótima para ouvir até pegar no sono."
-    },
-    {
       "tema": "Sherlock Holmes, de Arthur Conan Doyle",
-      "por_que": "Nome gigante nas buscas, com dezenas de casos curtos que dão blocos de 10 minutos. Londres vitoriana de lareira, neblina e chá tem clima aconchegante para dormir, e o final de cada caso fecha a história."
+      "por_que": "Nome gigante nas buscas, com dezenas de casos curtos que dão blocos de 10 minutos. A Londres vitoriana de lareira, neblina e chá tem clima aconchegante para dormir, e cada caso fecha a história."
     },
     {
-      "tema": "O Senhor dos Anéis, de J. R. R. Tolkien",
-      "por_que": "Um dos livros mais pesquisados do mundo, com a Terra-média cheia de paisagens e cantigas, e uma jornada longa que rende 2h30 sem faltar assunto. É o oposto da guerra fria e dos livros de sociedade já cobertos, e o ritmo de caminhada embala."
+      "tema": "As Mil e Uma Noites",
+      "por_que": "Uma narradora que conta histórias a noite toda para sobreviver: o próprio livro é feito para embalar o sono. Aladim, Simbad e Ali Babá rendem muitas histórias boas e curiosidades sobre a origem das narrativas."
+    },
+    {
+      "tema": "Os Contos dos Irmãos Grimm",
+      "por_que": "Muito buscados, com histórias curtas e conhecidas como João e Maria e Chapeuzinho Vermelho, e curiosidades sobre as versões originais, bem diferentes das de hoje. Floresta, lareira e voz calma combinam com o sono."
     }
   ],
-  "enviado_em": "2026-11-26T23:41:13.975156+00:00",
-  "escolhido": "Odisseia, de Homero"
+  "enviado_em": "2026-11-27T03:23:29.530426+00:00"
 }
