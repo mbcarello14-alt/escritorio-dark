@@ -1,8 +1,9 @@
 {
-  "atualizado_em": "2026-11-26T23:49:13Z",
+  "atualizado_em": "2026-11-27T01:20:25Z",
   "ativos": {
     "miguel": [
-      "Marca-Página: sábado 28/11 11h00"
+      "Marca-Página: sábado 28/11 11h00",
+      "Longo Marca-Página: Odisseia, de Homero"
     ],
     "roteirista_historia": [
       "Longo Ouro & Império: Egito Antigo",
@@ -127,8 +128,8 @@
     }
   ],
   "imagens": {
-    "hoje": 60,
-    "neurons": 8100,
+    "hoje": 0,
+    "neurons": 0,
     "teto_neurons": 9500,
     "higgsfield_usd": 0,
     "higgsfield_teto": 20

@@ -1,0 +1,58 @@
+comando: /longo-plano canais/livros/longos/2026-11-26-odisseia-de-homero
+🔧 Bash {"command": "cd canais/livros/longos/2026-11-26-odisseia-de-homero && ls && cat estado.json && grep -n -A8 \"longos\" /home/runner/work/escritorio-dark/escritorio-dark/pipeline/config/livros.yaml | he
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark && cat .claude/agents/roteirista-longo-livros.md; cat .claude/commands/longo-plano.md | head -80"}
+🔧 Agent {"description": "Plano longo Odisseia", "subagent_type": "roteirista-longo-livros", "prompt": "Etapa 1 (plano). Pasta: canais/livros/longos/2026-11-26-odisseia-de-homero (estado.json: tema \"Odisseia,
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+💬 O roteirista de longos do Marca-Página está montando o `plano.json`. Ainda não tenho o resultado. Quando ele terminar, confiro os 15 capítulos, o nicho de 4 ou 5 livros e o `titulo_youtube` de até 100 caracteres, e rodo `python -m pipeline.longo validar`.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/config/livros.yaml"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-26-odisseia-de-homero/estado.json"}
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Odisseia", "prompt": "Resuma estrutura (24 cantos), enredo por cantos (Telêmaco, Calipso, Feácios, Ciclope, Circe, Hades, Sereias, Ítaca, arco), datas aproximada
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Ulisses_(romance)", "prompt": "Dados: autor, publicação 1922 Paris Shakespeare and Company, 16 de junho de 1904 Bloomsbury Day, paralelos com a Odisseia, Leopold
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Eneida", "prompt": "Dados: Virgílio, 12 livros, escrita entre 29 e 19 a.C., Augusto, enredo (Troia, Dido, descida ao Hades, guerra no Lácio), pedido de queima do
+🔧 WebFetch {"url": "https://pt.wikipedia.org/wiki/Il%C3%ADada", "prompt": "Dados: 24 cantos, cólera de Aquiles, Agamêmnon, Briseida, Pátroclo, Heitor, Príamo, resgate do corpo, termina com funeral de Heitor, não
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-26-odisseia-de-homero/plano.json", "content": "{\n  \"titulo\": \"Livros para dormir: Odisseia, de Homero,
+💬 Escrevi o `plano.json` com 15 capítulos em `/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-26-odisseia-de-homero/plano.json`.
+
+**Livros escolhidos, em quatro livros em vez de cinco:**
+1. **Odisseia, de Homero**, capítulos 1 a 5. É o fio condutor. Cobre a Telemaquia, Calipso e os feácios, o Ciclope, Circe e os mortos, as Sereias e o gado do Sol, e por fim Ítaca, o arco e a cama.
+2. **Ilíada, de Homero**, capítulos 6 a 8.
+3. **Eneida, de Virgílio**, capítulos 9 a 11.
+4. **Ulisses, de James Joyce**, capítulos 12 a 15.
+
+**Por que quatro livros:** com a Odisseia ocup
+🔧 Bash {"command": "python -m pipeline.longo validar canais/livros/longos/2026-11-26-odisseia-de-homero; python -c \"\nimport json;p=json.load(open('canais/livros/longos/2026-11-26-odisseia-de-homero/plano.j
+💬 O `plano.json` do vídeo longo da Odisseia está pronto, e `python -m pipeline.longo validar` passou com "OK".
+
+- **Capítulos:** são 15, o mesmo número de `longos.blocos` no config do canal.
+- **Título do YouTube:** "Odisseia, de Homero, e mais 3 livros: resumos calmos para dormir (2h30)". Tem 71 caracteres, dentro do limite de 100.
+- **Livros:** são 4, dentro do nicho de 4 ou 5 livros do Marca-Página. Não é um resumo só da Odisseia, porque o tema veio com um único livro.
+
+| Livro | Capítulos |
+|---|---|
+| Odisseia, de Homero | 1 a 5 |
+| Ilíada, de Homero | 6 a 8 |
+| Eneida, de Virgílio | 9 a 11
+
+=== resultado: success | turnos 4 | 9s | erro=False
+O roteirista de longos do Marca-Página está montando o `plano.json`. Ainda não tenho o resultado. Quando ele terminar, confiro os 15 capítulos, o nicho de 4 ou 5 livros e o `titulo_youtube` de até 100 caracteres, e rodo `python -m pipeline.longo validar`.
+
+=== resultado: success | turnos 2 | 6s | erro=False
+O `plano.json` do vídeo longo da Odisseia está pronto, e `python -m pipeline.longo validar` passou com "OK".
+
+- **Capítulos:** são 15, o mesmo número de `longos.blocos` no config do canal.
+- **Título do YouTube:** "Odisseia, de Homero, e mais 3 livros: resumos calmos para dormir (2h30)". Tem 71 caracteres, dentro do limite de 100.
+- **Livros:** são 4, dentro do nicho de 4 ou 5 livros do Marca-Página. Não é um resumo só da Odisseia, porque o tema veio com um único livro.
+
+| Livro | Capítulos |
+|---|---|
+| Odisseia, de Homero | 1 a 5 |
+| Ilíada, de Homero | 6 a 8 |
+| Eneida, de Virgílio | 9 a 11 |
+| Ulisses, de James Joyce | 12 a 15 |
+
+**Penelopíada:** *A Penelopíada*, de Margaret Atwood, não virou livro próprio. Com 15 capítulos e a Odisseia ocupando 5, a conta de 3 a 4 capítulos por livro não fecha com cinco livros. Ela entra só como observação crítica no capítulo 5, e a edição brasileira precisa ser conferida antes de citá-la.
+
+**Fontes:** o plano se apoia em páginas da Wikipédia em português, lidas só em parte, e em quatro páginas da Britannica que o roteirista listou mas não abriu. Na etapa de escrita, o `checador` precisa confirmar esses pontos em fontes mais fortes. As traduções brasileiras da Odisseia ainda não foram verificadas. A data da tradução de Houaiss para o *Ulisses* (1966 no texto, 1983 na ficha) ficou fora do plano.
+
+O `estado.json` continua em "planejando". Quer que eu mexa nos livros (por exemplo, trocar um por *A Penelopíada*) antes de você aprovar o plano?
+codigo de saida: 0
