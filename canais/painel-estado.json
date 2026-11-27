@@ -1,13 +1,15 @@
 {
-  "atualizado_em": "2026-11-27T01:20:25Z",
+  "atualizado_em": "2026-11-27T02:51:54Z",
   "ativos": {
     "miguel": [
-      "Marca-Página: sábado 28/11 11h00",
-      "Longo Marca-Página: Odisseia, de Homero"
+      "Marca-Página: sábado 28/11 11h00"
     ],
     "roteirista_historia": [
       "Longo Ouro & Império: Egito Antigo",
       "Longo Ouro & Império: segunda guerra"
+    ],
+    "roteirista_livros": [
+      "Longo Marca-Página: Odisseia, de Homero"
     ]
   },
   "proximos": [
