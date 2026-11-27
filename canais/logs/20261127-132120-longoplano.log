@@ -1,0 +1,67 @@
+comando: /longo-plano canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle
+🔧 Bash {"command": "cd /home/runner/work/escritorio-dark/escritorio-dark; D=canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle; ls $D; cat $D/estado.json; grep -n -A8 \"longos\" pipeline/c
+❌ A variable in this command can't be checked before it runs
+🔧 Bash {"command": "ls canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle; cat canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle/estado.json; grep -n -A8 \"longos\" pip
+🔧 Agent {"description": "Planejar longo Sherlock Holmes", "subagent_type": "roteirista-longo-livros", "prompt": "Etapa 1 (/longo-plano) do vídeo longo em canais/livros/longos/2026-11-27-sherlock-holmes-de-art
+💬 O roteirista de longos do Marca-Página está planejando o vídeo. Ainda não tenho o resultado e vou conferir o `plano.json` quando ele terminar.
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle/estado.json"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/commands/longo-plano.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/briefing.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/config/livros.yaml"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/.claude/agents/roteirista-longo-livros.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/pipeline/CONTRATO.md"}
+🔧 Read {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos"}
+❌ EISDIR: illegal operation on a directory, read '/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos'
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet", "prompt": "Publication facts: year, Beeton's Christmas Annual, payment to Doyle, structure (two parts), Mormons, Joseph Bell inspiration, Li
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/The_Sign_of_the_Four", "prompt": "Publication facts: year, Lippincott's dinner with Oscar Wilde, plot summary (Mary Morstan, pearls, Agra treasure, Jonathan Smal
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/The_Adventures_of_Sherlock_Holmes", "prompt": "List the twelve stories with publication in The Strand Magazine, years, Sidney Paget illustrator, book publication
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/The_Memoirs_of_Sherlock_Holmes", "prompt": "Stories list, publication 1893, Silver Blaze, The Final Problem, Reichenbach, Moriarty, why Doyle killed Holmes, publ
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/The_Hound_of_the_Baskervilles", "prompt": "Publication 1901-1902 in The Strand, Bertram Fletcher Robinson, plot summary including ending (Stapleton, Grimpen Mire
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/The_Adventure_of_the_Final_Problem", "prompt": "Plot (Moriarty, Reichenbach Falls, Watson's note, date 1891), publication Dec 1893, Doyle's reasons, \"Napoleon o
+🔧 WebFetch {"url": "https://www.britannica.com/biography/Arthur-Conan-Doyle", "prompt": "Doyle birth/death dates, Edinburgh, medicine, Joseph Bell inspiration, first Holmes, Holmes killed off, knighthood, spirit
+🔧 WebFetch {"url": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle", "prompt": "Birth/death dates and places, Edinburgh medical studies, Joseph Bell inspiration, Southsea practice, first Holmes, killing Holmes
+🔧 Write {"file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle/plano.json", "content": "{\n  \"titulo\": \"Sherlock Holmes, de A
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle/plano.json", "old_string": "        \"O cân
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle/plano.json", "old_string": "segundo a Wikip
+🔧 Edit {"replace_all": false, "file_path": "/home/runner/work/escritorio-dark/escritorio-dark/canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle/plano.json", "old_string": "\"Doyle, Watson
+💬 Escrevi o `plano.json`, mas não consegui rodar `python -m pipeline.longo validar`, porque não tenho acesso ao terminal nesta sessão. Rode o validador antes de seguir, ignorando os erros sobre blocos.
+
+O plano tem 15 capítulos, 3 por livro, na ordem em que Doyle publicou:
+- **Um Estudo em Vermelho** (capítulos 1 a 3).
+- **O Signo dos Quatro** (4 a 6).
+- **As Aventuras de Sherlock Holmes** (7 a 9): Escândalo na Boêmia, A Liga dos Ruivos, A Banda Malhada e O Carbúnculo Azul.
+- **As Memórias de Sherlock Holmes** (10 a 12): Silver Blaze, A Caixa de Papelão e O Problema Final.
+- **O Cão dos Baskervi
+🔧 Bash {"command": "python -m pipeline.longo validar canais/livros/longos/2026-11-27-sherlock-holmes-de-arthur-conan-doyle 2>&1 | head -30; python3 -c \"\nimport json;p=json.load(open('canais/livros/longos/2
+💬 O plano do vídeo longo "Sherlock Holmes, de Arthur Conan Doyle" (Marca-Página) está pronto em `plano.json`. O validador (`pipeline.longo validar`) deu OK.
+
+- **Capítulos:** são 15, o mesmo número de `longos.blocos` no config do canal.
+- **Livros:** são 5, dentro da faixa de 4 ou 5 do Marca-Página. Cada um ocupa 3 capítulos:
+  - *Um Estudo em Vermelho*
+  - *O Signo dos Quatro*
+  - *As Aventuras de Sherlock Holmes*
+  - *As Memórias de Sherlock Holmes*
+  - *O Cão dos Baskervilles*
+- **Título:** `titulo_youtube` é "Sherlock Holmes, de Conan Doyle: 5 livros resumidos para dormir (2h30)", com 70 car
+
+=== resultado: success | turnos 4 | 6s | erro=False
+O roteirista de longos do Marca-Página está planejando o vídeo. Ainda não tenho o resultado e vou conferir o `plano.json` quando ele terminar.
+
+=== resultado: success | turnos 2 | 4s | erro=False
+O plano do vídeo longo "Sherlock Holmes, de Arthur Conan Doyle" (Marca-Página) está pronto em `plano.json`. O validador (`pipeline.longo validar`) deu OK.
+
+- **Capítulos:** são 15, o mesmo número de `longos.blocos` no config do canal.
+- **Livros:** são 5, dentro da faixa de 4 ou 5 do Marca-Página. Cada um ocupa 3 capítulos:
+  - *Um Estudo em Vermelho*
+  - *O Signo dos Quatro*
+  - *As Aventuras de Sherlock Holmes*
+  - *As Memórias de Sherlock Holmes*
+  - *O Cão dos Baskervilles*
+- **Título:** `titulo_youtube` é "Sherlock Holmes, de Conan Doyle: 5 livros resumidos para dormir (2h30)", com 70 caracteres, abaixo do limite de 100.
+- **Fontes:** vêm de páginas da Wikipédia em inglês, porque a Britannica deu erro 403. O checador deve reforçar com fontes mais fortes na etapa de escrita.
+- **Pontos para o checador:**
+  - **Capítulo 12:** a intensidade dos cancelamentos de assinatura da Strand.
+  - **Capítulo 10:** o motivo de a edição americana de 1894 ter retirado *A Caixa de Papelão*.
+
+Não mexi no `estado.json`. O próximo passo é você aprovar o plano.
+codigo de saida: 0
