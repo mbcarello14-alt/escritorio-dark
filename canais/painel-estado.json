@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-27T19:50:39Z",
+  "atualizado_em": "2026-11-27T22:16:39Z",
   "ativos": {
     "miguel": [
       "Marca-Página: sábado 28/11 11h00",
@@ -14,16 +14,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "historia",
-      "dia": "2026-11-27",
-      "rotulo": "sexta 27/11 18h00",
-      "publicar_em_utc": "2026-11-27T21:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "As Cruzadas: a guerra santa que começou com um discurso",
-      "url": "https://youtu.be/K4yc9_Eine4"
-    },
     {
       "canal": "livros",
       "dia": "2026-11-28",
@@ -46,16 +36,6 @@
     }
   ],
   "publicados": [
-    {
-      "canal": "vestibular",
-      "dia": "2026-11-19",
-      "rotulo": "quinta 19/11 17h00",
-      "publicar_em_utc": "2026-11-19T20:00:00Z",
-      "etapa": "agendado",
-      "etapa_txt": "✅ agendado no YouTube",
-      "titulo": "Filosofia no ENEM: Sócrates, Platão ou Aristóteles?",
-      "url": "https://youtu.be/BT3HCOIgAdc"
-    },
     {
       "canal": "historia",
       "dia": "2026-11-20",
@@ -105,6 +85,16 @@
       "etapa_txt": "✅ agendado no YouTube",
       "titulo": "Redação Fuvest 2027: a caixinha que zera seu texto",
       "url": "https://youtu.be/cBYS0qq2k5A"
+    },
+    {
+      "canal": "historia",
+      "dia": "2026-11-27",
+      "rotulo": "sexta 27/11 18h00",
+      "publicar_em_utc": "2026-11-27T21:00:00Z",
+      "etapa": "agendado",
+      "etapa_txt": "✅ agendado no YouTube",
+      "titulo": "As Cruzadas: a guerra santa que começou com um discurso",
+      "url": "https://youtu.be/K4yc9_Eine4"
     }
   ],
   "canais": [
@@ -113,7 +103,7 @@
       "nome": "Ouro & Império",
       "inscritos": 11,
       "horas": 49.9,
-      "publicados": 9
+      "publicados": 10
     },
     {
       "id": "vestibular",
