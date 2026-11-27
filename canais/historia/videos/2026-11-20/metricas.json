@@ -1,6 +1,35 @@
 {
   "video_id": "QYAggz7958g",
-  "janelas": {},
+  "janelas": {
+    "7": {
+      "ate": "2026-11-27",
+      "metricas": {
+        "views": 2,
+        "estimatedMinutesWatched": 0,
+        "averageViewDuration": 26,
+        "averageViewPercentage": 2.52,
+        "subscribersGained": 0,
+        "likes": 0,
+        "comments": 1,
+        "shares": 1
+      },
+      "retencao": [],
+      "trafego": [
+        [
+          "SUBSCRIBER",
+          1
+        ],
+        [
+          "RELATED_VIDEO",
+          1
+        ],
+        [
+          "NO_LINK_OTHER",
+          0
+        ]
+      ]
+    }
+  },
   "parcial": {
     "views": 2,
     "estimatedMinutesWatched": 0,
@@ -12,10 +41,10 @@
     "shares": 1
   },
   "canal": {
-    "viewCount": "9242",
+    "viewCount": "9441",
     "subscriberCount": "11",
     "hiddenSubscriberCount": false,
-    "videoCount": "50"
+    "videoCount": "51"
   },
-  "atualizado_em": "2026-11-26T20:02:06+00:00"
+  "atualizado_em": "2026-11-27T19:50:37+00:00"
 }

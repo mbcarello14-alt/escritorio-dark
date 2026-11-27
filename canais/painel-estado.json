@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-27T18:40:55Z",
+  "atualizado_em": "2026-11-27T19:50:39Z",
   "ativos": {
     "miguel": [
       "Marca-Página: sábado 28/11 11h00",
@@ -125,7 +125,7 @@
     {
       "id": "livros",
       "nome": "Marca-Página",
-      "inscritos": 9,
+      "inscritos": 10,
       "horas": 19.1,
       "publicados": 8
     }
