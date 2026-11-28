@@ -73,6 +73,9 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 - Short de pegadinha com número no título sobre notação científica ou potências de 10, no molde da conta da Unicamp (251 views) e da regra de três (845).
 - Short que convide a mandar a resposta de uma conta nos comentários (os comentários recentes foram números soltos, como "940" e "520 só"), para puxar conversa; confirmar o gabarito antes.
 
+### 2026-11-28
+- Série de Shorts sobre erros de redação que zeram a nota (Fuvest, Enem), no molde de "A caixinha que zera a redação da Fuvest" (220 views em 14 h), cada um apontando para o longo da redação; confirmar as regras da banca antes.
+
 ## Padrões (após 5 longos com dados, 23/11)
 
 **Funcionando**

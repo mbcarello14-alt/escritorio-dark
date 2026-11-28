@@ -94,6 +94,9 @@ Atualizado pelo `analista` após cada vídeo. Os agentes leem antes de propor qu
 ### 2026-11-27
 - Short de contradição numérica sobre a Primeira Cruzada (quantas pessoas realmente partiram? as fontes divergem), no molde de "8 mil ou 80 mil?" (905 views), apontando para o longo das Cruzadas; checar fontes antes.
 
+### 2026-11-28
+- Short com citação forte de um personagem da Primeira Cruzada como gancho, no molde de "O imperador recusou fugir: é fogo de palha" (111 views contra 5 a 12 dos outros Shorts da série), apontando para o longo das Cruzadas; checar a fala nas fontes antes.
+
 ## Padrões (após 6 longos com dados, 23/11)
 
 **Funcionando**
