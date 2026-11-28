@@ -1,6 +1,35 @@
 {
   "video_id": "CNrOdcwwu-w",
-  "janelas": {},
+  "janelas": {
+    "7": {
+      "ate": "2026-11-28",
+      "metricas": {
+        "views": 9,
+        "estimatedMinutesWatched": 0,
+        "averageViewDuration": 14,
+        "averageViewPercentage": 2.11,
+        "subscribersGained": 0,
+        "likes": 0,
+        "comments": 1,
+        "shares": 0
+      },
+      "retencao": [],
+      "trafego": [
+        [
+          "YT_SEARCH",
+          8
+        ],
+        [
+          "RELATED_VIDEO",
+          1
+        ],
+        [
+          "NO_LINK_OTHER",
+          0
+        ]
+      ]
+    }
+  },
   "parcial": {
     "views": 9,
     "estimatedMinutesWatched": 0,
@@ -12,10 +41,10 @@
     "shares": 0
   },
   "canal": {
-    "viewCount": "6148",
+    "viewCount": "6158",
     "subscriberCount": "10",
     "hiddenSubscriberCount": false,
     "videoCount": "46"
   },
-  "atualizado_em": "2026-11-27T19:50:31+00:00"
+  "atualizado_em": "2026-11-28T18:43:19+00:00"
 }
