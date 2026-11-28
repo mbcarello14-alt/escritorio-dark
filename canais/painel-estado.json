@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-28T04:49:27Z",
+  "atualizado_em": "2026-11-28T17:59:27Z",
   "ativos": {
     "miguel": [
       "Marca-Página: sábado 28/11 11h00",
@@ -16,16 +16,6 @@
     ]
   },
   "proximos": [
-    {
-      "canal": "livros",
-      "dia": "2026-11-28",
-      "rotulo": "sábado 28/11 11h00",
-      "publicar_em_utc": "2026-11-28T14:00:00Z",
-      "etapa": "aguardando_escolha",
-      "etapa_txt": "👉 esperando você escolher a pauta",
-      "titulo": "",
-      "url": ""
-    },
     {
       "canal": "vestibular",
       "dia": "2026-12-01",
