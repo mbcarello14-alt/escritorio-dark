@@ -1,0 +1,51 @@
+03:06:47 INFO Processing audio with duration 00:40.000
+[0;93m2026-11-28 03:06:47.282238556 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+03:06:47 INFO VAD filter removed 00:00.000 of audio
+03:06:55 INFO Processing audio with duration 02:02.091
+03:06:55 INFO VAD filter removed 00:00.000 of audio
+03:07:29 INFO narrada b07_p01 (122s) — 28 de 70
+03:08:18 INFO Processing audio with duration 00:40.000
+03:08:18 INFO VAD filter removed 00:00.000 of audio
+03:08:32 INFO Processing audio with duration 02:05.051
+03:08:32 INFO VAD filter removed 00:00.000 of audio
+03:09:01 INFO narrada b07_p02 (125s) — 29 de 70
+03:09:52 INFO Processing audio with duration 00:40.000
+03:09:52 INFO VAD filter removed 00:00.000 of audio
+03:10:00 INFO Processing audio with duration 02:20.541
+03:10:00 INFO VAD filter removed 00:00.000 of audio
+03:10:30 INFO narrada b07_p03 (141s) — 30 de 70
+03:10:52 WARNING Gemini TTS: cota do modelo gemini-3.8-flash-tts acabou — trocando de modelo
+03:11:26 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+03:11:57 WARNING Gemini TTS devolveu resposta sem áudio (gemini-3.1-flash-tts-preview, SAFETY) — tentando de novo
+03:13:02 INFO Processing audio with duration 00:40.000
+03:13:02 INFO VAD filter removed 00:00.000 of audio
+03:13:10 INFO Processing audio with duration 02:12.891
+03:13:10 INFO VAD filter removed 00:00.000 of audio
+03:13:38 INFO narrada b07_p04 (133s) — 31 de 70
+03:16:21 WARNING Gemini TTS devolveu resposta sem áudio (gemini-2.5-flash-preview-tts, OTHER) — tentando de novo
+03:16:50 INFO Processing audio with duration 00:40.000
+03:16:51 INFO VAD filter removed 00:00.000 of audio
+03:16:58 INFO Processing audio with duration 01:08.331
+03:16:58 INFO VAD filter removed 00:00.000 of audio
+03:17:10 INFO narrada b07_p05 (68s) — 32 de 70
+03:17:32 WARNING Gemini TTS: cota do modelo gemini-2.5-flash-preview-tts acabou — trocando de modelo
+03:17:49 INFO Processing audio with duration 00:40.000
+03:17:49 INFO VAD filter removed 00:00.000 of audio
+03:17:56 WARNING instrução lida em b08_p01.wav (0.0–3.6s): 'Narre em português do Brasil, com um sotaque brasileiro neutro,' — cortando
+03:17:56 INFO Processing audio with duration 02:30.951
+03:17:56 INFO VAD filter removed 00:00.000 of audio
+03:18:28 WARNING parte b08_p01 REPROVADA (tentativa 1): instrução lida: 'Narre em português do Brasil, com um sotaque brasileiro neutro, como um contador'; instrução lida: 'ironia e sem mudanças bruscas de volume.'; palavras da instrução: narre portugues brasil sotaque brasileiro neutro voz ritmo pausas ironia volume; 47 de 374 palavras ouvidas não estão no roteiro; falou 117% do tamanho do roteiro (sobrou fala) — narrando de novo
+03:18:56 INFO Processing audio with duration 00:40.000
+03:18:56 INFO VAD filter removed 00:00.000 of audio
+03:19:04 WARNING instrução lida em b08_p01.wav (0.0–4.0s): 'Nárria em português do Brasil com sotaque brasileiro neutro,' — cortando
+03:19:04 INFO Processing audio with duration 00:52.431
+03:19:04 INFO VAD filter removed 00:00.000 of audio
+03:19:14 WARNING parte b08_p01 REPROVADA (tentativa 2): instrução lida: 'Nárria em português do Brasil com sotaque brasileiro neutro, como um contador de'; instrução lida: 'ironia e sem mudanças bruscas de volume.'; palavras da instrução: portugues brasil sotaque brasileiro neutro voz ritmo pausas ironia volume; 34 de 121 palavras ouvidas não estão no roteiro — narrando de novo
+03:19:53 INFO Processing audio with duration 00:40.000
+03:19:53 INFO VAD filter removed 00:00.000 of audio
+03:19:59 WARNING instrução lida em b08_p01.wav (0.0–3.8s): 'Na ria em português do Brasil, consultar aqui brasileiro neutro' — cortando
+03:19:59 INFO Processing audio with duration 02:34.161
+03:19:59 INFO VAD filter removed 00:00.000 of audio
+03:20:30 WARNING parte b08_p01 REPROVADA (tentativa 3): instrução lida: 'Na ria em português do Brasil, consultar que brasileiro neutro como um contador '; instrução lida: 'ironia e sem mudanças bruscas de volume.'; palavras da instrução: portugues brasil brasileiro neutro voz ritmo pausas ironia volume; 44 de 370 palavras ouvidas não estão no roteiro; falou 116% do tamanho do roteiro (sobrou fala) — narrando de novo
+03:20:52 WARNING parte b08_p01 reprovada 3 vezes — fica para a próxima rodada
+narrando
